@@ -1424,21 +1424,22 @@
     "name": "Convertidor de Unidades",
     "shortName": "Convertidor Unidades",
     "category": "convertidores",
-    "metaTitle": "Convertidor de Unidades Online Gratis | Longitud, Peso y Más",
-    "metaDescription": "Convierte entre unidades de longitud, peso, temperatura, volumen, velocidad y área al instante. Sistema métrico e imperial. Gratis y sin registro.",
+    "metaTitle": "Convertidor de Unidades Online Gratis | Longitud, Peso, Presión y Más",
+    "metaDescription": "Convierte entre unidades de longitud, peso, temperatura, volumen, velocidad, área, presión y potencia al instante. Sistema métrico e imperial. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
-    "intro": "Convierte entre las unidades de medida más habituales del sistema métrico e imperial: longitud, peso, temperatura, volumen, velocidad y área. Elige la categoría, selecciona la unidad de origen y destino, e introduce el valor para obtener el resultado al instante.",
+    "intro": "Convierte entre las unidades de medida más habituales del sistema métrico e imperial: longitud, peso, temperatura, volumen, velocidad, área, presión y potencia. Elige la categoría, selecciona la unidad de origen y destino, e introduce el valor para obtener el resultado al instante.",
     "howToUse": [
-      "Elige la categoría de medida: longitud, peso, temperatura, volumen, velocidad o área",
+      "Elige la categoría de medida: longitud, peso, temperatura, volumen, velocidad, área, presión o potencia",
       "Selecciona la unidad de origen (\"De\") y la unidad de destino (\"A\")",
       "Introduce el valor que quieres convertir",
       "El resultado se calcula automáticamente; usa el botón ⇄ para invertir el sentido de la conversión"
     ],
     "benefits": [
-      "Seis categorías de conversión en una sola herramienta: longitud, peso, temperatura, volumen, velocidad y área",
-      "Incluye tanto unidades del sistema métrico como del sistema imperial (pulgadas, libras, millas, etc.)",
+      "Ocho categorías de conversión en una sola herramienta: longitud, peso, temperatura, volumen, velocidad, área, presión y potencia",
+      "Incluye tanto unidades del sistema métrico como del sistema imperial (pulgadas, libras, millas, PSI, HP, etc.)",
       "La temperatura se convierte con las fórmulas correctas (no lineales), no una simple multiplicación",
+      "Convierte unidades técnicas como pascales, bar, PSI, vatios, kilovatios y caballos de fuerza, útiles para neumáticos, motores y fichas técnicas",
       "Resultado instantáneo mientras escribes",
       "Gratis, sin registro y calculado directamente en tu navegador"
     ],
@@ -1449,7 +1450,15 @@
       },
       {
         "title": "¿Qué unidades incluye cada categoría?",
-        "body": "Longitud: milímetros, centímetros, metros, kilómetros, pulgadas, pies, yardas y millas. Peso: miligramos, gramos, kilogramos, toneladas, libras y onzas. Volumen: mililitros, litros, metros cúbicos, galones, cuartos y tazas (sistema estadounidense). Velocidad: kilómetros por hora, metros por segundo, millas por hora y nudos. Área: centímetros, metros y kilómetros cuadrados, hectáreas, pies cuadrados y acres."
+        "body": "Longitud: milímetros, centímetros, metros, kilómetros, pulgadas, pies, yardas y millas. Peso: miligramos, gramos, kilogramos, toneladas, libras y onzas. Volumen: mililitros, litros, metros cúbicos, galones, cuartos y tazas (sistema estadounidense). Velocidad: kilómetros por hora, metros por segundo, millas por hora y nudos. Área: centímetros, metros y kilómetros cuadrados, hectáreas, pies cuadrados y acres. Presión: pascales, kilopascales, bar, PSI, atmósferas y kg/cm². Potencia: vatios, kilovatios, caballos de fuerza (HP), caballos de vapor (CV) y BTU/h."
+      },
+      {
+        "title": "Conversión de presión: PSI, bar y pascales",
+        "body": "La presión es una de las conversiones técnicas más buscadas, sobre todo para inflar neumáticos (que suelen especificarse en PSI o bar) o interpretar manómetros industriales (a menudo en kg/cm² o atmósferas). Esta calculadora convierte entre pascales (la unidad del Sistema Internacional), kilopascales, bar, PSI (libras por pulgada cuadrada, usada en Estados Unidos), atmósferas y kg/cm², con los factores de conversión exactos."
+      },
+      {
+        "title": "Conversión de potencia: HP, CV y kilovatios",
+        "body": "La potencia de motores y electrodomésticos se expresa en distintas unidades según el país y el sector: vatios y kilovatios (unidades eléctricas), caballos de fuerza o HP (común en Estados Unidos y en fichas técnicas de vehículos), caballos de vapor o CV (usado tradicionalmente en Europa) y BTU/h (habitual en aires acondicionados). Esta calculadora convierte entre las cinco con los factores correctos, incluyendo la pequeña diferencia entre HP y CV."
       }
     ],
     "faqs": [
@@ -1460,6 +1469,14 @@
       {
         "question": "¿Por qué hay varias unidades de \"tazas\" o \"galones\" en otros conversores?",
         "answer": "Existen distintos estándares según el país: el galón y la taza estadounidenses no son exactamente iguales al galón imperial británico o a la taza métrica usada en otros países. Esta calculadora usa los estándares estadounidenses (US), los más buscados y utilizados en recetas y conversiones cotidianas en español."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre HP y CV?",
+        "answer": "Ambos miden potencia, pero se definen sobre sistemas de unidades distintos: 1 HP (caballo de fuerza, usado en Estados Unidos y el Reino Unido) equivale a 745.7 vatios, mientras que 1 CV (caballo de vapor, de origen métrico y usado tradicionalmente en Europa) equivale a 735.5 vatios. La diferencia es pequeña (menos del 2%), pero puede generar confusión al comparar fichas técnicas de distintos países."
+      },
+      {
+        "question": "¿Cuántos PSI son un bar?",
+        "answer": "1 bar equivale aproximadamente a 14.5 PSI. Esta equivalencia es muy usada para convertir la presión recomendada de neumáticos entre las especificaciones europeas (en bar) y las estadounidenses (en PSI)."
       },
       {
         "question": "¿Es gratis este convertidor de unidades?",

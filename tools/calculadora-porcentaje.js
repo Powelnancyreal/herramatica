@@ -130,24 +130,26 @@ function QuePorcentajeEs() {
 // ─── Tab 3: Aumento / Descuento (en ambos sentidos) ──────────────────
 
 function Variacion() {
-  const [inicial, setInicial] = useState('')
-  const [final, setFinal] = useState('')
+  const [inicialAplicar, setInicialAplicar] = useState('')
   const [porcentaje, setPorcentaje] = useState('')
   const [operacion, setOperacion] = useState('aumento')
 
+  const [inicialComparar, setInicialComparar] = useState('')
+  const [final, setFinal] = useState('')
+
   const valorFinalCalculado = useMemo(() => {
-    const v = parseFloat(inicial)
+    const v = parseFloat(inicialAplicar)
     const p = parseFloat(porcentaje)
     if (isNaN(v) || isNaN(p)) return null
     return operacion === 'aumento' ? v * (1 + p / 100) : v * (1 - p / 100)
-  }, [inicial, porcentaje, operacion])
+  }, [inicialAplicar, porcentaje, operacion])
 
   const variacionCalculada = useMemo(() => {
-    const a = parseFloat(inicial)
+    const a = parseFloat(inicialComparar)
     const b = parseFloat(final)
     if (isNaN(a) || isNaN(b) || a === 0) return null
     return ((b - a) / Math.abs(a)) * 100
-  }, [inicial, final])
+  }, [inicialComparar, final])
 
   return (
     <div className="space-y-8">
@@ -171,7 +173,7 @@ function Variacion() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className={labelClass}>Valor inicial</label>
-            <input type="number" inputMode="decimal" value={inicial} onChange={(e) => setInicial(e.target.value)} placeholder="Ej: 200" className={inputClass} />
+            <input type="number" inputMode="decimal" value={inicialAplicar} onChange={(e) => setInicialAplicar(e.target.value)} placeholder="Ej: 200" className={inputClass} />
           </div>
           <div>
             <label className={labelClass}>Porcentaje (%)</label>
@@ -190,7 +192,7 @@ function Variacion() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className={labelClass}>Valor inicial</label>
-            <input type="number" inputMode="decimal" value={inicial} onChange={(e) => setInicial(e.target.value)} placeholder="Ej: 200" className={inputClass} />
+            <input type="number" inputMode="decimal" value={inicialComparar} onChange={(e) => setInicialComparar(e.target.value)} placeholder="Ej: 200" className={inputClass} />
           </div>
           <div>
             <label className={labelClass}>Valor final</label>
