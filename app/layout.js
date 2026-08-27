@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -28,6 +29,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className="min-h-screen flex flex-col">
+        {/* Google tag (gtag.js) */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-EJC91PS2KH" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-EJC91PS2KH');
+          `}
+        </Script>
+
         <Header />
         <div className="flex-1">{children}</div>
         <Footer />

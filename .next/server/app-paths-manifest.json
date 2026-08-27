@@ -2,16 +2,16 @@
   "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/sitemap.xml/route": "app/sitemap.xml/route.js",
-  "/contacto/page": "app/contacto/page.js",
   "/[slug]/page": "app/[slug]/page.js",
   "/generadores/page": "app/generadores/page.js",
-  "/calculadoras/page": "app/calculadoras/page.js",
+  "/contacto/page": "app/contacto/page.js",
+  "/cookies/page": "app/cookies/page.js",
   "/acerca/page": "app/acerca/page.js",
   "/juegos/page": "app/juegos/page.js",
-  "/cookies/page": "app/cookies/page.js",
   "/convertidores/page": "app/convertidores/page.js",
+  "/page": "app/page.js",
   "/privacidad/page": "app/privacidad/page.js",
   "/terminos/page": "app/terminos/page.js",
-  "/texto/page": "app/texto/page.js",
-  "/page": "app/page.js"
+  "/calculadoras/page": "app/calculadoras/page.js",
+  "/texto/page": "app/texto/page.js"
 }
