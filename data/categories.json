@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "generadores",
+    "name": "Generadores",
+    "description": "Herramientas para generar contenido de forma automática y rápida.",
+    "icon": "✨",
+    "color": "blue"
+  },
+  {
+    "slug": "calculadoras",
+    "name": "Calculadoras",
+    "description": "Calculadoras precisas para resolver tus necesidades matemáticas.",
+    "icon": "🔢",
+    "color": "green"
+  },
+  {
+    "slug": "texto",
+    "name": "Texto",
+    "description": "Herramientas para manipular, transformar y analizar texto.",
+    "icon": "📝",
+    "color": "purple"
+  },
+  {
+    "slug": "juegos",
+    "name": "Juegos",
+    "description": "Juegos y ejercicios interactivos para entrenar tu mente.",
+    "icon": "🧠",
+    "color": "orange"
+  },
+  {
+    "slug": "convertidores",
+    "name": "Convertidores",
+    "description": "Convierte monedas, unidades y medidas al instante.",
+    "icon": "🔄",
+    "color": "teal"
+  }
+]

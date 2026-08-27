@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(netstat -ano)",
+      "Bash(curl -s -o /dev/null -w \"/ → %{http_code}\\\\n\" http://localhost:3000/)",
+      "Bash(curl -s -o /dev/null -w \"/calcular-rfc → %{http_code}\\\\n\" http://localhost:3000/calcular-rfc/)",
+      "Bash(curl -s -o /dev/null -w \"/calculadora-edad → %{http_code}\\\\n\" http://localhost:3000/calculadora-edad/)",
+      "Bash(curl -s -o /dev/null -w \"/calculadoras → %{http_code}\\\\n\" http://localhost:3000/calculadoras/)",
+      "Bash(node -e ' *)",
+      "Bash(curl -s -o /dev/null -w \"/calcular-imc → %{http_code}\\\\n\" http://localhost:3000/calcular-imc/)",
+      "Bash(curl -s http://localhost:3000/calcular-imc/)",
+      "Bash(curl -s -o /dev/null -w \"/calcular-imc → %{http_code}\\\\n\" http://localhost:3003/calcular-imc/)",
+      "Bash(curl -s http://localhost:3003/calcular-imc/)",
+      "Bash(curl -s -o /dev/null -w \"/calculadora-alicia → %{http_code}\\\\n\" http://localhost:3000/calculadora-alicia/)",
+      "Bash(curl -s http://localhost:3000/calculadora-alicia/)"
+    ]
+  }
+}
