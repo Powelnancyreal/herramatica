@@ -548,7 +548,8 @@
       "calcular-imc",
       "convertidor-unidades",
       "convertidor-fracciones",
-      "convertidor-binario"
+      "convertidor-binario",
+      "calcular-area-circulo"
     ]
   },
   {
@@ -1122,7 +1123,8 @@
       "calculadora-prestamo",
       "convertidor-numeros-a-letras",
       "calculadora-irpf",
-      "calculadora-apiretal"
+      "calculadora-apiretal",
+      "calcular-area-circulo"
     ]
   },
   {
@@ -1485,7 +1487,8 @@
     ],
     "relatedTools": [
       "convertidor-moneda",
-      "calculadora-cientifica"
+      "calculadora-cientifica",
+      "calcular-area-circulo"
     ]
   },
   {
@@ -2447,6 +2450,71 @@
       "calcular-cuil",
       "calcular-letra-dni",
       "calcular-curp"
+    ]
+  },
+  {
+    "slug": "calcular-area-circulo",
+    "name": "Calculadora del Área del Círculo",
+    "shortName": "Área del Círculo",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora del Área del Círculo Online Gratis | Radio, Diámetro o Circunferencia",
+    "metaDescription": "Calcula el área de un círculo a partir del radio, el diámetro o la circunferencia. Fórmula A = π×r² aplicada al instante. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Esta calculadora obtiene el área de un círculo a partir de cualquiera de sus tres medidas más comunes: el radio, el diámetro o la circunferencia (perímetro). Introduce el dato que tengas disponible y la calculadora aplica automáticamente la fórmula correcta, mostrando además el radio, el diámetro y la circunferencia completos para referencia.",
+    "howToUse": [
+      "Elige qué dato tienes disponible: Radio, Diámetro o Circunferencia",
+      "Introduce el valor correspondiente",
+      "El área se calcula al instante con la fórmula A = π × r²",
+      "Consulta también el radio, el diámetro y la circunferencia completos, calculados a partir de tu dato"
+    ],
+    "benefits": [
+      "Acepta tres formas de entrada distintas: radio, diámetro o circunferencia, no solo el radio como la mayoría de calculadoras",
+      "Aplica la fórmula exacta A = π × r², usando el valor completo de π, no una aproximación como 3.14",
+      "Muestra el radio, el diámetro y la circunferencia completos junto al área, útil para verificar tus datos",
+      "Resultado instantáneo mientras escribes, sin necesidad de pulsar ningún botón",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "Fórmula del área de un círculo",
+        "body": "El área de un círculo se calcula con la fórmula A = π × r², donde r es el radio (la distancia desde el centro hasta cualquier punto del borde) y π (pi) es una constante matemática aproximadamente igual a 3.14159265. Por ejemplo, un círculo con radio 5 tiene un área de π × 5² = π × 25 ≈ 78.54 unidades cuadradas."
+      },
+      {
+        "title": "¿Cómo calcular el área si solo tengo el diámetro o la circunferencia?",
+        "body": "Si conoces el diámetro (la distancia de un extremo a otro pasando por el centro), primero divide entre 2 para obtener el radio (r = d ÷ 2) y luego aplica la fórmula del área. Si conoces la circunferencia o perímetro del círculo, despeja el radio con r = C ÷ (2 × π), y después calcula el área normalmente. Esta calculadora hace ambos pasos automáticamente según el dato que introduzcas."
+      },
+      {
+        "title": "Diferencia entre área y perímetro (circunferencia) de un círculo",
+        "body": "El área mide la superficie total que ocupa el círculo, expresada en unidades cuadradas (cm², m², etc.), y se calcula con A = π × r². La circunferencia (o perímetro) mide la longitud del contorno del círculo, expresada en unidades simples (cm, m, etc.), y se calcula con C = 2 × π × r. Son dos magnitudes distintas: no se debe confundir \"área del círculo\" con \"circunferencia del círculo\", aunque ambas dependen del mismo radio."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuál es la fórmula para calcular el área de un círculo?",
+        "answer": "La fórmula es A = π × r², donde r es el radio del círculo y π ≈ 3.14159265. Esta calculadora usa el valor completo de π para máxima precisión, no una aproximación redondeada."
+      },
+      {
+        "question": "¿Cómo calculo el área de un círculo si solo tengo el diámetro?",
+        "answer": "Divide el diámetro entre 2 para obtener el radio, y luego aplica la fórmula A = π × r². Por ejemplo, si el diámetro es 10, el radio es 5, y el área es π × 5² ≈ 78.54. También puedes introducir directamente el diámetro en esta calculadora seleccionando la pestaña \"Diámetro\"."
+      },
+      {
+        "question": "¿Se puede calcular el área conociendo solo la circunferencia (el perímetro)?",
+        "answer": "Sí. Primero se despeja el radio de la fórmula de la circunferencia: r = C ÷ (2 × π), y después se aplica la fórmula del área con ese radio. Esta calculadora hace este cálculo automáticamente si seleccionas la pestaña \"Circunferencia\" e introduces el perímetro del círculo."
+      },
+      {
+        "question": "¿Qué es π (pi) y por qué aparece en la fórmula del área?",
+        "answer": "Pi (π) es una constante matemática que representa la relación entre la circunferencia de cualquier círculo y su diámetro; su valor es aproximadamente 3.14159265 y tiene infinitos decimales no periódicos. Aparece en la fórmula del área porque es la proporción fija que relaciona el radio de un círculo con la superficie que este ocupa."
+      },
+      {
+        "question": "¿Es gratis esta calculadora del área del círculo?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "convertidor-unidades",
+      "calculadora-cientifica",
+      "calculadora-porcentaje"
     ]
   }
 ]

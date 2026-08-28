@@ -31,6 +31,14 @@
       "static/chunks/main-app-fea69d41a4361f98.js",
       "static/chunks/app/sitemap.xml/route-7cdead2abab72c9a.js"
     ],
+    "/acerca/page": [
+      "static/chunks/webpack-d03c19ee6c052c55.js",
+      "static/chunks/4bd1b696-409494caf8c83275.js",
+      "static/chunks/255-0edcbb5b637cbfcb.js",
+      "static/chunks/main-app-fea69d41a4361f98.js",
+      "static/chunks/619-f072ac750404f9da.js",
+      "static/chunks/app/acerca/page-54bbf0fa4a2dd4d2.js"
+    ],
     "/[slug]/page": [
       "static/chunks/webpack-d03c19ee6c052c55.js",
       "static/chunks/4bd1b696-409494caf8c83275.js",
@@ -40,15 +48,7 @@
       "static/chunks/164f4fb6-91375d5a65762548.js",
       "static/chunks/619-f072ac750404f9da.js",
       "static/chunks/17-4a7211f5e369bac9.js",
-      "static/chunks/app/[slug]/page-66d6b6ccd51ef5e7.js"
-    ],
-    "/generadores/page": [
-      "static/chunks/webpack-d03c19ee6c052c55.js",
-      "static/chunks/4bd1b696-409494caf8c83275.js",
-      "static/chunks/255-0edcbb5b637cbfcb.js",
-      "static/chunks/main-app-fea69d41a4361f98.js",
-      "static/chunks/619-f072ac750404f9da.js",
-      "static/chunks/app/generadores/page-54bbf0fa4a2dd4d2.js"
+      "static/chunks/app/[slug]/page-218cdb08726546e1.js"
     ],
     "/contacto/page": [
       "static/chunks/webpack-d03c19ee6c052c55.js",
@@ -66,37 +66,13 @@
       "static/chunks/619-f072ac750404f9da.js",
       "static/chunks/app/cookies/page-54bbf0fa4a2dd4d2.js"
     ],
-    "/acerca/page": [
+    "/generadores/page": [
       "static/chunks/webpack-d03c19ee6c052c55.js",
       "static/chunks/4bd1b696-409494caf8c83275.js",
       "static/chunks/255-0edcbb5b637cbfcb.js",
       "static/chunks/main-app-fea69d41a4361f98.js",
       "static/chunks/619-f072ac750404f9da.js",
-      "static/chunks/app/acerca/page-54bbf0fa4a2dd4d2.js"
-    ],
-    "/juegos/page": [
-      "static/chunks/webpack-d03c19ee6c052c55.js",
-      "static/chunks/4bd1b696-409494caf8c83275.js",
-      "static/chunks/255-0edcbb5b637cbfcb.js",
-      "static/chunks/main-app-fea69d41a4361f98.js",
-      "static/chunks/619-f072ac750404f9da.js",
-      "static/chunks/app/juegos/page-54bbf0fa4a2dd4d2.js"
-    ],
-    "/convertidores/page": [
-      "static/chunks/webpack-d03c19ee6c052c55.js",
-      "static/chunks/4bd1b696-409494caf8c83275.js",
-      "static/chunks/255-0edcbb5b637cbfcb.js",
-      "static/chunks/main-app-fea69d41a4361f98.js",
-      "static/chunks/619-f072ac750404f9da.js",
-      "static/chunks/app/convertidores/page-54bbf0fa4a2dd4d2.js"
-    ],
-    "/page": [
-      "static/chunks/webpack-d03c19ee6c052c55.js",
-      "static/chunks/4bd1b696-409494caf8c83275.js",
-      "static/chunks/255-0edcbb5b637cbfcb.js",
-      "static/chunks/main-app-fea69d41a4361f98.js",
-      "static/chunks/619-f072ac750404f9da.js",
-      "static/chunks/app/page-54bbf0fa4a2dd4d2.js"
+      "static/chunks/app/generadores/page-54bbf0fa4a2dd4d2.js"
     ],
     "/privacidad/page": [
       "static/chunks/webpack-d03c19ee6c052c55.js",
@@ -106,6 +82,22 @@
       "static/chunks/619-f072ac750404f9da.js",
       "static/chunks/app/privacidad/page-54bbf0fa4a2dd4d2.js"
     ],
+    "/juegos/page": [
+      "static/chunks/webpack-d03c19ee6c052c55.js",
+      "static/chunks/4bd1b696-409494caf8c83275.js",
+      "static/chunks/255-0edcbb5b637cbfcb.js",
+      "static/chunks/main-app-fea69d41a4361f98.js",
+      "static/chunks/619-f072ac750404f9da.js",
+      "static/chunks/app/juegos/page-54bbf0fa4a2dd4d2.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-d03c19ee6c052c55.js",
+      "static/chunks/4bd1b696-409494caf8c83275.js",
+      "static/chunks/255-0edcbb5b637cbfcb.js",
+      "static/chunks/main-app-fea69d41a4361f98.js",
+      "static/chunks/619-f072ac750404f9da.js",
+      "static/chunks/app/page-54bbf0fa4a2dd4d2.js"
+    ],
     "/terminos/page": [
       "static/chunks/webpack-d03c19ee6c052c55.js",
       "static/chunks/4bd1b696-409494caf8c83275.js",
@@ -113,6 +105,14 @@
       "static/chunks/main-app-fea69d41a4361f98.js",
       "static/chunks/619-f072ac750404f9da.js",
       "static/chunks/app/terminos/page-54bbf0fa4a2dd4d2.js"
+    ],
+    "/convertidores/page": [
+      "static/chunks/webpack-d03c19ee6c052c55.js",
+      "static/chunks/4bd1b696-409494caf8c83275.js",
+      "static/chunks/255-0edcbb5b637cbfcb.js",
+      "static/chunks/main-app-fea69d41a4361f98.js",
+      "static/chunks/619-f072ac750404f9da.js",
+      "static/chunks/app/convertidores/page-54bbf0fa4a2dd4d2.js"
     ],
     "/calculadoras/page": [
       "static/chunks/webpack-d03c19ee6c052c55.js",

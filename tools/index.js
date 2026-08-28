@@ -36,6 +36,7 @@ import CalculadoraDelAmor from './calculadora-del-amor'
 import CalcularNIT from './calcular-nit'
 import CalcularCUIL from './calcular-cuil'
 import CalcularRUT from './calcular-rut'
+import CalcularAreaCirculo from './calcular-area-circulo'
 
 // Registry: add new tools here as { slug: Component }
 export const toolComponents = {
@@ -77,4 +78,5 @@ export const toolComponents = {
   'calcular-nit': CalcularNIT,
   'calcular-cuil': CalcularCUIL,
   'calcular-rut': CalcularRUT,
+  'calcular-area-circulo': CalcularAreaCirculo,
 }
