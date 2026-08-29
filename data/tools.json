@@ -471,7 +471,8 @@
       "calculadora-alicia",
       "calculadora-cientifica",
       "calculadora-finiquito",
-      "calculadora-dias"
+      "calculadora-dias",
+      "calcular-velocidad-distancia-tiempo"
     ]
   },
   {
@@ -549,7 +550,9 @@
       "convertidor-unidades",
       "convertidor-fracciones",
       "convertidor-binario",
-      "calcular-area-circulo"
+      "calcular-area-circulo",
+      "calcular-velocidad-distancia-tiempo",
+      "calcular-volumen-cilindro"
     ]
   },
   {
@@ -1124,7 +1127,8 @@
       "convertidor-numeros-a-letras",
       "calculadora-irpf",
       "calculadora-apiretal",
-      "calcular-area-circulo"
+      "calcular-area-circulo",
+      "calcular-gasolina"
     ]
   },
   {
@@ -1181,7 +1185,8 @@
     "relatedTools": [
       "calcular-iva",
       "convertidor-unidades",
-      "calculadora-prestamo"
+      "calculadora-prestamo",
+      "calcular-gasolina"
     ]
   },
   {
@@ -1488,7 +1493,9 @@
     "relatedTools": [
       "convertidor-moneda",
       "calculadora-cientifica",
-      "calcular-area-circulo"
+      "calcular-area-circulo",
+      "calcular-velocidad-distancia-tiempo",
+      "calcular-volumen-cilindro"
     ]
   },
   {
@@ -1872,7 +1879,8 @@
     ],
     "relatedTools": [
       "calculadora-cientifica",
-      "convertidor-numeros-a-letras"
+      "convertidor-numeros-a-letras",
+      "calcular-hexadecimal-a-decimal"
     ]
   },
   {
@@ -2514,7 +2522,255 @@
     "relatedTools": [
       "convertidor-unidades",
       "calculadora-cientifica",
+      "calculadora-porcentaje",
+      "calcular-volumen-cilindro"
+    ]
+  },
+  {
+    "slug": "calcular-hexadecimal-a-decimal",
+    "name": "Convertidor de Hexadecimal a Decimal",
+    "shortName": "Hex a Decimal",
+    "category": "convertidores",
+    "metaTitle": "Convertidor de Hexadecimal a Decimal Online Gratis | HEX a DEC",
+    "metaDescription": "Convierte números hexadecimales a decimales al instante (y de decimal a hexadecimal). Incluye el equivalente en binario. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Convierte números del sistema hexadecimal (base 16) al sistema decimal (base 10) al instante, o al revés. Introduce el valor hexadecimal (usando dígitos 0-9 y letras A-F) para obtener su equivalente decimal, o introduce un número decimal para obtener su hexadecimal, junto con el equivalente en binario.",
+    "howToUse": [
+      "Elige la dirección de la conversión: \"Hexadecimal → Decimal\" o \"Decimal → Hexadecimal\"",
+      "Escribe el número en el campo correspondiente",
+      "El resultado se calcula al instante, junto con su equivalente en binario",
+      "Si el valor introducido no es válido para esa base, la herramienta te lo indica"
+    ],
+    "benefits": [
+      "Convierte en ambos sentidos: hexadecimal a decimal y decimal a hexadecimal",
+      "Muestra también el equivalente en binario, sin tener que abrir otra herramienta",
+      "Valida el formato del número (solo 0-9 y A-F en hexadecimal, o solo dígitos en decimal)",
+      "Resultado instantáneo mientras escribes, sin necesidad de pulsar ningún botón",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se convierte manualmente de hexadecimal a decimal?",
+        "body": "Cada dígito hexadecimal representa una potencia de 16, empezando por 16⁰ en el dígito de más a la derecha. Para convertir, se multiplica cada dígito por la potencia de 16 que le corresponde y se suman los resultados. Por ejemplo, 1F4 en hexadecimal: 1×16² + F×16¹ + 4×16⁰ = 1×256 + 15×16 + 4×1 = 256 + 240 + 4 = 500 en decimal. Recuerda que en hexadecimal, A=10, B=11, C=12, D=13, E=14 y F=15."
+      },
+      {
+        "title": "¿Por qué se usa el sistema hexadecimal?",
+        "body": "El hexadecimal es muy usado en informática porque cada dígito hexadecimal representa exactamente 4 bits (medio byte), lo que hace mucho más compacta la representación de valores binarios largos. Se usa habitualmente para escribir colores en HTML/CSS (por ejemplo, #1F4A8C), direcciones de memoria, códigos de error, identificadores únicos (UUID) y volcados de memoria (hex dumps) en depuración de software."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo convierto un número hexadecimal a decimal paso a paso?",
+        "answer": "Multiplica cada dígito hexadecimal por la potencia de 16 que le corresponde según su posición (empezando por 16⁰ en el dígito más a la derecha) y suma todos los resultados. Por ejemplo, para 2A: 2×16¹ + A×16⁰ = 2×16 + 10×1 = 32 + 10 = 42 en decimal."
+      },
+      {
+        "question": "¿Qué representan las letras A, B, C, D, E y F en hexadecimal?",
+        "answer": "Como el sistema hexadecimal tiene base 16, necesita 16 símbolos distintos para sus dígitos. Los dígitos del 0 al 9 se usan igual que en decimal, y las letras A-F representan los valores del 10 al 15: A=10, B=11, C=12, D=13, E=14, F=15."
+      },
+      {
+        "question": "¿Importa si escribo las letras en mayúsculas o minúsculas?",
+        "answer": "No, esta calculadora acepta tanto mayúsculas como minúsculas (por ejemplo, 1f4 y 1F4 dan el mismo resultado). Por convención, en programación e informática suele preferirse escribir el hexadecimal en mayúsculas, pero ambas formas son igualmente válidas."
+      },
+      {
+        "question": "¿En qué se diferencia esta herramienta del convertidor binario general?",
+        "answer": "Esta herramienta está enfocada específicamente en la conversión entre hexadecimal y decimal, con el equivalente en binario como dato adicional. Si necesitas convertir también a o desde octal, o trabajar con las cuatro bases numéricas a la vez, puedes usar el convertidor binario completo del sitio."
+      },
+      {
+        "question": "¿Es gratis este convertidor de hexadecimal a decimal?",
+        "answer": "Sí, es completamente gratuito, sin límite de conversiones y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "convertidor-binario",
+      "calculadora-cientifica"
+    ]
+  },
+  {
+    "slug": "calcular-velocidad-distancia-tiempo",
+    "name": "Calculadora de Velocidad, Distancia y Tiempo",
+    "shortName": "Velocidad, Distancia y Tiempo",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Velocidad, Distancia y Tiempo Online Gratis | V = D / T",
+    "metaDescription": "Calcula el tiempo, la velocidad o la distancia de un trayecto a partir de los otros dos datos. Admite km, m, millas, km/h, m/s y mph. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Esta calculadora resuelve los tres problemas clásicos de movimiento a velocidad constante: calcular el tiempo que tardarás en un trayecto (a partir de la distancia y la velocidad), calcular la velocidad media (a partir de la distancia y el tiempo), o calcular la distancia recorrida (a partir de la velocidad y el tiempo). Admite distintas unidades de distancia (kilómetros, metros, millas), tiempo (horas, minutos, segundos) y velocidad (km/h, m/s, mph), convirtiendo automáticamente entre ellas.",
+    "howToUse": [
+      "Elige qué quieres calcular: Tiempo, Velocidad o Distancia",
+      "Introduce los dos datos que ya conoces, junto con su unidad de medida",
+      "El resultado se calcula al instante, sin necesidad de convertir las unidades manualmente",
+      "Cuando calculas el tiempo, el resultado se muestra en formato horas-minutos-segundos y también en decimal"
+    ],
+    "benefits": [
+      "Resuelve las tres variables del movimiento: tiempo, velocidad y distancia, en una sola herramienta",
+      "Convierte automáticamente entre kilómetros, metros y millas, y entre horas, minutos y segundos",
+      "El tiempo calculado se muestra en formato legible (por ejemplo, 2h 15min 30s), no solo en decimal",
+      "Al calcular velocidad o distancia, muestra el resultado en varias unidades a la vez (km/h, m/s, mph)",
+      "Útil para planificar viajes, calcular ritmos de carrera o resolver problemas de física básica",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "Fórmulas de velocidad, distancia y tiempo",
+        "body": "Las tres fórmulas se derivan una de otra: Velocidad = Distancia ÷ Tiempo (V = D/T), Distancia = Velocidad × Tiempo (D = V×T), y Tiempo = Distancia ÷ Velocidad (T = D/V). Estas fórmulas solo son válidas cuando la velocidad es constante durante todo el trayecto; si la velocidad varía, el resultado obtenido es la velocidad media del recorrido, no la velocidad en cada instante."
+      },
+      {
+        "title": "El error más común: mezclar unidades",
+        "body": "El error más frecuente al aplicar estas fórmulas es mezclar unidades de distinto sistema, por ejemplo dividir kilómetros entre un tiempo en minutos sin convertir antes a horas, lo que da un resultado incorrecto. Por eso es importante que la distancia, el tiempo y la velocidad estén en unidades compatibles entre sí (por ejemplo, km con km/h y horas, o metros con m/s y segundos) antes de dividir o multiplicar. Esta calculadora hace esa conversión automáticamente, sea cual sea la combinación de unidades que elijas."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo se calcula el tiempo a partir de la distancia y la velocidad?",
+        "answer": "Se divide la distancia entre la velocidad: Tiempo = Distancia ÷ Velocidad. Por ejemplo, para recorrer 120 km a una velocidad constante de 90 km/h, el tiempo es 120 ÷ 90 = 1.33 horas, es decir, 1 hora y 20 minutos."
+      },
+      {
+        "question": "¿Cómo se calcula la velocidad media de un trayecto?",
+        "answer": "Se divide la distancia total recorrida entre el tiempo total empleado: Velocidad = Distancia ÷ Tiempo. Por ejemplo, si recorres 150 km en 2 horas, tu velocidad media es 150 ÷ 2 = 75 km/h, independientemente de si en algunos tramos fuiste más rápido o más lento."
+      },
+      {
+        "question": "¿Esta calculadora da la velocidad instantánea o la velocidad media?",
+        "answer": "Da la velocidad media del trayecto completo. Las fórmulas de velocidad, distancia y tiempo asumen movimiento a velocidad constante; si la velocidad varió durante el recorrido (aceleraciones, paradas, etc.), el resultado representa el promedio de todo el trayecto, no la velocidad en un momento concreto."
+      },
+      {
+        "question": "¿Por qué es importante usar unidades compatibles?",
+        "answer": "Porque las fórmulas solo funcionan correctamente si la distancia, el tiempo y la velocidad están expresados en el mismo sistema de unidades (por ejemplo, kilómetros con km/h y horas). Mezclar unidades sin convertir, como dividir kilómetros entre minutos directamente, da resultados incorrectos. Esta calculadora convierte las unidades automáticamente para evitar ese error."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de velocidad, distancia y tiempo?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "convertidor-unidades",
+      "calculadora-horas",
+      "calculadora-cientifica",
+      "calcular-gasolina"
+    ]
+  },
+  {
+    "slug": "calcular-gasolina",
+    "name": "Calculadora de Gasolina",
+    "shortName": "Calculadora Gasolina",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Gasolina Online Gratis | Consumo y Costo por Kilómetro",
+    "metaDescription": "Calcula cuánto gastarás en gasolina en un viaje según la distancia, el consumo de tu vehículo y el precio del combustible. Incluye costo por persona. Gratis.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Calcula cuánto vas a gastar en gasolina en un viaje a partir de la distancia del trayecto, el consumo de tu vehículo (en litros por cada 100 km, o en kilómetros por litro) y el precio actual del combustible. Obtén al instante los litros necesarios, el costo total del viaje, el costo por kilómetro, y si viajas acompañado, el costo dividido por persona.",
+    "howToUse": [
+      "Introduce la distancia del trayecto en kilómetros; marca la casilla si es un viaje de ida y vuelta",
+      "Indica el consumo de tu vehículo, en litros por cada 100 km o en kilómetros por litro",
+      "Introduce el precio actual del combustible por litro",
+      "Opcionalmente, indica el número de personas para dividir el gasto",
+      "El costo total, los litros necesarios y el costo por kilómetro se calculan al instante"
+    ],
+    "benefits": [
+      "Acepta el consumo en las dos unidades más comunes: litros por 100 km o kilómetros por litro",
+      "Calcula automáticamente el doble de distancia para viajes de ida y vuelta",
+      "Divide el gasto total entre los pasajeros, útil para viajes compartidos",
+      "Muestra el costo por kilómetro, útil para comparar rutas o vehículos",
+      "Resultado instantáneo mientras escribes, sin necesidad de pulsar ningún botón",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "Fórmula para calcular el gasto en gasolina",
+        "body": "Primero se calculan los litros necesarios dividiendo la distancia del trayecto entre el rendimiento del vehículo en kilómetros por litro: Litros = Distancia ÷ (km por litro). Si el consumo lo tienes en litros por 100 km, primero se convierte a km por litro con la fórmula km/L = 100 ÷ (L/100km). Después, el costo total se obtiene multiplicando los litros necesarios por el precio del combustible: Costo = Litros × Precio por litro."
+      },
+      {
+        "title": "L/100 km vs. km/L: ¿qué diferencia hay?",
+        "body": "Ambas son formas de expresar el consumo de combustible de un vehículo, pero funcionan de manera inversa: en litros por 100 km (L/100km), un número más bajo significa mayor eficiencia (menos combustible gastado), mientras que en kilómetros por litro (km/L), un número más alto significa mayor eficiencia (más distancia recorrida con un litro). La ficha técnica de muchos vehículos en España y Europa usa L/100km, mientras que en otros países de habla hispana es más común ver km/L. Esta calculadora admite ambos formatos indistintamente."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo calculo cuánta gasolina necesito para un viaje?",
+        "answer": "Divide la distancia total del trayecto (en km) entre el rendimiento de tu vehículo en kilómetros por litro. Por ejemplo, con un vehículo que rinde 14 km/L en un viaje de 280 km, necesitarás 280 ÷ 14 = 20 litros de combustible."
+      },
+      {
+        "question": "¿Cómo convierto de L/100km a km/L?",
+        "answer": "Divide 100 entre el valor en L/100km. Por ejemplo, un consumo de 7 L/100km equivale a 100 ÷ 7 ≈ 14.3 km/L. Esta calculadora hace esta conversión automáticamente, sea cual sea el formato que elijas para introducir el consumo."
+      },
+      {
+        "question": "¿Esta calculadora tiene en cuenta peajes u otros gastos del viaje?",
+        "answer": "No, esta calculadora estima únicamente el gasto en combustible según la distancia, el consumo del vehículo y el precio del combustible. Peajes, estacionamiento, comidas y otros gastos del viaje deben calcularse aparte."
+      },
+      {
+        "question": "¿Por qué el consumo real puede ser distinto al de la ficha técnica?",
+        "answer": "El consumo real varía según el estilo de conducción, el tráfico, el uso del aire acondicionado, el estado de los neumáticos, la carga del vehículo y el tipo de trayecto (ciudad o carretera). La ficha técnica suele mostrar un consumo combinado o en condiciones óptimas, que puede diferir del consumo real en tu día a día."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de gasolina?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calcular-velocidad-distancia-tiempo",
+      "convertidor-moneda",
       "calculadora-porcentaje"
+    ]
+  },
+  {
+    "slug": "calcular-volumen-cilindro",
+    "name": "Calculadora del Volumen del Cilindro",
+    "shortName": "Volumen del Cilindro",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora del Volumen del Cilindro Online Gratis | Fórmula V = πr²h",
+    "metaDescription": "Calcula el volumen de un cilindro a partir del radio o el diámetro de la base y la altura. Incluye área lateral y área total. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Esta calculadora obtiene el volumen de un cilindro a partir del radio o el diámetro de su base circular y su altura, aplicando la fórmula V = π × r² × h. Además del volumen, muestra el área lateral y el área total (superficie completa) del cilindro, útil para problemas de geometría, cálculo de materiales o proyectos de construcción y diseño.",
+    "howToUse": [
+      "Elige si vas a introducir el Radio o el Diámetro de la base circular",
+      "Introduce el valor correspondiente",
+      "Introduce la altura del cilindro",
+      "El volumen, el área lateral y el área total se calculan al instante"
+    ],
+    "benefits": [
+      "Acepta el radio o el diámetro de la base, sin necesidad de convertir manualmente",
+      "Aplica la fórmula exacta V = π × r² × h, usando el valor completo de π",
+      "Muestra también el área lateral y el área total del cilindro, no solo el volumen",
+      "Resultado instantáneo mientras escribes, sin necesidad de pulsar ningún botón",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "Fórmula del volumen de un cilindro",
+        "body": "El volumen de un cilindro se calcula con la fórmula V = π × r² × h, donde r es el radio de la base circular y h es la altura del cilindro (la distancia entre las dos bases). Por ejemplo, un cilindro con radio 3 y altura 10 tiene un volumen de π × 3² × 10 = π × 9 × 10 ≈ 282.74 unidades cúbicas. Si conoces el diámetro en lugar del radio, primero divide entre 2 (r = d ÷ 2) antes de aplicar la fórmula; esta calculadora lo hace automáticamente."
+      },
+      {
+        "title": "Área lateral y área total del cilindro",
+        "body": "Además del volumen, esta calculadora muestra dos medidas de superficie: el área lateral, que es la superficie de la cara curva del cilindro (sin incluir las dos tapas circulares), calculada como 2 × π × r × h; y el área total, que suma el área lateral y el área de las dos bases circulares, calculada como 2 × π × r × (r + h). Estas medidas son útiles, por ejemplo, para calcular cuánto material se necesita para fabricar o forrar un cilindro."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuál es la fórmula para calcular el volumen de un cilindro?",
+        "answer": "La fórmula es V = π × r² × h, donde r es el radio de la base circular y h es la altura del cilindro. Esta calculadora usa el valor completo de π para máxima precisión."
+      },
+      {
+        "question": "¿Cómo calculo el volumen si solo tengo el diámetro de la base?",
+        "answer": "Divide el diámetro entre 2 para obtener el radio, y luego aplica la fórmula V = π × r² × h. También puedes introducir directamente el diámetro en esta calculadora seleccionando la opción \"Diámetro\"."
+      },
+      {
+        "question": "¿Qué diferencia hay entre el área lateral y el área total de un cilindro?",
+        "answer": "El área lateral es solo la superficie curva del cilindro, sin contar las dos tapas circulares (como una lata sin su parte de arriba ni de abajo). El área total suma esa superficie curva más el área de las dos bases circulares, es decir, la superficie completa del cilindro."
+      },
+      {
+        "question": "¿En qué unidades se expresa el resultado?",
+        "answer": "El volumen se expresa en unidades cúbicas (por ejemplo, cm³ o m³) y las áreas en unidades cuadradas (cm² o m²), siempre en las mismas unidades que introdujiste para el radio, el diámetro y la altura. Si introduces las medidas en centímetros, el volumen resultante estará en centímetros cúbicos."
+      },
+      {
+        "question": "¿Es gratis esta calculadora del volumen del cilindro?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calcular-area-circulo",
+      "convertidor-unidades",
+      "calculadora-cientifica"
     ]
   }
 ]

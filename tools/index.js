@@ -37,6 +37,10 @@ import CalcularNIT from './calcular-nit'
 import CalcularCUIL from './calcular-cuil'
 import CalcularRUT from './calcular-rut'
 import CalcularAreaCirculo from './calcular-area-circulo'
+import CalcularHexadecimalADecimal from './calcular-hexadecimal-a-decimal'
+import CalcularVelocidadDistanciaTiempo from './calcular-velocidad-distancia-tiempo'
+import CalcularGasolina from './calcular-gasolina'
+import CalcularVolumenCilindro from './calcular-volumen-cilindro'
 
 // Registry: add new tools here as { slug: Component }
 export const toolComponents = {
@@ -79,4 +83,8 @@ export const toolComponents = {
   'calcular-cuil': CalcularCUIL,
   'calcular-rut': CalcularRUT,
   'calcular-area-circulo': CalcularAreaCirculo,
+  'calcular-hexadecimal-a-decimal': CalcularHexadecimalADecimal,
+  'calcular-velocidad-distancia-tiempo': CalcularVelocidadDistanciaTiempo,
+  'calcular-gasolina': CalcularGasolina,
+  'calcular-volumen-cilindro': CalcularVolumenCilindro,
 }
