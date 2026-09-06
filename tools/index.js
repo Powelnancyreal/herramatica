@@ -66,6 +66,11 @@ import CalculadoraEmbarazo from './calculadora-embarazo'
 import CalculadoraPesoIdeal from './calculadora-peso-ideal'
 import CalculadoraCiclosSueno from './calculadora-ciclos-sueno'
 import CalculadoraDeEscalas from './calculadora-de-escalas'
+import SopaDeLetras from './sopa-de-letras'
+import GeneradorDeLetrasGrandes from './generador-de-letras-grandes'
+import GeneradorCodigoDeBarras from './generador-codigo-de-barras'
+import GeneradorDeCrucigramas from './generador-de-crucigramas'
+import GeneradorDeNombresParaFreeFire from './generador-de-nombres-para-free-fire'
 
 // Registry: add new tools here as { slug: Component }
 export const toolComponents = {
@@ -137,4 +142,9 @@ export const toolComponents = {
   'calculadora-peso-ideal': CalculadoraPesoIdeal,
   'calculadora-ciclos-sueno': CalculadoraCiclosSueno,
   'calculadora-de-escalas': CalculadoraDeEscalas,
+  'sopa-de-letras': SopaDeLetras,
+  'generador-de-letras-grandes': GeneradorDeLetrasGrandes,
+  'generador-codigo-de-barras': GeneradorCodigoDeBarras,
+  'generador-de-crucigramas': GeneradorDeCrucigramas,
+  'generador-de-nombres-para-free-fire': GeneradorDeNombresParaFreeFire,
 }

@@ -408,7 +408,9 @@
       "generador-contrasenas",
       "generador-nombres",
       "convertidor-imagenes",
-      "imagenes-a-pdf"
+      "imagenes-a-pdf",
+      "generador-de-letras-grandes",
+      "generador-codigo-de-barras"
     ]
   },
   {
@@ -1010,7 +1012,9 @@
       "calculadora-alicia",
       "generador-nombres",
       "calculadora-del-amor",
-      "cronometro-online"
+      "cronometro-online",
+      "sopa-de-letras",
+      "generador-de-crucigramas"
     ]
   },
   {
@@ -1328,7 +1332,9 @@
       "generador-contrasenas",
       "convertidor-mayusculas-minusculas",
       "palabras-al-reves",
-      "calculadora-tiempo-lectura"
+      "calculadora-tiempo-lectura",
+      "sopa-de-letras",
+      "generador-de-crucigramas"
     ]
   },
   {
@@ -1588,7 +1594,9 @@
       "generador-qr",
       "calculo-mental",
       "calculadora-del-amor",
-      "tipografia-para-instagram"
+      "tipografia-para-instagram",
+      "sopa-de-letras",
+      "generador-de-nombres-para-free-fire"
     ]
   },
   {
@@ -2498,7 +2506,8 @@
       "calcular-nit",
       "calcular-cuil",
       "calcular-letra-dni",
-      "calcular-curp"
+      "calcular-curp",
+      "generador-codigo-de-barras"
     ]
   },
   {
@@ -2627,7 +2636,8 @@
     "relatedTools": [
       "convertidor-binario",
       "calculadora-cientifica",
-      "calculadora-resistencias"
+      "calculadora-resistencias",
+      "generador-codigo-de-barras"
     ]
   },
   {
@@ -3238,7 +3248,9 @@
     "relatedTools": [
       "texto-invisible",
       "convertidor-mayusculas-minusculas",
-      "generador-nombres"
+      "generador-nombres",
+      "generador-de-letras-grandes",
+      "generador-de-nombres-para-free-fire"
     ]
   },
   {
@@ -4264,6 +4276,294 @@
       "convertidor-unidades",
       "calculadora-area",
       "cm-a-pulgadas"
+    ]
+  },
+  {
+    "slug": "sopa-de-letras",
+    "name": "Generador de Sopa de Letras",
+    "shortName": "Sopa de Letras",
+    "category": "juegos",
+    "metaTitle": "Generador de Sopa de Letras Online Gratis | Para Imprimir",
+    "metaDescription": "Crea tu propia sopa de letras personalizada con las palabras que quieras. Ideal para niños, clases o cumpleaños. Imprime gratis, sin registro.",
+    "webApp": true,
+    "appCategory": "EntertainmentApplication",
+    "intro": "Crea una sopa de letras personalizada a partir de tus propias palabras: nombres, temas escolares, vocabulario de un idioma, o lo que necesites. Las palabras se colocan automáticamente en la cuadrícula en distintas direcciones (horizontal, vertical y diagonal), lista para imprimir o jugar directamente en pantalla.",
+    "howToUse": [
+      "Escribe tus palabras, una por línea o separadas por comas",
+      "Elige el tamaño de la cuadrícula",
+      "Pulsa \"Generar otra distribución\" si quieres una disposición distinta",
+      "Activa \"Mostrar solución\" para ver dónde está cada palabra, o imprime la sopa de letras en blanco"
+    ],
+    "benefits": [
+      "Genera una sopa de letras personalizada con tus propias palabras al instante",
+      "Coloca las palabras en 8 direcciones distintas, incluyendo diagonales",
+      "Permite mostrar u ocultar la solución",
+      "Lista para imprimir directamente desde el navegador",
+      "Gratis, sin registro y funciona directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "Ideas para usar una sopa de letras personalizada",
+        "body": "Una sopa de letras con palabras propias es una actividad clásica para clases (vocabulario de un tema, palabras de un idioma que se está aprendiendo), cumpleaños infantiles (nombres de invitados, temática de la fiesta), o simplemente como pasatiempo. Al poder elegir tus propias palabras, la sopa de letras se adapta a cualquier ocasión, en lugar de usar siempre las mismas palabras genéricas."
+      },
+      {
+        "title": "¿Qué pasa si una palabra no se puede colocar?",
+        "body": "Si una palabra es demasiado larga para la cuadrícula elegida, o si hay demasiadas palabras para el espacio disponible, es posible que alguna no logre colocarse tras varios intentos. En ese caso, la herramienta te avisa qué palabras no se pudieron incluir, para que elijas una cuadrícula más grande o acortes la lista de palabras."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuántas palabras puedo incluir en la sopa de letras?",
+        "answer": "No hay un límite estricto, pero cuantas más palabras y más largas sean, necesitarás una cuadrícula más grande para que todas quepan correctamente. Si algunas palabras no logran colocarse, la herramienta te lo indicará."
+      },
+      {
+        "question": "¿Puedo imprimir la sopa de letras?",
+        "answer": "Sí, pulsa el botón \"Imprimir\" para abrir el diálogo de impresión de tu navegador con la sopa de letras lista para imprimir en papel."
+      },
+      {
+        "question": "¿Las palabras pueden estar en diagonal o al revés?",
+        "answer": "Sí, esta herramienta coloca las palabras en las ocho direcciones posibles: horizontal (izquierda a derecha y derecha a izquierda), vertical (arriba a abajo y abajo a arriba), y las cuatro diagonales, para que el juego sea más desafiante."
+      },
+      {
+        "question": "¿Es gratis este generador de sopa de letras?",
+        "answer": "Sí, es completamente gratuito, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculo-mental",
+      "generador-nombres",
+      "contador-palabras",
+      "generador-de-letras-grandes",
+      "generador-de-crucigramas"
+    ]
+  },
+  {
+    "slug": "generador-de-letras-grandes",
+    "name": "Generador de Letras Grandes",
+    "shortName": "Letras Grandes",
+    "category": "generadores",
+    "metaTitle": "Generador de Letras Grandes Online Gratis | Grafiti, Tatuaje y para Imprimir",
+    "metaDescription": "Crea letras grandes en estilo grafiti, tatuaje (script) o molde para imprimir y recortar. Descarga tu imagen en PNG gratis, sin registro.",
+    "webApp": true,
+    "appCategory": "DesignApplication",
+    "intro": "Genera una imagen con tu texto en letras grandes, en tres estilos distintos: grafiti (estilo urbano y llamativo), tatuaje (letra cursiva tipo script, ideal como referencia para un tatuador), o molde para imprimir (letras grandes y claras, pensadas para imprimir, calcar o recortar). Descarga el resultado como imagen PNG.",
+    "howToUse": [
+      "Elige el estilo: Grafiti, Tatuaje/Script o Molde para Imprimir",
+      "Escribe tu texto (funciona mejor con palabras cortas)",
+      "En el estilo \"Molde\", puedes activar \"solo contorno\" para ahorrar tinta al imprimir",
+      "Pulsa \"Descargar imagen\" para guardar el resultado en PNG"
+    ],
+    "benefits": [
+      "Tres estilos distintos en una sola herramienta: grafiti, tatuaje y molde para imprimir",
+      "Genera una imagen real (no solo texto), lista para descargar o compartir",
+      "El molde para imprimir incluye una opción de solo contorno para ahorrar tinta",
+      "Ajusta automáticamente el tamaño del texto para que quepa en la imagen",
+      "Gratis, sin registro y funciona directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Para qué sirve cada estilo?",
+        "body": "El estilo Grafiti genera letras grandes y llamativas con contorno, ideal para carteles, miniaturas o contenido con un look urbano. El estilo Tatuaje usa una tipografía cursiva y elegante (script), muy usada como referencia para llevar a un estudio de tatuajes. El estilo Molde para Imprimir usa una tipografía gruesa y clara, pensada para imprimirse en papel y luego calcarse o recortarse, por ejemplo, para manualidades, carteles escolares o decoración."
+      },
+      {
+        "title": "¿En qué se diferencia esta herramienta del generador de tipografías Unicode?",
+        "body": "Nuestro generador de tipografía para Instagram convierte tu texto en caracteres Unicode especiales que puedes copiar y pegar como texto normal en cualquier campo. Esta herramienta, en cambio, genera una imagen real (PNG) con tu texto dibujado en un estilo concreto, pensada para descargar, imprimir o usar como diseño, no para pegar como texto editable."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo usar la imagen generada como referencia para un tatuaje real?",
+        "answer": "Sí, el estilo \"Tatuaje/Script\" está pensado precisamente para eso: generar una vista previa de cómo se vería tu texto en una tipografía cursiva elegante, común en tatuajes, que puedes mostrarle a tu tatuador como referencia. El diseño final dependerá del estilo personal del artista."
+      },
+      {
+        "question": "¿Cómo imprimo el molde de letras para recortar?",
+        "answer": "Genera tu texto en el estilo \"Molde para Imprimir\", descarga la imagen en PNG, e imprímela desde cualquier programa o visor de imágenes. Si quieres ahorrar tinta, activa la opción \"solo contorno\" antes de descargar."
+      },
+      {
+        "question": "¿Por qué mi texto se ve más pequeño si escribo una palabra larga?",
+        "answer": "La herramienta ajusta automáticamente el tamaño de las letras para que todo el texto quepa dentro de la imagen sin cortarse. Por eso, las palabras cortas se muestran más grandes que las palabras largas."
+      },
+      {
+        "question": "¿Es gratis este generador de letras grandes?",
+        "answer": "Sí, es completamente gratuito, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "tipografia-para-instagram",
+      "generador-qr",
+      "sopa-de-letras",
+      "generador-de-nombres-para-free-fire"
+    ]
+  },
+  {
+    "slug": "generador-codigo-de-barras",
+    "name": "Generador de Código de Barras",
+    "shortName": "Código de Barras",
+    "category": "generadores",
+    "metaTitle": "Generador de Código de Barras Online Gratis | EAN-13",
+    "metaDescription": "Genera un código de barras EAN-13 a partir de 12 dígitos, con el dígito de control calculado automáticamente. Descarga en PNG, gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Genera un código de barras en formato EAN-13, el estándar más usado en productos comerciales en todo el mundo. Introduce los primeros 12 dígitos y esta herramienta calcula automáticamente el dígito de control y dibuja el código de barras completo, listo para descargar como imagen.",
+    "howToUse": [
+      "Introduce los primeros 12 dígitos de tu código",
+      "El dígito de control (13º dígito) se calcula automáticamente",
+      "El código de barras se dibuja al instante",
+      "Pulsa \"Descargar imagen\" para guardar el resultado en PNG"
+    ],
+    "benefits": [
+      "Genera códigos de barras EAN-13 válidos, con el dígito de control correcto",
+      "Dibuja el código de barras completo con los dígitos legibles debajo",
+      "Descarga la imagen en PNG lista para usar",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Qué es el formato EAN-13?",
+        "body": "EAN-13 (European Article Number, 13 dígitos) es el estándar de código de barras más utilizado en productos de venta al público en Europa, Latinoamérica y gran parte del mundo. Consta de 13 dígitos: los primeros indican el país o región de la empresa, los siguientes identifican al fabricante y al producto, y el último es un dígito de control que permite verificar que el código se leyó correctamente."
+      },
+      {
+        "title": "¿Cómo se calcula el dígito de control?",
+        "body": "El dígito de control se calcula sumando los dígitos en posiciones impares (1ª, 3ª, 5ª...) multiplicados por 1, y los dígitos en posiciones pares multiplicados por 3, sobre los primeros 12 dígitos. El dígito de control es el número que, sumado a ese total, da un múltiplo de 10. Esta calculadora aplica esta fórmula automáticamente."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo se calcula el dígito de control de un código EAN-13?",
+        "answer": "Se suman los 12 primeros dígitos alternando pesos 1 y 3 (posiciones impares ×1, posiciones pares ×3), y el dígito de control es el número que hay que sumar a ese total para llegar al siguiente múltiplo de 10."
+      },
+      {
+        "question": "¿Este código de barras sirve para vender productos reales?",
+        "answer": "Genera un código EAN-13 con la estructura y el dígito de control correctos, pero para vender productos comercialmente necesitas un código GS1 oficial asignado a tu empresa (a través de la organización GS1 de tu país), que garantiza que ese número no se repite con el de otra empresa en el mundo."
+      },
+      {
+        "question": "¿Por qué debo verificar que el código escanee correctamente?",
+        "answer": "Aunque la estructura y el dígito de control son correctos, factores como el tamaño de impresión, el contraste o la calidad de la imagen pueden afectar la lectura con un escáner real. Por eso recomendamos probar el código impreso con un lector antes de usarlo en un punto de venta."
+      },
+      {
+        "question": "¿Es gratis este generador de código de barras?",
+        "answer": "Sí, es completamente gratuito, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "generador-qr",
+      "calcular-hexadecimal-a-decimal",
+      "calcular-rut"
+    ]
+  },
+  {
+    "slug": "generador-de-crucigramas",
+    "name": "Generador de Crucigramas",
+    "shortName": "Crucigramas",
+    "category": "juegos",
+    "metaTitle": "Generador de Crucigramas Online Gratis | Con Pistas Personalizadas",
+    "metaDescription": "Crea tu propio crucigrama con tus palabras y pistas. Las palabras se conectan automáticamente por letras compartidas. Imprime gratis, sin registro.",
+    "webApp": true,
+    "appCategory": "EntertainmentApplication",
+    "intro": "Crea un crucigrama personalizado a partir de tus propias palabras y pistas. La herramienta conecta automáticamente las palabras que comparten letras, generando un crucigrama con casillas horizontales y verticales numeradas, listo para imprimir o resolver en pantalla.",
+    "howToUse": [
+      "Escribe cada palabra con su pista, en el formato PALABRA: pista, una por línea",
+      "Elige el tamaño de la cuadrícula",
+      "Pulsa \"Reorganizar\" si quieres una disposición distinta",
+      "Activa \"Mostrar respuestas\" para ver las letras, o imprime el crucigrama en blanco para resolverlo"
+    ],
+    "benefits": [
+      "Genera un crucigrama personalizado con tus propias palabras y pistas",
+      "Conecta automáticamente las palabras que comparten letras, como un crucigrama real",
+      "Numera las pistas horizontales y verticales por separado",
+      "Lista para imprimir directamente desde el navegador",
+      "Gratis, sin registro y funciona directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se conectan las palabras en un crucigrama?",
+        "body": "Un crucigrama conecta sus palabras aprovechando las letras que tienen en común: si dos palabras comparten una letra, pueden cruzarse en esa posición, una en horizontal y la otra en vertical. Esta herramienta busca automáticamente esas coincidencias entre las palabras que introduces y las coloca de forma que se entrelacen, igual que en un crucigrama tradicional."
+      },
+      {
+        "title": "¿Qué pasa si una palabra no se puede conectar?",
+        "body": "Si una palabra no comparte ninguna letra con las demás palabras de la lista, no podrá conectarse al resto del crucigrama y la herramienta te avisará. Para evitarlo, intenta incluir palabras relacionadas por temática, que suelen compartir letras con más frecuencia, o ajusta manualmente tu lista de palabras."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo escribo las palabras y pistas?",
+        "answer": "Escribe cada palabra seguida de dos puntos y su pista, por ejemplo: \"SOL: Astro que ilumina el día\". Cada palabra con su pista debe ir en una línea distinta."
+      },
+      {
+        "question": "¿Puedo imprimir el crucigrama para resolverlo en papel?",
+        "answer": "Sí, pulsa el botón \"Imprimir\" para abrir el diálogo de impresión de tu navegador con el crucigrama listo para resolver en papel."
+      },
+      {
+        "question": "¿Por qué mi crucigrama sale distinto cada vez?",
+        "answer": "El algoritmo prueba distintas combinaciones de posición para conectar las palabras; si pulsas \"Reorganizar\", puede encontrar una disposición distinta pero igualmente válida, especialmente útil si quieres una versión más compacta."
+      },
+      {
+        "question": "¿Es gratis este generador de crucigramas?",
+        "answer": "Sí, es completamente gratuito, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "sopa-de-letras",
+      "calculo-mental",
+      "contador-palabras"
+    ]
+  },
+  {
+    "slug": "generador-de-nombres-para-free-fire",
+    "name": "Generador de Nombres para Free Fire",
+    "shortName": "Nombres Free Fire",
+    "category": "generadores",
+    "metaTitle": "Generador de Nombres para Free Fire Online Gratis | Nicks Únicos",
+    "metaDescription": "Genera nombres y nicks únicos para Free Fire, con símbolos decorativos y estilo gamer. Copia con un clic. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "EntertainmentApplication",
+    "intro": "Genera ideas de nombres y apodos (nicks) para tu perfil de Free Fire, combinando palabras de estilo gamer, símbolos decorativos y números, o personalízalo a partir de tu propio nombre. Copia el resultado con un clic y úsalo directamente en el juego.",
+    "howToUse": [
+      "Escribe tu nombre base, o déjalo vacío para generar uno totalmente aleatorio",
+      "Elige si quieres añadir símbolos decorativos, un número, o combinar dos palabras",
+      "Pulsa \"Generar nombres\" para ver 10 opciones",
+      "Pulsa sobre el nombre que más te guste para copiarlo"
+    ],
+    "benefits": [
+      "Genera 10 nombres distintos de un solo clic",
+      "Incluye símbolos decorativos populares en nombres de gamers",
+      "Permite personalizar a partir de tu propio nombre o generar uno aleatorio",
+      "Copia cada nombre al portapapeles con un clic",
+      "Gratis, sin registro y funciona directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Qué hace único a un buen nombre de Free Fire?",
+        "body": "Los nicks más llamativos en Free Fire suelen combinar una palabra con estilo (relacionada con fuerza, misterio o velocidad), símbolos decorativos poco comunes que hacen que destaque visualmente, y a veces un número que lo hace único y evita que ya esté ocupado por otro jugador."
+      },
+      {
+        "title": "¿Free Fire acepta símbolos especiales en el nombre?",
+        "body": "Sí, Free Fire permite usar una variedad de símbolos Unicode y caracteres especiales en el nombre del jugador, lo que ha popularizado el uso de decoraciones como ✿, ⚡ o 亗 en los nicks. Ten en cuenta que el juego puede tener un límite de caracteres para el nombre, así que revisa que tu elección no lo supere."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo usar mi propio nombre con esta herramienta?",
+        "answer": "Sí, escribe tu nombre o apodo en el campo correspondiente y la herramienta lo combinará con símbolos decorativos y/o un número, según las opciones que elijas, en lugar de generar una palabra aleatoria."
+      },
+      {
+        "question": "¿Por qué mi nombre generado no funciona en el juego?",
+        "answer": "Es posible que ese nombre ya esté en uso por otro jugador, o que contenga más caracteres de los permitidos por Free Fire. Prueba a generar otro nombre o a acortarlo ligeramente."
+      },
+      {
+        "question": "¿Estos nombres sirven también para otros juegos?",
+        "answer": "Sí, aunque están pensados con un estilo popular en Free Fire, funcionan igual de bien como nick en cualquier otro videojuego o red social que acepte símbolos Unicode en el nombre de usuario."
+      },
+      {
+        "question": "¿Es gratis este generador de nombres?",
+        "answer": "Sí, es completamente gratuito, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "generador-nombres",
+      "tipografia-para-instagram",
+      "generador-de-letras-grandes"
     ]
   }
 ]
