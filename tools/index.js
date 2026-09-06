@@ -71,6 +71,11 @@ import GeneradorDeLetrasGrandes from './generador-de-letras-grandes'
 import GeneradorCodigoDeBarras from './generador-codigo-de-barras'
 import GeneradorDeCrucigramas from './generador-de-crucigramas'
 import GeneradorDeNombresParaFreeFire from './generador-de-nombres-para-free-fire'
+import GeneradorDeLinkDeWhatsapp from './generador-de-link-de-whatsapp'
+import CalculadoraEngagementInstagram from './calculadora-engagement-instagram'
+import CalculadorDeHorarios from './calculador-de-horarios'
+import HexadecimalATexto from './hexadecimal-a-texto'
+import RuletaAleatoriaOnline from './ruleta-aleatoria-online'
 
 // Registry: add new tools here as { slug: Component }
 export const toolComponents = {
@@ -147,4 +152,9 @@ export const toolComponents = {
   'generador-codigo-de-barras': GeneradorCodigoDeBarras,
   'generador-de-crucigramas': GeneradorDeCrucigramas,
   'generador-de-nombres-para-free-fire': GeneradorDeNombresParaFreeFire,
+  'generador-de-link-de-whatsapp': GeneradorDeLinkDeWhatsapp,
+  'calculadora-engagement-instagram': CalculadoraEngagementInstagram,
+  'calculador-de-horarios': CalculadorDeHorarios,
+  'hexadecimal-a-texto': HexadecimalATexto,
+  'ruleta-aleatoria-online': RuletaAleatoriaOnline,
 }

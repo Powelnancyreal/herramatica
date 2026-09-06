@@ -410,7 +410,8 @@
       "convertidor-imagenes",
       "imagenes-a-pdf",
       "generador-de-letras-grandes",
-      "generador-codigo-de-barras"
+      "generador-codigo-de-barras",
+      "generador-de-link-de-whatsapp"
     ]
   },
   {
@@ -485,7 +486,8 @@
       "calcular-velocidad-distancia-tiempo",
       "calcular-ritmo",
       "cronometro-online",
-      "calculadora-ciclos-sueno"
+      "calculadora-ciclos-sueno",
+      "calculador-de-horarios"
     ]
   },
   {
@@ -569,7 +571,8 @@
       "celsius-a-fahrenheit",
       "arroba-a-kilos",
       "calculadora-calculos-combinados",
-      "calculadora-resistencias"
+      "calculadora-resistencias",
+      "hexadecimal-a-texto"
     ]
   },
   {
@@ -868,7 +871,8 @@
       "calculadora-edad",
       "calculadora-horas",
       "calculadora-propinas",
-      "calculadora-embarazo"
+      "calculadora-embarazo",
+      "calculador-de-horarios"
     ]
   },
   {
@@ -1014,7 +1018,8 @@
       "calculadora-del-amor",
       "cronometro-online",
       "sopa-de-letras",
-      "generador-de-crucigramas"
+      "generador-de-crucigramas",
+      "ruleta-aleatoria-online"
     ]
   },
   {
@@ -1156,7 +1161,8 @@
       "calculadora-alquiler-argentina",
       "calculadora-interes-compuesto",
       "calculadora-sueldo-neto-argentina",
-      "calculadora-calculos-combinados"
+      "calculadora-calculos-combinados",
+      "calculadora-engagement-instagram"
     ]
   },
   {
@@ -1334,7 +1340,8 @@
       "palabras-al-reves",
       "calculadora-tiempo-lectura",
       "sopa-de-letras",
-      "generador-de-crucigramas"
+      "generador-de-crucigramas",
+      "calculadora-engagement-instagram"
     ]
   },
   {
@@ -1466,7 +1473,7 @@
     "shortName": "Convertidor Unidades",
     "category": "convertidores",
     "metaTitle": "Convertidor de Unidades Online Gratis | Longitud, Peso, Presión y Más",
-    "metaDescription": "Convierte entre unidades de longitud, peso, temperatura, volumen, velocidad, área, presión y potencia al instante. Sistema métrico e imperial. Gratis y sin registro.",
+    "metaDescription": "Convertidor de medidas y unidades: longitud, peso, temperatura, volumen, velocidad, área, presión y potencia al instante. Sistema métrico e imperial. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte entre las unidades de medida más habituales del sistema métrico e imperial: longitud, peso, temperatura, volumen, velocidad, área, presión y potencia. Elige la categoría, selecciona la unidad de origen y destino, e introduce el valor para obtener el resultado al instante.",
@@ -1518,6 +1525,10 @@
       {
         "question": "¿Cuántos PSI son un bar?",
         "answer": "1 bar equivale aproximadamente a 14.5 PSI. Esta equivalencia es muy usada para convertir la presión recomendada de neumáticos entre las especificaciones europeas (en bar) y las estadounidenses (en PSI)."
+      },
+      {
+        "question": "¿Es lo mismo un \"conversor de medidas\" que un \"convertidor de unidades\"?",
+        "answer": "Sí, ambos términos se usan indistintamente para referirse a la misma herramienta: convertir una cantidad expresada en una unidad de medida (como metros, kilos o litros) a su equivalente en otra unidad."
       },
       {
         "question": "¿Es gratis este convertidor de unidades?",
@@ -1596,7 +1607,8 @@
       "calculadora-del-amor",
       "tipografia-para-instagram",
       "sopa-de-letras",
-      "generador-de-nombres-para-free-fire"
+      "generador-de-nombres-para-free-fire",
+      "ruleta-aleatoria-online"
     ]
   },
   {
@@ -1876,7 +1888,8 @@
       "texto-invisible",
       "palabras-al-reves",
       "tipografia-para-instagram",
-      "calculadora-tiempo-lectura"
+      "calculadora-tiempo-lectura",
+      "generador-de-link-de-whatsapp"
     ]
   },
   {
@@ -1929,7 +1942,8 @@
       "calculadora-cientifica",
       "convertidor-numeros-a-letras",
       "calcular-hexadecimal-a-decimal",
-      "calculadora-resistencias"
+      "calculadora-resistencias",
+      "hexadecimal-a-texto"
     ]
   },
   {
@@ -2637,7 +2651,8 @@
       "convertidor-binario",
       "calculadora-cientifica",
       "calculadora-resistencias",
-      "generador-codigo-de-barras"
+      "generador-codigo-de-barras",
+      "hexadecimal-a-texto"
     ]
   },
   {
@@ -2955,7 +2970,8 @@
     "relatedTools": [
       "calcular-ritmo",
       "calculadora-horas",
-      "calculo-mental"
+      "calculo-mental",
+      "calculador-de-horarios"
     ]
   },
   {
@@ -3250,7 +3266,8 @@
       "convertidor-mayusculas-minusculas",
       "generador-nombres",
       "generador-de-letras-grandes",
-      "generador-de-nombres-para-free-fire"
+      "generador-de-nombres-para-free-fire",
+      "calculadora-engagement-instagram"
     ]
   },
   {
@@ -4334,7 +4351,8 @@
       "generador-nombres",
       "contador-palabras",
       "generador-de-letras-grandes",
-      "generador-de-crucigramas"
+      "generador-de-crucigramas",
+      "ruleta-aleatoria-online"
     ]
   },
   {
@@ -4563,7 +4581,292 @@
     "relatedTools": [
       "generador-nombres",
       "tipografia-para-instagram",
-      "generador-de-letras-grandes"
+      "generador-de-letras-grandes",
+      "generador-de-link-de-whatsapp"
+    ]
+  },
+  {
+    "slug": "generador-de-link-de-whatsapp",
+    "name": "Generador de Link de WhatsApp",
+    "shortName": "Link de WhatsApp",
+    "category": "generadores",
+    "metaTitle": "Generador de Link de WhatsApp Online Gratis | wa.me con Mensaje",
+    "metaDescription": "Genera un enlace directo de WhatsApp (wa.me) con mensaje predefinido, sin necesidad de guardar el número. Gratis, sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Genera un enlace directo de WhatsApp (wa.me) a partir de un número de teléfono, con un mensaje predefinido opcional. Al hacer clic en el enlace, se abre una conversación de WhatsApp con ese número, sin necesidad de tenerlo guardado en los contactos. Ideal para botones de \"Contáctanos por WhatsApp\" en tu sitio web, biografías de redes sociales o firmas de correo.",
+    "howToUse": [
+      "Introduce el número de WhatsApp, con código de país y sin el símbolo +",
+      "Opcionalmente, escribe un mensaje que aparecerá ya escrito al abrir el chat",
+      "Copia el enlace generado, o pulsa \"Probar enlace\" para comprobarlo"
+    ],
+    "benefits": [
+      "Genera el enlace al instante mientras escribes",
+      "Permite incluir un mensaje predefinido, codificado correctamente para la URL",
+      "Funciona sin necesidad de tener el número guardado en tus contactos",
+      "Incluye un botón para probar el enlace directamente",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo funciona un enlace wa.me?",
+        "body": "Un enlace con el formato https://wa.me/[número] es un enlace oficial de WhatsApp que, al abrirse, inicia una conversación con ese número específico, tanto desde el móvil como desde WhatsApp Web en el ordenador, sin necesidad de que el número esté guardado en tu agenda de contactos. Si se añade el parámetro ?text=, el mensaje indicado aparece ya escrito en el cuadro de texto, listo para enviar."
+      },
+      {
+        "title": "¿Dónde se usa este tipo de enlace?",
+        "body": "Los enlaces de WhatsApp con mensaje predefinido son muy usados en botones de contacto de páginas web (\"Escríbenos por WhatsApp\"), en la biografía de Instagram o TikTok de negocios, en firmas de correo electrónico, o en tarjetas de presentación digitales, ya que facilitan que un cliente potencial inicie la conversación sin tener que escribir el número manualmente."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo debo escribir el número de teléfono?",
+        "answer": "Escribe el número completo con el código de país, sin el símbolo +, sin espacios ni guiones. Por ejemplo, para un número de México sería 52 seguido del número a 10 dígitos, y para España sería 34 seguido del número a 9 dígitos."
+      },
+      {
+        "question": "¿El destinatario necesita tener mi número guardado para que funcione?",
+        "answer": "No. El enlace wa.me abre directamente una conversación con el número indicado, sin que la persona que hace clic necesite tenerlo guardado como contacto."
+      },
+      {
+        "question": "¿Puedo usar este enlace en un botón de mi sitio web?",
+        "answer": "Sí, puedes usar el enlace generado como el destino (href) de un botón o enlace en tu página web, para que los visitantes puedan escribirte por WhatsApp con un solo clic."
+      },
+      {
+        "question": "¿Es gratis este generador de enlaces de WhatsApp?",
+        "answer": "Sí, es completamente gratuito, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "generador-qr",
+      "generador-de-nombres-para-free-fire",
+      "convertidor-mayusculas-minusculas"
+    ]
+  },
+  {
+    "slug": "calculadora-engagement-instagram",
+    "name": "Calculadora de Engagement de Instagram",
+    "shortName": "Engagement Instagram",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Engagement de Instagram Online Gratis | Tasa de Interacción",
+    "metaDescription": "Calcula tu tasa de engagement de Instagram por publicación o el promedio de varias publicaciones, a partir de tus seguidores, likes y comentarios. Gratis.",
+    "webApp": true,
+    "appCategory": "BusinessApplication",
+    "intro": "Calcula la tasa de engagement (interacción) de una cuenta de Instagram, ya sea para una publicación concreta o como promedio de varias publicaciones. El engagement rate es una de las métricas más usadas para medir qué tan activa e interesada está tu audiencia, más allá del simple número de seguidores.",
+    "howToUse": [
+      "Elige si quieres calcular el engagement de una sola publicación o el promedio de varias",
+      "Introduce tus seguidores totales",
+      "Introduce los likes y comentarios (y opcionalmente guardados y compartidos) de la publicación",
+      "Consulta tu tasa de engagement y su nivel de referencia (bajo, promedio, alto o excelente)"
+    ],
+    "benefits": [
+      "Calcula el engagement de una publicación individual o el promedio de varias a la vez",
+      "Incluye guardados y compartidos además de likes y comentarios, para un cálculo más completo",
+      "Clasifica el resultado según rangos de referencia habituales en marketing digital",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calcula el engagement rate de Instagram?",
+        "body": "La fórmula más habitual es: Engagement Rate = (Likes + Comentarios + Guardados + Compartidos) ÷ Seguidores × 100. Por ejemplo, una cuenta con 10,000 seguidores y una publicación con 450 likes y 30 comentarios tiene una tasa de engagement de (480 ÷ 10,000) × 100 = 4.8%. Esta variante, calculada sobre el total de seguidores, es la más usada para comparar el rendimiento entre publicaciones de una misma cuenta a lo largo del tiempo."
+      },
+      {
+        "title": "¿Qué se considera una buena tasa de engagement?",
+        "body": "Como referencia general en marketing digital: por debajo del 1% se considera bajo, entre 1% y 3.5% es un promedio saludable para la mayoría de las cuentas, entre 3.5% y 6% se considera alto, y por encima del 6% es excelente. Sin embargo, estos rangos son orientativos: cuentas más pequeñas y nichos muy específicos suelen tener tasas de engagement más altas que cuentas grandes y generalistas, por lo que conviene comparar tu tasa con cuentas similares a la tuya, no con estos rangos de forma absoluta."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo calculo el engagement rate de una publicación de Instagram?",
+        "answer": "Suma los likes, comentarios, guardados y compartidos de la publicación, divide ese total entre tus seguidores totales, y multiplica por 100. El resultado es tu tasa de engagement en porcentaje para esa publicación."
+      },
+      {
+        "question": "¿Por qué mi tasa de engagement baja cuando gano más seguidores?",
+        "answer": "Es un fenómeno muy común: al crecer el número de seguidores, no todos interactúan activamente con cada publicación, por lo que el porcentaje de engagement respecto al total de seguidores tiende a disminuir, aunque el número absoluto de likes y comentarios aumente. Por eso muchas cuentas grandes tienen tasas de engagement más bajas que cuentas pequeñas y muy activas."
+      },
+      {
+        "question": "¿Debería calcular el engagement sobre seguidores o sobre alcance?",
+        "answer": "Ambas son válidas para distintos fines: el engagement sobre seguidores (usado en esta calculadora) es más fácil de calcular y comparar en el tiempo, mientras que el engagement sobre alcance o impresiones refleja mejor qué porcentaje de las personas que realmente vieron la publicación interactuaron con ella, un dato solo disponible en las estadísticas internas de Instagram."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de engagement de Instagram?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "tipografia-para-instagram",
+      "calculadora-porcentaje",
+      "contador-palabras"
+    ]
+  },
+  {
+    "slug": "calculador-de-horarios",
+    "name": "Calculador de Horarios",
+    "shortName": "Horarios",
+    "category": "calculadoras",
+    "metaTitle": "Calculador de Horarios Online Gratis | Horario Semanal para Imprimir",
+    "metaDescription": "Crea tu horario semanal personalizado: clases, turnos de trabajo o rutina. Elige días, horas y colores, e imprime gratis, sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Crea tu propio horario semanal, ya sea para organizar tus clases, tus turnos de trabajo o tu rutina personal. Elige el rango de horas, los días que quieres mostrar, y rellena cada casilla con la actividad y el color que prefieras. Ideal para imprimir y pegar donde lo necesites.",
+    "howToUse": [
+      "Elige la hora de inicio y de fin, y el intervalo entre franjas horarias",
+      "Selecciona los días que quieres incluir en tu horario",
+      "Haz clic en cualquier casilla para escribir una actividad y elegir un color",
+      "Pulsa \"Imprimir horario\" cuando esté listo"
+    ],
+    "benefits": [
+      "Personaliza el rango de horas, el intervalo y los días de tu horario",
+      "Asigna un color distinto a cada tipo de actividad, para identificarlas de un vistazo",
+      "Funciona igual de bien para horarios de clases, turnos de trabajo o rutinas personales",
+      "Listo para imprimir directamente desde el navegador",
+      "Gratis, sin registro y funciona directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Para qué se usa un horario semanal?",
+        "body": "Un horario semanal visual ayuda a organizar de un vistazo las actividades recurrentes de la semana: el horario de clases de un estudiante, los turnos rotativos de un trabajo, una rutina de entrenamiento, o simplemente la planificación semanal de tareas domésticas y personales. Visualizar todas las actividades en una sola cuadrícula facilita detectar huecos libres o solapamientos entre actividades."
+      },
+      {
+        "title": "Consejos para organizar tu horario por colores",
+        "body": "Asignar un color distinto a cada categoría de actividad (por ejemplo, azul para trabajo, verde para estudio, rosa para tiempo libre) hace que el horario sea mucho más fácil de leer de un vistazo, sin necesidad de leer el texto de cada casilla. Esta técnica, muy usada en agendas y planificadores, ayuda especialmente a detectar de un vistazo si un día está sobrecargado de un tipo de actividad."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Puedo usar este horario para organizar turnos de trabajo?",
+        "answer": "Sí, esta herramienta funciona igual de bien para horarios de clases que para turnos de trabajo rotativos: simplemente ajusta el rango de horas y los días según tus turnos, y usa colores distintos para diferenciar cada tipo de turno."
+      },
+      {
+        "question": "¿Cómo cambio el color de una actividad ya creada?",
+        "answer": "Haz clic de nuevo sobre la casilla que quieres modificar, elige un nuevo color en el selector, y pulsa \"Guardar\" para actualizarla."
+      },
+      {
+        "question": "¿Puedo imprimir el horario en papel?",
+        "answer": "Sí, pulsa el botón \"Imprimir horario\" para abrir el diálogo de impresión de tu navegador con el horario listo para imprimir."
+      },
+      {
+        "question": "¿Es gratis este calculador de horarios?",
+        "answer": "Sí, es completamente gratuito, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-horas",
+      "calculadora-dias",
+      "cronometro-online"
+    ]
+  },
+  {
+    "slug": "hexadecimal-a-texto",
+    "name": "Convertidor de Hexadecimal a Texto",
+    "shortName": "Hex a Texto",
+    "category": "convertidores",
+    "metaTitle": "Convertidor de Hexadecimal a Texto Online Gratis | HEX a ASCII/UTF-8",
+    "metaDescription": "Convierte código hexadecimal a texto legible (y de texto a hexadecimal), compatible con tildes y ñ mediante UTF-8. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Convierte una cadena de códigos hexadecimales a texto legible, interpretando cada par de dígitos hexadecimales como un byte de texto codificado en UTF-8 (compatible con tildes y la letra ñ). También puedes hacer la conversión inversa: de texto a su representación en hexadecimal.",
+    "howToUse": [
+      "Elige la dirección: \"Hexadecimal → Texto\" o \"Texto → Hexadecimal\"",
+      "Pega el código hexadecimal (con o sin espacios entre bytes) o escribe tu texto",
+      "El resultado se muestra al instante",
+      "Si el hexadecimal no es válido o no forma texto UTF-8 correcto, se indica el error"
+    ],
+    "benefits": [
+      "Convierte en ambos sentidos: hexadecimal a texto y texto a hexadecimal",
+      "Compatible con UTF-8, por lo que decodifica correctamente tildes, la ñ y otros caracteres especiales",
+      "Acepta el hexadecimal con o sin espacios entre bytes",
+      "Detecta y explica errores de formato en lugar de mostrar texto corrupto",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿En qué se diferencia esto de convertir hexadecimal a decimal?",
+        "body": "Convertir hexadecimal a decimal transforma un número escrito en base 16 a su valor equivalente en base 10 (por ejemplo, 1F4 hexadecimal es 500 en decimal): es una conversión numérica. Convertir hexadecimal a texto, en cambio, interpreta cada par de dígitos hexadecimales como el código de un carácter (por ejemplo, 48 es la letra \"H\"), reconstruyendo una cadena de texto legible a partir de esos códigos, no un número."
+      },
+      {
+        "title": "¿Por qué es importante la codificación UTF-8?",
+        "body": "En UTF-8, los caracteres básicos del inglés (letras sin tilde, números) ocupan un solo byte, pero caracteres como la ñ, las vocales con tilde o los emojis pueden ocupar dos o más bytes. Por eso, decodificar hexadecimal a texto correctamente requiere interpretar los bytes según las reglas de UTF-8, en lugar de asumir que cada byte es siempre un carácter simple; esta calculadora aplica esa interpretación correctamente."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo convierto un código hexadecimal a texto?",
+        "answer": "Divide el código en pares de dos dígitos hexadecimales (cada par representa un byte), y decodifica esos bytes como texto UTF-8. Por ejemplo, \"48 65 6c 6c 6f\" se decodifica como \"Hello\". Esta calculadora lo hace automáticamente al pegar el código."
+      },
+      {
+        "question": "¿Por qué me da error si mi código hexadecimal tiene un número impar de dígitos?",
+        "answer": "Porque cada carácter necesita al menos un byte completo, y un byte se representa siempre con exactamente dos dígitos hexadecimales. Un número impar de dígitos significa que falta uno para completar el último byte, y por eso no se puede decodificar correctamente."
+      },
+      {
+        "question": "¿Esta herramienta admite tildes y la letra ñ?",
+        "answer": "Sí, tanto al convertir de hexadecimal a texto como de texto a hexadecimal, esta herramienta usa la codificación UTF-8, que representa correctamente las tildes, la ñ y otros caracteres especiales del español."
+      },
+      {
+        "question": "¿Es gratis este convertidor de hexadecimal a texto?",
+        "answer": "Sí, es completamente gratuito, sin límite de conversiones y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calcular-hexadecimal-a-decimal",
+      "convertidor-binario",
+      "calculadora-cientifica"
+    ]
+  },
+  {
+    "slug": "ruleta-aleatoria-online",
+    "name": "Ruleta Aleatoria Online",
+    "shortName": "Ruleta Aleatoria",
+    "category": "juegos",
+    "metaTitle": "Ruleta Aleatoria Online Gratis | Elige al Azar entre tus Opciones",
+    "metaDescription": "Crea tu ruleta aleatoria con tus propias opciones y gira para elegir una al azar. Ideal para sorteos, decisiones o clases. Gratis, sin registro.",
+    "webApp": true,
+    "appCategory": "EntertainmentApplication",
+    "intro": "Crea una ruleta personalizada con tus propias opciones (nombres, comidas, actividades, premios, o lo que necesites) y gírala para elegir una al azar. Útil para tomar decisiones, hacer sorteos, elegir al azar en clase, o simplemente para divertirte con amigos.",
+    "howToUse": [
+      "Escribe tus opciones, una por línea, en el cuadro de texto",
+      "Activa \"Eliminar la opción ganadora\" si quieres usar la ruleta para varias rondas sin repetir",
+      "Pulsa \"Girar\" y espera a que la ruleta se detenga",
+      "El resultado se muestra debajo de la ruleta"
+    ],
+    "benefits": [
+      "Admite cualquier número de opciones personalizadas",
+      "Selección verdaderamente aleatoria en cada giro",
+      "Opción de eliminar la ganadora tras cada ronda, ideal para sorteos con varios premios",
+      "Animación de giro realista con desaceleración",
+      "Gratis, sin registro y funciona directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Para qué se usa una ruleta aleatoria?",
+        "body": "Una ruleta aleatoria (o \"rueda de la fortuna\" para decisiones) es una forma visual y entretenida de elegir una opción al azar entre varias, sin sesgos ni preferencias. Es muy usada para hacer sorteos entre varios participantes, decidir quién empieza un juego, elegir un lugar para comer entre varias opciones, sortear premios en redes sociales, o elegir al azar a un alumno en clase."
+      },
+      {
+        "title": "¿Cómo se garantiza que el resultado sea aleatorio?",
+        "body": "Esta herramienta elige la opción ganadora usando el generador de números aleatorios del navegador antes de iniciar la animación de giro; la animación visual simplemente representa ese resultado ya determinado, girando varias vueltas completas antes de detenerse exactamente en la opción elegida. Todas las opciones tienen la misma probabilidad de salir, sin importar su posición en la ruleta."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuántas opciones puedo añadir a la ruleta?",
+        "answer": "No hay un límite estricto, pero con muchas opciones el texto de cada segmento se hace más pequeño y difícil de leer. Para la mayoría de usos, entre 2 y 15 opciones ofrece el mejor equilibrio entre variedad y legibilidad."
+      },
+      {
+        "question": "¿Todas las opciones tienen la misma probabilidad de salir?",
+        "answer": "Sí, cada opción ocupa un segmento de igual tamaño en la ruleta y tiene exactamente la misma probabilidad de resultar elegida, sin importar el orden en que la escribas."
+      },
+      {
+        "question": "¿Puedo usar esta ruleta para sortear varios premios sin repetir ganador?",
+        "answer": "Sí, activa la opción \"Eliminar la opción ganadora después de cada giro\" antes de empezar. Así, cada vez que gires la ruleta, la opción ganadora se retirará automáticamente de la lista para la siguiente ronda."
+      },
+      {
+        "question": "¿Es gratis esta ruleta aleatoria online?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "generador-nombres",
+      "calculo-mental",
+      "sopa-de-letras"
     ]
   }
 ]
