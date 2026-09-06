@@ -102,7 +102,8 @@
       "calculo-mental",
       "calculadora-apiretal",
       "calculadora-embarazo",
-      "calculadora-peso-ideal"
+      "calculadora-peso-ideal",
+      "indice-de-barthel"
     ]
   },
   {
@@ -263,7 +264,9 @@
       "calculadora-calorias",
       "calculadora-embarazo",
       "calculadora-peso-ideal",
-      "calculadora-ciclos-sueno"
+      "calculadora-ciclos-sueno",
+      "calculadora-ldl",
+      "calculadora-pafi"
     ]
   },
   {
@@ -574,7 +577,9 @@
       "calculadora-resistencias",
       "hexadecimal-a-texto",
       "calculadora-de-matrices",
-      "calculadora-de-ecuaciones"
+      "calculadora-de-ecuaciones",
+      "calculadora-ip",
+      "calculadora-derivadas-integrales"
     ]
   },
   {
@@ -1171,7 +1176,8 @@
       "calculadora-promedio-ponderado",
       "calculadora-de-igv",
       "calcular-detraccion",
-      "calculadora-precios-influencers-tiktok"
+      "calculadora-precios-influencers-tiktok",
+      "calculadora-regla-de-tres"
     ]
   },
   {
@@ -1841,7 +1847,8 @@
       "convertidor-numeros-a-letras",
       "calculadora-calculos-combinados",
       "calculadora-promedio-ponderado",
-      "calculadora-de-matrices"
+      "calculadora-de-matrices",
+      "calculadora-regla-de-tres"
     ]
   },
   {
@@ -1954,7 +1961,8 @@
       "convertidor-numeros-a-letras",
       "calcular-hexadecimal-a-decimal",
       "calculadora-resistencias",
-      "hexadecimal-a-texto"
+      "hexadecimal-a-texto",
+      "calculadora-ip"
     ]
   },
   {
@@ -2663,7 +2671,8 @@
       "calculadora-cientifica",
       "calculadora-resistencias",
       "generador-codigo-de-barras",
-      "hexadecimal-a-texto"
+      "hexadecimal-a-texto",
+      "calculadora-ip"
     ]
   },
   {
@@ -3509,7 +3518,8 @@
     "relatedTools": [
       "calcular-sac-argentina",
       "calculadora-sueldo-neto-argentina",
-      "calculadora-finiquito"
+      "calculadora-finiquito",
+      "calculadora-liquidacion-laboral-colombia"
     ]
   },
   {
@@ -3684,7 +3694,8 @@
     "relatedTools": [
       "calculadora-interes-compuesto",
       "calculadora-alquiler-argentina",
-      "convertidor-moneda"
+      "convertidor-moneda",
+      "calculadora-cdt"
     ]
   },
   {
@@ -3742,7 +3753,8 @@
       "calculadora-plazo-fijo",
       "calculadora-prestamo",
       "calculadora-porcentaje",
-      "calculadora-alquiler-argentina"
+      "calculadora-alquiler-argentina",
+      "calculadora-cdt"
     ]
   },
   {
@@ -3800,7 +3812,8 @@
       "calcular-indemnizacion-despido",
       "calculadora-porcentaje",
       "calculadora-alquiler-argentina",
-      "calculadora-cts-peru"
+      "calculadora-cts-peru",
+      "calculadora-seguridad-social-colombia"
     ]
   },
   {
@@ -3969,7 +3982,8 @@
       "calculadora-cientifica",
       "convertidor-fracciones",
       "calculadora-porcentaje",
-      "calculadora-de-ecuaciones"
+      "calculadora-de-ecuaciones",
+      "calculadora-derivadas-integrales"
     ]
   },
   {
@@ -4083,7 +4097,8 @@
     "relatedTools": [
       "calcular-imc",
       "calculadora-peso-ideal",
-      "calculadora-ciclos-sueno"
+      "calculadora-ciclos-sueno",
+      "calculadora-ldl"
     ]
   },
   {
@@ -4996,7 +5011,8 @@
       "calcular-gratificacion-peru",
       "calculadora-de-igv",
       "calculadora-sueldo-neto-argentina",
-      "calcular-detraccion"
+      "calcular-detraccion",
+      "calculadora-liquidacion-laboral-colombia"
     ]
   },
   {
@@ -5280,7 +5296,9 @@
     "relatedTools": [
       "calculadora-de-matrices",
       "calculadora-cientifica",
-      "calculadora-calculos-combinados"
+      "calculadora-calculos-combinados",
+      "calculadora-de-pendiente",
+      "calculadora-derivadas-integrales"
     ]
   },
   {
@@ -5338,6 +5356,566 @@
       "calculadora-engagement-instagram",
       "tipografia-para-instagram",
       "calculadora-porcentaje"
+    ]
+  },
+  {
+    "slug": "calculadora-ip",
+    "name": "Calculadora IP y de Subredes",
+    "shortName": "Calculadora IP",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora IP y Subredes Online Gratis | CIDR, Máscara y Broadcast",
+    "metaDescription": "Calcula la dirección de red, máscara, broadcast y hosts disponibles a partir de una IP y un prefijo CIDR. Gratis, sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Calcula todos los datos de una subred IPv4 a partir de una dirección IP y su prefijo CIDR (máscara de subred): dirección de red, dirección de broadcast, máscara en formato decimal, rango de hosts utilizables y el total de direcciones disponibles.",
+    "howToUse": [
+      "Introduce una dirección IP (formato IPv4, ej: 192.168.1.10)",
+      "Introduce el prefijo CIDR (por ejemplo, 24 para una máscara /24)",
+      "Consulta todos los datos de la subred al instante"
+    ],
+    "benefits": [
+      "Calcula dirección de red, broadcast, máscara y rango de hosts en un solo paso",
+      "Admite cualquier prefijo CIDR de /0 a /32",
+      "Muestra el total de direcciones y los hosts realmente utilizables",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Qué es la notación CIDR?",
+        "body": "La notación CIDR (Classless Inter-Domain Routing) expresa la máscara de subred como un número después de una barra diagonal, indicando cuántos bits de la dirección IP corresponden a la red (por ejemplo, /24 equivale a la máscara 255.255.255.0). Cuantos más bits tenga el prefijo, más pequeña es la subred y menos hosts admite; cuantos menos bits, más grande es la subred."
+      },
+      {
+        "title": "¿Por qué el total de direcciones no coincide con los hosts utilizables?",
+        "body": "En cada subred, la primera dirección (dirección de red) y la última (dirección de broadcast) están reservadas y no pueden asignarse a un dispositivo, por lo que los hosts utilizables son siempre dos menos que el total de direcciones de la subred (excepto en subredes /31 y /32, usadas para casos especiales como enlaces punto a punto)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo calculo la dirección de red a partir de una IP y una máscara?",
+        "answer": "Se aplica una operación AND bit a bit entre la dirección IP y la máscara de subred. Esta calculadora lo hace automáticamente al introducir la IP y el prefijo CIDR."
+      },
+      {
+        "question": "¿Cuántos hosts admite una subred /24?",
+        "answer": "Una subred /24 tiene 256 direcciones en total, de las cuales 254 son utilizables para hosts (excluyendo la dirección de red y la de broadcast)."
+      },
+      {
+        "question": "¿Qué es la dirección de broadcast?",
+        "answer": "Es la última dirección de una subred, reservada para enviar datos a todos los dispositivos de esa subred simultáneamente, en lugar de a un solo host."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de IP y subredes?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calcular-hexadecimal-a-decimal",
+      "convertidor-binario",
+      "calculadora-cientifica"
+    ]
+  },
+  {
+    "slug": "calculadora-regla-de-tres",
+    "name": "Calculadora de Regla de Tres",
+    "shortName": "Regla de Tres",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Regla de Tres Online Gratis | Directa e Inversa",
+    "metaDescription": "Resuelve reglas de tres directas e inversas al instante: si A corresponde a B, cuánto corresponde a C. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Resuelve problemas de regla de tres (proporcionalidad), tanto directa como inversa. Introduce los tres valores conocidos y obtén el cuarto valor (la incógnita X) al instante.",
+    "howToUse": [
+      "Elige si la relación es directa (a más A, más B) o inversa (a más A, menos B)",
+      "Introduce los valores A, B y C",
+      "El valor de X se calcula al instante"
+    ],
+    "benefits": [
+      "Resuelve tanto regla de tres directa como inversa",
+      "Explica la diferencia entre ambos tipos para no confundirlos",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se resuelve una regla de tres directa?",
+        "body": "En una regla de tres directa, dos magnitudes son proporcionales: si A corresponde a B, y quieres saber qué corresponde a C, se calcula X = (B × C) ÷ A. Por ejemplo, si 2 kg de manzanas cuestan 10 pesos, 5 kg costarán (10×5)÷2 = 25 pesos."
+      },
+      {
+        "title": "¿Cómo se resuelve una regla de tres inversa?",
+        "body": "En una regla de tres inversa, cuando una magnitud aumenta, la otra disminuye en la misma proporción. Se calcula X = (A × B) ÷ C. Por ejemplo, si 4 obreros terminan una obra en 6 días, 8 obreros (el doble) la terminarán en (4×6)÷8 = 3 días (la mitad de tiempo)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo sé si debo usar regla de tres directa o inversa?",
+        "answer": "Usa la directa cuando ambas cantidades varían en el mismo sentido (si una aumenta, la otra también aumenta), como precio y cantidad. Usa la inversa cuando varían en sentido contrario (si una aumenta, la otra disminuye), como el número de trabajadores y el tiempo necesario para terminar una tarea."
+      },
+      {
+        "question": "¿Cuál es la fórmula de la regla de tres directa?",
+        "answer": "X = (B × C) ÷ A, donde A y B son la primera relación conocida, y C es el nuevo valor del que quieres encontrar su correspondiente X."
+      },
+      {
+        "question": "¿Cuál es la fórmula de la regla de tres inversa?",
+        "answer": "X = (A × B) ÷ C, la misma relación pero aplicada de forma inversa, ya que al aumentar C, X debe disminuir proporcionalmente."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de regla de tres?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-porcentaje",
+      "calculadora-de-pendiente",
+      "convertidor-fracciones"
+    ]
+  },
+  {
+    "slug": "calculadora-de-pendiente",
+    "name": "Calculadora de Pendiente",
+    "shortName": "Pendiente",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Pendiente Online Gratis | Entre Dos Puntos",
+    "metaDescription": "Calcula la pendiente de una recta a partir de dos puntos, y obtén su ecuación (y = mx + b) al instante. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Calcula la pendiente de una recta a partir de las coordenadas de dos puntos, junto con la ecuación completa de la recta en la forma y = mx + b.",
+    "howToUse": [
+      "Introduce las coordenadas (x, y) del primer punto",
+      "Introduce las coordenadas (x, y) del segundo punto",
+      "La pendiente y la ecuación de la recta se calculan al instante"
+    ],
+    "benefits": [
+      "Calcula la pendiente y la ecuación completa de la recta en un solo paso",
+      "Detecta y avisa cuando la recta es vertical (pendiente indefinida)",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calcula la pendiente entre dos puntos?",
+        "body": "La pendiente (m) de una recta que pasa por los puntos (x₁, y₁) y (x₂, y₂) se calcula como m = (y₂ − y₁) ÷ (x₂ − x₁), es decir, el cambio en y dividido entre el cambio en x. Una pendiente positiva indica que la recta sube de izquierda a derecha, una negativa indica que baja, y una pendiente de cero indica una recta horizontal."
+      },
+      {
+        "title": "¿Qué significa que la pendiente sea indefinida?",
+        "body": "Cuando los dos puntos tienen la misma coordenada x (x₁ = x₂), la recta que los une es vertical, y su pendiente es indefinida (matemáticamente, implicaría dividir entre cero). Una recta vertical no puede expresarse en la forma y = mx + b; se describe simplemente como x = un valor constante."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuál es la fórmula de la pendiente?",
+        "answer": "m = (y₂ − y₁) ÷ (x₂ − x₁), usando las coordenadas de dos puntos cualesquiera de la recta."
+      },
+      {
+        "question": "¿Cómo obtengo la ecuación completa de la recta a partir de la pendiente?",
+        "answer": "Una vez calculada la pendiente m, se despeja el término independiente b usando uno de los puntos conocidos: b = y₁ − m×x₁. La ecuación final es y = mx + b."
+      },
+      {
+        "question": "¿Qué indica una pendiente negativa?",
+        "answer": "Indica que la recta desciende de izquierda a derecha: a medida que x aumenta, y disminuye."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de pendiente?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-de-ecuaciones",
+      "calculadora-regla-de-tres",
+      "calculadora-derivadas-integrales"
+    ]
+  },
+  {
+    "slug": "calculadora-derivadas-integrales",
+    "name": "Calculadora de Derivadas, Integrales y Límites",
+    "shortName": "Derivadas e Integrales",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Derivadas e Integrales Online Gratis | Límites Numéricos",
+    "metaDescription": "Calcula límites, derivadas en un punto e integrales definidas de forma numérica. Admite sin(x), cos(x), sqrt(x), potencias y más. Gratis.",
+    "webApp": true,
+    "appCategory": "EducationApplication",
+    "intro": "Calcula límites, derivadas en un punto e integrales definidas de forma numérica (aproximada), a partir de cualquier función que escribas usando x como variable. Admite operaciones básicas, potencias, y funciones como sin(x), cos(x), tan(x), sqrt(x), ln(x) y exp(x).",
+    "howToUse": [
+      "Elige qué quieres calcular: límite, derivada en un punto, o integral definida",
+      "Escribe tu función usando x como variable (ej: x^2, sin(x), sqrt(x))",
+      "Introduce el punto o el intervalo correspondiente",
+      "El resultado numérico se calcula al instante"
+    ],
+    "benefits": [
+      "Calcula límites, derivadas e integrales en una sola herramienta",
+      "Admite funciones trigonométricas, raíces, logaritmos y exponenciales",
+      "Detecta cuando un límite lateral no coincide claramente",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Qué significa que el cálculo sea \"numérico\" y no \"simbólico\"?",
+        "body": "Un cálculo simbólico te daría la fórmula exacta de la derivada o la integral (por ejemplo, la derivada de x² es 2x). Un cálculo numérico, en cambio, evalúa el resultado como un número concreto en un punto o intervalo específico, usando aproximaciones matemáticas (diferencias finitas para derivadas, la regla de Simpson para integrales). Esta calculadora es numérica: te da el valor en un punto, no la fórmula general."
+      },
+      {
+        "title": "¿Cómo se aproximan las derivadas e integrales numéricamente?",
+        "body": "La derivada en un punto se aproxima calculando la función en dos puntos muy cercanos al punto de interés y midiendo la pendiente entre ellos (diferencias centrales). La integral definida se aproxima con la regla de Simpson, que divide el intervalo en muchos segmentos pequeños y ajusta una parábola a cada tramo, sumando sus áreas. Ambos métodos son extremadamente precisos para funciones continuas y bien comportadas."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta calculadora me da la fórmula de la derivada?",
+        "answer": "No, calcula el valor numérico de la derivada en un punto específico, no la expresión simbólica general. Por ejemplo, para f(x)=x³ en x=2, te da el número 12, no la fórmula 3x²."
+      },
+      {
+        "question": "¿Qué funciones puedo usar?",
+        "answer": "Puedes usar operaciones básicas (+, −, ×, ÷, ^), paréntesis, y las funciones sin(x), cos(x), tan(x), sqrt(x) (raíz cuadrada), ln(x) (logaritmo natural) y exp(x) (exponencial)."
+      },
+      {
+        "question": "¿Qué significa que un límite no exista?",
+        "answer": "Si los valores de la función al acercarse por la izquierda y por la derecha del punto son claramente distintos, el límite no existe en ese punto (o esta calculadora no puede aproximarlo con confianza), y se te avisa con un mensaje de advertencia."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de derivadas e integrales?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-calculos-combinados",
+      "calculadora-de-ecuaciones",
+      "calculadora-cientifica",
+      "calculadora-de-pendiente"
+    ]
+  },
+  {
+    "slug": "calculadora-ldl",
+    "name": "Calculadora de Colesterol LDL",
+    "shortName": "Colesterol LDL",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Colesterol LDL Online Gratis | Fórmula de Friedewald",
+    "metaDescription": "Calcula tu colesterol LDL a partir del colesterol total, HDL y triglicéridos, con la fórmula de Friedewald. Gratis, herramienta educativa.",
+    "webApp": true,
+    "appCategory": "HealthApplication",
+    "intro": "Calcula tu colesterol LDL (\"colesterol malo\") a partir de los valores de tu perfil lipídico: colesterol total, colesterol HDL y triglicéridos, usando la fórmula de Friedewald, el método más usado en laboratorios clínicos cuando no se mide el LDL directamente.",
+    "howToUse": [
+      "Introduce tu colesterol total (mg/dL)",
+      "Introduce tu colesterol HDL (mg/dL)",
+      "Introduce tus triglicéridos (mg/dL)",
+      "Tu LDL estimado y su categoría se calculan al instante"
+    ],
+    "benefits": [
+      "Usa la fórmula de Friedewald, el estándar en laboratorios clínicos",
+      "Clasifica el resultado según las categorías de referencia habituales",
+      "Advierte cuando la fórmula no es aplicable (triglicéridos muy altos)",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calcula el LDL con la fórmula de Friedewald?",
+        "body": "La fórmula es: LDL = Colesterol total − HDL − (Triglicéridos ÷ 5), con todos los valores en mg/dL. Esta fórmula estima el LDL sin necesidad de medirlo directamente, ya que se basa en la relación conocida entre los triglicéridos y el colesterol VLDL (que se aproxima como Triglicéridos÷5)."
+      },
+      {
+        "title": "¿Por qué la fórmula no funciona con triglicéridos muy altos?",
+        "body": "La fórmula de Friedewald asume una relación fija entre los triglicéridos y el colesterol VLDL que deja de ser válida cuando los triglicéridos superan los 400 mg/dL, produciendo estimaciones de LDL poco fiables. En esos casos, se requiere una medición directa de LDL en el laboratorio, en lugar de esta fórmula estimada."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuál es la fórmula para calcular el LDL?",
+        "answer": "LDL = Colesterol total − HDL − (Triglicéridos ÷ 5), conocida como fórmula de Friedewald, expresada en mg/dL."
+      },
+      {
+        "question": "¿Qué se considera un nivel de LDL saludable?",
+        "answer": "Como referencia general, menos de 100 mg/dL se considera óptimo, entre 100-129 casi óptimo, 130-159 límite alto, 160-189 alto, y 190 o más muy alto. Estos rangos son orientativos; tu médico interpretará tu resultado según tu riesgo cardiovascular individual."
+      },
+      {
+        "question": "¿Esta calculadora reemplaza un análisis de laboratorio?",
+        "answer": "No. Es una herramienta educativa que replica una fórmula estándar; el diagnóstico y seguimiento de tu perfil lipídico debe basarse en análisis de laboratorio reales interpretados por un profesional de la salud."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de LDL?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calcular-imc",
+      "calculadora-calorias",
+      "calculadora-pafi",
+      "indice-de-barthel"
+    ]
+  },
+  {
+    "slug": "calculadora-pafi",
+    "name": "Calculadora de PaFi (PaO2/FiO2)",
+    "shortName": "Índice PaFi",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de PaFi Online Gratis | Índice PaO2/FiO2",
+    "metaDescription": "Calcula el índice PaFi (PaO2/FiO2) a partir de tu gasometría arterial y la FiO2 administrada. Gratis, herramienta educativa para personal de salud.",
+    "webApp": true,
+    "appCategory": "HealthApplication",
+    "intro": "Calcula el índice de oxigenación PaFi (relación PaO₂/FiO₂), un indicador ampliamente usado en medicina para evaluar la función pulmonar y el intercambio de gases, especialmente en pacientes con insuficiencia respiratoria o bajo ventilación mecánica.",
+    "howToUse": [
+      "Introduce el valor de PaO₂ de la gasometría arterial (en mmHg)",
+      "Introduce la FiO₂ administrada (en %), o elige una de las opciones comunes",
+      "El índice PaFi y su interpretación general se muestran al instante"
+    ],
+    "benefits": [
+      "Calcula el índice PaFi al instante a partir de dos valores simples",
+      "Incluye botones de acceso rápido para dispositivos comunes de oxigenoterapia",
+      "Muestra una interpretación general orientativa del resultado",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calcula el índice PaFi?",
+        "body": "El índice PaFi se calcula dividiendo la presión parcial de oxígeno en sangre arterial (PaO₂, obtenida de una gasometría arterial) entre la fracción inspirada de oxígeno (FiO₂, expresada como decimal): PaFi = PaO₂ ÷ FiO₂. Por ejemplo, con una PaO₂ de 90 mmHg y una FiO₂ del 40% (0.4), el índice PaFi es 90 ÷ 0.4 = 225."
+      },
+      {
+        "title": "¿Para qué se usa el índice PaFi?",
+        "body": "El índice PaFi es uno de los criterios usados en la definición de Berlín del Síndrome de Dificultad Respiratoria Aguda (SDRA), donde valores más bajos indican una alteración más severa del intercambio de gases. Sin embargo, el diagnóstico de SDRA requiere además otros criterios clínicos y radiológicos, no solo el valor de PaFi de forma aislada."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuál es la fórmula del índice PaFi?",
+        "answer": "PaFi = PaO₂ ÷ FiO₂, donde la FiO₂ se expresa como fracción decimal (por ejemplo, 21% de aire ambiente equivale a 0.21)."
+      },
+      {
+        "question": "¿Qué significa un PaFi bajo?",
+        "answer": "Un valor bajo de PaFi indica una alteración más severa en el intercambio de oxígeno a nivel pulmonar. Como referencia general: más de 400 se considera normal, y valores progresivamente menores (300, 200, 100) reflejan alteraciones cada vez más severas."
+      },
+      {
+        "question": "¿El PaFi por sí solo diagnostica el SDRA?",
+        "answer": "No. El PaFi es uno de varios criterios de la definición de Berlín para el SDRA, que también requiere inicio agudo de los síntomas, opacidades bilaterales en la radiografía o TAC de tórax, un nivel mínimo de PEEP, y la exclusión de insuficiencia cardíaca como causa principal."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de PaFi?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-ldl",
+      "indice-de-barthel",
+      "calcular-imc"
+    ]
+  },
+  {
+    "slug": "indice-de-barthel",
+    "name": "Índice de Barthel",
+    "shortName": "Índice de Barthel",
+    "category": "calculadoras",
+    "metaTitle": "Índice de Barthel Online Gratis | Escala de Actividades de la Vida Diaria",
+    "metaDescription": "Calcula el Índice de Barthel para evaluar el grado de independencia funcional en actividades básicas de la vida diaria. Gratis, herramienta educativa.",
+    "webApp": true,
+    "appCategory": "HealthApplication",
+    "intro": "El Índice de Barthel es una escala ampliamente usada en medicina y rehabilitación para medir el grado de independencia de una persona en 10 actividades básicas de la vida diaria, como comer, vestirse, bañarse o caminar. Responde cada ítem según la situación real de la persona evaluada para obtener la puntuación total y su interpretación.",
+    "howToUse": [
+      "Responde cada uno de los 10 ítems según el nivel de independencia real de la persona",
+      "La puntuación total se actualiza automáticamente mientras respondes",
+      "Consulta la interpretación general una vez completados todos los ítems"
+    ],
+    "benefits": [
+      "Cubre los 10 ítems estándar del Índice de Barthel",
+      "Suma automáticamente la puntuación total sobre 100",
+      "Muestra la interpretación general del nivel de dependencia",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Qué mide el Índice de Barthel?",
+        "body": "El Índice de Barthel evalúa 10 actividades básicas de la vida diaria: comer, bañarse, vestirse, arreglarse, control de heces, control de orina, uso del retrete, traslado cama-sillón, deambulación, y subir/bajar escaleras. Cada actividad se puntúa según el nivel de ayuda que la persona necesita, y la suma total (de 0 a 100) refleja su grado de independencia funcional."
+      },
+      {
+        "title": "¿Cómo se interpreta la puntuación total?",
+        "body": "Una puntuación de 100 indica independencia total en las actividades evaluadas. Puntuaciones menores reflejan distintos grados de dependencia: leve, moderada, severa o total, según los puntos de corte más usados. Es importante recordar que el Índice de Barthel evalúa solo actividades físicas básicas, no funciones cognitivas ni actividades instrumentales más complejas (como manejar dinero o usar el teléfono)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Para qué se usa el Índice de Barthel?",
+        "answer": "Se usa ampliamente en geriatría, rehabilitación y medicina interna para evaluar el nivel de autonomía de un paciente, hacer seguimiento de su evolución funcional tras una enfermedad o cirugía, y como criterio para decisiones sobre el tipo de cuidado o apoyo que necesita."
+      },
+      {
+        "question": "¿Cuál es la puntuación máxima del Índice de Barthel?",
+        "answer": "La puntuación máxima es 100 puntos, que indica independencia completa en las 10 actividades evaluadas."
+      },
+      {
+        "question": "¿Los puntos de corte de interpretación son siempre los mismos?",
+        "answer": "Los puntos de corte pueden variar ligeramente según la fuente bibliográfica o el contexto clínico donde se use la escala. Esta calculadora usa los rangos más citados habitualmente, pero conviene interpretarlos junto con el criterio clínico del profesional a cargo."
+      },
+      {
+        "question": "¿Es gratis este Índice de Barthel?",
+        "answer": "Sí, es completamente gratuito, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-pafi",
+      "calculadora-ldl",
+      "calculadora-edad"
+    ]
+  },
+  {
+    "slug": "calculadora-liquidacion-laboral-colombia",
+    "name": "Calculadora de Liquidación Laboral Colombia",
+    "shortName": "Liquidación Laboral Colombia",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Liquidación Laboral Colombia 2026 | Cesantías, Prima y Vacaciones",
+    "metaDescription": "Calcula tus cesantías, intereses, prima de servicios y vacaciones en Colombia. Gratis, según el Código Sustantivo del Trabajo.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Calcula los principales componentes de tu liquidación laboral en Colombia: cesantías con sus intereses, prima de servicios, y compensación en dinero por vacaciones. Introduce tu salario y las fechas correspondientes para obtener cada valor según la normativa laboral colombiana.",
+    "howToUse": [
+      "Elige el concepto que quieres calcular: Cesantías, Prima de Servicios, o Vacaciones",
+      "Introduce tu salario mensual y las fechas o días correspondientes",
+      "El resultado se calcula al instante con el desglose completo"
+    ],
+    "benefits": [
+      "Calcula cesantías, intereses, prima de servicios y vacaciones en una sola herramienta",
+      "Cálculo proporcional automático si trabajaste solo una parte del periodo",
+      "Incluye el auxilio de transporte en la base de cesantías, si aplica",
+      "Resultado instantáneo mientras completas los datos",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calculan las cesantías en Colombia?",
+        "body": "Las cesantías equivalen a un mes de salario por cada año trabajado, calculadas con la fórmula: (Salario + auxilio de transporte, si aplica) × días trabajados en el año ÷ 360. Se consignan anualmente en un fondo de cesantías antes del 14 de febrero, y generan además un interés del 12% anual, calculado proporcionalmente sobre el tiempo trabajado."
+      },
+      {
+        "title": "¿Qué es la prima de servicios y cómo se calcula?",
+        "body": "La prima de servicios es una prestación equivalente a un mes de salario al año, pagada en dos cuotas: antes del 30 de junio y antes del 20 de diciembre, cada una calculada sobre el semestre correspondiente. La fórmula es: Salario × días trabajados en el semestre ÷ 360. Si se trabajó el semestre completo, la prima equivale a medio salario mensual."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuándo se deben consignar las cesantías en Colombia?",
+        "answer": "El empleador debe consignar las cesantías en el fondo elegido por el trabajador antes del 14 de febrero de cada año, correspondientes al año inmediatamente anterior."
+      },
+      {
+        "question": "¿Cuándo se paga la prima de servicios?",
+        "answer": "Se paga en dos cuotas: la primera antes del 30 de junio (correspondiente al primer semestre) y la segunda antes del 20 de diciembre (correspondiente al segundo semestre)."
+      },
+      {
+        "question": "¿Las vacaciones se pueden compensar en dinero?",
+        "answer": "Sí, especialmente al finalizar el contrato laboral, las vacaciones no disfrutadas se compensan en dinero, calculadas como Salario × días trabajados ÷ 720 (equivalente a 15 días hábiles de vacaciones por cada año completo trabajado)."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de liquidación laboral?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-seguridad-social-colombia",
+      "calculadora-cts-peru",
+      "calcular-indemnizacion-despido"
+    ]
+  },
+  {
+    "slug": "calculadora-seguridad-social-colombia",
+    "name": "Calculadora de Seguridad Social Colombia",
+    "shortName": "Seguridad Social Colombia",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Seguridad Social Colombia 2026 | Salud y Pensión",
+    "metaDescription": "Calcula tus aportes a salud y pensión en Colombia, como empleado dependiente o como independiente por honorarios. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Calcula tus aportes al sistema de seguridad social en Colombia (salud y pensión), tanto si trabajas como empleado dependiente como si trabajas de forma independiente por honorarios, cada uno con su propia base y porcentajes de aporte.",
+    "howToUse": [
+      "Elige tu situación: empleado dependiente o independiente por honorarios",
+      "Introduce tu salario mensual (dependiente) o tus ingresos por honorarios (independiente)",
+      "Consulta tus aportes a salud, pensión y tu ingreso neto al instante"
+    ],
+    "benefits": [
+      "Cubre tanto a empleados dependientes como a trabajadores independientes",
+      "Calcula automáticamente el IBC (Ingreso Base de Cotización) para independientes",
+      "Muestra el desglose de cada aporte por separado",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cuánto aporta un empleado dependiente en Colombia?",
+        "body": "Un empleado dependiente aporta el 4% de su salario a salud y el 4% a pensión (el empleador aporta el resto: 8.5% a salud y 12% a pensión), sumando un 8% de descuento sobre el salario bruto del trabajador."
+      },
+      {
+        "title": "¿Cómo se calcula el aporte de un independiente por honorarios?",
+        "body": "Para los trabajadores independientes, el Ingreso Base de Cotización (IBC) se calcula sobre el 40% de los ingresos mensuales, y sobre esa base se aplican los porcentajes completos de salud (12.5%) y pensión (16%), ya que el independiente asume la totalidad del aporte al no existir un empleador que cubra una parte."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Qué es el IBC en Colombia?",
+        "answer": "El Ingreso Base de Cotización (IBC) es el monto sobre el cual se calculan los aportes a salud y pensión. Para empleados dependientes, generalmente es el salario mensual; para independientes, es el 40% de sus ingresos mensuales por honorarios."
+      },
+      {
+        "question": "¿Por qué el independiente paga un porcentaje más alto que el empleado?",
+        "answer": "Porque el trabajador independiente no tiene un empleador que asuma una parte del aporte (8.5% de salud y 12% de pensión en el caso de un dependiente), por lo que debe cubrir el porcentaje completo (12.5% salud + 16% pensión) él mismo, aunque calculado sobre una base reducida (el 40% de sus ingresos, no el 100%)."
+      },
+      {
+        "question": "¿Esta calculadora incluye el aporte a ARL?",
+        "answer": "No, esta calculadora se centra en los aportes a salud y pensión. El aporte a la Administradora de Riesgos Laborales (ARL) depende del nivel de riesgo de la actividad y no está incluido en este cálculo."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de seguridad social?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-liquidacion-laboral-colombia",
+      "calculadora-cdt",
+      "calculadora-sueldo-neto-argentina"
+    ]
+  },
+  {
+    "slug": "calculadora-cdt",
+    "name": "Calculadora de CDT Colombia",
+    "shortName": "CDT Colombia",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de CDT Colombia Online Gratis | Rendimiento e Intereses",
+    "metaDescription": "Calcula el rendimiento de tu CDT (Certificado de Depósito a Término) en Colombia según el monto, la TEA y el plazo. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Calcula cuánto rendirá tu CDT (Certificado de Depósito a Término) en Colombia, a partir del monto invertido, la Tasa Efectiva Anual (TEA) que te ofrece la entidad financiera, y el plazo del certificado en días.",
+    "howToUse": [
+      "Introduce el monto que vas a invertir en el CDT",
+      "Introduce la TEA que te ofrece la entidad financiera",
+      "Elige el plazo del CDT en días",
+      "Consulta el monto final y el interés ganado al instante"
+    ],
+    "benefits": [
+      "Calcula el rendimiento exacto usando la TEA (Tasa Efectiva Anual), la referencia estándar en Colombia",
+      "Admite cualquier plazo, no solo los múltiplos exactos de un año",
+      "Resultado instantáneo mientras completas los datos",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calcula el rendimiento de un CDT?",
+        "body": "El rendimiento se calcula capitalizando la Tasa Efectiva Anual (TEA) según la proporción del año que dura el CDT: Monto final = Capital × (1 + TEA)^(días ÷ 365). Por ejemplo, con $5,000,000 a una TEA del 11% durante 180 días, el monto final es aproximadamente $5,264,063, generando un interés de $264,063."
+      },
+      {
+        "title": "¿Por qué se usa la TEA en lugar de una tasa nominal?",
+        "body": "La TEA (Tasa Efectiva Anual) ya refleja el efecto de la capitalización de intereses a lo largo del año, por lo que es la forma más precisa y comparable de expresar el rendimiento real de un CDT entre distintas entidades financieras, a diferencia de una tasa nominal que podría no reflejar la capitalización real aplicada."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo calculo cuánto ganaré con un CDT a 180 días?",
+        "answer": "Aplica la fórmula: Capital × (1 + TEA)^(180 ÷ 365), y resta el capital inicial para obtener el interés ganado. Esta calculadora lo hace automáticamente al introducir el monto, la TEA y el plazo."
+      },
+      {
+        "question": "¿Los CDT en Colombia pagan impuestos sobre el rendimiento?",
+        "answer": "Los rendimientos financieros pueden estar sujetos a retención en la fuente según la normativa vigente y tu situación fiscal particular. Esta calculadora no incluye esa retención; consulta con tu entidad financiera o contador para el cálculo neto exacto."
+      },
+      {
+        "question": "¿Qué es mejor, un CDT a 90 días o a 360 días?",
+        "answer": "Depende de la TEA ofrecida para cada plazo (generalmente los plazos más largos ofrecen tasas más altas) y de si necesitas disponibilidad del dinero antes. Un CDT no permite retiros anticipados sin penalización, así que elige un plazo acorde a tus necesidades de liquidez."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de CDT?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-plazo-fijo",
+      "calculadora-interes-compuesto",
+      "calculadora-seguridad-social-colombia"
     ]
   }
 ]

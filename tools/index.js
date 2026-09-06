@@ -84,6 +84,16 @@ import CalcularDetraccion from './calcular-detraccion'
 import CalculadoraDeMatrices from './calculadora-de-matrices'
 import CalculadoraDeEcuaciones from './calculadora-de-ecuaciones'
 import CalculadoraPreciosInfluencersTiktok from './calculadora-precios-influencers-tiktok'
+import CalculadoraIp from './calculadora-ip'
+import CalculadoraReglaDeTres from './calculadora-regla-de-tres'
+import CalculadoraDePendiente from './calculadora-de-pendiente'
+import CalculadoraDerivadasIntegrales from './calculadora-derivadas-integrales'
+import CalculadoraLdl from './calculadora-ldl'
+import CalculadoraPafi from './calculadora-pafi'
+import IndiceDeBarthel from './indice-de-barthel'
+import CalculadoraLiquidacionLaboralColombia from './calculadora-liquidacion-laboral-colombia'
+import CalculadoraSeguridadSocialColombia from './calculadora-seguridad-social-colombia'
+import CalculadoraCdt from './calculadora-cdt'
 
 // Registry: add new tools here as { slug: Component }
 export const toolComponents = {
@@ -173,4 +183,14 @@ export const toolComponents = {
   'calculadora-de-matrices': CalculadoraDeMatrices,
   'calculadora-de-ecuaciones': CalculadoraDeEcuaciones,
   'calculadora-precios-influencers-tiktok': CalculadoraPreciosInfluencersTiktok,
+  'calculadora-ip': CalculadoraIp,
+  'calculadora-regla-de-tres': CalculadoraReglaDeTres,
+  'calculadora-de-pendiente': CalculadoraDePendiente,
+  'calculadora-derivadas-integrales': CalculadoraDerivadasIntegrales,
+  'calculadora-ldl': CalculadoraLdl,
+  'calculadora-pafi': CalculadoraPafi,
+  'indice-de-barthel': IndiceDeBarthel,
+  'calculadora-liquidacion-laboral-colombia': CalculadoraLiquidacionLaboralColombia,
+  'calculadora-seguridad-social-colombia': CalculadoraSeguridadSocialColombia,
+  'calculadora-cdt': CalculadoraCdt,
 }

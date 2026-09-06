@@ -3,15 +3,15 @@
   "/favicon.ico/route": "/favicon.ico",
   "/sitemap.xml/route": "/sitemap.xml",
   "/[slug]/page": "/[slug]",
-  "/calculadoras/page": "/calculadoras",
   "/contacto/page": "/contacto",
-  "/generadores/page": "/generadores",
+  "/calculadoras/page": "/calculadoras",
   "/convertidores/page": "/convertidores",
-  "/cookies/page": "/cookies",
-  "/juegos/page": "/juegos",
   "/acerca/page": "/acerca",
-  "/texto/page": "/texto",
-  "/privacidad/page": "/privacidad",
+  "/juegos/page": "/juegos",
+  "/cookies/page": "/cookies",
+  "/generadores/page": "/generadores",
   "/page": "/",
-  "/terminos/page": "/terminos"
+  "/terminos/page": "/terminos",
+  "/privacidad/page": "/privacidad",
+  "/texto/page": "/texto"
 }
