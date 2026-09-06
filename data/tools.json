@@ -47,7 +47,8 @@
       "generador-qr",
       "generador-contrasenas",
       "contador-palabras",
-      "convertidor-mayusculas-minusculas"
+      "convertidor-mayusculas-minusculas",
+      "tipografia-para-instagram"
     ]
   },
   {
@@ -255,7 +256,8 @@
       "calculadora-edad",
       "calcular-rfc",
       "calculadora-cientifica",
-      "calculadora-finiquito"
+      "calculadora-finiquito",
+      "calcular-ritmo"
     ]
   },
   {
@@ -472,7 +474,9 @@
       "calculadora-cientifica",
       "calculadora-finiquito",
       "calculadora-dias",
-      "calcular-velocidad-distancia-tiempo"
+      "calcular-velocidad-distancia-tiempo",
+      "calcular-ritmo",
+      "cronometro-online"
     ]
   },
   {
@@ -552,7 +556,9 @@
       "convertidor-binario",
       "calcular-area-circulo",
       "calcular-velocidad-distancia-tiempo",
-      "calcular-volumen-cilindro"
+      "calcular-volumen-cilindro",
+      "celsius-a-fahrenheit",
+      "arroba-a-kilos"
     ]
   },
   {
@@ -991,7 +997,8 @@
       "calculadora-edad",
       "calculadora-alicia",
       "generador-nombres",
-      "calculadora-del-amor"
+      "calculadora-del-amor",
+      "cronometro-online"
     ]
   },
   {
@@ -1128,7 +1135,8 @@
       "calculadora-irpf",
       "calculadora-apiretal",
       "calcular-area-circulo",
-      "calcular-gasolina"
+      "calcular-gasolina",
+      "medidas-de-cocina"
     ]
   },
   {
@@ -1301,7 +1309,9 @@
     "relatedTools": [
       "texto-invisible",
       "generador-contrasenas",
-      "convertidor-mayusculas-minusculas"
+      "convertidor-mayusculas-minusculas",
+      "palabras-al-reves",
+      "calculadora-tiempo-lectura"
     ]
   },
   {
@@ -1495,7 +1505,12 @@
       "calculadora-cientifica",
       "calcular-area-circulo",
       "calcular-velocidad-distancia-tiempo",
-      "calcular-volumen-cilindro"
+      "calcular-volumen-cilindro",
+      "celsius-a-fahrenheit",
+      "bar-a-psi",
+      "medidas-de-cocina",
+      "cm-a-pulgadas",
+      "arroba-a-kilos"
     ]
   },
   {
@@ -1552,7 +1567,8 @@
     "relatedTools": [
       "generador-qr",
       "calculo-mental",
-      "calculadora-del-amor"
+      "calculadora-del-amor",
+      "tipografia-para-instagram"
     ]
   },
   {
@@ -1828,7 +1844,10 @@
     ],
     "relatedTools": [
       "contador-palabras",
-      "texto-invisible"
+      "texto-invisible",
+      "palabras-al-reves",
+      "tipografia-para-instagram",
+      "calculadora-tiempo-lectura"
     ]
   },
   {
@@ -2523,7 +2542,8 @@
       "convertidor-unidades",
       "calculadora-cientifica",
       "calculadora-porcentaje",
-      "calcular-volumen-cilindro"
+      "calcular-volumen-cilindro",
+      "cm-a-pulgadas"
     ]
   },
   {
@@ -2646,7 +2666,8 @@
       "convertidor-unidades",
       "calculadora-horas",
       "calculadora-cientifica",
-      "calcular-gasolina"
+      "calcular-gasolina",
+      "calcular-ritmo"
     ]
   },
   {
@@ -2709,7 +2730,10 @@
     "relatedTools": [
       "calcular-velocidad-distancia-tiempo",
       "convertidor-moneda",
-      "calculadora-porcentaje"
+      "calculadora-porcentaje",
+      "bar-a-psi",
+      "medidas-de-cocina",
+      "arroba-a-kilos"
     ]
   },
   {
@@ -2770,7 +2794,594 @@
     "relatedTools": [
       "calcular-area-circulo",
       "convertidor-unidades",
-      "calculadora-cientifica"
+      "calculadora-cientifica",
+      "cm-a-pulgadas"
+    ]
+  },
+  {
+    "slug": "calcular-ritmo",
+    "name": "Calculadora de Ritmo de Carrera",
+    "shortName": "Ritmo de Carrera",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Ritmo de Carrera Online Gratis | Pace min/km",
+    "metaDescription": "Calcula tu ritmo de carrera (pace) en min/km, el tiempo de una distancia o la distancia recorrida. Incluye predicción de tiempos para 5K, 10K, media maratón y maratón. Gratis.",
+    "webApp": true,
+    "appCategory": "SportsApplication",
+    "intro": "Esta calculadora de ritmo de carrera (pace) resuelve los tres cálculos más habituales para corredores: tu ritmo en minutos y segundos por kilómetro a partir de una distancia y un tiempo, el tiempo que tardarías en recorrer una distancia a un ritmo determinado, o la distancia que recorrerías en un tiempo dado. Al calcular el tiempo, también te muestra a qué hora terminarías carreras estándar como 5K, 10K, media maratón y maratón a ese mismo ritmo.",
+    "howToUse": [
+      "Elige qué quieres calcular: Ritmo, Tiempo o Distancia",
+      "Introduce los datos que ya conoces (distancia, tiempo o ritmo)",
+      "El resultado se calcula al instante, en formato min:seg por kilómetro",
+      "En \"Calcular Tiempo\", revisa también la tabla de tiempos estimados para 5K, 10K, media maratón y maratón a ese ritmo"
+    ],
+    "benefits": [
+      "Calcula el ritmo, el tiempo o la distancia a partir de los otros dos datos",
+      "Muestra el ritmo tanto en min/km como en min/milla, además de la velocidad en km/h",
+      "Predice automáticamente tus tiempos estimados en 5K, 10K, media maratón y maratón según tu ritmo",
+      "Formato de tiempo legible (H:MM:SS), pensado para tiempos de carrera reales",
+      "Útil para planificar entrenamientos, calcular objetivos de carrera o comparar tiempos con otros corredores",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Qué es el ritmo (pace) y cómo se calcula?",
+        "body": "El ritmo, o pace, es el tiempo que tardas en recorrer un kilómetro (o una milla), expresado en minutos y segundos, por ejemplo 5:30 min/km. Se calcula dividiendo el tiempo total empleado entre la distancia recorrida: Ritmo = Tiempo ÷ Distancia. Por ejemplo, si corres 10 km en 55 minutos, tu ritmo es 55 ÷ 10 = 5.5 minutos por km, es decir, 5 minutos y 30 segundos por kilómetro (5:30 /km)."
+      },
+      {
+        "title": "Ritmo vs. velocidad: dos formas de medir lo mismo",
+        "body": "El ritmo (min/km) y la velocidad (km/h) miden lo mismo desde ángulos opuestos: el ritmo indica cuánto tiempo tardas en recorrer una unidad de distancia, mientras que la velocidad indica cuánta distancia recorres en una unidad de tiempo. Entre corredores es más habitual hablar en ritmo (min/km), mientras que en ciclismo o conducción se suele usar la velocidad (km/h). Puedes convertir de uno a otro dividiendo 60 entre el ritmo en minutos por km para obtener los km/h."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo calculo mi ritmo de carrera en min/km?",
+        "answer": "Divide el tiempo total de tu carrera (en minutos) entre la distancia recorrida (en km). Por ejemplo, si corriste 5 km en 30 minutos, tu ritmo es 30 ÷ 5 = 6 minutos por km, es decir, 6:00 /km."
+      },
+      {
+        "question": "¿Cómo sé cuánto tardaría en correr una maratón a mi ritmo actual?",
+        "answer": "Multiplica tu ritmo (en segundos por km) por 42.195 (la distancia oficial de una maratón en km). Esta calculadora hace esto automáticamente en la pestaña \"Calcular Tiempo\": introduce tu ritmo y la distancia, y verás una tabla con tus tiempos estimados para 5K, 10K, media maratón y maratón."
+      },
+      {
+        "question": "¿Cuál es la distancia oficial de una media maratón y una maratón?",
+        "answer": "Una media maratón mide 21.0975 km (13.1 millas) y una maratón mide 42.195 km (26.2 millas). Estas son las distancias oficiales reconocidas por World Athletics y las que usa esta calculadora para las predicciones de tiempo."
+      },
+      {
+        "question": "¿Cómo convierto mi ritmo de min/km a min/milla?",
+        "answer": "Multiplica tu ritmo en min/km por 1.609344 (la equivalencia de una milla en kilómetros). Por ejemplo, un ritmo de 5:00 min/km equivale aproximadamente a 8:03 min/milla. Esta calculadora muestra ambos ritmos automáticamente al calcular tu pace."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de ritmo de carrera?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calcular-velocidad-distancia-tiempo",
+      "calculadora-horas",
+      "calcular-imc",
+      "cronometro-online"
+    ]
+  },
+  {
+    "slug": "cronometro-online",
+    "name": "Cronómetro Online",
+    "shortName": "Cronómetro",
+    "category": "calculadoras",
+    "metaTitle": "Cronómetro Online Gratis | Con Vueltas y Precisión de Milisegundos",
+    "metaDescription": "Cronómetro online gratis con inicio, pausa, reinicio y registro de vueltas. Precisión de centésimas de segundo, sin descargas ni registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Este cronómetro online mide el tiempo transcurrido con precisión de centésimas de segundo, directamente desde tu navegador, sin necesidad de descargar ninguna aplicación. Inicia, pausa y reinicia el conteo cuando quieras, y registra vueltas (splits) para comparar tiempos parciales en entrenamientos, carreras o cualquier actividad cronometrada.",
+    "howToUse": [
+      "Pulsa \"Iniciar\" para comenzar a contar el tiempo",
+      "Pulsa \"Pausar\" para detener el conteo, y \"Reanudar\" para continuar desde donde lo dejaste",
+      "Pulsa \"Marcar vuelta\" mientras el cronómetro está en marcha para registrar un tiempo parcial",
+      "Pulsa \"Reiniciar\" para poner el cronómetro a cero y borrar todas las vueltas registradas"
+    ],
+    "benefits": [
+      "Precisión de centésimas de segundo (HH:MM:SS.CC)",
+      "Registro de vueltas ilimitado, con tiempo parcial y tiempo total de cada una",
+      "Permite pausar y reanudar sin perder el tiempo acumulado",
+      "No requiere descargar ninguna aplicación ni crear una cuenta",
+      "Funciona en cualquier dispositivo con navegador: móvil, tablet u ordenador",
+      "Gratis, sin anuncios intrusivos y sin límite de uso"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Para qué sirve un cronómetro con registro de vueltas?",
+        "body": "El registro de vueltas (o \"splits\") permite comparar tiempos parciales dentro de una misma sesión cronometrada, sin necesidad de reiniciar el cronómetro cada vez. Es especialmente útil en entrenamientos de running o natación (para medir el tiempo de cada vuelta a la pista o cada largo de piscina), en competiciones, o en cualquier actividad donde necesites dividir un tiempo total en tramos para analizar tu rendimiento en cada uno."
+      },
+      {
+        "title": "Cronómetro vs. temporizador: ¿cuál necesito?",
+        "body": "Un cronómetro cuenta el tiempo hacia adelante desde cero, sin un límite predefinido, y se usa cuando quieres medir cuánto tiempo tarda algo en completarse (una carrera, un ejercicio, una tarea). Un temporizador, en cambio, cuenta hacia atrás desde un tiempo fijado de antemano y avisa cuando llega a cero, y se usa para controlar un límite de tiempo (por ejemplo, cocinar o un descanso). Esta herramienta es un cronómetro: mide el tiempo transcurrido sin límite superior."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Este cronómetro es preciso?",
+        "answer": "Sí, mide el tiempo con precisión de centésimas de segundo, actualizando el conteo en cada fotograma mediante la API de rendimiento del navegador, la misma tecnología que usan las aplicaciones nativas de cronómetro para minimizar el margen de error."
+      },
+      {
+        "question": "¿Puedo pausar el cronómetro y seguir después sin perder el tiempo acumulado?",
+        "answer": "Sí, al pulsar \"Pausar\" el conteo se detiene manteniendo el tiempo acumulado, y al pulsar \"Reanudar\" continúa exactamente desde ese punto, sin reiniciarse."
+      },
+      {
+        "question": "¿Cuántas vueltas puedo registrar?",
+        "answer": "No hay límite: puedes marcar tantas vueltas como necesites durante una misma sesión. Cada vuelta muestra su tiempo parcial (desde la vuelta anterior) y su tiempo total acumulado desde el inicio."
+      },
+      {
+        "question": "¿Se guarda el tiempo si cierro o recargo la página?",
+        "answer": "No. El cronómetro funciona completamente en tu navegador y no guarda datos entre sesiones; si recargas o cierras la página, el conteo y las vueltas registradas se perderán."
+      },
+      {
+        "question": "¿Es gratis este cronómetro online?",
+        "answer": "Sí, es completamente gratuito, sin límite de uso y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calcular-ritmo",
+      "calculadora-horas",
+      "calculo-mental"
+    ]
+  },
+  {
+    "slug": "palabras-al-reves",
+    "name": "Palabras al Revés",
+    "shortName": "Palabras al Revés",
+    "category": "texto",
+    "metaTitle": "Palabras al Revés Online Gratis | Invertir Texto y Letras",
+    "metaDescription": "Escribe palabras al revés al instante: invierte todo el texto, el orden de las palabras o cada palabra por separado. Gratis, sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Esta herramienta escribe palabras y frases al revés de tres formas distintas: invirtiendo todos los caracteres del texto de un tirón, invirtiendo solo el orden de las palabras (manteniendo cada palabra normal), o invirtiendo únicamente las letras dentro de cada palabra sin cambiar su posición. Útil para juegos de palabras, acertijos, mensajes curiosos o simplemente por diversión.",
+    "howToUse": [
+      "Elige el modo de inversión que quieres aplicar",
+      "Escribe o pega tu texto en el cuadro",
+      "El resultado se genera al instante mientras escribes",
+      "Pulsa \"Copiar resultado\" para usarlo donde quieras"
+    ],
+    "benefits": [
+      "Tres modos de inversión distintos en una sola herramienta",
+      "Resultado instantáneo mientras escribes, sin botón \"generar\"",
+      "Funciona con frases completas, no solo con palabras sueltas",
+      "Copia el resultado al portapapeles con un clic",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "Tres formas distintas de invertir un texto",
+        "body": "\"Invertir todo el texto\" da la vuelta a la frase completa carácter por carácter, como si la leyeras en un espejo (por ejemplo, \"Hola\" se convierte en \"aloH\"). \"Invertir el orden de las palabras\" mantiene cada palabra intacta pero cambia el orden en que aparecen (\"Hola amigo\" se convierte en \"amigo Hola\"). \"Invertir cada palabra\" mantiene el orden de las palabras en la frase, pero invierte las letras dentro de cada una (\"Hola amigo\" se convierte en \"aloH ogima\")."
+      },
+      {
+        "title": "¿Para qué se usa escribir al revés?",
+        "body": "Escribir texto al revés es popular en juegos de palabras y acertijos, mensajes \"secretos\" entre amigos, retos de lectura, contenido curioso para redes sociales, o simplemente como curiosidad lingüística. También es una forma sencilla de comprobar palíndromos: si una palabra invertida es igual a la original (como \"reconocer\"), se trata de un palíndromo."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo se escribe un texto al revés?",
+        "answer": "Se invierte el orden de todos los caracteres de la frase, de modo que el último carácter pasa a ser el primero. Esta herramienta lo hace automáticamente en el modo \"Invertir todo el texto\"."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre invertir el texto y invertir cada palabra?",
+        "answer": "Invertir todo el texto da la vuelta a la frase completa, incluyendo el orden de las palabras y los espacios. Invertir cada palabra mantiene las palabras en su posición original dentro de la frase, pero invierte solo las letras de cada una individualmente."
+      },
+      {
+        "question": "¿Qué es un palíndromo?",
+        "answer": "Un palíndromo es una palabra o frase que se lee igual de izquierda a derecha que de derecha a izquierda, como \"reconocer\", \"anilina\" o \"Anita lava la tina\". Puedes usar el modo \"Invertir todo el texto\" para comprobar si una palabra o frase es un palíndromo."
+      },
+      {
+        "question": "¿Es gratis esta herramienta para escribir palabras al revés?",
+        "answer": "Sí, es completamente gratuita, sin límite de uso y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "contador-palabras",
+      "convertidor-mayusculas-minusculas",
+      "texto-invisible"
+    ]
+  },
+  {
+    "slug": "celsius-a-fahrenheit",
+    "name": "Convertidor de Celsius a Fahrenheit",
+    "shortName": "Celsius a Fahrenheit",
+    "category": "convertidores",
+    "metaTitle": "Convertidor de Celsius a Fahrenheit y Kelvin Online Gratis",
+    "metaDescription": "Convierte grados Celsius a Fahrenheit y Kelvin al instante, en cualquier dirección. Fórmulas exactas de temperatura. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Convierte temperaturas entre Celsius (°C), Fahrenheit (°F) y Kelvin (K) al instante. Elige la escala en la que tienes el dato y obtén su equivalencia en las otras dos escalas simultáneamente, aplicando las fórmulas exactas de conversión de temperatura.",
+    "howToUse": [
+      "Elige la escala en la que tienes el dato: Celsius, Fahrenheit o Kelvin",
+      "Introduce el valor de la temperatura",
+      "El resultado se muestra al instante en las otras dos escalas",
+      "Cambia de escala de origen en cualquier momento sin perder el valor introducido"
+    ],
+    "benefits": [
+      "Convierte entre las tres escalas de temperatura más usadas: Celsius, Fahrenheit y Kelvin",
+      "Muestra el resultado en las tres escalas a la vez, no solo en la que necesitas",
+      "Usa las fórmulas exactas de conversión, no aproximaciones",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "Fórmulas de conversión de temperatura",
+        "body": "Para convertir de Celsius a Fahrenheit se usa F = C × 9/5 + 32. Para convertir de Fahrenheit a Celsius se usa C = (F − 32) × 5/9. Para convertir de Celsius a Kelvin se suma 273.15 (K = C + 273.15), y para convertir de Kelvin a Celsius se resta 273.15 (C = K − 273.15). Por ejemplo, 37°C (temperatura corporal media) equivale a 98.6°F y a 310.15 K."
+      },
+      {
+        "title": "¿Por qué existen tres escalas de temperatura distintas?",
+        "body": "Celsius es la escala más usada en la mayoría de los países del mundo, con el punto de congelación del agua en 0° y el de ebullición en 100°. Fahrenheit, usada principalmente en Estados Unidos, sitúa la congelación del agua en 32° y la ebullición en 212°. Kelvin es la escala científica usada en física, donde 0 K representa el cero absoluto (la temperatura más baja posible), y no tiene valores negativos."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo convierto grados Celsius a Fahrenheit?",
+        "answer": "Multiplica los grados Celsius por 9/5 (1.8) y suma 32: F = C × 9/5 + 32. Por ejemplo, 20°C equivale a 20 × 1.8 + 32 = 68°F."
+      },
+      {
+        "question": "¿Cómo convierto de Kelvin a Celsius?",
+        "answer": "Resta 273.15 al valor en Kelvin: C = K − 273.15. Por ejemplo, 300 K equivale a 300 − 273.15 = 26.85°C."
+      },
+      {
+        "question": "¿Por qué la escala Kelvin no tiene grados negativos?",
+        "answer": "Porque 0 K representa el cero absoluto, la temperatura teóricamente más baja posible, en la que las partículas tienen el mínimo de energía térmica. Al no poder existir una temperatura por debajo del cero absoluto, la escala Kelvin no utiliza valores negativos."
+      },
+      {
+        "question": "¿Cuál es la temperatura corporal normal en las tres escalas?",
+        "answer": "La temperatura corporal media de una persona es aproximadamente 37°C, que equivale a 98.6°F y a 310.15 K."
+      },
+      {
+        "question": "¿Es gratis este convertidor de temperatura?",
+        "answer": "Sí, es completamente gratuito, sin límite de conversiones y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "convertidor-unidades",
+      "calculadora-cientifica",
+      "bar-a-psi"
+    ]
+  },
+  {
+    "slug": "bar-a-psi",
+    "name": "Convertidor de Bar a PSI",
+    "shortName": "Bar a PSI",
+    "category": "convertidores",
+    "metaTitle": "Conversión de Bar a PSI Online Gratis | Presión de Neumáticos",
+    "metaDescription": "Convierte bar a PSI, kilopascales y atmósferas al instante, en cualquier dirección. Ideal para presión de neumáticos y uso industrial. Gratis.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Convierte unidades de presión entre bar, PSI (libras por pulgada cuadrada), kilopascales (kPa) y atmósferas (atm) al instante. Muy útil para comprobar la presión recomendada de neumáticos, que a menudo se especifica en unidades distintas según el país o el fabricante.",
+    "howToUse": [
+      "Elige la unidad en la que tienes el dato: bar, PSI, kPa o atm",
+      "Introduce el valor de la presión",
+      "El resultado se muestra al instante en las otras tres unidades",
+      "Cambia de unidad de origen en cualquier momento"
+    ],
+    "benefits": [
+      "Convierte entre las cuatro unidades de presión más habituales: bar, PSI, kPa y atm",
+      "Muestra el resultado en las cuatro unidades a la vez",
+      "Útil para verificar la presión de neumáticos entre especificaciones europeas y estadounidenses",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Por qué convertir entre bar y PSI?",
+        "body": "El bar es la unidad de presión más usada en Europa y gran parte de Latinoamérica, mientras que el PSI (pounds per square inch, libras por pulgada cuadrada) es el estándar en Estados Unidos. Esta diferencia es especialmente relevante al inflar neumáticos: un coche fabricado para el mercado europeo suele indicar la presión recomendada en bar, mientras que un manómetro o compresor de origen estadounidense puede estar calibrado en PSI."
+      },
+      {
+        "title": "Equivalencias aproximadas de presión",
+        "body": "1 bar equivale aproximadamente a 14.5 PSI, a 100 kilopascales exactos, y a 0.987 atmósferas. Para presiones de neumáticos habituales, 2.0 bar equivalen a unos 29 PSI, y 2.5 bar equivalen a unos 36 PSI. Esta calculadora aplica los factores de conversión exactos para cualquier valor."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuántos PSI son un bar?",
+        "answer": "1 bar equivale aproximadamente a 14.5 PSI. Para convertir bar a PSI, multiplica el valor en bar por 14.5038."
+      },
+      {
+        "question": "¿Cómo convierto PSI a bar?",
+        "answer": "Divide el valor en PSI entre 14.5038, o multiplícalo por 0.0689 para obtener el equivalente en bar."
+      },
+      {
+        "question": "¿Qué presión de neumáticos es normal en bar y en PSI?",
+        "answer": "La mayoría de turismos recomiendan entre 2.0 y 2.5 bar (entre 29 y 36 PSI aproximadamente), aunque el valor exacto depende del vehículo y debe consultarse en el manual o en la etiqueta de la puerta del conductor."
+      },
+      {
+        "question": "¿Es gratis esta conversión de bar a PSI?",
+        "answer": "Sí, es completamente gratuita, sin límite de conversiones y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "convertidor-unidades",
+      "celsius-a-fahrenheit",
+      "calcular-gasolina"
+    ]
+  },
+  {
+    "slug": "medidas-de-cocina",
+    "name": "Convertidor de Medidas de Cocina",
+    "shortName": "Medidas de Cocina",
+    "category": "convertidores",
+    "metaTitle": "Convertidor de Medidas de Cocina Online Gratis | Cucharadas, Tazas y ml",
+    "metaDescription": "Convierte cucharadas, cucharaditas y tazas a mililitros y litros al instante. Ideal para seguir recetas con precisión. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Convierte entre las medidas de cocina más habituales en las recetas: cucharaditas, cucharadas, tazas, mililitros y litros. Muy útil cuando una receta usa medidas de volumen distintas a las que tienes disponibles en tu cocina, como cuando necesitas saber cuántos mililitros tiene una cucharada o cuántos mililitros tiene una taza.",
+    "howToUse": [
+      "Elige la unidad en la que tienes la medida: cucharadita, cucharada, taza, ml o litros",
+      "Introduce la cantidad",
+      "El resultado se muestra al instante en todas las demás unidades",
+      "Cambia de unidad de origen en cualquier momento"
+    ],
+    "benefits": [
+      "Convierte entre cinco medidas de cocina habituales en una sola herramienta",
+      "Muestra el resultado en todas las unidades a la vez, sin tener que elegir una por una",
+      "Usa las equivalencias estándar más comunes en recetas en español",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "Equivalencias estándar de medidas de cocina",
+        "body": "Las equivalencias más usadas en recetas son: 1 cucharadita = 5 ml, 1 cucharada = 15 ml (equivalente a 3 cucharaditas), y 1 taza = 240 ml. Estas son las medidas estándar utilizadas en la mayoría de recetas en español, aunque algunas recetas europeas usan una taza de 250 ml; para la gran mayoría de preparaciones, esta pequeña diferencia no afecta el resultado final."
+      },
+      {
+        "title": "¿Por qué varían las medidas de cocina entre países?",
+        "body": "A diferencia de las unidades del sistema métrico, las medidas de cocina como \"taza\" o \"cucharada\" no tienen un estándar internacional único: se basan en utensilios de cocina de uso común, que pueden variar ligeramente de un país a otro. Esta calculadora usa las equivalencias más extendidas en recetas en español (cucharadita de 5 ml, cucharada de 15 ml y taza de 240 ml), que funcionan correctamente para la inmensa mayoría de recetas caseras."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuántos mililitros tiene una cucharada?",
+        "answer": "Una cucharada estándar equivale a 15 mililitros (ml), lo mismo que 3 cucharaditas."
+      },
+      {
+        "question": "¿Cuántos ml tiene una taza?",
+        "answer": "Una taza estándar de cocina equivale a 240 mililitros (ml). Algunas recetas europeas usan una taza de 250 ml, una diferencia pequeña que rara vez afecta el resultado de la receta."
+      },
+      {
+        "question": "¿Cuántas cucharaditas hay en una cucharada?",
+        "answer": "Hay 3 cucharaditas en una cucharada, ya que una cucharadita equivale a 5 ml y una cucharada a 15 ml."
+      },
+      {
+        "question": "¿Cuántas cucharadas hay en una taza?",
+        "answer": "Hay 16 cucharadas en una taza (240 ml ÷ 15 ml), o 48 cucharaditas en una taza."
+      },
+      {
+        "question": "¿Es gratis este convertidor de medidas de cocina?",
+        "answer": "Sí, es completamente gratuito, sin límite de conversiones y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "convertidor-unidades",
+      "calculadora-porcentaje",
+      "calcular-gasolina"
+    ]
+  },
+  {
+    "slug": "tipografia-para-instagram",
+    "name": "Tipografía para Instagram",
+    "shortName": "Tipografía Instagram",
+    "category": "generadores",
+    "metaTitle": "Tipografía para Instagram Online Gratis | Letras y Fuentes Bonitas",
+    "metaDescription": "Genera letras y tipografías bonitas para tu biografía de Instagram: negrita, cursiva, gótico, volteado y más. Copia y pega, gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Este generador de tipografías convierte tu texto normal en más de una decena de estilos de letra distintos usando caracteres Unicode especiales, listos para copiar y pegar en tu biografía de Instagram, TikTok, Twitter/X, Facebook o cualquier plataforma que acepte texto Unicode. Incluye negrita, cursiva, gótico, doble rayado, texto circulado, volteado y más.",
+    "howToUse": [
+      "Escribe el texto que quieres transformar",
+      "Revisa la lista de estilos generados automáticamente debajo",
+      "Pulsa sobre el estilo que más te guste para copiarlo al portapapeles",
+      "Pega el texto copiado donde lo necesites"
+    ],
+    "benefits": [
+      "Más de 10 estilos de letra distintos generados al instante",
+      "Compatible con Instagram, TikTok, Twitter/X, Facebook y WhatsApp",
+      "Copia cada estilo con un solo clic",
+      "No requiere instalar fuentes ni aplicaciones adicionales",
+      "Gratis, sin registro y funciona directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo funcionan las letras \"bonitas\" para Instagram?",
+        "body": "Estas tipografías no son fuentes reales en el sentido tradicional: son caracteres Unicode especiales que representan visualmente letras con un estilo distinto (negrita, cursiva, gótico, etc.), pero que técnicamente siguen siendo texto. Por eso puedes copiarlos y pegarlos en cualquier campo de texto, como la biografía de Instagram, sin necesidad de instalar ninguna fuente: el estilo viaja junto con el propio carácter."
+      },
+      {
+        "title": "¿Estas letras se ven igual en todos los dispositivos?",
+        "body": "En la gran mayoría de los casos sí, ya que estos caracteres forman parte del estándar Unicode y son ampliamente compatibles con teléfonos, ordenadores y aplicaciones modernas. En muy raras ocasiones, dispositivos muy antiguos o fuentes del sistema muy limitadas podrían mostrar algún carácter como un pequeño cuadro en lugar del símbolo esperado."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Estas letras funcionan en la biografía de Instagram?",
+        "answer": "Sí, Instagram acepta texto Unicode en la biografía, el nombre de usuario visible y las publicaciones, por lo que estos estilos de letra se muestran correctamente."
+      },
+      {
+        "question": "¿Por qué mi texto ya no se puede usar para búsquedas si uso estas fuentes?",
+        "answer": "Como estos estilos usan caracteres Unicode distintos a las letras normales del alfabeto, los motores de búsqueda y las funciones de búsqueda interna de las redes sociales no siempre los reconocen como la letra equivalente normal. Por eso se recomienda usarlos en biografías o publicaciones decorativas, pero no en nombres de usuario que quieras que la gente encuentre fácilmente buscando la palabra normal."
+      },
+      {
+        "question": "¿Necesito instalar alguna fuente para usar estos estilos?",
+        "answer": "No, no es necesario instalar nada. Al copiar el texto generado, estás copiando los caracteres Unicode directamente, que se mostrarán con su estilo correspondiente en cualquier dispositivo compatible sin ninguna instalación adicional."
+      },
+      {
+        "question": "¿Es gratis este generador de tipografías?",
+        "answer": "Sí, es completamente gratuito, sin límite de uso y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "texto-invisible",
+      "convertidor-mayusculas-minusculas",
+      "generador-nombres"
+    ]
+  },
+  {
+    "slug": "cm-a-pulgadas",
+    "name": "Convertidor de Centímetros a Pulgadas",
+    "shortName": "Cm a Pulgadas",
+    "category": "convertidores",
+    "metaTitle": "Convertidor de Centímetros a Pulgadas Online Gratis | cm a in",
+    "metaDescription": "Convierte centímetros a pulgadas y de pulgadas a centímetros al instante. Factor de conversión exacto (2.54 cm). Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Convierte centímetros a pulgadas o pulgadas a centímetros al instante, usando el factor de conversión exacto de 2.54 centímetros por pulgada. Muy útil para interpretar medidas de pantallas, ruedas, herramientas o productos importados de Estados Unidos, donde las pulgadas son la unidad de medida habitual.",
+    "howToUse": [
+      "Elige si vas a convertir de centímetros a pulgadas o al revés",
+      "Introduce el valor que quieres convertir",
+      "El resultado se calcula al instante"
+    ],
+    "benefits": [
+      "Convierte en ambos sentidos: centímetros a pulgadas y pulgadas a centímetros",
+      "Usa el factor de conversión exacto (1 pulgada = 2.54 cm), no una aproximación",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cuántos centímetros tiene una pulgada?",
+        "body": "Una pulgada equivale exactamente a 2.54 centímetros, por definición internacional acordada en 1959. Para convertir centímetros a pulgadas, se divide el valor en centímetros entre 2.54; para convertir pulgadas a centímetros, se multiplica el valor en pulgadas por 2.54."
+      },
+      {
+        "title": "¿Dónde se usan habitualmente las pulgadas?",
+        "body": "Las pulgadas son la unidad de longitud predominante en Estados Unidos y el Reino Unido, y también se usan internacionalmente para especificar el tamaño de pantallas (televisores, monitores, móviles), llantas de vehículos, tuberías y ciertas herramientas, incluso en países que usan el sistema métrico para el resto de medidas."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuántas pulgadas son 10 centímetros?",
+        "answer": "10 centímetros equivalen a aproximadamente 3.94 pulgadas (10 ÷ 2.54 = 3.937)."
+      },
+      {
+        "question": "¿Cuántos centímetros son 5 pulgadas?",
+        "answer": "5 pulgadas equivalen a 12.7 centímetros (5 × 2.54 = 12.7)."
+      },
+      {
+        "question": "¿Por qué el tamaño de las pantallas se mide en pulgadas?",
+        "answer": "Es una convención histórica de la industria electrónica, originada en Estados Unidos, que se ha mantenido a nivel mundial. El tamaño en pulgadas de una pantalla se mide en diagonal, de esquina a esquina, no en ancho ni en alto."
+      },
+      {
+        "question": "¿Es gratis este convertidor de centímetros a pulgadas?",
+        "answer": "Sí, es completamente gratuito, sin límite de conversiones y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "convertidor-unidades",
+      "calcular-area-circulo",
+      "calcular-volumen-cilindro"
+    ]
+  },
+  {
+    "slug": "arroba-a-kilos",
+    "name": "Convertidor de Arroba a Kilos",
+    "shortName": "Arroba a Kilos",
+    "category": "convertidores",
+    "metaTitle": "Convertidor de Arroba a Kilos Online Gratis | Equivalencias",
+    "metaDescription": "Convierte arrobas a kilogramos y kilogramos a arrobas al instante. Incluye las equivalencias más usadas en España y Latinoamérica. Gratis.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Convierte arrobas a kilogramos o kilogramos a arrobas al instante. Como el valor de la arroba varía según el país y el contexto de uso (agrícola, ganadero o tradicional), esta calculadora te permite elegir entre las equivalencias más comunes: la arroba castellana (11.502 kg) y las arrobas de 12.5 kg y 15 kg usadas en distintos países de Latinoamérica.",
+    "howToUse": [
+      "Elige la equivalencia de arroba que corresponde a tu país o contexto",
+      "Elige si vas a convertir de arrobas a kilos o al revés",
+      "Introduce el valor que quieres convertir",
+      "El resultado se calcula al instante"
+    ],
+    "benefits": [
+      "Incluye las tres equivalencias de arroba más usadas, no un único valor fijo",
+      "Convierte en ambos sentidos: arrobas a kilos y kilos a arrobas",
+      "Aviso claro sobre la variación regional de esta unidad, para evitar confusiones",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Por qué el valor de la arroba varía según el país?",
+        "body": "A diferencia de las unidades del Sistema Internacional, la arroba es una unidad de peso tradicional cuyo valor exacto nunca se estandarizó globalmente. La \"arroba castellana\", histórica de España, equivale a 11.502 kg (25 libras castellanas). En varios países de Latinoamérica, especialmente en contextos agrícolas y ganaderos (como el peso de café, ganado o productos del campo), es habitual usar arrobas de 12.5 kg o 15 kg, según la región y la costumbre local."
+      },
+      {
+        "title": "¿Qué equivalencia debo usar?",
+        "body": "Si necesitas la equivalencia histórica o tradicional española, usa la arroba castellana (11.502 kg). Si trabajas con pesos agrícolas o ganaderos en Latinoamérica, consulta cuál es el estándar usado en tu región o mercado específico, ya que puede ser de 12.5 kg, 15 kg u otro valor local, y selecciona la opción correspondiente en esta calculadora."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuántos kilos tiene una arroba?",
+        "answer": "Depende de la equivalencia usada: la arroba castellana tradicional equivale a 11.502 kg, mientras que en varios contextos agrícolas y ganaderos de Latinoamérica se usan arrobas de 12.5 kg o 15 kg. Esta calculadora te permite elegir la equivalencia correcta para tu caso."
+      },
+      {
+        "question": "¿La arroba es la misma en todos los países?",
+        "answer": "No. El valor de la arroba varía según el país, la región e incluso el producto que se esté pesando. No existe un estándar internacional único para esta unidad, a diferencia del kilogramo."
+      },
+      {
+        "question": "¿De dónde viene la unidad \"arroba\"?",
+        "answer": "La arroba es una unidad de peso de origen árabe (de \"ar-rub\", que significa \"la cuarta parte\"), introducida en la península ibérica durante la Edad Media y posteriormente extendida a Latinoamérica durante la colonización española, donde con el tiempo adoptó valores distintos según la región."
+      },
+      {
+        "question": "¿Es gratis este convertidor de arroba a kilos?",
+        "answer": "Sí, es completamente gratuito, sin límite de conversiones y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "convertidor-unidades",
+      "calculadora-cientifica",
+      "calcular-gasolina"
+    ]
+  },
+  {
+    "slug": "calculadora-tiempo-lectura",
+    "name": "Calculadora de Tiempo de Lectura",
+    "shortName": "Tiempo de Lectura",
+    "category": "texto",
+    "metaTitle": "Calculadora de Tiempo de Lectura Online Gratis | Por Texto o Palabras",
+    "metaDescription": "Calcula cuánto tiempo se tarda en leer un texto, pegándolo directamente o indicando el número de palabras. Lectura lenta, media y rápida. Gratis.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Esta calculadora estima el tiempo de lectura de un texto de dos formas: pegando el texto completo (que se cuenta automáticamente) o indicando directamente el número de palabras si ya lo conoces. El resultado se muestra para tres velocidades de lectura distintas: lenta, media y rápida, útil para artículos, guiones, presentaciones o trabajos académicos.",
+    "howToUse": [
+      "Elige si vas a pegar el texto completo o indicar el número de palabras directamente",
+      "Pega tu texto o escribe el número de palabras",
+      "Consulta el tiempo estimado de lectura para velocidad lenta, media y rápida"
+    ],
+    "benefits": [
+      "Admite tanto texto completo como número de palabras directo",
+      "Muestra el tiempo para tres velocidades de lectura distintas, no una sola estimación",
+      "Resultado instantáneo mientras escribes",
+      "Útil para artículos, guiones de vídeo, presentaciones y trabajos académicos",
+      "Gratis, sin registro y funciona directamente en tu navegador, sin subir tu texto a ningún servidor"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calcula el tiempo de lectura?",
+        "body": "El tiempo de lectura se calcula dividiendo el número total de palabras entre la velocidad de lectura en palabras por minuto (ppm). Esta calculadora usa tres velocidades de referencia: lectura lenta (150 ppm), lectura media (200 ppm) y lectura rápida (260 ppm), que cubren el rango habitual de velocidad de lectura en silencio de un adulto en español."
+      },
+      {
+        "title": "¿Por qué varía tanto la velocidad de lectura entre personas?",
+        "body": "La velocidad de lectura depende de la familiaridad del lector con el tema, la complejidad del vocabulario y la estructura de las frases, el idioma nativo del lector, y si está leyendo por placer o analizando el texto en detalle. Por eso esta calculadora ofrece un rango de estimaciones (lenta, media y rápida) en lugar de un único número, para que puedas elegir la referencia más realista según tu audiencia."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto se tarda en leer 1000 palabras?",
+        "answer": "A una velocidad de lectura media (200 palabras por minuto), 1000 palabras se leen en aproximadamente 5 minutos. A velocidad lenta (150 ppm) tardaría unos 6.7 minutos, y a velocidad rápida (260 ppm) unos 3.8 minutos."
+      },
+      {
+        "question": "¿Esta herramienta sube mi texto a un servidor?",
+        "answer": "No. Todo el conteo de palabras y el cálculo del tiempo de lectura se realiza directamente en tu navegador mediante JavaScript. Tu texto nunca se envía ni se almacena en ningún servidor externo."
+      },
+      {
+        "question": "¿Puedo calcular el tiempo de lectura sin pegar el texto completo?",
+        "answer": "Sí, si ya conoces el número exacto de palabras de tu documento, puedes usar el modo \"Indicar número de palabras\" e introducirlo directamente, sin necesidad de pegar el texto completo."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de tiempo de lectura?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "contador-palabras",
+      "palabras-al-reves",
+      "convertidor-mayusculas-minusculas"
     ]
   }
 ]

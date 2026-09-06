@@ -41,6 +41,16 @@ import CalcularHexadecimalADecimal from './calcular-hexadecimal-a-decimal'
 import CalcularVelocidadDistanciaTiempo from './calcular-velocidad-distancia-tiempo'
 import CalcularGasolina from './calcular-gasolina'
 import CalcularVolumenCilindro from './calcular-volumen-cilindro'
+import CalcularRitmo from './calcular-ritmo'
+import CronometroOnline from './cronometro-online'
+import PalabrasAlReves from './palabras-al-reves'
+import CelsiusAFahrenheit from './celsius-a-fahrenheit'
+import BarAPsi from './bar-a-psi'
+import MedidasDeCocina from './medidas-de-cocina'
+import TipografiaParaInstagram from './tipografia-para-instagram'
+import CmAPulgadas from './cm-a-pulgadas'
+import ArrobaAKilos from './arroba-a-kilos'
+import CalculadoraTiempoLectura from './calculadora-tiempo-lectura'
 
 // Registry: add new tools here as { slug: Component }
 export const toolComponents = {
@@ -87,4 +97,14 @@ export const toolComponents = {
   'calcular-velocidad-distancia-tiempo': CalcularVelocidadDistanciaTiempo,
   'calcular-gasolina': CalcularGasolina,
   'calcular-volumen-cilindro': CalcularVolumenCilindro,
+  'calcular-ritmo': CalcularRitmo,
+  'cronometro-online': CronometroOnline,
+  'palabras-al-reves': PalabrasAlReves,
+  'celsius-a-fahrenheit': CelsiusAFahrenheit,
+  'bar-a-psi': BarAPsi,
+  'medidas-de-cocina': MedidasDeCocina,
+  'tipografia-para-instagram': TipografiaParaInstagram,
+  'cm-a-pulgadas': CmAPulgadas,
+  'arroba-a-kilos': ArrobaAKilos,
+  'calculadora-tiempo-lectura': CalculadoraTiempoLectura,
 }
