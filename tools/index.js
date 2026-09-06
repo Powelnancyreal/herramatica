@@ -76,6 +76,14 @@ import CalculadoraEngagementInstagram from './calculadora-engagement-instagram'
 import CalculadorDeHorarios from './calculador-de-horarios'
 import HexadecimalATexto from './hexadecimal-a-texto'
 import RuletaAleatoriaOnline from './ruleta-aleatoria-online'
+import CalculadoraPromedioPonderado from './calculadora-promedio-ponderado'
+import CalculadoraCtsPeru from './calculadora-cts-peru'
+import CalcularGratificacionPeru from './calcular-gratificacion-peru'
+import CalculadoraDeIgv from './calculadora-de-igv'
+import CalcularDetraccion from './calcular-detraccion'
+import CalculadoraDeMatrices from './calculadora-de-matrices'
+import CalculadoraDeEcuaciones from './calculadora-de-ecuaciones'
+import CalculadoraPreciosInfluencersTiktok from './calculadora-precios-influencers-tiktok'
 
 // Registry: add new tools here as { slug: Component }
 export const toolComponents = {
@@ -157,4 +165,12 @@ export const toolComponents = {
   'calculador-de-horarios': CalculadorDeHorarios,
   'hexadecimal-a-texto': HexadecimalATexto,
   'ruleta-aleatoria-online': RuletaAleatoriaOnline,
+  'calculadora-promedio-ponderado': CalculadoraPromedioPonderado,
+  'calculadora-cts-peru': CalculadoraCtsPeru,
+  'calcular-gratificacion-peru': CalcularGratificacionPeru,
+  'calculadora-de-igv': CalculadoraDeIgv,
+  'calcular-detraccion': CalcularDetraccion,
+  'calculadora-de-matrices': CalculadoraDeMatrices,
+  'calculadora-de-ecuaciones': CalculadoraDeEcuaciones,
+  'calculadora-precios-influencers-tiktok': CalculadoraPreciosInfluencersTiktok,
 }

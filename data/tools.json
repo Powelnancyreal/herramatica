@@ -572,7 +572,9 @@
       "arroba-a-kilos",
       "calculadora-calculos-combinados",
       "calculadora-resistencias",
-      "hexadecimal-a-texto"
+      "hexadecimal-a-texto",
+      "calculadora-de-matrices",
+      "calculadora-de-ecuaciones"
     ]
   },
   {
@@ -800,7 +802,8 @@
       "calculadora-isr",
       "calculadora-finiquito",
       "calcular-iva",
-      "calcular-sac-argentina"
+      "calcular-sac-argentina",
+      "calcular-gratificacion-peru"
     ]
   },
   {
@@ -944,7 +947,8 @@
       "calcular-aguinaldo",
       "calculadora-porcentaje",
       "convertidor-moneda",
-      "calculadora-irpf"
+      "calculadora-irpf",
+      "calculadora-de-igv"
     ]
   },
   {
@@ -1019,7 +1023,8 @@
       "cronometro-online",
       "sopa-de-letras",
       "generador-de-crucigramas",
-      "ruleta-aleatoria-online"
+      "ruleta-aleatoria-online",
+      "calculadora-promedio-ponderado"
     ]
   },
   {
@@ -1162,7 +1167,11 @@
       "calculadora-interes-compuesto",
       "calculadora-sueldo-neto-argentina",
       "calculadora-calculos-combinados",
-      "calculadora-engagement-instagram"
+      "calculadora-engagement-instagram",
+      "calculadora-promedio-ponderado",
+      "calculadora-de-igv",
+      "calcular-detraccion",
+      "calculadora-precios-influencers-tiktok"
     ]
   },
   {
@@ -1830,7 +1839,9 @@
     "relatedTools": [
       "calculadora-cientifica",
       "convertidor-numeros-a-letras",
-      "calculadora-calculos-combinados"
+      "calculadora-calculos-combinados",
+      "calculadora-promedio-ponderado",
+      "calculadora-de-matrices"
     ]
   },
   {
@@ -3267,7 +3278,8 @@
       "generador-nombres",
       "generador-de-letras-grandes",
       "generador-de-nombres-para-free-fire",
-      "calculadora-engagement-instagram"
+      "calculadora-engagement-instagram",
+      "calculadora-precios-influencers-tiktok"
     ]
   },
   {
@@ -3787,7 +3799,8 @@
       "calcular-sac-argentina",
       "calcular-indemnizacion-despido",
       "calculadora-porcentaje",
-      "calculadora-alquiler-argentina"
+      "calculadora-alquiler-argentina",
+      "calculadora-cts-peru"
     ]
   },
   {
@@ -3955,7 +3968,8 @@
     "relatedTools": [
       "calculadora-cientifica",
       "convertidor-fracciones",
-      "calculadora-porcentaje"
+      "calculadora-porcentaje",
+      "calculadora-de-ecuaciones"
     ]
   },
   {
@@ -4695,7 +4709,8 @@
     "relatedTools": [
       "tipografia-para-instagram",
       "calculadora-porcentaje",
-      "contador-palabras"
+      "contador-palabras",
+      "calculadora-precios-influencers-tiktok"
     ]
   },
   {
@@ -4867,6 +4882,462 @@
       "generador-nombres",
       "calculo-mental",
       "sopa-de-letras"
+    ]
+  },
+  {
+    "slug": "calculadora-promedio-ponderado",
+    "name": "Calculadora de Promedio Ponderado Universitario",
+    "shortName": "Promedio Ponderado",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Promedio Ponderado Online Gratis | Por Créditos",
+    "metaDescription": "Calcula tu promedio ponderado universitario a partir de tus notas y créditos por curso. Compatible con UPAO y la mayoría de universidades. Gratis.",
+    "webApp": true,
+    "appCategory": "EducationApplication",
+    "intro": "Calcula tu promedio ponderado universitario a partir de las notas y los créditos de cada uno de tus cursos, usando la fórmula estándar de ponderación por créditos que aplican la mayoría de universidades, incluyendo UPAO y otras universidades peruanas y latinoamericanas. Añade tantos cursos como necesites y obtén tu promedio ponderado al instante, junto con el promedio simple para comparar.",
+    "howToUse": [
+      "Añade una fila por cada curso que quieras incluir",
+      "Introduce la nota y los créditos de cada curso (el nombre del curso es opcional)",
+      "Pulsa \"+ Añadir curso\" para incluir más filas",
+      "Tu promedio ponderado se calcula automáticamente mientras completas los datos"
+    ],
+    "benefits": [
+      "Calcula el promedio ponderado por créditos, el sistema usado por la mayoría de universidades",
+      "Permite añadir tantos cursos como necesites, sin límite",
+      "Muestra también el promedio simple (sin ponderar) para comparar",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calcula el promedio ponderado universitario?",
+        "body": "El promedio ponderado se calcula multiplicando la nota de cada curso por su número de créditos, sumando esos resultados, y dividiendo el total entre la suma de todos los créditos: Promedio ponderado = Σ(nota × créditos) ÷ Σ(créditos). A diferencia del promedio simple (que trata todos los cursos por igual), el promedio ponderado da más peso a los cursos con más créditos, reflejando mejor su importancia real en el plan de estudios."
+      },
+      {
+        "title": "¿Por qué el promedio ponderado es distinto al promedio simple?",
+        "body": "Un curso de 5 créditos con nota 12 afecta tu promedio mucho más que un curso de 1 crédito con la misma nota, porque representa una carga académica mayor. El promedio simple ignora esta diferencia y trata todos los cursos por igual, lo que puede dar una imagen poco precisa de tu rendimiento real. Por eso la mayoría de universidades, incluyendo UPAO y otras universidades peruanas, usan el promedio ponderado por créditos como indicador oficial."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Esta calculadora sirve para calcular mi promedio en UPAO?",
+        "answer": "Sí, esta calculadora usa la fórmula estándar de promedio ponderado por créditos que aplica UPAO y la gran mayoría de universidades peruanas. Ten en cuenta que la nota mínima aprobatoria y algunas reglas específicas de redondeo pueden variar según la carrera o el reglamento vigente, así que confirma esos detalles con tu propia universidad si necesitas precisión oficial."
+      },
+      {
+        "question": "¿Cómo se calcula el promedio ponderado paso a paso?",
+        "answer": "Multiplica la nota de cada curso por sus créditos, suma todos esos resultados, y divide el total entre la suma de todos los créditos. Por ejemplo, con un curso de nota 15 y 4 créditos, otro de nota 12 y 3 créditos, y otro de nota 18 y 2 créditos: (15×4 + 12×3 + 18×2) ÷ (4+3+2) = 132 ÷ 9 = 14.67."
+      },
+      {
+        "question": "¿Qué diferencia hay entre el promedio ponderado y el promedio simple?",
+        "answer": "El promedio ponderado da más peso a los cursos con más créditos, mientras que el promedio simple suma todas las notas y las divide entre el número de cursos, sin importar los créditos de cada uno. Ambos pueden dar resultados distintos si tus cursos tienen créditos muy diferentes entre sí."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de promedio ponderado?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-porcentaje",
+      "calculo-mental",
+      "convertidor-fracciones"
+    ]
+  },
+  {
+    "slug": "calculadora-cts-peru",
+    "name": "Calculadora de CTS Perú",
+    "shortName": "CTS Perú",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de CTS Perú 2026 | Cómo se Calcula la CTS",
+    "metaDescription": "Calcula tu CTS (Compensación por Tiempo de Servicios) en Perú según tu remuneración y el periodo de depósito. Gratis, según la normativa laboral peruana.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Calcula el depósito de CTS (Compensación por Tiempo de Servicios) que te corresponde recibir en Perú, ya sea en mayo (por el periodo noviembre-abril) o en noviembre (por el periodo mayo-octubre). Introduce tu remuneración mensual y tu última gratificación para calcular tu remuneración computable, y obtén el monto exacto o proporcional si trabajaste solo una parte del periodo.",
+    "howToUse": [
+      "Introduce tu remuneración mensual (sueldo básico)",
+      "Introduce tu última gratificación recibida, si aplica (se usa 1/6 de este valor)",
+      "Elige el periodo de depósito correspondiente",
+      "Si empezaste a trabajar durante el periodo, indica tu fecha de ingreso"
+    ],
+    "benefits": [
+      "Calcula la remuneración computable incluyendo el sexto de gratificación",
+      "Calcula el depósito completo o proporcional según los días trabajados en el periodo",
+      "Cubre ambos periodos de depósito: mayo y noviembre",
+      "Resultado instantáneo mientras completas los datos",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calcula la CTS en Perú?",
+        "body": "La CTS se deposita dos veces al año (en mayo y en noviembre) en la cuenta bancaria del trabajador, y se calcula sobre la \"remuneración computable\", que incluye la remuneración mensual más 1/6 de la última gratificación percibida. Para un periodo completo de 6 meses trabajados, el depósito equivale a la mitad de la remuneración computable; si se trabajó menos tiempo, el monto se calcula de forma proporcional a los meses y días trabajados en el periodo."
+      },
+      {
+        "title": "¿Qué es la remuneración computable para la CTS?",
+        "body": "La remuneración computable para la CTS no es solo el sueldo básico: incluye también 1/6 de la última gratificación (de julio o diciembre) percibida por el trabajador, ya que esta \"sextiliza\" mensualmente forma parte de la remuneración regular para efectos de este cálculo. Otros conceptos remunerativos regulares (como ciertas asignaciones) también podrían formar parte de la base de cálculo, según cada caso."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuándo se deposita la CTS en Perú?",
+        "answer": "La CTS se deposita dos veces al año: en la primera quincena de mayo (correspondiente al periodo noviembre-abril) y en la primera quincena de noviembre (correspondiente al periodo mayo-octubre)."
+      },
+      {
+        "question": "¿Qué pasa si trabajé menos de 6 meses en el periodo?",
+        "answer": "Se calcula un depósito proporcional a los meses y días efectivamente trabajados dentro del periodo semestral correspondiente, usando la misma remuneración computable como base."
+      },
+      {
+        "question": "¿La CTS se puede retirar libremente?",
+        "answer": "Existen límites y condiciones específicas para el retiro de CTS establecidas por la normativa vigente, que pueden variar con el tiempo; consulta con tu entidad bancaria o con SUNAFIL para conocer las condiciones de retiro aplicables a tu caso."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de CTS?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calcular-gratificacion-peru",
+      "calculadora-de-igv",
+      "calculadora-sueldo-neto-argentina",
+      "calcular-detraccion"
+    ]
+  },
+  {
+    "slug": "calcular-gratificacion-peru",
+    "name": "Calculadora de Gratificación Perú",
+    "shortName": "Gratificación Perú",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Gratificación Perú 2026 | Fiestas Patrias y Navidad",
+    "metaDescription": "Calcula tu gratificación de julio o diciembre en Perú, incluyendo la bonificación extraordinaria del 9%. Gratis, según la Ley N.º 27735.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Calcula el monto de tu gratificación de Fiestas Patrias (julio) o Navidad (diciembre) en Perú, incluyendo la bonificación extraordinaria (9% para trabajadores afiliados a EsSalud, o 6.75% para EPS). Si trabajaste menos de 6 meses en el semestre, calcula el monto proporcional correspondiente.",
+    "howToUse": [
+      "Introduce tu remuneración mensual",
+      "Elige la gratificación: Fiestas Patrias (julio) o Navidad (diciembre)",
+      "Elige tu régimen de salud (EsSalud o EPS)",
+      "Si empezaste a trabajar durante el semestre, indica tu fecha de ingreso"
+    ],
+    "benefits": [
+      "Calcula la gratificación completa o proporcional según el tiempo trabajado",
+      "Incluye la bonificación extraordinaria correspondiente a tu régimen de salud",
+      "Cubre ambas gratificaciones: julio y diciembre",
+      "Resultado instantáneo mientras completas los datos",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calcula la gratificación en Perú?",
+        "body": "Si trabajaste el semestre completo (6 meses), la gratificación equivale a una remuneración mensual completa. Si trabajaste menos tiempo, se calcula de forma proporcional: (remuneración ÷ 6) × meses trabajados. A este monto se le suma la bonificación extraordinaria, creada por la Ley N.º 29351 para trasladar al trabajador el ahorro que el empleador obtiene al no pagar sus aportes a EsSalud sobre la gratificación."
+      },
+      {
+        "title": "¿Qué es la bonificación extraordinaria del 9%?",
+        "body": "Como las gratificaciones están inafectas de aportes a EsSalud, la ley estableció que el empleador debe pagar al trabajador, como bonificación extraordinaria, un monto equivalente al 9% de la gratificación (el aporte que le hubiera correspondido pagar a EsSalud), o 6.75% si el trabajador está afiliado a una EPS en lugar de EsSalud. Esta bonificación se suma automáticamente a la gratificación, no se descuenta."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuándo se paga la gratificación en Perú?",
+        "answer": "Se paga dos veces al año: antes del 15 de julio (gratificación por Fiestas Patrias) y antes del 15 de diciembre (gratificación por Navidad)."
+      },
+      {
+        "question": "¿Cómo se calcula la gratificación si trabajé solo 3 meses?",
+        "answer": "Se calcula de forma proporcional: (remuneración mensual ÷ 6) × 3 meses trabajados, y a ese monto se le suma la bonificación extraordinaria correspondiente sobre esa cifra proporcional."
+      },
+      {
+        "question": "¿Todos los trabajadores reciben la bonificación extraordinaria del 9%?",
+        "answer": "La reciben los trabajadores cuyo empleador aporta por ellos a EsSalud (el caso más común), con una tasa de 9%. Si el trabajador está afiliado a una Entidad Prestadora de Salud (EPS) en lugar de EsSalud, la bonificación es de 6.75%."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de gratificación?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-cts-peru",
+      "calculadora-de-igv",
+      "calcular-aguinaldo"
+    ]
+  },
+  {
+    "slug": "calculadora-de-igv",
+    "name": "Calculadora de IGV Perú",
+    "shortName": "IGV Perú",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de IGV Perú Online Gratis | Agregar o Quitar 18%",
+    "metaDescription": "Calcula el IGV (18%) de un precio en Perú: agrégalo a un precio sin IGV o extráelo de un precio que ya lo incluye. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Calcula el Impuesto General a las Ventas (IGV) de Perú, actualmente del 18%, ya sea para agregarlo a un precio sin impuesto (valor de venta) o para extraerlo de un precio que ya lo incluye (precio de venta al público).",
+    "howToUse": [
+      "Elige si tienes el precio sin IGV o el precio con IGV ya incluido",
+      "Introduce el monto",
+      "Consulta el valor de venta, el monto de IGV y el precio final al instante"
+    ],
+    "benefits": [
+      "Calcula el IGV en ambos sentidos: agregarlo o extraerlo de un precio",
+      "Usa la tasa oficial vigente del 18%",
+      "Muestra el valor de venta, el IGV y el precio total por separado",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calcula el IGV en Perú?",
+        "body": "El IGV en Perú es del 18% (compuesto por 16% de IGV propiamente dicho y 2% del Impuesto de Promoción Municipal, aplicados en conjunto). Para agregar el IGV a un precio sin impuesto, se multiplica ese valor por 0.18 y se suma al original. Para extraer el IGV de un precio que ya lo incluye, se divide el precio total entre 1.18 para obtener el valor de venta, y la diferencia es el IGV."
+      },
+      {
+        "title": "¿Qué es el valor de venta y el precio de venta?",
+        "body": "El \"valor de venta\" es el precio de un bien o servicio sin incluir el IGV, la base sobre la que se calcula el impuesto. El \"precio de venta\" (o precio final al consumidor) es el valor de venta más el IGV ya incluido, el monto que efectivamente paga el comprador. Las boletas y facturas en Perú suelen mostrar ambos valores por separado."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuál es la tasa de IGV vigente en Perú?",
+        "answer": "La tasa de IGV vigente es del 18%, que incluye 16% de IGV y 2% del Impuesto de Promoción Municipal (IPM), aplicados conjuntamente sobre el valor de venta."
+      },
+      {
+        "question": "¿Cómo calculo el IGV de un precio que ya lo incluye?",
+        "answer": "Divide el precio total entre 1.18 para obtener el valor de venta sin IGV, y resta ese valor al precio total para obtener el monto exacto del IGV."
+      },
+      {
+        "question": "¿Cómo agrego el IGV a un precio sin impuesto?",
+        "answer": "Multiplica el valor de venta por 0.18 para obtener el monto del IGV, y súmalo al valor original para obtener el precio final con IGV incluido."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de IGV?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calcular-detraccion",
+      "calcular-iva",
+      "calculadora-porcentaje",
+      "calculadora-cts-peru",
+      "calcular-gratificacion-peru"
+    ]
+  },
+  {
+    "slug": "calcular-detraccion",
+    "name": "Calculadora de Detracción",
+    "shortName": "Detracción",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Detracción SUNAT Online Gratis | Perú",
+    "metaDescription": "Calcula el monto de detracción sobre una venta según el porcentaje de tu categoría SUNAT. Gratis, introduce tu propio porcentaje vigente.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Calcula el monto de detracción que corresponde depositar en la cuenta de detracciones del Banco de la Nación, a partir del precio de venta y el porcentaje de detracción aplicable a tu categoría de bien o servicio, según el sistema de detracciones de SUNAT en Perú.",
+    "howToUse": [
+      "Introduce el precio de venta (con IGV incluido) de la operación",
+      "Introduce el porcentaje de detracción correspondiente a tu categoría, según el anexo vigente de SUNAT",
+      "Consulta el monto a detraer y el monto neto que recibirá el proveedor"
+    ],
+    "benefits": [
+      "Calcula el monto exacto de detracción sobre cualquier precio de venta",
+      "Te permite introducir el porcentaje vigente de tu categoría, en lugar de asumir uno fijo",
+      "Muestra tanto el monto detraído como el monto neto a recibir",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Qué es el sistema de detracciones de SUNAT?",
+        "body": "El sistema de detracciones es un mecanismo de recaudación anticipada del IGV en Perú, mediante el cual el comprador de ciertos bienes o servicios debe depositar un porcentaje del precio de venta en una cuenta especial del proveedor en el Banco de la Nación, en lugar de pagárselo directamente. Ese monto queda disponible para que el proveedor pague sus propias obligaciones tributarias."
+      },
+      {
+        "title": "¿Por qué esta calculadora no incluye el porcentaje de cada categoría?",
+        "body": "SUNAT mantiene un anexo con decenas de categorías de bienes y servicios sujetos a detracción, cada una con un porcentaje distinto (4%, 10%, 12%, entre otros), y este listado se actualiza periódicamente. En lugar de arriesgarnos a mostrarte un porcentaje desactualizado, te pedimos que introduzcas el porcentaje vigente de tu categoría específica, que puedes verificar en el anexo oficial de SUNAT."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo sé qué porcentaje de detracción aplica a mi operación?",
+        "answer": "El porcentaje depende del tipo de bien o servicio, según los anexos oficiales de SUNAT (Resolución de Superintendencia vigente sobre el sistema de detracciones). Consulta el anexo correspondiente a tu operación para conocer el porcentaje exacto."
+      },
+      {
+        "question": "¿Sobre qué monto se calcula la detracción?",
+        "answer": "La detracción se calcula sobre el precio de venta total de la operación, es decir, incluyendo el IGV, no solo sobre el valor de venta."
+      },
+      {
+        "question": "¿Quién debe depositar el monto de la detracción?",
+        "answer": "Generalmente es el comprador (adquirente del bien o usuario del servicio) quien debe realizar el depósito en la cuenta de detracciones del proveedor en el Banco de la Nación, dentro de los plazos establecidos por SUNAT."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de detracción?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-de-igv",
+      "calculadora-porcentaje",
+      "calculadora-cts-peru"
+    ]
+  },
+  {
+    "slug": "calculadora-de-matrices",
+    "name": "Calculadora de Matrices",
+    "shortName": "Matrices",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Matrices Online Gratis | Suma, Multiplicación, Determinante e Inversa",
+    "metaDescription": "Suma, resta, multiplica matrices, y calcula el determinante, la inversa o la transpuesta, para matrices 2x2 y 3x3. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Realiza las operaciones más habituales con matrices de 2×2 y 3×3: suma, resta, multiplicación, determinante, matriz inversa y matriz transpuesta. Introduce los valores de cada matriz y obtén el resultado al instante.",
+    "howToUse": [
+      "Elige el tamaño de las matrices: 2×2 o 3×3",
+      "Elige la operación que quieres realizar",
+      "Introduce los valores de la matriz A (y de la matriz B si la operación lo requiere)",
+      "El resultado se calcula al instante"
+    ],
+    "benefits": [
+      "Seis operaciones distintas en una sola herramienta",
+      "Admite matrices de 2×2 y 3×3",
+      "Calcula la inversa usando el método de Gauss-Jordan",
+      "Detecta y explica cuando una matriz no tiene inversa",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calcula el determinante de una matriz?",
+        "body": "Para una matriz 2×2, el determinante se calcula como (a×d) − (b×c). Para una matriz 3×3, se usa la expansión por cofactores a lo largo de la primera fila, combinando los determinantes de las submatrices 2×2 resultantes de eliminar cada fila y columna correspondiente. El determinante indica, entre otras cosas, si una matriz tiene inversa: si es igual a cero, la matriz no es invertible."
+      },
+      {
+        "title": "¿Cómo se calcula la matriz inversa?",
+        "body": "Esta calculadora usa el método de Gauss-Jordan: se coloca la matriz original junto a la matriz identidad, y mediante operaciones de fila (multiplicar, sumar o intercambiar filas) se transforma la matriz original en la identidad; al hacerlo, la matriz identidad original se transforma en la matriz inversa. Este método funciona para cualquier matriz cuadrada cuyo determinante no sea cero."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuándo una matriz no tiene inversa?",
+        "answer": "Una matriz cuadrada no tiene inversa cuando su determinante es igual a cero; en ese caso, se dice que la matriz es \"singular\" y esta calculadora te lo indicará en lugar de mostrar un resultado incorrecto."
+      },
+      {
+        "question": "¿Se pueden multiplicar dos matrices de cualquier tamaño?",
+        "answer": "No, para multiplicar dos matrices, el número de columnas de la primera matriz debe coincidir con el número de filas de la segunda. Esta calculadora trabaja con matrices cuadradas del mismo tamaño (2×2 o 3×3), por lo que la multiplicación siempre es válida."
+      },
+      {
+        "question": "¿Qué es la matriz transpuesta?",
+        "answer": "La matriz transpuesta se obtiene intercambiando las filas por las columnas de la matriz original: el elemento en la fila i, columna j de la matriz original pasa a la fila j, columna i en la transpuesta."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de matrices?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-de-ecuaciones",
+      "calculadora-cientifica",
+      "convertidor-fracciones"
+    ]
+  },
+  {
+    "slug": "calculadora-de-ecuaciones",
+    "name": "Calculadora de Ecuaciones",
+    "shortName": "Ecuaciones",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Ecuaciones Online Gratis | Lineales y Cuadráticas",
+    "metaDescription": "Resuelve ecuaciones lineales (ax + b = 0) y cuadráticas (ax² + bx + c = 0) al instante, incluyendo soluciones complejas. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Resuelve ecuaciones lineales de primer grado (ax + b = 0) y ecuaciones cuadráticas de segundo grado (ax² + bx + c = 0) al instante, incluyendo el caso de soluciones complejas cuando el discriminante es negativo.",
+    "howToUse": [
+      "Elige el tipo de ecuación: lineal o cuadrática",
+      "Introduce los coeficientes a, b (y c en el caso cuadrático)",
+      "La solución se calcula al instante"
+    ],
+    "benefits": [
+      "Resuelve tanto ecuaciones lineales como cuadráticas",
+      "Muestra el discriminante y el tipo de solución (dos raíces reales, una raíz doble, o raíces complejas)",
+      "Calcula correctamente incluso cuando no hay solución real",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se resuelve una ecuación cuadrática?",
+        "body": "Una ecuación cuadrática ax² + bx + c = 0 se resuelve con la fórmula general: x = (−b ± √(b² − 4ac)) ÷ (2a). El término dentro de la raíz, b² − 4ac, se llama discriminante: si es positivo, hay dos soluciones reales distintas; si es cero, hay una única solución (raíz doble); si es negativo, las soluciones son números complejos."
+      },
+      {
+        "title": "¿Qué significa que una ecuación tenga soluciones complejas?",
+        "body": "Cuando el discriminante de una ecuación cuadrática es negativo, no existe ningún número real que la satisfaga, porque implicaría calcular la raíz cuadrada de un número negativo. En ese caso, las soluciones se expresan como números complejos, de la forma a ± bi, donde \"i\" representa la unidad imaginaria (la raíz cuadrada de −1)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo resuelvo una ecuación lineal ax + b = 0?",
+        "answer": "Despeja x dividiendo: x = −b ÷ a. Por ejemplo, en 2x − 8 = 0, x = 8 ÷ 2 = 4."
+      },
+      {
+        "question": "¿Qué pasa si el discriminante de mi ecuación cuadrática es negativo?",
+        "answer": "Significa que la ecuación no tiene soluciones reales; sus dos soluciones son números complejos conjugados, que esta calculadora muestra en la forma a ± bi."
+      },
+      {
+        "question": "¿Qué pasa si escribo a = 0 en la ecuación cuadrática?",
+        "answer": "Si a = 0, la ecuación deja de ser cuadrática y se convierte en lineal (bx + c = 0); esta calculadora requiere un valor de a distinto de cero para la pestaña de ecuación cuadrática."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de ecuaciones?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-de-matrices",
+      "calculadora-cientifica",
+      "calculadora-calculos-combinados"
+    ]
+  },
+  {
+    "slug": "calculadora-precios-influencers-tiktok",
+    "name": "Calculadora de Precios de Influencers de TikTok",
+    "shortName": "Precios Influencers TikTok",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Precios de Influencers de TikTok Online Gratis",
+    "metaDescription": "Estima cuánto cobrar (o pagar) por un video patrocinado en TikTok según seguidores, engagement y tipo de contenido. Gratis, es una estimación orientativa.",
+    "webApp": true,
+    "appCategory": "BusinessApplication",
+    "intro": "Estima un rango de precio orientativo para un video patrocinado en TikTok, a partir de los seguidores del creador, su tasa de engagement, el tipo de contenido (mención, video dedicado, paquete de varios videos) y el nivel de tarifa según el contexto de la negociación. Útil tanto para creadores que empiezan a cobrar por contenido patrocinado como para marcas que buscan una referencia inicial de presupuesto.",
+    "howToUse": [
+      "Introduce el número de seguidores de la cuenta de TikTok",
+      "Introduce la tasa de engagement (puedes calcularla con nuestra calculadora de engagement)",
+      "Elige el tipo de contenido: mención breve, video dedicado, video con repost, o paquete de varios videos",
+      "Elige el nivel de tarifa según el contexto (marca pequeña, mercado general, o nicho especializado)"
+    ],
+    "benefits": [
+      "Calcula un rango de precio (no un único número), reflejando la variabilidad real del mercado",
+      "Ajusta el resultado según el tipo de contenido y el contexto de negociación",
+      "Metodología del cálculo completamente transparente, sin caja negra",
+      "Resultado instantáneo mientras completas los datos",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calcula el precio estimado?",
+        "body": "Esta calculadora combina tres factores citados habitualmente en el sector del marketing de influencers: el número de seguidores, la tasa de engagement (que refleja qué tan activa es la audiencia, no solo su tamaño), y un factor de tarifa por interacción que varía según el tipo de contenido y el nivel de negociación. El resultado se presenta como un rango, porque el precio real de un video patrocinado depende de muchos factores que un cálculo automático no puede capturar del todo."
+      },
+      {
+        "title": "¿Por qué el precio es un rango y no un número exacto?",
+        "body": "No existe una fórmula oficial o universal para fijar el precio de un contenido patrocinado: cada marca, agencia y creador negocia según su propio criterio, el histórico de resultados de campañas anteriores, la exclusividad del contrato, los derechos de uso del contenido (si la marca puede reutilizarlo en sus propios anuncios), y la relación entre ambas partes. Por eso esta calculadora ofrece un rango orientativo basado en referencias comunes del mercado, útil como punto de partida, no como precio definitivo."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Este precio es el que debo cobrar o pagar exactamente?",
+        "answer": "No, es una estimación orientativa basada en rangos de mercado citados habitualmente en el sector. El precio real de cada colaboración depende de la negociación entre el creador y la marca, e incluye factores que esta calculadora no puede medir, como el nicho exacto, la calidad de producción, o resultados de campañas anteriores."
+      },
+      {
+        "question": "¿Por qué el engagement importa más que solo los seguidores?",
+        "answer": "Una cuenta con muchos seguidores pero poca interacción real (por ejemplo, seguidores comprados o inactivos) genera menos resultados reales para una marca que una cuenta más pequeña pero con una audiencia muy activa. Por eso el engagement se usa como factor multiplicador junto a los seguidores, no como un dato secundario."
+      },
+      {
+        "question": "¿Cómo calculo mi tasa de engagement en TikTok?",
+        "answer": "Divide la suma de tus interacciones (likes, comentarios, compartidos) entre tus seguidores o entre tus visualizaciones promedio, y multiplica por 100. Puedes usar nuestra calculadora de engagement como referencia general del cálculo, adaptando los datos a las métricas de TikTok."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de precios de influencers?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-engagement-instagram",
+      "tipografia-para-instagram",
+      "calculadora-porcentaje"
     ]
   }
 ]
