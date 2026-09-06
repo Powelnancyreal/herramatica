@@ -100,7 +100,9 @@
       "calculadora-horas",
       "calculadora-dias",
       "calculo-mental",
-      "calculadora-apiretal"
+      "calculadora-apiretal",
+      "calculadora-embarazo",
+      "calculadora-peso-ideal"
     ]
   },
   {
@@ -257,7 +259,11 @@
       "calcular-rfc",
       "calculadora-cientifica",
       "calculadora-finiquito",
-      "calcular-ritmo"
+      "calcular-ritmo",
+      "calculadora-calorias",
+      "calculadora-embarazo",
+      "calculadora-peso-ideal",
+      "calculadora-ciclos-sueno"
     ]
   },
   {
@@ -476,7 +482,8 @@
       "calculadora-dias",
       "calcular-velocidad-distancia-tiempo",
       "calcular-ritmo",
-      "cronometro-online"
+      "cronometro-online",
+      "calculadora-ciclos-sueno"
     ]
   },
   {
@@ -558,7 +565,9 @@
       "calcular-velocidad-distancia-tiempo",
       "calcular-volumen-cilindro",
       "celsius-a-fahrenheit",
-      "arroba-a-kilos"
+      "arroba-a-kilos",
+      "calculadora-calculos-combinados",
+      "calculadora-resistencias"
     ]
   },
   {
@@ -633,7 +642,8 @@
       "calculadora-horas",
       "calcular-imc",
       "calculadora-isr",
-      "calcular-aguinaldo"
+      "calcular-aguinaldo",
+      "calcular-indemnizacion-despido"
     ]
   },
   {
@@ -784,7 +794,8 @@
     "relatedTools": [
       "calculadora-isr",
       "calculadora-finiquito",
-      "calcular-iva"
+      "calcular-iva",
+      "calcular-sac-argentina"
     ]
   },
   {
@@ -854,7 +865,8 @@
     "relatedTools": [
       "calculadora-edad",
       "calculadora-horas",
-      "calculadora-propinas"
+      "calculadora-propinas",
+      "calculadora-embarazo"
     ]
   },
   {
@@ -1136,7 +1148,11 @@
       "calculadora-apiretal",
       "calcular-area-circulo",
       "calcular-gasolina",
-      "medidas-de-cocina"
+      "medidas-de-cocina",
+      "calculadora-alquiler-argentina",
+      "calculadora-interes-compuesto",
+      "calculadora-sueldo-neto-argentina",
+      "calculadora-calculos-combinados"
     ]
   },
   {
@@ -1194,7 +1210,8 @@
       "calcular-iva",
       "convertidor-unidades",
       "calculadora-prestamo",
-      "calcular-gasolina"
+      "calcular-gasolina",
+      "calculadora-plazo-fijo"
     ]
   },
   {
@@ -1433,7 +1450,8 @@
       "convertidor-moneda",
       "calculadora-isr",
       "calculadora-porcentaje",
-      "calcular-hipoteca"
+      "calcular-hipoteca",
+      "calculadora-interes-compuesto"
     ]
   },
   {
@@ -1510,7 +1528,9 @@
       "bar-a-psi",
       "medidas-de-cocina",
       "cm-a-pulgadas",
-      "arroba-a-kilos"
+      "arroba-a-kilos",
+      "calculadora-volumen",
+      "calculadora-de-escalas"
     ]
   },
   {
@@ -1789,7 +1809,8 @@
     ],
     "relatedTools": [
       "calculadora-cientifica",
-      "convertidor-numeros-a-letras"
+      "convertidor-numeros-a-letras",
+      "calculadora-calculos-combinados"
     ]
   },
   {
@@ -1899,7 +1920,8 @@
     "relatedTools": [
       "calculadora-cientifica",
       "convertidor-numeros-a-letras",
-      "calcular-hexadecimal-a-decimal"
+      "calcular-hexadecimal-a-decimal",
+      "calculadora-resistencias"
     ]
   },
   {
@@ -2543,7 +2565,8 @@
       "calculadora-cientifica",
       "calculadora-porcentaje",
       "calcular-volumen-cilindro",
-      "cm-a-pulgadas"
+      "cm-a-pulgadas",
+      "calculadora-area"
     ]
   },
   {
@@ -2603,7 +2626,8 @@
     ],
     "relatedTools": [
       "convertidor-binario",
-      "calculadora-cientifica"
+      "calculadora-cientifica",
+      "calculadora-resistencias"
     ]
   },
   {
@@ -2795,7 +2819,8 @@
       "calcular-area-circulo",
       "convertidor-unidades",
       "calculadora-cientifica",
-      "cm-a-pulgadas"
+      "cm-a-pulgadas",
+      "calculadora-volumen"
     ]
   },
   {
@@ -3268,7 +3293,8 @@
     "relatedTools": [
       "convertidor-unidades",
       "calcular-area-circulo",
-      "calcular-volumen-cilindro"
+      "calcular-volumen-cilindro",
+      "calculadora-de-escalas"
     ]
   },
   {
@@ -3382,6 +3408,862 @@
       "contador-palabras",
       "palabras-al-reves",
       "convertidor-mayusculas-minusculas"
+    ]
+  },
+  {
+    "slug": "calcular-indemnizacion-despido",
+    "name": "Calculadora de Indemnización por Despido",
+    "shortName": "Indemnización por Despido",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Indemnización por Despido Argentina 2026 | Liquidación Final",
+    "metaDescription": "Calcula tu indemnización por despido sin causa (Art. 245 LCT) y tu liquidación final: SAC y vacaciones proporcionales. Gratis, según la ley argentina.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Esta calculadora estima la indemnización por despido sin causa justificada y la liquidación final que corresponde a un trabajador en relación de dependencia en Argentina, según la Ley de Contrato de Trabajo (LCT). Incluye la indemnización por antigüedad (Art. 245), el preaviso no otorgado, la integración del mes de despido, el SAC proporcional y las vacaciones no gozadas.",
+    "howToUse": [
+      "Elige entre \"Indemnización por Despido\" (para despido sin causa) o \"Liquidación Final\" (aplica también a renuncias)",
+      "Introduce tu mejor remuneración mensual, normal y habitual",
+      "Introduce tu fecha de ingreso y de egreso",
+      "Consulta el desglose completo de cada componente de la liquidación"
+    ],
+    "benefits": [
+      "Calcula la indemnización por antigüedad según el Art. 245 de la LCT",
+      "Incluye preaviso, integración del mes de despido, SAC y vacaciones proporcionales",
+      "Determina automáticamente los años de antigüedad computables, incluyendo fracciones mayores a 3 meses",
+      "Cubre tanto el despido sin causa como la liquidación final por renuncia",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calcula la indemnización por antigüedad (Art. 245 LCT)?",
+        "body": "La indemnización por antigüedad equivale a un mes de la mejor remuneración mensual, normal y habitual percibida durante el último año (o durante la relación laboral, si fue menor a un año), multiplicado por la cantidad de años de servicio. Toda fracción mayor a tres meses se computa como un año completo. Por ejemplo, un trabajador con 4 años y 5 meses de antigüedad cobra 5 meses de sueldo en concepto de indemnización por antigüedad."
+      },
+      {
+        "title": "¿Qué es la liquidación final y en qué se diferencia de la indemnización?",
+        "body": "La liquidación final corresponde a los conceptos que se deben pagar a todo trabajador que deja de prestar servicios, sea por renuncia o por despido: el SAC (aguinaldo) proporcional a los días trabajados en el semestre, y las vacaciones proporcionales no gozadas. La indemnización por despido (Art. 245), en cambio, solo corresponde cuando el empleador despide al trabajador sin una causa justificada, y se suma a la liquidación final."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo se calcula la indemnización por despido en Argentina?",
+        "answer": "Se multiplica la mejor remuneración mensual, normal y habitual del trabajador por la cantidad de años de antigüedad (redondeando hacia arriba las fracciones mayores a 3 meses). A esto se suman, si corresponde, el preaviso no otorgado, la integración del mes de despido, el SAC proporcional y las vacaciones no gozadas."
+      },
+      {
+        "question": "¿Qué pasa si el empleador no me dio preaviso?",
+        "answer": "Si el empleador no otorgó el preaviso correspondiente, debe pagar una indemnización sustitutiva equivalente a un mes de sueldo (si la antigüedad es menor a 5 años) o dos meses de sueldo (si es de 5 años o más)."
+      },
+      {
+        "question": "¿Tengo derecho a indemnización si renuncio?",
+        "answer": "No. La indemnización por despido (Art. 245) solo corresponde cuando el empleador decide finalizar la relación laboral sin una causa justificada. Si renuncias, tienes derecho a la liquidación final (SAC proporcional y vacaciones no gozadas), pero no a la indemnización por antigüedad."
+      },
+      {
+        "question": "¿Esta calculadora reemplaza el cálculo de un abogado o contador?",
+        "answer": "No. Esta herramienta ofrece una estimación orientativa basada en la fórmula general de la LCT. Casos particulares (convenios colectivos, indemnizaciones agravadas, despido con causa discutida, etc.) pueden modificar el cálculo, por lo que se recomienda confirmar con un profesional."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de indemnización?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calcular-sac-argentina",
+      "calculadora-sueldo-neto-argentina",
+      "calculadora-finiquito"
+    ]
+  },
+  {
+    "slug": "calcular-sac-argentina",
+    "name": "Calculadora de Aguinaldo (SAC) Argentina",
+    "shortName": "SAC Argentina",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Aguinaldo (SAC) Argentina 2026 | Cuota Completa y Proporcional",
+    "metaDescription": "Calcula tu aguinaldo (SAC) en Argentina: 1ª o 2ª cuota, completo o proporcional si empezaste a trabajar durante el semestre. Gratis, según la Ley 23.041.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Calcula el Sueldo Anual Complementario (SAC), conocido como aguinaldo, que corresponde a todo trabajador en relación de dependencia en Argentina. Elige la cuota (primer o segundo semestre), introduce tu mejor remuneración del período y obtén el monto exacto, incluso si trabajaste solo una parte del semestre.",
+    "howToUse": [
+      "Elige la cuota del SAC: primer semestre (se cobra en junio) o segundo semestre (se cobra en diciembre)",
+      "Introduce el año correspondiente",
+      "Introduce tu mejor remuneración mensual del semestre",
+      "Si empezaste a trabajar durante ese semestre, indica tu fecha de ingreso para el cálculo proporcional"
+    ],
+    "benefits": [
+      "Calcula tanto el SAC completo como el proporcional para semestres incompletos",
+      "Aplica la fórmula oficial: 50% de la mejor remuneración mensual del semestre",
+      "Diferenciado por cuota (junio o diciembre) y por año",
+      "Resultado instantáneo mientras completas los datos",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calcula el aguinaldo (SAC) en Argentina?",
+        "body": "El SAC equivale al 50% de la mejor remuneración mensual, normal y habitual devengada durante el semestre correspondiente (enero-junio o julio-diciembre). Se paga en dos cuotas: la primera antes del 30 de junio y la segunda antes del 18 de diciembre, según la Ley 23.041. Si el sueldo varió durante el semestre (por un aumento, por ejemplo), se toma el mes con la remuneración más alta."
+      },
+      {
+        "title": "¿Cómo se calcula el aguinaldo si empecé a trabajar a mitad de semestre?",
+        "body": "Si trabajaste solo una parte del semestre, el SAC se calcula en proporción a los días efectivamente trabajados: se toma el 50% de la mejor remuneración del período trabajado, multiplicado por la proporción de días trabajados sobre el total de días del semestre. Esta calculadora hace este cálculo automáticamente al introducir tu fecha de ingreso."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuándo se cobra el aguinaldo en Argentina?",
+        "answer": "El aguinaldo (SAC) se cobra en dos cuotas: la primera antes del 30 de junio (correspondiente al primer semestre) y la segunda antes del 18 de diciembre (correspondiente al segundo semestre)."
+      },
+      {
+        "question": "¿Cómo se calcula el aguinaldo si tuve un aumento de sueldo durante el semestre?",
+        "answer": "Se toma la remuneración más alta percibida durante el semestre correspondiente, no el promedio ni la última. Por eso se llama \"mejor remuneración mensual, normal y habitual\"."
+      },
+      {
+        "question": "¿El aguinaldo se calcula sobre el sueldo bruto o el neto?",
+        "answer": "Se calcula sobre la remuneración bruta, y luego el SAC en sí también está sujeto a los descuentos habituales (jubilación, obra social, PAMI), igual que un sueldo mensual normal."
+      },
+      {
+        "question": "¿Tengo derecho a aguinaldo proporcional si renuncio o me despiden?",
+        "answer": "Sí. Al finalizar la relación laboral, por cualquier motivo, corresponde el pago del SAC proporcional a los días trabajados en el semestre en curso, como parte de la liquidación final."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de aguinaldo?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calcular-indemnizacion-despido",
+      "calculadora-sueldo-neto-argentina",
+      "calcular-aguinaldo"
+    ]
+  },
+  {
+    "slug": "calculadora-alquiler-argentina",
+    "name": "Calculadora de Ajuste de Alquiler Argentina",
+    "shortName": "Ajuste de Alquiler",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Alquileres Argentina | Ajuste por Coeficiente ICL o IPC",
+    "metaDescription": "Calcula tu nuevo alquiler aplicando el coeficiente de ajuste (ICL, IPC o CVS) o un porcentaje pactado. Gratis, introduce el índice vigente de tu contrato.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Calcula el nuevo valor de tu alquiler aplicando el coeficiente de ajuste correspondiente a tu contrato (ICL del BCRA, IPC del INDEC, CVS u otro índice pactado), o directamente un porcentaje de aumento acordado. Introduce el alquiler actual y el coeficiente o porcentaje vigente para tu fecha de actualización.",
+    "howToUse": [
+      "Introduce el monto de tu alquiler actual",
+      "Elige si vas a aplicar un coeficiente de ajuste (ICL, IPC, CVS) o un porcentaje de aumento",
+      "Introduce el coeficiente o porcentaje correspondiente a tu fecha de actualización",
+      "Obtén el nuevo valor de tu alquiler al instante"
+    ],
+    "benefits": [
+      "Admite tanto coeficientes de ajuste (ICL, IPC, CVS) como porcentajes de aumento directos",
+      "Muestra el aumento en pesos y en porcentaje, además del nuevo alquiler",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Qué índices se usan para ajustar el alquiler en Argentina?",
+        "body": "Los contratos de alquiler en Argentina suelen ajustarse según distintos índices, dependiendo de lo pactado: el ICL (Índice para Contratos de Locación) publicado por el BCRA, el IPC (Índice de Precios al Consumidor) publicado por el INDEC, el CVS (Coeficiente de Variación Salarial), o combinaciones de estos según la fecha de firma del contrato y la normativa vigente en ese momento. El coeficiente publicado indica cuánto se multiplica el alquiler anterior para obtener el nuevo valor."
+      },
+      {
+        "title": "¿Dónde consigo el coeficiente vigente para mi contrato?",
+        "body": "El coeficiente exacto depende de la fecha de tu contrato y de la fecha de ajuste, y se actualiza mensualmente. Puedes consultarlo en el simulador oficial del BCRA (para el índice ICL) o en las publicaciones del INDEC (para el IPC), ingresando la fecha de inicio del contrato y la fecha del ajuste. Esta calculadora no publica esos valores porque cambian cada mes; una vez que tengas el coeficiente, introdúcelo aquí para calcular tu nuevo alquiler al instante."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo calculo mi nuevo alquiler con el índice ICL?",
+        "answer": "Multiplica tu alquiler actual por el coeficiente ICL correspondiente a tu fecha de contrato y tu fecha de ajuste, publicado por el BCRA. Introduce ese coeficiente en esta calculadora, junto con tu alquiler actual, para obtener el nuevo monto."
+      },
+      {
+        "question": "¿Por qué esta calculadora no tiene el índice actual cargado automáticamente?",
+        "answer": "Porque el ICL, el IPC y el CVS se actualizan mensualmente con nuevos valores oficiales del BCRA y el INDEC, y cualquier valor que se cargara aquí quedaría desactualizado rápidamente. Por eso pedimos que introduzcas el coeficiente vigente, que puedes obtener directamente de la fuente oficial correspondiente a tu contrato."
+      },
+      {
+        "question": "¿Qué diferencia hay entre ajustar por coeficiente y por porcentaje?",
+        "answer": "El coeficiente (como el ICL) es un número que ya incorpora la variación acumulada del índice entre dos fechas, y se multiplica directamente por el alquiler. El porcentaje es simplemente el aumento pactado, expresado como un porcentaje directo sobre el valor actual. Esta calculadora admite ambos métodos."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de ajuste de alquiler?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-sueldo-neto-argentina",
+      "calculadora-porcentaje",
+      "calculadora-interes-compuesto",
+      "calculadora-plazo-fijo"
+    ]
+  },
+  {
+    "slug": "calculadora-plazo-fijo",
+    "name": "Calculadora de Plazo Fijo",
+    "shortName": "Plazo Fijo",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Plazo Fijo Online Gratis | Interés y TEA",
+    "metaDescription": "Calcula cuánto ganarás con un plazo fijo según el capital, la TNA y los días de plazo. Incluye la TEA equivalente. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Calcula el interés y el monto final de un plazo fijo tradicional a partir del capital depositado, la Tasa Nominal Anual (TNA) que ofrece el banco y el plazo en días. También calcula la Tasa Efectiva Anual (TEA) equivalente, útil para comparar ofertas de distintos bancos.",
+    "howToUse": [
+      "Introduce el capital que vas a depositar",
+      "Introduce la TNA (tasa nominal anual) que te ofrece el banco",
+      "Elige el plazo en días",
+      "Consulta el interés ganado, el monto final y la TEA equivalente"
+    ],
+    "benefits": [
+      "Calcula el interés exacto usando la fórmula estándar de interés simple de un plazo fijo",
+      "Convierte la TNA a TEA (tasa efectiva anual), útil para comparar entre bancos",
+      "Admite los plazos más habituales: 30, 60, 90, 180 y 365 días",
+      "Resultado instantáneo mientras completas los datos",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calcula el interés de un plazo fijo?",
+        "body": "Un plazo fijo tradicional usa interés simple: Interés = Capital × (TNA ÷ 365) × días del plazo. Por ejemplo, con un capital de $500.000, una TNA del 35% y un plazo de 30 días, el interés es 500.000 × (0.35 ÷ 365) × 30 ≈ $14.384. El monto final es el capital más el interés ganado."
+      },
+      {
+        "title": "¿Qué diferencia hay entre TNA y TEA?",
+        "body": "La TNA (Tasa Nominal Anual) es la tasa que informa el banco, pero no refleja directamente el rendimiento real si reinvirtieras los intereses periódicamente. La TEA (Tasa Efectiva Anual) sí lo hace, y por eso siempre es un poco mayor que la TNA para un mismo producto. Al comparar plazos fijos de distintos bancos, la TEA es la referencia más precisa del rendimiento real."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo se calcula cuánto gano en un plazo fijo a 30 días?",
+        "answer": "Se multiplica el capital por la TNA dividida entre 365, y ese resultado por la cantidad de días (30). Por ejemplo, $100.000 al 35% de TNA durante 30 días generan aproximadamente $2.877 de interés."
+      },
+      {
+        "question": "¿Los plazos fijos en Argentina pagan impuestos?",
+        "answer": "Depende del monto y de tu situación fiscal particular; en determinados casos los intereses de plazo fijo pueden estar alcanzados por el Impuesto a las Ganancias. Esta calculadora no incluye ese descuento; consulta con un contador si tu caso podría estar alcanzado."
+      },
+      {
+        "question": "¿Qué es más conveniente, un plazo fijo tradicional o uno UVA?",
+        "answer": "El plazo fijo tradicional paga una tasa fija en pesos (calculada en esta herramienta), mientras que el plazo fijo UVA ajusta el capital por inflación más un interés adicional, lo que puede ser más conveniente en contextos de alta inflación pero implica un cálculo distinto, no cubierto por esta calculadora."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de plazo fijo?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-interes-compuesto",
+      "calculadora-alquiler-argentina",
+      "convertidor-moneda"
+    ]
+  },
+  {
+    "slug": "calculadora-interes-compuesto",
+    "name": "Calculadora de Interés Compuesto",
+    "shortName": "Interés Compuesto",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Interés Compuesto Online Gratis | Con Aportes Mensuales",
+    "metaDescription": "Calcula el interés compuesto de una inversión, con aportes mensuales opcionales y distintas frecuencias de capitalización. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Calcula cómo crece una inversión con interés compuesto a lo largo del tiempo, a partir del capital inicial, la tasa de interés anual, el plazo y la frecuencia de capitalización. Incluye la opción de sumar aportes mensuales adicionales, para simular un plan de ahorro periódico.",
+    "howToUse": [
+      "Introduce el capital inicial",
+      "Introduce la tasa de interés anual esperada",
+      "Elige el plazo en años y la frecuencia de capitalización",
+      "Si haces aportes periódicos, indica el monto mensual adicional"
+    ],
+    "benefits": [
+      "Calcula el efecto del interés compuesto a lo largo de varios años",
+      "Permite simular aportes mensuales adicionales, no solo el capital inicial",
+      "Admite distintas frecuencias de capitalización: anual, semestral, trimestral, mensual o diaria",
+      "Muestra el total aportado por separado del interés ganado",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Qué es el interés compuesto?",
+        "body": "El interés compuesto es aquel que se calcula no solo sobre el capital inicial, sino también sobre los intereses ya generados en períodos anteriores, por lo que el crecimiento se acelera con el tiempo (\"interés sobre interés\"). La fórmula básica es A = P × (1 + r/n)^(n×t), donde P es el capital inicial, r es la tasa anual en decimal, n es la cantidad de capitalizaciones por año, y t es el tiempo en años."
+      },
+      {
+        "title": "¿Por qué importan los aportes periódicos además del capital inicial?",
+        "body": "Aportar una cantidad fija todos los meses, además del capital inicial, acelera notablemente el crecimiento de una inversión a largo plazo, ya que cada nuevo aporte también empieza a generar intereses compuestos desde el momento en que se realiza. Esta es la base de estrategias de ahorro e inversión a largo plazo, donde la constancia de los aportes suele ser tan importante como la tasa de interés obtenida."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuál es la fórmula del interés compuesto?",
+        "answer": "A = P × (1 + r/n)^(n×t), donde A es el monto final, P es el capital inicial, r es la tasa de interés anual (en decimal), n es el número de veces que se capitaliza el interés por año, y t es el tiempo en años."
+      },
+      {
+        "question": "¿Qué diferencia hay entre interés simple e interés compuesto?",
+        "answer": "El interés simple se calcula siempre sobre el capital original, por lo que crece de forma lineal. El interés compuesto se calcula sobre el capital más los intereses ya acumulados, por lo que crece de forma exponencial y genera un monto final mayor cuanto más largo sea el plazo."
+      },
+      {
+        "question": "¿Cómo afecta la frecuencia de capitalización al resultado final?",
+        "answer": "Cuanto más frecuente sea la capitalización (por ejemplo, mensual en lugar de anual) para una misma tasa nominal anual, mayor será el monto final, ya que los intereses empiezan a generar nuevos intereses antes. La diferencia suele ser moderada, pero se vuelve más notoria con plazos largos y tasas altas."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de interés compuesto?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-plazo-fijo",
+      "calculadora-prestamo",
+      "calculadora-porcentaje",
+      "calculadora-alquiler-argentina"
+    ]
+  },
+  {
+    "slug": "calculadora-sueldo-neto-argentina",
+    "name": "Calculadora de Sueldo Neto Argentina",
+    "shortName": "Sueldo Neto Argentina",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Sueldo Neto Argentina 2026 | De Bruto a Neto",
+    "metaDescription": "Calcula tu sueldo neto a partir del bruto: jubilación, obra social, PAMI y cuota sindical. Descuentos estándar de un trabajador en relación de dependencia.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Calcula tu sueldo neto a partir del sueldo bruto, aplicando los descuentos estándar de todo trabajador en relación de dependencia en Argentina: jubilación (11%), obra social (3%) y PAMI (3%), además de la cuota sindical si corresponde a tu convenio.",
+    "howToUse": [
+      "Introduce tu sueldo bruto mensual",
+      "Si tu convenio colectivo incluye cuota sindical, introduce el porcentaje correspondiente",
+      "Consulta tu sueldo neto estimado y el detalle de cada descuento"
+    ],
+    "benefits": [
+      "Calcula los tres descuentos obligatorios de todo trabajador: jubilación, obra social y PAMI",
+      "Permite agregar la cuota sindical si tu convenio la incluye",
+      "Muestra el detalle de cada descuento por separado, no solo el total",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Qué descuentos se aplican al sueldo bruto en Argentina?",
+        "body": "Todo trabajador en relación de dependencia en Argentina tiene tres descuentos obligatorios sobre su sueldo bruto: 11% para el sistema de jubilaciones (SIPA), 3% para la obra social, y 3% para el INSSJP (PAMI, Ley 19.032), sumando un 17% de descuentos estándar. A esto puede sumarse la cuota sindical, si el convenio colectivo aplicable a tu actividad la contempla, y la retención del Impuesto a las Ganancias, si tu sueldo supera el mínimo no imponible vigente."
+      },
+      {
+        "title": "¿Por qué esta calculadora no incluye el Impuesto a las Ganancias?",
+        "body": "El Impuesto a las Ganancias para trabajadores en relación de dependencia se calcula sobre escalas y deducciones que se actualizan periódicamente por la AFIP, y dependen de tu situación personal (cargas de familia, otras deducciones, etc.). Como estos valores cambian con cierta frecuencia, esta calculadora se limita a los descuentos fijos y estables (17%) para evitar mostrarte una cifra basada en escalas desactualizadas; consulta tu recibo de sueldo para conocer la retención de Ganancias que te corresponde."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto se descuenta del sueldo bruto en Argentina?",
+        "answer": "Como mínimo, un 17%: 11% de jubilación, 3% de obra social y 3% de PAMI. A esto puede sumarse la cuota sindical (si tu convenio la incluye) y la retención del Impuesto a las Ganancias, si corresponde según tu situación."
+      },
+      {
+        "question": "¿Todos los trabajadores pagan Impuesto a las Ganancias?",
+        "answer": "No. Solo se retiene Ganancias a quienes superan el mínimo no imponible vigente, que se actualiza periódicamente. Muchos trabajadores con sueldos más bajos no tienen esta retención."
+      },
+      {
+        "question": "¿Por qué mi descuento real es distinto al que calcula esta herramienta?",
+        "answer": "Las diferencias más comunes se deben a la retención de Ganancias (no incluida aquí), a la cuota sindical de tu convenio (que debes agregar manualmente), o a descuentos adicionales específicos de tu empleador, como cuotas de sindicato, seguros o adelantos de sueldo."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de sueldo neto?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calcular-sac-argentina",
+      "calcular-indemnizacion-despido",
+      "calculadora-porcentaje",
+      "calculadora-alquiler-argentina"
+    ]
+  },
+  {
+    "slug": "calculadora-area",
+    "name": "Calculadora de Área",
+    "shortName": "Área de Figuras",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Área Online Gratis | Cuadrado, Rectángulo y Triángulo",
+    "metaDescription": "Calcula el área y el perímetro de un cuadrado, rectángulo o triángulo, y resuelve el teorema de Pitágoras. Gratis, sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Calcula el área y el perímetro de las figuras geométricas más comunes: cuadrado, rectángulo y triángulo. Incluye también el teorema de Pitágoras, para calcular la hipotenusa o un cateto de un triángulo rectángulo.",
+    "howToUse": [
+      "Elige la figura: cuadrado, rectángulo, triángulo, o el teorema de Pitágoras",
+      "Introduce las medidas solicitadas (lado, base y altura, o los catetos)",
+      "El área, el perímetro o la hipotenusa se calculan al instante"
+    ],
+    "benefits": [
+      "Cuatro calculadoras geométricas en una sola herramienta",
+      "Calcula tanto el área como el perímetro de cada figura",
+      "Incluye el teorema de Pitágoras para triángulos rectángulos",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "Fórmulas de área y perímetro",
+        "body": "Cuadrado: área = lado², perímetro = 4 × lado. Rectángulo: área = base × altura, perímetro = 2 × (base + altura). Triángulo: área = (base × altura) ÷ 2. Estas son las fórmulas básicas de geometría plana más utilizadas en la escuela y en la vida cotidiana, por ejemplo, para calcular la cantidad de material necesario para cubrir una superficie."
+      },
+      {
+        "title": "¿Cómo funciona el teorema de Pitágoras?",
+        "body": "El teorema de Pitágoras establece que, en un triángulo rectángulo, el cuadrado de la hipotenusa (el lado opuesto al ángulo recto) es igual a la suma de los cuadrados de los catetos: c² = a² + b². Se usa para calcular la hipotenusa cuando se conocen los dos catetos, o para calcular un cateto cuando se conocen la hipotenusa y el otro cateto."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo se calcula el área de un triángulo?",
+        "answer": "Se multiplica la base por la altura y se divide entre 2: área = (base × altura) ÷ 2. La altura debe medirse perpendicular a la base elegida."
+      },
+      {
+        "question": "¿Cómo se calcula el área de un cuadrado?",
+        "answer": "Se eleva al cuadrado la longitud de uno de sus lados: área = lado². Por ejemplo, un cuadrado de lado 5 tiene un área de 25."
+      },
+      {
+        "question": "¿Cómo se calcula la hipotenusa de un triángulo rectángulo?",
+        "answer": "Se aplica el teorema de Pitágoras: hipotenusa = √(cateto1² + cateto2²). Por ejemplo, con catetos de 3 y 4, la hipotenusa es √(9+16) = √25 = 5."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de área?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calcular-area-circulo",
+      "calculadora-volumen",
+      "calculadora-de-escalas"
+    ]
+  },
+  {
+    "slug": "calculadora-volumen",
+    "name": "Calculadora de Volumen",
+    "shortName": "Volumen de Figuras",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Volumen Online Gratis | Cubo, Esfera, Cono y Prisma",
+    "metaDescription": "Calcula el volumen de un cubo, esfera, cono o prisma rectangular al instante. Gratis, sin registro. ¿Buscas volumen de cilindro? También lo tenemos.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Calcula el volumen de las figuras geométricas tridimensionales más comunes: cubo, esfera, cono y prisma rectangular (caja). Introduce las medidas de cada figura y obtén el volumen al instante.",
+    "howToUse": [
+      "Elige la figura: cubo, esfera, cono o prisma rectangular",
+      "Introduce las medidas solicitadas para esa figura",
+      "El volumen se calcula al instante"
+    ],
+    "benefits": [
+      "Cuatro calculadoras de volumen en una sola herramienta",
+      "Cubre las figuras 3D más habituales en problemas de geometría",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "Fórmulas de volumen de figuras geométricas",
+        "body": "Cubo: V = lado³. Esfera: V = (4/3) × π × radio³. Cono: V = (1/3) × π × radio² × altura. Prisma rectangular (caja): V = largo × ancho × alto. Todas estas fórmulas calculan el espacio tridimensional que ocupa cada figura, expresado en unidades cúbicas."
+      },
+      {
+        "title": "¿Necesitas el volumen de un cilindro?",
+        "body": "Esta calculadora cubre cubo, esfera, cono y prisma rectangular. Si necesitas calcular el volumen de un cilindro (a partir del radio o diámetro de la base y la altura), tenemos una calculadora dedicada para esa figura, con área lateral y área total incluidas."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo se calcula el volumen de un cubo?",
+        "answer": "Se eleva al cubo la longitud de uno de sus lados: V = lado³. Por ejemplo, un cubo de lado 4 tiene un volumen de 4³ = 64 unidades cúbicas."
+      },
+      {
+        "question": "¿Cómo se calcula el volumen de una esfera?",
+        "answer": "Se usa la fórmula V = (4/3) × π × r³, donde r es el radio de la esfera. Por ejemplo, una esfera de radio 3 tiene un volumen de aproximadamente 113.1 unidades cúbicas."
+      },
+      {
+        "question": "¿Cómo se calcula el volumen de un cono?",
+        "answer": "Se usa la fórmula V = (1/3) × π × r² × h, donde r es el radio de la base y h es la altura del cono. Equivale a un tercio del volumen de un cilindro con la misma base y altura."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de volumen?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calcular-volumen-cilindro",
+      "calculadora-area",
+      "convertidor-unidades"
+    ]
+  },
+  {
+    "slug": "calculadora-calculos-combinados",
+    "name": "Calculadora de Cálculos Combinados",
+    "shortName": "Cálculos Combinados",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Cálculos Combinados Online Gratis | Orden de Operaciones",
+    "metaDescription": "Resuelve cálculos combinados respetando el orden de las operaciones (PEMDAS): paréntesis, potencias, raíces, multiplicación, división, suma y resta. Gratis.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Resuelve cálculos combinados (también llamados operaciones combinadas) respetando estrictamente el orden correcto: paréntesis primero, luego potencias y raíces, después multiplicaciones y divisiones, y por último sumas y restas. Escribe la expresión completa y obtén el resultado exacto al instante.",
+    "howToUse": [
+      "Escribe tu expresión matemática usando +, −, ×, ÷, ^ (potencia), √ (raíz) y paréntesis",
+      "También puedes usar los botones para construir la expresión",
+      "El resultado se calcula al instante, respetando el orden de las operaciones",
+      "Si hay un error de sintaxis, la calculadora te indica dónde está el problema"
+    ],
+    "benefits": [
+      "Respeta estrictamente el orden de las operaciones (PEMDAS/PAPOMUDAS)",
+      "Admite paréntesis anidados, potencias, raíces cuadradas y números decimales",
+      "Detecta errores de sintaxis y division por cero, indicando el problema",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Qué es el orden de las operaciones (PEMDAS)?",
+        "body": "El orden de las operaciones es la regla que determina en qué secuencia se resuelven las distintas operaciones dentro de una misma expresión matemática, para que el resultado sea siempre el mismo sin importar quién la calcule. El orden es: 1) Paréntesis, 2) Potencias y raíces, 3) Multiplicaciones y divisiones (de izquierda a derecha), 4) Sumas y restas (de izquierda a derecha). Por ejemplo, en 2 + 3 × 4, primero se multiplica (3×4=12) y luego se suma (2+12=14), en lugar de sumar primero."
+      },
+      {
+        "title": "Errores comunes al resolver cálculos combinados",
+        "body": "Un error frecuente es resolver las operaciones en el orden en que aparecen escritas, de izquierda a derecha, sin respetar la jerarquía de operaciones. Otro error común es no aplicar correctamente el signo negativo con las potencias: −2² es igual a −4 (se eleva al cuadrado primero y luego se aplica el signo), mientras que (−2)² es igual a 4 (el signo forma parte de la base). Esta calculadora aplica ambas reglas correctamente."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿En qué orden se resuelven las operaciones combinadas?",
+        "answer": "Primero los paréntesis, luego las potencias y raíces, después las multiplicaciones y divisiones (de izquierda a derecha), y por último las sumas y restas (de izquierda a derecha). Esta regla se conoce como PEMDAS o PAPOMUDAS según el país."
+      },
+      {
+        "question": "¿Por qué −2² da −4 y no 4?",
+        "answer": "Porque el signo negativo se aplica después de la potencia, ya que la potencia tiene mayor prioridad: primero se calcula 2² = 4, y luego se aplica el signo negativo, dando −4. Para obtener 4, hay que escribir (−2)², donde el paréntesis incluye el signo dentro de la base."
+      },
+      {
+        "question": "¿Esta calculadora admite raíces y potencias combinadas con paréntesis?",
+        "answer": "Sí, admite expresiones con cualquier combinación de paréntesis anidados, potencias (^) y raíces cuadradas (√), respetando siempre el orden correcto de resolución."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de cálculos combinados?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-cientifica",
+      "convertidor-fracciones",
+      "calculadora-porcentaje"
+    ]
+  },
+  {
+    "slug": "calculadora-resistencias",
+    "name": "Calculadora de Resistencias",
+    "shortName": "Resistencias y Ley de Ohm",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Resistencias Online Gratis | Código de Colores y Ley de Ohm",
+    "metaDescription": "Calcula el valor de una resistencia por su código de colores (4 bandas) y resuelve la Ley de Ohm (voltaje, corriente, resistencia y potencia). Gratis.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Calcula el valor en ohmios de una resistencia electrónica a partir de su código de colores de 4 bandas, o resuelve la Ley de Ohm (V = I × R) para obtener el voltaje, la corriente, la resistencia o la potencia de un circuito, a partir de los datos que conozcas.",
+    "howToUse": [
+      "En \"Código de Colores\", selecciona el color de cada banda de tu resistencia",
+      "Consulta el valor en ohmios y la tolerancia al instante",
+      "En \"Ley de Ohm\", introduce dos de los tres valores (voltaje, corriente o resistencia)",
+      "Obtén el tercer valor y la potencia calculados automáticamente"
+    ],
+    "benefits": [
+      "Decodifica resistencias de 4 bandas por su código de colores estándar",
+      "Incluye una calculadora de Ley de Ohm con voltaje, corriente, resistencia y potencia",
+      "Muestra visualmente las bandas de color seleccionadas",
+      "Resultado instantáneo mientras seleccionas los colores o introduces los valores",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se lee el código de colores de una resistencia?",
+        "body": "En una resistencia de 4 bandas, las dos primeras bandas representan los dígitos significativos del valor (cada color corresponde a un número del 0 al 9), la tercera banda es el multiplicador (por cuánto se multiplica ese número), y la cuarta banda indica la tolerancia (el margen de error respecto al valor nominal). Por ejemplo, amarillo-violeta-rojo-dorado se lee como 4, 7, ×100, ±5%, dando una resistencia de 4700 ohmios (4.7 kΩ) con un 5% de tolerancia."
+      },
+      {
+        "title": "¿Qué es la Ley de Ohm?",
+        "body": "La Ley de Ohm establece la relación entre voltaje, corriente y resistencia en un circuito eléctrico: V = I × R (voltaje = corriente × resistencia). A partir de esta fórmula también se puede calcular la potencia disipada: P = V × I. Conociendo dos de estas magnitudes, siempre se pueden calcular las otras dos."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo calculo el valor de una resistencia por sus colores?",
+        "answer": "Identifica el color de cada banda: las dos primeras dan los dígitos del número, la tercera es el multiplicador, y la cuarta es la tolerancia. Esta calculadora traduce automáticamente esa combinación al valor en ohmios."
+      },
+      {
+        "question": "¿Qué significa la tolerancia de una resistencia?",
+        "answer": "Indica el margen de error que puede tener el valor real de la resistencia respecto al valor nominal indicado por las primeras bandas. Por ejemplo, una resistencia de 100Ω con tolerancia ±5% puede tener en la práctica un valor real de entre 95Ω y 105Ω."
+      },
+      {
+        "question": "¿Cómo calculo la potencia de un circuito con la Ley de Ohm?",
+        "answer": "Se calcula como P = V × I (voltaje por corriente), o de forma equivalente P = I² × R o P = V² ÷ R, según los datos que tengas disponibles. Esta calculadora lo hace automáticamente en la pestaña \"Ley de Ohm\"."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de resistencias?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-cientifica",
+      "convertidor-binario",
+      "calcular-hexadecimal-a-decimal"
+    ]
+  },
+  {
+    "slug": "calculadora-calorias",
+    "name": "Calculadora de Calorías",
+    "shortName": "Calorías y TDEE",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Calorías Online Gratis | TDEE, Déficit Calórico y Macros",
+    "metaDescription": "Calcula tus calorías diarias (TDEE), tu metabolismo basal y tu distribución de macronutrientes según tu objetivo. Fórmula Mifflin-St Jeor. Gratis.",
+    "webApp": true,
+    "appCategory": "HealthApplication",
+    "intro": "Calcula cuántas calorías necesitas al día según tu sexo, edad, peso, altura y nivel de actividad física, usando la fórmula de Mifflin-St Jeor (la más precisa entre las fórmulas estándar). Elige tu objetivo (mantener, bajar o subir de peso) y obtén también una distribución sugerida de macronutrientes.",
+    "howToUse": [
+      "Introduce tu sexo, edad, peso y altura",
+      "Elige tu nivel de actividad física habitual",
+      "Elige tu objetivo: mantener, bajar o subir de peso",
+      "Consulta tus calorías diarias recomendadas y la distribución de macronutrientes"
+    ],
+    "benefits": [
+      "Usa la fórmula de Mifflin-St Jeor, considerada más precisa que la fórmula de Harris-Benedict",
+      "Calcula tanto tu metabolismo basal (BMR) como tu gasto energético total (TDEE)",
+      "Ajusta automáticamente según tu objetivo: déficit para bajar de peso, superávit para subir",
+      "Incluye una distribución sugerida de proteínas, carbohidratos y grasas",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Qué es el TDEE y cómo se calcula?",
+        "body": "El TDEE (Total Daily Energy Expenditure, gasto energético total diario) es la cantidad de calorías que tu cuerpo consume en un día, incluyendo tanto tu metabolismo basal (la energía que gastas en reposo) como la actividad física que realizas. Se calcula multiplicando tu metabolismo basal (BMR) por un factor de actividad, que va desde 1.2 (sedentario) hasta 1.9 (muy activo)."
+      },
+      {
+        "title": "¿Cómo funciona el déficit y el superávit calórico?",
+        "body": "Para bajar de peso, es necesario consumir menos calorías de las que gasta el cuerpo (déficit calórico); esta calculadora aplica un déficit del 20% sobre tu TDEE. Para subir de peso o ganar masa muscular, es necesario consumir más calorías de las que gasta el cuerpo (superávit calórico); esta calculadora aplica un superávit del 15%. Estos porcentajes son valores de referencia moderados y sostenibles, ajustables según tu progreso real."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Qué diferencia hay entre BMR y TDEE?",
+        "answer": "El BMR (metabolismo basal) es la cantidad de calorías que tu cuerpo necesita solo para mantener sus funciones vitales en reposo absoluto. El TDEE es el BMR multiplicado por tu nivel de actividad física, y representa el gasto calórico total real de tu día."
+      },
+      {
+        "question": "¿Cuántas calorías debo restar para bajar de peso?",
+        "answer": "Un déficit moderado y sostenible suele rondar el 15-25% del TDEE. Esta calculadora usa un 20% por defecto en el objetivo \"bajar de peso\", lo que generalmente permite una pérdida de peso gradual sin comprometer demasiado la masa muscular."
+      },
+      {
+        "question": "¿Cómo se distribuyen los macronutrientes recomendados?",
+        "answer": "Esta calculadora usa una distribución de referencia de 30% proteínas, 40% carbohidratos y 30% grasas sobre tus calorías objetivo, un reparto equilibrado y común para la mayoría de los objetivos. Cada gramo de proteína y carbohidrato aporta 4 kcal, y cada gramo de grasa aporta 9 kcal."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de calorías?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calcular-imc",
+      "calculadora-peso-ideal",
+      "calculadora-ciclos-sueno"
+    ]
+  },
+  {
+    "slug": "calculadora-embarazo",
+    "name": "Calculadora de Embarazo",
+    "shortName": "Embarazo",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Embarazo Online Gratis | Semanas, Parto y Días Fértiles",
+    "metaDescription": "Calcula tus semanas de embarazo, la fecha probable de parto y tus días fértiles u ovulación a partir de tu última menstruación. Gratis, sin registro.",
+    "webApp": true,
+    "appCategory": "HealthApplication",
+    "intro": "Calcula tus semanas de embarazo y la fecha probable de parto a partir de la fecha de tu última menstruación (FUM), usando la regla de Naegele. También puedes calcular tu ventana de días fértiles y la fecha estimada de ovulación según la duración de tu ciclo menstrual.",
+    "howToUse": [
+      "Elige entre \"Semanas de Embarazo y Fecha de Parto\" o \"Días Fértiles y Ovulación\"",
+      "Introduce la fecha de tu última menstruación",
+      "Si calculas días fértiles, indica también la duración habitual de tu ciclo",
+      "Consulta el resultado al instante"
+    ],
+    "benefits": [
+      "Calcula las semanas de embarazo y el trimestre actual",
+      "Estima la fecha probable de parto con la regla de Naegele",
+      "Calcula tu ventana fértil y fecha de ovulación estimada según tu ciclo",
+      "Ajustable a la duración real de tu ciclo menstrual, no solo 28 días por defecto",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo se calcula la fecha probable de parto?",
+        "body": "La fecha probable de parto se estima sumando 280 días (40 semanas) a la fecha de la última menstruación, según la regla de Naegele, el método más usado en obstetricia. Este cálculo asume un ciclo menstrual regular de 28 días con ovulación en el día 14; si tu ciclo es más largo o más corto, la fecha real puede variar, y tu médico puede ajustarla con una ecografía."
+      },
+      {
+        "title": "¿Cómo se calcula la ventana de días fértiles?",
+        "body": "La ovulación suele ocurrir aproximadamente 14 días antes del inicio del siguiente período, independientemente de la duración total del ciclo. La ventana fértil (los días con mayor probabilidad de embarazo) abarca generalmente desde 5 días antes de la ovulación hasta 1 día después, ya que el espermatozoide puede sobrevivir varios días en el cuerpo, mientras que el óvulo solo es fecundable durante unas 24 horas tras la ovulación."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo se calculan las semanas de embarazo?",
+        "answer": "Se cuentan los días transcurridos desde el primer día de la última menstruación hasta la fecha actual, y se dividen entre 7. Este es el método estándar usado en el control obstétrico, aunque la concepción real ocurre generalmente unas dos semanas después del inicio del ciclo."
+      },
+      {
+        "question": "¿Qué tan precisa es la fecha probable de parto calculada?",
+        "answer": "Es una estimación: solo alrededor del 5% de los bebés nacen exactamente en la fecha calculada. La mayoría nace dentro de una ventana de dos semanas antes o después de esa fecha. Una ecografía del primer trimestre suele dar una estimación más precisa que el cálculo basado solo en la fecha de última menstruación."
+      },
+      {
+        "question": "¿Esta calculadora funciona si tengo un ciclo irregular?",
+        "answer": "El cálculo de días fértiles asume un ciclo de duración constante; si tu ciclo es irregular, la estimación será menos precisa. En ese caso, es recomendable consultar con un ginecólogo, que puede usar otros métodos (como el seguimiento de la temperatura basal) para determinar tu ventana fértil con mayor exactitud."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de embarazo?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-edad",
+      "calcular-imc",
+      "calculadora-dias"
+    ]
+  },
+  {
+    "slug": "calculadora-peso-ideal",
+    "name": "Calculadora de Peso Ideal",
+    "shortName": "Peso Ideal",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Peso Ideal Online Gratis | Según tu Altura",
+    "metaDescription": "Calcula tu rango de peso saludable según tu altura, basado en el Índice de Masa Corporal (IMC) recomendado por la OMS. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "HealthApplication",
+    "intro": "Calcula tu rango de peso saludable a partir de tu altura, usando el criterio del Índice de Masa Corporal (IMC) recomendado actualmente por organismos de salud, en lugar de fórmulas antiguas como la de Broca, que no consideran un rango sino un único número poco realista.",
+    "howToUse": [
+      "Introduce tu altura en centímetros",
+      "Consulta tu rango de peso saludable al instante",
+      "Recuerda que es un rango orientativo, no un número exacto"
+    ],
+    "benefits": [
+      "Basado en el criterio de IMC saludable (18.5-24.9), el más aceptado actualmente",
+      "Muestra un rango realista, no un único número como las fórmulas antiguas",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Por qué un rango y no un número exacto?",
+        "body": "El concepto de \"peso ideal\" como un número único (usado por fórmulas antiguas como la de Broca o Devine) está en desuso en la medicina actual, porque no considera la variabilidad natural en la composición corporal de cada persona. El enfoque moderno usa un rango de peso saludable, calculado a partir del Índice de Masa Corporal (IMC) recomendado por la Organización Mundial de la Salud, que va de 18.5 a 24.9."
+      },
+      {
+        "title": "Limitaciones de este cálculo",
+        "body": "El rango de peso saludable basado en el IMC no distingue entre masa muscular y masa grasa, por lo que puede no ser preciso para personas muy musculosas (como deportistas), personas de edad avanzada, o personas con una composición corporal atípica. Es una referencia general útil para la mayoría de los adultos, pero no reemplaza una evaluación médica o nutricional individualizada."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo se calcula el peso ideal según la altura?",
+        "answer": "Se calcula el rango de peso que corresponde a un IMC saludable (entre 18.5 y 24.9) para tu altura, usando la fórmula: peso = IMC × altura² (en metros). Esta calculadora te muestra el rango completo, desde el límite inferior hasta el superior."
+      },
+      {
+        "question": "¿Por qué esta calculadora no pide mi edad?",
+        "answer": "El rango de peso saludable basado en el IMC se calcula únicamente a partir de la altura, sin distinción por edad ni sexo, ya que es un criterio general aplicable a la mayoría de los adultos. Otros factores como la edad, el sexo y la masa muscular pueden influir en qué punto de ese rango es más adecuado para ti."
+      },
+      {
+        "question": "¿Qué diferencia hay entre esta calculadora y la de IMC?",
+        "answer": "La calculadora de IMC te dice en qué categoría se encuentra tu peso ACTUAL (bajo peso, normal, sobrepeso, obesidad). Esta calculadora de peso ideal hace el cálculo inverso: te dice qué rango de peso correspondería a un IMC saludable para tu altura."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de peso ideal?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calcular-imc",
+      "calculadora-calorias",
+      "calculadora-edad"
+    ]
+  },
+  {
+    "slug": "calculadora-ciclos-sueno",
+    "name": "Calculadora de Ciclos de Sueño",
+    "shortName": "Ciclos de Sueño",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Ciclos de Sueño Online Gratis | Mejor Hora para Dormir",
+    "metaDescription": "Calcula la mejor hora para dormir o despertar según ciclos de sueño de 90 minutos, para levantarte más descansado. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "HealthApplication",
+    "intro": "Calcula la mejor hora para dormir o para despertar, basándote en ciclos de sueño de aproximadamente 90 minutos. Despertar al final de un ciclo completo (y no a mitad de uno) puede ayudarte a sentirte más descansado, incluso durmiendo la misma cantidad total de horas.",
+    "howToUse": [
+      "Elige si quieres saber a qué hora despertar (si te duermes ahora) o a qué hora dormir (para despertar a una hora concreta)",
+      "Si eliges la segunda opción, introduce la hora a la que necesitas despertar",
+      "Consulta las distintas opciones, cada una equivalente a una cantidad completa de ciclos de sueño"
+    ],
+    "benefits": [
+      "Calcula tanto la hora de dormir como la de despertar, según lo que necesites",
+      "Basado en ciclos de sueño de 90 minutos, con margen para conciliar el sueño",
+      "Muestra varias opciones (de 3 a 6 ciclos completos), no un único horario",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Qué son los ciclos de sueño?",
+        "body": "Durante la noche, el sueño se organiza en ciclos de aproximadamente 90 minutos, que incluyen distintas fases (sueño ligero, sueño profundo y sueño REM). Despertar en medio de un ciclo, especialmente durante el sueño profundo, suele generar una sensación de cansancio o aturdimiento (inercia del sueño), incluso si se durmió una cantidad de horas razonable. Despertar al final de un ciclo completo, en cambio, suele sentirse más natural y descansado."
+      },
+      {
+        "title": "¿Cuántos ciclos de sueño se recomiendan por noche?",
+        "body": "La mayoría de los adultos necesitan entre 5 y 6 ciclos completos de sueño por noche (entre 7.5 y 9 horas aproximadamente) para un descanso óptimo. Esta calculadora ofrece opciones desde 3 ciclos (unas 4.5 horas, para siestas o situaciones excepcionales) hasta 6 ciclos (9 horas), para que puedas elegir según tu disponibilidad de tiempo."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto dura un ciclo de sueño?",
+        "answer": "Un ciclo de sueño dura aproximadamente 90 minutos, aunque puede variar ligeramente de una persona a otra. A lo largo de la noche se completan varios ciclos consecutivos."
+      },
+      {
+        "question": "¿Por qué me siento más cansado durmiendo 8 horas que 6?",
+        "answer": "Es posible que al dormir 8 horas te despiertes a mitad de un ciclo de sueño (por ejemplo, durante el sueño profundo), mientras que con 6 horas despiertes justo al final de un ciclo completo. La calidad del momento del despertar puede influir tanto como la cantidad total de horas dormidas."
+      },
+      {
+        "question": "¿Cuánto tiempo se tarda en promedio en quedarse dormido?",
+        "answer": "Esta calculadora usa un margen de 15 minutos como tiempo promedio para conciliar el sueño, aunque este valor varía de una persona a otra. Si sueles tardar más o menos tiempo en dormirte, puedes ajustar mentalmente el resultado."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de ciclos de sueño?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-horas",
+      "calculadora-calorias",
+      "calcular-imc"
+    ]
+  },
+  {
+    "slug": "calculadora-de-escalas",
+    "name": "Calculadora de Escalas",
+    "shortName": "Escalas",
+    "category": "convertidores",
+    "metaTitle": "Calculadora de Escalas Online Gratis | Planos, Mapas y Maquetas",
+    "metaDescription": "Convierte medidas reales a escala (o al revés) y calcula la escala de un plano, mapa o maqueta a partir de dos medidas. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "Convierte medidas entre el tamaño real y el tamaño a escala de un plano, mapa o maqueta, en cualquier dirección. También puedes calcular la escala exacta (por ejemplo, 1:100) a partir de una medida real y su equivalente en el dibujo.",
+    "howToUse": [
+      "Elige qué quieres calcular: la medida a escala, la medida real, o la escala misma",
+      "Introduce los valores que ya conoces",
+      "El resultado se calcula al instante"
+    ],
+    "benefits": [
+      "Convierte en ambos sentidos: de medida real a escala, y de escala a medida real",
+      "Calcula la escala exacta a partir de dos medidas conocidas",
+      "Útil para planos de arquitectura, mapas, maquetas y modelos a escala",
+      "Resultado instantáneo mientras escribes",
+      "Gratis, sin registro y calculado directamente en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "¿Cómo funciona una escala 1:N?",
+        "body": "Una escala expresada como 1:N (por ejemplo, 1:100) indica que cada unidad de medida en el plano, mapa o maqueta representa N unidades de esa misma medida en la realidad. Por ejemplo, en una escala 1:100, un centímetro en el plano equivale a 100 centímetros (1 metro) en la realidad. Para pasar de una medida real a su equivalente a escala, se divide entre N; para pasar de la escala a la medida real, se multiplica por N."
+      },
+      {
+        "title": "¿Cómo se calcula la escala de un plano si no la conozco?",
+        "body": "Si tienes una medida real conocida (por ejemplo, el ancho real de una habitación) y su medida correspondiente en el plano, puedes calcular la escala dividiendo la medida real entre la medida del plano (ambas en la misma unidad). El resultado es el valor de N en la escala 1:N."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cómo convierto una medida real a una escala 1:50?",
+        "answer": "Divide la medida real entre 50. Por ejemplo, una pared de 500 cm de largo, a escala 1:50, se representaría con 500 ÷ 50 = 10 cm en el plano."
+      },
+      {
+        "question": "¿Cómo sé la escala de un mapa si mido dos puntos?",
+        "answer": "Mide la distancia entre esos dos puntos en el mapa, y averigua la distancia real entre ellos (por ejemplo, con otra fuente). Divide la distancia real entre la distancia en el mapa, ambas en la misma unidad, para obtener el valor N de la escala 1:N."
+      },
+      {
+        "question": "¿En qué unidades debo introducir las medidas?",
+        "answer": "Puedes usar cualquier unidad (centímetros, metros, etc.), siempre que uses la misma unidad tanto para la medida real como para la medida a escala al calcular la relación entre ambas."
+      },
+      {
+        "question": "¿Es gratis esta calculadora de escalas?",
+        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      }
+    ],
+    "relatedTools": [
+      "convertidor-unidades",
+      "calculadora-area",
+      "cm-a-pulgadas"
     ]
   }
 ]

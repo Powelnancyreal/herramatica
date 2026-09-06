@@ -51,6 +51,21 @@ import TipografiaParaInstagram from './tipografia-para-instagram'
 import CmAPulgadas from './cm-a-pulgadas'
 import ArrobaAKilos from './arroba-a-kilos'
 import CalculadoraTiempoLectura from './calculadora-tiempo-lectura'
+import CalcularIndemnizacionDespido from './calcular-indemnizacion-despido'
+import CalcularSacArgentina from './calcular-sac-argentina'
+import CalculadoraAlquilerArgentina from './calculadora-alquiler-argentina'
+import CalculadoraPlazoFijo from './calculadora-plazo-fijo'
+import CalculadoraInteresCompuesto from './calculadora-interes-compuesto'
+import CalculadoraSueldoNetoArgentina from './calculadora-sueldo-neto-argentina'
+import CalculadoraArea from './calculadora-area'
+import CalculadoraVolumen from './calculadora-volumen'
+import CalculadoraCalculosCombinados from './calculadora-calculos-combinados'
+import CalculadoraResistencias from './calculadora-resistencias'
+import CalculadoraCalorias from './calculadora-calorias'
+import CalculadoraEmbarazo from './calculadora-embarazo'
+import CalculadoraPesoIdeal from './calculadora-peso-ideal'
+import CalculadoraCiclosSueno from './calculadora-ciclos-sueno'
+import CalculadoraDeEscalas from './calculadora-de-escalas'
 
 // Registry: add new tools here as { slug: Component }
 export const toolComponents = {
@@ -107,4 +122,19 @@ export const toolComponents = {
   'cm-a-pulgadas': CmAPulgadas,
   'arroba-a-kilos': ArrobaAKilos,
   'calculadora-tiempo-lectura': CalculadoraTiempoLectura,
+  'calcular-indemnizacion-despido': CalcularIndemnizacionDespido,
+  'calcular-sac-argentina': CalcularSacArgentina,
+  'calculadora-alquiler-argentina': CalculadoraAlquilerArgentina,
+  'calculadora-plazo-fijo': CalculadoraPlazoFijo,
+  'calculadora-interes-compuesto': CalculadoraInteresCompuesto,
+  'calculadora-sueldo-neto-argentina': CalculadoraSueldoNetoArgentina,
+  'calculadora-area': CalculadoraArea,
+  'calculadora-volumen': CalculadoraVolumen,
+  'calculadora-calculos-combinados': CalculadoraCalculosCombinados,
+  'calculadora-resistencias': CalculadoraResistencias,
+  'calculadora-calorias': CalculadoraCalorias,
+  'calculadora-embarazo': CalculadoraEmbarazo,
+  'calculadora-peso-ideal': CalculadoraPesoIdeal,
+  'calculadora-ciclos-sueno': CalculadoraCiclosSueno,
+  'calculadora-de-escalas': CalculadoraDeEscalas,
 }
