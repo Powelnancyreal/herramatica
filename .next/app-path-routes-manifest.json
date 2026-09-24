@@ -1,17 +1,17 @@
 {
-  "/_not-found/page": "/_not-found",
   "/favicon.ico/route": "/favicon.ico",
+  "/_not-found/page": "/_not-found",
   "/sitemap.xml/route": "/sitemap.xml",
   "/[slug]/page": "/[slug]",
-  "/contacto/page": "/contacto",
-  "/calculadoras/page": "/calculadoras",
-  "/convertidores/page": "/convertidores",
   "/acerca/page": "/acerca",
-  "/juegos/page": "/juegos",
-  "/cookies/page": "/cookies",
+  "/calculadoras/page": "/calculadoras",
+  "/contacto/page": "/contacto",
+  "/convertidores/page": "/convertidores",
   "/generadores/page": "/generadores",
-  "/page": "/",
-  "/terminos/page": "/terminos",
+  "/cookies/page": "/cookies",
+  "/juegos/page": "/juegos",
   "/privacidad/page": "/privacidad",
-  "/texto/page": "/texto"
+  "/terminos/page": "/terminos",
+  "/texto/page": "/texto",
+  "/page": "/"
 }
