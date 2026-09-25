@@ -953,7 +953,8 @@
       "calculadora-porcentaje",
       "convertidor-moneda",
       "calculadora-irpf",
-      "calculadora-de-igv"
+      "calculadora-de-igv",
+      "calculadora-propinas"
     ]
   },
   {
@@ -1236,7 +1237,8 @@
       "convertidor-unidades",
       "calculadora-prestamo",
       "calcular-gasolina",
-      "calculadora-plazo-fijo"
+      "calculadora-plazo-fijo",
+      "calculadora-propinas"
     ]
   },
   {
@@ -1293,7 +1295,10 @@
     ],
     "relatedTools": [
       "generador-qr",
-      "texto-invisible"
+      "texto-invisible",
+      "generador-codigo-de-barras",
+      "calculadora-ip",
+      "convertidor-binario"
     ]
   },
   {
@@ -1416,7 +1421,10 @@
     ],
     "relatedTools": [
       "calculadora-porcentaje",
-      "calculadora-dias"
+      "calculadora-dias",
+      "calculadora-regla-de-tres",
+      "calcular-iva",
+      "convertidor-moneda"
     ]
   },
   {
@@ -1679,7 +1687,10 @@
     ],
     "relatedTools": [
       "imagenes-a-pdf",
-      "generador-qr"
+      "generador-qr",
+      "generador-codigo-de-barras",
+      "generador-de-letras-grandes",
+      "tipografia-para-instagram"
     ]
   },
   {
@@ -1736,7 +1747,10 @@
     ],
     "relatedTools": [
       "convertidor-imagenes",
-      "generador-qr"
+      "generador-qr",
+      "generador-codigo-de-barras",
+      "generador-de-crucigramas",
+      "generador-de-letras-grandes"
     ]
   },
   {
@@ -1962,7 +1976,8 @@
       "calcular-hexadecimal-a-decimal",
       "calculadora-resistencias",
       "hexadecimal-a-texto",
-      "calculadora-ip"
+      "calculadora-ip",
+      "generador-contrasenas"
     ]
   },
   {
@@ -2251,7 +2266,10 @@
     ],
     "relatedTools": [
       "calculadora-irpf",
-      "calcular-hipoteca"
+      "calcular-hipoteca",
+      "calculadora-plazo-fijo",
+      "calculadora-seguridad-social-colombia",
+      "calculadora-interes-compuesto"
     ]
   },
   {
@@ -2320,7 +2338,10 @@
     ],
     "relatedTools": [
       "calculadora-edad",
-      "calculadora-porcentaje"
+      "calculadora-porcentaje",
+      "calculadora-ldl",
+      "calculadora-pafi",
+      "indice-de-barthel"
     ]
   },
   {
@@ -2376,7 +2397,10 @@
     ],
     "relatedTools": [
       "calculo-mental",
-      "generador-nombres"
+      "generador-nombres",
+      "sopa-de-letras",
+      "generador-de-crucigramas",
+      "ruleta-aleatoria-online"
     ]
   },
   {
@@ -3288,7 +3312,8 @@
       "generador-de-letras-grandes",
       "generador-de-nombres-para-free-fire",
       "calculadora-engagement-instagram",
-      "calculadora-precios-influencers-tiktok"
+      "calculadora-precios-influencers-tiktok",
+      "convertidor-imagenes"
     ]
   },
   {
@@ -3695,7 +3720,8 @@
       "calculadora-interes-compuesto",
       "calculadora-alquiler-argentina",
       "convertidor-moneda",
-      "calculadora-cdt"
+      "calculadora-cdt",
+      "calculo-pension-jubilacion"
     ]
   },
   {
@@ -3754,7 +3780,8 @@
       "calculadora-prestamo",
       "calculadora-porcentaje",
       "calculadora-alquiler-argentina",
-      "calculadora-cdt"
+      "calculadora-cdt",
+      "calculo-pension-jubilacion"
     ]
   },
   {
@@ -4381,7 +4408,8 @@
       "contador-palabras",
       "generador-de-letras-grandes",
       "generador-de-crucigramas",
-      "ruleta-aleatoria-online"
+      "ruleta-aleatoria-online",
+      "calculadora-del-amor"
     ]
   },
   {
@@ -4439,7 +4467,9 @@
       "tipografia-para-instagram",
       "generador-qr",
       "sopa-de-letras",
-      "generador-de-nombres-para-free-fire"
+      "generador-de-nombres-para-free-fire",
+      "convertidor-imagenes",
+      "imagenes-a-pdf"
     ]
   },
   {
@@ -4496,7 +4526,10 @@
     "relatedTools": [
       "generador-qr",
       "calcular-hexadecimal-a-decimal",
-      "calcular-rut"
+      "calcular-rut",
+      "generador-contrasenas",
+      "convertidor-imagenes",
+      "imagenes-a-pdf"
     ]
   },
   {
@@ -4553,7 +4586,9 @@
     "relatedTools": [
       "sopa-de-letras",
       "calculo-mental",
-      "contador-palabras"
+      "contador-palabras",
+      "imagenes-a-pdf",
+      "calculadora-del-amor"
     ]
   },
   {
@@ -4896,7 +4931,8 @@
     "relatedTools": [
       "generador-nombres",
       "calculo-mental",
-      "sopa-de-letras"
+      "sopa-de-letras",
+      "calculadora-del-amor"
     ]
   },
   {
@@ -5411,7 +5447,8 @@
     "relatedTools": [
       "calcular-hexadecimal-a-decimal",
       "convertidor-binario",
-      "calculadora-cientifica"
+      "calculadora-cientifica",
+      "generador-contrasenas"
     ]
   },
   {
@@ -5466,7 +5503,8 @@
     "relatedTools": [
       "calculadora-porcentaje",
       "calculadora-de-pendiente",
-      "convertidor-fracciones"
+      "convertidor-fracciones",
+      "calculadora-propinas"
     ]
   },
   {
@@ -5637,7 +5675,8 @@
       "calcular-imc",
       "calculadora-calorias",
       "calculadora-pafi",
-      "indice-de-barthel"
+      "indice-de-barthel",
+      "calculadora-apiretal"
     ]
   },
   {
@@ -5692,7 +5731,8 @@
     "relatedTools": [
       "calculadora-ldl",
       "indice-de-barthel",
-      "calcular-imc"
+      "calcular-imc",
+      "calculadora-apiretal"
     ]
   },
   {
@@ -5747,7 +5787,8 @@
     "relatedTools": [
       "calculadora-pafi",
       "calculadora-ldl",
-      "calculadora-edad"
+      "calculadora-edad",
+      "calculadora-apiretal"
     ]
   },
   {
@@ -5859,7 +5900,8 @@
     "relatedTools": [
       "calculadora-liquidacion-laboral-colombia",
       "calculadora-cdt",
-      "calculadora-sueldo-neto-argentina"
+      "calculadora-sueldo-neto-argentina",
+      "calculo-pension-jubilacion"
     ]
   },
   {
