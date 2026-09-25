@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <filter id="ds" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="#F8F7FF"/>
+
+  <!-- shop shelf background -->
+  <g stroke="#E7E5E4" stroke-width="4">
+    <line x1="40" y1="70" x2="760" y2="70"/>
+    <line x1="40" y1="110" x2="760" y2="110"/>
+  </g>
+
+  <!-- scale post -->
+  <rect x="388" y="120" width="24" height="230" rx="8" fill="#92400E"/>
+  <rect x="330" y="340" width="140" height="20" rx="8" fill="#92400E"/>
+
+  <!-- beam -->
+  <rect x="150" y="140" width="500" height="14" rx="7" fill="#92400E"/>
+  <circle cx="400" cy="147" r="14" fill="#78350F"/>
+
+  <!-- left pan (arroba) -->
+  <line x1="190" y1="150" x2="190" y2="220" stroke="#92400E" stroke-width="3"/>
+  <line x1="260" y1="150" x2="260" y2="220" stroke="#92400E" stroke-width="3"/>
+  <path d="M170,220 Q225,260 280,220" fill="none" stroke="#92400E" stroke-width="4"/>
+  <g filter="url(#ds)">
+    <circle cx="225" cy="200" r="54" fill="#FFFFFF" stroke="#7C3AED" stroke-width="4"/>
+  </g>
+  <text x="225" y="215" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#7C3AED" text-anchor="middle">@</text>
+  <text x="225" y="290" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#5B21B6" text-anchor="middle">1 @</text>
+
+  <!-- right pan (kg) -->
+  <line x1="540" y1="150" x2="540" y2="220" stroke="#92400E" stroke-width="3"/>
+  <line x1="610" y1="150" x2="610" y2="220" stroke="#92400E" stroke-width="3"/>
+  <path d="M520,220 Q575,260 630,220" fill="none" stroke="#92400E" stroke-width="4"/>
+  <g filter="url(#ds)">
+    <circle cx="575" cy="200" r="54" fill="#FFFFFF" stroke="#2563EB" stroke-width="4"/>
+  </g>
+  <text x="575" y="212" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#2563EB" text-anchor="middle">kg</text>
+  <text x="575" y="290" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1E3A8A" text-anchor="middle">11.5 kg</text>
+
+  <!-- small weight pesas -->
+  <g fill="#94A3B8">
+    <circle cx="650" cy="330" r="14"/>
+    <circle cx="678" cy="345" r="10"/>
+  </g>
+</svg>

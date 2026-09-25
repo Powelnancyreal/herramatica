@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <filter id="ds" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="#F8F7FF"/>
+  <rect x="0" y="0" width="800" height="10" fill="#60A5FA"/>
+  <rect x="0" y="10" width="800" height="6" fill="#FFFFFF"/>
+
+  <!-- payslip frame -->
+  <g filter="url(#ds)">
+    <rect x="230" y="40" width="500" height="380" rx="16" fill="#FFFFFF" stroke="#7C3AED" stroke-width="3"/>
+  </g>
+
+  <!-- worker receiving envelope left -->
+  <g transform="translate(140,220)">
+    <circle cx="0" cy="-60" r="26" fill="#7C3AED"/>
+    <path d="M-32,20 Q0,-20 32,20 L26,70 Q0,86 -26,70 Z" fill="#7C3AED"/>
+    <rect x="10" y="10" width="46" height="30" rx="4" fill="#FBBF24" stroke="#F59E0B" stroke-width="2"/>
+  </g>
+
+  <!-- top bar sueldo bruto -->
+  <text x="260" y="80" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#334155">Sueldo Bruto 100%</text>
+  <rect x="260" y="90" width="440" height="26" rx="8" fill="#94A3B8"/>
+
+  <!-- deduction bars -->
+  <g font-family="Arial, sans-serif" font-size="13" fill="#334155">
+    <rect x="260" y="140" width="440" height="20" rx="8" fill="#EDE9FE"/>
+    <rect x="260" y="140" width="130" height="20" rx="8" fill="#7C3AED"/>
+    <text x="270" y="180">Jubilación 11%</text>
+
+    <rect x="260" y="200" width="440" height="20" rx="8" fill="#DBEAFE"/>
+    <rect x="260" y="200" width="60" height="20" rx="8" fill="#2563EB"/>
+    <text x="270" y="240">Obra Social 3%</text>
+
+    <rect x="260" y="260" width="440" height="20" rx="8" fill="#CCFBF1"/>
+    <rect x="260" y="260" width="60" height="20" rx="8" fill="#0D9488"/>
+    <text x="270" y="300">PAMI 3%</text>
+
+    <rect x="260" y="320" width="440" height="20" rx="8" fill="#E5E7EB"/>
+    <rect x="260" y="320" width="40" height="20" rx="8" fill="#64748B"/>
+    <text x="270" y="360">Sindical 2%</text>
+  </g>
+
+  <!-- bottom bar sueldo neto -->
+  <rect x="260" y="375" width="356" height="28" rx="8" fill="#059669"/>
+  <text x="270" y="394" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Sueldo Neto ~81%</text>
+</svg>

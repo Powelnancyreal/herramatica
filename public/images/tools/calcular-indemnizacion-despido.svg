@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <filter id="ds" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="#F8F7FF"/>
+
+  <!-- argentine flag accent bar -->
+  <rect x="0" y="0" width="800" height="10" fill="#60A5FA"/>
+  <rect x="0" y="10" width="800" height="6" fill="#FFFFFF"/>
+
+  <!-- document torn in half -->
+  <g filter="url(#ds)">
+    <path d="M80,50 h280 l-14,20 14,20 -14,20 14,20 -14,20 14,20 -14,20 14,20 -14,20 14,20 -14,20 14,20 h-280 Z" fill="#FFFFFF" stroke="#7C3AED" stroke-width="3"/>
+    <path d="M440,50 h280 v260 h-280 l14,-20 -14,-20 14,-20 -14,-20 14,-20 -14,-20 14,-20 -14,-20 14,-20 -14,-20 14,-20 Z" fill="#FFFFFF" stroke="#DC2626" stroke-width="3"/>
+  </g>
+
+  <!-- worker silhouette left -->
+  <circle cx="220" cy="130" r="26" fill="#7C3AED"/>
+  <path d="M170,220 Q220,180 270,220 L262,270 Q220,286 178,270 Z" fill="#7C3AED"/>
+  <rect x="180" y="230" width="34" height="26" rx="4" fill="#5B21B6"/>
+
+  <!-- peso and coins right -->
+  <text x="580" y="150" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#DC2626" text-anchor="middle">₱</text>
+  <g>
+    <circle cx="540" cy="220" r="20" fill="#FBBF24" stroke="#F59E0B" stroke-width="3"/>
+    <circle cx="580" cy="235" r="16" fill="#FDE68A" stroke="#F59E0B" stroke-width="3"/>
+    <circle cx="615" cy="215" r="14" fill="#FCD34D" stroke="#F59E0B" stroke-width="3"/>
+  </g>
+
+  <!-- years worked calendar boxes -->
+  <text x="400" y="345" font-family="Arial, sans-serif" font-size="16" fill="#334155" text-anchor="middle">Años trabajados</text>
+  <g>
+    <rect x="220" y="355" width="34" height="34" rx="6" fill="#7C3AED"/>
+    <rect x="264" y="355" width="34" height="34" rx="6" fill="#7C3AED"/>
+    <rect x="308" y="355" width="34" height="34" rx="6" fill="#7C3AED"/>
+    <rect x="352" y="355" width="34" height="34" rx="6" fill="#7C3AED"/>
+    <rect x="396" y="355" width="34" height="34" rx="6" fill="#7C3AED"/>
+    <rect x="440" y="355" width="34" height="34" rx="6" fill="#E5E7EB"/>
+  </g>
+
+  <!-- three payout items -->
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <rect x="100" y="410" width="140" height="34" rx="8" fill="#2563EB"/>
+    <text x="170" y="432">Salario</text>
+    <rect x="330" y="410" width="140" height="34" rx="8" fill="#059669"/>
+    <text x="400" y="432">Vacaciones</text>
+    <rect x="560" y="410" width="140" height="34" rx="8" fill="#7C3AED"/>
+    <text x="630" y="432">Indemnización</text>
+  </g>
+</svg>

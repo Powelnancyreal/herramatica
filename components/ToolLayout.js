@@ -23,10 +23,25 @@ function cleanToolName(name) {
   return name.replace(/\s*\(([^)]*)\)\s*$/, ' $1').replace(/,\s+/g, ' ')
 }
 
+const toolBottomImageAltOverrides = {
+  'cm-a-pulgadas': 'Convertidor de centímetros a pulgadas con regla comparativa',
+  'arroba-a-kilos': 'Convertidor de arroba a kilos con balanza tradicional',
+  'calculadora-tiempo-lectura': 'Calculadora de tiempo de lectura con libro y cronómetro',
+  'calcular-indemnizacion-despido': 'Calculadora de indemnización por despido laboral Argentina',
+  'calcular-sac-argentina': 'Calculadora de SAC aguinaldo Argentina junio diciembre',
+  'calculadora-alquiler-argentina': 'Calculadora de ajuste de alquiler Argentina ICL IPC CVS',
+  'calculadora-plazo-fijo': 'Calculadora de plazo fijo con crecimiento de inversión',
+  'calculadora-interes-compuesto': 'Calculadora de interés compuesto con curva exponencial',
+  'calculadora-sueldo-neto-argentina': 'Calculadora de sueldo neto Argentina con desglose AFIP',
+  'calculadora-area': 'Calculadora de área de figuras geométricas cuadrado rectángulo triángulo',
+}
+
 export default function ToolLayout({ tool, children }) {
   const toolImage = getToolImage(tool.slug)
   const toolBottomImage = getToolBottomImage(tool.slug)
   const toolNameForAlt = cleanToolName(tool.name)
+  const toolBottomImageAlt =
+    toolBottomImageAltOverrides[tool.slug] || `${toolNameForAlt} - herramienta online gratis en español`
 
   return (
     <main className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -73,7 +88,7 @@ export default function ToolLayout({ tool, children }) {
         <div className="my-8">
           <Image
             src={toolBottomImage}
-            alt={`${toolNameForAlt} - herramienta online gratis en español`}
+            alt={toolBottomImageAlt}
             width={800}
             height={450}
             unoptimized={true}

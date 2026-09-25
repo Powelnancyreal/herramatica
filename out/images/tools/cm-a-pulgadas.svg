@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <filter id="ds" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="#F8F7FF"/>
+
+  <!-- cm ruler -->
+  <g filter="url(#ds)">
+    <rect x="70" y="90" width="660" height="56" rx="12" fill="#FFFFFF" stroke="#7C3AED" stroke-width="3"/>
+  </g>
+  <text x="40" y="126" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#7C3AED" text-anchor="end">cm</text>
+  <g stroke="#7C3AED" stroke-width="2">
+    <line x1="130" y1="90" x2="130" y2="146"/>
+    <line x1="196" y1="100" x2="196" y2="146"/>
+    <line x1="262" y1="90" x2="262" y2="146"/>
+    <line x1="328" y1="100" x2="328" y2="146"/>
+    <line x1="394" y1="90" x2="394" y2="146"/>
+    <line x1="460" y1="100" x2="460" y2="146"/>
+    <line x1="526" y1="90" x2="526" y2="146"/>
+    <line x1="592" y1="100" x2="592" y2="146"/>
+    <line x1="658" y1="90" x2="658" y2="146"/>
+    <line x1="724" y1="100" x2="724" y2="146"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#5B21B6" text-anchor="middle">
+    <text x="130" y="168">1</text>
+    <text x="262" y="168">3</text>
+    <text x="394" y="168">5</text>
+    <text x="526" y="168">7</text>
+    <text x="658" y="168">9</text>
+  </g>
+
+  <!-- bidirectional arrow -->
+  <g stroke="#059669" stroke-width="6" fill="none" stroke-linecap="round">
+    <line x1="400" y1="160" x2="400" y2="290"/>
+    <path d="M386,176 l14,-18 14,18"/>
+    <path d="M386,274 l14,18 14,-18"/>
+  </g>
+
+  <!-- center badge -->
+  <g filter="url(#ds)">
+    <circle cx="400" cy="225" r="46" fill="#FFFFFF" stroke="#059669" stroke-width="3"/>
+  </g>
+  <text x="400" y="231" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#059669" text-anchor="middle">÷ 2.54</text>
+
+  <!-- inch ruler -->
+  <g filter="url(#ds)">
+    <rect x="70" y="304" width="660" height="56" rx="12" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+  </g>
+  <text x="40" y="340" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#2563EB" text-anchor="end">in</text>
+  <g stroke="#2563EB" stroke-width="2">
+    <line x1="200" y1="304" x2="200" y2="360"/>
+    <line x1="335" y1="304" x2="335" y2="360"/>
+    <line x1="470" y1="304" x2="470" y2="360"/>
+    <line x1="605" y1="304" x2="605" y2="360"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#1E3A8A" text-anchor="middle">
+    <text x="200" y="382">1&#8243;</text>
+    <text x="335" y="382">2&#8243;</text>
+    <text x="470" y="382">3&#8243;</text>
+    <text x="605" y="382">4&#8243;</text>
+  </g>
+
+  <!-- tape measure icon bottom -->
+  <g transform="translate(400,420)">
+    <circle cx="0" cy="0" r="18" fill="#7C3AED"/>
+    <rect x="14" y="-4" width="40" height="8" rx="4" fill="#94A3B8"/>
+    <circle cx="0" cy="0" r="8" fill="#FFFFFF"/>
+  </g>
+</svg>

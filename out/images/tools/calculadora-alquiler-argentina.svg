@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <filter id="ds" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="#F8F7FF"/>
+
+  <!-- apartment building left -->
+  <g filter="url(#ds)">
+    <rect x="60" y="70" width="200" height="240" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="3"/>
+  </g>
+  <g fill="#DBEAFE" stroke="#2563EB" stroke-width="2">
+    <rect x="80" y="90" width="30" height="30" rx="4"/>
+    <rect x="122" y="90" width="30" height="30" rx="4"/>
+    <rect x="164" y="90" width="30" height="30" rx="4"/>
+    <rect x="206" y="90" width="30" height="30" rx="4"/>
+    <rect x="80" y="132" width="30" height="30" rx="4"/>
+    <rect x="122" y="132" width="30" height="30" rx="4"/>
+    <rect x="164" y="132" width="30" height="30" rx="4"/>
+    <rect x="206" y="132" width="30" height="30" rx="4"/>
+    <rect x="80" y="174" width="30" height="30" rx="4"/>
+    <rect x="122" y="174" width="30" height="30" rx="4"/>
+    <rect x="164" y="174" width="30" height="30" rx="4"/>
+    <rect x="206" y="174" width="30" height="30" rx="4"/>
+  </g>
+  <rect x="140" y="250" width="40" height="60" rx="4" fill="#7C3AED"/>
+
+  <!-- price arrow up -->
+  <g stroke="#DC2626" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M300,300 Q400,240 470,90"/>
+    <path d="M452,110 l18,-20 22,10"/>
+  </g>
+  <text x="490" y="90" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#DC2626">%</text>
+
+  <!-- index badges -->
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <circle cx="560" cy="120" r="34" fill="#7C3AED"/>
+    <text x="560" y="125">ICL</text>
+    <circle cx="640" cy="90" r="34" fill="#2563EB"/>
+    <text x="640" y="95">IPC</text>
+    <circle cx="710" cy="140" r="30" fill="#059669"/>
+    <text x="710" y="145">CVS</text>
+  </g>
+
+  <!-- before/after comparison -->
+  <text x="400" y="345" font-family="Arial, sans-serif" font-size="14" fill="#334155">Antes</text>
+  <rect x="330" y="352" width="120" height="20" rx="10" fill="#93C5FD"/>
+  <text x="400" y="392" font-family="Arial, sans-serif" font-size="14" fill="#334155">Después</text>
+  <rect x="330" y="399" width="220" height="20" rx="10" fill="#DC2626"/>
+  <text x="565" y="415" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#DC2626">₱ +80%</text>
+
+  <!-- contract with pen bottom -->
+  <g transform="translate(670,340)">
+    <rect x="-40" y="-30" width="80" height="60" rx="6" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+    <rect x="-28" y="-18" width="50" height="6" rx="3" fill="#CBD5E1"/>
+    <rect x="-28" y="-4" width="40" height="6" rx="3" fill="#CBD5E1"/>
+    <line x1="10" y1="20" x2="50" y2="-20" stroke="#7C3AED" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <filter id="ds" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="#F8F7FF"/>
+
+  <!-- bank building -->
+  <g filter="url(#ds)">
+    <rect x="60" y="130" width="200" height="140" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="3"/>
+  </g>
+  <path d="M50,130 L160,70 L270,130 Z" fill="#059669"/>
+  <rect x="80" y="150" width="16" height="90" fill="#D1FAE5"/>
+  <rect x="112" y="150" width="16" height="90" fill="#D1FAE5"/>
+  <rect x="144" y="150" width="16" height="90" fill="#D1FAE5"/>
+  <rect x="176" y="150" width="16" height="90" fill="#D1FAE5"/>
+  <rect x="208" y="150" width="16" height="90" fill="#D1FAE5"/>
+  <circle cx="160" cy="200" r="24" fill="#065F46"/>
+  <circle cx="160" cy="200" r="10" fill="#D1FAE5"/>
+
+  <!-- interest rate badges -->
+  <g font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <circle cx="330" cy="90" r="32" fill="#7C3AED"/>
+    <text x="330" y="95">TNA</text>
+    <circle cx="410" cy="90" r="32" fill="#2563EB"/>
+    <text x="410" y="95">TEA</text>
+  </g>
+
+  <!-- calendar lock -->
+  <g transform="translate(500,110)">
+    <rect x="-60" y="-40" width="120" height="80" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="3"/>
+    <rect x="-60" y="-40" width="120" height="24" rx="10" fill="#7C3AED"/>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#5B21B6" text-anchor="middle">30/60/90</text>
+  </g>
+
+  <!-- growing piggy banks with dotted arrow -->
+  <path d="M350,300 h280" stroke="#94A3B8" stroke-width="2" stroke-dasharray="6 5"/>
+  <g transform="translate(360,300)">
+    <ellipse cx="0" cy="0" rx="22" ry="16" fill="#FDE68A"/>
+    <rect x="-3" y="-24" width="6" height="10" fill="#F59E0B" transform="rotate(20)"/>
+  </g>
+  <g transform="translate(500,300)">
+    <ellipse cx="0" cy="0" rx="32" ry="24" fill="#FBBF24"/>
+    <rect x="-3" y="-34" width="6" height="14" fill="#F59E0B" transform="rotate(20)"/>
+  </g>
+  <g transform="translate(650,300)">
+    <ellipse cx="0" cy="0" rx="44" ry="32" fill="#F59E0B"/>
+    <rect x="-4" y="-46" width="8" height="18" fill="#B45309" transform="rotate(20)"/>
+  </g>
+
+  <!-- money growth bar chart -->
+  <g font-family="Arial, sans-serif" font-size="13" fill="#334155" text-anchor="middle">
+    <rect x="150" y="380" width="40" height="30" fill="#A7F3D0"/>
+    <text x="170" y="425">Mes 1</text>
+    <rect x="230" y="350" width="40" height="60" fill="#34D399"/>
+    <text x="250" y="425">Mes 6</text>
+    <rect x="310" y="310" width="40" height="100" fill="#059669"/>
+    <text x="330" y="425">Mes 12</text>
+  </g>
+</svg>

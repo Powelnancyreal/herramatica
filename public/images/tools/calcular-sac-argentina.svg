@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <filter id="ds" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="#F8F7FF"/>
+
+  <!-- argentine sun -->
+  <g transform="translate(400,60)">
+    <circle cx="0" cy="0" r="20" fill="#FBBF24"/>
+    <g stroke="#F59E0B" stroke-width="4" stroke-linecap="round">
+      <line x1="0" y1="-30" x2="0" y2="-40"/>
+      <line x1="0" y1="30" x2="0" y2="40"/>
+      <line x1="-30" y1="0" x2="-40" y2="0"/>
+      <line x1="30" y1="0" x2="40" y2="0"/>
+    </g>
+  </g>
+
+  <!-- envelope card left: Junio -->
+  <g filter="url(#ds)">
+    <rect x="80" y="120" width="220" height="150" rx="14" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+  </g>
+  <path d="M80,120 L190,200 L300,120" fill="none" stroke="#2563EB" stroke-width="3"/>
+  <g transform="translate(190,235)">
+    <rect x="-24" y="-16" width="48" height="40" rx="6" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+    <rect x="-24" y="-16" width="48" height="14" rx="6" fill="#2563EB"/>
+  </g>
+  <text x="190" y="290" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1E3A8A" text-anchor="middle">Junio</text>
+
+  <!-- envelope card right: Diciembre -->
+  <g filter="url(#ds)">
+    <rect x="500" y="120" width="220" height="150" rx="14" fill="#FFFFFF" stroke="#7C3AED" stroke-width="3"/>
+  </g>
+  <path d="M500,120 L610,200 L720,120" fill="none" stroke="#7C3AED" stroke-width="3"/>
+  <g transform="translate(610,235)">
+    <rect x="-24" y="-16" width="48" height="40" rx="6" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2"/>
+    <rect x="-24" y="-16" width="48" height="14" rx="6" fill="#7C3AED"/>
+  </g>
+  <text x="610" y="290" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#5B21B6" text-anchor="middle">Diciembre</text>
+
+  <!-- large peso between -->
+  <text x="400" y="215" font-family="Arial, sans-serif" font-size="60" font-weight="700" fill="#059669" text-anchor="middle">₱</text>
+
+  <!-- timeline 6 months -->
+  <g transform="translate(400,320)">
+    <rect x="-220" y="-10" width="440" height="20" rx="10" fill="#E5E7EB"/>
+    <rect x="-220" y="-10" width="220" height="20" rx="10" fill="#60A5FA"/>
+  </g>
+
+  <!-- formula bars -->
+  <text x="400" y="365" font-family="Arial, sans-serif" font-size="15" fill="#334155" text-anchor="middle">Sueldo ÷ 2 = SAC</text>
+  <rect x="180" y="380" width="440" height="16" rx="8" fill="#DDD6FE"/>
+  <rect x="180" y="380" width="220" height="16" rx="8" fill="#7C3AED"/>
+
+  <!-- payslip lines bottom -->
+  <g fill="#CBD5E1">
+    <rect x="180" y="415" width="150" height="6" rx="3"/>
+    <rect x="470" y="415" width="150" height="6" rx="3"/>
+  </g>
+</svg>
