@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import toolsData from '@/data/tools.json'
 import categoriesData from '@/data/categories.json'
 import { generateSiteSchema } from '@/lib/schema'
@@ -82,6 +83,16 @@ export default function HomePage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <Image
+          src="/images/hero-home.webp"
+          alt="Herramientas online gratuitas en español - calculadoras, generadores y más"
+          width={1200}
+          height={600}
+          priority={true}
+          unoptimized={true}
+          className="w-full rounded-xl my-8"
+        />
+
         {/* Categories */}
         <section className="mb-14">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Categorías</h2>
@@ -95,6 +106,14 @@ export default function HomePage() {
                   href={`/${cat.slug}`}
                   className={`group p-6 rounded-2xl border-2 ${c.bg} ${c.border} ${c.hover} transition-all hover:shadow-md`}
                 >
+                  <Image
+                    src={`/images/cat-${cat.slug}.webp`}
+                    alt={`${cat.name} - herramientas online gratis en español`}
+                    width={800}
+                    height={400}
+                    unoptimized={true}
+                    className="w-full h-32 object-cover rounded-lg mb-4"
+                  />
                   <div className={`w-12 h-12 ${c.icon} rounded-xl flex items-center justify-center text-2xl mb-4`}>
                     {cat.icon}
                   </div>

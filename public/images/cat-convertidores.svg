@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#g)"/>
+
+  <text x="110" y="90" font-family="Arial" font-size="44" font-weight="700" fill="#FFFFFF" opacity="0.85">$</text>
+  <text x="660" y="100" font-family="Arial" font-size="44" font-weight="700" fill="#FFFFFF" opacity="0.85">&#8364;</text>
+  <text x="120" y="330" font-family="Arial" font-size="40" font-weight="700" fill="#FFFFFF" opacity="0.8">&#163;</text>
+  <text x="650" y="330" font-family="Arial" font-size="36" font-weight="700" fill="#FFFFFF" opacity="0.8">&#8369;</text>
+  <text x="400" y="80" font-family="Arial" font-size="30" font-weight="700" fill="#FFFFFF" opacity="0.75" text-anchor="middle">&#176;C</text>
+  <text x="400" y="345" font-family="Arial" font-size="30" font-weight="700" fill="#FFFFFF" opacity="0.75" text-anchor="middle">&#176;F</text>
+
+  <g transform="translate(290,205)">
+    <circle cx="0" cy="0" r="80" fill="#FFFFFF"/>
+    <text x="0" y="16" font-family="Arial" font-size="34" font-weight="700" fill="#059669" text-anchor="middle">USD</text>
+  </g>
+  <g transform="translate(510,205)">
+    <circle cx="0" cy="0" r="80" fill="#FFFFFF"/>
+    <text x="0" y="16" font-family="Arial" font-size="34" font-weight="700" fill="#2563EB" text-anchor="middle">MXN</text>
+  </g>
+
+  <g stroke="#FFFFFF" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M382 175 h36"/>
+    <path d="M400 158 l18 17 -18 17"/>
+    <path d="M418 235 h-36"/>
+    <path d="M400 252 l-18 -17 18 -17"/>
+  </g>
+</svg>

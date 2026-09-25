@@ -16,9 +16,24 @@ export const metadata = {
     locale: 'es_ES',
     alternateLocale: ['es_MX', 'es_AR', 'es_CO'],
     type: 'website',
+    images: [
+      {
+        url: '/images/og-image.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Herramatica - Herramientas online gratuitas en español',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
+    images: ['/images/og-image.webp'],
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.webp', type: 'image/webp' },
+    ],
   },
   robots: {
     index: true,

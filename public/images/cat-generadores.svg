@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#g)"/>
+
+  <g fill="#FFFFFF">
+    <path d="M660 80 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6 z" opacity="0.9"/>
+    <path d="M600 140 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 z" opacity="0.7"/>
+    <path d="M700 170 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5 z" opacity="0.8"/>
+    <path d="M140 90 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 z" opacity="0.6"/>
+  </g>
+
+  <g transform="translate(330,230) rotate(-35)">
+    <rect x="-8" y="-10" width="16" height="180" rx="8" fill="#F5F3FF"/>
+    <circle cx="0" cy="-30" r="26" fill="#FFFFFF"/>
+    <path d="M0 -30 l7 18 18 7 -18 7 -7 18 -7 -18 -18 -7 18 -7 z" fill="#7C3AED"/>
+  </g>
+
+  <g transform="translate(560,270)">
+    <rect x="-60" y="-60" width="120" height="120" rx="12" fill="#FFFFFF"/>
+    <g fill="#1E293B">
+      <rect x="-45" y="-45" width="16" height="16"/>
+      <rect x="-45" y="-20" width="16" height="16"/>
+      <rect x="-45" y="5" width="16" height="16"/>
+      <rect x="-20" y="-45" width="16" height="16"/>
+      <rect x="5" y="-45" width="16" height="16"/>
+      <rect x="30" y="-45" width="16" height="16"/>
+      <rect x="30" y="-20" width="16" height="16"/>
+      <rect x="5" y="5" width="16" height="16"/>
+      <rect x="30" y="30" width="16" height="16"/>
+      <rect x="-20" y="30" width="16" height="16"/>
+      <rect x="-45" y="30" width="16" height="16"/>
+      <rect x="5" y="30" width="16" height="16"/>
+    </g>
+  </g>
+
+  <g transform="translate(190,300)">
+    <rect x="-70" y="-34" width="140" height="60" rx="16" fill="#FFFFFF"/>
+    <path d="M-20 26 l-14 20 22 -8 z" fill="#FFFFFF"/>
+    <text x="0" y="4" font-family="Arial" font-size="20" font-weight="700" fill="#2563EB" text-anchor="middle">Texto</text>
+  </g>
+
+  <g transform="translate(200,120)">
+    <rect x="-70" y="-24" width="140" height="48" rx="24" fill="#FFFFFF"/>
+    <circle cx="-45" cy="0" r="8" fill="#7C3AED"/>
+    <circle cx="-15" cy="0" r="8" fill="#7C3AED"/>
+    <circle cx="15" cy="0" r="8" fill="#7C3AED"/>
+    <circle cx="45" cy="0" r="8" fill="#2563EB"/>
+  </g>
+</svg>

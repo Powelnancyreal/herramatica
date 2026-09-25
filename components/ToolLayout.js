@@ -1,7 +1,22 @@
+import fs from 'fs'
+import path from 'path'
+import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 import RelatedTools from '@/components/RelatedTools'
 
+const toolImageOverrides = {
+  'generador-qr': 'tool-qr',
+}
+
+function getToolImage(slug) {
+  const baseName = toolImageOverrides[slug] || `tool-${slug}`
+  const filePath = path.join(process.cwd(), 'public', 'images', `${baseName}.webp`)
+  return fs.existsSync(filePath) ? `/images/${baseName}.webp` : null
+}
+
 export default function ToolLayout({ tool, children }) {
+  const toolImage = getToolImage(tool.slug)
+
   return (
     <main className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Breadcrumb */}
@@ -25,6 +40,17 @@ export default function ToolLayout({ tool, children }) {
 
       {/* H1 */}
       <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">{tool.name}</h1>
+
+      {toolImage && (
+        <Image
+          src={toolImage}
+          alt={`${tool.name} - herramienta online gratis`}
+          width={800}
+          height={450}
+          unoptimized={true}
+          className="w-full rounded-xl my-6"
+        />
+      )}
 
       {/* Tool UI */}
       <div className="bg-white border border-gray-200 rounded-2xl shadow-sm p-5 sm:p-6 mb-8">

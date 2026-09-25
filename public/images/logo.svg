@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 50" width="180" height="50">
+  <rect x="2" y="7" width="36" height="36" rx="10" fill="#7C3AED"/>
+  <g fill="#FFFFFF">
+    <rect x="10" y="14" width="20" height="8" rx="2"/>
+    <rect x="10" y="26" width="5" height="5" rx="1"/>
+    <rect x="17.5" y="26" width="5" height="5" rx="1"/>
+    <rect x="25" y="26" width="5" height="5" rx="1"/>
+    <rect x="10" y="33" width="5" height="5" rx="1"/>
+    <rect x="17.5" y="33" width="5" height="5" rx="1"/>
+    <rect x="25" y="33" width="5" height="5" rx="1"/>
+  </g>
+  <text x="46" y="32" font-family="Arial, sans-serif" font-size="19" font-weight="800" fill="#7C3AED">Herramatica</text>
+</svg>
