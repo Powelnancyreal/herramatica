@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <g stroke="#EA580C" stroke-width="5" stroke-linecap="round" opacity="0.8">
+    <line x1="120" y1="90" x2="120" y2="110"/>
+    <line x1="110" y1="100" x2="130" y2="100"/>
+    <line x1="670" y1="100" x2="690" y2="100"/>
+    <line x1="120" y1="360" x2="140" y2="340"/>
+    <line x1="120" y1="340" x2="140" y2="360"/>
+  </g>
+  <g stroke="#7C3AED" stroke-width="5" stroke-linecap="round" opacity="0.8">
+    <line x1="660" y1="340" x2="680" y2="360"/>
+    <line x1="660" y1="360" x2="680" y2="340"/>
+  </g>
+  <g fill="#7C3AED" opacity="0.8">
+    <circle cx="680" cy="250" r="4"/>
+    <circle cx="680" cy="270" r="4"/>
+  </g>
+  <line x1="660" y1="260" x2="700" y2="260" stroke="#7C3AED" stroke-width="4" opacity="0.8"/>
+
+  <g transform="translate(380,220)">
+    <rect x="-220" y="-140" width="440" height="260" rx="16" fill="#5B21B6"/>
+    <rect x="-220" y="-140" width="440" height="260" rx="16" fill="none" stroke="#C4B5FD" stroke-width="10"/>
+
+    <g fill="#FFFFFF">
+      <circle cx="-140" cy="-20" r="10"/>
+      <circle cx="-110" cy="-20" r="10"/>
+    </g>
+    <g stroke="#FDBA74" stroke-width="6" stroke-linecap="round">
+      <line x1="-70" y1="-30" x2="-70" y2="-10"/>
+      <line x1="-80" y1="-20" x2="-60" y2="-20"/>
+    </g>
+    <g fill="#FFFFFF">
+      <circle cx="-30" cy="-30" r="10"/>
+      <circle cx="0" cy="-20" r="10"/>
+      <circle cx="-30" cy="-10" r="10"/>
+    </g>
+    <g stroke="#FDBA74" stroke-width="6" stroke-linecap="round">
+      <line x1="40" y1="-20" x2="66" y2="-20"/>
+    </g>
+    <g fill="#FBBF24">
+      <circle cx="110" cy="-34" r="10"/>
+      <circle cx="140" cy="-34" r="10"/>
+      <circle cx="110" cy="-6" r="10"/>
+      <circle cx="140" cy="-6" r="10"/>
+      <circle cx="125" cy="-20" r="10"/>
+    </g>
+
+    <path d="M-160,40 q40,-14 80,0 q40,14 80,0 q40,-14 80,0 q40,14 80,0" stroke="#EDE9FE" stroke-width="4" fill="none" opacity="0.6"/>
+    <path d="M-160,80 q60,-10 120,0 q60,10 120,0" stroke="#EDE9FE" stroke-width="4" fill="none" opacity="0.4"/>
+  </g>
+
+  <g transform="translate(560,330) rotate(-30)">
+    <rect x="-10" y="-70" width="20" height="110" rx="4" fill="#FBBF24"/>
+    <path d="M-10,-70 L0,-95 L10,-70 Z" fill="#F59E0B"/>
+    <rect x="-10" y="40" width="20" height="16" fill="#F472B6" rx="3"/>
+    <rect x="-12" y="30" width="24" height="12" fill="#E5E7EB"/>
+  </g>
+</svg>

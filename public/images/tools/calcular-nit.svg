@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- colombian map blob background -->
+  <path d="M560,70 C620,60 660,110 640,150 C670,190 640,240 600,220 C610,270 560,300 530,270 C490,290 460,250 480,210 C440,190 450,130 500,120 C500,90 530,70 560,70 Z" fill="#FEF9C3" opacity="0.6"/>
+
+  <!-- tricolor accent bar -->
+  <g transform="translate(400,60)">
+    <rect x="-90" y="0" width="180" height="10" fill="#FCD34D"/>
+    <rect x="-90" y="10" width="180" height="5" fill="#2563EB"/>
+    <rect x="-90" y="15" width="180" height="5" fill="#DC2626"/>
+  </g>
+
+  <!-- business building -->
+  <g transform="translate(180,240)">
+    <rect x="-70" y="-110" width="140" height="180" rx="8" fill="#EDE9FE" stroke="#7C3AED" stroke-width="4"/>
+    <g fill="#C4B5FD">
+      <rect x="-52" y="-90" width="20" height="20" rx="3"/>
+      <rect x="-12" y="-90" width="20" height="20" rx="3"/>
+      <rect x="28" y="-90" width="20" height="20" rx="3"/>
+      <rect x="-52" y="-56" width="20" height="20" rx="3"/>
+      <rect x="-12" y="-56" width="20" height="20" rx="3"/>
+      <rect x="28" y="-56" width="20" height="20" rx="3"/>
+      <rect x="-52" y="-22" width="20" height="20" rx="3"/>
+      <rect x="28" y="-22" width="20" height="20" rx="3"/>
+    </g>
+    <rect x="-14" y="-22" width="28" height="42" rx="3" fill="#7C3AED"/>
+  </g>
+
+  <!-- document with stamp -->
+  <g transform="translate(440,250)">
+    <rect x="-110" y="-120" width="220" height="230" rx="14" fill="#F8FAFC" stroke="#2563EB" stroke-width="4"/>
+    <rect x="-110" y="-120" width="220" height="40" rx="14" fill="#2563EB"/>
+    <rect x="-84" y="-104" width="80" height="14" rx="4" fill="#DBEAFE"/>
+    <rect x="-84" y="-54" width="130" height="8" rx="4" fill="#CBD5E1"/>
+    <rect x="-84" y="-32" width="160" height="8" rx="4" fill="#CBD5E1"/>
+
+    <!-- NIT chip strip with dash and DV -->
+    <g transform="translate(-84,0)">
+      <rect x="0" y="0" width="16" height="22" rx="4" fill="#DDD6FE"/>
+      <rect x="20" y="0" width="16" height="22" rx="4" fill="#DDD6FE"/>
+      <rect x="40" y="0" width="16" height="22" rx="4" fill="#DDD6FE"/>
+      <rect x="60" y="0" width="16" height="22" rx="4" fill="#DDD6FE"/>
+      <rect x="80" y="0" width="16" height="22" rx="4" fill="#DDD6FE"/>
+      <rect x="100" y="9" width="12" height="4" fill="#94A3B8"/>
+      <circle cx="132" cy="11" r="18" fill="none" stroke="#F59E0B" stroke-width="4"/>
+      <rect x="122" y="0" width="16" height="22" rx="4" fill="#FBBF24"/>
+    </g>
+
+    <rect x="-84" y="50" width="90" height="8" rx="4" fill="#CBD5E1"/>
+  </g>
+
+  <!-- DIAN seal -->
+  <g transform="translate(660,180)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#DC2626" stroke-width="5" stroke-dasharray="6 5"/>
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#2563EB" stroke-width="4"/>
+  </g>
+
+  <!-- checkmark -->
+  <g transform="translate(650,340)">
+    <circle cx="0" cy="0" r="28" fill="#D1FAE5" stroke="#059669" stroke-width="4"/>
+    <path d="M-12,2 L-3,12 L14,-10" stroke="#059669" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <g transform="translate(210,225)">
+    <rect x="-150" y="-170" width="300" height="340" rx="16" fill="#F8FAFC" stroke="#DC2626" stroke-width="4"/>
+    <rect x="-150" y="-170" width="300" height="50" rx="16" fill="#DC2626"/>
+    <rect x="-122" y="-154" width="90" height="18" rx="6" fill="#FEE2E2"/>
+
+    <g transform="translate(90,-142)">
+      <circle cx="0" cy="0" r="22" fill="#FFFFFF"/>
+      <path d="M0,-12 L6,0 L2,0 L2,10 L-2,10 L-2,0 L-6,0 Z" fill="#7C3AED"/>
+    </g>
+
+    <rect x="-120" y="-90" width="160" height="10" rx="5" fill="#CBD5E1"/>
+    <rect x="-120" y="-68" width="200" height="10" rx="5" fill="#CBD5E1"/>
+    <rect x="-120" y="60" width="180" height="10" rx="5" fill="#CBD5E1"/>
+    <rect x="-120" y="82" width="140" height="10" rx="5" fill="#CBD5E1"/>
+  </g>
+
+  <g transform="translate(430,220)">
+    <circle cx="-46" cy="-46" r="26" fill="none" stroke="#7C3AED" stroke-width="12"/>
+    <circle cx="46" cy="46" r="26" fill="none" stroke="#7C3AED" stroke-width="12"/>
+    <line x1="-60" y1="60" x2="60" y2="-60" stroke="#DC2626" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(640,140)">
+    <circle cx="0" cy="0" r="34" fill="#FBBF24" stroke="#F59E0B" stroke-width="4"/>
+    <rect x="-3" y="-15" width="6" height="30" rx="3" fill="#F59E0B"/>
+    <rect x="-13" y="-3" width="26" height="6" rx="3" fill="#F59E0B"/>
+  </g>
+  <g transform="translate(690,180)">
+    <circle cx="0" cy="0" r="24" fill="#FDE68A" stroke="#F59E0B" stroke-width="3"/>
+    <rect x="-2" y="-10" width="4" height="20" rx="2" fill="#F59E0B"/>
+    <rect x="-9" y="-2" width="18" height="4" rx="2" fill="#F59E0B"/>
+  </g>
+  <g transform="translate(640,330)">
+    <rect x="-56" y="-34" width="112" height="68" rx="8" fill="#EDE9FE" stroke="#7C3AED" stroke-width="3"/>
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#7C3AED" stroke-width="3"/>
+    <rect x="-44" y="-20" width="18" height="6" rx="3" fill="#7C3AED"/>
+    <rect x="26" y="14" width="18" height="6" rx="3" fill="#7C3AED"/>
+  </g>
+
+  <g transform="translate(500,370)">
+    <rect x="-46" y="-52" width="92" height="104" rx="12" fill="#FFFFFF" stroke="#7C3AED" stroke-width="4"/>
+    <rect x="-36" y="-40" width="72" height="24" rx="6" fill="#EDE9FE"/>
+    <g fill="#DDD6FE">
+      <rect x="-36" y="-8" width="16" height="16" rx="4"/>
+      <rect x="-12" y="-8" width="16" height="16" rx="4"/>
+      <rect x="12" y="-8" width="16" height="16" rx="4"/>
+      <rect x="-36" y="16" width="16" height="16" rx="4"/>
+      <rect x="-12" y="16" width="16" height="16" rx="4"/>
+      <rect x="12" y="16" width="16" height="16" rx="4" fill="#DC2626"/>
+    </g>
+  </g>
+</svg>

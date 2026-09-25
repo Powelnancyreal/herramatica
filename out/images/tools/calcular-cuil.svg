@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- blue white blue accent bar -->
+  <g transform="translate(400,60)">
+    <rect x="-90" y="0" width="60" height="20" fill="#60A5FA"/>
+    <rect x="-30" y="0" width="60" height="20" fill="#FFFFFF" stroke="#60A5FA" stroke-width="2"/>
+    <rect x="30" y="0" width="60" height="20" fill="#60A5FA"/>
+  </g>
+
+  <!-- argentine sun simplified -->
+  <g transform="translate(660,140)">
+    <circle cx="0" cy="0" r="22" fill="#FBBF24"/>
+    <g stroke="#F59E0B" stroke-width="5" stroke-linecap="round">
+      <line x1="0" y1="-34" x2="0" y2="-46"/>
+      <line x1="0" y1="34" x2="0" y2="46"/>
+      <line x1="-34" y1="0" x2="-46" y2="0"/>
+      <line x1="34" y1="0" x2="46" y2="0"/>
+      <line x1="-24" y1="-24" x2="-32" y2="-32"/>
+      <line x1="24" y1="24" x2="32" y2="32"/>
+      <line x1="24" y1="-24" x2="32" y2="-32"/>
+      <line x1="-24" y1="24" x2="-32" y2="32"/>
+    </g>
+  </g>
+
+  <!-- DNI Argentina card background -->
+  <g transform="translate(520,260)" opacity="0.6">
+    <rect x="-90" y="-56" width="180" height="112" rx="14" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+  </g>
+
+  <!-- work document with person -->
+  <g transform="translate(220,240)">
+    <rect x="-110" y="-130" width="220" height="240" rx="14" fill="#F8FAFC" stroke="#7C3AED" stroke-width="4"/>
+    <rect x="-110" y="-130" width="220" height="42" rx="14" fill="#7C3AED"/>
+    <circle cx="-70" cy="-40" r="20" fill="#C4B5FD"/>
+    <path d="M-92,10 Q-70,-20 -48,10 Z" fill="#C4B5FD"/>
+    <rect x="-24" y="-52" width="100" height="8" rx="4" fill="#CBD5E1"/>
+    <rect x="-24" y="-30" width="80" height="8" rx="4" fill="#CBD5E1"/>
+
+    <!-- CUIL chip strip with dashes -->
+    <g transform="translate(-90,20)">
+      <rect x="0" y="0" width="16" height="22" rx="4" fill="#DDD6FE"/>
+      <rect x="20" y="0" width="16" height="22" rx="4" fill="#DDD6FE"/>
+      <rect x="42" y="9" width="10" height="4" fill="#94A3B8"/>
+      <rect x="58" y="0" width="16" height="22" rx="4" fill="#BFDBFE"/>
+      <rect x="78" y="0" width="16" height="22" rx="4" fill="#BFDBFE"/>
+      <rect x="98" y="0" width="16" height="22" rx="4" fill="#BFDBFE"/>
+      <rect x="118" y="0" width="16" height="22" rx="4" fill="#BFDBFE"/>
+      <rect x="138" y="0" width="16" height="22" rx="4" fill="#BFDBFE"/>
+      <rect x="158" y="0" width="16" height="22" rx="4" fill="#BFDBFE"/>
+      <rect x="178" y="0" width="16" height="22" rx="4" fill="#BFDBFE"/>
+      <rect x="198" y="0" width="16" height="22" rx="4" fill="#BFDBFE"/>
+      <rect x="218" y="9" width="10" height="4" fill="#94A3B8"/>
+      <rect x="234" y="0" width="16" height="22" rx="4" fill="#FBBF24"/>
+    </g>
+  </g>
+
+  <!-- CUIT / CUIL small cards -->
+  <g transform="translate(600,340)">
+    <rect x="-56" y="-24" width="100" height="48" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+    <rect x="52" y="-24" width="100" height="48" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="3"/>
+  </g>
+
+  <!-- algorithm loop icon -->
+  <g transform="translate(700,240)">
+    <path d="M-20,0 A20,20 0 1 1 12,17" fill="none" stroke="#7C3AED" stroke-width="5" stroke-linecap="round"/>
+    <path d="M4,10 L12,17 L20,8" stroke="#7C3AED" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

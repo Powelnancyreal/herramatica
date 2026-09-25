@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <g transform="translate(400,225)">
+    <rect x="-190" y="-170" width="380" height="340" rx="18" fill="#F8FAFC" stroke="#7C3AED" stroke-width="4"/>
+    <rect x="-190" y="-170" width="380" height="56" rx="18" fill="#7C3AED"/>
+    <rect x="-160" y="-152" width="120" height="20" rx="6" fill="#EDE9FE"/>
+
+    <g transform="translate(130,-142)">
+      <circle cx="0" cy="0" r="26" fill="#FFFFFF"/>
+      <path d="M0,-14 L8,2 L2,2 L2,14 L-2,14 L-2,2 L-8,2 Z" fill="#059669"/>
+      <path d="M-14,-2 Q-4,-10 0,-14 Q4,-10 14,-2 Q4,0 0,4 Q-4,0 -14,-2 Z" fill="#059669"/>
+    </g>
+
+    <rect x="-160" y="-90" width="200" height="10" rx="5" fill="#CBD5E1"/>
+    <rect x="-160" y="-68" width="260" height="10" rx="5" fill="#CBD5E1"/>
+
+    <g transform="translate(-150,-20)">
+      <rect x="0" y="0" width="24" height="30" rx="6" fill="#DDD6FE"/>
+      <rect x="30" y="0" width="24" height="30" rx="6" fill="#DDD6FE"/>
+      <rect x="60" y="0" width="24" height="30" rx="6" fill="#DDD6FE"/>
+      <rect x="90" y="0" width="24" height="30" rx="6" fill="#DDD6FE"/>
+      <rect x="124" y="4" width="20" height="22" rx="4" fill="#BFDBFE"/>
+      <rect x="148" y="4" width="20" height="22" rx="4" fill="#BFDBFE"/>
+      <rect x="172" y="4" width="20" height="22" rx="4" fill="#BFDBFE"/>
+      <rect x="196" y="4" width="20" height="22" rx="4" fill="#BFDBFE"/>
+      <rect x="220" y="4" width="20" height="22" rx="4" fill="#BFDBFE"/>
+      <rect x="244" y="4" width="20" height="22" rx="4" fill="#BFDBFE"/>
+      <rect x="278" y="0" width="24" height="30" rx="6" fill="#DDD6FE"/>
+      <rect x="308" y="0" width="24" height="30" rx="6" fill="#DDD6FE"/>
+      <rect x="338" y="0" width="24" height="30" rx="6" fill="#DDD6FE"/>
+    </g>
+
+    <rect x="-160" y="40" width="180" height="10" rx="5" fill="#CBD5E1"/>
+    <rect x="-160" y="62" width="220" height="10" rx="5" fill="#CBD5E1"/>
+
+    <g transform="translate(110,120)">
+      <circle cx="0" cy="0" r="46" fill="none" stroke="#059669" stroke-width="5" stroke-dasharray="6 5"/>
+      <circle cx="0" cy="0" r="26" fill="none" stroke="#7C3AED" stroke-width="4"/>
+      <path d="M-10,4 L-2,12 L12,-8" stroke="#7C3AED" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

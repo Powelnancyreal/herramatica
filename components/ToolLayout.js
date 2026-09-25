@@ -14,8 +14,19 @@ function getToolImage(slug) {
   return fs.existsSync(filePath) ? `/images/${baseName}.webp` : null
 }
 
+function getToolBottomImage(slug) {
+  const filePath = path.join(process.cwd(), 'public', 'images', 'tools', `${slug}.webp`)
+  return fs.existsSync(filePath) ? `/images/tools/${slug}.webp` : null
+}
+
+function cleanToolName(name) {
+  return name.replace(/\s*\(([^)]*)\)\s*$/, ' $1').replace(/,\s+/g, ' ')
+}
+
 export default function ToolLayout({ tool, children }) {
   const toolImage = getToolImage(tool.slug)
+  const toolBottomImage = getToolBottomImage(tool.slug)
+  const toolNameForAlt = cleanToolName(tool.name)
 
   return (
     <main className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -56,6 +67,21 @@ export default function ToolLayout({ tool, children }) {
       <div className="bg-white border border-gray-200 rounded-2xl shadow-sm p-5 sm:p-6 mb-8">
         {children}
       </div>
+
+      {/* Tool Image - SEO & UX */}
+      {toolBottomImage && (
+        <div className="my-8">
+          <Image
+            src={toolBottomImage}
+            alt={`${toolNameForAlt} - herramienta online gratis en español`}
+            width={800}
+            height={450}
+            unoptimized={true}
+            className="w-full rounded-xl shadow-md"
+            loading="lazy"
+          />
+        </div>
+      )}
 
       {/* Intro */}
       <section className="mb-8">

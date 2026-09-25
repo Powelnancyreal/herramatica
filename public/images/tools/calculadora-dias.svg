@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- wall calendar -->
+  <g transform="translate(370,220)">
+    <rect x="-190" y="-150" width="380" height="300" rx="16" fill="#FFFFFF" stroke="#2563EB" stroke-width="5"/>
+    <rect x="-190" y="-150" width="380" height="50" rx="16" fill="#2563EB"/>
+    <rect x="-130" y="-168" width="14" height="34" rx="6" fill="#1E3A8A"/>
+    <rect x="116" y="-168" width="14" height="34" rx="6" fill="#1E3A8A"/>
+
+    <!-- grid -->
+    <g fill="#EDE9FE">
+      <rect x="-166" y="-84" width="40" height="40" rx="6"/>
+      <rect x="-114" y="-84" width="40" height="40" rx="6"/>
+      <rect x="-62" y="-84" width="40" height="40" rx="6"/>
+      <rect x="-10" y="-84" width="40" height="40" rx="6"/>
+      <rect x="42" y="-84" width="40" height="40" rx="6"/>
+      <rect x="94" y="-84" width="40" height="40" rx="6"/>
+      <rect x="146" y="-84" width="40" height="40" rx="6"/>
+
+      <rect x="-166" y="-32" width="40" height="40" rx="6"/>
+      <rect x="-114" y="-32" width="40" height="40" rx="6"/>
+      <rect x="-10" y="-32" width="40" height="40" rx="6"/>
+      <rect x="42" y="-32" width="40" height="40" rx="6"/>
+      <rect x="94" y="-32" width="40" height="40" rx="6"/>
+      <rect x="146" y="-32" width="40" height="40" rx="6"/>
+
+      <rect x="-166" y="20" width="40" height="40" rx="6"/>
+      <rect x="-114" y="20" width="40" height="40" rx="6"/>
+      <rect x="-62" y="20" width="40" height="40" rx="6"/>
+      <rect x="-10" y="20" width="40" height="40" rx="6"/>
+      <rect x="94" y="20" width="40" height="40" rx="6"/>
+      <rect x="146" y="20" width="40" height="40" rx="6"/>
+    </g>
+
+    <!-- holiday indicator (gold) -->
+    <rect x="-62" y="20" width="40" height="40" rx="6" fill="#FDE68A"/>
+
+    <!-- two circled dates connected by arrow -->
+    <circle cx="-62" cy="-64" r="26" fill="none" stroke="#7C3AED" stroke-width="5"/>
+    <circle cx="146" cy="40" r="26" fill="none" stroke="#DC2626" stroke-width="5"/>
+    <path d="M-40,-50 Q40,-10 120,32" stroke="#7C3AED" stroke-width="4" fill="none" stroke-dasharray="7 6"/>
+    <path d="M110,26 L124,34 L112,44" stroke="#7C3AED" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- countdown chips -->
+  <g fill="#EDE9FE" stroke="#7C3AED" stroke-width="2">
+    <circle cx="620" cy="120" r="22"/>
+    <circle cx="660" cy="170" r="16"/>
+  </g>
+  <g stroke="#7C3AED" stroke-width="3" stroke-linecap="round">
+    <line x1="610" y1="120" x2="630" y2="120"/>
+    <line x1="653" y1="170" x2="667" y2="170"/>
+  </g>
+
+  <!-- clock -->
+  <g transform="translate(660,320)">
+    <circle cx="0" cy="0" r="54" fill="#FFFFFF" stroke="#2563EB" stroke-width="7"/>
+    <line x1="0" y1="0" x2="0" y2="-32" stroke="#2563EB" stroke-width="5" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="22" y2="14" stroke="#7C3AED" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- hourglass -->
+  <g transform="translate(120,340)">
+    <path d="M-20,-36 h40 l-18,32 l18,32 h-40 l18,-32 Z" fill="none" stroke="#7C3AED" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M-12,-28 h24 l-12,20 z" fill="#FBBF24"/>
+    <circle cx="0" cy="18" r="4" fill="#FBBF24"/>
+  </g>
+
+  <!-- work vs holiday legend -->
+  <g transform="translate(90,90)">
+    <circle cx="0" cy="0" r="9" fill="#2563EB"/>
+    <circle cx="0" cy="26" r="9" fill="#FDE68A"/>
+  </g>
+</svg>

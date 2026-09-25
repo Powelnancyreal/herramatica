@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- camera icon corner -->
+  <g transform="translate(700,90)">
+    <rect x="-30" y="-16" width="60" height="42" rx="8" fill="#0D9488"/>
+    <rect x="-10" y="-26" width="20" height="12" rx="3" fill="#0D9488"/>
+    <circle cx="0" cy="6" r="12" fill="#FFFFFF"/>
+    <circle cx="0" cy="6" r="6" fill="#0D9488"/>
+  </g>
+
+  <!-- photo icon center -->
+  <g transform="translate(400,220)">
+    <rect x="-90" y="-70" width="180" height="140" rx="14" fill="#FFFFFF" stroke="#7C3AED" stroke-width="5"/>
+    <circle cx="-50" cy="-30" r="16" fill="#FDE68A"/>
+    <path d="M-80,50 L-20,-10 L20,30 L50,0 L80,50 Z" fill="#93C5FD"/>
+  </g>
+
+  <!-- three format boxes -->
+  <g transform="translate(140,120)">
+    <rect x="-50" y="-24" width="100" height="48" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+  </g>
+  <g transform="translate(140,320)">
+    <rect x="-50" y="-24" width="100" height="48" rx="10" fill="#D1FAE5" stroke="#0D9488" stroke-width="3"/>
+  </g>
+  <g transform="translate(660,220)">
+    <rect x="-50" y="-24" width="100" height="48" rx="10" fill="#EDE9FE" stroke="#7C3AED" stroke-width="3"/>
+  </g>
+
+  <!-- arrows converting between formats -->
+  <g stroke="#7C3AED" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M180,150 Q260,180 300,195"/>
+    <path d="M288,182 l14,14 -18,8"/>
+    <path d="M180,300 Q260,260 300,240"/>
+    <path d="M288,252 l14,-14 -18,-8"/>
+    <path d="M500,220 h100"/>
+    <path d="M580,200 l22,20 -22,20"/>
+  </g>
+
+  <!-- file size bars -->
+  <g transform="translate(400,380)">
+    <rect x="-80" y="-8" width="50" height="16" rx="4" fill="#94A3B8"/>
+    <rect x="-20" y="-14" width="30" height="22" rx="4" fill="#0D9488"/>
+    <rect x="20" y="-4" width="20" height="12" rx="4" fill="#7C3AED"/>
+  </g>
+</svg>

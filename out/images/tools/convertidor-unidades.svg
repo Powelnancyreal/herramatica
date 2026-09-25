@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- globe background -->
+  <g transform="translate(400,225)" opacity="0.25">
+    <circle cx="0" cy="0" r="180" fill="none" stroke="#2563EB" stroke-width="3"/>
+    <ellipse cx="0" cy="0" rx="80" ry="180" fill="none" stroke="#2563EB" stroke-width="2"/>
+    <line x1="-180" y1="0" x2="180" y2="0" stroke="#2563EB" stroke-width="2"/>
+  </g>
+
+  <!-- ruler -->
+  <g transform="translate(140,120)">
+    <rect x="-90" y="-16" width="180" height="32" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+    <g stroke="#2563EB" stroke-width="2">
+      <line x1="-70" y1="-16" x2="-70" y2="0"/>
+      <line x1="-40" y1="-16" x2="-40" y2="4"/>
+      <line x1="-10" y1="-16" x2="-10" y2="0"/>
+      <line x1="20" y1="-16" x2="20" y2="4"/>
+      <line x1="50" y1="-16" x2="50" y2="0"/>
+    </g>
+  </g>
+
+  <!-- weight scale -->
+  <g transform="translate(140,320)">
+    <rect x="-60" y="0" width="120" height="34" rx="8" fill="#7C3AED"/>
+    <circle cx="0" cy="-40" r="36" fill="#FFFFFF" stroke="#7C3AED" stroke-width="6"/>
+    <line x1="0" y1="-40" x2="14" y2="-60" stroke="#EA580C" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="-40" r="4" fill="#EA580C"/>
+  </g>
+
+  <!-- thermometer -->
+  <g transform="translate(660,300)">
+    <rect x="-10" y="-100" width="20" height="120" rx="10" fill="#FFFFFF" stroke="#EA580C" stroke-width="4"/>
+    <circle cx="0" cy="30" r="24" fill="#EA580C"/>
+    <rect x="-6" y="-80" width="12" height="100" rx="6" fill="#EA580C"/>
+    <g stroke="#94A3B8" stroke-width="2">
+      <line x1="10" y1="-70" x2="18" y2="-70"/>
+      <line x1="10" y1="-40" x2="18" y2="-40"/>
+      <line x1="10" y1="-10" x2="18" y2="-10"/>
+    </g>
+  </g>
+
+  <!-- beaker -->
+  <g transform="translate(660,120)">
+    <path d="M-18,-40 h36 v10 l24,60 a10,10 0 0 1 -10,14 h-64 a10,10 0 0 1 -10,-14 z" fill="#DBEAFE" stroke="#2563EB" stroke-width="4"/>
+    <path d="M-26,10 h52 v14 a10,10 0 0 1 -10,10 h-32 a10,10 0 0 1 -10,-10 Z" fill="#93C5FD"/>
+    <line x1="-18" y1="-40" x2="18" y2="-40" stroke="#2563EB" stroke-width="4"/>
+  </g>
+
+  <!-- two large conversion arrows center -->
+  <g stroke="#EA580C" stroke-width="9" fill="none" stroke-linecap="round">
+    <path d="M330,190 h100"/>
+    <path d="M400,168 l30,22 -30,22"/>
+  </g>
+  <g stroke="#2563EB" stroke-width="9" fill="none" stroke-linecap="round">
+    <path d="M470,270 h-100"/>
+    <path d="M400,248 l-30,22 30,22"/>
+  </g>
+</svg>

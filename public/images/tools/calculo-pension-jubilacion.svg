@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- sun setting background -->
+  <g transform="translate(400,260)">
+    <circle cx="0" cy="0" r="90" fill="#FDE68A" opacity="0.6"/>
+    <rect x="-400" y="0" width="800" height="190" fill="#FFFFFF"/>
+    <line x1="-400" y1="0" x2="800" y2="0" stroke="#F59E0B" stroke-width="3" opacity="0.5"/>
+  </g>
+
+  <!-- elderly person in rocking chair -->
+  <g transform="translate(200,300)">
+    <path d="M-50,40 Q0,60 50,40" fill="none" stroke="#94A3B8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M-34,40 L-34,-10 M34,40 L34,-10" stroke="#94A3B8" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="0" cy="-56" r="22" fill="#C4B5FD"/>
+    <path d="M-30,-10 Q0,-40 30,-10 L26,20 Q0,32 -26,20 Z" fill="#7C3AED"/>
+  </g>
+
+  <!-- piggy bank -->
+  <g transform="translate(580,290)">
+    <ellipse cx="0" cy="0" rx="70" ry="50" fill="#FBBF24"/>
+    <circle cx="60" cy="-10" r="14" fill="#FBBF24"/>
+    <rect x="-4" y="-46" width="10" height="16" rx="4" fill="#F59E0B" transform="rotate(20)"/>
+    <rect x="-16" y="42" width="10" height="18" rx="4" fill="#F59E0B"/>
+    <rect x="10" y="42" width="10" height="18" rx="4" fill="#F59E0B"/>
+    <rect x="-28" y="-8" width="20" height="6" rx="3" fill="#F59E0B"/>
+    <circle cx="34" cy="-6" r="4" fill="#7C3AED"/>
+  </g>
+  <g fill="#FDE68A" stroke="#F59E0B" stroke-width="2">
+    <circle cx="660" cy="230" r="14"/>
+    <circle cx="690" cy="260" r="12"/>
+  </g>
+
+  <!-- calendar retirement date -->
+  <g transform="translate(400,140)">
+    <rect x="-60" y="-50" width="120" height="100" rx="12" fill="#FFFFFF" stroke="#7C3AED" stroke-width="4"/>
+    <rect x="-60" y="-50" width="120" height="26" rx="12" fill="#7C3AED"/>
+    <g fill="#EDE9FE">
+      <rect x="-44" y="-14" width="16" height="16" rx="3"/>
+      <rect x="-20" y="-14" width="16" height="16" rx="3"/>
+      <rect x="4" y="-14" width="16" height="16" rx="3"/>
+      <rect x="28" y="-14" width="16" height="16" rx="3"/>
+    </g>
+    <rect x="4" y="-14" width="16" height="16" rx="3" fill="#FBBF24"/>
+  </g>
+
+  <!-- pension chart going up -->
+  <g transform="translate(300,360)">
+    <rect x="0" y="-10" width="16" height="10" fill="#94A3B8"/>
+    <rect x="22" y="-22" width="16" height="22" fill="#7C3AED"/>
+    <rect x="44" y="-38" width="16" height="38" fill="#059669"/>
+  </g>
+
+  <!-- years timeline -->
+  <g transform="translate(400,410)">
+    <rect x="-260" y="-6" width="520" height="12" rx="6" fill="#E5E7EB"/>
+    <rect x="-260" y="-6" width="360" height="12" rx="6" fill="#059669"/>
+  </g>
+</svg>

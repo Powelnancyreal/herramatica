@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- geometric grid background -->
+  <g stroke="#EDE9FE" stroke-width="1.5">
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="150" y1="0" x2="150" y2="450"/>
+    <line x1="450" y1="0" x2="450" y2="450"/>
+    <line x1="650" y1="0" x2="650" y2="450"/>
+  </g>
+
+  <!-- 3D cylinder center -->
+  <g transform="translate(320,220)">
+    <ellipse cx="0" cy="-90" rx="90" ry="30" fill="#DBEAFE" stroke="#2563EB" stroke-width="4"/>
+    <rect x="-90" y="-90" width="180" height="140" fill="#BFDBFE" opacity="0.6"/>
+    <path d="M-90,-90 v140 M90,-90 v140" stroke="#2563EB" stroke-width="4"/>
+    <ellipse cx="0" cy="50" rx="90" ry="30" fill="#93C5FD" stroke="#2563EB" stroke-width="4"/>
+    <!-- liquid -->
+    <path d="M-90,10 a90,30 0 0 0 180,0 v40 a90,30 0 0 1 -180,0 Z" fill="#7C3AED" opacity="0.5"/>
+
+    <!-- radius arrow -->
+    <line x1="0" y1="-90" x2="88" y2="-90" stroke="#059669" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="-90" r="4" fill="#059669"/>
+
+    <!-- height arrow -->
+    <g transform="translate(-130,0)" stroke="#7C3AED" stroke-width="4" fill="none" stroke-linecap="round">
+      <line x1="0" y1="-90" x2="0" y2="50"/>
+      <path d="M-6,-82 l6,-8 6,8"/>
+      <path d="M-6,42 l6,8 6,-8"/>
+    </g>
+
+    <!-- measuring tape -->
+    <path d="M-90,-30 a90,30 0 0 0 180,0" fill="none" stroke="#FBBF24" stroke-width="4" stroke-dasharray="5 4"/>
+  </g>
+
+  <!-- cross section circle view -->
+  <g transform="translate(620,300)">
+    <circle cx="0" cy="0" r="70" fill="#DBEAFE" stroke="#2563EB" stroke-width="4"/>
+    <line x1="0" y1="0" x2="68" y2="0" stroke="#059669" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="5" fill="#059669"/>
+  </g>
+
+  <!-- pi symbol -->
+  <g stroke="#7C3AED" stroke-width="8" stroke-linecap="round" fill="none">
+    <path d="M600,110 h60"/>
+    <path d="M612,110 v46"/>
+    <path d="M648,110 v46"/>
+  </g>
+</svg>

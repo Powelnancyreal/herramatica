@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- industrial pipe left -->
+  <g transform="translate(140,300)">
+    <rect x="-60" y="-24" width="120" height="48" rx="8" fill="#94A3B8"/>
+    <rect x="-70" y="-30" width="20" height="60" rx="6" fill="#64748B"/>
+    <rect x="50" y="-30" width="20" height="60" rx="6" fill="#64748B"/>
+  </g>
+
+  <!-- car tire right -->
+  <g transform="translate(660,300)">
+    <circle cx="0" cy="0" r="60" fill="#1E293B"/>
+    <circle cx="0" cy="0" r="30" fill="#94A3B8"/>
+    <circle cx="0" cy="0" r="10" fill="#334155"/>
+  </g>
+  <g transform="translate(660,220)">
+    <circle cx="0" cy="0" r="14" fill="#7C3AED"/>
+  </g>
+
+  <!-- pressure gauge center -->
+  <g transform="translate(400,200)">
+    <circle cx="0" cy="0" r="100" fill="#FFFFFF" stroke="#2563EB" stroke-width="10"/>
+    <path d="M-70,50 A100,100 0 0 1 70,50" fill="none" stroke="#DBEAFE" stroke-width="14" stroke-linecap="round" transform="translate(0,-50) scale(0.7)"/>
+    <g stroke="#94A3B8" stroke-width="3">
+      <line x1="0" y1="-86" x2="0" y2="-70"/>
+      <line x1="-86" y1="0" x2="-70" y2="0"/>
+      <line x1="86" y1="0" x2="70" y2="0"/>
+      <line x1="-60" y1="-60" x2="-48" y2="-48"/>
+      <line x1="60" y1="-60" x2="48" y2="-48"/>
+    </g>
+    <line x1="0" y1="0" x2="50" y2="-50" stroke="#DC2626" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="10" fill="#7C3AED"/>
+  </g>
+
+  <!-- bar / psi badges -->
+  <g transform="translate(260,120)">
+    <rect x="-40" y="-22" width="80" height="44" rx="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+  </g>
+  <g transform="translate(540,120)">
+    <rect x="-40" y="-22" width="80" height="44" rx="12" fill="#EDE9FE" stroke="#7C3AED" stroke-width="3"/>
+  </g>
+
+  <!-- conversion arrows -->
+  <g stroke="#059669" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M300,140 q50,20 90,50"/>
+    <path d="M378,178 l14,16 -20,8"/>
+    <path d="M500,140 q-50,20 -90,50"/>
+    <path d="M422,178 l-14,16 20,8"/>
+  </g>
+
+  <!-- atm / kPa floating badges -->
+  <g transform="translate(140,150)">
+    <circle cx="0" cy="0" r="22" fill="#F1F5F9" stroke="#64748B" stroke-width="3"/>
+  </g>
+  <g transform="translate(660,150)">
+    <circle cx="0" cy="0" r="20" fill="#F1F5F9" stroke="#64748B" stroke-width="3"/>
+  </g>
+</svg>

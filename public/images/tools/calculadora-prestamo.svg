@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- bank building background -->
+  <g transform="translate(620,140)" opacity="0.85">
+    <rect x="-90" y="-10" width="180" height="90" fill="#EDE9FE"/>
+    <path d="M-100,-10 L0,-60 L100,-10 Z" fill="#7C3AED"/>
+    <rect x="-76" y="10" width="14" height="70" fill="#C4B5FD"/>
+    <rect x="-46" y="10" width="14" height="70" fill="#C4B5FD"/>
+    <rect x="-16" y="10" width="14" height="70" fill="#C4B5FD"/>
+    <rect x="14" y="10" width="14" height="70" fill="#C4B5FD"/>
+    <rect x="44" y="10" width="14" height="70" fill="#C4B5FD"/>
+    <rect x="-96" y="80" width="192" height="14" fill="#5B21B6"/>
+  </g>
+
+  <!-- interest rate percent floating -->
+  <g transform="translate(660,260)">
+    <circle cx="-14" cy="-14" r="9" fill="none" stroke="#059669" stroke-width="5"/>
+    <circle cx="14" cy="14" r="9" fill="none" stroke="#059669" stroke-width="5"/>
+    <line x1="-20" y1="20" x2="20" y2="-20" stroke="#7C3AED" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- down arrow decreasing balance -->
+  <g transform="translate(700,350)" stroke="#059669" stroke-width="7" stroke-linecap="round" fill="none">
+    <line x1="0" y1="-30" x2="0" y2="20"/>
+    <path d="M-14,4 L0,20 L14,4"/>
+  </g>
+
+  <!-- handshake -->
+  <g transform="translate(160,150)">
+    <path d="M-56,10 Q-28,-18 0,10 L18,-8 Q36,-28 56,-8 L38,18 Q10,38 -18,28 Q-46,38 -56,10 Z" fill="#7C3AED"/>
+  </g>
+
+  <!-- coin/bill stack -->
+  <g transform="translate(140,320)">
+    <rect x="-46" y="8" width="92" height="26" rx="6" fill="#D1FAE5" stroke="#059669" stroke-width="2"/>
+    <rect x="-40" y="-14" width="80" height="24" rx="6" fill="#DCFCE7" stroke="#059669" stroke-width="2"/>
+    <circle cx="0" cy="-34" r="22" fill="#FBBF24" stroke="#F59E0B" stroke-width="4"/>
+    <rect x="-2" y="-45" width="4" height="22" rx="2" fill="#F59E0B"/>
+    <rect x="-11" y="-36" width="22" height="4" rx="2" fill="#F59E0B"/>
+  </g>
+
+  <!-- monthly payment calendar -->
+  <g transform="translate(360,260)">
+    <rect x="-90" y="-90" width="180" height="170" rx="14" fill="#FFFFFF" stroke="#7C3AED" stroke-width="4"/>
+    <rect x="-90" y="-90" width="180" height="40" rx="14" fill="#7C3AED"/>
+    <g fill="#EDE9FE">
+      <rect x="-70" y="-30" width="30" height="20" rx="4"/>
+      <rect x="-30" y="-30" width="30" height="20" rx="4"/>
+      <rect x="10" y="-30" width="30" height="20" rx="4"/>
+      <rect x="-70" y="0" width="30" height="20" rx="4"/>
+    </g>
+    <rect x="-30" y="0" width="30" height="20" rx="4" fill="#059669"/>
+    <rect x="10" y="0" width="30" height="20" rx="4" fill="#EDE9FE"/>
+    <rect x="-70" y="34" width="140" height="10" rx="5" fill="#059669"/>
+  </g>
+
+  <!-- amortization table rows -->
+  <g transform="translate(560,300)">
+    <rect x="-70" y="-60" width="140" height="120" rx="10" fill="#FFFFFF" stroke="#059669" stroke-width="3"/>
+    <rect x="-70" y="-60" width="140" height="24" fill="#D1FAE5"/>
+    <rect x="-70" y="-36" width="140" height="1" fill="#CBD5E1"/>
+    <rect x="-56" y="-24" width="60" height="8" rx="4" fill="#CBD5E1"/>
+    <rect x="30" y="-24" width="26" height="8" rx="4" fill="#059669"/>
+    <rect x="-56" y="0" width="60" height="8" rx="4" fill="#CBD5E1"/>
+    <rect x="30" y="0" width="26" height="8" rx="4" fill="#059669"/>
+    <rect x="-56" y="24" width="60" height="8" rx="4" fill="#CBD5E1"/>
+    <rect x="30" y="24" width="26" height="8" rx="4" fill="#059669"/>
+  </g>
+</svg>

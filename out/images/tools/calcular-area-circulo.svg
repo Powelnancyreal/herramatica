@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- geometric grid background -->
+  <g stroke="#EDE9FE" stroke-width="1.5">
+    <line x1="0" y1="90" x2="800" y2="90"/>
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="0" y1="270" x2="800" y2="270"/>
+    <line x1="0" y1="360" x2="800" y2="360"/>
+    <line x1="100" y1="0" x2="100" y2="450"/>
+    <line x1="250" y1="0" x2="250" y2="450"/>
+    <line x1="400" y1="0" x2="400" y2="450"/>
+    <line x1="550" y1="0" x2="550" y2="450"/>
+    <line x1="700" y1="0" x2="700" y2="450"/>
+  </g>
+
+  <!-- large circle with shaded area -->
+  <g transform="translate(360,225)">
+    <circle cx="0" cy="0" r="140" fill="#DBEAFE" stroke="#2563EB" stroke-width="5"/>
+    <line x1="-140" y1="0" x2="140" y2="0" stroke="#059669" stroke-width="3" stroke-dasharray="6 5"/>
+    <line x1="0" y1="0" x2="0" y2="-140" stroke="#7C3AED" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="6" fill="#7C3AED"/>
+    <line x1="-6" y1="-140" x2="6" y2="-140" stroke="#7C3AED" stroke-width="4"/>
+  </g>
+
+  <!-- pi symbol floating -->
+  <g stroke="#7C3AED" stroke-width="8" stroke-linecap="round" fill="none">
+    <path d="M600,110 h64"/>
+    <path d="M612,110 v50"/>
+    <path d="M648,110 v50"/>
+  </g>
+
+  <!-- formula icon cluster: area swatch, x, r-squared -->
+  <g transform="translate(600,300)">
+    <rect x="-40" y="-18" width="36" height="36" rx="6" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+    <g transform="translate(10,0)" stroke="#059669" stroke-width="5" stroke-linecap="round">
+      <line x1="0" y1="-10" x2="14" y2="10"/>
+      <line x1="14" y1="-10" x2="0" y2="10"/>
+    </g>
+    <rect x="34" y="-18" width="30" height="30" rx="5" fill="none" stroke="#7C3AED" stroke-width="4"/>
+    <rect x="56" y="-30" width="14" height="14" rx="3" fill="#7C3AED"/>
+  </g>
+
+  <!-- compass drawing tool corner -->
+  <g transform="translate(700,110) rotate(10)">
+    <path d="M0,-40 L-16,30 M0,-40 L16,30" stroke="#94A3B8" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <circle cx="0" cy="-40" r="6" fill="#94A3B8"/>
+    <circle cx="16" cy="30" r="4" fill="#7C3AED"/>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- bank check background -->
+  <g transform="translate(400,225)" opacity="0.5">
+    <rect x="-260" y="-110" width="520" height="220" rx="14" fill="#F8FAFC" stroke="#2563EB" stroke-width="3"/>
+    <rect x="-230" y="-70" width="180" height="8" rx="4" fill="#CBD5E1"/>
+    <rect x="-230" y="60" width="300" height="30" rx="6" fill="#DBEAFE"/>
+    <rect x="140" y="-70" width="90" height="30" rx="6" fill="#FDE68A"/>
+  </g>
+
+  <!-- number chip left -->
+  <g transform="translate(180,220)">
+    <rect x="-70" y="-40" width="140" height="80" rx="14" fill="#DBEAFE" stroke="#2563EB" stroke-width="4"/>
+    <g fill="#2563EB">
+      <rect x="-46" y="-12" width="16" height="24" rx="4"/>
+      <rect x="-20" y="-12" width="16" height="24" rx="4"/>
+      <rect x="6" y="-12" width="16" height="24" rx="4"/>
+      <rect x="32" y="-12" width="16" height="24" rx="4"/>
+    </g>
+  </g>
+
+  <!-- arrow converting -->
+  <g stroke="#7C3AED" stroke-width="9" fill="none" stroke-linecap="round">
+    <path d="M270,220 h80"/>
+    <path d="M330,196 l24,24 -24,24"/>
+  </g>
+
+  <!-- wavy written words -->
+  <g transform="translate(560,220)" stroke="#FBBF24" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M-90,-24 q20,-16 40,0 q20,16 40,0 q20,-16 40,0 q20,16 40,0"/>
+    <path d="M-90,10 q30,-12 60,0 q30,12 60,0 q30,-12 60,0"/>
+    <path d="M-90,44 q24,-14 48,0 q24,14 48,0"/>
+  </g>
+
+  <!-- pen writing -->
+  <g transform="translate(660,300) rotate(-30)">
+    <rect x="-8" y="-60" width="16" height="90" rx="4" fill="#1E293B"/>
+    <path d="M-8,-60 L0,-80 L8,-60 Z" fill="#334155"/>
+    <path d="M-4,28 L0,42 L4,28 Z" fill="#7C3AED"/>
+  </g>
+</svg>

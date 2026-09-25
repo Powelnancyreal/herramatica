@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- chalkboard background -->
+  <rect x="40" y="40" width="720" height="220" rx="16" fill="#065F46" opacity="0.08"/>
+
+  <!-- fraction 3/4 left (as dot groups over a bar) -->
+  <g transform="translate(170,180)">
+    <g fill="#7C3AED">
+      <circle cx="-20" cy="-24" r="8"/>
+      <circle cx="0" cy="-24" r="8"/>
+      <circle cx="20" cy="-24" r="8"/>
+    </g>
+    <rect x="-40" y="-4" width="80" height="8" rx="4" fill="#111827"/>
+    <g fill="#2563EB">
+      <circle cx="-30" cy="24" r="8"/>
+      <circle cx="-10" cy="24" r="8"/>
+      <circle cx="10" cy="24" r="8"/>
+      <circle cx="30" cy="24" r="8"/>
+    </g>
+  </g>
+
+  <!-- double arrow center -->
+  <g stroke="#059669" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M300,180 h80"/>
+    <path d="M362,158 l22,22 -22,22"/>
+    <path d="M480,180 h-80"/>
+    <path d="M418,158 l-22,22 22,22"/>
+  </g>
+
+  <!-- decimal 0.75 right (as chip strip) -->
+  <g transform="translate(600,180)">
+    <rect x="-50" y="-20" width="30" height="40" rx="8" fill="#DDD6FE"/>
+    <circle cx="-10" cy="18" r="5" fill="#7C3AED"/>
+    <rect x="4" y="-20" width="30" height="40" rx="8" fill="#BFDBFE"/>
+    <rect x="40" y="-20" width="30" height="40" rx="8" fill="#BFDBFE"/>
+  </g>
+
+  <!-- pizza pie chart fractions -->
+  <g transform="translate(220,340)">
+    <circle cx="0" cy="0" r="60" fill="#FDE68A"/>
+    <path d="M0,0 L0,-60 A60,60 0 0 1 52,30 Z" fill="#7C3AED"/>
+    <path d="M0,0 L52,30 A60,60 0 0 1 -52,30 Z" fill="#2563EB"/>
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#F59E0B" stroke-width="4"/>
+  </g>
+
+  <!-- number line -->
+  <g transform="translate(560,370)">
+    <line x1="-120" y1="0" x2="120" y2="0" stroke="#94A3B8" stroke-width="4"/>
+    <g stroke="#94A3B8" stroke-width="3">
+      <line x1="-120" y1="-8" x2="-120" y2="8"/>
+      <line x1="-60" y1="-8" x2="-60" y2="8"/>
+      <line x1="0" y1="-8" x2="0" y2="8"/>
+      <line x1="60" y1="-8" x2="60" y2="8"/>
+      <line x1="120" y1="-8" x2="120" y2="8"/>
+    </g>
+    <circle cx="30" cy="0" r="8" fill="#059669"/>
+  </g>
+</svg>

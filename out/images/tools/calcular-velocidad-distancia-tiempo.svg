@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- road stretching into distance -->
+  <path d="M260,450 L340,150 L460,150 L540,450 Z" fill="#E2E8F0"/>
+  <path d="M400,450 L400,150" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="16 14"/>
+
+  <!-- distance markers -->
+  <g fill="#94A3B8">
+    <rect x="270" y="380" width="14" height="14" rx="3"/>
+    <rect x="300" y="300" width="12" height="12" rx="3"/>
+    <rect x="330" y="230" width="10" height="10" rx="3"/>
+  </g>
+
+  <!-- car silhouette -->
+  <g transform="translate(400,330)">
+    <rect x="-46" y="-16" width="92" height="26" rx="10" fill="#2563EB"/>
+    <path d="M-30,-16 L-16,-34 L16,-34 L30,-16 Z" fill="#2563EB"/>
+    <circle cx="-26" cy="12" r="12" fill="#1E293B"/>
+    <circle cx="26" cy="12" r="12" fill="#1E293B"/>
+  </g>
+
+  <!-- direction arrow -->
+  <g stroke="#EA580C" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M400,260 v-40"/>
+    <path d="M384,236 l16,-16 16,16"/>
+  </g>
+
+  <!-- speedometer top-left area moved to gauge center-left -->
+  <g transform="translate(160,220)">
+    <path d="M-70,10 A70,70 0 0 1 70,10" fill="none" stroke="#DBEAFE" stroke-width="18" stroke-linecap="round"/>
+    <path d="M-70,10 A70,70 0 0 1 30,-64" fill="none" stroke="#EA580C" stroke-width="18" stroke-linecap="round"/>
+    <line x1="0" y1="10" x2="40" y2="-50" stroke="#2563EB" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="0" cy="10" r="8" fill="#2563EB"/>
+  </g>
+
+  <!-- clock top-left corner -->
+  <g transform="translate(90,90)">
+    <circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#7C3AED" stroke-width="6"/>
+    <line x1="0" y1="0" x2="0" y2="-20" stroke="#7C3AED" stroke-width="4" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="14" y2="8" stroke="#EA580C" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- km/miles floating badges -->
+  <g transform="translate(680,140)">
+    <circle cx="0" cy="0" r="28" fill="#EDE9FE" stroke="#7C3AED" stroke-width="3"/>
+    <rect x="-14" y="-4" width="10" height="10" rx="2" fill="#7C3AED"/>
+    <rect x="0" y="-4" width="10" height="10" rx="2" fill="#7C3AED"/>
+  </g>
+  <g transform="translate(680,320)">
+    <circle cx="0" cy="0" r="24" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+    <rect x="-12" y="-4" width="8" height="10" rx="2" fill="#2563EB"/>
+    <rect x="2" y="-4" width="8" height="10" rx="2" fill="#2563EB"/>
+  </g>
+
+  <!-- V=D/T formula shapes -->
+  <g transform="translate(600,230)">
+    <rect x="-30" y="-14" width="24" height="24" rx="6" fill="#2563EB"/>
+    <g stroke="#7C3AED" stroke-width="5" stroke-linecap="round">
+      <line x1="-2" y1="-2" x2="14" y2="14"/>
+    </g>
+    <rect x="0" y="-24" width="20" height="18" rx="4" fill="#EA580C"/>
+    <rect x="0" y="0" width="20" height="18" rx="4" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2"/>
+  </g>
+</svg>

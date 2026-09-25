@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- orbiting operator icons -->
+  <g stroke="#EA580C" stroke-width="5" stroke-linecap="round" opacity="0.85">
+    <line x1="150" y1="90" x2="150" y2="112"/>
+    <line x1="139" y1="101" x2="161" y2="101"/>
+    <line x1="640" y1="110" x2="662" y2="110"/>
+    <line x1="150" y1="370" x2="170" y2="350"/>
+    <line x1="150" y1="350" x2="170" y2="370"/>
+  </g>
+  <g stroke="#7C3AED" stroke-width="5" stroke-linecap="round" opacity="0.85">
+    <line x1="640" y1="350" x2="660" y2="370"/>
+    <line x1="640" y1="370" x2="660" y2="350"/>
+  </g>
+
+  <!-- brain -->
+  <g transform="translate(400,230)">
+    <path d="M0,-100 C60,-130 130,-90 130,-30 C160,-15 160,45 130,65 C130,110 70,130 30,110 C0,130 -60,120 -80,80 C-130,72 -138,15 -100,-15 C-115,-65 -60,-122 0,-100 Z" fill="#FFFFFF" stroke="#7C3AED" stroke-width="4"/>
+    <path d="M0,-88 C15,-58 15,-15 -7,15 C7,36 7,74 -14,95" stroke="#7C3AED" stroke-width="4" fill="none" opacity="0.55"/>
+    <path d="M44,-80 C64,-50 64,-8 44,22 C64,36 64,74 44,96" stroke="#EA580C" stroke-width="4" fill="none" opacity="0.55"/>
+
+    <!-- small operators inside brain -->
+    <g stroke="#2563EB" stroke-width="5" stroke-linecap="round">
+      <line x1="-40" y1="-30" x2="-40" y2="-10"/>
+      <line x1="-50" y1="-20" x2="-30" y2="-20"/>
+      <line x1="20" y1="0" x2="40" y2="20"/>
+      <line x1="40" y1="0" x2="20" y2="20"/>
+    </g>
+  </g>
+
+  <!-- floating number/equation chips -->
+  <g fill="#EDE9FE" stroke="#7C3AED" stroke-width="2">
+    <circle cx="210" cy="150" r="18"/>
+    <circle cx="580" cy="170" r="16"/>
+  </g>
+  <g stroke="#7C3AED" stroke-width="3" stroke-linecap="round">
+    <line x1="200" y1="150" x2="220" y2="150"/>
+    <line x1="573" y1="170" x2="587" y2="170"/>
+  </g>
+
+  <!-- lightning bolt -->
+  <g transform="translate(620,250)">
+    <path d="M6,-40 L-24,10 L0,10 L-8,44 L28,-6 L2,-6 Z" fill="#FBBF24"/>
+  </g>
+
+  <!-- stopwatch -->
+  <g transform="translate(180,300)">
+    <rect x="-8" y="-56" width="16" height="10" rx="3" fill="#7C3AED"/>
+    <circle cx="0" cy="0" r="48" fill="#FFFFFF" stroke="#7C3AED" stroke-width="7"/>
+    <line x1="0" y1="0" x2="0" y2="-30" stroke="#7C3AED" stroke-width="5" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="18" y2="10" stroke="#EA580C" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- trophy -->
+  <g transform="translate(400,390)">
+    <path d="M-24,-30 h48 v20 a24,24 0 0 1 -48,0 Z" fill="#FBBF24"/>
+    <path d="M-24,-24 h-16 a16,16 0 0 0 16,20 Z" fill="none" stroke="#F59E0B" stroke-width="4"/>
+    <path d="M24,-24 h16 a16,16 0 0 1 -16,20 Z" fill="none" stroke="#F59E0B" stroke-width="4"/>
+    <rect x="-6" y="10" width="12" height="14" fill="#F59E0B"/>
+    <rect x="-20" y="24" width="40" height="10" rx="4" fill="#F59E0B"/>
+  </g>
+</svg>

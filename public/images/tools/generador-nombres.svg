@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- star sparkles -->
+  <g fill="#F472B6">
+    <path d="M660 80 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6 z" opacity="0.9"/>
+    <path d="M140 90 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 z" opacity="0.7"/>
+    <path d="M700 200 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5 z" opacity="0.8"/>
+  </g>
+
+  <!-- floating name bubbles (shapes, no text) -->
+  <g fill="#FCE7F3" stroke="#7C3AED" stroke-width="2">
+    <rect x="90" y="140" width="90" height="34" rx="17"/>
+    <rect x="620" y="130" width="90" height="34" rx="17"/>
+    <rect x="100" y="300" width="90" height="34" rx="17"/>
+    <rect x="620" y="310" width="90" height="34" rx="17"/>
+  </g>
+  <g stroke="#7C3AED" stroke-width="3" stroke-linecap="round">
+    <line x1="106" y1="157" x2="164" y2="157"/>
+    <line x1="636" y1="147" x2="694" y2="147"/>
+    <line x1="116" y1="317" x2="174" y2="317"/>
+    <line x1="636" y1="327" x2="694" y2="327"/>
+  </g>
+
+  <!-- name tag center -->
+  <g transform="translate(400,220)">
+    <rect x="-110" y="-70" width="220" height="140" rx="20" fill="#FFFFFF" stroke="#F472B6" stroke-width="5"/>
+    <circle cx="-70" cy="-5" r="4" fill="#F472B6"/>
+    <circle cx="0" cy="-40" r="28" fill="#EDE9FE"/>
+    <path d="M-16,10 Q0,-14 16,10 Z" fill="#EDE9FE"/>
+    <rect x="-40" y="34" width="80" height="10" rx="5" fill="#F9A8D4"/>
+  </g>
+
+  <!-- person silhouette with question mark -->
+  <g transform="translate(220,220)">
+    <circle cx="0" cy="-20" r="22" fill="#7C3AED"/>
+    <path d="M-28,50 Q0,10 28,50 Z" fill="#7C3AED"/>
+    <path d="M50,-40 q16,-10 16,8 q0,10 -10,12 v6" stroke="#F472B6" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <circle cx="56" cy="-4" r="3" fill="#F472B6"/>
+  </g>
+
+  <!-- magic wand -->
+  <g transform="translate(560,220) rotate(-30)">
+    <rect x="-6" y="-10" width="12" height="130" rx="6" fill="#F5F3FF"/>
+    <circle cx="0" cy="-24" r="20" fill="#FFFFFF"/>
+    <path d="M0,-24 l6,14 14,6 -14,6 -6,14 -6,-14 -14,-6 14,-6 z" fill="#7C3AED"/>
+  </g>
+
+  <!-- dice -->
+  <g transform="translate(400,370)">
+    <rect x="-24" y="-24" width="48" height="48" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="4"/>
+    <circle cx="-10" cy="-10" r="4" fill="#7C3AED"/>
+    <circle cx="10" cy="-10" r="4" fill="#7C3AED"/>
+    <circle cx="0" cy="0" r="4" fill="#7C3AED"/>
+    <circle cx="-10" cy="10" r="4" fill="#7C3AED"/>
+    <circle cx="10" cy="10" r="4" fill="#7C3AED"/>
+  </g>
+</svg>

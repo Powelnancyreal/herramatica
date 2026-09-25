@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <g transform="translate(150,300)">
+    <rect x="-70" y="-20" width="140" height="40" rx="10" fill="#2563EB"/>
+    <circle cx="0" cy="-60" r="46" fill="#FFFFFF" stroke="#2563EB" stroke-width="6"/>
+    <line x1="0" y1="-60" x2="18" y2="-84" stroke="#7C3AED" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="0" cy="-60" r="5" fill="#7C3AED"/>
+  </g>
+
+  <g transform="translate(650,225)">
+    <rect x="-16" y="-170" width="32" height="340" rx="10" fill="#EDE9FE" stroke="#7C3AED" stroke-width="3"/>
+    <g stroke="#7C3AED" stroke-width="3">
+      <line x1="-16" y1="-140" x2="4" y2="-140"/>
+      <line x1="-16" y1="-100" x2="0" y2="-100"/>
+      <line x1="-16" y1="-60" x2="4" y2="-60"/>
+      <line x1="-16" y1="-20" x2="0" y2="-20"/>
+      <line x1="-16" y1="20" x2="4" y2="20"/>
+      <line x1="-16" y1="60" x2="0" y2="60"/>
+      <line x1="-16" y1="100" x2="4" y2="100"/>
+      <line x1="-16" y1="140" x2="0" y2="140"/>
+    </g>
+  </g>
+
+  <g transform="translate(400,220)">
+    <circle cx="0" cy="-120" r="34" fill="#2563EB"/>
+    <path d="M-46,-70 Q0,-100 46,-70 L40,60 Q0,80 -40,60 Z" fill="#7C3AED"/>
+    <rect x="-16" y="60" width="14" height="90" rx="7" fill="#2563EB"/>
+    <rect x="2" y="60" width="14" height="90" rx="7" fill="#2563EB"/>
+  </g>
+
+  <g transform="translate(400,400)">
+    <path d="M-150,0 A150,150 0 0 1 150,0" fill="none" stroke="#BFDBFE" stroke-width="20" stroke-linecap="round"/>
+    <path d="M-60,-138 A150,150 0 0 1 60,-138" fill="none" stroke="#34D399" stroke-width="20" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="-30" y2="-145" stroke="#059669" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="10" fill="#059669"/>
+  </g>
+
+  <g transform="translate(230,140)">
+    <circle cx="0" cy="0" r="28" fill="#34D399"/>
+    <rect x="-4" y="-16" width="8" height="32" rx="3" fill="#FFFFFF"/>
+    <rect x="-16" y="-4" width="32" height="8" rx="3" fill="#FFFFFF"/>
+  </g>
+</svg>

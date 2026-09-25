@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- receipt -->
+  <g transform="translate(220,225)">
+    <path d="M-90,-160 h180 v300 l-15,-14 -15,14 -15,-14 -15,14 -15,-14 -15,14 -15,-14 -15,14 -15,-14 -15,14 Z" fill="#F8FAFC" stroke="#059669" stroke-width="3"/>
+    <rect x="-66" y="-130" width="132" height="14" rx="4" fill="#059669"/>
+    <rect x="-66" y="-96" width="100" height="8" rx="4" fill="#CBD5E1"/>
+    <rect x="-66" y="-78" width="120" height="8" rx="4" fill="#CBD5E1"/>
+    <rect x="-66" y="-60" width="90" height="8" rx="4" fill="#CBD5E1"/>
+    <rect x="-66" y="-30" width="132" height="2" fill="#CBD5E1"/>
+    <rect x="-66" y="-10" width="70" height="10" rx="4" fill="#CBD5E1"/>
+    <rect x="30" y="-10" width="36" height="10" rx="4" fill="#DC2626"/>
+    <rect x="-66" y="14" width="70" height="10" rx="4" fill="#CBD5E1"/>
+    <rect x="20" y="14" width="46" height="10" rx="4" fill="#059669"/>
+    <rect x="-66" y="46" width="132" height="2" fill="#CBD5E1"/>
+    <rect x="-66" y="62" width="50" height="12" rx="4" fill="#111827"/>
+    <rect x="10" y="62" width="56" height="12" rx="4" fill="#111827"/>
+  </g>
+
+  <!-- large 16% -->
+  <g transform="translate(470,180)">
+    <circle cx="-40" cy="-40" r="22" fill="none" stroke="#059669" stroke-width="10"/>
+    <circle cx="40" cy="40" r="22" fill="none" stroke="#059669" stroke-width="10"/>
+    <line x1="-52" y1="52" x2="52" y2="-52" stroke="#7C3AED" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- coin stack -->
+  <g transform="translate(600,300)">
+    <circle cx="0" cy="20" r="34" fill="#FDE68A" stroke="#F59E0B" stroke-width="4"/>
+    <circle cx="0" cy="0" r="34" fill="#FBBF24" stroke="#F59E0B" stroke-width="4"/>
+    <circle cx="0" cy="-20" r="34" fill="#FCD34D" stroke="#F59E0B" stroke-width="4"/>
+    <rect x="-3" y="-34" width="6" height="28" rx="3" fill="#F59E0B"/>
+    <rect x="-14" y="-23" width="28" height="6" rx="3" fill="#F59E0B"/>
+  </g>
+
+  <!-- price tag before/after -->
+  <g transform="translate(650,120)">
+    <path d="M-40,-20 h60 l20,20 l-20,20 h-60 Z" fill="#EDE9FE" stroke="#7C3AED" stroke-width="3"/>
+    <circle cx="-24" cy="0" r="5" fill="#7C3AED"/>
+    <rect x="-10" y="-6" width="30" height="6" rx="3" fill="#94A3B8"/>
+  </g>
+  <path d="M630,140 q20,20 0,40" stroke="#7C3AED" stroke-width="3" fill="none" stroke-dasharray="4 4"/>
+  <g transform="translate(650,190)">
+    <path d="M-40,-20 h60 l20,20 l-20,20 h-60 Z" fill="#D1FAE5" stroke="#059669" stroke-width="3"/>
+    <circle cx="-24" cy="0" r="5" fill="#059669"/>
+    <rect x="-10" y="-6" width="40" height="6" rx="3" fill="#059669"/>
+  </g>
+
+  <!-- calculator -->
+  <g transform="translate(390,350)">
+    <rect x="-56" y="-64" width="112" height="128" rx="16" fill="#FFFFFF" stroke="#7C3AED" stroke-width="4"/>
+    <rect x="-42" y="-48" width="84" height="28" rx="6" fill="#D1FAE5"/>
+    <g fill="#DDD6FE">
+      <rect x="-42" y="-10" width="20" height="20" rx="5"/>
+      <rect x="-12" y="-10" width="20" height="20" rx="5"/>
+      <rect x="18" y="-10" width="20" height="20" rx="5"/>
+      <rect x="-42" y="18" width="20" height="20" rx="5"/>
+      <rect x="-12" y="18" width="20" height="20" rx="5"/>
+      <rect x="18" y="18" width="20" height="20" rx="5" fill="#059669"/>
+    </g>
+  </g>
+</svg>
