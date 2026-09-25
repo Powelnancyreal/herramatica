@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#F8F7FF"/>
+
+  <g fill="#F472B6">
+    <circle cx="640" cy="70" r="5"/>
+    <circle cx="700" cy="120" r="4"/>
+  </g>
+  <g fill="#FBBF24">
+    <circle cx="680" cy="60" r="4"/>
+    <circle cx="300" cy="70" r="4"/>
+  </g>
+  <g fill="#059669">
+    <circle cx="660" cy="340" r="4"/>
+  </g>
+
+  <ellipse cx="470" cy="378" rx="110" ry="16" fill="#000000" opacity="0.08"/>
+
+  <g>
+    <path d="M470,210 L470.0,60.0 A150,150 0 0 1 576.1,103.9 Z" fill="#7C3AED" opacity="1" stroke="#FFFFFF" stroke-width="4"/><path d="M470,210 L576.1,103.9 A150,150 0 0 1 620.0,210.0 Z" fill="#2563EB" opacity="0.92" stroke="#FFFFFF" stroke-width="1.5"/><path d="M470,210 L620.0,210.0 A150,150 0 0 1 576.1,316.1 Z" fill="#059669" opacity="0.92" stroke="#FFFFFF" stroke-width="1.5"/><path d="M470,210 L576.1,316.1 A150,150 0 0 1 470.0,360.0 Z" fill="#EA580C" opacity="0.92" stroke="#FFFFFF" stroke-width="1.5"/><path d="M470,210 L470.0,360.0 A150,150 0 0 1 363.9,316.1 Z" fill="#DC2626" opacity="0.92" stroke="#FFFFFF" stroke-width="1.5"/><path d="M470,210 L363.9,316.1 A150,150 0 0 1 320.0,210.0 Z" fill="#F472B6" opacity="0.92" stroke="#FFFFFF" stroke-width="1.5"/><path d="M470,210 L320.0,210.0 A150,150 0 0 1 363.9,103.9 Z" fill="#0D9488" opacity="0.92" stroke="#FFFFFF" stroke-width="1.5"/><path d="M470,210 L363.9,103.9 A150,150 0 0 1 470.0,60.0 Z" fill="#FBBF24" opacity="0.92" stroke="#FFFFFF" stroke-width="1.5"/>
+    <text x="505.6" y="124.1" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" transform="rotate(-67.5 505.6 124.1)">Opción 1</text><text x="555.9" y="174.4" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" transform="rotate(-22.5 555.9 174.4)">Opción 2</text><text x="555.9" y="245.6" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" transform="rotate(22.5 555.9 245.6)">Opción 3</text><text x="505.6" y="295.9" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" transform="rotate(67.5 505.6 295.9)">Opción 4</text><text x="434.4" y="295.9" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" transform="rotate(112.5 434.4 295.9)">Opción 5</text><text x="384.1" y="245.6" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" transform="rotate(157.5 384.1 245.6)">Opción 6</text><text x="384.1" y="174.4" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" transform="rotate(202.5 384.1 174.4)">Opción 7</text><text x="434.4" y="124.1" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" transform="rotate(247.5 434.4 124.1)">Opción 8</text>
+    <circle cx="470" cy="210" r="26" fill="#FFFFFF" stroke="#334155" stroke-width="3"/>
+  </g>
+
+  <polygon points="454,54 486,54 470,86" fill="#334155"/>
+
+  <g transform="translate(470,420)">
+    <rect x="-90" y="-24" width="180" height="48" rx="24" fill="#DC2626"/>
+  </g>
+  <text x="470" y="426" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">&#161;GIRAR!</text>
+
+  <g font-family="Arial, sans-serif" font-size="13" fill="#334155">
+    <rect x="40" y="80" width="180" height="32" rx="8" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+    <text x="130" y="100" text-anchor="middle">Opción 1</text>
+    <rect x="40" y="120" width="180" height="32" rx="8" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+    <text x="130" y="140" text-anchor="middle">Opción 2</text>
+    <rect x="40" y="160" width="180" height="32" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="2"/>
+    <text x="130" y="180" text-anchor="middle">Opción 3</text>
+  </g>
+  <g transform="translate(130,225)">
+    <rect x="-90" y="-16" width="180" height="32" rx="16" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="13" fill="#7C3AED" text-anchor="middle">+ Agregar opción</text>
+  </g>
+</svg>

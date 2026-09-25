@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#F8F7FF"/>
+
+  <!-- router center -->
+  <g transform="translate(400,110)">
+    <rect x="-60" y="-16" width="120" height="32" rx="8" fill="#1E3A5F"/>
+    <g stroke="#7C3AED" stroke-width="3">
+      <line x1="-20" y1="-16" x2="-30" y2="-40"/>
+      <line x1="20" y1="-16" x2="30" y2="-40"/>
+    </g>
+    <circle cx="-30" cy="-42" r="3" fill="#7C3AED"/>
+    <circle cx="30" cy="-42" r="3" fill="#7C3AED"/>
+    <circle cx="-30" cy="0" r="4" fill="#22D3EE"/>
+    <circle cx="0" cy="0" r="4" fill="#22D3EE"/>
+    <circle cx="30" cy="0" r="4" fill="#22D3EE"/>
+  </g>
+
+  <!-- connected devices -->
+  <g stroke="#94A3B8" stroke-width="2" stroke-dasharray="4 4">
+    <line x1="400" y1="130" x2="180" y2="220"/>
+    <line x1="400" y1="130" x2="400" y2="230"/>
+    <line x1="400" y1="130" x2="620" y2="220"/>
+  </g>
+  <g transform="translate(180,240)">
+    <rect x="-26" y="-18" width="52" height="34" rx="4" fill="#2563EB"/>
+    <rect x="-34" y="18" width="68" height="8" rx="3" fill="#94A3B8"/>
+  </g>
+  <g transform="translate(400,250)">
+    <rect x="-16" y="-26" width="32" height="52" rx="6" fill="#7C3AED"/>
+  </g>
+  <g transform="translate(620,240)">
+    <rect x="-24" y="-30" width="48" height="60" rx="6" fill="#059669"/>
+  </g>
+
+  <!-- IP address box -->
+  <g transform="translate(400,320)">
+    <rect x="-130" y="-20" width="260" height="40" rx="10" fill="#1E3A5F"/>
+  </g>
+  <text x="400" y="326" font-family="Consolas, monospace" font-size="16" font-weight="700" fill="#22D3EE" text-anchor="middle">192.168.1.0/24</text>
+
+  <!-- CIDR table -->
+  <g font-family="Consolas, monospace" font-size="11" fill="#334155">
+    <rect x="40" y="350" width="230" height="26" rx="4" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="50" y="367">Red: 192.168.1.0</text>
+    <rect x="40" y="378" width="230" height="26" rx="4" fill="#F8F7FF" stroke="#CBD5E1"/>
+    <text x="50" y="395">Máscara: 255.255.255.0</text>
+    <rect x="290" y="350" width="230" height="26" rx="4" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="300" y="367">Broadcast: .255</text>
+    <rect x="290" y="378" width="230" height="26" rx="4" fill="#F8F7FF" stroke="#CBD5E1"/>
+    <text x="300" y="395">Hosts: 254</text>
+  </g>
+
+  <!-- subnet bits -->
+  <g font-family="Consolas, monospace" font-size="10" fill="#FFFFFF" text-anchor="middle">
+    <rect x="560" y="350" width="50" height="24" fill="#7C3AED"/>
+    <text x="585" y="366">8 bits</text>
+    <rect x="612" y="350" width="50" height="24" fill="#7C3AED"/>
+    <text x="637" y="366">8 bits</text>
+    <rect x="664" y="350" width="50" height="24" fill="#7C3AED"/>
+    <text x="689" y="366">8 bits</text>
+    <rect x="716" y="350" width="50" height="24" fill="#2563EB"/>
+    <text x="741" y="366">8 bits</text>
+  </g>
+
+  <!-- IPv4/IPv6 badges -->
+  <g font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <rect x="620" y="70" width="70" height="30" rx="15" fill="#059669"/>
+    <text x="655" y="90">IPv4</text>
+    <rect x="700" y="70" width="70" height="30" rx="15" fill="#64748B"/>
+    <text x="735" y="90">IPv6</text>
+  </g>
+</svg>

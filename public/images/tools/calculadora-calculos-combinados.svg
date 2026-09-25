@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <filter id="ds" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="#F8F7FF"/>
+
+  <!-- floating symbols -->
+  <g font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#C4B5FD">
+    <text x="60" y="70">( )</text>
+    <text x="680" y="70">[ ]</text>
+    <text x="60" y="400">{ }</text>
+    <text x="700" y="400">&#8730;</text>
+  </g>
+
+  <!-- expression box -->
+  <g filter="url(#ds)">
+    <rect x="150" y="30" width="500" height="56" rx="14" fill="#5B21B6"/>
+  </g>
+  <text x="400" y="66" font-family="Consolas, monospace" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">(3 + 5) &#215; 2² &#8722; &#8730;16 &#247; 4</text>
+
+  <!-- pemdas pyramid -->
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <rect x="330" y="110" width="140" height="30" rx="8" fill="#7C3AED"/>
+    <text x="400" y="130">P = Paréntesis</text>
+
+    <rect x="280" y="148" width="240" height="30" rx="8" fill="#8B5CF6"/>
+    <text x="400" y="168">E = Exponentes</text>
+
+    <rect x="230" y="186" width="340" height="30" rx="8" fill="#A78BFA"/>
+    <text x="400" y="206">M/D = &#215; &#247;</text>
+
+    <rect x="180" y="224" width="440" height="30" rx="8" fill="#C4B5FD"/>
+    <text x="400" y="244" fill="#3B0764">A/S = + &#8722;</text>
+  </g>
+
+  <!-- step boxes -->
+  <g font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">
+    <g filter="url(#ds)">
+      <rect x="60" y="300" width="150" height="70" rx="12" fill="#7C3AED"/>
+    </g>
+    <text x="135" y="325" font-weight="700">Paso 1</text>
+    <text x="135" y="348">(3+5) = 8</text>
+
+    <g filter="url(#ds)">
+      <rect x="230" y="300" width="150" height="70" rx="12" fill="#8B5CF6"/>
+    </g>
+    <text x="305" y="325" font-weight="700">Paso 2</text>
+    <text x="305" y="348">2² = 4, &#8730;16 = 4</text>
+
+    <g filter="url(#ds)">
+      <rect x="400" y="300" width="150" height="70" rx="12" fill="#A78BFA"/>
+    </g>
+    <text x="475" y="325" font-weight="700">Paso 3</text>
+    <text x="475" y="348">8&#215;4 &#8722; 4&#247;4</text>
+
+    <g filter="url(#ds)">
+      <rect x="570" y="300" width="170" height="70" rx="12" fill="#059669"/>
+    </g>
+    <text x="655" y="330" font-weight="700" font-size="15">Resultado</text>
+    <text x="655" y="355" font-size="22" font-weight="700">= 31</text>
+  </g>
+</svg>

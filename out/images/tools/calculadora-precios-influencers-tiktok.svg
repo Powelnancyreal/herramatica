@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#F8F7FF"/>
+
+  <!-- left metric inputs -->
+  <g font-family="Arial, sans-serif" font-size="12" fill="#334155">
+    <rect x="30" y="90" width="170" height="34" rx="8" fill="#FFFFFF" stroke="#010101" stroke-width="2"/>
+    <text x="115" y="112" text-anchor="middle">Seguidores</text>
+    <rect x="30" y="134" width="170" height="34" rx="8" fill="#FFFFFF" stroke="#EE1D52" stroke-width="2"/>
+    <text x="115" y="156" text-anchor="middle">Engagement %</text>
+    <rect x="30" y="178" width="170" height="34" rx="8" fill="#FFFFFF" stroke="#69C9D0" stroke-width="2"/>
+    <text x="115" y="200" text-anchor="middle">Tipo de contenido &#9662;</text>
+  </g>
+
+  <!-- phone mockup center -->
+  <g transform="translate(400,220)">
+    <rect x="-80" y="-160" width="160" height="320" rx="28" fill="#010101"/>
+    <rect x="-66" y="-142" width="132" height="284" rx="8" fill="#1F2937"/>
+    <circle cx="0" cy="-40" r="26" fill="#EE1D52" opacity="0.85"/>
+    <polygon points="-8,-52 -8,-28 14,-40" fill="#FFFFFF"/>
+    <g fill="#FFFFFF">
+      <path d="M-46,60 c-4,-4 -11,-1 -11,4 c0,4 7,8 11,11 c4,-3 11,-7 11,-11 c0,-5 -7,-8 -11,-4 Z"/>
+      <path d="M-46,90 h20 a6,6 0 0 1 6,6 a6,6 0 0 1 -6,6 h-14 l-5,5 v-5 a6,6 0 0 1 -5,-6 a6,6 0 0 1 4,-6 Z"/>
+    </g>
+    <text x="0" y="-140" font-family="Arial, sans-serif" font-size="11" fill="#69C9D0" text-anchor="middle">125K vistas</text>
+  </g>
+  <g transform="translate(400,50)">
+    <rect x="-60" y="-16" width="120" height="32" rx="16" fill="#EE1D52"/>
+  </g>
+  <text x="400" y="56" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">50K seguidores</text>
+
+  <!-- right pricing panel -->
+  <g transform="translate(650,140)">
+    <path d="M-70,0 A70,70 0 0 1 70,0" fill="none" stroke="#F3E8FF" stroke-width="14" stroke-linecap="round"/>
+    <path d="M-70,0 A70,70 0 0 1 30,-64" fill="none" stroke="#7C3AED" stroke-width="14" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="28" y2="-62" stroke="#EE1D52" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="650" y="150" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#7C3AED" text-anchor="middle">4.5%</text>
+
+  <g font-family="Arial, sans-serif" font-size="11" fill="#334155">
+    <rect x="590" y="220" width="120" height="26" rx="13" fill="#FFFFFF" stroke="#69C9D0" stroke-width="2"/>
+    <text x="650" y="238" text-anchor="middle">Video 60s</text>
+    <rect x="590" y="252" width="120" height="26" rx="13" fill="#FFFFFF" stroke="#EE1D52" stroke-width="2"/>
+    <text x="650" y="270" text-anchor="middle">Dueto</text>
+    <rect x="590" y="284" width="120" height="26" rx="13" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+    <text x="650" y="302" text-anchor="middle">Live</text>
+  </g>
+
+  <g transform="translate(650,370)">
+    <rect x="-110" y="-24" width="220" height="48" rx="12" fill="#111827"/>
+  </g>
+  <text x="650" y="376" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">$800 - $1.200 MXN</text>
+</svg>

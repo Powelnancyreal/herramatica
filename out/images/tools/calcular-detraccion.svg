@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#F8F7FF"/>
+
+  <!-- SUNAT badge top -->
+  <g transform="translate(400,50)">
+    <circle cx="0" cy="0" r="24" fill="none" stroke="#EA580C" stroke-width="4"/>
+  </g>
+  <text x="400" y="55" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#EA580C" text-anchor="middle">SUNAT</text>
+
+  <!-- buyer box -->
+  <g transform="translate(120,220)">
+    <rect x="-70" y="-40" width="140" height="80" rx="12" fill="#FFFFFF" stroke="#334155" stroke-width="3"/>
+  </g>
+  <text x="120" y="215" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#334155" text-anchor="middle">Comprador</text>
+
+  <!-- flow arrow to SPOT -->
+  <g stroke="#EA580C" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M200,210 h140"/>
+    <path d="M312,190 l28,20 -28,20"/>
+  </g>
+  <g transform="translate(270,180)">
+    <circle cx="0" cy="0" r="26" fill="#FBBF24"/>
+  </g>
+  <text x="270" y="185" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">12%</text>
+
+  <!-- SPOT bank account -->
+  <g transform="translate(430,220)">
+    <rect x="-70" y="-40" width="140" height="80" rx="12" fill="#FFFFFF" stroke="#7C3AED" stroke-width="3"/>
+    <rect x="-40" y="-20" width="80" height="40" rx="6" fill="#EDE9FE"/>
+  </g>
+  <text x="430" y="215" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#5B21B6" text-anchor="middle">Cuenta SPOT</text>
+
+  <!-- remaining amount to seller -->
+  <g stroke="#059669" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M510,220 h100"/>
+    <path d="M592,200 l28,20 -28,20"/>
+  </g>
+
+  <!-- seller box -->
+  <g transform="translate(700,220)">
+    <rect x="-70" y="-40" width="140" height="80" rx="12" fill="#FFFFFF" stroke="#059669" stroke-width="3"/>
+  </g>
+  <text x="700" y="215" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#065F46" text-anchor="middle">Vendedor</text>
+
+  <!-- floating percentage badges -->
+  <g font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <circle cx="180" cy="90" r="20" fill="#7C3AED"/>
+    <text x="180" y="94">4%</text>
+    <circle cx="620" cy="90" r="20" fill="#2563EB"/>
+    <text x="620" y="94">10%</text>
+    <circle cx="720" cy="140" r="20" fill="#DC2626"/>
+    <text x="720" y="144">15%</text>
+  </g>
+
+  <!-- category icons -->
+  <g font-family="Arial, sans-serif" font-size="10" fill="#334155" text-anchor="middle">
+    <g transform="translate(120,340)">
+      <rect x="-16" y="-16" width="32" height="32" rx="4" fill="#FDE68A"/>
+    </g>
+    <text x="120" y="368">Construcción</text>
+
+    <g transform="translate(280,340)">
+      <circle cx="0" cy="0" r="16" fill="#93C5FD"/>
+    </g>
+    <text x="280" y="368">Servicios</text>
+
+    <g transform="translate(440,340)">
+      <rect x="-18" y="-10" width="36" height="20" rx="6" fill="#C4B5FD"/>
+      <circle cx="-10" cy="10" r="5" fill="#5B21B6"/>
+      <circle cx="10" cy="10" r="5" fill="#5B21B6"/>
+    </g>
+    <text x="440" y="368">Transporte</text>
+
+    <g transform="translate(600,340)">
+      <rect x="-16" y="-16" width="32" height="32" rx="4" fill="#A7F3D0"/>
+    </g>
+    <text x="600" y="368">Bienes</text>
+  </g>
+</svg>

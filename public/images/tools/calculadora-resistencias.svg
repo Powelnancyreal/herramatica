@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <filter id="ds" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="#F8F7FF"/>
+
+  <!-- resistor -->
+  <line x1="60" y1="110" x2="150" y2="110" stroke="#334155" stroke-width="4"/>
+  <line x1="330" y1="110" x2="420" y2="110" stroke="#334155" stroke-width="4"/>
+  <g filter="url(#ds)">
+    <rect x="150" y="85" width="180" height="50" rx="10" fill="#FDE9C8" stroke="#334155" stroke-width="3"/>
+  </g>
+  <rect x="178" y="85" width="14" height="50" fill="#78350F"/>
+  <rect x="208" y="85" width="14" height="50" fill="#111827"/>
+  <rect x="238" y="85" width="14" height="50" fill="#DC2626"/>
+  <rect x="268" y="85" width="14" height="50" fill="#F59E0B"/>
+
+  <text x="240" y="170" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#334155" text-anchor="middle">1.000 &#937; = 1 k&#937;</text>
+
+  <!-- ohm's law triangle -->
+  <g transform="translate(180,300)">
+    <polygon points="0,-60 -60,40 60,40" fill="#EDE9FE" stroke="#7C3AED" stroke-width="3"/>
+    <line x1="-30" y1="-10" x2="30" y2="-10" stroke="#7C3AED" stroke-width="2"/>
+    <text x="0" y="-20" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#5B21B6" text-anchor="middle">V</text>
+    <text x="-30" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#5B21B6" text-anchor="middle">I</text>
+    <text x="30" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#5B21B6" text-anchor="middle">R</text>
+  </g>
+  <text x="180" y="400" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#334155" text-anchor="middle">V = I &#215; R</text>
+
+  <!-- circuit diagram -->
+  <g transform="translate(420,320)" stroke="#334155" stroke-width="3" fill="none">
+    <rect x="-100" y="-60" width="220" height="120" rx="4"/>
+    <line x1="-40" y1="-60" x2="-40" y2="-80" stroke="#334155"/>
+    <line x1="-60" y1="-80" x2="-20" y2="-80" stroke="#334155" stroke-width="5"/>
+    <line x1="-50" y1="-92" x2="-30" y2="-92" stroke="#334155" stroke-width="3"/>
+    <circle cx="70" cy="-60" r="16" fill="#FFFFFF" stroke="#334155"/>
+  </g>
+  <text x="490" y="256" font-family="Arial, sans-serif" font-size="13" fill="#334155">A</text>
+
+  <!-- color chart -->
+  <g font-family="Arial, sans-serif" font-size="11" fill="#334155">
+    <rect x="620" y="60" width="20" height="16" fill="#111827"/><text x="646" y="73">0 Negro</text>
+    <rect x="620" y="80" width="20" height="16" fill="#78350F"/><text x="646" y="93">1 Marrón</text>
+    <rect x="620" y="100" width="20" height="16" fill="#DC2626"/><text x="646" y="113">2 Rojo</text>
+    <rect x="620" y="120" width="20" height="16" fill="#F97316"/><text x="646" y="133">3 Naranja</text>
+    <rect x="620" y="140" width="20" height="16" fill="#FDE047"/><text x="646" y="153">4 Amarillo</text>
+    <rect x="620" y="160" width="20" height="16" fill="#22C55E"/><text x="646" y="173">5 Verde</text>
+    <rect x="620" y="180" width="20" height="16" fill="#2563EB"/><text x="646" y="193">6 Azul</text>
+    <rect x="620" y="200" width="20" height="16" fill="#7C3AED"/><text x="646" y="213">7 Violeta</text>
+    <rect x="620" y="220" width="20" height="16" fill="#9CA3AF"/><text x="646" y="233">8 Gris</text>
+    <rect x="620" y="240" width="20" height="16" fill="#F8FAFC" stroke="#334155"/><text x="646" y="253">9 Blanco</text>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#F8F7FF"/>
+  <rect x="0" y="0" width="800" height="8" fill="#DC2626"/>
+  <rect x="0" y="8" width="800" height="8" fill="#FFFFFF"/>
+  <rect x="0" y="16" width="800" height="8" fill="#DC2626"/>
+
+  <!-- July calendar left -->
+  <g transform="translate(150,150)">
+    <rect x="-80" y="-50" width="160" height="110" rx="12" fill="#FFFFFF" stroke="#DC2626" stroke-width="3"/>
+    <rect x="-80" y="-50" width="160" height="30" rx="12" fill="#DC2626"/>
+    <text x="0" y="-29" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">Julio</text>
+    <circle cx="0" cy="20" r="22" fill="none" stroke="#7C3AED" stroke-width="3"/>
+    <text x="0" y="26" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#7C3AED" text-anchor="middle">28</text>
+  </g>
+  <text x="150" y="230" font-family="Arial, sans-serif" font-size="12" fill="#5B21B6" text-anchor="middle">Fiestas Patrias</text>
+
+  <!-- December calendar right -->
+  <g transform="translate(650,150)">
+    <rect x="-80" y="-50" width="160" height="110" rx="12" fill="#FFFFFF" stroke="#059669" stroke-width="3"/>
+    <rect x="-80" y="-50" width="160" height="30" rx="12" fill="#059669"/>
+    <text x="0" y="-29" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">Diciembre</text>
+    <circle cx="0" cy="20" r="22" fill="none" stroke="#7C3AED" stroke-width="3"/>
+    <text x="0" y="26" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#7C3AED" text-anchor="middle">25</text>
+  </g>
+  <text x="650" y="230" font-family="Arial, sans-serif" font-size="12" fill="#065F46" text-anchor="middle">Navidad</text>
+
+  <!-- envelope center -->
+  <g transform="translate(400,180)">
+    <path d="M-90,-30 h180 v110 h-180 Z" fill="#EDE9FE" stroke="#7C3AED" stroke-width="3"/>
+    <path d="M-90,-30 L0,40 L90,-30" fill="none" stroke="#7C3AED" stroke-width="3"/>
+    <circle cx="-30" cy="-60" r="16" fill="#FBBF24" stroke="#F59E0B" stroke-width="3"/>
+    <circle cx="0" cy="-72" r="16" fill="#FDE68A" stroke="#F59E0B" stroke-width="3"/>
+    <circle cx="30" cy="-58" r="16" fill="#FCD34D" stroke="#F59E0B" stroke-width="3"/>
+  </g>
+  <g transform="translate(400,270)">
+    <rect x="-56" y="-16" width="112" height="32" rx="16" fill="#7C3AED"/>
+  </g>
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">&#189; Sueldo</text>
+
+  <!-- bonificacion badge -->
+  <g transform="translate(560,320)">
+    <circle cx="0" cy="0" r="40" fill="#059669"/>
+  </g>
+  <text x="560" y="316" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">9%</text>
+  <text x="560" y="332" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle">adicional</text>
+  <text x="560" y="375" font-family="Arial, sans-serif" font-size="10" fill="#334155" text-anchor="middle">ESSALUD</text>
+
+  <!-- formula bottom -->
+  <g font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <rect x="60" y="360" width="130" height="30" rx="8" fill="#7C3AED"/>
+    <text x="125" y="380">Sueldo &#247; 6</text>
+    <rect x="200" y="360" width="150" height="30" rx="8" fill="#8B5CF6"/>
+    <text x="275" y="380">&#215; meses trabajados</text>
+  </g>
+  <text x="700" y="400" font-family="Arial, sans-serif" font-size="10" fill="#64748B" text-anchor="middle">Ley 27735</text>
+</svg>

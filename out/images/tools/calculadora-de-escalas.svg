@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <filter id="ds" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <!-- blueprint grid background -->
+  <rect width="800" height="450" fill="#EFF6FF"/>
+  <g stroke="#BFDBFE" stroke-width="1">
+    <line x1="0" y1="60" x2="800" y2="60"/>
+    <line x1="0" y1="120" x2="800" y2="120"/>
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="100" y1="0" x2="100" y2="450"/>
+    <line x1="300" y1="0" x2="300" y2="450"/>
+    <line x1="500" y1="0" x2="500" y2="450"/>
+    <line x1="700" y1="0" x2="700" y2="450"/>
+  </g>
+
+  <!-- real room left -->
+  <g filter="url(#ds)">
+    <rect x="60" y="90" width="220" height="140" rx="12" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+  </g>
+  <g stroke="#059669" stroke-width="3" fill="none">
+    <line x1="60" y1="250" x2="280" y2="250"/>
+    <path d="M66,244 l-6,6 6,6 M274,244 l6,6 -6,6"/>
+  </g>
+  <text x="170" y="270" font-family="Arial, sans-serif" font-size="13" fill="#334155" text-anchor="middle">10 metros reales</text>
+
+  <!-- scale ratio badge center -->
+  <g filter="url(#ds)">
+    <circle cx="400" cy="160" r="50" fill="#7C3AED"/>
+  </g>
+  <text x="400" y="167" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">1:100</text>
+
+  <!-- scaled drawing right -->
+  <g filter="url(#ds)">
+    <rect x="560" y="140" width="60" height="40" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+  </g>
+  <g stroke="#059669" stroke-width="2" fill="none">
+    <line x1="560" y1="190" x2="620" y2="190"/>
+  </g>
+  <text x="590" y="205" font-family="Arial, sans-serif" font-size="11" fill="#334155" text-anchor="middle">10 cm en plano</text>
+  <g stroke="#F59E0B" stroke-width="1.5">
+    <line x1="560" y1="130" x2="560" y2="140"/>
+    <line x1="580" y1="128" x2="580" y2="140"/>
+    <line x1="600" y1="130" x2="600" y2="140"/>
+    <line x1="620" y1="128" x2="620" y2="140"/>
+  </g>
+
+  <!-- architect tools -->
+  <g transform="translate(720,240) rotate(10)">
+    <path d="M0,-30 L-14,20 M0,-30 L14,20" stroke="#334155" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="0" cy="-30" r="5" fill="#334155"/>
+  </g>
+  <g transform="translate(650,250)">
+    <polygon points="0,0 40,0 0,40" fill="none" stroke="#7C3AED" stroke-width="3"/>
+  </g>
+
+  <!-- three scale examples -->
+  <g font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">
+    <rect x="60" y="330" width="140" height="60" rx="10" fill="#2563EB"/>
+    <text x="130" y="355" font-weight="700">1:50</text>
+    <text x="130" y="375">Habitaciones</text>
+
+    <rect x="330" y="330" width="140" height="60" rx="10" fill="#7C3AED"/>
+    <text x="400" y="355" font-weight="700">1:100</text>
+    <text x="400" y="375">Edificios</text>
+
+    <rect x="600" y="330" width="140" height="60" rx="10" fill="#059669"/>
+    <text x="670" y="355" font-weight="700">1:1000</text>
+    <text x="670" y="375">Mapas</text>
+  </g>
+</svg>

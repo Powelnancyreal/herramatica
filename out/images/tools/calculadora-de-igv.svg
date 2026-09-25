@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#F8F7FF"/>
+
+  <!-- SUNAT badge -->
+  <g transform="translate(400,50)">
+    <circle cx="0" cy="0" r="24" fill="none" stroke="#DC2626" stroke-width="4"/>
+  </g>
+  <text x="400" y="55" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#DC2626" text-anchor="middle">SUNAT</text>
+
+  <!-- large percentage badge center -->
+  <g transform="translate(400,220)">
+    <circle cx="0" cy="0" r="56" fill="#7C3AED"/>
+  </g>
+  <text x="400" y="228" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="middle">18%</text>
+
+  <!-- left mode: Agregar IGV -->
+  <text x="180" y="110" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#5B21B6" text-anchor="middle">Agregar IGV</text>
+  <g font-family="Consolas, monospace" font-size="13" fill="#334155">
+    <rect x="90" y="130" width="180" height="30" rx="8" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2"/>
+    <text x="180" y="150" text-anchor="middle">S/. 100.00</text>
+    <rect x="90" y="170" width="180" height="30" rx="8" fill="#EDE9FE"/>
+    <text x="180" y="190" text-anchor="middle">+ S/. 18.00</text>
+    <rect x="90" y="210" width="180" height="30" rx="8" fill="#059669"/>
+    <text x="180" y="230" text-anchor="middle" fill="#FFFFFF">= S/. 118.00</text>
+  </g>
+  <g stroke="#059669" stroke-width="5" fill="none" stroke-linecap="round">
+    <line x1="180" y1="248" x2="180" y2="270"/>
+    <path d="M168,258 l12,14 12,-14"/>
+  </g>
+
+  <!-- right mode: Extraer IGV -->
+  <text x="620" y="110" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#5B21B6" text-anchor="middle">Extraer IGV</text>
+  <g font-family="Consolas, monospace" font-size="13" fill="#334155">
+    <rect x="530" y="130" width="180" height="30" rx="8" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2"/>
+    <text x="620" y="150" text-anchor="middle">S/. 118.00</text>
+    <rect x="530" y="170" width="180" height="30" rx="8" fill="#EDE9FE"/>
+    <text x="620" y="190" text-anchor="middle">&#8722; S/. 18.00</text>
+    <rect x="530" y="210" width="180" height="30" rx="8" fill="#2563EB"/>
+    <text x="620" y="230" text-anchor="middle" fill="#FFFFFF">= S/. 100.00</text>
+  </g>
+  <g stroke="#2563EB" stroke-width="5" fill="none" stroke-linecap="round">
+    <line x1="620" y1="270" x2="620" y2="248"/>
+    <path d="M608,260 l12,-14 12,14"/>
+  </g>
+
+  <!-- receipt center bottom -->
+  <g transform="translate(400,340)">
+    <path d="M-50,-60 h100 v100 l-10,-10 -10,10 -10,-10 -10,10 -10,-10 -10,10 -10,-10 -10,10 Z" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+    <rect x="-36" y="-40" width="72" height="6" rx="3" fill="#CBD5E1"/>
+    <rect x="-36" y="-26" width="60" height="6" rx="3" fill="#CBD5E1"/>
+    <rect x="-36" y="-12" width="50" height="6" rx="3" fill="#CBD5E1"/>
+  </g>
+
+  <!-- cash register icon corner -->
+  <g transform="translate(720,390)">
+    <rect x="-30" y="-16" width="60" height="32" rx="6" fill="#111827"/>
+    <rect x="-20" y="-26" width="40" height="12" rx="3" fill="#334155"/>
+    <rect x="-12" y="-6" width="24" height="10" rx="2" fill="#FBBF24"/>
+  </g>
+</svg>

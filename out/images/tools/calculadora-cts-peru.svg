@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#F8F7FF"/>
+  <rect x="0" y="0" width="800" height="10" fill="#DC2626"/>
+  <rect x="0" y="10" width="800" height="6" fill="#FFFFFF"/>
+
+  <!-- payslip top -->
+  <g font-family="Arial, sans-serif" font-size="12" fill="#334155">
+    <text x="60" y="60">Remuneración</text>
+    <rect x="180" y="46" width="220" height="16" rx="8" fill="#7C3AED"/>
+    <text x="60" y="90">Asignación Familiar</text>
+    <rect x="180" y="76" width="90" height="16" rx="8" fill="#A78BFA"/>
+    <text x="60" y="120">Total</text>
+    <rect x="180" y="106" width="280" height="16" rx="8" fill="#5B21B6"/>
+  </g>
+
+  <!-- SUNAT badge -->
+  <g transform="translate(720,80)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#DC2626" stroke-width="4" stroke-dasharray="6 5"/>
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#7C3AED" stroke-width="3"/>
+  </g>
+
+  <!-- bank building center -->
+  <g transform="translate(400,220)">
+    <rect x="-100" y="0" width="200" height="80" fill="#EDE9FE" stroke="#7C3AED" stroke-width="3"/>
+    <path d="M-110,0 L0,-40 L110,0 Z" fill="#7C3AED"/>
+    <rect x="-70" y="16" width="16" height="56" fill="#C4B5FD"/>
+    <rect x="-30" y="16" width="16" height="56" fill="#C4B5FD"/>
+    <rect x="14" y="16" width="16" height="56" fill="#C4B5FD"/>
+    <rect x="54" y="16" width="16" height="56" fill="#C4B5FD"/>
+  </g>
+
+  <!-- coins flowing -->
+  <g fill="#FBBF24" stroke="#F59E0B" stroke-width="2">
+    <circle cx="220" cy="150" r="14"/>
+    <circle cx="250" cy="170" r="12"/>
+    <circle cx="280" cy="150" r="10"/>
+  </g>
+
+  <!-- passbook icon -->
+  <g transform="translate(600,220)">
+    <rect x="-40" y="-50" width="80" height="100" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="3"/>
+    <rect x="-40" y="-50" width="80" height="26" rx="8" fill="#059669"/>
+    <rect x="-24" y="-10" width="48" height="6" rx="3" fill="#CBD5E1"/>
+    <rect x="-24" y="6" width="48" height="6" rx="3" fill="#CBD5E1"/>
+    <rect x="-24" y="22" width="30" height="6" rx="3" fill="#059669"/>
+  </g>
+
+  <!-- calendar deposits bottom -->
+  <g transform="translate(220,370)">
+    <rect x="-60" y="-40" width="120" height="80" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="3"/>
+    <rect x="-60" y="-40" width="120" height="24" rx="10" fill="#7C3AED"/>
+    <circle cx="0" cy="20" r="16" fill="none" stroke="#DC2626" stroke-width="3"/>
+  </g>
+  <text x="220" y="435" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#5B21B6" text-anchor="middle">Mayo</text>
+
+  <g transform="translate(580,370)">
+    <rect x="-60" y="-40" width="120" height="80" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="3"/>
+    <rect x="-60" y="-40" width="120" height="24" rx="10" fill="#2563EB"/>
+    <circle cx="0" cy="20" r="16" fill="none" stroke="#DC2626" stroke-width="3"/>
+  </g>
+  <text x="580" y="435" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1E3A8A" text-anchor="middle">Noviembre</text>
+
+  <!-- formula boxes -->
+  <g font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <rect x="40" y="185" width="130" height="30" rx="8" fill="#059669"/>
+    <text x="105" y="205">Sueldo &#247; 12</text>
+    <rect x="40" y="220" width="130" height="30" rx="8" fill="#0D9488"/>
+    <text x="105" y="240">&#215; meses = CTS</text>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#F8F7FF"/>
+  <g stroke="#DBEAFE" stroke-width="1">
+    <line x1="0" y1="80" x2="800" y2="80"/>
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="0" y1="280" x2="800" y2="280"/>
+  </g>
+  <line x1="270" y1="30" x2="270" y2="330" stroke="#E5E7EB" stroke-width="2"/>
+  <line x1="540" y1="30" x2="540" y2="330" stroke="#E5E7EB" stroke-width="2"/>
+
+  <!-- limits left third -->
+  <text x="130" y="60" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1E3A8A" text-anchor="middle">lim</text>
+  <line x1="30" y1="180" x2="230" y2="180" stroke="#334155" stroke-width="2"/>
+  <circle cx="130" cy="180" r="6" fill="#DC2626"/>
+  <text x="130" y="200" font-family="Arial, sans-serif" font-size="12" fill="#DC2626" text-anchor="middle">x&#8594;2</text>
+  <g stroke="#2563EB" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M60,140 Q100,170 122,178"/>
+    <path d="M200,140 Q160,170 138,178"/>
+  </g>
+  <g transform="translate(130,250)">
+    <rect x="-30" y="-20" width="60" height="40" rx="10" fill="#2563EB"/>
+  </g>
+  <text x="130" y="256" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">L</text>
+
+  <!-- derivatives center third -->
+  <text x="405" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#5B21B6" text-anchor="middle">Derivadas</text>
+  <path d="M320,240 Q400,90 490,150" stroke="#7C3AED" stroke-width="4" fill="none"/>
+  <line x1="350" y1="215" x2="470" y2="130" stroke="#EA580C" stroke-width="3"/>
+  <circle cx="410" cy="172" r="6" fill="#DC2626"/>
+  <g stroke="#94A3B8" stroke-width="2" stroke-dasharray="3 3">
+    <line x1="410" y1="172" x2="450" y2="172"/>
+    <line x1="450" y1="172" x2="450" y2="145"/>
+  </g>
+  <text x="470" y="105" font-family="Arial, sans-serif" font-size="12" fill="#EA580C">f'(x)</text>
+  <g transform="translate(405,270)">
+    <rect x="-40" y="-16" width="80" height="32" rx="8" fill="#7C3AED"/>
+  </g>
+  <text x="405" y="276" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">dy/dx</text>
+
+  <!-- integrals right third -->
+  <text x="670" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#5B21B6" text-anchor="middle">Integrales</text>
+  <path d="M580,240 Q670,90 760,150" stroke="#059669" stroke-width="4" fill="none"/>
+  <path d="M610,220 L610,190 Q670,110 730,155 L730,180 Z" fill="#A7F3D0" opacity="0.7"/>
+  <text x="600" y="245" font-family="Arial, sans-serif" font-size="12" fill="#065F46">a</text>
+  <text x="740" y="200" font-family="Arial, sans-serif" font-size="12" fill="#065F46">b</text>
+  <text x="670" y="120" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#059669" text-anchor="middle">&#8747;</text>
+  <g transform="translate(670,270)">
+    <rect x="-55" y="-16" width="110" height="32" rx="8" fill="#059669"/>
+  </g>
+  <text x="670" y="276" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Área = 4.25</text>
+
+  <!-- function badges bottom -->
+  <g font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <rect x="50" y="380" width="80" height="30" rx="8" fill="#7C3AED"/>
+    <text x="90" y="399">sin(x)</text>
+    <rect x="150" y="380" width="80" height="30" rx="8" fill="#7C3AED"/>
+    <text x="190" y="399">cos(x)</text>
+    <rect x="250" y="380" width="70" height="30" rx="8" fill="#7C3AED"/>
+    <text x="285" y="399">&#8730;x</text>
+    <rect x="340" y="380" width="60" height="30" rx="8" fill="#7C3AED"/>
+    <text x="370" y="399">x&#178;</text>
+    <rect x="420" y="380" width="80" height="30" rx="8" fill="#7C3AED"/>
+    <text x="460" y="399">log(x)</text>
+  </g>
+</svg>

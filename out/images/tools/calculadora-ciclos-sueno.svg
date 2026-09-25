@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="night" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#night)"/>
+
+  <!-- moon -->
+  <path d="M700,60 a30,30 0 1 0 0,60 a24,24 0 1 1 0,-60" fill="#FDE68A"/>
+
+  <!-- stars -->
+  <g fill="#FFFFFF">
+    <circle cx="80" cy="70" r="2"/>
+    <circle cx="140" cy="110" r="1.5"/>
+    <circle cx="600" cy="100" r="2"/>
+    <circle cx="60" cy="200" r="1.5"/>
+    <circle cx="750" cy="180" r="2"/>
+  </g>
+
+  <!-- bed -->
+  <g transform="translate(400,150)">
+    <rect x="-90" y="-10" width="180" height="40" rx="8" fill="#EDE9FE"/>
+    <rect x="-90" y="-40" width="50" height="34" rx="10" fill="#FFFFFF"/>
+    <rect x="-100" y="20" width="14" height="30" fill="#C4B5FD"/>
+    <rect x="86" y="20" width="14" height="30" fill="#C4B5FD"/>
+  </g>
+
+  <!-- sleep cycle wave -->
+  <path d="M60,320 q30,-40 60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0" stroke="#A78BFA" stroke-width="3" fill="none"/>
+  <path d="M90,320 q15,-60 30,0" stroke="#C4B5FD" stroke-width="6" fill="none" opacity="0.7"/>
+  <path d="M210,320 q15,-60 30,0" stroke="#C4B5FD" stroke-width="6" fill="none" opacity="0.7"/>
+  <path d="M330,320 q15,-60 30,0" stroke="#C4B5FD" stroke-width="6" fill="none" opacity="0.7"/>
+  <path d="M450,320 q15,-60 30,0" stroke="#C4B5FD" stroke-width="6" fill="none" opacity="0.7"/>
+  <path d="M570,320 q15,-60 30,0" stroke="#C4B5FD" stroke-width="6" fill="none" opacity="0.7"/>
+  <g font-family="Arial, sans-serif" font-size="11" fill="#DDD6FE" text-anchor="middle">
+    <text x="105" y="345">90 min</text>
+    <text x="225" y="345">90 min</text>
+    <text x="345" y="345">90 min</text>
+    <text x="465" y="345">90 min</text>
+    <text x="585" y="345">90 min</text>
+  </g>
+
+  <!-- bedtime clock left -->
+  <g transform="translate(90,240)">
+    <circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#7C3AED" stroke-width="4"/>
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#7C3AED" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="12" y2="8" stroke="#7C3AED" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="90" y="290" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">Dormir 22:30</text>
+
+  <!-- alarm clock right -->
+  <g transform="translate(700,240)">
+    <circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#FBBF24" stroke-width="4"/>
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="-14" y2="6" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- wake up time chips -->
+  <g font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#312E81" text-anchor="middle">
+    <circle cx="250" cy="410" r="30" fill="#A7F3D0"/>
+    <text x="250" y="415">6:00</text>
+    <circle cx="400" cy="410" r="30" fill="#A7F3D0"/>
+    <text x="400" y="415">7:30</text>
+    <circle cx="550" cy="410" r="30" fill="#A7F3D0"/>
+    <text x="550" y="415">9:00</text>
+  </g>
+</svg>

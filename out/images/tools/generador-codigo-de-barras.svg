@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#F8F7FF"/>
+
+  <!-- product label frame -->
+  <rect x="220" y="80" width="360" height="260" rx="12" fill="#FFFFFF" stroke="#7C3AED" stroke-width="3"/>
+  <text x="400" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#5B21B6" text-anchor="middle">Producto</text>
+
+  <!-- barcode bars -->
+  <g fill="#111827">
+    <rect x="250" y="130" width="3" height="140"/>
+    <rect x="257" y="130" width="2" height="140"/>
+    <rect x="263" y="130" width="5" height="140"/>
+    <rect x="272" y="130" width="2" height="140"/>
+    <rect x="278" y="130" width="4" height="140"/>
+    <rect x="286" y="130" width="2" height="140"/>
+    <rect x="292" y="130" width="3" height="140"/>
+    <rect x="300" y="130" width="6" height="140"/>
+    <rect x="310" y="130" width="2" height="140"/>
+    <rect x="316" y="130" width="3" height="140"/>
+    <rect x="324" y="130" width="4" height="140"/>
+    <rect x="332" y="130" width="2" height="140"/>
+    <rect x="338" y="130" width="5" height="140"/>
+    <rect x="348" y="130" width="2" height="140"/>
+    <rect x="354" y="130" width="3" height="140"/>
+    <rect x="362" y="130" width="6" height="140"/>
+    <rect x="372" y="130" width="2" height="140"/>
+    <rect x="378" y="130" width="4" height="140"/>
+    <rect x="386" y="130" width="3" height="140"/>
+    <rect x="393" y="130" width="2" height="140"/>
+    <rect x="399" y="130" width="5" height="140"/>
+    <rect x="408" y="130" width="2" height="140"/>
+    <rect x="414" y="130" width="3" height="140"/>
+    <rect x="421" y="130" width="4" height="140"/>
+    <rect x="429" y="130" width="2" height="140"/>
+    <rect x="435" y="130" width="6" height="140"/>
+    <rect x="445" y="130" width="2" height="140"/>
+    <rect x="451" y="130" width="3" height="140"/>
+    <rect x="458" y="130" width="4" height="140"/>
+    <rect x="466" y="130" width="2" height="140"/>
+    <rect x="472" y="130" width="5" height="140"/>
+    <rect x="481" y="130" width="3" height="140"/>
+    <rect x="488" y="130" width="2" height="140"/>
+    <rect x="494" y="130" width="6" height="140"/>
+    <rect x="504" y="130" width="2" height="140"/>
+    <rect x="510" y="130" width="4" height="140"/>
+    <rect x="518" y="130" width="3" height="140"/>
+    <rect x="525" y="130" width="5" height="140"/>
+    <rect x="535" y="130" width="2" height="140"/>
+    <rect x="541" y="130" width="3" height="140"/>
+    <rect x="548" y="130" width="2" height="140"/>
+  </g>
+  <text x="400" y="300" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#111827" text-anchor="middle" letter-spacing="2">5 901234 123457</text>
+
+  <!-- scanner beam -->
+  <rect x="240" y="195" width="320" height="6" fill="#DC2626" opacity="0.7"/>
+  <rect x="240" y="188" width="320" height="20" fill="#F87171" opacity="0.2"/>
+
+  <!-- left input digits -->
+  <g font-family="Consolas, monospace" font-size="14" fill="#FFFFFF" text-anchor="middle">
+    <rect x="40" y="150" width="26" height="34" rx="6" fill="#7C3AED"/>
+    <text x="53" y="172">5</text>
+    <rect x="70" y="150" width="26" height="34" rx="6" fill="#7C3AED"/>
+    <text x="83" y="172">9</text>
+    <rect x="100" y="150" width="26" height="34" rx="6" fill="#7C3AED"/>
+    <text x="113" y="172">0</text>
+    <rect x="40" y="190" width="26" height="34" rx="6" fill="#8B5CF6"/>
+    <text x="53" y="212">1</text>
+    <rect x="70" y="190" width="26" height="34" rx="6" fill="#8B5CF6"/>
+    <text x="83" y="212">2</text>
+    <rect x="100" y="190" width="26" height="34" rx="6" fill="#8B5CF6"/>
+    <text x="113" y="212">3</text>
+  </g>
+
+  <!-- right checkmark -->
+  <g transform="translate(700,190)">
+    <circle cx="0" cy="0" r="36" fill="#D1FAE5" stroke="#059669" stroke-width="4"/>
+    <path d="M-16,2 L-4,16 L18,-14" stroke="#059669" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="700" y="250" font-family="Arial, sans-serif" font-size="12" fill="#059669" text-anchor="middle">Dígito válido</text>
+
+  <!-- download button -->
+  <g transform="translate(400,395)">
+    <rect x="-90" y="-22" width="180" height="44" rx="22" fill="#111827"/>
+  </g>
+  <text x="400" y="401" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">Descargar PNG</text>
+</svg>

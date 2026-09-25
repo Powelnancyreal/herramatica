@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#F8F7FF"/>
+
+  <!-- bank building -->
+  <g transform="translate(400,110)">
+    <rect x="-90" y="0" width="180" height="70" fill="#EDE9FE" stroke="#7C3AED" stroke-width="3"/>
+    <path d="M-100,0 L0,-40 L100,0 Z" fill="#059669"/>
+    <rect x="-70" y="16" width="16" height="46" fill="#C4B5FD"/>
+    <rect x="-30" y="16" width="16" height="46" fill="#C4B5FD"/>
+    <rect x="14" y="16" width="16" height="46" fill="#C4B5FD"/>
+    <rect x="54" y="16" width="16" height="46" fill="#C4B5FD"/>
+  </g>
+
+  <!-- CDT certificate -->
+  <g transform="translate(400,220)">
+    <rect x="-150" y="-30" width="300" height="80" rx="10" fill="#FFFFFF" stroke="#059669" stroke-width="3"/>
+  </g>
+  <text x="400" y="205" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#065F46" text-anchor="middle">Certificado de Depósito a Término</text>
+  <text x="400" y="235" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#059669" text-anchor="middle">CDT</text>
+
+  <!-- growth: capital -> interest -->
+  <g transform="translate(100,320)">
+    <path d="M-40,-20 h80 v40 a10,10 0 0 1 -10,10 h-60 a10,10 0 0 1 -10,-10 Z" fill="#FBBF24" stroke="#F59E0B" stroke-width="2"/>
+  </g>
+  <text x="100" y="365" font-family="Arial, sans-serif" font-size="11" fill="#7C2D12" text-anchor="middle">$ Capital</text>
+
+  <g stroke="#059669" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M160,320 h420"/>
+    <path d="M560,304 l20,16 -20,16"/>
+  </g>
+  <g fill="#FBBF24" stroke="#F59E0B" stroke-width="2">
+    <circle cx="250" cy="310" r="10"/>
+    <circle cx="350" cy="310" r="12"/>
+    <circle cx="450" cy="310" r="14"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="9" fill="#64748B" text-anchor="middle">
+    <text x="250" y="335">Mes 1</text>
+    <text x="350" y="335">Mes 6</text>
+    <text x="450" y="335">Mes 12</text>
+  </g>
+
+  <g transform="translate(700,320)">
+    <path d="M-40,-24 h80 v48 a12,12 0 0 1 -12,12 h-56 a12,12 0 0 1 -12,-12 Z" fill="#059669" stroke="#065F46" stroke-width="2"/>
+  </g>
+  <text x="700" y="365" font-family="Arial, sans-serif" font-size="10" fill="#065F46" text-anchor="middle">$ + Intereses</text>
+
+  <!-- key metrics -->
+  <g font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <rect x="60" y="60" width="80" height="30" rx="15" fill="#7C3AED"/>
+    <text x="100" y="80">TEA</text>
+    <rect x="150" y="60" width="120" height="30" rx="15" fill="#2563EB"/>
+    <text x="210" y="80" font-size="10">Rendimiento</text>
+  </g>
+
+  <!-- term tabs -->
+  <g font-family="Arial, sans-serif" font-size="11" fill="#334155" text-anchor="middle">
+    <rect x="500" y="55" width="80" height="28" rx="14" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+    <text x="540" y="73">90 días</text>
+    <rect x="590" y="55" width="80" height="28" rx="14" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+    <text x="630" y="73">180 días</text>
+    <rect x="680" y="55" width="80" height="28" rx="14" fill="#059669"/>
+    <text x="720" y="73" fill="#FFFFFF">365 días</text>
+  </g>
+
+  <!-- lock icon on timeline -->
+  <g transform="translate(400,320)">
+    <rect x="-10" y="-2" width="20" height="16" rx="3" fill="#334155"/>
+    <path d="M-6,-2 v-8 a6,6 0 0 1 12,0 v8" fill="none" stroke="#334155" stroke-width="3"/>
+  </g>
+</svg>
