@@ -2,13 +2,24 @@ import Link from 'next/link'
 import Image from 'next/image'
 import toolsData from '@/data/tools.json'
 import categoriesData from '@/data/categories.json'
-import { generateSiteSchema } from '@/lib/schema'
+import { SITE_DESCRIPTION } from '@/lib/seo'
 
 export const metadata = {
   title: 'Herramatica | Herramientas Online Gratuitas en Español',
-  description:
-    'Más de 50 herramientas online gratuitas en español. Generadores, calculadoras, herramientas de texto y mucho más. Sin registro, sin límites.',
-  alternates: { canonical: 'https://herramatica.com' },
+  description: SITE_DESCRIPTION,
+  alternates: {
+    canonical: 'https://herramatica.com',
+    languages: {
+      'es-MX': 'https://herramatica.com',
+      'es-AR': 'https://herramatica.com',
+      'es-CO': 'https://herramatica.com',
+      'es-PE': 'https://herramatica.com',
+      'es-CL': 'https://herramatica.com',
+      'es-ES': 'https://herramatica.com',
+      es: 'https://herramatica.com',
+      'x-default': 'https://herramatica.com',
+    },
+  },
 }
 
 const categoryColors = {
@@ -50,23 +61,18 @@ const categoryColors = {
 }
 
 export default function HomePage() {
-  const siteSchema = generateSiteSchema()
-
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(siteSchema) }}
-      />
-
       {/* Hero */}
       <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-16 sm:py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4 leading-tight">
             Herramientas online<br className="hidden sm:block" /> gratuitas en español
           </h1>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Más de 50 utilidades listas para usar. Sin registro, sin límites, completamente gratis.
+          <p className="text-lg text-blue-100 max-w-2xl mx-auto text-center mt-4 mb-8">
+            Herramatica es tu colección de herramientas online gratuitas en español. Más de 90 utilidades para
+            calcular, convertir y generar contenido al instante. Sin registro, sin límites, disponibles para México,
+            Argentina, Colombia, Chile, Perú, España y todos los países de habla hispana.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {categoriesData.map((cat) => (
@@ -95,7 +101,7 @@ export default function HomePage() {
 
         {/* Categories */}
         <section className="mb-14">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Categorías</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Herramientas por Categoría</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
             {categoriesData.map((cat) => {
               const c = categoryColors[cat.slug] || {}
@@ -132,7 +138,7 @@ export default function HomePage() {
 
         {/* All tools */}
         <section className="mb-14">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Todas las herramientas</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Todas las Herramientas Gratuitas en Español</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {toolsData.map((tool) => {
               const c = categoryColors[tool.category] || {}
@@ -170,7 +176,7 @@ export default function HomePage() {
         {/* SEO content block */}
         <section className="bg-white border border-gray-200 rounded-2xl p-6 sm:p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">
-            ¿Por qué usar Herramatica?
+            ¿Por qué elegir Herramatica?
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
             {[

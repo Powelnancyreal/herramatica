@@ -36,6 +36,10 @@ export default function CalculadoraPafi() {
 
   return (
     <div className="space-y-5">
+      <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 text-sm text-yellow-800">
+        ⚕️ <strong>Aviso médico:</strong> Esta herramienta es solo para fines educativos e informativos. Consulta
+        siempre con un profesional de la salud antes de tomar decisiones médicas.
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <label className={labelClass}>PaO₂ (mmHg, de la gasometría arterial)</label>

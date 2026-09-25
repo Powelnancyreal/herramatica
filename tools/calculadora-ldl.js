@@ -30,6 +30,10 @@ export default function CalculadoraLdl() {
 
   return (
     <div className="space-y-5">
+      <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 text-sm text-yellow-800">
+        ⚕️ <strong>Aviso médico:</strong> Esta herramienta es solo para fines educativos e informativos. Consulta
+        siempre con un profesional de la salud antes de tomar decisiones médicas.
+      </div>
       <p className="text-sm text-gray-600">Introduce los valores en mg/dL, tal como aparecen en tu perfil lipídico.</p>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div>

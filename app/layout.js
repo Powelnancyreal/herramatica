@@ -3,6 +3,7 @@ import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { SITE_NAME, SITE_DESCRIPTION, SITE_URL } from '@/lib/seo'
+import { generateOrganizationSchema, generateSiteSchema } from '@/lib/schema'
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
@@ -11,14 +12,16 @@ export const metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
+  manifest: '/manifest.json',
   openGraph: {
     siteName: SITE_NAME,
-    locale: 'es_ES',
-    alternateLocale: ['es_MX', 'es_AR', 'es_CO'],
+    description: SITE_DESCRIPTION,
+    locale: 'es',
+    alternateLocale: ['es_MX', 'es_AR', 'es_CO', 'es_PE', 'es_CL', 'es_ES'],
     type: 'website',
     images: [
       {
-        url: '/images/og-image.webp',
+        url: 'https://herramatica.com/images/og-image.webp',
         width: 1200,
         height: 630,
         alt: 'Herramatica - Herramientas online gratuitas en español',
@@ -27,7 +30,10 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    images: ['/images/og-image.webp'],
+    title: 'Herramatica | Herramientas Online Gratuitas en Español',
+    description:
+      'Más de 90 herramientas online gratuitas en español: calculadoras, generadores, convertidores y más. Sin registro, sin límites.',
+    images: ['https://herramatica.com/images/og-image.webp'],
   },
   icons: {
     icon: [
@@ -45,9 +51,20 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  const organizationSchema = generateOrganizationSchema()
+  const siteSchema = generateSiteSchema()
+
   return (
     <html lang="es">
       <body className="min-h-screen flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteSchema) }}
+        />
         {/* Google tag (gtag.js) */}
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-EJC91PS2KH" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">

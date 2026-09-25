@@ -1,0 +1,36 @@
+{
+  "name": "Herramatica - Herramientas Online",
+  "short_name": "Herramatica",
+  "description": "Más de 90 herramientas online gratuitas en español",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F7FF",
+  "theme_color": "#7C3AED",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.webp",
+      "sizes": "32x32",
+      "type": "image/webp"
+    }
+  ],
+  "categories": ["utilities", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Calculadoras",
+      "url": "/calculadoras",
+      "description": "Todas las calculadoras gratuitas"
+    },
+    {
+      "name": "Generadores",
+      "url": "/generadores",
+      "description": "Todos los generadores gratuitos"
+    }
+  ]
+}

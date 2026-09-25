@@ -58,6 +58,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/calculadora-edad" className="hover:text-white transition-colors">
+                  Calculadora de Edad
+                </Link>
+              </li>
+              <li>
                 <Link href="/calculadora-porcentaje" className="hover:text-white transition-colors">
                   Calculadora de Porcentajes
                 </Link>
@@ -69,12 +74,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/generador-qr" className="hover:text-white transition-colors">
-                  Generador QR
-                </Link>
-              </li>
-              <li>
-                <Link href="/calculadora-edad" className="hover:text-white transition-colors">
-                  Calculadora de Edad
+                  Generador de Código QR
                 </Link>
               </li>
               <li>
@@ -85,6 +85,11 @@ export default function Footer() {
               <li>
                 <Link href="/convertidor-moneda" className="hover:text-white transition-colors">
                   Convertidor de Moneda
+                </Link>
+              </li>
+              <li>
+                <Link href="/calcular-imc" className="hover:text-white transition-colors">
+                  Calculadora de IMC
                 </Link>
               </li>
             </ul>
@@ -125,6 +130,12 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-10 pt-6 text-center text-sm text-gray-500">
           <p>© 2026 Herramatica.com — Todos los derechos reservados</p>
+          <p className="mt-2">
+            📧{' '}
+            <a href="mailto:info@herramatica.com" className="hover:text-white transition-colors">
+              info@herramatica.com
+            </a>
+          </p>
         </div>
       </div>
     </footer>

@@ -111,6 +111,10 @@ export default function IndiceDeBarthel() {
 
   return (
     <div className="space-y-5">
+      <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 text-sm text-yellow-800">
+        ⚕️ <strong>Aviso médico:</strong> Esta herramienta es solo para fines educativos e informativos. Consulta
+        siempre con un profesional de la salud antes de tomar decisiones médicas.
+      </div>
       <div className="space-y-4">
         {ITEMS.map((item) => (
           <div key={item.id}>
