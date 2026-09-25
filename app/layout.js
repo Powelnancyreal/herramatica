@@ -14,7 +14,11 @@ export const metadata = {
   openGraph: {
     siteName: SITE_NAME,
     locale: 'es_ES',
+    alternateLocale: ['es_MX', 'es_AR', 'es_CO'],
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
   },
   robots: {
     index: true,

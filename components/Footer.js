@@ -35,6 +35,16 @@ export default function Footer() {
                   Texto
                 </Link>
               </li>
+              <li>
+                <Link href="/juegos" className="hover:text-white transition-colors">
+                  Juegos
+                </Link>
+              </li>
+              <li>
+                <Link href="/convertidores" className="hover:text-white transition-colors">
+                  Convertidores
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -48,8 +58,33 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/calculadora-porcentaje" className="hover:text-white transition-colors">
+                  Calculadora de Porcentajes
+                </Link>
+              </li>
+              <li>
+                <Link href="/calcular-iva" className="hover:text-white transition-colors">
+                  Calculadora de IVA
+                </Link>
+              </li>
+              <li>
+                <Link href="/generador-qr" className="hover:text-white transition-colors">
+                  Generador QR
+                </Link>
+              </li>
+              <li>
                 <Link href="/calculadora-edad" className="hover:text-white transition-colors">
                   Calculadora de Edad
+                </Link>
+              </li>
+              <li>
+                <Link href="/contador-palabras" className="hover:text-white transition-colors">
+                  Contador de Palabras
+                </Link>
+              </li>
+              <li>
+                <Link href="/convertidor-moneda" className="hover:text-white transition-colors">
+                  Convertidor de Moneda
                 </Link>
               </li>
             </ul>
@@ -89,7 +124,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-10 pt-6 text-center text-sm text-gray-500">
-          <p>© 2025 Herramatica.com — Todos los derechos reservados</p>
+          <p>© 2026 Herramatica.com — Todos los derechos reservados</p>
         </div>
       </div>
     </footer>
