@@ -19,6 +19,9 @@ export const metadata = {
       es: 'https://herramatica.com',
       'x-default': 'https://herramatica.com',
     },
+    types: {
+      'application/rss+xml': 'https://herramatica.com/feed.xml',
+    },
   },
 }
 

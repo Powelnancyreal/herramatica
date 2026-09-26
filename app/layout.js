@@ -13,6 +13,11 @@ export const metadata = {
   },
   description: SITE_DESCRIPTION,
   manifest: '/manifest.json',
+  alternates: {
+    types: {
+      'application/rss+xml': 'https://herramatica.com/feed.xml',
+    },
+  },
   openGraph: {
     siteName: SITE_NAME,
     description: SITE_DESCRIPTION,
