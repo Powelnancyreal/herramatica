@@ -1,262 +1,193 @@
-import TextoInvisible from './texto-invisible'
-import CalculadoraEdad from './calculadora-edad'
-import CalculadoraRFC from './calcular-rfc'
-import CalculadoraIMC from './calcular-imc'
-import CalculadoraAlicia from './calculadora-alicia'
-import GeneradorQR from './generador-qr'
-import CalculadoraHoras from './calculadora-horas'
-import CalculadoraCientifica from './calculadora-cientifica'
-import CalculadoraFiniquito from './calculadora-finiquito'
-import CalculadoraISR from './calculadora-isr'
-import CalcularAguinaldo from './calcular-aguinaldo'
-import CalculadoraDias from './calculadora-dias'
-import CalcularIVA from './calcular-iva'
-import CalculoMental from './calculo-mental'
-import CalcularCURP from './calcular-curp'
-import CalculadoraPorcentaje from './calculadora-porcentaje'
-import ConvertidorMoneda from './convertidor-moneda'
-import GeneradorContrasenas from './generador-contrasenas'
-import ContadorPalabras from './contador-palabras'
-import CalculadoraPropinas from './calculadora-propinas'
-import CalculadoraPrestamo from './calculadora-prestamo'
-import ConvertidorUnidades from './convertidor-unidades'
-import GeneradorNombres from './generador-nombres'
-import ConvertidorImagenes from './convertidor-imagenes'
-import ImagenesAPDF from './imagenes-a-pdf'
-import ConvertidorNumerosALetras from './convertidor-numeros-a-letras'
-import ConvertidorFracciones from './convertidor-fracciones'
-import ConvertidorMayusculasMinusculas from './convertidor-mayusculas-minusculas'
-import ConvertidorBinario from './convertidor-binario'
-import CalculadoraIRPF from './calculadora-irpf'
-import CalcularHipoteca from './calcular-hipoteca'
-import CalcularLetraDNI from './calcular-letra-dni'
-import CalculoPensionJubilacion from './calculo-pension-jubilacion'
-import CalculadoraApiretal from './calculadora-apiretal'
-import CalculadoraDelAmor from './calculadora-del-amor'
-import CalcularNIT from './calcular-nit'
-import CalcularCUIL from './calcular-cuil'
-import CalcularRUT from './calcular-rut'
-import CalcularAreaCirculo from './calcular-area-circulo'
-import CalcularHexadecimalADecimal from './calcular-hexadecimal-a-decimal'
-import CalcularVelocidadDistanciaTiempo from './calcular-velocidad-distancia-tiempo'
-import CalcularGasolina from './calcular-gasolina'
-import CalcularVolumenCilindro from './calcular-volumen-cilindro'
-import CalcularRitmo from './calcular-ritmo'
-import CronometroOnline from './cronometro-online'
-import PalabrasAlReves from './palabras-al-reves'
-import CelsiusAFahrenheit from './celsius-a-fahrenheit'
-import BarAPsi from './bar-a-psi'
-import MedidasDeCocina from './medidas-de-cocina'
-import TipografiaParaInstagram from './tipografia-para-instagram'
-import CmAPulgadas from './cm-a-pulgadas'
-import ArrobaAKilos from './arroba-a-kilos'
-import CalculadoraTiempoLectura from './calculadora-tiempo-lectura'
-import CalcularIndemnizacionDespido from './calcular-indemnizacion-despido'
-import CalcularSacArgentina from './calcular-sac-argentina'
-import CalculadoraAlquilerArgentina from './calculadora-alquiler-argentina'
-import CalculadoraPlazoFijo from './calculadora-plazo-fijo'
-import CalculadoraInteresCompuesto from './calculadora-interes-compuesto'
-import CalculadoraSueldoNetoArgentina from './calculadora-sueldo-neto-argentina'
-import CalculadoraArea from './calculadora-area'
-import CalculadoraVolumen from './calculadora-volumen'
-import CalculadoraCalculosCombinados from './calculadora-calculos-combinados'
-import CalculadoraResistencias from './calculadora-resistencias'
-import CalculadoraCalorias from './calculadora-calorias'
-import CalculadoraEmbarazo from './calculadora-embarazo'
-import CalculadoraPesoIdeal from './calculadora-peso-ideal'
-import CalculadoraCiclosSueno from './calculadora-ciclos-sueno'
-import CalculadoraDeEscalas from './calculadora-de-escalas'
-import SopaDeLetras from './sopa-de-letras'
-import GeneradorDeLetrasGrandes from './generador-de-letras-grandes'
-import GeneradorCodigoDeBarras from './generador-codigo-de-barras'
-import GeneradorDeCrucigramas from './generador-de-crucigramas'
-import GeneradorDeNombresParaFreeFire from './generador-de-nombres-para-free-fire'
-import GeneradorDeLinkDeWhatsapp from './generador-de-link-de-whatsapp'
-import CalculadoraEngagementInstagram from './calculadora-engagement-instagram'
-import CalculadorDeHorarios from './calculador-de-horarios'
-import HexadecimalATexto from './hexadecimal-a-texto'
-import RuletaAleatoriaOnline from './ruleta-aleatoria-online'
-import CalculadoraPromedioPonderado from './calculadora-promedio-ponderado'
-import CalculadoraCtsPeru from './calculadora-cts-peru'
-import CalcularGratificacionPeru from './calcular-gratificacion-peru'
-import CalculadoraDeIgv from './calculadora-de-igv'
-import CalcularDetraccion from './calcular-detraccion'
-import CalculadoraDeMatrices from './calculadora-de-matrices'
-import CalculadoraDeEcuaciones from './calculadora-de-ecuaciones'
-import CalculadoraPreciosInfluencersTiktok from './calculadora-precios-influencers-tiktok'
-import CalculadoraIp from './calculadora-ip'
-import CalculadoraReglaDeTres from './calculadora-regla-de-tres'
-import CalculadoraDePendiente from './calculadora-de-pendiente'
-import CalculadoraDerivadasIntegrales from './calculadora-derivadas-integrales'
-import CalculadoraLdl from './calculadora-ldl'
-import CalculadoraPafi from './calculadora-pafi'
-import IndiceDeBarthel from './indice-de-barthel'
-import CalculadoraLiquidacionLaboralColombia from './calculadora-liquidacion-laboral-colombia'
-import CalculadoraSeguridadSocialColombia from './calculadora-seguridad-social-colombia'
-import CalculadoraCdt from './calculadora-cdt'
-import CalcularPrimaVacacional from './calcular-prima-vacacional'
-import CalcularVacaciones from './calcular-vacaciones'
-import CalcularPtu from './calcular-ptu'
-import CalcularSalarioDiarioIntegrado from './calcular-salario-diario-integrado'
-import CalculadoraCat from './calculadora-cat'
-import CalculadoraNomina from './calculadora-nomina'
-import CalcularDescuento from './calcular-descuento'
-import CalculadoraAhorro from './calculadora-ahorro'
-import CalculadoraRoi from './calculadora-roi'
-import CalculadoraNotaNecesaria from './calculadora-nota-necesaria'
-import CalculadoraDiasHabiles from './calculadora-dias-habiles'
-import CalcularFechaFutura from './calcular-fecha-futura'
-import ValidadorIban from './validador-iban'
-import CalculadoraOvulacion from './calculadora-ovulacion'
-import CalculadoraTmb from './calculadora-tmb'
-import CalculadoraGrasaCorporal from './calculadora-grasa-corporal'
-import CalculadoraAguaDiaria from './calculadora-agua-diaria'
-import FormateadorJson from './formateador-json'
-import CodificadorBase64 from './codificador-base64'
-import GeneradorUuid from './generador-uuid'
-import ProbadorRegex from './probador-regex'
-import GeneradorHash from './generador-hash'
-import GeneradorLoremIpsum from './generador-lorem-ipsum'
-import ValidadorEmail from './validador-email'
-import ContadorCaracteres from './contador-caracteres'
-import SorteoOnline from './sorteo-online'
-import GeneradorNumerosAleatorios from './generador-numeros-aleatorios'
-import CaraOCruz from './cara-o-cruz'
-import TemporizadorOnline from './temporizador-online'
-import ConversorCriptomonedas from './conversor-criptomonedas'
-import ConversorZonaHoraria from './conversor-zona-horaria'
-import KilosALibras from './kilos-a-libras'
-import ConvertidorTallas from './convertidor-tallas'
+import dynamic from 'next/dynamic'
 
-// Registry: add new tools here as { slug: Component }
+// Cada herramienta se carga como un chunk independiente: la página de una herramienta
+// solo descarga su propio código, aunque el HTML se sigue generando en el build.
 export const toolComponents = {
-  'texto-invisible': TextoInvisible,
-  'calculadora-edad': CalculadoraEdad,
-  'calcular-rfc': CalculadoraRFC,
-  'calcular-imc': CalculadoraIMC,
-  'calculadora-alicia': CalculadoraAlicia,
-  'generador-qr': GeneradorQR,
-  'calculadora-horas': CalculadoraHoras,
-  'calculadora-cientifica': CalculadoraCientifica,
-  'calculadora-finiquito': CalculadoraFiniquito,
-  'calculadora-isr': CalculadoraISR,
-  'calcular-aguinaldo': CalcularAguinaldo,
-  'calculadora-dias': CalculadoraDias,
-  'calcular-iva': CalcularIVA,
-  'calculo-mental': CalculoMental,
-  'calcular-curp': CalcularCURP,
-  'calculadora-porcentaje': CalculadoraPorcentaje,
-  'convertidor-moneda': ConvertidorMoneda,
-  'generador-contrasenas': GeneradorContrasenas,
-  'contador-palabras': ContadorPalabras,
-  'calculadora-propinas': CalculadoraPropinas,
-  'calculadora-prestamo': CalculadoraPrestamo,
-  'convertidor-unidades': ConvertidorUnidades,
-  'generador-nombres': GeneradorNombres,
-  'convertidor-imagenes': ConvertidorImagenes,
-  'imagenes-a-pdf': ImagenesAPDF,
-  'convertidor-numeros-a-letras': ConvertidorNumerosALetras,
-  'convertidor-fracciones': ConvertidorFracciones,
-  'convertidor-mayusculas-minusculas': ConvertidorMayusculasMinusculas,
-  'convertidor-binario': ConvertidorBinario,
-  'calculadora-irpf': CalculadoraIRPF,
-  'calcular-hipoteca': CalcularHipoteca,
-  'calcular-letra-dni': CalcularLetraDNI,
-  'calculo-pension-jubilacion': CalculoPensionJubilacion,
-  'calculadora-apiretal': CalculadoraApiretal,
-  'calculadora-del-amor': CalculadoraDelAmor,
-  'calcular-nit': CalcularNIT,
-  'calcular-cuil': CalcularCUIL,
-  'calcular-rut': CalcularRUT,
-  'calcular-area-circulo': CalcularAreaCirculo,
-  'calcular-hexadecimal-a-decimal': CalcularHexadecimalADecimal,
-  'calcular-velocidad-distancia-tiempo': CalcularVelocidadDistanciaTiempo,
-  'calcular-gasolina': CalcularGasolina,
-  'calcular-volumen-cilindro': CalcularVolumenCilindro,
-  'calcular-ritmo': CalcularRitmo,
-  'cronometro-online': CronometroOnline,
-  'palabras-al-reves': PalabrasAlReves,
-  'celsius-a-fahrenheit': CelsiusAFahrenheit,
-  'bar-a-psi': BarAPsi,
-  'medidas-de-cocina': MedidasDeCocina,
-  'tipografia-para-instagram': TipografiaParaInstagram,
-  'cm-a-pulgadas': CmAPulgadas,
-  'arroba-a-kilos': ArrobaAKilos,
-  'calculadora-tiempo-lectura': CalculadoraTiempoLectura,
-  'calcular-indemnizacion-despido': CalcularIndemnizacionDespido,
-  'calcular-sac-argentina': CalcularSacArgentina,
-  'calculadora-alquiler-argentina': CalculadoraAlquilerArgentina,
-  'calculadora-plazo-fijo': CalculadoraPlazoFijo,
-  'calculadora-interes-compuesto': CalculadoraInteresCompuesto,
-  'calculadora-sueldo-neto-argentina': CalculadoraSueldoNetoArgentina,
-  'calculadora-area': CalculadoraArea,
-  'calculadora-volumen': CalculadoraVolumen,
-  'calculadora-calculos-combinados': CalculadoraCalculosCombinados,
-  'calculadora-resistencias': CalculadoraResistencias,
-  'calculadora-calorias': CalculadoraCalorias,
-  'calculadora-embarazo': CalculadoraEmbarazo,
-  'calculadora-peso-ideal': CalculadoraPesoIdeal,
-  'calculadora-ciclos-sueno': CalculadoraCiclosSueno,
-  'calculadora-de-escalas': CalculadoraDeEscalas,
-  'sopa-de-letras': SopaDeLetras,
-  'generador-de-letras-grandes': GeneradorDeLetrasGrandes,
-  'generador-codigo-de-barras': GeneradorCodigoDeBarras,
-  'generador-de-crucigramas': GeneradorDeCrucigramas,
-  'generador-de-nombres-para-free-fire': GeneradorDeNombresParaFreeFire,
-  'generador-de-link-de-whatsapp': GeneradorDeLinkDeWhatsapp,
-  'calculadora-engagement-instagram': CalculadoraEngagementInstagram,
-  'calculador-de-horarios': CalculadorDeHorarios,
-  'hexadecimal-a-texto': HexadecimalATexto,
-  'ruleta-aleatoria-online': RuletaAleatoriaOnline,
-  'calculadora-promedio-ponderado': CalculadoraPromedioPonderado,
-  'calculadora-cts-peru': CalculadoraCtsPeru,
-  'calcular-gratificacion-peru': CalcularGratificacionPeru,
-  'calculadora-de-igv': CalculadoraDeIgv,
-  'calcular-detraccion': CalcularDetraccion,
-  'calculadora-de-matrices': CalculadoraDeMatrices,
-  'calculadora-de-ecuaciones': CalculadoraDeEcuaciones,
-  'calculadora-precios-influencers-tiktok': CalculadoraPreciosInfluencersTiktok,
-  'calculadora-ip': CalculadoraIp,
-  'calculadora-regla-de-tres': CalculadoraReglaDeTres,
-  'calculadora-de-pendiente': CalculadoraDePendiente,
-  'calculadora-derivadas-integrales': CalculadoraDerivadasIntegrales,
-  'calculadora-ldl': CalculadoraLdl,
-  'calculadora-pafi': CalculadoraPafi,
-  'indice-de-barthel': IndiceDeBarthel,
-  'calculadora-liquidacion-laboral-colombia': CalculadoraLiquidacionLaboralColombia,
-  'calculadora-seguridad-social-colombia': CalculadoraSeguridadSocialColombia,
-  'calculadora-cdt': CalculadoraCdt,
-  'calcular-prima-vacacional': CalcularPrimaVacacional,
-  'calcular-vacaciones': CalcularVacaciones,
-  'calcular-ptu': CalcularPtu,
-  'calcular-salario-diario-integrado': CalcularSalarioDiarioIntegrado,
-  'calculadora-cat': CalculadoraCat,
-  'calculadora-nomina': CalculadoraNomina,
-  'calcular-descuento': CalcularDescuento,
-  'calculadora-ahorro': CalculadoraAhorro,
-  'calculadora-roi': CalculadoraRoi,
-  'calculadora-nota-necesaria': CalculadoraNotaNecesaria,
-  'calculadora-dias-habiles': CalculadoraDiasHabiles,
-  'calcular-fecha-futura': CalcularFechaFutura,
-  'validador-iban': ValidadorIban,
-  'calculadora-ovulacion': CalculadoraOvulacion,
-  'calculadora-tmb': CalculadoraTmb,
-  'calculadora-grasa-corporal': CalculadoraGrasaCorporal,
-  'calculadora-agua-diaria': CalculadoraAguaDiaria,
-  'formateador-json': FormateadorJson,
-  'codificador-base64': CodificadorBase64,
-  'generador-uuid': GeneradorUuid,
-  'probador-regex': ProbadorRegex,
-  'generador-hash': GeneradorHash,
-  'generador-lorem-ipsum': GeneradorLoremIpsum,
-  'validador-email': ValidadorEmail,
-  'contador-caracteres': ContadorCaracteres,
-  'sorteo-online': SorteoOnline,
-  'generador-numeros-aleatorios': GeneradorNumerosAleatorios,
-  'cara-o-cruz': CaraOCruz,
-  'temporizador-online': TemporizadorOnline,
-  'conversor-criptomonedas': ConversorCriptomonedas,
-  'conversor-zona-horaria': ConversorZonaHoraria,
-  'kilos-a-libras': KilosALibras,
-  'convertidor-tallas': ConvertidorTallas,
+  'texto-invisible': dynamic(() => import('./texto-invisible')),
+  'calculadora-edad': dynamic(() => import('./calculadora-edad')),
+  'calcular-rfc': dynamic(() => import('./calcular-rfc')),
+  'calcular-imc': dynamic(() => import('./calcular-imc')),
+  'calculadora-alicia': dynamic(() => import('./calculadora-alicia')),
+  'generador-qr': dynamic(() => import('./generador-qr')),
+  'calculadora-horas': dynamic(() => import('./calculadora-horas')),
+  'calculadora-cientifica': dynamic(() => import('./calculadora-cientifica')),
+  'calculadora-finiquito': dynamic(() => import('./calculadora-finiquito')),
+  'calculadora-isr': dynamic(() => import('./calculadora-isr')),
+  'calcular-aguinaldo': dynamic(() => import('./calcular-aguinaldo')),
+  'calculadora-dias': dynamic(() => import('./calculadora-dias')),
+  'calcular-iva': dynamic(() => import('./calcular-iva')),
+  'calculo-mental': dynamic(() => import('./calculo-mental')),
+  'calcular-curp': dynamic(() => import('./calcular-curp')),
+  'calculadora-porcentaje': dynamic(() => import('./calculadora-porcentaje')),
+  'convertidor-moneda': dynamic(() => import('./convertidor-moneda')),
+  'generador-contrasenas': dynamic(() => import('./generador-contrasenas')),
+  'contador-palabras': dynamic(() => import('./contador-palabras')),
+  'calculadora-propinas': dynamic(() => import('./calculadora-propinas')),
+  'calculadora-prestamo': dynamic(() => import('./calculadora-prestamo')),
+  'convertidor-unidades': dynamic(() => import('./convertidor-unidades')),
+  'generador-nombres': dynamic(() => import('./generador-nombres')),
+  'convertidor-imagenes': dynamic(() => import('./convertidor-imagenes')),
+  'imagenes-a-pdf': dynamic(() => import('./imagenes-a-pdf')),
+  'convertidor-numeros-a-letras': dynamic(() => import('./convertidor-numeros-a-letras')),
+  'convertidor-fracciones': dynamic(() => import('./convertidor-fracciones')),
+  'convertidor-mayusculas-minusculas': dynamic(() => import('./convertidor-mayusculas-minusculas')),
+  'convertidor-binario': dynamic(() => import('./convertidor-binario')),
+  'calculadora-irpf': dynamic(() => import('./calculadora-irpf')),
+  'calcular-hipoteca': dynamic(() => import('./calcular-hipoteca')),
+  'calcular-letra-dni': dynamic(() => import('./calcular-letra-dni')),
+  'calculo-pension-jubilacion': dynamic(() => import('./calculo-pension-jubilacion')),
+  'calculadora-apiretal': dynamic(() => import('./calculadora-apiretal')),
+  'calculadora-del-amor': dynamic(() => import('./calculadora-del-amor')),
+  'calcular-nit': dynamic(() => import('./calcular-nit')),
+  'calcular-cuil': dynamic(() => import('./calcular-cuil')),
+  'calcular-rut': dynamic(() => import('./calcular-rut')),
+  'calcular-area-circulo': dynamic(() => import('./calcular-area-circulo')),
+  'calcular-hexadecimal-a-decimal': dynamic(() => import('./calcular-hexadecimal-a-decimal')),
+  'calcular-velocidad-distancia-tiempo': dynamic(() => import('./calcular-velocidad-distancia-tiempo')),
+  'calcular-gasolina': dynamic(() => import('./calcular-gasolina')),
+  'calcular-volumen-cilindro': dynamic(() => import('./calcular-volumen-cilindro')),
+  'calcular-ritmo': dynamic(() => import('./calcular-ritmo')),
+  'cronometro-online': dynamic(() => import('./cronometro-online')),
+  'palabras-al-reves': dynamic(() => import('./palabras-al-reves')),
+  'celsius-a-fahrenheit': dynamic(() => import('./celsius-a-fahrenheit')),
+  'bar-a-psi': dynamic(() => import('./bar-a-psi')),
+  'medidas-de-cocina': dynamic(() => import('./medidas-de-cocina')),
+  'tipografia-para-instagram': dynamic(() => import('./tipografia-para-instagram')),
+  'cm-a-pulgadas': dynamic(() => import('./cm-a-pulgadas')),
+  'arroba-a-kilos': dynamic(() => import('./arroba-a-kilos')),
+  'calculadora-tiempo-lectura': dynamic(() => import('./calculadora-tiempo-lectura')),
+  'calcular-indemnizacion-despido': dynamic(() => import('./calcular-indemnizacion-despido')),
+  'calcular-sac-argentina': dynamic(() => import('./calcular-sac-argentina')),
+  'calculadora-alquiler-argentina': dynamic(() => import('./calculadora-alquiler-argentina')),
+  'calculadora-plazo-fijo': dynamic(() => import('./calculadora-plazo-fijo')),
+  'calculadora-interes-compuesto': dynamic(() => import('./calculadora-interes-compuesto')),
+  'calculadora-sueldo-neto-argentina': dynamic(() => import('./calculadora-sueldo-neto-argentina')),
+  'calculadora-area': dynamic(() => import('./calculadora-area')),
+  'calculadora-volumen': dynamic(() => import('./calculadora-volumen')),
+  'calculadora-calculos-combinados': dynamic(() => import('./calculadora-calculos-combinados')),
+  'calculadora-resistencias': dynamic(() => import('./calculadora-resistencias')),
+  'calculadora-calorias': dynamic(() => import('./calculadora-calorias')),
+  'calculadora-embarazo': dynamic(() => import('./calculadora-embarazo')),
+  'calculadora-peso-ideal': dynamic(() => import('./calculadora-peso-ideal')),
+  'calculadora-ciclos-sueno': dynamic(() => import('./calculadora-ciclos-sueno')),
+  'calculadora-de-escalas': dynamic(() => import('./calculadora-de-escalas')),
+  'sopa-de-letras': dynamic(() => import('./sopa-de-letras')),
+  'generador-de-letras-grandes': dynamic(() => import('./generador-de-letras-grandes')),
+  'generador-codigo-de-barras': dynamic(() => import('./generador-codigo-de-barras')),
+  'generador-de-crucigramas': dynamic(() => import('./generador-de-crucigramas')),
+  'generador-de-nombres-para-free-fire': dynamic(() => import('./generador-de-nombres-para-free-fire')),
+  'generador-de-link-de-whatsapp': dynamic(() => import('./generador-de-link-de-whatsapp')),
+  'calculadora-engagement-instagram': dynamic(() => import('./calculadora-engagement-instagram')),
+  'calculador-de-horarios': dynamic(() => import('./calculador-de-horarios')),
+  'hexadecimal-a-texto': dynamic(() => import('./hexadecimal-a-texto')),
+  'ruleta-aleatoria-online': dynamic(() => import('./ruleta-aleatoria-online')),
+  'calculadora-promedio-ponderado': dynamic(() => import('./calculadora-promedio-ponderado')),
+  'calculadora-cts-peru': dynamic(() => import('./calculadora-cts-peru')),
+  'calcular-gratificacion-peru': dynamic(() => import('./calcular-gratificacion-peru')),
+  'calculadora-de-igv': dynamic(() => import('./calculadora-de-igv')),
+  'calcular-detraccion': dynamic(() => import('./calcular-detraccion')),
+  'calculadora-de-matrices': dynamic(() => import('./calculadora-de-matrices')),
+  'calculadora-de-ecuaciones': dynamic(() => import('./calculadora-de-ecuaciones')),
+  'calculadora-precios-influencers-tiktok': dynamic(() => import('./calculadora-precios-influencers-tiktok')),
+  'calculadora-ip': dynamic(() => import('./calculadora-ip')),
+  'calculadora-regla-de-tres': dynamic(() => import('./calculadora-regla-de-tres')),
+  'calculadora-de-pendiente': dynamic(() => import('./calculadora-de-pendiente')),
+  'calculadora-derivadas-integrales': dynamic(() => import('./calculadora-derivadas-integrales')),
+  'calculadora-ldl': dynamic(() => import('./calculadora-ldl')),
+  'calculadora-pafi': dynamic(() => import('./calculadora-pafi')),
+  'indice-de-barthel': dynamic(() => import('./indice-de-barthel')),
+  'calculadora-liquidacion-laboral-colombia': dynamic(() => import('./calculadora-liquidacion-laboral-colombia')),
+  'calculadora-seguridad-social-colombia': dynamic(() => import('./calculadora-seguridad-social-colombia')),
+  'calculadora-cdt': dynamic(() => import('./calculadora-cdt')),
+  'calcular-prima-vacacional': dynamic(() => import('./calcular-prima-vacacional')),
+  'calcular-vacaciones': dynamic(() => import('./calcular-vacaciones')),
+  'calcular-ptu': dynamic(() => import('./calcular-ptu')),
+  'calcular-salario-diario-integrado': dynamic(() => import('./calcular-salario-diario-integrado')),
+  'calculadora-cat': dynamic(() => import('./calculadora-cat')),
+  'calculadora-nomina': dynamic(() => import('./calculadora-nomina')),
+  'calcular-descuento': dynamic(() => import('./calcular-descuento')),
+  'calculadora-ahorro': dynamic(() => import('./calculadora-ahorro')),
+  'calculadora-roi': dynamic(() => import('./calculadora-roi')),
+  'calculadora-nota-necesaria': dynamic(() => import('./calculadora-nota-necesaria')),
+  'calculadora-dias-habiles': dynamic(() => import('./calculadora-dias-habiles')),
+  'calcular-fecha-futura': dynamic(() => import('./calcular-fecha-futura')),
+  'validador-iban': dynamic(() => import('./validador-iban')),
+  'calculadora-ovulacion': dynamic(() => import('./calculadora-ovulacion')),
+  'calculadora-tmb': dynamic(() => import('./calculadora-tmb')),
+  'calculadora-grasa-corporal': dynamic(() => import('./calculadora-grasa-corporal')),
+  'calculadora-agua-diaria': dynamic(() => import('./calculadora-agua-diaria')),
+  'formateador-json': dynamic(() => import('./formateador-json')),
+  'codificador-base64': dynamic(() => import('./codificador-base64')),
+  'generador-uuid': dynamic(() => import('./generador-uuid')),
+  'probador-regex': dynamic(() => import('./probador-regex')),
+  'generador-hash': dynamic(() => import('./generador-hash')),
+  'generador-lorem-ipsum': dynamic(() => import('./generador-lorem-ipsum')),
+  'validador-email': dynamic(() => import('./validador-email')),
+  'contador-caracteres': dynamic(() => import('./contador-caracteres')),
+  'sorteo-online': dynamic(() => import('./sorteo-online')),
+  'generador-numeros-aleatorios': dynamic(() => import('./generador-numeros-aleatorios')),
+  'cara-o-cruz': dynamic(() => import('./cara-o-cruz')),
+  'temporizador-online': dynamic(() => import('./temporizador-online')),
+  'conversor-criptomonedas': dynamic(() => import('./conversor-criptomonedas')),
+  'conversor-zona-horaria': dynamic(() => import('./conversor-zona-horaria')),
+  'kilos-a-libras': dynamic(() => import('./kilos-a-libras')),
+  'convertidor-tallas': dynamic(() => import('./convertidor-tallas')),
+  'calcular-subsidio-empleo': dynamic(() => import('./calcular-subsidio-empleo')),
+  'calcular-cuota-imss': dynamic(() => import('./calcular-cuota-imss')),
+  'salarios-minimos-2026': dynamic(() => import('./salarios-minimos-2026')),
+  'pension-imss-modalidad-40': dynamic(() => import('./pension-imss-modalidad-40')),
+  'semanas-cotizadas-imss': dynamic(() => import('./semanas-cotizadas-imss')),
+  'calcular-horas-extras': dynamic(() => import('./calcular-horas-extras')),
+  'comparador-afore': dynamic(() => import('./comparador-afore')),
+  'calcular-isr-aguinaldo': dynamic(() => import('./calcular-isr-aguinaldo')),
+  'dolar-a-peso-mexicano': dynamic(() => import('./dolar-a-peso-mexicano')),
+  'tabla-de-amortizacion': dynamic(() => import('./tabla-de-amortizacion')),
+  'calculadora-cetes': dynamic(() => import('./calculadora-cetes')),
+  'simulador-credito-automotriz': dynamic(() => import('./simulador-credito-automotriz')),
+  'calculadora-interes-simple': dynamic(() => import('./calculadora-interes-simple')),
+  'presupuesto-mensual': dynamic(() => import('./presupuesto-mensual')),
+  'plan-pago-deudas': dynamic(() => import('./plan-pago-deudas')),
+  'calculadora-comision-ventas': dynamic(() => import('./calculadora-comision-ventas')),
+  'comparador-precios': dynamic(() => import('./comparador-precios')),
+  'libras-a-kilos': dynamic(() => import('./libras-a-kilos')),
+  'fahrenheit-a-celsius': dynamic(() => import('./fahrenheit-a-celsius')),
+  'onzas-a-gramos': dynamic(() => import('./onzas-a-gramos')),
+  'tazas-a-ml': dynamic(() => import('./tazas-a-ml')),
+  'millas-a-kilometros': dynamic(() => import('./millas-a-kilometros')),
+  'pies-a-metros': dynamic(() => import('./pies-a-metros')),
+  'litros-a-galones': dynamic(() => import('./litros-a-galones')),
+  'calculadora-promedio': dynamic(() => import('./calculadora-promedio')),
+  'calculadora-fracciones': dynamic(() => import('./calculadora-fracciones')),
+  'calculadora-mcd-mcm': dynamic(() => import('./calculadora-mcd-mcm')),
+  'calculadora-pitagoras': dynamic(() => import('./calculadora-pitagoras')),
+  'calculadora-factorial': dynamic(() => import('./calculadora-factorial')),
+  'calculadora-desviacion-estandar': dynamic(() => import('./calculadora-desviacion-estandar')),
+  'tablas-de-multiplicar': dynamic(() => import('./tablas-de-multiplicar')),
+  'edad-de-mi-perro': dynamic(() => import('./edad-de-mi-perro')),
+  'decodificador-jwt': dynamic(() => import('./decodificador-jwt')),
+  'conversor-csv-json': dynamic(() => import('./conversor-csv-json')),
+  'codificador-url': dynamic(() => import('./codificador-url')),
+  'minificador-codigo': dynamic(() => import('./minificador-codigo')),
+  'generador-datos-prueba': dynamic(() => import('./generador-datos-prueba')),
+  'generador-paleta-colores': dynamic(() => import('./generador-paleta-colores')),
+  'selector-de-color': dynamic(() => import('./selector-de-color')),
+  'conversor-hex-rgb': dynamic(() => import('./conversor-hex-rgb')),
+  'imagen-a-base64': dynamic(() => import('./imagen-a-base64')),
+  'generador-nombres-bebe': dynamic(() => import('./generador-nombres-bebe')),
+  'generador-apodos': dynamic(() => import('./generador-apodos')),
+  'generador-nombres-empresa': dynamic(() => import('./generador-nombres-empresa')),
+  'piedra-papel-tijera': dynamic(() => import('./piedra-papel-tijera')),
+  'generador-equipos': dynamic(() => import('./generador-equipos')),
+  'tombola-online': dynamic(() => import('./tombola-online')),
+  'verdad-o-reto': dynamic(() => import('./verdad-o-reto')),
+  'ideas-para-historias': dynamic(() => import('./ideas-para-historias')),
+  'generador-hashtags': dynamic(() => import('./generador-hashtags')),
+  'generador-bio-instagram': dynamic(() => import('./generador-bio-instagram')),
+  'generador-firma-email': dynamic(() => import('./generador-firma-email')),
+  'generador-esloganes': dynamic(() => import('./generador-esloganes')),
+  'generador-utm': dynamic(() => import('./generador-utm')),
+  'markdown-a-html': dynamic(() => import('./markdown-a-html')),
+  'validar-curp': dynamic(() => import('./validar-curp')),
+  'dividir-cuenta': dynamic(() => import('./dividir-cuenta')),
+  'hora-militar': dynamic(() => import('./hora-militar')),
 }

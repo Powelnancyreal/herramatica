@@ -8,7 +8,7 @@ import { useState } from 'react'
 // de elevar al mes (procedimiento admitido por el Art. 96 de la LISR).
 // ─────────────────────────────────────────────────────────────────
 
-const TABLA_ISR_MENSUAL = [
+export const TABLA_ISR_MENSUAL = [
   { limiteInferior: 0.01, limiteSuperior: 844.59, cuotaFija: 0.0, porcentaje: 1.92 },
   { limiteInferior: 844.6, limiteSuperior: 7168.51, cuotaFija: 16.22, porcentaje: 6.4 },
   { limiteInferior: 7168.52, limiteSuperior: 12598.02, cuotaFija: 420.95, porcentaje: 10.88 },

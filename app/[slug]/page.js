@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation'
 import toolsData from '@/data/tools.json'
 import ToolLayout from '@/components/ToolLayout'
-import { toolComponents } from '@/tools/index'
+import ToolRenderer from '@/components/ToolRenderer'
 import { generateToolMetadata } from '@/lib/seo'
 import { generateFaqSchema, generateWebAppSchema } from '@/lib/schema'
 
@@ -21,9 +21,6 @@ export default async function ToolPage({ params }) {
   const tool = toolsData.find((t) => t.slug === slug)
   if (!tool) notFound()
 
-  const ToolComponent = toolComponents[slug]
-  if (!ToolComponent) notFound()
-
   const faqSchema = generateFaqSchema(tool.faqs)
   const webAppSchema = tool.webApp ? generateWebAppSchema(tool) : null
 
@@ -42,7 +39,7 @@ export default async function ToolPage({ params }) {
         />
       )}
       <ToolLayout tool={tool}>
-        <ToolComponent />
+        <ToolRenderer slug={slug} />
       </ToolLayout>
     </>
   )

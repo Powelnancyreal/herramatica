@@ -37,7 +37,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Herramatica | Herramientas Online Gratuitas en Español',
     description:
-      'Más de 120 herramientas online gratuitas en español: calculadoras, generadores, convertidores y más. Sin registro, sin límites.',
+      'Más de 180 herramientas online gratuitas en español: calculadoras, generadores, convertidores y más. Sin registro, sin límites.',
     images: ['https://herramatica.com/images/og-image.webp'],
   },
   icons: {
