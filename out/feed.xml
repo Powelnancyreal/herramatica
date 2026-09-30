@@ -3,9 +3,9 @@
   <channel>
     <title>Herramatica | Herramientas Online Gratuitas en Español</title>
     <link>https://herramatica.com</link>
-    <description>Más de 180 herramientas online gratuitas en español: calculadoras, generadores, convertidores, texto y juegos. Sin registro, sin límites. Completamente gratis.</description>
+    <description>Más de 220 herramientas online gratuitas en español: calculadoras, generadores, convertidores, texto y juegos. Sin registro, sin límites. Completamente gratis.</description>
     <language>es</language>
-    <lastBuildDate>Wed, 30 Sep 2026 10:25:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 15:20:53 GMT</lastBuildDate>
     <atom:link href="https://herramatica.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://herramatica.com/favicon.webp</url>
@@ -18,7 +18,7 @@
       <guid isPermaLink="true">https://herramatica.com/texto-invisible</guid>
       <description>Genera texto invisible con caracteres Unicode especiales para WhatsApp, Instagram, Twitter y más. Copia con un solo clic. Gratis y sin registro.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Edad</title>
@@ -26,7 +26,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-edad</guid>
       <description>Calcula tu edad exacta en años, meses y días al instante. Descubre cuántos días, horas y minutos has vivido desde tu fecha de nacimiento. Gratis y preciso.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de RFC y RFC Genérico</title>
@@ -34,7 +34,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-rfc</guid>
       <description>¿Qué es el RFC genérico? Los códigos XAXX010101000 y XEXX010101000 para facturar a público en general, explicados. Además, calcula gratis tu propio RFC personal.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de IMC</title>
@@ -42,7 +42,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-imc</guid>
       <description>Calcula tu IMC gratis con nuestra calculadora online. Descubre tu índice de masa corporal y conoce si estás en peso normal, sobrepeso u obesidad en segundos.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Alicia</title>
@@ -50,7 +50,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-alicia</guid>
       <description>La Calculadora de Alicia muestra sumas, restas y divisiones con procedimiento detallado paso a paso. Perfecta para niños, estudiantes y revisar tareas escolares. Gratis y online.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Código QR</title>
@@ -58,7 +58,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-qr</guid>
       <description>Genera códigos QR gratis para textos, URLs, WiFi, WhatsApp, email, SMS y contactos. Personaliza colores, añade tu logo y descarga en PNG o SVG. Sin registro.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Horas</title>
@@ -66,7 +66,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-horas</guid>
       <description>Calcula las horas trabajadas entre dos horarios, suma o resta horas a una hora concreta y convierte horas a formato decimal. Gratis, rápida y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora Científica</title>
@@ -74,7 +74,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-cientifica</guid>
       <description>Calculadora científica online gratis con funciones trigonométricas, logaritmos, potencias, raíces, memoria, historial y soporte de teclado. Sin registro, todo en tu navegador.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Finiquito</title>
@@ -82,7 +82,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-finiquito</guid>
       <description>Calcula tu finiquito online: salario pendiente, vacaciones no disfrutadas, pagas extra e indemnización según el tipo de despido. Desglose completo y gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de ISR</title>
@@ -90,7 +90,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-isr</guid>
       <description>Calcula tu ISR 2026 con la tabla oficial del SAT: retención mensual, quincenal, semanal o anual, con subsidio al empleo incluido. Gratis, sin registro y con el desglose completo.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Aguinaldo</title>
@@ -98,7 +98,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-aguinaldo</guid>
       <description>Calcula tu aguinaldo 2026 exacto según tu fecha de ingreso, con la parte exenta y gravable de ISR ya calculadas. Gratis, sin registro y con desglose completo.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Días</title>
@@ -106,7 +106,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-dias</guid>
       <description>Calculadora de fecha para hallar la diferencia entre dos fechas, sumar o restar días, o contar los días que faltan para un evento. Incluye días hábiles. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de IVA</title>
@@ -114,7 +114,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-iva</guid>
       <description>Calcula el IVA al 16%, 8% (frontera) o 0%, o usa una tasa personalizada. Agrega IVA a un subtotal o desglósalo de un total. Resultado instantáneo, gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Cálculo Mental</title>
@@ -122,7 +122,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculo-mental</guid>
       <description>Entrena tu cálculo mental con ejercicios de suma, resta, multiplicación y división. Elige tu nivel, juega contrarreloj y mejora tu agilidad numérica. Gratis.</description>
       <category>juegos</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de CURP</title>
@@ -130,7 +130,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-curp</guid>
       <description>Calcula tu CURP a partir de tu nombre, apellidos, fecha de nacimiento, sexo y estado. Incluye el dígito verificador real del algoritmo RENAPO. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Porcentajes</title>
@@ -138,7 +138,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-porcentaje</guid>
       <description>Calcula porcentajes al instante: qué es X% de Y, qué % representa un número, o aplica un aumento o descuento. Tres calculadoras en una, gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Moneda</title>
@@ -146,7 +146,7 @@
       <guid isPermaLink="true">https://herramatica.com/convertidor-moneda</guid>
       <description>Convierte entre dólar, euro, peso mexicano y otras monedas con tasas de cambio actualizadas. Gratis, sin registro y con resultado instantáneo.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Contraseñas</title>
@@ -154,7 +154,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-contrasenas</guid>
       <description>Genera contraseñas seguras y aleatorias con mayúsculas, minúsculas, números y símbolos. Usa criptografía real del navegador, con medidor de fortaleza. Gratis.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Contador de Palabras</title>
@@ -162,7 +162,7 @@
       <guid isPermaLink="true">https://herramatica.com/contador-palabras</guid>
       <description>Cuenta palabras, caracteres, oraciones y párrafos de tu texto en tiempo real. Incluye tiempo de lectura estimado y palabras más repetidas. Gratis.</description>
       <category>texto</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Propinas</title>
@@ -170,7 +170,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-propinas</guid>
       <description>Tip calculator en español: calcula la propina y divide la cuenta entre varias personas al instante. Porcentajes predefinidos o personalizados. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Préstamos</title>
@@ -178,7 +178,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-prestamo</guid>
       <description>Calcula la cuota mensual de un préstamo, el total de intereses y la tabla de amortización completa. Sistema francés de cuota fija. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Unidades</title>
@@ -186,7 +186,7 @@
       <guid isPermaLink="true">https://herramatica.com/convertidor-unidades</guid>
       <description>Convertidor de medidas y unidades: longitud, peso, temperatura, volumen, velocidad, área, presión y potencia al instante. Sistema métrico e imperial. Gratis y sin registro.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Nombres</title>
@@ -194,7 +194,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-nombres</guid>
       <description>Genera nombres aleatorios para personas, mascotas, personajes de fantasía o nombres de usuario. Elige la categoría y la cantidad. Gratis y sin registro.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Imágenes</title>
@@ -202,7 +202,7 @@
       <guid isPermaLink="true">https://herramatica.com/convertidor-imagenes</guid>
       <description>Convierte imágenes entre JPG, PNG y WEBP directamente en tu navegador, sin subir tus archivos a ningún servidor. Gratis, rápido y sin marcas de agua.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Imágenes a PDF</title>
@@ -210,7 +210,7 @@
       <guid isPermaLink="true">https://herramatica.com/imagenes-a-pdf</guid>
       <description>Convierte una o varias imágenes JPG o PNG en un solo archivo PDF. Reordena las páginas, elige orientación y descarga al instante. Gratis y sin registro.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Números a Letras</title>
@@ -218,7 +218,7 @@
       <guid isPermaLink="true">https://herramatica.com/convertidor-numeros-a-letras</guid>
       <description>Convierte cualquier número a letras en español, incluyendo el formato de cheque (PESOS XX/100 M.N.). Gratis, instantáneo y sin registro.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Fracciones</title>
@@ -226,7 +226,7 @@
       <guid isPermaLink="true">https://herramatica.com/convertidor-fracciones</guid>
       <description>Convierte fracciones a decimales, decimales a fracciones simplificadas, o pasa entre fracciones mixtas e impropias. Gratis y con resultado instantáneo.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Mayúsculas y Minúsculas</title>
@@ -234,7 +234,7 @@
       <guid isPermaLink="true">https://herramatica.com/convertidor-mayusculas-minusculas</guid>
       <description>Convierte texto a MAYÚSCULAS, minúsculas, Tipo Título o alternado al instante. Cinco formatos distintos, todos listos para copiar. Gratis y sin registro.</description>
       <category>texto</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor Binario</title>
@@ -242,7 +242,7 @@
       <guid isPermaLink="true">https://herramatica.com/convertidor-binario</guid>
       <description>Convierte números entre binario, octal, decimal y hexadecimal al instante. Ideal para programación e informática. Gratis y sin registro.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de IRPF</title>
@@ -250,7 +250,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-irpf</guid>
       <description>Calcula tu IRPF 2026 y tu sueldo neto en España: mínimo personal y familiar, reducción por rendimientos del trabajo y cotización a la Seguridad Social incluidos.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Hipoteca</title>
@@ -258,7 +258,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-hipoteca</guid>
       <description>Calcula la cuota de tu hipoteca fija, variable o mixta, tu esfuerzo hipotecario y cuánto necesitas ahorrado (entrada + gastos). Gratis, con tabla de amortización.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calcular Letra del DNI y NIE</title>
@@ -266,7 +266,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-letra-dni</guid>
       <description>Calcula el NIF (letra del DNI o NIE) al instante, o valida si un documento ya tiene la letra correcta. Algoritmo oficial módulo 23. Gratis, sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Cálculo de Pensión de Jubilación</title>
@@ -274,7 +274,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculo-pension-jubilacion</guid>
       <description>Estima tu pensión de jubilación según tu salario, años cotizados y situación familiar, con la escala oficial y los mínimos y máximos 2026. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Apiretal</title>
@@ -282,7 +282,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-apiretal</guid>
       <description>Calcula la dosis de Apiretal 100 mg/ml según el peso del niño, siguiendo el prospecto oficial de la AEMPS. Incluye avisos de seguridad. Consulta siempre a tu pediatra.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora del Amor</title>
@@ -290,7 +290,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-del-amor</guid>
       <description>Descubre vuestro porcentaje de compatibilidad con la calculadora del amor. Introduce tu nombre y el de tu pareja o crush y obtén el resultado al instante.</description>
       <category>juegos</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calcular NIT (Colombia)</title>
@@ -298,7 +298,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-nit</guid>
       <description>Calcula el dígito de verificación (DV) de tu NIT con el algoritmo oficial de la DIAN, o valida si un NIT completo es correcto. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calcular CUIL (Argentina)</title>
@@ -306,7 +306,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-cuil</guid>
       <description>Calcula tu CUIL a partir de tu DNI y sexo registrado, con el algoritmo oficial de AFIP. Incluye validador de CUIL y CUIT. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calcular RUT (Chile)</title>
@@ -314,7 +314,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-rut</guid>
       <description>Calcula el dígito verificador de tu RUT chileno con el algoritmo oficial del módulo 11, o valida si un RUT completo es correcto. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora del Área del Círculo</title>
@@ -322,7 +322,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-area-circulo</guid>
       <description>Calcula el área de un círculo a partir del radio, el diámetro o la circunferencia. Fórmula A = π×r² aplicada al instante. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Hexadecimal a Decimal</title>
@@ -330,7 +330,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-hexadecimal-a-decimal</guid>
       <description>Convierte números hexadecimales a decimales al instante (y de decimal a hexadecimal). Incluye el equivalente en binario. Gratis y sin registro.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Velocidad, Distancia y Tiempo</title>
@@ -338,7 +338,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-velocidad-distancia-tiempo</guid>
       <description>Calcula el tiempo, la velocidad o la distancia de un trayecto a partir de los otros dos datos. Admite km, m, millas, km/h, m/s y mph. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Gasolina</title>
@@ -346,7 +346,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-gasolina</guid>
       <description>Calcula cuánto gastarás en gasolina en un viaje según la distancia, el consumo de tu vehículo y el precio del combustible. Incluye costo por persona. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora del Volumen del Cilindro</title>
@@ -354,7 +354,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-volumen-cilindro</guid>
       <description>Calcula el volumen de un cilindro a partir del radio o el diámetro de la base y la altura. Incluye área lateral y área total. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Ritmo de Carrera</title>
@@ -362,7 +362,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-ritmo</guid>
       <description>Calcula tu ritmo de carrera (pace) en min/km, el tiempo de una distancia o la distancia recorrida. Incluye predicción de tiempos para 5K, 10K, media maratón y maratón. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Cronómetro Online</title>
@@ -370,7 +370,7 @@
       <guid isPermaLink="true">https://herramatica.com/cronometro-online</guid>
       <description>Cronómetro online gratis con inicio, pausa, reinicio y registro de vueltas. Precisión de centésimas de segundo, sin descargas ni registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Palabras al Revés</title>
@@ -378,7 +378,7 @@
       <guid isPermaLink="true">https://herramatica.com/palabras-al-reves</guid>
       <description>Escribe palabras al revés al instante: invierte todo el texto, el orden de las palabras o cada palabra por separado. Gratis, sin registro.</description>
       <category>texto</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Celsius a Fahrenheit</title>
@@ -386,7 +386,7 @@
       <guid isPermaLink="true">https://herramatica.com/celsius-a-fahrenheit</guid>
       <description>Convierte grados Celsius a Fahrenheit y Kelvin al instante, en cualquier dirección. Fórmulas exactas de temperatura. Gratis y sin registro.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Bar a PSI</title>
@@ -394,7 +394,7 @@
       <guid isPermaLink="true">https://herramatica.com/bar-a-psi</guid>
       <description>Convierte bar a PSI, kilopascales y atmósferas al instante, en cualquier dirección. Ideal para presión de neumáticos y uso industrial. Gratis.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Medidas de Cocina</title>
@@ -402,7 +402,7 @@
       <guid isPermaLink="true">https://herramatica.com/medidas-de-cocina</guid>
       <description>Convierte cucharadas, cucharaditas y tazas a mililitros y litros al instante. Ideal para seguir recetas con precisión. Gratis y sin registro.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Tipografía para Instagram</title>
@@ -410,7 +410,7 @@
       <guid isPermaLink="true">https://herramatica.com/tipografia-para-instagram</guid>
       <description>Genera letras y tipografías bonitas para tu biografía de Instagram: negrita, cursiva, gótico, volteado y más. Copia y pega, gratis y sin registro.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Centímetros a Pulgadas</title>
@@ -418,7 +418,7 @@
       <guid isPermaLink="true">https://herramatica.com/cm-a-pulgadas</guid>
       <description>Convierte centímetros a pulgadas y de pulgadas a centímetros al instante. Factor de conversión exacto (2.54 cm). Gratis y sin registro.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Arroba a Kilos</title>
@@ -426,7 +426,7 @@
       <guid isPermaLink="true">https://herramatica.com/arroba-a-kilos</guid>
       <description>Convierte arrobas a kilogramos y kilogramos a arrobas al instante. Incluye las equivalencias más usadas en España y Latinoamérica. Gratis.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Tiempo de Lectura</title>
@@ -434,7 +434,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-tiempo-lectura</guid>
       <description>Calcula cuánto tiempo se tarda en leer un texto, pegándolo directamente o indicando el número de palabras. Lectura lenta, media y rápida. Gratis.</description>
       <category>texto</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Indemnización por Despido</title>
@@ -442,7 +442,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-indemnizacion-despido</guid>
       <description>Calcula tu indemnización por despido sin causa (Art. 245 LCT) y tu liquidación final: SAC y vacaciones proporcionales. Gratis, según la ley argentina.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Aguinaldo (SAC) Argentina</title>
@@ -450,7 +450,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-sac-argentina</guid>
       <description>Calcula tu aguinaldo (SAC) en Argentina: 1ª o 2ª cuota, completo o proporcional si empezaste a trabajar durante el semestre. Gratis, según la Ley 23.041.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Ajuste de Alquiler Argentina</title>
@@ -458,7 +458,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-alquiler-argentina</guid>
       <description>Calcula tu nuevo alquiler aplicando el coeficiente de ajuste (ICL, IPC o CVS) o un porcentaje pactado. Gratis, introduce el índice vigente de tu contrato.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Plazo Fijo</title>
@@ -466,7 +466,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-plazo-fijo</guid>
       <description>Calcula cuánto ganarás con un plazo fijo según el capital, la TNA y los días de plazo. Incluye la TEA equivalente. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Interés Compuesto</title>
@@ -474,7 +474,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-interes-compuesto</guid>
       <description>Calcula el interés compuesto de una inversión, con aportes mensuales opcionales y distintas frecuencias de capitalización. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Sueldo Neto Argentina</title>
@@ -482,7 +482,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-sueldo-neto-argentina</guid>
       <description>Calcula tu sueldo neto a partir del bruto: jubilación, obra social, PAMI y cuota sindical. Descuentos estándar de un trabajador en relación de dependencia.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Área</title>
@@ -490,7 +490,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-area</guid>
       <description>Calcula el área y el perímetro de un cuadrado, rectángulo o triángulo, y resuelve el teorema de Pitágoras. Gratis, sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Volumen</title>
@@ -498,7 +498,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-volumen</guid>
       <description>Calcula el volumen de un cubo, esfera, cono o prisma rectangular al instante. Gratis, sin registro. ¿Buscas volumen de cilindro? También lo tenemos.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Cálculos Combinados</title>
@@ -506,7 +506,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-calculos-combinados</guid>
       <description>Resuelve cálculos combinados respetando el orden de las operaciones (PEMDAS): paréntesis, potencias, raíces, multiplicación, división, suma y resta. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Resistencias</title>
@@ -514,7 +514,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-resistencias</guid>
       <description>Calcula el valor de una resistencia por su código de colores (4 bandas) y resuelve la Ley de Ohm (voltaje, corriente, resistencia y potencia). Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Calorías</title>
@@ -522,7 +522,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-calorias</guid>
       <description>Calcula tus calorías diarias (TDEE), tu metabolismo basal y tu distribución de macronutrientes según tu objetivo. Fórmula Mifflin-St Jeor. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Embarazo</title>
@@ -530,7 +530,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-embarazo</guid>
       <description>Calcula tus semanas de embarazo, la fecha probable de parto y tus días fértiles u ovulación a partir de tu última menstruación. Gratis, sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Peso Ideal</title>
@@ -538,7 +538,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-peso-ideal</guid>
       <description>Calcula tu rango de peso saludable según tu altura, basado en el Índice de Masa Corporal (IMC) recomendado por la OMS. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Ciclos de Sueño</title>
@@ -546,7 +546,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-ciclos-sueno</guid>
       <description>Calcula la mejor hora para dormir o despertar según ciclos de sueño de 90 minutos, para levantarte más descansado. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Escalas</title>
@@ -554,7 +554,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-de-escalas</guid>
       <description>Convierte medidas reales a escala (o al revés) y calcula la escala de un plano, mapa o maqueta a partir de dos medidas. Gratis y sin registro.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Sopa de Letras</title>
@@ -562,7 +562,7 @@
       <guid isPermaLink="true">https://herramatica.com/sopa-de-letras</guid>
       <description>Crea tu propia sopa de letras personalizada con las palabras que quieras. Ideal para niños, clases o cumpleaños. Imprime gratis, sin registro.</description>
       <category>juegos</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Letras Grandes</title>
@@ -570,7 +570,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-de-letras-grandes</guid>
       <description>Crea letras grandes en estilo grafiti, tatuaje (script) o molde para imprimir y recortar. Descarga tu imagen en PNG gratis, sin registro.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Código de Barras</title>
@@ -578,7 +578,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-codigo-de-barras</guid>
       <description>Genera un código de barras EAN-13 a partir de 12 dígitos, con el dígito de control calculado automáticamente. Descarga en PNG, gratis y sin registro.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Crucigramas</title>
@@ -586,7 +586,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-de-crucigramas</guid>
       <description>Crea tu propio crucigrama con tus palabras y pistas. Las palabras se conectan automáticamente por letras compartidas. Imprime gratis, sin registro.</description>
       <category>juegos</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Nombres para Free Fire</title>
@@ -594,7 +594,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-de-nombres-para-free-fire</guid>
       <description>Genera nombres y nicks únicos para Free Fire, con símbolos decorativos y estilo gamer. Copia con un clic. Gratis y sin registro.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Link de WhatsApp</title>
@@ -602,7 +602,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-de-link-de-whatsapp</guid>
       <description>Genera un enlace directo de WhatsApp (wa.me) con mensaje predefinido, sin necesidad de guardar el número. Gratis, sin registro.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Engagement de Instagram</title>
@@ -610,7 +610,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-engagement-instagram</guid>
       <description>Calcula tu tasa de engagement de Instagram por publicación o el promedio de varias publicaciones, a partir de tus seguidores, likes y comentarios. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculador de Horarios</title>
@@ -618,7 +618,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculador-de-horarios</guid>
       <description>Crea tu horario semanal personalizado: clases, turnos de trabajo o rutina. Elige días, horas y colores, e imprime gratis, sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Hexadecimal a Texto</title>
@@ -626,7 +626,7 @@
       <guid isPermaLink="true">https://herramatica.com/hexadecimal-a-texto</guid>
       <description>Convierte código hexadecimal a texto legible (y de texto a hexadecimal), compatible con tildes y ñ mediante UTF-8. Gratis y sin registro.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Ruleta Aleatoria Online</title>
@@ -634,7 +634,7 @@
       <guid isPermaLink="true">https://herramatica.com/ruleta-aleatoria-online</guid>
       <description>Crea tu ruleta aleatoria con tus propias opciones y gira para elegir una al azar. Ideal para sorteos, decisiones o clases. Gratis, sin registro.</description>
       <category>juegos</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Promedio Ponderado Universitario</title>
@@ -642,7 +642,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-promedio-ponderado</guid>
       <description>Calcula tu promedio ponderado universitario a partir de tus notas y créditos por curso. Compatible con UPAO y la mayoría de universidades. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de CTS Perú</title>
@@ -650,7 +650,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-cts-peru</guid>
       <description>Calcula tu CTS (Compensación por Tiempo de Servicios) en Perú según tu remuneración y el periodo de depósito. Gratis, según la normativa laboral peruana.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Gratificación Perú</title>
@@ -658,7 +658,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-gratificacion-peru</guid>
       <description>Calcula tu gratificación de julio o diciembre en Perú, incluyendo la bonificación extraordinaria del 9%. Gratis, según la Ley N.º 27735.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de IGV Perú</title>
@@ -666,7 +666,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-de-igv</guid>
       <description>Calcula el IGV (18%) de un precio en Perú: agrégalo a un precio sin IGV o extráelo de un precio que ya lo incluye. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Detracción</title>
@@ -674,7 +674,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-detraccion</guid>
       <description>Calcula el monto de detracción sobre una venta según el porcentaje de tu categoría SUNAT. Gratis, introduce tu propio porcentaje vigente.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Matrices</title>
@@ -682,7 +682,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-de-matrices</guid>
       <description>Suma, resta, multiplica matrices, y calcula el determinante, la inversa o la transpuesta, para matrices 2x2 y 3x3. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Ecuaciones</title>
@@ -690,7 +690,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-de-ecuaciones</guid>
       <description>Resuelve ecuaciones lineales (ax + b = 0) y cuadráticas (ax² + bx + c = 0) al instante, incluyendo soluciones complejas. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Precios de Influencers de TikTok</title>
@@ -698,7 +698,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-precios-influencers-tiktok</guid>
       <description>Estima cuánto cobrar (o pagar) por un video patrocinado en TikTok según seguidores, engagement y tipo de contenido. Gratis, es una estimación orientativa.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora IP y de Subredes</title>
@@ -706,7 +706,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-ip</guid>
       <description>Calcula la dirección de red, máscara, broadcast y hosts disponibles a partir de una IP y un prefijo CIDR. Gratis, sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Regla de Tres</title>
@@ -714,7 +714,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-regla-de-tres</guid>
       <description>Resuelve reglas de tres directas e inversas al instante: si A corresponde a B, cuánto corresponde a C. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Pendiente</title>
@@ -722,7 +722,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-de-pendiente</guid>
       <description>Calcula la pendiente de una recta a partir de dos puntos, y obtén su ecuación (y = mx + b) al instante. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Derivadas, Integrales y Límites</title>
@@ -730,7 +730,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-derivadas-integrales</guid>
       <description>Calcula límites, derivadas en un punto e integrales definidas de forma numérica. Admite sin(x), cos(x), sqrt(x), potencias y más. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Colesterol LDL</title>
@@ -738,7 +738,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-ldl</guid>
       <description>Calcula tu colesterol LDL a partir del colesterol total, HDL y triglicéridos, con la fórmula de Friedewald. Gratis, herramienta educativa.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de PaFi (PaO2/FiO2)</title>
@@ -746,7 +746,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-pafi</guid>
       <description>Calcula el índice PaFi (PaO2/FiO2) a partir de tu gasometría arterial y la FiO2 administrada. Gratis, herramienta educativa para personal de salud.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Índice de Barthel</title>
@@ -754,7 +754,7 @@
       <guid isPermaLink="true">https://herramatica.com/indice-de-barthel</guid>
       <description>Calcula el Índice de Barthel para evaluar el grado de independencia funcional en actividades básicas de la vida diaria. Gratis, herramienta educativa.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Liquidación Laboral Colombia</title>
@@ -762,7 +762,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-liquidacion-laboral-colombia</guid>
       <description>Calcula tus cesantías, intereses, prima de servicios y vacaciones en Colombia. Gratis, según el Código Sustantivo del Trabajo.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Seguridad Social Colombia</title>
@@ -770,7 +770,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-seguridad-social-colombia</guid>
       <description>Calcula tus aportes a salud y pensión en Colombia, como empleado dependiente o como independiente por honorarios. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de CDT Colombia</title>
@@ -778,7 +778,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-cdt</guid>
       <description>Calcula el rendimiento de tu CDT (Certificado de Depósito a Término) en Colombia según el monto, la TEA y el plazo. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Prima Vacacional</title>
@@ -786,7 +786,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-prima-vacacional</guid>
       <description>Calcula tu prima vacacional 2026: mínimo 25% sobre tus días de vacaciones según tu antigüedad, con la parte exenta de ISR y el neto a recibir. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Vacaciones por Antigüedad</title>
@@ -794,7 +794,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-vacaciones</guid>
       <description>¿Cuántos días de vacaciones te tocan? Calcula tus días según tu fecha de ingreso con la tabla de la LFT 2026, más tus vacaciones proporcionales. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de PTU (Reparto de Utilidades)</title>
@@ -802,7 +802,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-ptu</guid>
       <description>Calcula tu PTU 2026: reparto de utilidades por días trabajados y salario, con el tope de 3 meses de la reforma y la parte exenta de ISR. Gratis y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Salario Diario Integrado (SDI)</title>
@@ -810,7 +810,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-salario-diario-integrado</guid>
       <description>Calcula tu salario diario integrado (SDI) 2026 y el factor de integración según tu antigüedad, aguinaldo y prima vacacional, con el tope de 25 UMA del IMSS.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de CAT (Costo Anual Total)</title>
@@ -818,7 +818,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-cat</guid>
       <description>Calcula el CAT de cualquier crédito o préstamo con la metodología de Banxico: incluye comisiones y te muestra cuánto pagas de más. Compara créditos gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Nómina (Sueldo Neto México)</title>
@@ -826,7 +826,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-nomina</guid>
       <description>Calcula tu sueldo neto 2026 semanal, quincenal o mensual: descuenta ISR con subsidio para el empleo y cuotas obreras del IMSS con su desglose. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Descuentos</title>
@@ -834,7 +834,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-descuento</guid>
       <description>Calcula el precio con descuento, el precio original o qué porcentaje te rebajaron. Incluye descuentos dobles (20% + 10%) y te dice cuánto ahorras. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Ahorro y Metas</title>
@@ -842,7 +842,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-ahorro</guid>
       <description>Calcula cuánto tiempo tardarás en alcanzar tu meta de ahorro o cuánto debes ahorrar cada mes, con o sin rendimientos. Planifica tus finanzas gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de ROI y Margen de Ganancia</title>
@@ -850,7 +850,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-roi</guid>
       <description>Calcula el ROI de una inversión, el margen de ganancia y el markup de un producto, o el precio de venta para ganar el margen que quieres. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Nota Necesaria para Aprobar</title>
@@ -858,7 +858,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-nota-necesaria</guid>
       <description>Calcula qué nota necesitas en tu examen final para aprobar o sacar la calificación que quieres, según tus notas y sus porcentajes. Escalas 0-10, 0-20, 1-7.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Días Hábiles</title>
@@ -866,7 +866,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-dias-habiles</guid>
       <description>Cuenta los días hábiles entre dos fechas o suma días hábiles a una fecha, excluyendo fines de semana y los días festivos oficiales de México 2026. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Fecha Futura</title>
@@ -874,7 +874,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-fecha-futura</guid>
       <description>Calcula qué fecha será dentro de 30, 60, 90 días o cualquier número de días, semanas, meses o años, o qué fecha fue hace X días. Con día de la semana. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Validador de IBAN</title>
@@ -882,7 +882,7 @@
       <guid isPermaLink="true">https://herramatica.com/validador-iban</guid>
       <description>Comprueba si un IBAN es válido: verifica los dígitos de control, la longitud por país y, en España, el banco y el dígito de control de la cuenta. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Ovulación y Días Fértiles</title>
@@ -890,7 +890,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-ovulacion</guid>
       <description>Calcula tu día de ovulación, tus días fértiles y la fecha de tu próxima regla según tu ciclo. Ve tus próximos 3 ciclos. Gratis, privada y sin registro.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de TMB (Metabolismo Basal)</title>
@@ -898,7 +898,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-tmb</guid>
       <description>Calcula tu tasa metabólica basal (TMB) con Mifflin-St Jeor, Harris-Benedict y Katch-McArdle, y tu gasto calórico según tu nivel de actividad. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Grasa Corporal</title>
@@ -906,7 +906,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-grasa-corporal</guid>
       <description>Calcula tu porcentaje de grasa corporal con cinta métrica (método de la Marina de EE. UU.) o con tu IMC, tu masa grasa y magra, y tu categoría. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Agua Diaria</title>
@@ -914,7 +914,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-agua-diaria</guid>
       <description>Calcula cuántos litros de agua debes tomar al día según tu peso, tu ejercicio, el clima y si estás embarazada o en lactancia. En litros y vasos. Gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Formateador y Validador JSON</title>
@@ -922,7 +922,7 @@
       <guid isPermaLink="true">https://herramatica.com/formateador-json</guid>
       <description>Formatea, valida y minifica JSON online. Detecta errores con la línea y columna exactas y te explica cómo corregirlos en español. Gratis y 100% privado.</description>
       <category>texto</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Codificador y Decodificador Base64</title>
@@ -930,7 +930,7 @@
       <guid isPermaLink="true">https://herramatica.com/codificador-base64</guid>
       <description>Codifica y decodifica Base64 online con soporte UTF-8 (acentos y ñ), Base64 URL-safe y conversión de imágenes y archivos a data URI. Gratis y privado.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de UUID Online</title>
@@ -938,7 +938,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-uuid</guid>
       <description>Genera UUID v4 aleatorios o UUID v7 ordenados por tiempo, hasta 1000 a la vez, en mayúsculas o sin guiones. Criptográficamente seguros y gratis.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Probador de Expresiones Regulares (Regex)</title>
@@ -946,7 +946,7 @@
       <guid isPermaLink="true">https://herramatica.com/probador-regex</guid>
       <description>Prueba expresiones regulares en tiempo real: resalta coincidencias, muestra grupos de captura y prueba reemplazos. Con ejemplos para email, teléfono y RFC.</description>
       <category>texto</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Hash MD5, SHA-1 y SHA-256</title>
@@ -954,7 +954,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-hash</guid>
       <description>Calcula el hash MD5, SHA-1, SHA-256, SHA-384 y SHA-512 de un texto o archivo y verifica la integridad de tus descargas. Gratis y 100% en tu navegador.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Lorem Ipsum</title>
@@ -962,7 +962,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-lorem-ipsum</guid>
       <description>Genera texto de relleno Lorem Ipsum por párrafos, oraciones o palabras, con o sin etiquetas HTML &lt;p&gt;, listo para copiar en tus diseños. Gratis.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Validador de Email</title>
@@ -970,7 +970,7 @@
       <guid isPermaLink="true">https://herramatica.com/validador-email</guid>
       <description>Comprueba si un correo electrónico es válido: revisa la sintaxis, detecta errores como gmial.com y verifica que el dominio reciba correo (MX). Uno o en lista.</description>
       <category>texto</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Contador de Caracteres</title>
@@ -978,7 +978,7 @@
       <guid isPermaLink="true">https://herramatica.com/contador-caracteres</guid>
       <description>Cuenta caracteres con y sin espacios, palabras, líneas y bytes, y comprueba los límites de títulos SEO, meta descripciones, X, Instagram y SMS. Gratis.</description>
       <category>texto</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Sorteo Online de Nombres</title>
@@ -986,7 +986,7 @@
       <guid isPermaLink="true">https://herramatica.com/sorteo-online</guid>
       <description>Haz un sorteo online de nombres: elige uno o varios ganadores y suplentes al azar, quita duplicados y copia el resultado para publicarlo. Justo y gratis.</description>
       <category>juegos</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Números Aleatorios y Dados</title>
@@ -994,7 +994,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-numeros-aleatorios</guid>
       <description>Genera números aleatorios entre dos valores, sin repetir y ordenados, o lanza dados online de 4, 6, 8, 10, 12, 20 y 100 caras. Gratis y sin sesgo.</description>
       <category>juegos</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Cara o Cruz Online (Águila o Sol)</title>
@@ -1002,7 +1002,7 @@
       <guid isPermaLink="true">https://herramatica.com/cara-o-cruz</guid>
       <description>Lanza una moneda virtual: cara o cruz, águila o sol, cara o sello o cara o ceca. Resultado 50/50 justo, con animación e historial de lanzamientos. Gratis.</description>
       <category>juegos</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Temporizador Online con Alarma</title>
@@ -1010,7 +1010,7 @@
       <guid isPermaLink="true">https://herramatica.com/temporizador-online</guid>
       <description>Temporizador online con alarma y cuenta regresiva a cualquier fecha. Pausa, reanuda y ve el tiempo en la pestaña. Ideal para Pomodoro, cocina y ejercicio.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Conversor de Criptomonedas</title>
@@ -1018,7 +1018,7 @@
       <guid isPermaLink="true">https://herramatica.com/conversor-criptomonedas</guid>
       <description>Convierte Bitcoin, Ethereum, USDT, Solana y más a pesos mexicanos, dólares, euros, pesos argentinos o chilenos con precios en tiempo real. Gratis.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Conversor de Zona Horaria</title>
@@ -1026,7 +1026,7 @@
       <guid isPermaLink="true">https://herramatica.com/conversor-zona-horaria</guid>
       <description>Convierte la hora entre México, España, Colombia, Argentina, Chile, EE. UU. y cualquier ciudad, con el horario de verano de cada país. Gratis.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Kilos a Libras</title>
@@ -1034,7 +1034,7 @@
       <guid isPermaLink="true">https://herramatica.com/kilos-a-libras</guid>
       <description>Convierte kilos a libras y libras a kilos al instante, con libras y onzas y una tabla de equivalencias. 1 kg = 2.20462 lb. Gratis y sin registro.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Tallas de Zapatos y Ropa</title>
@@ -1042,7 +1042,7 @@
       <guid isPermaLink="true">https://herramatica.com/convertidor-tallas</guid>
       <description>Convierte tallas de zapatos entre México, Estados Unidos, Reino Unido y Europa, o encuentra tu talla midiendo tu pie en cm. Incluye tallas de ropa. Gratis.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Subsidio al Empleo 2026</title>
@@ -1050,7 +1050,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-subsidio-empleo</guid>
       <description>Calcula el subsidio para el empleo 2026: cuánto te corresponde, el límite de $11,492.66 y cuánto ISR te retienen al final. Semanal, quincenal o mensual.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Cuotas IMSS 2026 (Patrón y Trabajador)</title>
@@ -1058,7 +1058,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-cuota-imss</guid>
       <description>Calcula las cuotas IMSS 2026 del patrón y del trabajador: enfermedad y maternidad, invalidez, cesantía y vejez con la tabla de la reforma, e Infonavit.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Tabla de Salarios Mínimos 2026 en México</title>
@@ -1066,7 +1066,7 @@
       <guid isPermaLink="true">https://herramatica.com/salarios-minimos-2026</guid>
       <description>Salario mínimo 2026 en México: $315.04 diarios en la zona general y $440.87 en la frontera norte. Montos semanal, quincenal y mensual e historial desde 2019.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Simulador de Pensión IMSS con Modalidad 40</title>
@@ -1074,7 +1074,7 @@
       <guid isPermaLink="true">https://herramatica.com/pension-imss-modalidad-40</guid>
       <description>Simula tu pensión IMSS Ley 73 con y sin Modalidad 40: nuevo salario promedio, pago mensual con la cuota 2026, aumento de pensión y en cuánto recuperas lo invertido.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Semanas Cotizadas IMSS</title>
@@ -1082,7 +1082,7 @@
       <guid isPermaLink="true">https://herramatica.com/semanas-cotizadas-imss</guid>
       <description>Estima tus semanas cotizadas en el IMSS sumando tus empleos por fechas, sin contar traslapes, y descubre cuántas te faltan para pensionarte por Ley 73 o Ley 97.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Horas Extras (LFT México)</title>
@@ -1090,7 +1090,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-horas-extras</guid>
       <description>Calcula el pago de tus horas extra según la LFT: las primeras 9 a la semana al doble y el resto al triple, con el valor de tu hora y la parte exenta de ISR.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Comparador de AFORE: Simulador de Ahorro para el Retiro</title>
@@ -1098,7 +1098,7 @@
       <guid isPermaLink="true">https://herramatica.com/comparador-afore</guid>
       <description>Compara AFORE por rendimiento neto: simula tu saldo al retiro en cada una con las aportaciones 2026 de la reforma y ve cuánto dinero pierdes en la peor opción.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de ISR del Aguinaldo 2026</title>
@@ -1106,7 +1106,7 @@
       <guid isPermaLink="true">https://herramatica.com/calcular-isr-aguinaldo</guid>
       <description>Calcula el ISR de tu aguinaldo 2026: exención de 30 UMA ($3,519.30), impuesto con el artículo 96 y con el 174 del reglamento, y cuánto recibirás en neto.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Dólar a Peso Mexicano: Convertidor con Tipo de Cambio de Hoy</title>
@@ -1114,7 +1114,7 @@
       <guid isPermaLink="true">https://herramatica.com/dolar-a-peso-mexicano</guid>
       <description>Convierte dólares a pesos mexicanos con el tipo de cambio de referencia de hoy. Incluye gráfica del último mes, tabla rápida y margen de tu casa de cambio.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Tabla de Amortización de Préstamos</title>
@@ -1122,7 +1122,7 @@
       <guid isPermaLink="true">https://herramatica.com/tabla-de-amortizacion</guid>
       <description>Genera tu tabla de amortización con pago fijo (francés), capital fijo (alemán) o americano. Incluye abonos a capital, IVA de intereses y descarga para Excel.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de CETES: Rendimiento en Cetesdirecto</title>
@@ -1130,7 +1130,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-cetes</guid>
       <description>Calcula cuánto ganas en CETES: precio por título, títulos que compras, intereses, retención de ISR y reinversión automática a 28, 91, 182 o 364 días.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Simulador de Crédito Automotriz</title>
@@ -1138,7 +1138,7 @@
       <guid isPermaLink="true">https://herramatica.com/simulador-credito-automotriz</guid>
       <description>Simula tu crédito de auto: enganche, mensualidad con IVA de intereses, comisión por apertura, seguro, CAT y cuánto pagas de más frente al precio de contado.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Interés Simple</title>
@@ -1146,7 +1146,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-interes-simple</guid>
       <description>Calcula el interés simple con la fórmula I = C·r·t o despeja el capital, la tasa o el tiempo. Acepta años, meses y días con año comercial de 360 o natural de 365.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Presupuesto Mensual: Planificador de Gastos 50/30/20</title>
@@ -1154,7 +1154,7 @@
       <guid isPermaLink="true">https://herramatica.com/presupuesto-mensual</guid>
       <description>Haz tu presupuesto mensual gratis: registra ingresos y gastos, clasifícalos en necesidades, gustos y ahorro y compáralos con la regla 50/30/20.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Plan para Pagar Deudas: Método Avalancha y Bola de Nieve</title>
@@ -1162,7 +1162,7 @@
       <guid isPermaLink="true">https://herramatica.com/plan-pago-deudas</guid>
       <description>Crea tu plan para salir de deudas: compara el método avalancha y bola de nieve, calcula en cuántos meses terminas, cuánto pagas de intereses y el orden de pago.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Comisión por Ventas</title>
@@ -1170,7 +1170,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-comision-ventas</guid>
       <description>Calcula tu comisión por ventas con porcentaje fijo, por tramos escalonados o con meta y bono. Suma tu sueldo base y conoce tu comisión efectiva al instante.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Comparador de Precios por Kilo, Litro o Pieza</title>
@@ -1178,7 +1178,7 @@
       <guid isPermaLink="true">https://herramatica.com/comparador-precios</guid>
       <description>Descubre qué presentación conviene más en el súper: compara precio por kilo, litro o pieza entre tamaños, marcas y promociones como 3x2 al instante.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Libras a Kilos</title>
@@ -1186,7 +1186,7 @@
       <guid isPermaLink="true">https://herramatica.com/libras-a-kilos</guid>
       <description>Convierte libras a kilos al instante: 1 lb = 0.4536 kg. Incluye tabla de peso corporal, fórmula para calcular de cabeza y conversión inversa de kg a lb.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Fahrenheit a Celsius</title>
@@ -1194,7 +1194,7 @@
       <guid isPermaLink="true">https://herramatica.com/fahrenheit-a-celsius</guid>
       <description>Convierte grados Fahrenheit a Celsius con la fórmula (°F − 32) × 5/9. Tabla de temperaturas de horno, fiebre y clima, y un truco para calcular de cabeza.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Onzas a Gramos</title>
@@ -1202,7 +1202,7 @@
       <guid isPermaLink="true">https://herramatica.com/onzas-a-gramos</guid>
       <description>Convierte onzas a gramos: 1 oz = 28.35 g. Incluye onza troy para oro y plata y onza líquida a mililitros, con tabla de equivalencias y conversión inversa.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Tazas a Mililitros y Gramos</title>
@@ -1210,7 +1210,7 @@
       <guid isPermaLink="true">https://herramatica.com/tazas-a-ml</guid>
       <description>Convierte tazas a mililitros: taza de EE. UU. (236.6 ml), métrica (250 ml) e imperial. Además, cuántos gramos pesa una taza de harina, azúcar, arroz y más.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Millas a Kilómetros</title>
@@ -1218,7 +1218,7 @@
       <guid isPermaLink="true">https://herramatica.com/millas-a-kilometros</guid>
       <description>Convierte millas a kilómetros: 1 milla = 1.609 km. Incluye millas náuticas, tabla de distancias de carreras y velocidades, y el truco de Fibonacci.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Pies a Metros</title>
@@ -1226,7 +1226,7 @@
       <guid isPermaLink="true">https://herramatica.com/pies-a-metros</guid>
       <description>Convierte pies a metros: 1 pie = 0.3048 m. Pasa tu estatura en pies y pulgadas a metros y centímetros, con tabla de alturas y conversión de metros a pies.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Litros a Galones</title>
@@ -1234,7 +1234,7 @@
       <guid isPermaLink="true">https://herramatica.com/litros-a-galones</guid>
       <description>Convierte litros a galones: 1 galón de EE. UU. = 3.785 L y el británico = 4.546 L. Tabla para gasolina, pintura y agua, y conversión de galones a litros.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Validador de CURP</title>
@@ -1242,7 +1242,7 @@
       <guid isPermaLink="true">https://herramatica.com/validar-curp</guid>
       <description>Valida una CURP al instante: revisa la estructura de los 18 caracteres, la fecha de nacimiento, el estado y el dígito verificador. Gratis y sin guardar tus datos.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora para Dividir la Cuenta</title>
@@ -1250,7 +1250,7 @@
       <guid isPermaLink="true">https://herramatica.com/dividir-cuenta</guid>
       <description>Divide la cuenta del restaurante entre amigos: en partes iguales o cada quien lo que consumió, con propina, gastos compartidos y redondeo. Rápido y gratis.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Hora Militar (Formato 24 Horas)</title>
@@ -1258,7 +1258,7 @@
       <guid isPermaLink="true">https://herramatica.com/hora-militar</guid>
       <description>Convierte la hora de 12 a 24 horas y al revés: 2:30 p. m. = 14:30. Incluye cómo se lee la hora militar, tabla de conversión completa y la hora actual.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Promedio</title>
@@ -1266,7 +1266,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-promedio</guid>
       <description>Calcula el promedio de tus calificaciones o de cualquier lista de números. Obtén media, mediana, moda y rango, y descubre si apruebas con tu calificación mínima.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Fracciones</title>
@@ -1274,7 +1274,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-fracciones</guid>
       <description>Suma, resta, multiplica y divide fracciones y números mixtos con procedimiento paso a paso. Resultado simplificado, como número mixto, decimal y porcentaje.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de MCD y MCM</title>
@@ -1282,7 +1282,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-mcd-mcm</guid>
       <description>Calcula el máximo común divisor (MCD) y el mínimo común múltiplo (MCM) de dos o más números, con descomposición en factores primos y algoritmo de Euclides.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora del Teorema de Pitágoras</title>
@@ -1290,7 +1290,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-pitagoras</guid>
       <description>Calcula la hipotenusa o un cateto con el teorema de Pitágoras. Obtén también ángulos, área, perímetro y altura del triángulo rectángulo con procedimiento.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Factorial (n!)</title>
@@ -1298,7 +1298,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-factorial</guid>
       <description>Calcula el factorial de un número (n!) con todos sus dígitos exactos hasta 5000!. Incluye notación científica, número de dígitos y ceros finales.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Desviación Estándar</title>
@@ -1306,7 +1306,7 @@
       <guid isPermaLink="true">https://herramatica.com/calculadora-desviacion-estandar</guid>
       <description>Calcula la desviación estándar y la varianza de una muestra o población, con la media, la tabla de desviaciones paso a paso y el coeficiente de variación.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Tablas de Multiplicar para Imprimir y Practicar</title>
@@ -1314,7 +1314,7 @@
       <guid isPermaLink="true">https://herramatica.com/tablas-de-multiplicar</guid>
       <description>Genera las tablas de multiplicar del 1 al 20 para imprimir y practica con un juego de preguntas que cuenta tus aciertos. Ideal para niños, padres y maestros.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Calculadora de Edad de Perro en Años Humanos</title>
@@ -1322,7 +1322,7 @@
       <guid isPermaLink="true">https://herramatica.com/edad-de-mi-perro</guid>
       <description>Calcula la edad de tu perro en años humanos según su tamaño, con la fórmula epigenética y la regla del ×7. Descubre su etapa de vida y su esperanza de vida.</description>
       <category>calculadoras</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Decodificador de JWT</title>
@@ -1330,7 +1330,7 @@
       <guid isPermaLink="true">https://herramatica.com/decodificador-jwt</guid>
       <description>Decodifica tokens JWT en tu navegador: ve el header y el payload, fechas de expiración legibles y verifica firmas HS256, HS384 y HS512 sin enviar el token.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Conversor de CSV a JSON (y JSON a CSV)</title>
@@ -1338,7 +1338,7 @@
       <guid isPermaLink="true">https://herramatica.com/conversor-csv-json</guid>
       <description>Convierte CSV a JSON y JSON a CSV en tu navegador. Detecta comas, punto y coma o tabuladores, respeta comillas, tipa números y descarga el resultado.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Codificador y Decodificador de URL</title>
@@ -1346,7 +1346,7 @@
       <guid isPermaLink="true">https://herramatica.com/codificador-url</guid>
       <description>Codifica y decodifica URLs con porcentaje (%20, %C3%B1), elige entre componente o URL completa y analiza el dominio, la ruta y cada parámetro de una dirección.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Minificador de JavaScript, CSS y HTML</title>
@@ -1354,7 +1354,7 @@
       <guid isPermaLink="true">https://herramatica.com/minificador-codigo</guid>
       <description>Minifica JavaScript con Terser, CSS y HTML en tu navegador: elimina espacios y comentarios, acorta variables y muestra cuántos KB ahorras. Gratis y privado.</description>
       <category>texto</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Datos de Prueba en Español</title>
@@ -1362,7 +1362,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-datos-prueba</guid>
       <description>Genera datos de prueba realistas en español: nombres, correos, teléfonos, direcciones y más de México, España, Colombia y Argentina. Exporta a JSON, CSV o SQL.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Paletas de Colores</title>
@@ -1370,7 +1370,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-paleta-colores</guid>
       <description>Crea paletas de colores a partir de un color base: complementaria, análoga, triádica, tetrádica o aleatoria. Bloquea colores y copia HEX o variables CSS.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Selector de Color HEX, RGB y HSL</title>
@@ -1378,7 +1378,7 @@
       <guid isPermaLink="true">https://herramatica.com/selector-de-color</guid>
       <description>Elige un color y obtén su código HEX, RGB, HSL, HSV y CMYK. Mide el contraste WCAG con texto blanco y negro, genera tonos y toma colores de la pantalla.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Conversor HEX a RGB (y RGB a HEX)</title>
@@ -1386,7 +1386,7 @@
       <guid isPermaLink="true">https://herramatica.com/conversor-hex-rgb</guid>
       <description>Convierte colores HEX a RGB y RGB a HEX, uno o varios a la vez. Acepta #RGB, #RRGGBB y transparencia #RRGGBBAA, y muestra también el equivalente HSL.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Imagen a Base64</title>
@@ -1394,7 +1394,7 @@
       <guid isPermaLink="true">https://herramatica.com/imagen-a-base64</guid>
       <description>Convierte imágenes PNG, JPG, SVG, GIF o WebP a Base64 y data URI listos para HTML, CSS y Markdown, o decodifica Base64 a imagen. Sin subir tus archivos.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Nombres de Bebé con Significado</title>
@@ -1402,7 +1402,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-nombres-bebe</guid>
       <description>Encuentra nombres para tu bebé con su significado y origen: filtra por niña, niño o unisex, letra inicial y origen náhuatl, hebreo, latín y más. Guarda favoritos.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Apodos</title>
@@ -1410,7 +1410,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-apodos</guid>
       <description>Crea apodos a partir de un nombre: cariñosos, graciosos, con estilo o nicks gamer. Incluye los apodos tradicionales como Pepe, Lupita o Memo. Copia con un clic.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Nombres para Empresas</title>
@@ -1418,7 +1418,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-nombres-empresa</guid>
       <description>Genera nombres para tu empresa o negocio a partir de palabras clave y tu sector: tecnología, comida, moda, salud y más. Con vista del dominio y lista corta.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Piedra, Papel o Tijera Online</title>
@@ -1426,7 +1426,7 @@
       <guid isPermaLink="true">https://herramatica.com/piedra-papel-tijera</guid>
       <description>Juega piedra, papel o tijera contra la computadora: modo clásico o con lagarto y Spock, partidas al mejor de 3, 5 o 7 y marcador de victorias. Gratis.</description>
       <category>juegos</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Equipos Aleatorios</title>
@@ -1434,7 +1434,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-equipos</guid>
       <description>Forma equipos al azar a partir de una lista de nombres: elige cuántos equipos o cuántas personas por equipo, con capitanes y nombres de equipo. Copia el resultado.</description>
       <category>juegos</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Tómbola y Bingo Online</title>
@@ -1442,7 +1442,7 @@
       <guid isPermaLink="true">https://herramatica.com/tombola-online</guid>
       <description>Saca bolas de bingo de 75 o 90 números con tablero, modo automático y voz que canta los números. Además, genera cartones de bingo para imprimir gratis.</description>
       <category>juegos</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Verdad o Reto Online</title>
@@ -1450,7 +1450,7 @@
       <guid isPermaLink="true">https://herramatica.com/verdad-o-reto</guid>
       <description>Juega verdad o reto con preguntas y retos en español para familia, amigos o parejas. Turnos por jugador, dado aleatorio y sin repeticiones. Gratis en el celular.</description>
       <category>juegos</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Ideas para Historias</title>
@@ -1458,7 +1458,7 @@
       <guid isPermaLink="true">https://herramatica.com/ideas-para-historias</guid>
       <description>Genera ideas para cuentos y novelas: protagonista, escenario, conflicto, giro final y primera línea. Géneros de fantasía, misterio, terror, romance y más.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Hashtags para Instagram y TikTok</title>
@@ -1466,7 +1466,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-hashtags</guid>
       <description>Genera hashtags en español para tus publicaciones de Instagram, TikTok o Facebook: por temática y ubicación, elige los mejores y cópialos en un clic.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Biografía para Instagram</title>
@@ -1474,7 +1474,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-bio-instagram</guid>
       <description>Crea tu biografía de Instagram en segundos: con emojis, nombre en negritas, intereses y llamada a la acción, siempre dentro del límite de 150 caracteres.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Firmas de Correo Electrónico</title>
@@ -1482,7 +1482,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-firma-email</guid>
       <description>Crea una firma de correo profesional en HTML con foto, puesto, teléfono, web y redes sociales. Cópiala con formato para Gmail u Outlook, o copia el código.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Eslóganes</title>
@@ -1490,7 +1490,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-esloganes</guid>
       <description>Crea eslóganes para tu negocio en segundos: escribe tu marca y lo que vendes, elige qué destacar (calidad, precio, rapidez, tradición) y copia tus favoritos.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Generador de Enlaces con Parámetros UTM</title>
@@ -1498,7 +1498,7 @@
       <guid isPermaLink="true">https://herramatica.com/generador-utm</guid>
       <description>Crea enlaces con parámetros UTM para medir tus campañas en Google Analytics: fuente, medio, campaña, término y contenido, con limpieza automática y copia rápida.</description>
       <category>generadores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
     <item>
       <title>Convertidor de Markdown a HTML</title>
@@ -1506,7 +1506,359 @@
       <guid isPermaLink="true">https://herramatica.com/markdown-a-html</guid>
       <description>Convierte Markdown a HTML con vista previa en tiempo real. Soporta tablas, listas, citas y código al estilo GitHub. Copia el HTML limpio para tu blog o web.</description>
       <category>convertidores</category>
-      <pubDate>Wed, 30 Sep 2026 10:25:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora del Paro 2026: Cuánto Cobro de Desempleo</title>
+      <link>https://herramatica.com/calcular-paro</link>
+      <guid isPermaLink="true">https://herramatica.com/calcular-paro</guid>
+      <description>Calcula cuánto cobrarás de paro en 2026: duración según lo cotizado, cuantía del 70%, 60% y 50% de tu base reguladora y los topes con el IPREM de 600 €.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Cuota de Autónomos 2026</title>
+      <link>https://herramatica.com/cuota-autonomo</link>
+      <guid isPermaLink="true">https://herramatica.com/cuota-autonomo</guid>
+      <description>Calcula tu cuota de autónomo 2026 según tus rendimientos netos: 15 tramos, base mínima y máxima, tipo del 31,5% con MEI y tarifa plana de 80 €.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Plusvalía Municipal</title>
+      <link>https://herramatica.com/calcular-plusvalia</link>
+      <guid isPermaLink="true">https://herramatica.com/calcular-plusvalia</guid>
+      <description>Calcula la plusvalía municipal al vender tu vivienda: método objetivo con los coeficientes vigentes en 2026 y método real, para pagar el menor. Gratis.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Nota de Acceso y Admisión (PAU / EBAU)</title>
+      <link>https://herramatica.com/nota-de-corte</link>
+      <guid isPermaLink="true">https://herramatica.com/nota-de-corte</guid>
+      <description>Calcula tu nota de acceso y de admisión a la universidad (PAU/EBAU): 60% Bachillerato, 40% fase general y las dos mejores ponderaciones hasta 14 puntos.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de la Factura de la Luz</title>
+      <link>https://herramatica.com/calculadora-factura-luz</link>
+      <guid isPermaLink="true">https://herramatica.com/calculadora-factura-luz</guid>
+      <description>Calcula tu factura de la luz: término de potencia, energía por periodos 2.0TD, impuesto eléctrico, alquiler del contador, IVA del 21% y bono social.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Edad de Jubilación en España</title>
+      <link>https://herramatica.com/jubilacion-espana</link>
+      <guid isPermaLink="true">https://herramatica.com/jubilacion-espana</guid>
+      <description>Calcula tu fecha de jubilación en España: edad ordinaria 2026 (65 años con 38 años y 3 meses cotizados o 66 y 10 meses), anticipada voluntaria e involuntaria.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora del Impuesto de Sucesiones</title>
+      <link>https://herramatica.com/impuesto-sucesiones</link>
+      <guid isPermaLink="true">https://herramatica.com/impuesto-sucesiones</guid>
+      <description>Calcula el impuesto de sucesiones en España: escala estatal, reducción por parentesco, coeficiente multiplicador y bonificaciones de Madrid, Andalucía y más.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Cuánto Cuesta Reformar un Piso</title>
+      <link>https://herramatica.com/cuanto-cuesta-reformar</link>
+      <guid isPermaLink="true">https://herramatica.com/cuanto-cuesta-reformar</guid>
+      <description>Calcula cuánto cuesta reformar tu piso: precio por m² según el tipo de reforma y los acabados, cocina, baños, IVA del 10% o 21% y licencia de obras.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Huella de Carbono Personal</title>
+      <link>https://herramatica.com/huella-de-carbono</link>
+      <guid isPermaLink="true">https://herramatica.com/huella-de-carbono</guid>
+      <description>Calcula tu huella de carbono personal: hogar, coche, transporte público, vuelos, alimentación y consumo. Descubre qué parte pesa más y cómo reducirla.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dólar Blue Hoy: Conversor a Pesos Argentinos</title>
+      <link>https://herramatica.com/dolar-blue</link>
+      <guid isPermaLink="true">https://herramatica.com/dolar-blue</guid>
+      <description>Cotización del dólar blue, oficial, MEP, CCL, cripto y tarjeta de hoy. Convertí dólares a pesos argentinos con el precio de compra o venta y mirá la brecha.</description>
+      <category>convertidores</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Categoría de Monotributo 2026</title>
+      <link>https://herramatica.com/monotributo</link>
+      <guid isPermaLink="true">https://herramatica.com/monotributo</guid>
+      <description>Calculá tu categoría de Monotributo con la escala de ARCA vigente desde agosto de 2026: ingresos, superficie, energía y alquileres, y el desglose de tu cuota.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Inflación Acumulada</title>
+      <link>https://herramatica.com/calculadora-inflacion</link>
+      <guid isPermaLink="true">https://herramatica.com/calculadora-inflacion</guid>
+      <description>Calculá la inflación acumulada de varios meses o años, actualizá montos por inflación y comprobá si tu aumento de sueldo le ganó a la inflación. Gratis.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Preaviso Laboral (Argentina)</title>
+      <link>https://herramatica.com/preaviso-laboral</link>
+      <guid isPermaLink="true">https://herramatica.com/preaviso-laboral</guid>
+      <description>Calculá el preaviso según la Ley de Contrato de Trabajo: 15 días, 1 o 2 meses según antigüedad, integración del mes de despido y SAC sobre ambos conceptos.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Sueldo Líquido Chile 2026</title>
+      <link>https://herramatica.com/sueldo-liquido-chile</link>
+      <guid isPermaLink="true">https://herramatica.com/sueldo-liquido-chile</guid>
+      <description>Calcula tu sueldo líquido en Chile: AFP con comisión, Fonasa o Isapre, seguro de cesantía, impuesto único en UTM y gratificación, con topes imponibles 2026.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Finiquito Chile</title>
+      <link>https://herramatica.com/finiquito-chile</link>
+      <guid isPermaLink="true">https://herramatica.com/finiquito-chile</guid>
+      <description>Calcula tu finiquito en Chile según la causal: indemnización por años de servicio, aviso previo, feriado proporcional y recargos del art. 168, con tope de 90 UF.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Conversor de UF a Pesos Chilenos (Hoy)</title>
+      <link>https://herramatica.com/uf-a-pesos</link>
+      <guid isPermaLink="true">https://herramatica.com/uf-a-pesos</guid>
+      <description>Valor de la UF de hoy y conversor de UF a pesos chilenos y de pesos a UF. Tabla de equivalencias para arriendos, créditos hipotecarios y contratos.</description>
+      <category>convertidores</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Conversor de UTM a Pesos Chilenos</title>
+      <link>https://herramatica.com/utm-a-pesos</link>
+      <guid isPermaLink="true">https://herramatica.com/utm-a-pesos</guid>
+      <description>Valor de la UTM del mes y conversor de UTM a pesos chilenos y de pesos a UTM. Calcula multas, impuestos y el tramo exento del impuesto único.</description>
+      <category>convertidores</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Simulador de Dividendo Hipotecario (Chile)</title>
+      <link>https://herramatica.com/dividendo-hipotecario</link>
+      <guid isPermaLink="true">https://herramatica.com/dividendo-hipotecario</guid>
+      <description>Calcula el dividendo de tu crédito hipotecario en UF y pesos: pie, tasa, plazo, seguros de desgravamen e incendio, intereses totales y renta mínima.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Gratificación Legal Chile 2026</title>
+      <link>https://herramatica.com/gratificacion-chile</link>
+      <guid isPermaLink="true">https://herramatica.com/gratificacion-chile</guid>
+      <description>Calcula tu gratificación legal en Chile: modalidad del 25% con tope de 4,75 ingresos mínimos (art. 50) o 30% de utilidades (art. 47), con el IMM de 2026.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Cotización AFP (Chile)</title>
+      <link>https://herramatica.com/cotizacion-afp</link>
+      <guid isPermaLink="true">https://herramatica.com/cotizacion-afp</guid>
+      <description>Calcula tu cotización AFP: 10% obligatorio más la comisión de cada AFP (Uno, Modelo, PlanVital, Habitat, Capital, Cuprum y Provida) con el tope de 90 UF.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Puntaje Ponderado PAES</title>
+      <link>https://herramatica.com/puntaje-paes</link>
+      <guid isPermaLink="true">https://herramatica.com/puntaje-paes</guid>
+      <description>Calcula tu puntaje ponderado PAES: NEM, ranking, Competencia Lectora, M1, M2 y electiva con las ponderaciones de tu carrera, en la escala de 100 a 1.000.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Prima de Servicios Colombia 2026</title>
+      <link>https://herramatica.com/prima-de-servicios</link>
+      <guid isPermaLink="true">https://herramatica.com/prima-de-servicios</guid>
+      <description>Calcula tu prima de servicios en Colombia: salario más auxilio de transporte por días trabajados ÷ 360, con los valores 2026 del salario mínimo y el auxilio.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Cesantías Colombia 2026</title>
+      <link>https://herramatica.com/calcular-cesantias</link>
+      <guid isPermaLink="true">https://herramatica.com/calcular-cesantias</guid>
+      <description>Calcula tus cesantías en Colombia: un mes de salario por año, con auxilio de transporte si aplica, y los intereses del 12% anual que te paga el empleador.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Intereses a las Cesantías</title>
+      <link>https://herramatica.com/intereses-cesantias</link>
+      <guid isPermaLink="true">https://herramatica.com/intereses-cesantias</guid>
+      <description>Calcula los intereses sobre tus cesantías en Colombia: 12% anual proporcional a los días trabajados, a partir de tu salario o de las cesantías ya liquidadas.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Retención en la Fuente por Salarios 2026</title>
+      <link>https://herramatica.com/retencion-en-la-fuente</link>
+      <guid isPermaLink="true">https://herramatica.com/retencion-en-la-fuente</guid>
+      <description>Calcula la retención en la fuente de tu salario en Colombia con el procedimiento 1 y la tabla del art. 383 en UVT 2026: aportes, deducciones y renta exenta del 25%.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Vacaciones Colombia</title>
+      <link>https://herramatica.com/vacaciones-colombia</link>
+      <guid isPermaLink="true">https://herramatica.com/vacaciones-colombia</guid>
+      <description>Calcula tus vacaciones en Colombia: 15 días hábiles por año, días pendientes, valor de cada día y compensación al terminar el contrato (salario × días ÷ 720).</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Renta de Quinta Categoría 2026</title>
+      <link>https://herramatica.com/renta-quinta-categoria</link>
+      <guid isPermaLink="true">https://herramatica.com/renta-quinta-categoria</guid>
+      <description>Calcula tu impuesto a la renta de quinta categoría en Perú: 7 UIT de deducción, escala del 8% al 30%, gratificaciones y bonificación con la UIT 2026.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Conversor de UIT a Soles</title>
+      <link>https://herramatica.com/uit-a-soles</link>
+      <guid isPermaLink="true">https://herramatica.com/uit-a-soles</guid>
+      <description>Convierte UIT a soles y soles a UIT con el valor de 2026 (S/ 5,500) o de años anteriores. Tabla histórica desde 2017 y montos frecuentes en UIT.</description>
+      <category>convertidores</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Vacaciones Perú</title>
+      <link>https://herramatica.com/vacaciones-peru</link>
+      <guid isPermaLink="true">https://herramatica.com/vacaciones-peru</guid>
+      <description>Calcula tus vacaciones truncas y no gozadas en Perú: 30 días por año, dozavos por mes trabajado, indemnización vacacional y asignación familiar.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Comparador AFP vs ONP (Perú)</title>
+      <link>https://herramatica.com/afp-vs-onp</link>
+      <guid isPermaLink="true">https://herramatica.com/afp-vs-onp</guid>
+      <description>Compara tu pensión en AFP y ONP: fondo estimado a los 65, pensión mínima ONP de S/ 600, proporcionales de S/ 300 y S/ 400, y el descuento mensual de cada sistema.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora del Décimo Tercer Sueldo (Ecuador)</title>
+      <link>https://herramatica.com/decimo-tercer-sueldo</link>
+      <guid isPermaLink="true">https://herramatica.com/decimo-tercer-sueldo</guid>
+      <description>Calcula tu décimo tercer sueldo en Ecuador: la doceava parte de lo ganado del 1 de diciembre al 30 de noviembre, anual o mensualizado, con fecha de pago.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora del Décimo Cuarto Sueldo (Ecuador)</title>
+      <link>https://herramatica.com/decimo-cuarto-sueldo</link>
+      <guid isPermaLink="true">https://herramatica.com/decimo-cuarto-sueldo</guid>
+      <description>Calcula tu décimo cuarto sueldo 2026 en Ecuador: un salario básico unificado de $482 proporcional a los días trabajados, con fechas de pago en Sierra y Costa.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Fondos de Reserva (Ecuador)</title>
+      <link>https://herramatica.com/fondos-de-reserva</link>
+      <guid isPermaLink="true">https://herramatica.com/fondos-de-reserva</guid>
+      <description>Calcula tus fondos de reserva en Ecuador: 8.33% de tu remuneración desde el segundo año de trabajo, cobrados en el rol de pagos o acumulados en el IESS.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Impuesto a la Renta Ecuador 2026</title>
+      <link>https://herramatica.com/impuesto-renta-ecuador</link>
+      <guid isPermaLink="true">https://herramatica.com/impuesto-renta-ecuador</guid>
+      <description>Calcula tu impuesto a la renta 2026 en Ecuador con la tabla del SRI (fracción básica $12.208), aporte IESS y la rebaja del 18% por gastos personales.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Aguinaldo Uruguay</title>
+      <link>https://herramatica.com/aguinaldo-uruguay</link>
+      <guid isPermaLink="true">https://herramatica.com/aguinaldo-uruguay</guid>
+      <description>Calculá tu aguinaldo en Uruguay: la doceava parte de lo ganado en el semestre, para junio o diciembre, con aportes a BPS y el líquido estimado.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de IRPF Uruguay 2026</title>
+      <link>https://herramatica.com/irpf-uruguay</link>
+      <guid isPermaLink="true">https://herramatica.com/irpf-uruguay</guid>
+      <description>Calculá el IRPF de tu sueldo en Uruguay con la BPC 2026 ($6.864): franjas del 0% al 36%, deducciones al 14% u 8%, hijos a cargo y tu sueldo líquido.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amigo Invisible Online: Sorteo con Enlaces Secretos</title>
+      <link>https://herramatica.com/amigo-invisible</link>
+      <guid isPermaLink="true">https://herramatica.com/amigo-invisible</guid>
+      <description>Organiza el amigo invisible o amigo secreto online: sorteo sin repeticiones, exclusiones de parejas y un enlace privado para que cada uno vea a quién regala.</description>
+      <category>juegos</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>¿Cuántos Días Faltan para Navidad? Cuenta Regresiva</title>
+      <link>https://herramatica.com/dias-para-navidad</link>
+      <guid isPermaLink="true">https://herramatica.com/dias-para-navidad</guid>
+      <description>Cuenta regresiva en vivo para Navidad: días, horas, minutos y segundos. También para Nochebuena, Año Nuevo, Reyes, San Valentín, Halloween y tu propia fecha.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calculadora de Presupuesto de Boda</title>
+      <link>https://herramatica.com/presupuesto-boda</link>
+      <guid isPermaLink="true">https://herramatica.com/presupuesto-boda</guid>
+      <description>Planifica el presupuesto de tu boda: reparte el total entre banquete, lugar, fotografía, vestido, música y más, y calcula el costo por invitado.</description>
+      <category>calculadoras</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Comprimir Imagen Online</title>
+      <link>https://herramatica.com/comprimir-imagen</link>
+      <guid isPermaLink="true">https://herramatica.com/comprimir-imagen</guid>
+      <description>Comprime imágenes JPG, PNG y WebP en tu navegador sin subirlas: ajusta la calidad, convierte a WebP, limita el ancho y descarga imágenes más ligeras.</description>
+      <category>convertidores</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Redimensionar Imagen Online</title>
+      <link>https://herramatica.com/redimensionar-imagen</link>
+      <guid isPermaLink="true">https://herramatica.com/redimensionar-imagen</guid>
+      <description>Cambia el tamaño de una imagen en tu navegador: tamaños para Instagram, Facebook, YouTube, X, LinkedIn y WhatsApp, o medidas personalizadas en píxeles.</description>
+      <category>convertidores</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Generador de Favicon Online</title>
+      <link>https://herramatica.com/generador-favicon</link>
+      <guid isPermaLink="true">https://herramatica.com/generador-favicon</guid>
+      <description>Crea el favicon de tu sitio web a partir de tu logo: favicon.ico, PNG de 16 a 512 px, apple-touch-icon y el código HTML y el manifiesto listos para copiar.</description>
+      <category>generadores</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Generador de Excusas</title>
+      <link>https://herramatica.com/generador-excusas</link>
+      <guid isPermaLink="true">https://herramatica.com/generador-excusas</guid>
+      <description>Genera excusas creíbles o absurdas para llegar tarde, no hacer la tarea, cancelar una cita, faltar a una fiesta o al gimnasio. Cópialas o envíalas por WhatsApp.</description>
+      <category>generadores</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Conversor de Tallas de Anillo</title>
+      <link>https://herramatica.com/tallas-de-anillo</link>
+      <guid isPermaLink="true">https://herramatica.com/tallas-de-anillo</guid>
+      <description>Convierte tallas de anillo entre México, EE. UU., Europa, España y Reino Unido, y calcula tu talla a partir del diámetro o el contorno de tu dedo en mm.</description>
+      <category>convertidores</category>
+      <pubDate>Wed, 30 Sep 2026 15:20:53 GMT</pubDate>
     </item>
   </channel>
 </rss>

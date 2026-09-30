@@ -22,9 +22,10 @@ export const TABLA_ISR_MENSUAL = [
   { limiteInferior: 425642.0, limiteSuperior: Infinity, cuotaFija: 133488.54, porcentaje: 35.0 },
 ]
 
-// Subsidio para el empleo 2026 (Decreto DOF): monto fijo mensual $536.22
+// Subsidio para el empleo 2026 (decreto DOF 31/12/2025): 15.02% de la UMA mensual = $535.65
+// de febrero a diciembre ($536.21 en enero, con la UMA 2025)
 // para quien no exceda el límite mensual de ingresos de $11,492.66 (vigente feb-dic 2026)
-const SUBSIDIO_MENSUAL = 536.22
+const SUBSIDIO_MENSUAL = 535.65
 const LIMITE_SUBSIDIO_MENSUAL = 11492.66
 
 export const PERIODOS = [
