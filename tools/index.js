@@ -94,6 +94,39 @@ import IndiceDeBarthel from './indice-de-barthel'
 import CalculadoraLiquidacionLaboralColombia from './calculadora-liquidacion-laboral-colombia'
 import CalculadoraSeguridadSocialColombia from './calculadora-seguridad-social-colombia'
 import CalculadoraCdt from './calculadora-cdt'
+import CalcularPrimaVacacional from './calcular-prima-vacacional'
+import CalcularVacaciones from './calcular-vacaciones'
+import CalcularPtu from './calcular-ptu'
+import CalcularSalarioDiarioIntegrado from './calcular-salario-diario-integrado'
+import CalculadoraCat from './calculadora-cat'
+import CalculadoraNomina from './calculadora-nomina'
+import CalcularDescuento from './calcular-descuento'
+import CalculadoraAhorro from './calculadora-ahorro'
+import CalculadoraRoi from './calculadora-roi'
+import CalculadoraNotaNecesaria from './calculadora-nota-necesaria'
+import CalculadoraDiasHabiles from './calculadora-dias-habiles'
+import CalcularFechaFutura from './calcular-fecha-futura'
+import ValidadorIban from './validador-iban'
+import CalculadoraOvulacion from './calculadora-ovulacion'
+import CalculadoraTmb from './calculadora-tmb'
+import CalculadoraGrasaCorporal from './calculadora-grasa-corporal'
+import CalculadoraAguaDiaria from './calculadora-agua-diaria'
+import FormateadorJson from './formateador-json'
+import CodificadorBase64 from './codificador-base64'
+import GeneradorUuid from './generador-uuid'
+import ProbadorRegex from './probador-regex'
+import GeneradorHash from './generador-hash'
+import GeneradorLoremIpsum from './generador-lorem-ipsum'
+import ValidadorEmail from './validador-email'
+import ContadorCaracteres from './contador-caracteres'
+import SorteoOnline from './sorteo-online'
+import GeneradorNumerosAleatorios from './generador-numeros-aleatorios'
+import CaraOCruz from './cara-o-cruz'
+import TemporizadorOnline from './temporizador-online'
+import ConversorCriptomonedas from './conversor-criptomonedas'
+import ConversorZonaHoraria from './conversor-zona-horaria'
+import KilosALibras from './kilos-a-libras'
+import ConvertidorTallas from './convertidor-tallas'
 
 // Registry: add new tools here as { slug: Component }
 export const toolComponents = {
@@ -193,4 +226,37 @@ export const toolComponents = {
   'calculadora-liquidacion-laboral-colombia': CalculadoraLiquidacionLaboralColombia,
   'calculadora-seguridad-social-colombia': CalculadoraSeguridadSocialColombia,
   'calculadora-cdt': CalculadoraCdt,
+  'calcular-prima-vacacional': CalcularPrimaVacacional,
+  'calcular-vacaciones': CalcularVacaciones,
+  'calcular-ptu': CalcularPtu,
+  'calcular-salario-diario-integrado': CalcularSalarioDiarioIntegrado,
+  'calculadora-cat': CalculadoraCat,
+  'calculadora-nomina': CalculadoraNomina,
+  'calcular-descuento': CalcularDescuento,
+  'calculadora-ahorro': CalculadoraAhorro,
+  'calculadora-roi': CalculadoraRoi,
+  'calculadora-nota-necesaria': CalculadoraNotaNecesaria,
+  'calculadora-dias-habiles': CalculadoraDiasHabiles,
+  'calcular-fecha-futura': CalcularFechaFutura,
+  'validador-iban': ValidadorIban,
+  'calculadora-ovulacion': CalculadoraOvulacion,
+  'calculadora-tmb': CalculadoraTmb,
+  'calculadora-grasa-corporal': CalculadoraGrasaCorporal,
+  'calculadora-agua-diaria': CalculadoraAguaDiaria,
+  'formateador-json': FormateadorJson,
+  'codificador-base64': CodificadorBase64,
+  'generador-uuid': GeneradorUuid,
+  'probador-regex': ProbadorRegex,
+  'generador-hash': GeneradorHash,
+  'generador-lorem-ipsum': GeneradorLoremIpsum,
+  'validador-email': ValidadorEmail,
+  'contador-caracteres': ContadorCaracteres,
+  'sorteo-online': SorteoOnline,
+  'generador-numeros-aleatorios': GeneradorNumerosAleatorios,
+  'cara-o-cruz': CaraOCruz,
+  'temporizador-online': TemporizadorOnline,
+  'conversor-criptomonedas': ConversorCriptomonedas,
+  'conversor-zona-horaria': ConversorZonaHoraria,
+  'kilos-a-libras': KilosALibras,
+  'convertidor-tallas': ConvertidorTallas,
 }

@@ -73,7 +73,7 @@ export default function HomePage() {
             Herramientas online<br className="hidden sm:block" /> gratuitas en español
           </h1>
           <p className="text-lg text-blue-100 max-w-2xl mx-auto text-center mt-4 mb-8">
-            Herramatica es tu colección de herramientas online gratuitas en español. Más de 90 utilidades para
+            Herramatica es tu colección de herramientas online gratuitas en español. Más de 120 utilidades para
             calcular, convertir y generar contenido al instante. Sin registro, sin límites, disponibles para México,
             Argentina, Colombia, Chile, Perú, España y todos los países de habla hispana.
           </p>
