@@ -3,6 +3,7 @@ import Image from 'next/image'
 import toolsData from '@/data/tools.json'
 import categoriesData from '@/data/categories.json'
 import { SITE_DESCRIPTION } from '@/lib/seo'
+import HomeSections, { IndiceHerramientas, Estadisticas } from '@/components/HomeSections'
 
 export const metadata = {
   title: 'Herramatica | Herramientas Online Gratuitas en Español',
@@ -139,48 +140,14 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* All tools */}
-        <section className="mb-14">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Todas las Herramientas Gratuitas en Español</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {toolsData.map((tool) => {
-              const c = categoryColors[tool.category] || {}
-              return (
-                <Link
-                  key={tool.slug}
-                  href={`/${tool.slug}`}
-                  className="group bg-white border border-gray-200 rounded-xl p-5 hover:border-blue-300 hover:shadow-md transition-all"
-                >
-                  <div className="flex items-start justify-between gap-3">
-                    <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors leading-snug">
-                      {tool.name}
-                    </h3>
-                    <svg
-                      className="w-4 h-4 text-gray-400 group-hover:text-blue-500 flex-shrink-0 mt-0.5 transition-colors"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </div>
-                  <p className="text-sm text-gray-500 mt-2 line-clamp-2">{tool.metaDescription}</p>
-                  <span
-                    className={`inline-block mt-3 text-xs font-medium px-2.5 py-0.5 rounded-full ${c.badge || 'bg-gray-100 text-gray-600'}`}
-                  >
-                    {tool.category}
-                  </span>
-                </Link>
-              )
-            })}
-          </div>
-        </section>
+        <HomeSections />
 
         {/* SEO content block */}
-        <section className="bg-white border border-gray-200 rounded-2xl p-6 sm:p-8">
+        <section className="bg-white border border-gray-200 rounded-2xl p-6 sm:p-8 mb-14">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">
             ¿Por qué elegir Herramatica?
           </h2>
+          <Estadisticas />
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
             {[
               {
@@ -209,6 +176,8 @@ export default function HomePage() {
             ))}
           </div>
         </section>
+
+        <IndiceHerramientas />
       </div>
     </>
   )

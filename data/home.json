@@ -1,0 +1,148 @@
+{
+  "destacadas": [
+    "calculadora-porcentaje",
+    "calcular-iva",
+    "calculadora-edad",
+    "generador-qr",
+    "convertidor-moneda",
+    "calcular-imc",
+    "contador-palabras",
+    "texto-invisible",
+    "calcular-aguinaldo"
+  ],
+  "recientes": 9,
+  "paises": [
+    {
+      "id": "mexico",
+      "nombre": "México",
+      "herramientas": [
+        "calculadora-isr",
+        "calcular-aguinaldo",
+        "calculadora-finiquito",
+        "calcular-rfc",
+        "calcular-curp",
+        "calcular-prima-vacacional",
+        "calcular-vacaciones",
+        "calcular-ptu",
+        "calculadora-nomina",
+        "salarios-minimos-2026",
+        "calcular-subsidio-empleo",
+        "calcular-cuota-imss",
+        "calcular-salario-diario-integrado",
+        "calcular-horas-extras",
+        "calcular-isr-aguinaldo",
+        "pension-imss-modalidad-40",
+        "semanas-cotizadas-imss",
+        "comparador-afore",
+        "validar-curp",
+        "calculadora-cat",
+        "calculadora-cetes",
+        "dolar-a-peso-mexicano"
+      ],
+      "codigo": "MX"
+    },
+    {
+      "id": "espana",
+      "nombre": "España",
+      "herramientas": [
+        "calculadora-irpf",
+        "calcular-paro",
+        "cuota-autonomo",
+        "jubilacion-espana",
+        "calculo-pension-jubilacion",
+        "calcular-plusvalia",
+        "impuesto-sucesiones",
+        "calculadora-factura-luz",
+        "nota-de-corte",
+        "calcular-letra-dni",
+        "validador-iban",
+        "cuanto-cuesta-reformar"
+      ],
+      "codigo": "ES"
+    },
+    {
+      "id": "argentina",
+      "nombre": "Argentina",
+      "herramientas": [
+        "dolar-blue",
+        "calculadora-sueldo-neto-argentina",
+        "monotributo",
+        "calcular-sac-argentina",
+        "calcular-indemnizacion-despido",
+        "preaviso-laboral",
+        "calculadora-alquiler-argentina",
+        "calculadora-inflacion",
+        "calculadora-plazo-fijo",
+        "calcular-cuil"
+      ],
+      "codigo": "AR"
+    },
+    {
+      "id": "chile",
+      "nombre": "Chile",
+      "herramientas": [
+        "sueldo-liquido-chile",
+        "finiquito-chile",
+        "gratificacion-chile",
+        "uf-a-pesos",
+        "utm-a-pesos",
+        "cotizacion-afp",
+        "dividendo-hipotecario",
+        "puntaje-paes",
+        "calcular-rut"
+      ],
+      "codigo": "CL"
+    },
+    {
+      "id": "colombia",
+      "nombre": "Colombia",
+      "herramientas": [
+        "calculadora-liquidacion-laboral-colombia",
+        "prima-de-servicios",
+        "calcular-cesantias",
+        "intereses-cesantias",
+        "vacaciones-colombia",
+        "retencion-en-la-fuente",
+        "calculadora-seguridad-social-colombia",
+        "calculadora-cdt",
+        "calcular-nit"
+      ],
+      "codigo": "CO"
+    },
+    {
+      "id": "peru",
+      "nombre": "Perú",
+      "herramientas": [
+        "calculadora-cts-peru",
+        "calcular-gratificacion-peru",
+        "renta-quinta-categoria",
+        "vacaciones-peru",
+        "afp-vs-onp",
+        "uit-a-soles",
+        "calculadora-de-igv",
+        "calcular-detraccion"
+      ],
+      "codigo": "PE"
+    },
+    {
+      "id": "ecuador",
+      "nombre": "Ecuador",
+      "herramientas": [
+        "decimo-tercer-sueldo",
+        "decimo-cuarto-sueldo",
+        "fondos-de-reserva",
+        "impuesto-renta-ecuador"
+      ],
+      "codigo": "EC"
+    },
+    {
+      "id": "uruguay",
+      "nombre": "Uruguay",
+      "herramientas": [
+        "aguinaldo-uruguay",
+        "irpf-uruguay"
+      ],
+      "codigo": "UY"
+    }
+  ]
+}
