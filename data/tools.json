@@ -6316,7 +6316,11 @@
       "calculadora-isr",
       "calcular-ptu",
       "calcular-isr-aguinaldo"
-    ]
+    ],
+    "image": {
+      "file": "como-calcular-la-prima-vacacional-2026.webp",
+      "alt": "Calcular prima vacacional"
+    }
   },
   {
     "slug": "calcular-vacaciones",
@@ -6393,7 +6397,11 @@
       "calculadora-dias-habiles",
       "calcular-salario-diario-integrado",
       "vacaciones-colombia"
-    ]
+    ],
+    "image": {
+      "file": "dias-de-vacaciones-por-antiguedad-mexico.webp",
+      "alt": "Calcular vacaciones"
+    }
   },
   {
     "slug": "calcular-ptu",
@@ -6469,7 +6477,11 @@
       "calculadora-isr",
       "calculadora-nomina",
       "calcular-prima-vacacional"
-    ]
+    ],
+    "image": {
+      "file": "calculo-reparto-de-utilidades-ptu-2026.webp",
+      "alt": "Calcular PTU"
+    }
   },
   {
     "slug": "calcular-salario-diario-integrado",
@@ -6547,7 +6559,11 @@
       "calcular-ptu",
       "calcular-vacaciones",
       "calcular-cuota-imss"
-    ]
+    ],
+    "image": {
+      "file": "como-calcular-salario-diario-integrado-imss.webp",
+      "alt": "Calcular salario diario integrado"
+    }
   },
   {
     "slug": "calculadora-cat",
@@ -6626,7 +6642,11 @@
       "tabla-de-amortizacion",
       "simulador-credito-automotriz",
       "plan-pago-deudas"
-    ]
+    ],
+    "image": {
+      "file": "calcular-costo-anual-total-cat-credito.webp",
+      "alt": "Calculadora CAT"
+    }
   },
   {
     "slug": "calculadora-nomina",
@@ -6710,7 +6730,11 @@
       "presupuesto-mensual",
       "calculadora-comision-ventas",
       "irpf-uruguay"
-    ]
+    ],
+    "image": {
+      "file": "calcular-sueldo-neto-nomina-mexico.webp",
+      "alt": "Calculadora de nómina"
+    }
   },
   {
     "slug": "calcular-descuento",
@@ -6792,7 +6816,11 @@
       "calculadora-comision-ventas",
       "comparador-precios",
       "dividir-cuenta"
-    ]
+    ],
+    "image": {
+      "file": "calcular-porcentaje-de-descuento-precio-final.webp",
+      "alt": "Calcular descuento"
+    }
   },
   {
     "slug": "calculadora-ahorro",
@@ -6876,7 +6904,11 @@
       "plan-pago-deudas",
       "fondos-de-reserva",
       "presupuesto-boda"
-    ]
+    ],
+    "image": {
+      "file": "calculadora-meta-de-ahorro-mensual.webp",
+      "alt": "Calculadora de ahorro"
+    }
   },
   {
     "slug": "calculadora-roi",
@@ -6958,7 +6990,11 @@
       "generador-nombres-empresa",
       "generador-utm",
       "cuota-autonomo"
-    ]
+    ],
+    "image": {
+      "file": "calcular-retorno-de-inversion-roi.webp",
+      "alt": "Calculadora ROI"
+    }
   },
   {
     "slug": "calculadora-nota-necesaria",
@@ -7037,7 +7073,11 @@
       "calculadora-promedio",
       "nota-de-corte",
       "puntaje-paes"
-    ]
+    ],
+    "image": {
+      "file": "que-nota-necesito-para-aprobar.webp",
+      "alt": "Calculadora de nota necesaria"
+    }
   },
   {
     "slug": "calculadora-dias-habiles",
@@ -7114,7 +7154,11 @@
       "calculador-de-horarios",
       "calculadora-horas",
       "vacaciones-colombia"
-    ]
+    ],
+    "image": {
+      "file": "contar-dias-habiles-entre-dos-fechas.webp",
+      "alt": "Calculadora de días hábiles"
+    }
   },
   {
     "slug": "calcular-fecha-futura",
@@ -7194,7 +7238,11 @@
       "temporizador-online",
       "conversor-zona-horaria",
       "dias-para-navidad"
-    ]
+    ],
+    "image": {
+      "file": "que-fecha-sera-dentro-de-x-dias.webp",
+      "alt": "Calcular fecha futura"
+    }
   },
   {
     "slug": "validador-iban",
@@ -7271,7 +7319,11 @@
       "calcular-rut",
       "calcular-nit",
       "validar-curp"
-    ]
+    ],
+    "image": {
+      "file": "validar-numero-iban-cuenta-bancaria.webp",
+      "alt": "Validador IBAN"
+    }
   },
   {
     "slug": "calculadora-ovulacion",
@@ -7348,7 +7400,11 @@
       "calculadora-peso-ideal",
       "calculadora-calorias",
       "generador-nombres-bebe"
-    ]
+    ],
+    "image": {
+      "file": "calcular-dias-fertiles-y-ovulacion.webp",
+      "alt": "Calculadora de ovulación"
+    }
   },
   {
     "slug": "calculadora-tmb",
@@ -7424,7 +7480,11 @@
       "calculadora-peso-ideal",
       "calculadora-grasa-corporal",
       "calculadora-agua-diaria"
-    ]
+    ],
+    "image": {
+      "file": "calcular-metabolismo-basal-tmb.webp",
+      "alt": "Calculadora TMB"
+    }
   },
   {
     "slug": "calculadora-grasa-corporal",
@@ -7500,7 +7560,11 @@
       "calculadora-tmb",
       "calculadora-calorias",
       "calculadora-agua-diaria"
-    ]
+    ],
+    "image": {
+      "file": "calcular-porcentaje-de-grasa-corporal.webp",
+      "alt": "Calculadora de grasa corporal"
+    }
   },
   {
     "slug": "calculadora-agua-diaria",
@@ -7576,7 +7640,11 @@
       "calcular-imc",
       "calculadora-peso-ideal",
       "calculadora-grasa-corporal"
-    ]
+    ],
+    "image": {
+      "file": "cuanta-agua-debo-tomar-al-dia.webp",
+      "alt": "Calculadora de agua diaria"
+    }
   },
   {
     "slug": "formateador-json",
@@ -7659,7 +7727,11 @@
       "minificador-codigo",
       "generador-datos-prueba",
       "markdown-a-html"
-    ]
+    ],
+    "image": {
+      "file": "formatear-y-validar-json-online.webp",
+      "alt": "Formateador JSON"
+    }
   },
   {
     "slug": "codificador-base64",
@@ -7741,7 +7813,11 @@
       "codificador-url",
       "minificador-codigo",
       "imagen-a-base64"
-    ]
+    ],
+    "image": {
+      "file": "codificar-y-decodificar-base64-online.webp",
+      "alt": "Codificador Base64"
+    }
   },
   {
     "slug": "generador-uuid",
@@ -7819,7 +7895,11 @@
       "generador-numeros-aleatorios",
       "decodificador-jwt",
       "generador-datos-prueba"
-    ]
+    ],
+    "image": {
+      "file": "generar-uuid-v4-online.webp",
+      "alt": "Generador UUID"
+    }
   },
   {
     "slug": "probador-regex",
@@ -7896,7 +7976,11 @@
       "convertidor-mayusculas-minusculas",
       "codificador-base64",
       "minificador-codigo"
-    ]
+    ],
+    "image": {
+      "file": "probar-expresiones-regulares-online.webp",
+      "alt": "Probador regex"
+    }
   },
   {
     "slug": "generador-hash",
@@ -7973,7 +8057,11 @@
       "calcular-hexadecimal-a-decimal",
       "formateador-json",
       "decodificador-jwt"
-    ]
+    ],
+    "image": {
+      "file": "generar-hash-md5-sha256-online.webp",
+      "alt": "Generador de hash"
+    }
   },
   {
     "slug": "generador-lorem-ipsum",
@@ -8050,7 +8138,11 @@
       "tipografia-para-instagram",
       "palabras-al-reves",
       "ideas-para-historias"
-    ]
+    ],
+    "image": {
+      "file": "generar-texto-lorem-ipsum-de-relleno.webp",
+      "alt": "Generador lorem ipsum"
+    }
   },
   {
     "slug": "validador-email",
@@ -8128,7 +8220,11 @@
       "generador-de-link-de-whatsapp",
       "validar-curp",
       "generador-firma-email"
-    ]
+    ],
+    "image": {
+      "file": "validar-correo-electronico-online.webp",
+      "alt": "Validador de email"
+    }
   },
   {
     "slug": "contador-caracteres",
@@ -8211,7 +8307,11 @@
       "minificador-codigo",
       "generador-hashtags",
       "generador-bio-instagram"
-    ]
+    ],
+    "image": {
+      "file": "contar-caracteres-de-un-texto-online.webp",
+      "alt": "Contador de caracteres"
+    }
   },
   {
     "slug": "sorteo-online",
@@ -8291,7 +8391,11 @@
       "generador-equipos",
       "tombola-online",
       "amigo-invisible"
-    ]
+    ],
+    "image": {
+      "file": "hacer-sorteo-de-nombres-online.webp",
+      "alt": "Sorteo online"
+    }
   },
   {
     "slug": "generador-numeros-aleatorios",
@@ -8370,7 +8474,11 @@
       "calculadora-factorial",
       "generador-equipos",
       "tombola-online"
-    ]
+    ],
+    "image": {
+      "file": "generar-numeros-aleatorios-y-dados-online.webp",
+      "alt": "Generador de números aleatorios"
+    }
   },
   {
     "slug": "cara-o-cruz",
@@ -8448,7 +8556,11 @@
       "calculo-mental",
       "piedra-papel-tijera",
       "verdad-o-reto"
-    ]
+    ],
+    "image": {
+      "file": "lanzar-moneda-cara-o-cruz-online.webp",
+      "alt": "Cara o cruz"
+    }
   },
   {
     "slug": "temporizador-online",
@@ -8526,7 +8638,11 @@
       "calculadora-ciclos-sueno",
       "hora-militar",
       "dias-para-navidad"
-    ]
+    ],
+    "image": {
+      "file": "temporizador-cuenta-regresiva-online.webp",
+      "alt": "Temporizador online"
+    }
   },
   {
     "slug": "conversor-criptomonedas",
@@ -8604,7 +8720,11 @@
       "calcular-descuento",
       "dolar-a-peso-mexicano",
       "dolar-blue"
-    ]
+    ],
+    "image": {
+      "file": "convertir-bitcoin-a-pesos-y-dolares.webp",
+      "alt": "Conversor de criptomonedas"
+    }
   },
   {
     "slug": "conversor-zona-horaria",
@@ -8681,7 +8801,11 @@
       "calculador-de-horarios",
       "cronometro-online",
       "hora-militar"
-    ]
+    ],
+    "image": {
+      "file": "convertir-hora-entre-paises.webp",
+      "alt": "Conversor de zona horaria"
+    }
   },
   {
     "slug": "kilos-a-libras",
@@ -8760,7 +8884,11 @@
       "comparador-precios",
       "libras-a-kilos",
       "onzas-a-gramos"
-    ]
+    ],
+    "image": {
+      "file": "convertir-kilos-a-libras.webp",
+      "alt": "Kilos a libras"
+    }
   },
   {
     "slug": "convertidor-tallas",
@@ -8837,7 +8965,11 @@
       "calcular-descuento",
       "convertidor-moneda",
       "tallas-de-anillo"
-    ]
+    ],
+    "image": {
+      "file": "tabla-de-tallas-de-ropa-y-zapatos-mexico-usa-europa.webp",
+      "alt": "Convertidor de tallas"
+    }
   },
   {
     "slug": "calcular-subsidio-empleo",
@@ -8914,7 +9046,11 @@
       "calcular-isr-aguinaldo",
       "calcular-cuota-imss",
       "calcular-horas-extras"
-    ]
+    ],
+    "image": {
+      "file": "subsidio-al-empleo-2026-monto-mensual.webp",
+      "alt": "Calcular subsidio al empleo"
+    }
   },
   {
     "slug": "calcular-cuota-imss",
@@ -8991,7 +9127,11 @@
       "semanas-cotizadas-imss",
       "salarios-minimos-2026",
       "pension-imss-modalidad-40"
-    ]
+    ],
+    "image": {
+      "file": "cuotas-imss-patron-y-trabajador-2026.webp",
+      "alt": "Calcular cuota IMSS"
+    }
   },
   {
     "slug": "salarios-minimos-2026",
@@ -9068,7 +9208,11 @@
       "calcular-aguinaldo",
       "calcular-cuota-imss",
       "pension-imss-modalidad-40"
-    ]
+    ],
+    "image": {
+      "file": "tabla-salario-minimo-2026-mexico.webp",
+      "alt": "Salario mínimo 2026"
+    }
   },
   {
     "slug": "pension-imss-modalidad-40",
@@ -9144,7 +9288,11 @@
       "calculo-pension-jubilacion",
       "calcular-cuota-imss",
       "salarios-minimos-2026"
-    ]
+    ],
+    "image": {
+      "file": "simulador-pension-modalidad-40-ley-73.webp",
+      "alt": "Pensión IMSS modalidad 40"
+    }
   },
   {
     "slug": "semanas-cotizadas-imss",
@@ -9220,7 +9368,11 @@
       "calculo-pension-jubilacion",
       "calcular-cuota-imss",
       "calculadora-dias"
-    ]
+    ],
+    "image": {
+      "file": "calcular-semanas-cotizadas-imss.webp",
+      "alt": "Semanas cotizadas IMSS"
+    }
   },
   {
     "slug": "calcular-horas-extras",
@@ -9296,7 +9448,11 @@
       "calculadora-horas",
       "calcular-subsidio-empleo",
       "calculadora-finiquito"
-    ]
+    ],
+    "image": {
+      "file": "pago-de-horas-extras-dobles-y-triples.webp",
+      "alt": "Calcular horas extras"
+    }
   },
   {
     "slug": "comparador-afore",
@@ -9374,7 +9530,11 @@
       "calculadora-ahorro",
       "cotizacion-afp",
       "afp-vs-onp"
-    ]
+    ],
+    "image": {
+      "file": "comparar-afore-rendimiento-neto.webp",
+      "alt": "Comparador de AFORE"
+    }
   },
   {
     "slug": "calcular-isr-aguinaldo",
@@ -9450,7 +9610,11 @@
       "calcular-prima-vacacional",
       "calcular-subsidio-empleo",
       "calculadora-nomina"
-    ]
+    ],
+    "image": {
+      "file": "calcular-isr-del-aguinaldo-2026.webp",
+      "alt": "ISR del aguinaldo"
+    }
   },
   {
     "slug": "dolar-a-peso-mexicano",
@@ -9526,7 +9690,11 @@
       "calcular-iva",
       "calcular-descuento",
       "calculadora-porcentaje"
-    ]
+    ],
+    "image": {
+      "file": "tipo-de-cambio-dolar-a-peso-mexicano-hoy.webp",
+      "alt": "Dólar a peso mexicano"
+    }
   },
   {
     "slug": "tabla-de-amortizacion",
@@ -9604,7 +9772,11 @@
       "calculadora-interes-simple",
       "plan-pago-deudas",
       "dividendo-hipotecario"
-    ]
+    ],
+    "image": {
+      "file": "generar-tabla-de-amortizacion-de-prestamo.webp",
+      "alt": "Tabla de amortización"
+    }
   },
   {
     "slug": "calculadora-cetes",
@@ -9680,7 +9852,11 @@
       "calculadora-ahorro",
       "calculadora-cdt",
       "calculadora-interes-simple"
-    ]
+    ],
+    "image": {
+      "file": "calcular-rendimiento-de-cetes.webp",
+      "alt": "Calculadora CETES"
+    }
   },
   {
     "slug": "simulador-credito-automotriz",
@@ -9756,7 +9932,11 @@
       "calculadora-prestamo",
       "calcular-gasolina",
       "calculadora-ahorro"
-    ]
+    ],
+    "image": {
+      "file": "calcular-mensualidad-credito-de-auto.webp",
+      "alt": "Simulador de crédito automotriz"
+    }
   },
   {
     "slug": "calculadora-interes-simple",
@@ -9832,7 +10012,11 @@
       "tabla-de-amortizacion",
       "calculadora-cetes",
       "calculadora-regla-de-tres"
-    ]
+    ],
+    "image": {
+      "file": "formula-de-interes-simple-calculadora.webp",
+      "alt": "Calculadora de interés simple"
+    }
   },
   {
     "slug": "presupuesto-mensual",
@@ -9913,7 +10097,11 @@
       "cuanto-cuesta-reformar",
       "huella-de-carbono",
       "presupuesto-boda"
-    ]
+    ],
+    "image": {
+      "file": "hacer-presupuesto-mensual-regla-50-30-20.webp",
+      "alt": "Presupuesto mensual"
+    }
   },
   {
     "slug": "plan-pago-deudas",
@@ -9989,7 +10177,11 @@
       "tabla-de-amortizacion",
       "calculadora-cat",
       "calculadora-ahorro"
-    ]
+    ],
+    "image": {
+      "file": "metodo-bola-de-nieve-y-avalancha-deudas.webp",
+      "alt": "Plan para pagar deudas"
+    }
   },
   {
     "slug": "calculadora-comision-ventas",
@@ -10065,7 +10257,11 @@
       "calculadora-nomina",
       "calcular-descuento",
       "calcular-iva"
-    ]
+    ],
+    "image": {
+      "file": "calcular-comision-por-ventas.webp",
+      "alt": "Calculadora de comisión por ventas"
+    }
   },
   {
     "slug": "comparador-precios",
@@ -10142,7 +10338,11 @@
       "kilos-a-libras",
       "onzas-a-gramos",
       "calculadora-factura-luz"
-    ]
+    ],
+    "image": {
+      "file": "comparar-precio-por-kilo-en-el-super.webp",
+      "alt": "Comparador de precios por kilo"
+    }
   },
   {
     "slug": "libras-a-kilos",
@@ -10218,7 +10418,11 @@
       "convertidor-unidades",
       "arroba-a-kilos",
       "calcular-imc"
-    ]
+    ],
+    "image": {
+      "file": "convertir-libras-a-kilos.webp",
+      "alt": "Libras a kilos"
+    }
   },
   {
     "slug": "fahrenheit-a-celsius",
@@ -10294,7 +10498,11 @@
       "medidas-de-cocina",
       "tazas-a-ml",
       "calculadora-embarazo"
-    ]
+    ],
+    "image": {
+      "file": "convertir-grados-fahrenheit-a-celsius.webp",
+      "alt": "Fahrenheit a Celsius"
+    }
   },
   {
     "slug": "onzas-a-gramos",
@@ -10372,7 +10580,11 @@
       "convertidor-unidades",
       "comparador-precios",
       "tallas-de-anillo"
-    ]
+    ],
+    "image": {
+      "file": "convertir-onzas-a-gramos.webp",
+      "alt": "Onzas a gramos"
+    }
   },
   {
     "slug": "tazas-a-ml",
@@ -10448,7 +10660,11 @@
       "litros-a-galones",
       "fahrenheit-a-celsius",
       "convertidor-unidades"
-    ]
+    ],
+    "image": {
+      "file": "cuantos-ml-tiene-una-taza.webp",
+      "alt": "Tazas a ml"
+    }
   },
   {
     "slug": "millas-a-kilometros",
@@ -10524,7 +10740,11 @@
       "convertidor-unidades",
       "pies-a-metros",
       "calcular-gasolina"
-    ]
+    ],
+    "image": {
+      "file": "convertir-millas-a-kilometros.webp",
+      "alt": "Millas a kilómetros"
+    }
   },
   {
     "slug": "pies-a-metros",
@@ -10600,7 +10820,11 @@
       "convertidor-unidades",
       "calculadora-area",
       "calcular-imc"
-    ]
+    ],
+    "image": {
+      "file": "convertir-pies-a-metros-y-estatura.webp",
+      "alt": "Pies a metros"
+    }
   },
   {
     "slug": "litros-a-galones",
@@ -10676,7 +10900,11 @@
       "convertidor-unidades",
       "calcular-volumen-cilindro",
       "calculadora-volumen"
-    ]
+    ],
+    "image": {
+      "file": "convertir-litros-a-galones.webp",
+      "alt": "Litros a galones"
+    }
   },
   {
     "slug": "validar-curp",
@@ -10752,7 +10980,11 @@
       "calculadora-edad",
       "validador-iban",
       "validador-email"
-    ]
+    ],
+    "image": {
+      "file": "validar-curp-online-gratis.webp",
+      "alt": "Validar CURP"
+    }
   },
   {
     "slug": "dividir-cuenta",
@@ -10829,7 +11061,11 @@
       "presupuesto-mensual",
       "calcular-iva",
       "presupuesto-boda"
-    ]
+    ],
+    "image": {
+      "file": "dividir-la-cuenta-del-restaurante-con-propina.webp",
+      "alt": "Dividir la cuenta"
+    }
   },
   {
     "slug": "hora-militar",
@@ -10905,7 +11141,11 @@
       "calculadora-horas",
       "cronometro-online",
       "temporizador-online"
-    ]
+    ],
+    "image": {
+      "file": "convertir-hora-de-12-a-24-horas.webp",
+      "alt": "Hora militar"
+    }
   },
   {
     "slug": "calculadora-promedio",
@@ -10984,7 +11224,11 @@
       "tablas-de-multiplicar",
       "nota-de-corte",
       "puntaje-paes"
-    ]
+    ],
+    "image": {
+      "file": "sacar-promedio-de-calificaciones.webp",
+      "alt": "Calculadora de promedio"
+    }
   },
   {
     "slug": "calculadora-fracciones",
@@ -11061,7 +11305,11 @@
       "calculadora-regla-de-tres",
       "calculadora-promedio",
       "tablas-de-multiplicar"
-    ]
+    ],
+    "image": {
+      "file": "sumar-restar-multiplicar-dividir-fracciones.webp",
+      "alt": "Calculadora de fracciones"
+    }
   },
   {
     "slug": "calculadora-mcd-mcm",
@@ -11138,7 +11386,11 @@
       "calculadora-cientifica",
       "calculadora-regla-de-tres",
       "tablas-de-multiplicar"
-    ]
+    ],
+    "image": {
+      "file": "calcular-maximo-comun-divisor-y-minimo-comun-multiplo.webp",
+      "alt": "Calculadora MCD y MCM"
+    }
   },
   {
     "slug": "calculadora-pitagoras",
@@ -11214,7 +11466,11 @@
       "calculadora-de-pendiente",
       "calculadora-cientifica",
       "calculadora-de-ecuaciones"
-    ]
+    ],
+    "image": {
+      "file": "calcular-hipotenusa-teorema-de-pitagoras.webp",
+      "alt": "Teorema de Pitágoras"
+    }
   },
   {
     "slug": "calculadora-factorial",
@@ -11290,7 +11546,11 @@
       "generador-numeros-aleatorios",
       "calculadora-desviacion-estandar",
       "calculadora-de-matrices"
-    ]
+    ],
+    "image": {
+      "file": "calcular-factorial-de-un-numero.webp",
+      "alt": "Calculadora factorial"
+    }
   },
   {
     "slug": "calculadora-desviacion-estandar",
@@ -11366,7 +11626,11 @@
       "calculadora-factorial",
       "calculadora-cientifica",
       "calculadora-porcentaje"
-    ]
+    ],
+    "image": {
+      "file": "calcular-desviacion-estandar-y-varianza.webp",
+      "alt": "Calculadora de desviación estándar"
+    }
   },
   {
     "slug": "tablas-de-multiplicar",
@@ -11442,7 +11706,11 @@
       "calculadora-fracciones",
       "sopa-de-letras",
       "calculadora-mcd-mcm"
-    ]
+    ],
+    "image": {
+      "file": "tablas-de-multiplicar-para-imprimir-y-practicar.webp",
+      "alt": "Tablas de multiplicar"
+    }
   },
   {
     "slug": "edad-de-mi-perro",
@@ -11518,7 +11786,11 @@
       "calcular-imc",
       "calculadora-dias",
       "generador-nombres"
-    ]
+    ],
+    "image": {
+      "file": "calcular-edad-de-perro-en-anos-humanos.webp",
+      "alt": "Edad de mi perro en años humanos"
+    }
   },
   {
     "slug": "decodificador-jwt",
@@ -11595,7 +11867,11 @@
       "codificador-url",
       "generador-uuid",
       "conversor-csv-json"
-    ]
+    ],
+    "image": {
+      "file": "decodificar-token-jwt-online.webp",
+      "alt": "Decodificador JWT"
+    }
   },
   {
     "slug": "conversor-csv-json",
@@ -11671,7 +11947,11 @@
       "codificador-base64",
       "decodificador-jwt",
       "contador-caracteres"
-    ]
+    ],
+    "image": {
+      "file": "convertir-csv-a-json-online.webp",
+      "alt": "Conversor CSV a JSON"
+    }
   },
   {
     "slug": "codificador-url",
@@ -11749,7 +12029,11 @@
       "generador-de-link-de-whatsapp",
       "imagen-a-base64",
       "markdown-a-html"
-    ]
+    ],
+    "image": {
+      "file": "codificar-y-decodificar-url-online.webp",
+      "alt": "Codificador URL"
+    }
   },
   {
     "slug": "minificador-codigo",
@@ -11826,7 +12110,11 @@
       "codificador-base64",
       "probador-regex",
       "imagen-a-base64"
-    ]
+    ],
+    "image": {
+      "file": "minificar-javascript-css-html-online.webp",
+      "alt": "Minificador de código"
+    }
   },
   {
     "slug": "generador-datos-prueba",
@@ -11902,7 +12190,11 @@
       "formateador-json",
       "generador-nombres",
       "generador-contrasenas"
-    ]
+    ],
+    "image": {
+      "file": "generar-datos-falsos-de-prueba-en-espanol.webp",
+      "alt": "Generador de datos de prueba"
+    }
   },
   {
     "slug": "generador-paleta-colores",
@@ -11979,7 +12271,11 @@
       "tipografia-para-instagram",
       "convertidor-imagenes",
       "generador-favicon"
-    ]
+    ],
+    "image": {
+      "file": "crear-paleta-de-colores-online.webp",
+      "alt": "Generador de paleta de colores"
+    }
   },
   {
     "slug": "selector-de-color",
@@ -12055,7 +12351,11 @@
       "hexadecimal-a-texto",
       "calcular-hexadecimal-a-decimal",
       "convertidor-imagenes"
-    ]
+    ],
+    "image": {
+      "file": "selector-de-color-hex-rgb-online.webp",
+      "alt": "Selector de color"
+    }
   },
   {
     "slug": "conversor-hex-rgb",
@@ -12131,7 +12431,11 @@
       "calcular-hexadecimal-a-decimal",
       "convertidor-binario",
       "hexadecimal-a-texto"
-    ]
+    ],
+    "image": {
+      "file": "convertir-color-hex-a-rgb.webp",
+      "alt": "Conversor HEX a RGB"
+    }
   },
   {
     "slug": "imagen-a-base64",
@@ -12210,7 +12514,11 @@
       "comprimir-imagen",
       "redimensionar-imagen",
       "generador-favicon"
-    ]
+    ],
+    "image": {
+      "file": "convertir-imagen-a-base64-online.webp",
+      "alt": "Imagen a Base64"
+    }
   },
   {
     "slug": "generador-nombres-bebe",
@@ -12286,7 +12594,11 @@
       "calculadora-ovulacion",
       "generador-apodos",
       "calcular-curp"
-    ]
+    ],
+    "image": {
+      "file": "nombres-de-bebe-con-significado.webp",
+      "alt": "Nombres de bebé"
+    }
   },
   {
     "slug": "generador-apodos",
@@ -12363,7 +12675,11 @@
       "generador-nombres-bebe",
       "texto-invisible",
       "generador-excusas"
-    ]
+    ],
+    "image": {
+      "file": "generador-de-apodos-originales.webp",
+      "alt": "Generador de apodos"
+    }
   },
   {
     "slug": "generador-nombres-empresa",
@@ -12439,7 +12755,11 @@
       "generador-bio-instagram",
       "generador-hashtags",
       "calculadora-roi"
-    ]
+    ],
+    "image": {
+      "file": "ideas-de-nombres-para-empresas-y-negocios.webp",
+      "alt": "Generador de nombres para empresas"
+    }
   },
   {
     "slug": "piedra-papel-tijera",
@@ -12517,7 +12837,11 @@
       "calculo-mental",
       "generador-equipos",
       "generador-excusas"
-    ]
+    ],
+    "image": {
+      "file": "jugar-piedra-papel-o-tijera-online.webp",
+      "alt": "Piedra, papel o tijera"
+    }
   },
   {
     "slug": "generador-equipos",
@@ -12594,7 +12918,11 @@
       "tombola-online",
       "piedra-papel-tijera",
       "amigo-invisible"
-    ]
+    ],
+    "image": {
+      "file": "hacer-equipos-aleatorios-online.webp",
+      "alt": "Generador de equipos"
+    }
   },
   {
     "slug": "tombola-online",
@@ -12670,7 +12998,11 @@
       "ruleta-aleatoria-online",
       "generador-equipos",
       "verdad-o-reto"
-    ]
+    ],
+    "image": {
+      "file": "tombola-y-bingo-online-gratis.webp",
+      "alt": "Tómbola online"
+    }
   },
   {
     "slug": "verdad-o-reto",
@@ -12748,7 +13080,11 @@
       "tombola-online",
       "amigo-invisible",
       "generador-excusas"
-    ]
+    ],
+    "image": {
+      "file": "preguntas-de-verdad-o-reto-online.webp",
+      "alt": "Verdad o reto"
+    }
   },
   {
     "slug": "ideas-para-historias",
@@ -12825,7 +13161,11 @@
       "calculadora-tiempo-lectura",
       "generador-de-crucigramas",
       "generador-excusas"
-    ]
+    ],
+    "image": {
+      "file": "generador-de-ideas-para-escribir-historias.webp",
+      "alt": "Ideas para historias"
+    }
   },
   {
     "slug": "generador-hashtags",
@@ -12903,7 +13243,11 @@
       "generador-esloganes",
       "generador-nombres-empresa",
       "generador-utm"
-    ]
+    ],
+    "image": {
+      "file": "generador-de-hashtags-para-instagram.webp",
+      "alt": "Generador de hashtags"
+    }
   },
   {
     "slug": "generador-bio-instagram",
@@ -12981,7 +13325,11 @@
       "contador-caracteres",
       "generador-nombres-empresa",
       "generador-esloganes"
-    ]
+    ],
+    "image": {
+      "file": "ideas-de-biografia-para-instagram.webp",
+      "alt": "Bio para Instagram"
+    }
   },
   {
     "slug": "generador-firma-email",
@@ -13058,7 +13406,11 @@
       "generador-esloganes",
       "validador-email",
       "presupuesto-boda"
-    ]
+    ],
+    "image": {
+      "file": "crear-firma-de-correo-para-gmail-y-outlook.webp",
+      "alt": "Generador de firma de email"
+    }
   },
   {
     "slug": "generador-esloganes",
@@ -13134,7 +13486,11 @@
       "generador-hashtags",
       "generador-firma-email",
       "generador-de-letras-grandes"
-    ]
+    ],
+    "image": {
+      "file": "ideas-de-esloganes-para-negocios.webp",
+      "alt": "Generador de eslóganes"
+    }
   },
   {
     "slug": "generador-utm",
@@ -13211,7 +13567,11 @@
       "generador-hashtags",
       "calculadora-roi",
       "generador-firma-email"
-    ]
+    ],
+    "image": {
+      "file": "crear-enlaces-con-parametros-utm.webp",
+      "alt": "Generador UTM"
+    }
   },
   {
     "slug": "markdown-a-html",
@@ -13287,7 +13647,11 @@
       "formateador-json",
       "codificador-url",
       "convertidor-mayusculas-minusculas"
-    ]
+    ],
+    "image": {
+      "file": "convertir-markdown-a-html-online.webp",
+      "alt": "Markdown a HTML"
+    }
   },
   {
     "slug": "calcular-paro",
@@ -13363,7 +13727,11 @@
       "calcular-indemnizacion-despido",
       "cuota-autonomo",
       "calculo-pension-jubilacion"
-    ]
+    ],
+    "image": {
+      "file": "cuanto-cobro-de-paro-en-2026.webp",
+      "alt": "Calcular paro"
+    }
   },
   {
     "slug": "cuota-autonomo",
@@ -13439,7 +13807,11 @@
       "calcular-paro",
       "jubilacion-espana",
       "calculadora-roi"
-    ]
+    ],
+    "image": {
+      "file": "calcular-cuota-de-autonomos-por-tramos.webp",
+      "alt": "Cuota de autónomos 2026"
+    }
   },
   {
     "slug": "calcular-plusvalia",
@@ -13515,7 +13887,11 @@
       "calculadora-irpf",
       "cuanto-cuesta-reformar",
       "calcular-iva"
-    ]
+    ],
+    "image": {
+      "file": "calcular-plusvalia-municipal-venta-de-vivienda.webp",
+      "alt": "Calcular plusvalía municipal"
+    }
   },
   {
     "slug": "nota-de-corte",
@@ -13591,7 +13967,11 @@
       "calculadora-promedio",
       "puntaje-paes",
       "calculadora-porcentaje"
-    ]
+    ],
+    "image": {
+      "file": "calcular-nota-de-admision-ebau-sobre-14.webp",
+      "alt": "Nota de corte PAU"
+    }
   },
   {
     "slug": "calculadora-factura-luz",
@@ -13667,7 +14047,11 @@
       "calculadora-porcentaje",
       "presupuesto-mensual",
       "comparador-precios"
-    ]
+    ],
+    "image": {
+      "file": "calcular-factura-de-la-luz-por-kwh.webp",
+      "alt": "Calculadora factura de la luz"
+    }
   },
   {
     "slug": "jubilacion-espana",
@@ -13743,7 +14127,11 @@
       "calculadora-edad",
       "calculadora-irpf",
       "cuota-autonomo"
-    ]
+    ],
+    "image": {
+      "file": "edad-de-jubilacion-en-espana-2026.webp",
+      "alt": "Cuándo me puedo jubilar"
+    }
   },
   {
     "slug": "impuesto-sucesiones",
@@ -13819,7 +14207,11 @@
       "calcular-hipoteca",
       "calculadora-edad",
       "calculadora-porcentaje"
-    ]
+    ],
+    "image": {
+      "file": "calcular-impuesto-de-sucesiones-por-comunidad.webp",
+      "alt": "Impuesto de sucesiones"
+    }
   },
   {
     "slug": "cuanto-cuesta-reformar",
@@ -13895,7 +14287,11 @@
       "calcular-plusvalia",
       "presupuesto-mensual",
       "calcular-iva"
-    ]
+    ],
+    "image": {
+      "file": "precio-de-reforma-de-piso-por-metro-cuadrado.webp",
+      "alt": "Cuánto cuesta reformar un piso"
+    }
   },
   {
     "slug": "huella-de-carbono",
@@ -13971,7 +14367,11 @@
       "calculadora-calorias",
       "presupuesto-mensual",
       "calcular-velocidad-distancia-tiempo"
-    ]
+    ],
+    "image": {
+      "file": "calcular-mi-huella-de-carbono-personal.webp",
+      "alt": "Huella de carbono"
+    }
   },
   {
     "slug": "dolar-blue",
@@ -14048,7 +14448,11 @@
       "conversor-criptomonedas",
       "calculadora-plazo-fijo",
       "monotributo"
-    ]
+    ],
+    "image": {
+      "file": "cotizacion-dolar-blue-a-pesos-argentinos.webp",
+      "alt": "Dólar blue hoy"
+    }
   },
   {
     "slug": "monotributo",
@@ -14125,7 +14529,11 @@
       "calcular-sac-argentina",
       "calcular-iva",
       "preaviso-laboral"
-    ]
+    ],
+    "image": {
+      "file": "calcular-categoria-de-monotributo.webp",
+      "alt": "Categorías monotributo 2026"
+    }
   },
   {
     "slug": "calculadora-inflacion",
@@ -14206,7 +14614,11 @@
       "uf-a-pesos",
       "utm-a-pesos",
       "dividendo-hipotecario"
-    ]
+    ],
+    "image": {
+      "file": "calcular-inflacion-acumulada.webp",
+      "alt": "Calculadora de inflación"
+    }
   },
   {
     "slug": "preaviso-laboral",
@@ -14282,7 +14694,11 @@
       "calculadora-sueldo-neto-argentina",
       "calculadora-inflacion",
       "monotributo"
-    ]
+    ],
+    "image": {
+      "file": "calcular-indemnizacion-sustitutiva-de-preaviso.webp",
+      "alt": "Preaviso laboral"
+    }
   },
   {
     "slug": "sueldo-liquido-chile",
@@ -14359,7 +14775,11 @@
       "uf-a-pesos",
       "utm-a-pesos",
       "dividendo-hipotecario"
-    ]
+    ],
+    "image": {
+      "file": "calcular-sueldo-liquido-en-chile.webp",
+      "alt": "Sueldo líquido Chile"
+    }
   },
   {
     "slug": "finiquito-chile",
@@ -14436,7 +14856,11 @@
       "cotizacion-afp",
       "calculadora-finiquito",
       "utm-a-pesos"
-    ]
+    ],
+    "image": {
+      "file": "calcular-finiquito-e-indemnizacion-chile.webp",
+      "alt": "Finiquito Chile"
+    }
   },
   {
     "slug": "uf-a-pesos",
@@ -14514,7 +14938,11 @@
       "convertidor-moneda",
       "finiquito-chile",
       "cotizacion-afp"
-    ]
+    ],
+    "image": {
+      "file": "valor-uf-hoy-en-pesos-chilenos.webp",
+      "alt": "UF a pesos"
+    }
   },
   {
     "slug": "utm-a-pesos",
@@ -14591,7 +15019,11 @@
       "calculadora-inflacion",
       "calcular-iva",
       "gratificacion-chile"
-    ]
+    ],
+    "image": {
+      "file": "valor-utm-en-pesos-chilenos.webp",
+      "alt": "UTM a pesos"
+    }
   },
   {
     "slug": "dividendo-hipotecario",
@@ -14667,7 +15099,11 @@
       "tabla-de-amortizacion",
       "sueldo-liquido-chile",
       "calculadora-inflacion"
-    ]
+    ],
+    "image": {
+      "file": "simular-dividendo-credito-hipotecario-chile.webp",
+      "alt": "Dividendo hipotecario"
+    }
   },
   {
     "slug": "gratificacion-chile",
@@ -14743,7 +15179,11 @@
       "cotizacion-afp",
       "calcular-gratificacion-peru",
       "utm-a-pesos"
-    ]
+    ],
+    "image": {
+      "file": "calcular-gratificacion-legal-chile.webp",
+      "alt": "Gratificación legal Chile"
+    }
   },
   {
     "slug": "cotizacion-afp",
@@ -14820,7 +15260,11 @@
       "comparador-afore",
       "afp-vs-onp",
       "finiquito-chile"
-    ]
+    ],
+    "image": {
+      "file": "cuanto-descuenta-la-afp-chile.webp",
+      "alt": "Cotización AFP"
+    }
   },
   {
     "slug": "puntaje-paes",
@@ -14896,7 +15340,11 @@
       "calculadora-promedio-ponderado",
       "calculadora-nota-necesaria",
       "calculadora-porcentaje"
-    ]
+    ],
+    "image": {
+      "file": "calcular-puntaje-ponderado-paes.webp",
+      "alt": "Puntaje PAES"
+    }
   },
   {
     "slug": "prima-de-servicios",
@@ -14972,7 +15420,11 @@
       "vacaciones-colombia",
       "calculadora-liquidacion-laboral-colombia",
       "retencion-en-la-fuente"
-    ]
+    ],
+    "image": {
+      "file": "calcular-prima-de-servicios-colombia.webp",
+      "alt": "Prima de servicios"
+    }
   },
   {
     "slug": "calcular-cesantias",
@@ -15049,7 +15501,11 @@
       "calculadora-liquidacion-laboral-colombia",
       "calculadora-seguridad-social-colombia",
       "retencion-en-la-fuente"
-    ]
+    ],
+    "image": {
+      "file": "como-calcular-cesantias-colombia.webp",
+      "alt": "Calcular cesantías"
+    }
   },
   {
     "slug": "intereses-cesantias",
@@ -15125,7 +15581,11 @@
       "calculadora-liquidacion-laboral-colombia",
       "vacaciones-colombia",
       "calculadora-cdt"
-    ]
+    ],
+    "image": {
+      "file": "calcular-intereses-sobre-cesantias.webp",
+      "alt": "Intereses a las cesantías"
+    }
   },
   {
     "slug": "retencion-en-la-fuente",
@@ -15201,7 +15661,11 @@
       "calcular-cesantias",
       "calculadora-liquidacion-laboral-colombia",
       "calculadora-porcentaje"
-    ]
+    ],
+    "image": {
+      "file": "calcular-retencion-en-la-fuente-salarios.webp",
+      "alt": "Retención en la fuente"
+    }
   },
   {
     "slug": "vacaciones-colombia",
@@ -15278,7 +15742,11 @@
       "calculadora-dias-habiles",
       "calcular-vacaciones",
       "intereses-cesantias"
-    ]
+    ],
+    "image": {
+      "file": "calcular-vacaciones-en-colombia.webp",
+      "alt": "Vacaciones Colombia"
+    }
   },
   {
     "slug": "renta-quinta-categoria",
@@ -15354,7 +15822,11 @@
       "calculadora-cts-peru",
       "vacaciones-peru",
       "afp-vs-onp"
-    ]
+    ],
+    "image": {
+      "file": "calcular-impuesto-renta-quinta-categoria.webp",
+      "alt": "Renta de quinta categoría"
+    }
   },
   {
     "slug": "uit-a-soles",
@@ -15432,7 +15904,11 @@
       "calcular-gratificacion-peru",
       "vacaciones-peru",
       "afp-vs-onp"
-    ]
+    ],
+    "image": {
+      "file": "valor-uit-2026-en-soles.webp",
+      "alt": "UIT a soles"
+    }
   },
   {
     "slug": "vacaciones-peru",
@@ -15508,7 +15984,11 @@
       "renta-quinta-categoria",
       "uit-a-soles",
       "afp-vs-onp"
-    ]
+    ],
+    "image": {
+      "file": "calcular-vacaciones-truncas-peru.webp",
+      "alt": "Vacaciones truncas Perú"
+    }
   },
   {
     "slug": "afp-vs-onp",
@@ -15585,7 +16065,11 @@
       "calculo-pension-jubilacion",
       "uit-a-soles",
       "vacaciones-peru"
-    ]
+    ],
+    "image": {
+      "file": "comparar-pension-afp-vs-onp.webp",
+      "alt": "AFP vs ONP"
+    }
   },
   {
     "slug": "decimo-tercer-sueldo",
@@ -15661,7 +16145,11 @@
       "impuesto-renta-ecuador",
       "calcular-aguinaldo",
       "aguinaldo-uruguay"
-    ]
+    ],
+    "image": {
+      "file": "calcular-decimo-tercer-sueldo-ecuador.webp",
+      "alt": "Décimo tercer sueldo"
+    }
   },
   {
     "slug": "decimo-cuarto-sueldo",
@@ -15737,7 +16225,11 @@
       "impuesto-renta-ecuador",
       "calculadora-dias",
       "calcular-aguinaldo"
-    ]
+    ],
+    "image": {
+      "file": "calcular-decimo-cuarto-sueldo-ecuador.webp",
+      "alt": "Décimo cuarto sueldo"
+    }
   },
   {
     "slug": "fondos-de-reserva",
@@ -15813,7 +16305,11 @@
       "impuesto-renta-ecuador",
       "calculadora-porcentaje",
       "calculadora-ahorro"
-    ]
+    ],
+    "image": {
+      "file": "calcular-fondos-de-reserva-iess.webp",
+      "alt": "Fondos de reserva"
+    }
   },
   {
     "slug": "impuesto-renta-ecuador",
@@ -15889,7 +16385,11 @@
       "fondos-de-reserva",
       "calculadora-porcentaje",
       "calcular-iva"
-    ]
+    ],
+    "image": {
+      "file": "calcular-impuesto-a-la-renta-ecuador.webp",
+      "alt": "Impuesto a la renta Ecuador"
+    }
   },
   {
     "slug": "aguinaldo-uruguay",
@@ -15965,7 +16465,11 @@
       "calcular-sac-argentina",
       "decimo-tercer-sueldo",
       "calculadora-porcentaje"
-    ]
+    ],
+    "image": {
+      "file": "calcular-aguinaldo-en-uruguay.webp",
+      "alt": "Aguinaldo Uruguay"
+    }
   },
   {
     "slug": "irpf-uruguay",
@@ -16041,7 +16545,11 @@
       "calculadora-porcentaje",
       "calculadora-sueldo-neto-argentina",
       "calculadora-nomina"
-    ]
+    ],
+    "image": {
+      "file": "calcular-irpf-uruguay-sueldo.webp",
+      "alt": "IRPF Uruguay"
+    }
   },
   {
     "slug": "amigo-invisible",
@@ -16117,7 +16625,11 @@
       "generador-equipos",
       "ruleta-aleatoria-online",
       "verdad-o-reto"
-    ]
+    ],
+    "image": {
+      "file": "sorteo-amigo-invisible-online.webp",
+      "alt": "Amigo invisible"
+    }
   },
   {
     "slug": "dias-para-navidad",
@@ -16193,7 +16705,11 @@
       "temporizador-online",
       "calcular-fecha-futura",
       "calculadora-edad"
-    ]
+    ],
+    "image": {
+      "file": "cuantos-dias-faltan-para-navidad.webp",
+      "alt": "Días para Navidad"
+    }
   },
   {
     "slug": "presupuesto-boda",
@@ -16269,7 +16785,11 @@
       "dividir-cuenta",
       "generador-firma-email",
       "tallas-de-anillo"
-    ]
+    ],
+    "image": {
+      "file": "cuanto-cuesta-una-boda-presupuesto.webp",
+      "alt": "Presupuesto de boda"
+    }
   },
   {
     "slug": "comprimir-imagen",
@@ -16345,7 +16865,11 @@
       "imagen-a-base64",
       "imagenes-a-pdf",
       "generador-favicon"
-    ]
+    ],
+    "image": {
+      "file": "comprimir-imagen-sin-perder-calidad.webp",
+      "alt": "Comprimir imagen"
+    }
   },
   {
     "slug": "redimensionar-imagen",
@@ -16421,7 +16945,11 @@
       "generador-favicon",
       "imagen-a-base64",
       "tipografia-para-instagram"
-    ]
+    ],
+    "image": {
+      "file": "cambiar-tamano-de-imagen-para-redes-sociales.webp",
+      "alt": "Redimensionar imagen"
+    }
   },
   {
     "slug": "generador-favicon",
@@ -16497,7 +17025,11 @@
       "imagen-a-base64",
       "convertidor-imagenes",
       "generador-paleta-colores"
-    ]
+    ],
+    "image": {
+      "file": "crear-favicon-ico-para-sitio-web.webp",
+      "alt": "Generador de favicon"
+    }
   },
   {
     "slug": "generador-excusas",
@@ -16573,7 +17105,11 @@
       "ideas-para-historias",
       "piedra-papel-tijera",
       "generador-nombres"
-    ]
+    ],
+    "image": {
+      "file": "excusas-creibles-y-graciosas.webp",
+      "alt": "Generador de excusas"
+    }
   },
   {
     "slug": "tallas-de-anillo",
@@ -16649,6 +17185,10 @@
       "presupuesto-boda",
       "convertidor-unidades",
       "onzas-a-gramos"
-    ]
+    ],
+    "image": {
+      "file": "tabla-de-tallas-de-anillo.webp",
+      "alt": "Tallas de anillo"
+    }
   }
 ]

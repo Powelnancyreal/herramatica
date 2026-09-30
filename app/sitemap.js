@@ -36,7 +36,7 @@ export default function sitemap() {
     lastModified: now,
     changeFrequency: 'monthly',
     priority: 0.8,
-    images: imageIfExists(`images/tools/${tool.slug}.webp`),
+    images: imageIfExists(`images/tools/${tool.image?.file || `${tool.slug}.webp`}`),
   }))
 
   const legalRoutes = ['/privacidad', '/terminos', '/cookies', '/acerca', '/contacto'].map((route) => ({

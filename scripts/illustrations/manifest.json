@@ -1,0 +1,542 @@
+{
+  "calcular-prima-vacacional": {
+    "file": "como-calcular-la-prima-vacacional-2026.webp",
+    "alt": "Calcular prima vacacional"
+  },
+  "calcular-vacaciones": {
+    "file": "dias-de-vacaciones-por-antiguedad-mexico.webp",
+    "alt": "Calcular vacaciones"
+  },
+  "calcular-ptu": {
+    "file": "calculo-reparto-de-utilidades-ptu-2026.webp",
+    "alt": "Calcular PTU"
+  },
+  "calcular-salario-diario-integrado": {
+    "file": "como-calcular-salario-diario-integrado-imss.webp",
+    "alt": "Calcular salario diario integrado"
+  },
+  "calculadora-cat": {
+    "file": "calcular-costo-anual-total-cat-credito.webp",
+    "alt": "Calculadora CAT"
+  },
+  "calculadora-nomina": {
+    "file": "calcular-sueldo-neto-nomina-mexico.webp",
+    "alt": "Calculadora de nómina"
+  },
+  "calcular-descuento": {
+    "file": "calcular-porcentaje-de-descuento-precio-final.webp",
+    "alt": "Calcular descuento"
+  },
+  "calculadora-ahorro": {
+    "file": "calculadora-meta-de-ahorro-mensual.webp",
+    "alt": "Calculadora de ahorro"
+  },
+  "calculadora-roi": {
+    "file": "calcular-retorno-de-inversion-roi.webp",
+    "alt": "Calculadora ROI"
+  },
+  "calculadora-nota-necesaria": {
+    "file": "que-nota-necesito-para-aprobar.webp",
+    "alt": "Calculadora de nota necesaria"
+  },
+  "calculadora-dias-habiles": {
+    "file": "contar-dias-habiles-entre-dos-fechas.webp",
+    "alt": "Calculadora de días hábiles"
+  },
+  "calcular-fecha-futura": {
+    "file": "que-fecha-sera-dentro-de-x-dias.webp",
+    "alt": "Calcular fecha futura"
+  },
+  "validador-iban": {
+    "file": "validar-numero-iban-cuenta-bancaria.webp",
+    "alt": "Validador IBAN"
+  },
+  "calculadora-ovulacion": {
+    "file": "calcular-dias-fertiles-y-ovulacion.webp",
+    "alt": "Calculadora de ovulación"
+  },
+  "calculadora-tmb": {
+    "file": "calcular-metabolismo-basal-tmb.webp",
+    "alt": "Calculadora TMB"
+  },
+  "calculadora-grasa-corporal": {
+    "file": "calcular-porcentaje-de-grasa-corporal.webp",
+    "alt": "Calculadora de grasa corporal"
+  },
+  "calculadora-agua-diaria": {
+    "file": "cuanta-agua-debo-tomar-al-dia.webp",
+    "alt": "Calculadora de agua diaria"
+  },
+  "formateador-json": {
+    "file": "formatear-y-validar-json-online.webp",
+    "alt": "Formateador JSON"
+  },
+  "codificador-base64": {
+    "file": "codificar-y-decodificar-base64-online.webp",
+    "alt": "Codificador Base64"
+  },
+  "generador-uuid": {
+    "file": "generar-uuid-v4-online.webp",
+    "alt": "Generador UUID"
+  },
+  "probador-regex": {
+    "file": "probar-expresiones-regulares-online.webp",
+    "alt": "Probador regex"
+  },
+  "generador-hash": {
+    "file": "generar-hash-md5-sha256-online.webp",
+    "alt": "Generador de hash"
+  },
+  "generador-lorem-ipsum": {
+    "file": "generar-texto-lorem-ipsum-de-relleno.webp",
+    "alt": "Generador lorem ipsum"
+  },
+  "validador-email": {
+    "file": "validar-correo-electronico-online.webp",
+    "alt": "Validador de email"
+  },
+  "contador-caracteres": {
+    "file": "contar-caracteres-de-un-texto-online.webp",
+    "alt": "Contador de caracteres"
+  },
+  "sorteo-online": {
+    "file": "hacer-sorteo-de-nombres-online.webp",
+    "alt": "Sorteo online"
+  },
+  "generador-numeros-aleatorios": {
+    "file": "generar-numeros-aleatorios-y-dados-online.webp",
+    "alt": "Generador de números aleatorios"
+  },
+  "cara-o-cruz": {
+    "file": "lanzar-moneda-cara-o-cruz-online.webp",
+    "alt": "Cara o cruz"
+  },
+  "temporizador-online": {
+    "file": "temporizador-cuenta-regresiva-online.webp",
+    "alt": "Temporizador online"
+  },
+  "conversor-criptomonedas": {
+    "file": "convertir-bitcoin-a-pesos-y-dolares.webp",
+    "alt": "Conversor de criptomonedas"
+  },
+  "conversor-zona-horaria": {
+    "file": "convertir-hora-entre-paises.webp",
+    "alt": "Conversor de zona horaria"
+  },
+  "kilos-a-libras": {
+    "file": "convertir-kilos-a-libras.webp",
+    "alt": "Kilos a libras"
+  },
+  "convertidor-tallas": {
+    "file": "tabla-de-tallas-de-ropa-y-zapatos-mexico-usa-europa.webp",
+    "alt": "Convertidor de tallas"
+  },
+  "calcular-subsidio-empleo": {
+    "file": "subsidio-al-empleo-2026-monto-mensual.webp",
+    "alt": "Calcular subsidio al empleo"
+  },
+  "calcular-cuota-imss": {
+    "file": "cuotas-imss-patron-y-trabajador-2026.webp",
+    "alt": "Calcular cuota IMSS"
+  },
+  "salarios-minimos-2026": {
+    "file": "tabla-salario-minimo-2026-mexico.webp",
+    "alt": "Salario mínimo 2026"
+  },
+  "pension-imss-modalidad-40": {
+    "file": "simulador-pension-modalidad-40-ley-73.webp",
+    "alt": "Pensión IMSS modalidad 40"
+  },
+  "semanas-cotizadas-imss": {
+    "file": "calcular-semanas-cotizadas-imss.webp",
+    "alt": "Semanas cotizadas IMSS"
+  },
+  "calcular-horas-extras": {
+    "file": "pago-de-horas-extras-dobles-y-triples.webp",
+    "alt": "Calcular horas extras"
+  },
+  "comparador-afore": {
+    "file": "comparar-afore-rendimiento-neto.webp",
+    "alt": "Comparador de AFORE"
+  },
+  "calcular-isr-aguinaldo": {
+    "file": "calcular-isr-del-aguinaldo-2026.webp",
+    "alt": "ISR del aguinaldo"
+  },
+  "dolar-a-peso-mexicano": {
+    "file": "tipo-de-cambio-dolar-a-peso-mexicano-hoy.webp",
+    "alt": "Dólar a peso mexicano"
+  },
+  "tabla-de-amortizacion": {
+    "file": "generar-tabla-de-amortizacion-de-prestamo.webp",
+    "alt": "Tabla de amortización"
+  },
+  "calculadora-cetes": {
+    "file": "calcular-rendimiento-de-cetes.webp",
+    "alt": "Calculadora CETES"
+  },
+  "simulador-credito-automotriz": {
+    "file": "calcular-mensualidad-credito-de-auto.webp",
+    "alt": "Simulador de crédito automotriz"
+  },
+  "calculadora-interes-simple": {
+    "file": "formula-de-interes-simple-calculadora.webp",
+    "alt": "Calculadora de interés simple"
+  },
+  "presupuesto-mensual": {
+    "file": "hacer-presupuesto-mensual-regla-50-30-20.webp",
+    "alt": "Presupuesto mensual"
+  },
+  "plan-pago-deudas": {
+    "file": "metodo-bola-de-nieve-y-avalancha-deudas.webp",
+    "alt": "Plan para pagar deudas"
+  },
+  "calculadora-comision-ventas": {
+    "file": "calcular-comision-por-ventas.webp",
+    "alt": "Calculadora de comisión por ventas"
+  },
+  "comparador-precios": {
+    "file": "comparar-precio-por-kilo-en-el-super.webp",
+    "alt": "Comparador de precios por kilo"
+  },
+  "libras-a-kilos": {
+    "file": "convertir-libras-a-kilos.webp",
+    "alt": "Libras a kilos"
+  },
+  "fahrenheit-a-celsius": {
+    "file": "convertir-grados-fahrenheit-a-celsius.webp",
+    "alt": "Fahrenheit a Celsius"
+  },
+  "onzas-a-gramos": {
+    "file": "convertir-onzas-a-gramos.webp",
+    "alt": "Onzas a gramos"
+  },
+  "tazas-a-ml": {
+    "file": "cuantos-ml-tiene-una-taza.webp",
+    "alt": "Tazas a ml"
+  },
+  "millas-a-kilometros": {
+    "file": "convertir-millas-a-kilometros.webp",
+    "alt": "Millas a kilómetros"
+  },
+  "pies-a-metros": {
+    "file": "convertir-pies-a-metros-y-estatura.webp",
+    "alt": "Pies a metros"
+  },
+  "litros-a-galones": {
+    "file": "convertir-litros-a-galones.webp",
+    "alt": "Litros a galones"
+  },
+  "calculadora-promedio": {
+    "file": "sacar-promedio-de-calificaciones.webp",
+    "alt": "Calculadora de promedio"
+  },
+  "calculadora-fracciones": {
+    "file": "sumar-restar-multiplicar-dividir-fracciones.webp",
+    "alt": "Calculadora de fracciones"
+  },
+  "calculadora-mcd-mcm": {
+    "file": "calcular-maximo-comun-divisor-y-minimo-comun-multiplo.webp",
+    "alt": "Calculadora MCD y MCM"
+  },
+  "calculadora-pitagoras": {
+    "file": "calcular-hipotenusa-teorema-de-pitagoras.webp",
+    "alt": "Teorema de Pitágoras"
+  },
+  "calculadora-factorial": {
+    "file": "calcular-factorial-de-un-numero.webp",
+    "alt": "Calculadora factorial"
+  },
+  "calculadora-desviacion-estandar": {
+    "file": "calcular-desviacion-estandar-y-varianza.webp",
+    "alt": "Calculadora de desviación estándar"
+  },
+  "tablas-de-multiplicar": {
+    "file": "tablas-de-multiplicar-para-imprimir-y-practicar.webp",
+    "alt": "Tablas de multiplicar"
+  },
+  "edad-de-mi-perro": {
+    "file": "calcular-edad-de-perro-en-anos-humanos.webp",
+    "alt": "Edad de mi perro en años humanos"
+  },
+  "decodificador-jwt": {
+    "file": "decodificar-token-jwt-online.webp",
+    "alt": "Decodificador JWT"
+  },
+  "conversor-csv-json": {
+    "file": "convertir-csv-a-json-online.webp",
+    "alt": "Conversor CSV a JSON"
+  },
+  "codificador-url": {
+    "file": "codificar-y-decodificar-url-online.webp",
+    "alt": "Codificador URL"
+  },
+  "minificador-codigo": {
+    "file": "minificar-javascript-css-html-online.webp",
+    "alt": "Minificador de código"
+  },
+  "generador-datos-prueba": {
+    "file": "generar-datos-falsos-de-prueba-en-espanol.webp",
+    "alt": "Generador de datos de prueba"
+  },
+  "generador-paleta-colores": {
+    "file": "crear-paleta-de-colores-online.webp",
+    "alt": "Generador de paleta de colores"
+  },
+  "selector-de-color": {
+    "file": "selector-de-color-hex-rgb-online.webp",
+    "alt": "Selector de color"
+  },
+  "conversor-hex-rgb": {
+    "file": "convertir-color-hex-a-rgb.webp",
+    "alt": "Conversor HEX a RGB"
+  },
+  "imagen-a-base64": {
+    "file": "convertir-imagen-a-base64-online.webp",
+    "alt": "Imagen a Base64"
+  },
+  "generador-nombres-bebe": {
+    "file": "nombres-de-bebe-con-significado.webp",
+    "alt": "Nombres de bebé"
+  },
+  "generador-apodos": {
+    "file": "generador-de-apodos-originales.webp",
+    "alt": "Generador de apodos"
+  },
+  "generador-nombres-empresa": {
+    "file": "ideas-de-nombres-para-empresas-y-negocios.webp",
+    "alt": "Generador de nombres para empresas"
+  },
+  "piedra-papel-tijera": {
+    "file": "jugar-piedra-papel-o-tijera-online.webp",
+    "alt": "Piedra, papel o tijera"
+  },
+  "generador-equipos": {
+    "file": "hacer-equipos-aleatorios-online.webp",
+    "alt": "Generador de equipos"
+  },
+  "tombola-online": {
+    "file": "tombola-y-bingo-online-gratis.webp",
+    "alt": "Tómbola online"
+  },
+  "verdad-o-reto": {
+    "file": "preguntas-de-verdad-o-reto-online.webp",
+    "alt": "Verdad o reto"
+  },
+  "ideas-para-historias": {
+    "file": "generador-de-ideas-para-escribir-historias.webp",
+    "alt": "Ideas para historias"
+  },
+  "generador-hashtags": {
+    "file": "generador-de-hashtags-para-instagram.webp",
+    "alt": "Generador de hashtags"
+  },
+  "generador-bio-instagram": {
+    "file": "ideas-de-biografia-para-instagram.webp",
+    "alt": "Bio para Instagram"
+  },
+  "generador-firma-email": {
+    "file": "crear-firma-de-correo-para-gmail-y-outlook.webp",
+    "alt": "Generador de firma de email"
+  },
+  "generador-esloganes": {
+    "file": "ideas-de-esloganes-para-negocios.webp",
+    "alt": "Generador de eslóganes"
+  },
+  "generador-utm": {
+    "file": "crear-enlaces-con-parametros-utm.webp",
+    "alt": "Generador UTM"
+  },
+  "markdown-a-html": {
+    "file": "convertir-markdown-a-html-online.webp",
+    "alt": "Markdown a HTML"
+  },
+  "validar-curp": {
+    "file": "validar-curp-online-gratis.webp",
+    "alt": "Validar CURP"
+  },
+  "dividir-cuenta": {
+    "file": "dividir-la-cuenta-del-restaurante-con-propina.webp",
+    "alt": "Dividir la cuenta"
+  },
+  "hora-militar": {
+    "file": "convertir-hora-de-12-a-24-horas.webp",
+    "alt": "Hora militar"
+  },
+  "calcular-paro": {
+    "file": "cuanto-cobro-de-paro-en-2026.webp",
+    "alt": "Calcular paro"
+  },
+  "cuota-autonomo": {
+    "file": "calcular-cuota-de-autonomos-por-tramos.webp",
+    "alt": "Cuota de autónomos 2026"
+  },
+  "calcular-plusvalia": {
+    "file": "calcular-plusvalia-municipal-venta-de-vivienda.webp",
+    "alt": "Calcular plusvalía municipal"
+  },
+  "nota-de-corte": {
+    "file": "calcular-nota-de-admision-ebau-sobre-14.webp",
+    "alt": "Nota de corte PAU"
+  },
+  "calculadora-factura-luz": {
+    "file": "calcular-factura-de-la-luz-por-kwh.webp",
+    "alt": "Calculadora factura de la luz"
+  },
+  "jubilacion-espana": {
+    "file": "edad-de-jubilacion-en-espana-2026.webp",
+    "alt": "Cuándo me puedo jubilar"
+  },
+  "impuesto-sucesiones": {
+    "file": "calcular-impuesto-de-sucesiones-por-comunidad.webp",
+    "alt": "Impuesto de sucesiones"
+  },
+  "cuanto-cuesta-reformar": {
+    "file": "precio-de-reforma-de-piso-por-metro-cuadrado.webp",
+    "alt": "Cuánto cuesta reformar un piso"
+  },
+  "huella-de-carbono": {
+    "file": "calcular-mi-huella-de-carbono-personal.webp",
+    "alt": "Huella de carbono"
+  },
+  "dolar-blue": {
+    "file": "cotizacion-dolar-blue-a-pesos-argentinos.webp",
+    "alt": "Dólar blue hoy"
+  },
+  "monotributo": {
+    "file": "calcular-categoria-de-monotributo.webp",
+    "alt": "Categorías monotributo 2026"
+  },
+  "calculadora-inflacion": {
+    "file": "calcular-inflacion-acumulada.webp",
+    "alt": "Calculadora de inflación"
+  },
+  "preaviso-laboral": {
+    "file": "calcular-indemnizacion-sustitutiva-de-preaviso.webp",
+    "alt": "Preaviso laboral"
+  },
+  "sueldo-liquido-chile": {
+    "file": "calcular-sueldo-liquido-en-chile.webp",
+    "alt": "Sueldo líquido Chile"
+  },
+  "finiquito-chile": {
+    "file": "calcular-finiquito-e-indemnizacion-chile.webp",
+    "alt": "Finiquito Chile"
+  },
+  "uf-a-pesos": {
+    "file": "valor-uf-hoy-en-pesos-chilenos.webp",
+    "alt": "UF a pesos"
+  },
+  "utm-a-pesos": {
+    "file": "valor-utm-en-pesos-chilenos.webp",
+    "alt": "UTM a pesos"
+  },
+  "dividendo-hipotecario": {
+    "file": "simular-dividendo-credito-hipotecario-chile.webp",
+    "alt": "Dividendo hipotecario"
+  },
+  "gratificacion-chile": {
+    "file": "calcular-gratificacion-legal-chile.webp",
+    "alt": "Gratificación legal Chile"
+  },
+  "cotizacion-afp": {
+    "file": "cuanto-descuenta-la-afp-chile.webp",
+    "alt": "Cotización AFP"
+  },
+  "puntaje-paes": {
+    "file": "calcular-puntaje-ponderado-paes.webp",
+    "alt": "Puntaje PAES"
+  },
+  "prima-de-servicios": {
+    "file": "calcular-prima-de-servicios-colombia.webp",
+    "alt": "Prima de servicios"
+  },
+  "calcular-cesantias": {
+    "file": "como-calcular-cesantias-colombia.webp",
+    "alt": "Calcular cesantías"
+  },
+  "intereses-cesantias": {
+    "file": "calcular-intereses-sobre-cesantias.webp",
+    "alt": "Intereses a las cesantías"
+  },
+  "retencion-en-la-fuente": {
+    "file": "calcular-retencion-en-la-fuente-salarios.webp",
+    "alt": "Retención en la fuente"
+  },
+  "vacaciones-colombia": {
+    "file": "calcular-vacaciones-en-colombia.webp",
+    "alt": "Vacaciones Colombia"
+  },
+  "renta-quinta-categoria": {
+    "file": "calcular-impuesto-renta-quinta-categoria.webp",
+    "alt": "Renta de quinta categoría"
+  },
+  "uit-a-soles": {
+    "file": "valor-uit-2026-en-soles.webp",
+    "alt": "UIT a soles"
+  },
+  "vacaciones-peru": {
+    "file": "calcular-vacaciones-truncas-peru.webp",
+    "alt": "Vacaciones truncas Perú"
+  },
+  "afp-vs-onp": {
+    "file": "comparar-pension-afp-vs-onp.webp",
+    "alt": "AFP vs ONP"
+  },
+  "decimo-tercer-sueldo": {
+    "file": "calcular-decimo-tercer-sueldo-ecuador.webp",
+    "alt": "Décimo tercer sueldo"
+  },
+  "decimo-cuarto-sueldo": {
+    "file": "calcular-decimo-cuarto-sueldo-ecuador.webp",
+    "alt": "Décimo cuarto sueldo"
+  },
+  "fondos-de-reserva": {
+    "file": "calcular-fondos-de-reserva-iess.webp",
+    "alt": "Fondos de reserva"
+  },
+  "impuesto-renta-ecuador": {
+    "file": "calcular-impuesto-a-la-renta-ecuador.webp",
+    "alt": "Impuesto a la renta Ecuador"
+  },
+  "aguinaldo-uruguay": {
+    "file": "calcular-aguinaldo-en-uruguay.webp",
+    "alt": "Aguinaldo Uruguay"
+  },
+  "irpf-uruguay": {
+    "file": "calcular-irpf-uruguay-sueldo.webp",
+    "alt": "IRPF Uruguay"
+  },
+  "amigo-invisible": {
+    "file": "sorteo-amigo-invisible-online.webp",
+    "alt": "Amigo invisible"
+  },
+  "dias-para-navidad": {
+    "file": "cuantos-dias-faltan-para-navidad.webp",
+    "alt": "Días para Navidad"
+  },
+  "presupuesto-boda": {
+    "file": "cuanto-cuesta-una-boda-presupuesto.webp",
+    "alt": "Presupuesto de boda"
+  },
+  "comprimir-imagen": {
+    "file": "comprimir-imagen-sin-perder-calidad.webp",
+    "alt": "Comprimir imagen"
+  },
+  "redimensionar-imagen": {
+    "file": "cambiar-tamano-de-imagen-para-redes-sociales.webp",
+    "alt": "Redimensionar imagen"
+  },
+  "generador-favicon": {
+    "file": "crear-favicon-ico-para-sitio-web.webp",
+    "alt": "Generador de favicon"
+  },
+  "generador-excusas": {
+    "file": "excusas-creibles-y-graciosas.webp",
+    "alt": "Generador de excusas"
+  },
+  "tallas-de-anillo": {
+    "file": "tabla-de-tallas-de-anillo.webp",
+    "alt": "Tallas de anillo"
+  }
+}

@@ -3,6 +3,7 @@ import path from 'path'
 import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 import RelatedTools from '@/components/RelatedTools'
+import { getToolImage as getToolIllustration } from '@/lib/toolImage'
 
 const toolImageOverrides = {
   'generador-qr': 'tool-qr',
@@ -12,11 +13,6 @@ function getToolImage(slug) {
   const baseName = toolImageOverrides[slug] || `tool-${slug}`
   const filePath = path.join(process.cwd(), 'public', 'images', `${baseName}.webp`)
   return fs.existsSync(filePath) ? `/images/${baseName}.webp` : null
-}
-
-function getToolBottomImage(slug) {
-  const filePath = path.join(process.cwd(), 'public', 'images', 'tools', `${slug}.webp`)
-  return fs.existsSync(filePath) ? `/images/tools/${slug}.webp` : null
 }
 
 function cleanToolName(name) {
@@ -74,10 +70,11 @@ const toolBottomImageAltOverrides = {
 
 export default function ToolLayout({ tool, children }) {
   const toolImage = getToolImage(tool.slug)
-  const toolBottomImage = getToolBottomImage(tool.slug)
+  const bottomImage = getToolIllustration(tool)
+  const toolBottomImage = bottomImage?.src
   const toolNameForAlt = cleanToolName(tool.name)
   const toolBottomImageAlt =
-    toolBottomImageAltOverrides[tool.slug] || `${toolNameForAlt} - herramienta online gratis en español`
+    bottomImage?.alt || toolBottomImageAltOverrides[tool.slug] || `${toolNameForAlt} - herramienta online gratis en español`
 
   return (
     <main className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

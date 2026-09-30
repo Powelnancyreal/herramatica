@@ -1,10 +1,9 @@
-import fs from 'fs'
-import path from 'path'
 import Link from 'next/link'
 import Image from 'next/image'
 import toolsData from '@/data/tools.json'
 import categoriesData from '@/data/categories.json'
 import home from '@/data/home.json'
+import { getToolImage } from '@/lib/toolImage'
 
 const porSlug = new Map(toolsData.map((t) => [t.slug, t]))
 const categoria = new Map(categoriesData.map((c) => [c.slug, c]))
@@ -20,8 +19,6 @@ const ESTILOS = {
 // Solo se enlazan herramientas que existen, para que un cambio en data/home.json nunca genere un enlace roto.
 const herramientas = (slugs) => slugs.map((s) => porSlug.get(s)).filter(Boolean)
 const nombreCorto = (t) => t.shortName || t.name
-const imagen = (slug) => (fs.existsSync(path.join(process.cwd(), 'public', 'images', 'tools', `${slug}.webp`)) ? `/images/tools/${slug}.webp` : null)
-
 // Banderas dibujadas con CSS: los emojis de banderas no se ven en Windows.
 const BANDERAS = {
   mexico: 'linear-gradient(to right, #006847 33.3%, #fff 33.3% 66.6%, #CE1126 66.6%)',
@@ -62,11 +59,11 @@ function Destacadas() {
       <Encabezado titulo={<span id="destacadas">⭐ Las herramientas más usadas</span>} subtitulo="Las favoritas de quienes nos visitan cada día." />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {lista.map((t) => {
-          const img = imagen(t.slug)
+          const img = getToolImage(t)
           return (
             <Link key={t.slug} href={`/${t.slug}`} className="group flex sm:flex-col bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg hover:-translate-y-0.5 transition-all">
               {img ? (
-                <Image src={img} alt={`${t.name}: herramienta online gratis`} width={800} height={450} unoptimized className="w-28 sm:w-full flex-shrink-0 aspect-square sm:aspect-video object-cover bg-gray-50" />
+                <Image src={img.src} alt={img.alt || `${t.name}: herramienta online gratis`} width={800} height={450} unoptimized className="w-28 sm:w-full flex-shrink-0 aspect-square sm:aspect-video object-cover bg-gray-50" />
               ) : (
                 <div className={`w-28 sm:w-full flex-shrink-0 aspect-square sm:aspect-video flex items-center justify-center text-5xl ${ESTILOS[t.category]?.icono || 'bg-gray-100'}`}>{categoria.get(t.category)?.icon}</div>
               )}
