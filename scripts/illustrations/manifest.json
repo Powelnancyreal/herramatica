@@ -566,5 +566,13 @@
   "calculadora-registral": {
     "file": "calcular-derechos-registrales-sunarp.webp",
     "alt": "Calculadora registral SUNARP"
+  },
+  "calculadora-suteba": {
+    "file": "calcular-sueldo-docente-provincia-de-buenos-aires.webp",
+    "alt": "Calculadora SUTEBA"
+  },
+  "simulador-liga-1": {
+    "file": "simulador-tabla-de-posiciones-liga-1-peru.webp",
+    "alt": "Simulador Liga 1"
   }
 }

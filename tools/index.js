@@ -241,4 +241,6 @@ export const toolComponents = {
   'calculadora-registral': dynamic(() => import('./calculadora-registral')),
   'calculadora-upao': dynamic(() => import('./calculadora-upao')),
   'convertidor-libras-a-newtons': dynamic(() => import('./convertidor-libras-a-newtons')),
+  'calculadora-suteba': dynamic(() => import('./calculadora-suteba')),
+  'simulador-liga-1': dynamic(() => import('./simulador-liga-1')),
 }

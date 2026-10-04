@@ -969,5 +969,13 @@
     "vivienda",
     "impuestos",
     "PE"
+  ],
+  "calculadora-suteba": [
+    "laboral",
+    "AR"
+  ],
+  "simulador-liga-1": [
+    "deporte",
+    "azar"
   ]
 }

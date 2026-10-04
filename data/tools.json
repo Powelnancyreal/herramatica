@@ -3016,7 +3016,7 @@
       "calcular-velocidad-distancia-tiempo",
       "calcular-gasolina",
       "huella-de-carbono",
-      "cronometro-online"
+      "simulador-liga-1"
     ]
   },
   {
@@ -3081,7 +3081,8 @@
       "temporizador-online",
       "conversor-zona-horaria",
       "hora-militar",
-      "calculadora-ciclos-sueno"
+      "calculadora-ciclos-sueno",
+      "simulador-liga-1"
     ]
   },
   {
@@ -3665,6 +3666,7 @@
       "calcular-sac-argentina",
       "calculadora-sueldo-neto-argentina",
       "calculadora-empleados-de-comercio",
+      "calculadora-suteba",
       "monotributo",
       "dolar-blue"
     ]
@@ -3729,6 +3731,7 @@
       "calculadora-sueldo-neto-argentina",
       "preaviso-laboral",
       "calculadora-empleados-de-comercio",
+      "calculadora-suteba",
       "monotributo",
       "dolar-blue"
     ]
@@ -3983,6 +3986,7 @@
       "calcular-indemnizacion-despido",
       "preaviso-laboral",
       "calculadora-empleados-de-comercio",
+      "calculadora-suteba",
       "dolar-blue"
     ]
   },
@@ -13246,7 +13250,7 @@
       "generador-de-crucigramas",
       "ruleta-aleatoria-online",
       "cara-o-cruz",
-      "tombola-online"
+      "generador-equipos"
     ],
     "image": {
       "file": "preguntas-de-verdad-o-reto-online.webp",
@@ -14723,6 +14727,7 @@
       "preaviso-laboral",
       "calcular-indemnizacion-despido",
       "calculadora-empleados-de-comercio",
+      "calculadora-suteba",
       "dolar-blue"
     ],
     "image": {
@@ -14882,6 +14887,7 @@
       "calcular-sac-argentina",
       "calculadora-sueldo-neto-argentina",
       "calculadora-empleados-de-comercio",
+      "calculadora-suteba",
       "monotributo",
       "dolar-blue"
     ],
@@ -17695,6 +17701,7 @@
       "calcular-sac-argentina",
       "calculadora-sueldo-neto-argentina",
       "preaviso-laboral",
+      "calculadora-suteba",
       "monotributo",
       "dolar-blue"
     ],
@@ -17912,6 +17919,145 @@
     "image": {
       "file": "convertir-libras-fuerza-a-newtons.webp",
       "alt": "Libras a newtons"
+    }
+  },
+  {
+    "slug": "calculadora-suteba",
+    "name": "Calculadora de Sueldo Docente Bonaerense (SUTEBA)",
+    "shortName": "Calculadora SUTEBA",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora SUTEBA: sueldo docente bonaerense 2026",
+    "metaDescription": "Calculá tu sueldo docente en la Provincia de Buenos Aires: básico por índice, antigüedad, códigos 438 y 455, compensación y descuentos de IPS e IOMA.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Si sos docente en la Provincia de Buenos Aires, esta calculadora te ayuda a estimar tu sueldo como lo hacen las calculadoras gremiales de SUTEBA: elegís tu cargo, cargás tus años de antigüedad y obtenés el básico por índice, la bonificación por antigüedad, las bonificaciones de los códigos 438 y 455, la compensación provincial y los descuentos de IPS e IOMA. Viene con los valores de referencia de agosto de 2026, y cada monto se puede editar para ajustarlo a tu recibo o a un nuevo acuerdo paritario.",
+    "howToUse": [
+      "Elegí tu cargo: se completan el índice y las bonificaciones de referencia",
+      "Cargá tus años de antigüedad docente; el porcentaje se calcula solo",
+      "Compará el valor del índice y los códigos con tu recibo y corregilos si cambiaron",
+      "Tocá «Calcular sueldo docente» y revisá el desglose del bruto y el neto"
+    ],
+    "benefits": [
+      "Básico calculado por índice sobre el valor del cargo testigo",
+      "Tabla de antigüedad completa: de 21% a 125%",
+      "Incluye los códigos 438 y 455 y la compensación provincial",
+      "Descuenta IPS (16%) e IOMA (4,8%) sobre lo remunerativo",
+      "Todos los montos son editables para cada paritaria"
+    ],
+    "contentSections": [
+      {
+        "title": "Cómo se calcula el sueldo docente en la Provincia de Buenos Aires",
+        "body": "El sueldo docente bonaerense parte del básico de tu cargo, que se obtiene multiplicando el índice del cargo por el valor del índice del cargo testigo. Sobre el básico se aplica la bonificación por antigüedad, que va del 21% en los primeros años al 125% a partir de los 24 años. Se suman las bonificaciones remunerativas de suma fija, como las de los códigos 438 y 455, y la compensación provincial que reemplazó al FONID, que no tiene descuentos. Sobre lo remunerativo se descuentan el 16% de aporte al IPS y el 4,8% de IOMA."
+      },
+      {
+        "title": "Ejemplo: maestra de grado con 10 años de antigüedad",
+        "body": "Con los valores de referencia de agosto de 2026, el básico de un cargo de índice 1,1 es $349.693 × 1,1 = $384.662,30. Con 10 años le corresponde un 54% de antigüedad, $207.717,64. Sumando los códigos 438 ($278.750) y 455 ($141.881), el total remunerativo es de $1.013.010,94; con la compensación de $30.709, el bruto llega a $1.043.719,94. Los descuentos de IPS e IOMA suman $210.706,28, así que el neto estimado ronda $833.014. Tu recibo puede tener otros códigos que cambian el resultado. Si trabajás también en el sector privado, podés comparar con la calculadora de [empleados de comercio](/calculadora-empleados-de-comercio)."
+      },
+      {
+        "title": "Por qué tu recibo puede ser distinto",
+        "body": "Los montos cambian con cada acuerdo paritario y algunos conceptos dependen de tu situación: zona desfavorable, ruralidad, cargos jerárquicos, módulos u horas cátedra, o la cuota sindical si estás afiliado. Por eso la calculadora deja editar cada código. Para el medio aguinaldo de junio y diciembre podés usar la calculadora de [SAC](/calcular-sac-argentina)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cobra un maestro en Provincia de Buenos Aires?",
+        "answer": "Depende del cargo y la antigüedad. Con los valores de referencia de agosto de 2026, un cargo de maestro de grado con 10 años de antigüedad tiene un bruto cercano a $1.040.000. Usá la calculadora con tus datos y compará con tu recibo."
+      },
+      {
+        "question": "¿Cuánto es la antigüedad docente en la Provincia?",
+        "answer": "Va del 21% en el primer tramo al 125% con 24 años o más, pasando por 54% a los 10 años y 105% a los 20, y se aplica sobre el básico del cargo."
+      },
+      {
+        "question": "¿Qué descuentos tiene el recibo docente bonaerense?",
+        "answer": "El aporte jubilatorio al IPS, del 16%, y la obra social IOMA, del 4,8%, ambos sobre lo remunerativo. Si estás afiliado a un gremio, también se descuenta la cuota sindical."
+      },
+      {
+        "question": "¿Esta es la calculadora oficial de SUTEBA?",
+        "answer": "No. Es una calculadora independiente que sigue la misma estructura del salario docente. Para valores oficiales consultá las grillas salariales que publican la Dirección General de Cultura y Educación y los gremios docentes."
+      }
+    ],
+    "relatedTools": [
+      "calcular-indemnizacion-despido",
+      "calcular-sac-argentina",
+      "calculadora-sueldo-neto-argentina",
+      "preaviso-laboral",
+      "calculadora-empleados-de-comercio",
+      "monotributo",
+      "dolar-blue"
+    ],
+    "image": {
+      "file": "calcular-sueldo-docente-provincia-de-buenos-aires.webp",
+      "alt": "Calculadora SUTEBA"
+    }
+  },
+  {
+    "slug": "simulador-liga-1",
+    "name": "Simulador Liga 1 Perú 2026: Torneo Clausura",
+    "shortName": "Simulador Liga 1",
+    "category": "juegos",
+    "metaTitle": "Simulador Liga 1 2026: tabla del Clausura",
+    "metaDescription": "Simula resultados de la Liga 1 de Perú 2026 y mira cómo queda la tabla del Torneo Clausura al instante: puntos, diferencia de goles y posiciones. Gratis.",
+    "webApp": true,
+    "appCategory": "GameApplication",
+    "intro": "¿Qué pasa con la tabla si tu equipo gana el próximo partido? Con este simulador de la Liga 1 puedes cargar los resultados que imagines y ver al instante cómo cambia la tabla de posiciones del Torneo Clausura 2026. Parte de la tabla real tras la fecha 10, con los 18 equipos y los puntos descontados por sanción, y te muestra cuántos puestos sube o baja cada club con tus resultados.",
+    "howToUse": [
+      "Elige el equipo local y el visitante",
+      "Escribe los goles de cada uno y pulsa «Simular resultado»",
+      "Agrega todos los partidos que quieras; la tabla se recalcula sola",
+      "Quita un resultado con la × o pulsa «Reiniciar» para volver a la tabla real"
+    ],
+    "benefits": [
+      "Tabla real del Clausura 2026 como punto de partida",
+      "Recalcula puntos, diferencia de goles y posiciones al instante",
+      "Muestra cuántos puestos sube o baja cada equipo",
+      "Incluye los puntos descontados por sanción",
+      "Gratis, sin registro y en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "Cómo se ordena la tabla de la Liga 1",
+        "body": "En la Liga 1 cada victoria vale 3 puntos, el empate 1 y la derrota 0. Si dos equipos empatan en puntos, se ordenan por diferencia de goles y luego por goles a favor. Si el empate sigue, las bases del torneo miran el resultado entre ellos, el fair play y, como último recurso, un sorteo. El simulador aplica los tres primeros criterios, que resuelven casi todos los casos."
+      },
+      {
+        "title": "Formato de la Liga 1 2026",
+        "body": "La temporada tiene dos torneos, el Apertura y el Clausura, en los que los 18 equipos se enfrentan una vez, en 17 fechas. La suma de ambos forma la tabla acumulada, que define los cupos a la Copa Libertadores y la Copa Sudamericana y los descensos. Los ganadores del Apertura y del Clausura y los primeros de la tabla acumulada disputan los playoffs por el título. Si te gustan los sorteos y las predicciones, prueba también la [ruleta aleatoria](/ruleta-aleatoria-online) o el [generador de equipos](/generador-equipos)."
+      },
+      {
+        "title": "Ejemplo de simulación",
+        "body": "Tras la fecha 10, Deportivo Garcilaso lidera con 22 puntos y Universitario lo sigue con 20. Si simulas una victoria de Universitario por 2-0 y un empate de Garcilaso, ambos quedan con 23 puntos y el desempate se decide por diferencia de goles: Garcilaso llega con +12 y Universitario con +5, así que Garcilaso seguiría primero. Prueba tus propios resultados para ver qué necesita tu equipo."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuántas fechas tiene el Torneo Clausura 2026?",
+        "answer": "17 fechas, porque los 18 equipos se enfrentan una sola vez en cada torneo."
+      },
+      {
+        "question": "¿Qué pasa si dos equipos empatan en puntos?",
+        "answer": "Se ordenan por diferencia de goles, después por goles a favor y, si persiste el empate, por el resultado entre ellos, el fair play y un sorteo."
+      },
+      {
+        "question": "¿La tabla del simulador está actualizada?",
+        "answer": "Parte de la tabla real indicada debajo de la tabla, con su fecha de actualización. Si ya se jugaron más partidos, cárgalos como resultados simulados para ponerla al día."
+      },
+      {
+        "question": "¿Por qué UTC tiene puntos negativos?",
+        "answer": "Porque tiene puntos descontados por sanción, que el simulador mantiene al sumar tus resultados."
+      }
+    ],
+    "relatedTools": [
+      "ruleta-aleatoria-online",
+      "cara-o-cruz",
+      "calcular-ritmo",
+      "cronometro-online",
+      "sorteo-online",
+      "generador-numeros-aleatorios",
+      "generador-equipos",
+      "tombola-online"
+    ],
+    "image": {
+      "file": "simulador-tabla-de-posiciones-liga-1-peru.webp",
+      "alt": "Simulador Liga 1"
     }
   }
 ]

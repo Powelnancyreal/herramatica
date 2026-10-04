@@ -75,7 +75,8 @@
         "calculadora-inflacion",
         "calculadora-plazo-fijo",
         "calcular-cuil",
-        "calculadora-empleados-de-comercio"
+        "calculadora-empleados-de-comercio",
+        "calculadora-suteba"
       ],
       "codigo": "AR"
     },
@@ -126,7 +127,8 @@
         "calculadora-de-igv",
         "calcular-detraccion",
         "calculadora-upao",
-        "calculadora-registral"
+        "calculadora-registral",
+        "simulador-liga-1"
       ],
       "codigo": "PE"
     },
