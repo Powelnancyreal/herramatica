@@ -3,7 +3,7 @@ import toolsData from '@/data/tools.json'
 import { hreflang } from '@/lib/seo'
 
 export const metadata = {
-  title: 'Convertidores Online Gratis | Herramatica',
+  title: 'Convertidores Online Gratis',
   description:
     'Convierte monedas, unidades de medida y más al instante. Convertidores online gratuitos, precisos y sin registro.',
   alternates: { canonical: 'https://herramatica.com/convertidores', languages: hreflang('https://herramatica.com/convertidores') },

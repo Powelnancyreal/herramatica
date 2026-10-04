@@ -538,5 +538,33 @@
   "tallas-de-anillo": {
     "file": "tabla-de-tallas-de-anillo.webp",
     "alt": "Tallas de anillo"
+  },
+  "calculadora-finiquito-mexico": {
+    "file": "calcular-finiquito-por-renuncia-o-despido-mexico.webp",
+    "alt": "Calculadora de finiquito México"
+  },
+  "convertidor-libras-a-newtons": {
+    "file": "convertir-libras-fuerza-a-newtons.webp",
+    "alt": "Libras a newtons"
+  },
+  "calculadora-4x1000": {
+    "file": "calcular-gravamen-4x1000-colombia.webp",
+    "alt": "Calculadora 4x1000"
+  },
+  "calculadora-upao": {
+    "file": "calcular-promedio-notas-upao.webp",
+    "alt": "Calculadora UPAO"
+  },
+  "calculadora-de-notas": {
+    "file": "calcular-nota-definitiva-por-cortes-colombia.webp",
+    "alt": "Calculadora de notas"
+  },
+  "calculadora-empleados-de-comercio": {
+    "file": "sueldo-empleados-de-comercio-escala-cct-130-75.webp",
+    "alt": "Calculadora empleados de comercio"
+  },
+  "calculadora-registral": {
+    "file": "calcular-derechos-registrales-sunarp.webp",
+    "alt": "Calculadora registral SUNARP"
   }
 }

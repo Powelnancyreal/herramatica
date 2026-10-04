@@ -3,6 +3,7 @@ import path from 'path'
 import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 import RelatedTools from '@/components/RelatedTools'
+import TextoConEnlaces from '@/components/TextoConEnlaces'
 import { getToolImage as getToolIllustration } from '@/lib/toolImage'
 
 const toolImageOverrides = {
@@ -133,7 +134,7 @@ export default function ToolLayout({ tool, children }) {
 
       {/* Intro */}
       <section className="mb-8">
-        <p className="text-gray-700 leading-relaxed text-base sm:text-lg">{tool.intro}</p>
+        <p className="text-gray-700 leading-relaxed text-base sm:text-lg"><TextoConEnlaces texto={tool.intro} origen={tool.slug} /></p>
       </section>
 
       {/* Cómo usar */}
@@ -184,7 +185,7 @@ export default function ToolLayout({ tool, children }) {
       {tool.contentSections && tool.contentSections.map((section, i) => (
         <section key={i} className="mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-3">{section.title}</h2>
-          <p className="text-gray-700 leading-relaxed">{section.body}</p>
+          <p className="text-gray-700 leading-relaxed"><TextoConEnlaces texto={section.body} origen={tool.slug} /></p>
         </section>
       ))}
 

@@ -40,6 +40,9 @@ export default function Header() {
             <Link href="/convertidores" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">
               Convertidores
             </Link>
+            <Link href="/blog" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">
+              Blog
+            </Link>
           </nav>
 
           {/* Mobile menu button */}
@@ -95,6 +98,13 @@ export default function Header() {
               onClick={() => setMenuOpen(false)}
             >
               Convertidores
+            </Link>
+            <Link
+              href="/blog"
+              className="block px-3 py-2 rounded-lg text-gray-600 hover:bg-blue-50 hover:text-blue-600 font-medium"
+              onClick={() => setMenuOpen(false)}
+            >
+              Blog
             </Link>
           </div>
         )}

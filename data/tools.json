@@ -111,7 +111,7 @@
     "name": "Calculadora de RFC y RFC Genérico",
     "shortName": "Calculadora RFC",
     "category": "calculadoras",
-    "metaTitle": "RFC Genérico 2026 (XAXX010101000) | Calculadora de RFC Gratis",
+    "metaTitle": "Calculadora de RFC y RFC Genérico (XAXX010101000)",
     "metaDescription": "¿Qué es el RFC genérico? Los códigos XAXX010101000 y XEXX010101000 para facturar a público en general, explicados. Además, calcula gratis tu propio RFC personal.",
     "intro": "¿Buscas el RFC genérico para facturar a público en general, o necesitas calcular tu propio RFC personal? Esta página resuelve ambas cosas: te explicamos los códigos de RFC genérico que usa el SAT (XAXX010101000 y XEXX010101000) y cuándo corresponde cada uno, y además incluye una calculadora gratuita que genera la clave base de tu RFC personal a partir de tu nombre, apellidos y fecha de nacimiento, siguiendo las reglas públicas del SAT. No necesitas CURP ni registro.",
     "howToUse": [
@@ -143,6 +143,10 @@
       {
         "title": "¿Se puede obtener el RFC oficial aquí?",
         "body": "No. Esta herramienta calcula la clave base del RFC siguiendo las reglas públicas del SAT, pero el RFC oficial incluye una homoclave de tres caracteres que solo el SAT puede asignar. Para obtener tu RFC completo y oficial debes tramitarlo en el portal sat.gob.mx o en una oficina del SAT. Esta calculadora es útil para conocer tu clave base, entender cómo se construye tu RFC o verificar que lo recuerdas correctamente antes de acudir al SAT."
+      },
+      {
+        "title": "Guías sobre el RFC",
+        "body": "Si es tu primera vez con el SAT, te explicamos [cómo sacar tu RFC por primera vez](/blog/como-sacar-mi-rfc) en línea con tu CURP, [qué es la homoclave del RFC](/blog/homoclave-del-rfc) y dónde consultarla gratis, y [cuándo usar el RFC genérico](/blog/rfc-generico) nacional o extranjero en una factura."
       }
     ],
     "faqs": [
@@ -194,7 +198,7 @@
     "name": "Calculadora de IMC",
     "shortName": "Calculadora IMC",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de IMC Gratis – Calcula tu Índice de Masa Corporal Online",
+    "metaTitle": "Calculadora de IMC: calcula tu Índice de Masa Corporal",
     "metaDescription": "Calcula tu IMC gratis con nuestra calculadora online. Descubre tu índice de masa corporal y conoce si estás en peso normal, sobrepeso u obesidad en segundos.",
     "webApp": true,
     "appCategory": "HealthApplication",
@@ -272,7 +276,7 @@
     "name": "Calculadora de Alicia",
     "shortName": "Calculadora Alicia",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Alicia – Sumas, Restas y Divisiones Paso a Paso",
+    "metaTitle": "Calculadora de Alicia: sumas, restas y divisiones",
     "metaDescription": "La Calculadora de Alicia muestra sumas, restas y divisiones con procedimiento detallado paso a paso. Perfecta para niños, estudiantes y revisar tareas escolares. Gratis y online.",
     "webApp": true,
     "appCategory": "EducationApplication",
@@ -497,7 +501,7 @@
     "name": "Calculadora Científica",
     "shortName": "Calculadora Científica",
     "category": "calculadoras",
-    "metaTitle": "Calculadora Científica Online Gratis | Con Historial y Memoria",
+    "metaTitle": "Calculadora Científica Online con Historial y Memoria",
     "metaDescription": "Calculadora científica online gratis con funciones trigonométricas, logaritmos, potencias, raíces, memoria, historial y soporte de teclado. Sin registro, todo en tu navegador.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -577,7 +581,7 @@
     "name": "Calculadora de Finiquito",
     "shortName": "Calculadora Finiquito",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Finiquito 2026 | Salario, Vacaciones e Indemnización",
+    "metaTitle": "Calculadora de Finiquito España 2026 e indemnización",
     "metaDescription": "Calcula tu finiquito online: salario pendiente, vacaciones no disfrutadas, pagas extra e indemnización según el tipo de despido. Desglose completo y gratis.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -732,8 +736,8 @@
     "name": "Calculadora de Aguinaldo",
     "shortName": "Calculadora Aguinaldo",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Aguinaldo 2026 México | Proporcional y con ISR",
-    "metaDescription": "Calcula tu aguinaldo 2026 exacto según tu fecha de ingreso, con la parte exenta y gravable de ISR ya calculadas. Gratis, sin registro y con desglose completo.",
+    "metaTitle": "Cálculo de Aguinaldo 2026: calculadora México",
+    "metaDescription": "Cálculo de aguinaldo 2026 al instante: proporcional según tu fecha de ingreso, con la parte exenta y gravable de ISR. Gratis, sin registro y con desglose.",
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El aguinaldo es la prestación anual obligatoria que toda empresa en México debe pagar antes del 20 de diciembre, equivalente a un mínimo de 15 días de salario por el artículo 87 de la Ley Federal del Trabajo. Esta calculadora obtiene tus días trabajados automáticamente a partir de tu fecha de ingreso (no con un simple \"sí/no\" como la mayoría de calculadoras), calcula el monto proporcional exacto si no trabajaste el año completo, y estima el ISR real sobre la parte gravable usando la tabla ISR 2026 del SAT, sumándola a tu salario ordinario en lugar de limitarse a mencionar que \"hay que pagar impuestos\".",
@@ -767,6 +771,10 @@
       {
         "title": "¿Qué hacer si mi empresa no me paga el aguinaldo?",
         "body": "Si tu empresa no te paga el aguinaldo antes del 20 de diciembre, tienes derecho a reclamarlo. Puedes acudir a la Procuraduría Federal de la Defensa del Trabajo (PROFEDET), que ofrece asesoría y representación legal gratuita, o presentar una queja ante la Junta de Conciliación y Arbitraje (o el Tribunal Laboral correspondiente tras la reforma de justicia laboral). El derecho a reclamar el aguinaldo prescribe (caduca) en un plazo de un año contado a partir de la fecha en que debió pagarse."
+      },
+      {
+        "title": "Cálculo de aguinaldo: guías paso a paso",
+        "body": "Si quieres entender cada número del resultado, en el blog tenemos guías detalladas: [cómo calcular el aguinaldo paso a paso](/blog/como-calcular-el-aguinaldo), con ejemplos de sueldo completo y proporcional; [cuánto aguinaldo está exento de impuestos](/blog/aguinaldo-exento-impuestos) en 2026; en qué va la [reforma de 30 días de aguinaldo](/blog/reforma-30-dias-aguinaldo), y cuánto reciben los [pensionados del IMSS](/blog/aguinaldo-pensionados-imss)."
       }
     ],
     "faqs": [
@@ -811,7 +819,7 @@
     "name": "Calculadora de Días",
     "shortName": "Calculadora de Días",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Días Online | Entre Fechas, Sumar y Cuenta Atrás",
+    "metaTitle": "Calculadora de Días entre Fechas y Cuenta Atrás",
     "metaDescription": "Calculadora de fecha para hallar la diferencia entre dos fechas, sumar o restar días, o contar los días que faltan para un evento. Incluye días hábiles. Gratis.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -882,11 +890,11 @@
   },
   {
     "slug": "calcular-iva",
-    "name": "Calculadora de IVA",
+    "name": "Calculadora de IVA (México y Chile)",
     "shortName": "Calculadora IVA",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de IVA México 2026 | Agregar o Quitar IVA (16%, 8%, 0%)",
-    "metaDescription": "Calcula el IVA al 16%, 8% (frontera) o 0%, o usa una tasa personalizada. Agrega IVA a un subtotal o desglósalo de un total. Resultado instantáneo, gratis.",
+    "metaTitle": "Calculadora de IVA: calcular IVA al 16% y 19%",
+    "metaDescription": "Calcula el IVA al instante: agrega o quita el 16% u 8% de México, el 19% de Chile o cualquier tasa. Subtotal, IVA y total desglosados. Gratis.",
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El IVA (Impuesto al Valor Agregado) es un impuesto indirecto que se añade al precio de la mayoría de bienes y servicios en México. Esta calculadora funciona en ambos sentidos: puedes agregar IVA a un precio sin impuesto para saber el total a cobrar o pagar, o quitar (desglosar) el IVA de un precio que ya lo incluye para saber cuál es el subtotal real. Incluye las tres tasas vigentes (16% general, 8% en la franja fronteriza y 0% para la tasa cero) además de una tasa personalizada para otros países o casos particulares, con el resultado actualizándose al instante mientras escribes.",
@@ -916,6 +924,10 @@
       {
         "title": "Fórmulas para agregar y quitar el IVA",
         "body": "Para agregar IVA a un precio sin impuesto: IVA = Subtotal × (tasa ÷ 100), y Total = Subtotal + IVA. Para quitar el IVA de un precio que ya lo incluye, el error más común es restar directamente el porcentaje del total (por ejemplo, restar 16% de $1,740 no da el subtotal correcto). La forma correcta es: Subtotal = Total ÷ (1 + tasa ÷ 100), y después IVA = Total − Subtotal. Por ejemplo, con un total de $1,740 al 16%, el subtotal es $1,740 ÷ 1.16 = $1,500, y el IVA es $240 (no $278.40, que sería el resultado si restaras el 16% directamente)."
+      },
+      {
+        "title": "Calcular IVA en Chile: el 19%",
+        "body": "En Chile el IVA es del 19% y lo regula el Decreto Ley 825. Para agregarlo a un precio neto multiplica por 1.19: un servicio de $100.000 neto se factura en $119.000, con $19.000 de IVA. Para calcular el neto desde un precio con IVA, divide entre 1.19: de $59.500 en una boleta, el neto es $50.000 y el IVA, $9.500. En la calculadora elige la tasa de 19% y el modo agregar o quitar."
       }
     ],
     "faqs": [
@@ -942,26 +954,30 @@
       {
         "question": "¿Es gratis esta calculadora de IVA?",
         "answer": "Sí, es completamente gratuita, no requiere registro y el cálculo se realiza directamente en tu navegador, sin enviar tus datos a ningún servidor."
+      },
+      {
+        "question": "¿Cómo se calcula el IVA en Chile?",
+        "answer": "Multiplica el precio neto por 0.19 para obtener el IVA, o por 1.19 para obtener el total. Para sacar el neto de un total con IVA, divide entre 1.19."
       }
     ],
     "relatedTools": [
       "calculadora-de-igv",
+      "calcular-detraccion",
       "calculadora-porcentaje",
       "calculadora-propinas",
       "calcular-descuento",
       "calculadora-comision-ventas",
-      "calcular-detraccion",
       "comparador-precios",
       "calculadora-roi"
     ]
   },
   {
     "slug": "calculo-mental",
-    "name": "Cálculo Mental",
+    "name": "Cálculo Mental Online: ejercicios y entrenador",
     "shortName": "Cálculo Mental",
     "category": "juegos",
-    "metaTitle": "Cálculo Mental Online Gratis | Practica Suma, Resta y Más",
-    "metaDescription": "Entrena tu cálculo mental con ejercicios de suma, resta, multiplicación y división. Elige tu nivel, juega contrarreloj y mejora tu agilidad numérica. Gratis.",
+    "metaTitle": "Cálculo Mental: ejercicios online gratis",
+    "metaDescription": "Entrena tu cálculo mental con ejercicios de suma, resta, multiplicación y división por niveles, en modo libre o contrarreloj, y con trucos. Gratis.",
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "El cálculo mental es la capacidad de resolver operaciones matemáticas sin ayuda de calculadora, papel o lápiz, y se entrena igual que un músculo: con práctica regular y progresiva. Este juego genera problemas de suma, resta, multiplicación y división de forma aleatoria, con tres niveles de dificultad y dos modos de juego (sin límite de tiempo o contrarreloj), para que puedas practicar a tu ritmo o ponerte a prueba bajo presión. Cada partida guarda tu mejor racha de aciertos consecutivos, para que puedas superarte partida tras partida.",
@@ -991,6 +1007,10 @@
       {
         "title": "Modo libre vs. modo contrarreloj: ¿cuál elegir?",
         "body": "El modo sin límite de tiempo es ideal para aprender sin presión, revisando cada ejercicio con calma y prestando atención a los errores. El modo contrarreloj, en cambio, pone a prueba tu rapidez: tienes 30, 60 o 120 segundos para resolver tantos ejercicios como puedas, simulando la presión de un examen o una situación real. Alternar entre ambos modos es una buena estrategia: primero domina la precisión en modo libre, y después trabaja la velocidad en modo contrarreloj."
+      },
+      {
+        "title": "Trucos de cálculo mental que puedes practicar",
+        "body": "Para multiplicar por 5, multiplica por 10 y divide entre 2: 48 × 5 = 480 ÷ 2 = 240. Para multiplicar por 9, multiplica por 10 y resta el número: 9 × 37 = 370 − 37 = 333. Para sumar 99 o 98, suma 100 y resta la diferencia. Para restar, completa hasta la decena: 83 − 47 es lo mismo que 86 − 50 = 36. Y para elevar al cuadrado un número que termina en 5, multiplica las decenas por la siguiente y añade 25: 35² = 3 × 4 = 12, luego 1225. Si quieres reforzar la base, repasa las [tablas de multiplicar](/tablas-de-multiplicar)."
       }
     ],
     "faqs": [
@@ -1113,7 +1133,7 @@
     "name": "Calculadora de Porcentajes",
     "shortName": "Calculadora Porcentajes",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Porcentajes Online Gratis | Descuentos y Aumentos",
+    "metaTitle": "Calculadora de Porcentajes: descuentos y aumentos",
     "metaDescription": "Calcula porcentajes al instante: qué es X% de Y, qué % representa un número, o aplica un aumento o descuento. Tres calculadoras en una, gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -1418,8 +1438,8 @@
       "calculadora-porcentaje",
       "calcular-iva",
       "calculadora-comision-ventas",
-      "calculadora-regla-de-tres",
-      "calculadora-de-igv"
+      "calculadora-de-igv",
+      "calculadora-regla-de-tres"
     ]
   },
   {
@@ -1427,7 +1447,7 @@
     "name": "Calculadora de Préstamos",
     "shortName": "Calculadora Préstamos",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Préstamos Online | Cuota Mensual y Amortización",
+    "metaTitle": "Calculadora de Préstamos: cuota mensual y amortización",
     "metaDescription": "Calcula la cuota mensual de un préstamo, el total de intereses y la tabla de amortización completa. Sistema francés de cuota fija. Gratis.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -1482,8 +1502,8 @@
       "simulador-credito-automotriz",
       "plan-pago-deudas",
       "calculadora-cat",
-      "calcular-hipoteca",
       "calculadora-interes-simple",
+      "calcular-hipoteca",
       "dividendo-hipotecario",
       "calculadora-ahorro"
     ]
@@ -1493,7 +1513,7 @@
     "name": "Convertidor de Unidades",
     "shortName": "Convertidor Unidades",
     "category": "convertidores",
-    "metaTitle": "Convertidor de Unidades Online Gratis | Longitud, Peso, Presión y Más",
+    "metaTitle": "Convertidor de Unidades: longitud, peso, presión y más",
     "metaDescription": "Convertidor de medidas y unidades: longitud, peso, temperatura, volumen, velocidad, área, presión y potencia al instante. Sistema métrico e imperial. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -1572,7 +1592,7 @@
     "name": "Generador de Nombres",
     "shortName": "Generador Nombres",
     "category": "generadores",
-    "metaTitle": "Generador de Nombres Aleatorios Gratis | Personas, Mascotas y Más",
+    "metaTitle": "Generador de Nombres Aleatorios: personas y mascotas",
     "metaDescription": "Genera nombres aleatorios para personas, mascotas, personajes de fantasía o nombres de usuario. Elige la categoría y la cantidad. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "EntertainmentApplication",
@@ -1935,7 +1955,7 @@
     "name": "Convertidor Binario",
     "shortName": "Convertidor Binario",
     "category": "convertidores",
-    "metaTitle": "Convertidor Binario Online Gratis | Decimal, Octal y Hexadecimal",
+    "metaTitle": "Convertidor Binario: decimal, octal y hexadecimal",
     "metaDescription": "Convierte números entre binario, octal, decimal y hexadecimal al instante. Ideal para programación e informática. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -2131,10 +2151,10 @@
       "impuesto-sucesiones",
       "cuanto-cuesta-reformar",
       "dividendo-hipotecario",
+      "calculadora-factura-luz",
       "calculadora-prestamo",
       "calculadora-cat",
-      "tabla-de-amortizacion",
-      "calculadora-factura-luz"
+      "tabla-de-amortizacion"
     ]
   },
   {
@@ -2295,7 +2315,7 @@
     "name": "Calculadora de Apiretal",
     "shortName": "Calculadora Apiretal",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Apiretal 2026 | Dosis por Peso (Prospecto Oficial)",
+    "metaTitle": "Calculadora de Apiretal 2026: dosis por peso",
     "metaDescription": "Calcula la dosis de Apiretal 100 mg/ml según el peso del niño, siguiendo el prospecto oficial de la AEMPS. Incluye avisos de seguridad. Consulta siempre a tu pediatra.",
     "webApp": true,
     "appCategory": "MedicalApplication",
@@ -2432,7 +2452,7 @@
     "name": "Calcular NIT (Colombia)",
     "shortName": "Calcular NIT",
     "category": "calculadoras",
-    "metaTitle": "Calcular NIT Colombia Online Gratis | Dígito de Verificación DIAN",
+    "metaTitle": "Calcular NIT Colombia: dígito de verificación DIAN",
     "metaDescription": "Calcula el dígito de verificación (DV) de tu NIT con el algoritmo oficial de la DIAN, o valida si un NIT completo es correcto. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -2606,7 +2626,7 @@
     "name": "Calculadora del Área del Círculo",
     "shortName": "Área del Círculo",
     "category": "calculadoras",
-    "metaTitle": "Calculadora del Área del Círculo Online Gratis | Radio, Diámetro o Circunferencia",
+    "metaTitle": "Área del Círculo: calculadora con radio o diámetro",
     "metaDescription": "Calcula el área de un círculo a partir del radio, el diámetro o la circunferencia. Fórmula A = π×r² aplicada al instante. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -2676,7 +2696,7 @@
     "name": "Convertidor de Hexadecimal a Decimal",
     "shortName": "Hex a Decimal",
     "category": "convertidores",
-    "metaTitle": "Convertidor de Hexadecimal a Decimal Online Gratis | HEX a DEC",
+    "metaTitle": "Convertidor de Hexadecimal a Decimal (HEX a DEC)",
     "metaDescription": "Convierte números hexadecimales a decimales al instante (y de decimal a hexadecimal). Incluye el equivalente en binario. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -2742,7 +2762,7 @@
     "name": "Calculadora de Velocidad, Distancia y Tiempo",
     "shortName": "Velocidad, Distancia y Tiempo",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Velocidad, Distancia y Tiempo Online Gratis | V = D / T",
+    "metaTitle": "Calculadora de Velocidad, Distancia y Tiempo (V = D/T)",
     "metaDescription": "Calcula el tiempo, la velocidad o la distancia de un trayecto a partir de los otros dos datos. Admite km, m, millas, km/h, m/s y mph. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -2809,7 +2829,7 @@
     "name": "Calculadora de Gasolina",
     "shortName": "Calculadora Gasolina",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Gasolina Online Gratis | Consumo y Costo por Kilómetro",
+    "metaTitle": "Calculadora de Gasolina: consumo y costo por kilómetro",
     "metaDescription": "Calcula cuánto gastarás en gasolina en un viaje según la distancia, el consumo de tu vehículo y el precio del combustible. Incluye costo por persona. Gratis.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -2875,7 +2895,7 @@
     "name": "Calculadora del Volumen del Cilindro",
     "shortName": "Volumen del Cilindro",
     "category": "calculadoras",
-    "metaTitle": "Calculadora del Volumen del Cilindro Online Gratis | Fórmula V = πr²h",
+    "metaTitle": "Volumen del Cilindro: calculadora con fórmula V = πr²h",
     "metaDescription": "Calcula el volumen de un cilindro a partir del radio o el diámetro de la base y la altura. Incluye área lateral y área total. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -3004,7 +3024,7 @@
     "name": "Cronómetro Online",
     "shortName": "Cronómetro",
     "category": "calculadoras",
-    "metaTitle": "Cronómetro Online Gratis | Con Vueltas y Precisión de Milisegundos",
+    "metaTitle": "Cronómetro Online con Vueltas y Milisegundos",
     "metaDescription": "Cronómetro online gratis con inicio, pausa, reinicio y registro de vueltas. Precisión de centésimas de segundo, sin descargas ni registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -3197,7 +3217,7 @@
     "name": "Convertidor de Bar a PSI",
     "shortName": "Bar a PSI",
     "category": "convertidores",
-    "metaTitle": "Conversión de Bar a PSI Online Gratis | Presión de Neumáticos",
+    "metaTitle": "Bar a PSI: conversor de presión de neumáticos",
     "metaDescription": "Convierte bar a PSI, kilopascales y atmósferas al instante, en cualquier dirección. Ideal para presión de neumáticos y uso industrial. Gratis.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -3259,7 +3279,7 @@
     "name": "Convertidor de Medidas de Cocina",
     "shortName": "Medidas de Cocina",
     "category": "convertidores",
-    "metaTitle": "Convertidor de Medidas de Cocina Online Gratis | Cucharadas, Tazas y ml",
+    "metaTitle": "Medidas de Cocina: cucharadas, tazas y ml",
     "metaDescription": "Convierte cucharadas, cucharaditas y tazas a mililitros y litros al instante. Ideal para seguir recetas con precisión. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -3325,7 +3345,7 @@
     "name": "Tipografía para Instagram",
     "shortName": "Tipografía Instagram",
     "category": "generadores",
-    "metaTitle": "Tipografía para Instagram Online Gratis | Letras y Fuentes Bonitas",
+    "metaTitle": "Tipografía para Instagram: letras y fuentes bonitas",
     "metaDescription": "Genera letras y tipografías bonitas para tu biografía de Instagram: negrita, cursiva, gótico, volteado y más. Copia y pega, gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -3384,11 +3404,11 @@
   },
   {
     "slug": "cm-a-pulgadas",
-    "name": "Convertidor de Centímetros a Pulgadas",
+    "name": "Convertidor de Pulgadas a Centímetros (y cm a pulgadas)",
     "shortName": "Cm a Pulgadas",
     "category": "convertidores",
-    "metaTitle": "Convertidor de Centímetros a Pulgadas Online Gratis | cm a in",
-    "metaDescription": "Convierte centímetros a pulgadas y de pulgadas a centímetros al instante. Factor de conversión exacto (2.54 cm). Gratis y sin registro.",
+    "metaTitle": "Pulgadas a cm y cm a pulgadas: convertidor",
+    "metaDescription": "Convierte pulgadas a centímetros y centímetros a pulgadas al instante: 1 pulgada = 2.54 cm. Incluye estaturas como 5'6\" a cm, pantallas y tabla. Gratis.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte centímetros a pulgadas o pulgadas a centímetros al instante, usando el factor de conversión exacto de 2.54 centímetros por pulgada. Muy útil para interpretar medidas de pantallas, ruedas, herramientas o productos importados de Estados Unidos, donde las pulgadas son la unidad de medida habitual.",
@@ -3411,6 +3431,14 @@
       {
         "title": "¿Dónde se usan habitualmente las pulgadas?",
         "body": "Las pulgadas son la unidad de longitud predominante en Estados Unidos y el Reino Unido, y también se usan internacionalmente para especificar el tamaño de pantallas (televisores, monitores, móviles), llantas de vehículos, tuberías y ciertas herramientas, incluso en países que usan el sistema métrico para el resto de medidas."
+      },
+      {
+        "title": "Cómo convertir pulgadas a cm",
+        "body": "Para pasar de pulgadas a centímetros multiplica por 2.54, el factor exacto definido en 1959. Así, 10 pulgadas son 25.4 cm y una pantalla de 55 pulgadas mide 139.7 cm de diagonal. Para el camino inverso, de cm a pulgadas, divide entre 2.54: 30 cm son 11.81 pulgadas."
+      },
+      {
+        "title": "Estatura en pies y pulgadas a cm: 5'6\" y 5'5\"",
+        "body": "Las estaturas en Estados Unidos se escriben en pies y pulgadas, como 5'6\". Primero pasa todo a pulgadas (un pie tiene 12): 5 pies y 6 pulgadas son 66 pulgadas, que multiplicadas por 2.54 dan 167.64 cm. Del mismo modo, 5'5\" son 65 pulgadas, es decir, 165.1 cm, y 5'10\" son 177.8 cm. Para convertir estaturas directamente, usa el convertidor de [pies a metros](/pies-a-metros), que acepta pies y pulgadas a la vez."
       }
     ],
     "faqs": [
@@ -3429,6 +3457,14 @@
       {
         "question": "¿Es gratis este convertidor de centímetros a pulgadas?",
         "answer": "Sí, es completamente gratuito, sin límite de conversiones y sin necesidad de registro."
+      },
+      {
+        "question": "¿Cuántos cm mide alguien de 5'6\"?",
+        "answer": "167.64 cm. Se multiplica 5 pies por 12, se suman las 6 pulgadas (66 en total) y se multiplica por 2.54."
+      },
+      {
+        "question": "¿Cuántos cm son 5 pies 5 pulgadas?",
+        "answer": "165.1 cm: 5 × 12 + 5 = 65 pulgadas, y 65 × 2.54 = 165.1."
       }
     ],
     "relatedTools": [
@@ -3509,7 +3545,7 @@
     "name": "Calculadora de Tiempo de Lectura",
     "shortName": "Tiempo de Lectura",
     "category": "texto",
-    "metaTitle": "Calculadora de Tiempo de Lectura Online Gratis | Por Texto o Palabras",
+    "metaTitle": "Calculadora de Tiempo de Lectura por Texto o Palabras",
     "metaDescription": "Calcula cuánto tiempo se tarda en leer un texto, pegándolo directamente o indicando el número de palabras. Lectura lenta, media y rápida. Gratis.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -3567,10 +3603,10 @@
   },
   {
     "slug": "calcular-indemnizacion-despido",
-    "name": "Calculadora de Indemnización por Despido",
+    "name": "Cálculo de Indemnización por Despido Argentina",
     "shortName": "Indemnización por Despido",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Indemnización por Despido Argentina 2026 | Liquidación Final",
+    "metaTitle": "Cálculo de Indemnización por Despido 2026",
     "metaDescription": "Calcula tu indemnización por despido sin causa (Art. 245 LCT) y tu liquidación final: SAC y vacaciones proporcionales. Gratis, según la ley argentina.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -3596,6 +3632,10 @@
       {
         "title": "¿Qué es la liquidación final y en qué se diferencia de la indemnización?",
         "body": "La liquidación final corresponde a los conceptos que se deben pagar a todo trabajador que deja de prestar servicios, sea por renuncia o por despido: el SAC (aguinaldo) proporcional a los días trabajados en el semestre, y las vacaciones proporcionales no gozadas. La indemnización por despido (Art. 245), en cambio, solo corresponde cuando el empleador despide al trabajador sin una causa justificada, y se suma a la liquidación final."
+      },
+      {
+        "title": "Cálculo de indemnización paso a paso con ejemplo",
+        "body": "La indemnización por antigüedad del artículo 245 de la LCT es un mes de la mejor remuneración mensual, normal y habitual del último año por cada año de servicio o fracción mayor a tres meses. Con un mejor sueldo de $1.500.000 y 4 años y 5 meses de antigüedad, se cuentan 5 períodos: $7.500.000. A eso se suman la indemnización sustitutiva del preaviso (un mes si tenés hasta 5 años de antigüedad, dos meses si tenés más), la integración del mes de despido si no te despidieron el último día del mes, y la liquidación final con SAC y vacaciones proporcionales. Podés calcular el preaviso por separado con la calculadora de [preaviso laboral](/preaviso-laboral)."
       }
     ],
     "faqs": [
@@ -3624,6 +3664,7 @@
       "preaviso-laboral",
       "calcular-sac-argentina",
       "calculadora-sueldo-neto-argentina",
+      "calculadora-empleados-de-comercio",
       "monotributo",
       "dolar-blue"
     ]
@@ -3633,7 +3674,7 @@
     "name": "Calculadora de Aguinaldo (SAC) Argentina",
     "shortName": "SAC Argentina",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Aguinaldo (SAC) Argentina 2026 | Cuota Completa y Proporcional",
+    "metaTitle": "Calculadora de Aguinaldo (SAC) Argentina 2026",
     "metaDescription": "Calcula tu aguinaldo (SAC) en Argentina: 1ª o 2ª cuota, completo o proporcional si empezaste a trabajar durante el semestre. Gratis, según la Ley 23.041.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -3687,17 +3728,18 @@
       "calcular-indemnizacion-despido",
       "calculadora-sueldo-neto-argentina",
       "preaviso-laboral",
+      "calculadora-empleados-de-comercio",
       "monotributo",
       "dolar-blue"
     ]
   },
   {
     "slug": "calculadora-alquiler-argentina",
-    "name": "Calculadora de Ajuste de Alquiler Argentina",
+    "name": "Calculadora de Alquileres Argentina (ICL, IPC y CVS)",
     "shortName": "Ajuste de Alquiler",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Alquileres Argentina | Ajuste por Coeficiente ICL o IPC",
-    "metaDescription": "Calcula tu nuevo alquiler aplicando el coeficiente de ajuste (ICL, IPC o CVS) o un porcentaje pactado. Gratis, introduce el índice vigente de tu contrato.",
+    "metaTitle": "Calculadora de Alquileres Argentina 2026",
+    "metaDescription": "Calculadora de alquileres: calculá el aumento de tu alquiler por IPC, ICL del BCRA, Casa Propia o un porcentaje pactado. Con fórmula y ejemplo. Gratis.",
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula el nuevo valor de tu alquiler aplicando el coeficiente de ajuste correspondiente a tu contrato (ICL del BCRA, IPC del INDEC, CVS u otro índice pactado), o directamente un porcentaje de aumento acordado. Introduce el alquiler actual y el coeficiente o porcentaje vigente para tu fecha de actualización.",
@@ -3721,6 +3763,14 @@
       {
         "title": "¿Dónde consigo el coeficiente vigente para mi contrato?",
         "body": "El coeficiente exacto depende de la fecha de tu contrato y de la fecha de ajuste, y se actualiza mensualmente. Puedes consultarlo en el simulador oficial del BCRA (para el índice ICL) o en las publicaciones del INDEC (para el IPC), ingresando la fecha de inicio del contrato y la fecha del ajuste. Esta calculadora no publica esos valores porque cambian cada mes; una vez que tengas el coeficiente, introdúcelo aquí para calcular tu nuevo alquiler al instante."
+      },
+      {
+        "title": "Cómo calcular el aumento del alquiler por IPC",
+        "body": "Si tu contrato se ajusta por inflación, el aumento se calcula con la variación del Índice de Precios al Consumidor que publica el INDEC cada mes. Para un ajuste trimestral, multiplicá los coeficientes de los tres meses: si la inflación fue de 3%, 2.5% y 2%, el coeficiente es 1.03 × 1.025 × 1.02 = 1.0769, es decir, un aumento del 7.69%. Un alquiler de $500.000 pasaría a $538.433. No sumes los porcentajes: la inflación se acumula. Para calcular la inflación acumulada de cualquier período podés usar nuestra [calculadora de inflación](/calculadora-inflacion)."
+      },
+      {
+        "title": "Calculadora de alquileres BCRA: el índice ICL",
+        "body": "El Índice para Contratos de Locación (ICL) lo publica el Banco Central (BCRA) a diario y es el que usan los contratos firmados bajo la Ley 27.551, entre julio de 2020 y octubre de 2023, que se ajustan una vez al año. El coeficiente se obtiene dividiendo el ICL del día del ajuste por el ICL del día de inicio del contrato. Los contratos firmados bajo la Ley 27.737, desde octubre hasta fines de 2023, se ajustan cada seis meses con el índice Casa Propia. Desde el DNU 70/2023, en los contratos nuevos las partes eligen libremente el índice y la frecuencia, así que revisá siempre lo que dice el tuyo."
       }
     ],
     "faqs": [
@@ -3739,13 +3789,21 @@
       {
         "question": "¿Es gratis esta calculadora de ajuste de alquiler?",
         "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      },
+      {
+        "question": "¿Cómo calculo el aumento del alquiler con el IPC?",
+        "answer": "Multiplicá los coeficientes mensuales del IPC del período (por ejemplo, 1.03 × 1.025 × 1.02) y aplicá el resultado al alquiler actual. Los porcentajes de inflación no se suman: se acumulan."
+      },
+      {
+        "question": "¿Dónde consulto el ICL del BCRA?",
+        "answer": "El Banco Central publica el Índice para Contratos de Locación todos los días en su sitio web. Dividí el valor del día del ajuste por el del inicio del contrato para obtener el coeficiente."
       }
     ],
     "relatedTools": [
       "calcular-plusvalia",
       "impuesto-sucesiones",
       "cuanto-cuesta-reformar",
-      "calcular-hipoteca"
+      "calculadora-registral"
     ]
   },
   {
@@ -3800,10 +3858,10 @@
       }
     ],
     "relatedTools": [
+      "calculadora-inflacion",
       "calculadora-interes-compuesto",
       "calculadora-cdt",
       "calculadora-cetes",
-      "calculadora-inflacion",
       "calculadora-interes-simple",
       "calculadora-roi"
     ]
@@ -3813,7 +3871,7 @@
     "name": "Calculadora de Interés Compuesto",
     "shortName": "Interés Compuesto",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Interés Compuesto Online Gratis | Con Aportes Mensuales",
+    "metaTitle": "Calculadora de Interés Compuesto con Aportes Mensuales",
     "metaDescription": "Calcula el interés compuesto de una inversión, con aportes mensuales opcionales y distintas frecuencias de capitalización. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -3924,6 +3982,7 @@
       "calcular-sac-argentina",
       "calcular-indemnizacion-despido",
       "preaviso-laboral",
+      "calculadora-empleados-de-comercio",
       "dolar-blue"
     ]
   },
@@ -3932,7 +3991,7 @@
     "name": "Calculadora de Área",
     "shortName": "Área de Figuras",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Área Online Gratis | Cuadrado, Rectángulo y Triángulo",
+    "metaTitle": "Calculadora de Área: cuadrado, rectángulo y triángulo",
     "metaDescription": "Calcula el área y el perímetro de un cuadrado, rectángulo o triángulo, y resuelve el teorema de Pitágoras. Gratis, sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -3993,7 +4052,7 @@
     "name": "Calculadora de Volumen",
     "shortName": "Volumen de Figuras",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Volumen Online Gratis | Cubo, Esfera, Cono y Prisma",
+    "metaTitle": "Calculadora de Volumen: cubo, esfera, cono y prisma",
     "metaDescription": "Calcula el volumen de un cubo, esfera, cono o prisma rectangular al instante. Gratis, sin registro. ¿Buscas volumen de cilindro? También lo tenemos.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -4053,7 +4112,7 @@
     "name": "Calculadora de Cálculos Combinados",
     "shortName": "Cálculos Combinados",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Cálculos Combinados Online Gratis | Orden de Operaciones",
+    "metaTitle": "Calculadora de Cálculos Combinados (orden de operaciones)",
     "metaDescription": "Resuelve cálculos combinados respetando el orden de las operaciones (PEMDAS): paréntesis, potencias, raíces, multiplicación, división, suma y resta. Gratis.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -4115,7 +4174,7 @@
     "name": "Calculadora de Resistencias",
     "shortName": "Resistencias y Ley de Ohm",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Resistencias Online Gratis | Código de Colores y Ley de Ohm",
+    "metaTitle": "Calculadora de Resistencias: código de colores y Ley de Ohm",
     "metaDescription": "Calcula el valor de una resistencia por su código de colores (4 bandas) y resuelve la Ley de Ohm (voltaje, corriente, resistencia y potencia). Gratis.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -4177,7 +4236,7 @@
     "name": "Calculadora de Calorías",
     "shortName": "Calorías y TDEE",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Calorías Online Gratis | TDEE, Déficit Calórico y Macros",
+    "metaTitle": "Calculadora de Calorías: TDEE, déficit calórico y macros",
     "metaDescription": "Calcula tus calorías diarias (TDEE), tu metabolismo basal y tu distribución de macronutrientes según tu objetivo. Fórmula Mifflin-St Jeor. Gratis.",
     "webApp": true,
     "appCategory": "HealthApplication",
@@ -4239,7 +4298,7 @@
     "name": "Calculadora de Embarazo",
     "shortName": "Embarazo",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Embarazo Online Gratis | Semanas, Parto y Días Fértiles",
+    "metaTitle": "Calculadora de Embarazo: semanas y fecha de parto",
     "metaDescription": "Calcula tus semanas de embarazo, la fecha probable de parto y tus días fértiles u ovulación a partir de tu última menstruación. Gratis, sin registro.",
     "webApp": true,
     "appCategory": "HealthApplication",
@@ -4358,11 +4417,11 @@
   },
   {
     "slug": "calculadora-ciclos-sueno",
-    "name": "Calculadora de Ciclos de Sueño",
+    "name": "Calculadora de Sueño: ciclos y hora de dormir",
     "shortName": "Ciclos de Sueño",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Ciclos de Sueño Online Gratis | Mejor Hora para Dormir",
-    "metaDescription": "Calcula la mejor hora para dormir o despertar según ciclos de sueño de 90 minutos, para levantarte más descansado. Gratis y sin registro.",
+    "metaTitle": "Calculadora de Sueño: a qué hora dormir",
+    "metaDescription": "Calculadora de sueño gratis: descubre a qué hora dormir o despertar según ciclos de 90 minutos para levantarte descansado. Con horas recomendadas por edad.",
     "webApp": true,
     "appCategory": "HealthApplication",
     "intro": "Calcula la mejor hora para dormir o para despertar, basándote en ciclos de sueño de aproximadamente 90 minutos. Despertar al final de un ciclo completo (y no a mitad de uno) puede ayudarte a sentirte más descansado, incluso durmiendo la misma cantidad total de horas.",
@@ -4385,6 +4444,10 @@
       {
         "title": "¿Cuántos ciclos de sueño se recomiendan por noche?",
         "body": "La mayoría de los adultos necesitan entre 5 y 6 ciclos completos de sueño por noche (entre 7.5 y 9 horas aproximadamente) para un descanso óptimo. Esta calculadora ofrece opciones desde 3 ciclos (unas 4.5 horas, para siestas o situaciones excepcionales) hasta 6 ciclos (9 horas), para que puedas elegir según tu disponibilidad de tiempo."
+      },
+      {
+        "title": "Cuántas horas dormir según tu edad",
+        "body": "La National Sleep Foundation recomienda de 9 a 11 horas para niños de 6 a 13 años, de 8 a 10 horas para adolescentes de 14 a 17, de 7 a 9 horas para adultos de 18 a 64 y de 7 a 8 horas para mayores de 65. Con ciclos de unos 90 minutos, eso equivale a 5 o 6 ciclos completos para un adulto. La calculadora de sueño suma unos 15 minutos para quedarte dormido, para que la alarma suene al final de un ciclo y no en medio del sueño profundo."
       }
     ],
     "faqs": [
@@ -4403,6 +4466,10 @@
       {
         "question": "¿Es gratis esta calculadora de ciclos de sueño?",
         "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      },
+      {
+        "question": "¿Cómo funciona una calculadora de sueño?",
+        "answer": "Cuenta hacia atrás o hacia adelante en bloques de unos 90 minutos, la duración media de un ciclo de sueño, más el tiempo que tardas en dormirte. Así te propone horas en las que despertarías entre ciclos, cuando es más fácil levantarse."
       }
     ],
     "relatedTools": [
@@ -4421,7 +4488,7 @@
     "name": "Calculadora de Escalas",
     "shortName": "Escalas",
     "category": "convertidores",
-    "metaTitle": "Calculadora de Escalas Online Gratis | Planos, Mapas y Maquetas",
+    "metaTitle": "Calculadora de Escalas para Planos, Mapas y Maquetas",
     "metaDescription": "Convierte medidas reales a escala (o al revés) y calcula la escala de un plano, mapa o maqueta a partir de dos medidas. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -4544,7 +4611,7 @@
     "name": "Generador de Letras Grandes",
     "shortName": "Letras Grandes",
     "category": "generadores",
-    "metaTitle": "Generador de Letras Grandes Online Gratis | Grafiti, Tatuaje y para Imprimir",
+    "metaTitle": "Generador de Letras Grandes: grafiti, tatuaje e imprimir",
     "metaDescription": "Crea letras grandes en estilo grafiti, tatuaje (script) o molde para imprimir y recortar. Descarga tu imagen en PNG gratis, sin registro.",
     "webApp": true,
     "appCategory": "DesignApplication",
@@ -4667,7 +4734,7 @@
     "name": "Generador de Crucigramas",
     "shortName": "Crucigramas",
     "category": "juegos",
-    "metaTitle": "Generador de Crucigramas Online Gratis | Con Pistas Personalizadas",
+    "metaTitle": "Generador de Crucigramas con Pistas Personalizadas",
     "metaDescription": "Crea tu propio crucigrama con tus palabras y pistas. Las palabras se conectan automáticamente por letras compartidas. Imprime gratis, sin registro.",
     "webApp": true,
     "appCategory": "EntertainmentApplication",
@@ -4729,7 +4796,7 @@
     "name": "Generador de Nombres para Free Fire",
     "shortName": "Nombres Free Fire",
     "category": "generadores",
-    "metaTitle": "Generador de Nombres para Free Fire Online Gratis | Nicks Únicos",
+    "metaTitle": "Generador de Nombres para Free Fire: nicks únicos",
     "metaDescription": "Genera nombres y nicks únicos para Free Fire, con símbolos decorativos y estilo gamer. Copia con un clic. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "EntertainmentApplication",
@@ -4791,7 +4858,7 @@
     "name": "Generador de Link de WhatsApp",
     "shortName": "Link de WhatsApp",
     "category": "generadores",
-    "metaTitle": "Generador de Link de WhatsApp Online Gratis | wa.me con Mensaje",
+    "metaTitle": "Generador de Link de WhatsApp (wa.me) con Mensaje",
     "metaDescription": "Genera un enlace directo de WhatsApp (wa.me) con mensaje predefinido, sin necesidad de guardar el número. Gratis, sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -4852,7 +4919,7 @@
     "name": "Calculadora de Engagement de Instagram",
     "shortName": "Engagement Instagram",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Engagement de Instagram Online Gratis | Tasa de Interacción",
+    "metaTitle": "Calculadora de Engagement de Instagram",
     "metaDescription": "Calcula tu tasa de engagement de Instagram por publicación o el promedio de varias publicaciones, a partir de tus seguidores, likes y comentarios. Gratis.",
     "webApp": true,
     "appCategory": "BusinessApplication",
@@ -4914,7 +4981,7 @@
     "name": "Calculador de Horarios",
     "shortName": "Horarios",
     "category": "calculadoras",
-    "metaTitle": "Calculador de Horarios Online Gratis | Horario Semanal para Imprimir",
+    "metaTitle": "Calculador de Horarios: horario semanal para imprimir",
     "metaDescription": "Crea tu horario semanal personalizado: clases, turnos de trabajo o rutina. Elige días, horas y colores, e imprime gratis, sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -4976,7 +5043,7 @@
     "name": "Convertidor de Hexadecimal a Texto",
     "shortName": "Hex a Texto",
     "category": "convertidores",
-    "metaTitle": "Convertidor de Hexadecimal a Texto Online Gratis | HEX a ASCII/UTF-8",
+    "metaTitle": "Hexadecimal a Texto: conversor HEX a ASCII y UTF-8",
     "metaDescription": "Convierte código hexadecimal a texto legible (y de texto a hexadecimal), compatible con tildes y ñ mediante UTF-8. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -5038,7 +5105,7 @@
     "name": "Ruleta Aleatoria Online",
     "shortName": "Ruleta Aleatoria",
     "category": "juegos",
-    "metaTitle": "Ruleta Aleatoria Online Gratis | Elige al Azar entre tus Opciones",
+    "metaTitle": "Ruleta Aleatoria Online: elige al azar entre opciones",
     "metaDescription": "Crea tu ruleta aleatoria con tus propias opciones y gira para elegir una al azar. Ideal para sorteos, decisiones o clases. Gratis, sin registro.",
     "webApp": true,
     "appCategory": "EntertainmentApplication",
@@ -5100,7 +5167,7 @@
     "name": "Calculadora de Promedio Ponderado Universitario",
     "shortName": "Promedio Ponderado",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Promedio Ponderado Online Gratis | Por Créditos",
+    "metaTitle": "Calculadora de Promedio Ponderado por Créditos",
     "metaDescription": "Calcula tu promedio ponderado universitario a partir de tus notas y créditos por curso. Compatible con UPAO y la mayoría de universidades. Gratis.",
     "webApp": true,
     "appCategory": "EducationApplication",
@@ -5222,7 +5289,7 @@
     "name": "Calculadora de Gratificación Perú",
     "shortName": "Gratificación Perú",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Gratificación Perú 2026 | Fiestas Patrias y Navidad",
+    "metaTitle": "Calculadora de Gratificación Perú 2026: julio y diciembre",
     "metaDescription": "Calcula tu gratificación de julio o diciembre en Perú, incluyendo la bonificación extraordinaria del 9%. Gratis, según la Ley N.º 27735.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -5279,11 +5346,11 @@
   },
   {
     "slug": "calculadora-de-igv",
-    "name": "Calculadora de IGV Perú",
+    "name": "Calculadora IGV Perú: agregar o quitar el 18%",
     "shortName": "IGV Perú",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de IGV Perú Online Gratis | Agregar o Quitar 18%",
-    "metaDescription": "Calcula el IGV (18%) de un precio en Perú: agrégalo a un precio sin IGV o extráelo de un precio que ya lo incluye. Gratis y sin registro.",
+    "metaTitle": "Calculadora IGV Perú: agregar o quitar 18%",
+    "metaDescription": "Calculadora IGV gratis: agrega o quita el 18% de IGV a un precio en Perú, con el valor de venta, el impuesto y el precio final desglosados al instante.",
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula el Impuesto General a las Ventas (IGV) de Perú, actualmente del 18%, ya sea para agregarlo a un precio sin impuesto (valor de venta) o para extraerlo de un precio que ya lo incluye (precio de venta al público).",
@@ -5307,6 +5374,10 @@
       {
         "title": "¿Qué es el valor de venta y el precio de venta?",
         "body": "El \"valor de venta\" es el precio de un bien o servicio sin incluir el IGV, la base sobre la que se calcula el impuesto. El \"precio de venta\" (o precio final al consumidor) es el valor de venta más el IGV ya incluido, el monto que efectivamente paga el comprador. Las boletas y facturas en Perú suelen mostrar ambos valores por separado."
+      },
+      {
+        "title": "Cómo calcular el IGV paso a paso",
+        "body": "El IGV en Perú es del 18%: 16% de Impuesto General a las Ventas más 2% de Impuesto de Promoción Municipal. Para agregarlo a un valor de venta, multiplica por 1.18: un producto de S/ 1,000 sin IGV cuesta S/ 1,180 con IGV, y el impuesto es S/ 180. Para quitarlo de un precio que ya lo incluye, divide entre 1.18: de un precio final de S/ 590, el valor de venta es S/ 500 y el IGV, S/ 90. No calcules el 18% sobre el precio final, porque obtendrías un IGV mayor al real. Si además tu venta está sujeta al sistema de detracciones, usa la [calculadora de detracción](/calcular-detraccion)."
       }
     ],
     "faqs": [
@@ -5325,12 +5396,16 @@
       {
         "question": "¿Es gratis esta calculadora de IGV?",
         "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      },
+      {
+        "question": "¿Cómo se quita el IGV de un precio?",
+        "answer": "Divide el precio final entre 1.18 para obtener el valor de venta; la diferencia es el IGV. Por ejemplo, S/ 590 ÷ 1.18 = S/ 500 de valor de venta y S/ 90 de IGV."
       }
     ],
     "relatedTools": [
       "calcular-detraccion",
-      "calcular-iva",
       "renta-quinta-categoria",
+      "calcular-iva",
       "uit-a-soles",
       "calculadora-porcentaje",
       "calculadora-propinas",
@@ -5392,11 +5467,11 @@
       "calculadora-de-igv",
       "renta-quinta-categoria",
       "uit-a-soles",
+      "calculadora-registral",
       "calcular-iva",
       "calculadora-cts-peru",
       "calcular-gratificacion-peru",
-      "vacaciones-peru",
-      "afp-vs-onp"
+      "vacaciones-peru"
     ]
   },
   {
@@ -5404,7 +5479,7 @@
     "name": "Calculadora de Matrices",
     "shortName": "Matrices",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Matrices Online Gratis | Suma, Multiplicación, Determinante e Inversa",
+    "metaTitle": "Calculadora de Matrices: suma, producto, determinante",
     "metaDescription": "Suma, resta, multiplica matrices, y calcula el determinante, la inversa o la transpuesta, para matrices 2x2 y 3x3. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -5466,7 +5541,7 @@
     "name": "Calculadora de Ecuaciones",
     "shortName": "Ecuaciones",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Ecuaciones Online Gratis | Lineales y Cuadráticas",
+    "metaTitle": "Calculadora de Ecuaciones Lineales y Cuadráticas",
     "metaDescription": "Resuelve ecuaciones lineales (ax + b = 0) y cuadráticas (ax² + bx + c = 0) al instante, incluyendo soluciones complejas. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -5527,7 +5602,7 @@
     "name": "Calculadora de Precios de Influencers de TikTok",
     "shortName": "Precios Influencers TikTok",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Precios de Influencers de TikTok Online Gratis",
+    "metaTitle": "Calculadora de Precios para Influencers de TikTok",
     "metaDescription": "Estima cuánto cobrar (o pagar) por un video patrocinado en TikTok según seguidores, engagement y tipo de contenido. Gratis, es una estimación orientativa.",
     "webApp": true,
     "appCategory": "BusinessApplication",
@@ -5589,7 +5664,7 @@
     "name": "Calculadora IP y de Subredes",
     "shortName": "Calculadora IP",
     "category": "calculadoras",
-    "metaTitle": "Calculadora IP y Subredes Online Gratis | CIDR, Máscara y Broadcast",
+    "metaTitle": "Calculadora IP y Subredes: CIDR, máscara y broadcast",
     "metaDescription": "Calcula la dirección de red, máscara, broadcast y hosts disponibles a partir de una IP y un prefijo CIDR. Gratis, sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -5650,7 +5725,7 @@
     "name": "Calculadora de Regla de Tres",
     "shortName": "Regla de Tres",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Regla de Tres Online Gratis | Directa e Inversa",
+    "metaTitle": "Calculadora de Regla de Tres Directa e Inversa",
     "metaDescription": "Resuelve reglas de tres directas e inversas al instante: si A corresponde a B, cuánto corresponde a C. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -5770,7 +5845,7 @@
     "name": "Calculadora de Derivadas, Integrales y Límites",
     "shortName": "Derivadas e Integrales",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Derivadas e Integrales Online Gratis | Límites Numéricos",
+    "metaTitle": "Calculadora de Derivadas e Integrales Online",
     "metaDescription": "Calcula límites, derivadas en un punto e integrales definidas de forma numérica. Admite sin(x), cos(x), sqrt(x), potencias y más. Gratis.",
     "webApp": true,
     "appCategory": "EducationApplication",
@@ -5832,7 +5907,7 @@
     "name": "Calculadora de Colesterol LDL",
     "shortName": "Colesterol LDL",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Colesterol LDL Online Gratis | Fórmula de Friedewald",
+    "metaTitle": "Calculadora de Colesterol LDL (fórmula de Friedewald)",
     "metaDescription": "Calcula tu colesterol LDL a partir del colesterol total, HDL y triglicéridos, con la fórmula de Friedewald. Gratis, herramienta educativa.",
     "webApp": true,
     "appCategory": "HealthApplication",
@@ -5954,7 +6029,7 @@
     "name": "Índice de Barthel",
     "shortName": "Índice de Barthel",
     "category": "calculadoras",
-    "metaTitle": "Índice de Barthel Online Gratis | Escala de Actividades de la Vida Diaria",
+    "metaTitle": "Índice de Barthel: escala de actividades de la vida diaria",
     "metaDescription": "Calcula el Índice de Barthel para evaluar el grado de independencia funcional en actividades básicas de la vida diaria. Gratis, herramienta educativa.",
     "webApp": true,
     "appCategory": "HealthApplication",
@@ -6011,11 +6086,11 @@
   },
   {
     "slug": "calculadora-liquidacion-laboral-colombia",
-    "name": "Calculadora de Liquidación Laboral Colombia",
+    "name": "Calculadora de Liquidación Laboral Colombia 2026",
     "shortName": "Liquidación Laboral Colombia",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Liquidación Laboral Colombia 2026 | Cesantías, Prima y Vacaciones",
-    "metaDescription": "Calcula tus cesantías, intereses, prima de servicios y vacaciones en Colombia. Gratis, según el Código Sustantivo del Trabajo.",
+    "metaTitle": "Calculadora de Liquidación Colombia 2026",
+    "metaDescription": "Calculadora de liquidación laboral en Colombia: cesantías, intereses, prima y vacaciones con el salario mínimo y el auxilio de transporte de 2026.",
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula los principales componentes de tu liquidación laboral en Colombia: cesantías con sus intereses, prima de servicios, y compensación en dinero por vacaciones. Introduce tu salario y las fechas correspondientes para obtener cada valor según la normativa laboral colombiana.",
@@ -6039,6 +6114,14 @@
       {
         "title": "¿Qué es la prima de servicios y cómo se calcula?",
         "body": "La prima de servicios es una prestación equivalente a un mes de salario al año, pagada en dos cuotas: antes del 30 de junio y antes del 20 de diciembre, cada una calculada sobre el semestre correspondiente. La fórmula es: Salario × días trabajados en el semestre ÷ 360. Si se trabajó el semestre completo, la prima equivale a medio salario mensual."
+      },
+      {
+        "title": "Cómo calcular la liquidación paso a paso",
+        "body": "La liquidación laboral suma cuatro prestaciones. Las cesantías son el salario mensual por los días trabajados dividido entre 360. Los intereses sobre cesantías son el 12% anual: cesantías × días × 0.12 ÷ 360. La prima de servicios equivale a un mes de salario por año, y se calcula igual que las cesantías por cada semestre. Las vacaciones son 15 días hábiles por año: salario × días ÷ 720. Si ganas hasta dos salarios mínimos, el auxilio de transporte se suma al salario para cesantías, intereses y prima, pero no para vacaciones. Cada prestación tiene su propia calculadora: [cesantías](/calcular-cesantias), [prima de servicios](/prima-de-servicios) y [vacaciones](/vacaciones-colombia)."
+      },
+      {
+        "title": "Ejemplo de liquidación con cifras de 2026",
+        "body": "Con un salario de $2.000.000 y el auxilio de transporte de 2026, de $249.095, la base es $2.249.095. Por 180 días trabajados, las cesantías son $2.249.095 × 180 ÷ 360 = $1.124.548; los intereses, $1.124.548 × 180 × 0.12 ÷ 360 = $67.473; la prima del semestre, $1.124.548; y las vacaciones, $2.000.000 × 180 ÷ 720 = $500.000. La liquidación total es de unos $2.816.569, sin contar salarios pendientes ni indemnización por despido sin justa causa."
       }
     ],
     "faqs": [
@@ -6057,6 +6140,10 @@
       {
         "question": "¿Es gratis esta calculadora de liquidación laboral?",
         "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+      },
+      {
+        "question": "¿Qué incluye la liquidación laboral en Colombia?",
+        "answer": "Cesantías, intereses sobre cesantías, prima de servicios proporcional, vacaciones no disfrutadas y los salarios pendientes. Si el despido fue sin justa causa, se suma la indemnización del artículo 64 del Código Sustantivo del Trabajo."
       }
     ],
     "relatedTools": [
@@ -6065,7 +6152,8 @@
       "calcular-cesantias",
       "intereses-cesantias",
       "vacaciones-colombia",
-      "retencion-en-la-fuente"
+      "retencion-en-la-fuente",
+      "calculadora-4x1000"
     ]
   },
   {
@@ -6073,7 +6161,7 @@
     "name": "Calculadora de Seguridad Social Colombia",
     "shortName": "Seguridad Social Colombia",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Seguridad Social Colombia 2026 | Salud y Pensión",
+    "metaTitle": "Seguridad Social Colombia 2026: salud y pensión",
     "metaDescription": "Calcula tus aportes a salud y pensión en Colombia, como empleado dependiente o como independiente por honorarios. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -6124,7 +6212,8 @@
       "prima-de-servicios",
       "intereses-cesantias",
       "vacaciones-colombia",
-      "retencion-en-la-fuente"
+      "retencion-en-la-fuente",
+      "calculadora-4x1000"
     ]
   },
   {
@@ -6132,7 +6221,7 @@
     "name": "Calculadora de CDT Colombia",
     "shortName": "CDT Colombia",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de CDT Colombia Online Gratis | Rendimiento e Intereses",
+    "metaTitle": "Calculadora de CDT Colombia: rendimiento e intereses",
     "metaDescription": "Calcula el rendimiento de tu CDT (Certificado de Depósito a Término) en Colombia según el monto, la TEA y el plazo. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -6182,6 +6271,7 @@
       "calculadora-interes-compuesto",
       "calculadora-cetes",
       "calculadora-interes-simple",
+      "calculadora-4x1000",
       "calculadora-roi"
     ]
   },
@@ -6225,6 +6315,10 @@
       {
         "title": "Prima vacacional e ISR: parte exenta y parte gravable",
         "body": "De acuerdo con el artículo 93, fracción XIV, de la Ley del ISR, la prima vacacional está exenta hasta el equivalente a 15 veces la UMA diaria en el año calendario. Con la UMA de 2026 ($117.31) la exención es de $1,759.65. Lo que exceda esa cantidad se suma a tus ingresos del periodo y paga ISR según la tarifa del SAT. Por eso, en salarios bajos o medios la prima suele llegar completa, mientras que en salarios altos una parte se retiene como impuesto."
+      },
+      {
+        "title": "Guía: cómo se calcula la prima vacacional",
+        "body": "Si quieres hacer la cuenta a mano, en nuestra guía de [cómo se calcula la prima vacacional](/blog/como-calcular-prima-vacacional) tienes la fórmula, la parte exenta de ISR en 2026 y ejemplos con distintos salarios y antigüedades."
       }
     ],
     "faqs": [
@@ -6308,6 +6402,10 @@
       {
         "title": "Ejemplo práctico",
         "body": "Si ingresaste el 15 de marzo de 2023 y calculas al 30 de septiembre de 2026, llevas 3 años cumplidos, así que en este periodo te corresponden 16 días de vacaciones. Además, desde tu último aniversario (15 de marzo de 2026) han pasado 199 días, por lo que llevas acumulados unos 9.8 días proporcionales de los 18 que tendrás al cumplir 4 años. Si dejaras la empresa ese día, deberían pagarte las vacaciones pendientes más esos días proporcionales."
+      },
+      {
+        "title": "Guías sobre vacaciones",
+        "body": "Consulta la [tabla completa de días de vacaciones por año](/blog/dias-de-vacaciones-por-ano) hasta los 40 años de antigüedad, tus derechos en [vacaciones por ley en México](/blog/vacaciones-por-ley) y la [tabla de vacaciones 2026](/blog/tabla-de-vacaciones-2026) con los días de descanso obligatorio del año."
       }
     ],
     "faqs": [
@@ -6474,6 +6572,10 @@
       {
         "title": "Tope de cotización: 25 UMA",
         "body": "El salario base de cotización al IMSS tiene un límite superior de 25 veces la UMA diaria (artículo 28 de la Ley del Seguro Social). Con la UMA de 2026 ($117.31), el tope es de $2,932.75 diarios. Si tu SDI supera esa cantidad, el IMSS cotiza con el tope. El límite inferior es el salario mínimo vigente. Recuerda que el tope aplica a la cotización al IMSS, no al cálculo de indemnizaciones laborales, que se rigen por reglas propias."
+      },
+      {
+        "title": "Guía: qué es el salario diario integrado",
+        "body": "En [qué es el salario diario integrado y cómo se calcula](/blog/salario-diario-integrado) te explicamos qué conceptos se integran, cuáles no y la tabla del factor de integración 2026 por antigüedad."
       }
     ],
     "faqs": [
@@ -6590,8 +6692,8 @@
       "tabla-de-amortizacion",
       "simulador-credito-automotriz",
       "plan-pago-deudas",
-      "calcular-hipoteca",
       "calculadora-cetes",
+      "calcular-hipoteca",
       "calculadora-interes-simple",
       "dividendo-hipotecario"
     ],
@@ -6605,7 +6707,7 @@
     "name": "Calculadora de Nómina (Sueldo Neto México)",
     "shortName": "Calculadora de Nómina",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Nómina 2026 México | Sueldo Neto con ISR e IMSS",
+    "metaTitle": "Calculadora de Nómina México 2026: neto con ISR e IMSS",
     "metaDescription": "Calcula tu sueldo neto 2026 semanal, quincenal o mensual: descuenta ISR con subsidio para el empleo y cuotas obreras del IMSS con su desglose. Gratis.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -6758,8 +6860,8 @@
       "calculadora-porcentaje",
       "calcular-iva",
       "calculadora-comision-ventas",
-      "calculadora-roi",
-      "calculadora-de-igv"
+      "calculadora-de-igv",
+      "calculadora-roi"
     ],
     "image": {
       "file": "calcular-porcentaje-de-descuento-precio-final.webp",
@@ -6836,8 +6938,8 @@
     ],
     "relatedTools": [
       "presupuesto-mensual",
-      "plan-pago-deudas",
       "calculadora-inflacion",
+      "plan-pago-deudas",
       "calculadora-interes-compuesto",
       "simulador-credito-automotriz",
       "presupuesto-boda",
@@ -6920,12 +7022,12 @@
     "relatedTools": [
       "calculadora-interes-compuesto",
       "calculadora-interes-simple",
+      "calculadora-plazo-fijo",
       "calculadora-porcentaje",
       "calcular-descuento",
       "calcular-iva",
       "conversor-criptomonedas",
-      "calculadora-comision-ventas",
-      "calculadora-plazo-fijo"
+      "calculadora-comision-ventas"
     ],
     "image": {
       "file": "calcular-retorno-de-inversion-roi.webp",
@@ -6937,7 +7039,7 @@
     "name": "Calculadora de Nota Necesaria para Aprobar",
     "shortName": "Nota Necesaria",
     "category": "calculadoras",
-    "metaTitle": "¿Qué Nota Necesito para Aprobar? | Calculadora de Calificación",
+    "metaTitle": "¿Qué Nota Necesito para Aprobar? Calculadora",
     "metaDescription": "Calcula qué nota necesitas en tu examen final para aprobar o sacar la calificación que quieres, según tus notas y sus porcentajes. Escalas 0-10, 0-20, 1-7.",
     "webApp": true,
     "appCategory": "EducationalApplication",
@@ -7003,9 +7105,9 @@
     "relatedTools": [
       "calculadora-promedio-ponderado",
       "calculadora-promedio",
+      "tablas-de-multiplicar",
       "nota-de-corte",
       "puntaje-paes",
-      "tablas-de-multiplicar",
       "calculadora-alicia",
       "calculo-mental",
       "convertidor-fracciones"
@@ -8660,11 +8762,11 @@
       "convertidor-moneda",
       "dolar-a-peso-mexicano",
       "dolar-blue",
-      "calculadora-roi",
-      "calculadora-interes-compuesto",
       "uf-a-pesos",
       "utm-a-pesos",
-      "uit-a-soles"
+      "uit-a-soles",
+      "calculadora-roi",
+      "calculadora-interes-compuesto"
     ],
     "image": {
       "file": "convertir-bitcoin-a-pesos-y-dolares.webp",
@@ -8925,7 +9027,7 @@
     "name": "Calculadora de Subsidio al Empleo 2026",
     "shortName": "Subsidio al empleo",
     "category": "calculadoras",
-    "metaTitle": "Calcular Subsidio al Empleo 2026 | Monto y Límite de Ingresos",
+    "metaTitle": "Subsidio al Empleo 2026: monto y límite de ingresos",
     "metaDescription": "Calcula el subsidio para el empleo 2026: cuánto te corresponde, el límite de $11,492.66 y cuánto ISR te retienen al final. Semanal, quincenal o mensual.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -9091,7 +9193,7 @@
     "name": "Tabla de Salarios Mínimos 2026 en México",
     "shortName": "Salarios mínimos 2026",
     "category": "calculadoras",
-    "metaTitle": "Salario Mínimo 2026 México | Tabla Diaria, Mensual y Frontera",
+    "metaTitle": "Salario Mínimo 2026 México: tabla diaria y mensual",
     "metaDescription": "Salario mínimo 2026 en México: $315.04 diarios en la zona general y $440.87 en la frontera norte. Montos semanal, quincenal y mensual e historial desde 2019.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -9209,6 +9311,10 @@
       {
         "title": "Precauciones antes de invertir",
         "body": "Este simulador es una estimación: la resolución final la emite el IMSS y puede variar por semanas no reconocidas, periodos sin cotizar o errores en tu historial. Revisa tu constancia de semanas cotizadas y corrige cualquier inconsistencia antes de empezar. Ha habido criterios judiciales distintos sobre el tope salarial aplicable al calcular estas pensiones, así que confirma tu caso con el IMSS o con un asesor independiente. Desconfía de gestores que cobran por inscribirte: el trámite es gratuito."
+      },
+      {
+        "title": "Aguinaldo de los pensionados",
+        "body": "Cuando te pensiones con la Ley 73 recibirás además un aguinaldo anual de un mes de pensión. Te explicamos cómo se calcula y cuándo se paga en [aguinaldo para pensionados del IMSS](/blog/aguinaldo-pensionados-imss)."
       }
     ],
     "faqs": [
@@ -9541,6 +9647,10 @@
       {
         "title": "Ejemplo con un sueldo de $20,000",
         "body": "Con un sueldo mensual de $20,000 y 15 días de aguinaldo, el aguinaldo bruto es de $10,000 y la parte gravada de $6,480.70. Como el sueldo y el aguinaldo quedan en el mismo tramo de la tarifa, ambos métodos dan una retención de alrededor de $1,384, con un aguinaldo neto de unos $8,616. Cuando el aguinaldo empuja el ingreso del mes a un tramo superior, el método del reglamento puede dar una retención claramente menor. En la declaración anual se ajusta el impuesto y, si te retuvieron de más, puedes recibir un saldo a favor."
+      },
+      {
+        "title": "Guía: aguinaldo exento de impuestos",
+        "body": "Para entender de dónde sale la parte exenta y comparar con años anteriores, lee [aguinaldo exento de impuestos: cuánto está libre del ISR](/blog/aguinaldo-exento-impuestos), con la tabla 2024-2026 y un ejemplo de retención con los dos métodos."
       }
     ],
     "faqs": [
@@ -9672,7 +9782,7 @@
     "name": "Tabla de Amortización de Préstamos",
     "shortName": "Tabla de amortización",
     "category": "calculadoras",
-    "metaTitle": "Tabla de Amortización Online | Francés, Alemán y Excel Gratis",
+    "metaTitle": "Tabla de Amortización: sistema francés y alemán",
     "metaDescription": "Genera tu tabla de amortización con pago fijo (francés), capital fijo (alemán) o americano. Incluye abonos a capital, IVA de intereses y descarga para Excel.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -9755,7 +9865,7 @@
     "name": "Calculadora de CETES: Rendimiento en Cetesdirecto",
     "shortName": "Calculadora de CETES",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de CETES 2026 | Rendimiento a 28, 91, 182 y 364 Días",
+    "metaTitle": "Calculadora de CETES 2026: rendimiento a 28 a 364 días",
     "metaDescription": "Calcula cuánto ganas en CETES: precio por título, títulos que compras, intereses, retención de ISR y reinversión automática a 28, 91, 182 o 364 días.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -9819,11 +9929,11 @@
       }
     ],
     "relatedTools": [
+      "comparador-afore",
       "calculadora-interes-compuesto",
       "calculadora-plazo-fijo",
       "calculadora-cdt",
       "calculadora-interes-simple",
-      "comparador-afore",
       "calculadora-cat",
       "calculadora-roi"
     ],
@@ -9837,7 +9947,7 @@
     "name": "Simulador de Crédito Automotriz",
     "shortName": "Crédito automotriz",
     "category": "calculadoras",
-    "metaTitle": "Simulador de Crédito Automotriz | Mensualidad, Enganche y CAT",
+    "metaTitle": "Simulador de Crédito Automotriz: mensualidad y CAT",
     "metaDescription": "Simula tu crédito de auto: enganche, mensualidad con IVA de intereses, comisión por apertura, seguro, CAT y cuánto pagas de más frente al precio de contado.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -9903,12 +10013,12 @@
     "relatedTools": [
       "tabla-de-amortizacion",
       "calculadora-prestamo",
-      "calculadora-cat",
       "plan-pago-deudas",
+      "calculadora-cat",
       "calculadora-interes-simple",
-      "calculadora-ahorro",
       "calcular-hipoteca",
-      "dividendo-hipotecario"
+      "dividendo-hipotecario",
+      "calculadora-ahorro"
     ],
     "image": {
       "file": "calcular-mensualidad-credito-de-auto.webp",
@@ -9920,7 +10030,7 @@
     "name": "Calculadora de Interés Simple",
     "shortName": "Interés simple",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Interés Simple | Capital, Tasa, Tiempo e Interés",
+    "metaTitle": "Calculadora de Interés Simple: capital, tasa y tiempo",
     "metaDescription": "Calcula el interés simple con la fórmula I = C·r·t o despeja el capital, la tasa o el tiempo. Acepta años, meses y días con año comercial de 360 o natural de 365.",
     "webApp": true,
     "appCategory": "EducationApplication",
@@ -9986,9 +10096,9 @@
     "relatedTools": [
       "calculadora-interes-compuesto",
       "calculadora-cetes",
-      "tabla-de-amortizacion",
       "calculadora-plazo-fijo",
       "calculadora-cdt",
+      "tabla-de-amortizacion",
       "calculadora-prestamo",
       "calculadora-roi",
       "simulador-credito-automotriz"
@@ -10003,7 +10113,7 @@
     "name": "Presupuesto Mensual: Planificador de Gastos 50/30/20",
     "shortName": "Presupuesto mensual",
     "category": "calculadoras",
-    "metaTitle": "Presupuesto Mensual Online | Plan de Gastos con Regla 50/30/20",
+    "metaTitle": "Presupuesto Mensual con la Regla 50/30/20",
     "metaDescription": "Haz tu presupuesto mensual gratis: registra ingresos y gastos, clasifícalos en necesidades, gustos y ahorro y compáralos con la regla 50/30/20.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -10068,10 +10178,10 @@
     ],
     "relatedTools": [
       "calculadora-ahorro",
+      "calculadora-inflacion",
       "plan-pago-deudas",
       "dividir-cuenta",
       "presupuesto-boda",
-      "calculadora-inflacion",
       "calculadora-factura-luz",
       "comparador-precios",
       "calculadora-propinas"
@@ -10152,8 +10262,8 @@
     "relatedTools": [
       "calculadora-prestamo",
       "tabla-de-amortizacion",
-      "calculadora-cat",
       "simulador-credito-automotriz",
+      "calculadora-cat",
       "presupuesto-mensual",
       "calculadora-ahorro",
       "calculadora-interes-simple",
@@ -10238,8 +10348,8 @@
       "calcular-iva",
       "calculadora-propinas",
       "comparador-precios",
-      "calculadora-roi",
       "calculadora-de-igv",
+      "calculadora-roi",
       "calculadora-regla-de-tres"
     ],
     "image": {
@@ -10322,8 +10432,8 @@
       "calculadora-porcentaje",
       "calcular-iva",
       "calculadora-comision-ventas",
-      "presupuesto-mensual",
-      "calculadora-de-igv"
+      "calculadora-de-igv",
+      "presupuesto-mensual"
     ],
     "image": {
       "file": "comparar-precio-por-kilo-en-el-super.webp",
@@ -10750,7 +10860,7 @@
     "name": "Convertidor de Pies a Metros",
     "shortName": "Pies a metros",
     "category": "convertidores",
-    "metaTitle": "Pies a Metros | Convertir ft a m y Estatura en Pies y Pulgadas",
+    "metaTitle": "Convertidor de Pies a Metros (ft a m)",
     "metaDescription": "Convierte pies a metros: 1 pie = 0.3048 m. Pasa tu estatura en pies y pulgadas a metros y centímetros, con tabla de alturas y conversión de metros a pies.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -10916,7 +11026,7 @@
     "name": "Validador de CURP",
     "shortName": "Validar CURP",
     "category": "calculadoras",
-    "metaTitle": "Validar CURP Online | Verifica Estructura y Dígito Verificador",
+    "metaTitle": "Validar CURP: estructura y dígito verificador",
     "metaDescription": "Valida una CURP al instante: revisa la estructura de los 18 caracteres, la fecha de nacimiento, el estado y el dígito verificador. Gratis y sin guardar tus datos.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -11067,9 +11177,9 @@
       "comparador-precios",
       "presupuesto-mensual",
       "presupuesto-boda",
+      "calculadora-factura-luz",
       "calculadora-porcentaje",
-      "calcular-iva",
-      "calculadora-factura-luz"
+      "calcular-iva"
     ],
     "image": {
       "file": "dividir-la-cuenta-del-restaurante-con-propina.webp",
@@ -11162,7 +11272,7 @@
     "name": "Calculadora de Promedio",
     "shortName": "Calculadora de promedio",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Promedio | Media, Mediana y Moda de Calificaciones",
+    "metaTitle": "Calculadora de Promedio: media, mediana y moda",
     "metaDescription": "Calcula el promedio de tus calificaciones o de cualquier lista de números. Obtén media, mediana, moda y rango, y descubre si apruebas con tu calificación mínima.",
     "webApp": true,
     "appCategory": "EducationApplication",
@@ -11328,7 +11438,7 @@
     "name": "Calculadora de MCD y MCM",
     "shortName": "MCD y MCM",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de MCD y MCM | Máximo Común Divisor y Mínimo Múltiplo",
+    "metaTitle": "Calculadora de MCD y MCM con procedimiento",
     "metaDescription": "Calcula el máximo común divisor (MCD) y el mínimo común múltiplo (MCM) de dos o más números, con descomposición en factores primos y algoritmo de Euclides.",
     "webApp": true,
     "appCategory": "EducationApplication",
@@ -11494,7 +11604,7 @@
     "name": "Calculadora de Factorial (n!)",
     "shortName": "Calculadora factorial",
     "category": "calculadoras",
-    "metaTitle": "Calculadora Factorial n! | Resultado Exacto, Todos los Dígitos",
+    "metaTitle": "Calculadora Factorial n! con resultado exacto",
     "metaDescription": "Calcula el factorial de un número (n!) con todos sus dígitos exactos hasta 5000!. Incluye notación científica, número de dígitos y ceros finales.",
     "webApp": true,
     "appCategory": "EducationApplication",
@@ -11825,7 +11935,7 @@
     "name": "Decodificador de JWT",
     "shortName": "Decodificador JWT",
     "category": "convertidores",
-    "metaTitle": "Decodificador JWT Online | Ver Header, Payload y Verificar Firma",
+    "metaTitle": "Decodificador JWT: header, payload y firma",
     "metaDescription": "Decodifica tokens JWT en tu navegador: ve el header y el payload, fechas de expiración legibles y verifica firmas HS256, HS384 y HS512 sin enviar el token.",
     "webApp": true,
     "appCategory": "DeveloperApplication",
@@ -11991,7 +12101,7 @@
     "name": "Codificador y Decodificador de URL",
     "shortName": "Codificador URL",
     "category": "convertidores",
-    "metaTitle": "Codificar y Decodificar URL Online | Encode/Decode y Parámetros",
+    "metaTitle": "Codificar y Decodificar URL Online (encode/decode)",
     "metaDescription": "Codifica y decodifica URLs con porcentaje (%20, %C3%B1), elige entre componente o URL completa y analiza el dominio, la ruta y cada parámetro de una dirección.",
     "webApp": true,
     "appCategory": "DeveloperApplication",
@@ -12074,7 +12184,7 @@
     "name": "Minificador de JavaScript, CSS y HTML",
     "shortName": "Minificador de código",
     "category": "texto",
-    "metaTitle": "Minificador JS, CSS y HTML Online | Reduce el Peso de tu Código",
+    "metaTitle": "Minificador de JavaScript, CSS y HTML Online",
     "metaDescription": "Minifica JavaScript con Terser, CSS y HTML en tu navegador: elimina espacios y comentarios, acorta variables y muestra cuántos KB ahorras. Gratis y privado.",
     "webApp": true,
     "appCategory": "DeveloperApplication",
@@ -12489,7 +12599,7 @@
     "name": "Convertidor de Imagen a Base64",
     "shortName": "Imagen a Base64",
     "category": "convertidores",
-    "metaTitle": "Imagen a Base64 Online | Data URI para HTML y CSS, y al Revés",
+    "metaTitle": "Imagen a Base64: Data URI para HTML y CSS",
     "metaDescription": "Convierte imágenes PNG, JPG, SVG, GIF o WebP a Base64 y data URI listos para HTML, CSS y Markdown, o decodifica Base64 a imagen. Sin subir tus archivos.",
     "webApp": true,
     "appCategory": "DeveloperApplication",
@@ -13065,7 +13175,7 @@
     "name": "Verdad o Reto Online",
     "shortName": "Verdad o reto",
     "category": "juegos",
-    "metaTitle": "Verdad o Reto Online | Preguntas para Familia, Amigos y Parejas",
+    "metaTitle": "Verdad o Reto Online: preguntas para amigos y parejas",
     "metaDescription": "Juega verdad o reto con preguntas y retos en español para familia, amigos o parejas. Turnos por jugador, dado aleatorio y sin repeticiones. Gratis en el celular.",
     "webApp": true,
     "appCategory": "GameApplication",
@@ -13314,7 +13424,7 @@
     "name": "Generador de Biografía para Instagram",
     "shortName": "Bio para Instagram",
     "category": "generadores",
-    "metaTitle": "Generador de Bio para Instagram | Ideas con Emojis y Negritas",
+    "metaTitle": "Generador de Bio para Instagram con Emojis",
     "metaDescription": "Crea tu biografía de Instagram en segundos: con emojis, nombre en negritas, intereses y llamada a la acción, siempre dentro del límite de 150 caracteres.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -13563,7 +13673,7 @@
     "name": "Generador de Enlaces con Parámetros UTM",
     "shortName": "Generador UTM",
     "category": "generadores",
-    "metaTitle": "Generador de UTM | Crea URLs de Campaña para Google Analytics",
+    "metaTitle": "Generador de UTM: URLs de campaña para Analytics",
     "metaDescription": "Crea enlaces con parámetros UTM para medir tus campañas en Google Analytics: fuente, medio, campaña, término y contenido, con limpieza automática y copia rápida.",
     "webApp": true,
     "appCategory": "BusinessApplication",
@@ -13961,6 +14071,7 @@
       "calculadora-irpf",
       "cuota-autonomo",
       "calculadora-factura-luz",
+      "calculadora-registral",
       "calculadora-alquiler-argentina"
     ],
     "image": {
@@ -13973,7 +14084,7 @@
     "name": "Calculadora de Nota de Acceso y Admisión (PAU / EBAU)",
     "shortName": "Nota de corte EBAU",
     "category": "calculadoras",
-    "metaTitle": "Calculadora Nota de Corte EBAU/PAU | Nota de Admisión sobre 14",
+    "metaTitle": "Calculadora Nota de Corte PAU/EBAU sobre 14",
     "metaDescription": "Calcula tu nota de acceso y de admisión a la universidad (PAU/EBAU): 60% Bachillerato, 40% fase general y las dos mejores ponderaciones hasta 14 puntos.",
     "webApp": true,
     "appCategory": "EducationApplication",
@@ -14041,7 +14152,9 @@
       "calculadora-promedio-ponderado",
       "calculadora-promedio",
       "puntaje-paes",
-      "tablas-de-multiplicar"
+      "tablas-de-multiplicar",
+      "calculadora-de-notas",
+      "calculadora-upao"
     ],
     "image": {
       "file": "calcular-nota-de-admision-ebau-sobre-14.webp",
@@ -14053,7 +14166,7 @@
     "name": "Calculadora de la Factura de la Luz",
     "shortName": "Factura de la luz",
     "category": "calculadoras",
-    "metaTitle": "Calculadora Factura de la Luz | Potencia, Energía e Impuestos",
+    "metaTitle": "Calculadora Factura de la Luz: potencia y energía",
     "metaDescription": "Calcula tu factura de la luz: término de potencia, energía por periodos 2.0TD, impuesto eléctrico, alquiler del contador, IVA del 21% y bono social.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
@@ -14120,8 +14233,8 @@
       "cuanto-cuesta-reformar",
       "calcular-plusvalia",
       "impuesto-sucesiones",
-      "presupuesto-mensual",
       "calcular-hipoteca",
+      "presupuesto-mensual",
       "dividir-cuenta",
       "presupuesto-boda"
     ],
@@ -14285,6 +14398,7 @@
       "calcular-hipoteca",
       "cuota-autonomo",
       "calculadora-factura-luz",
+      "calculadora-registral",
       "calculadora-alquiler-argentina"
     ],
     "image": {
@@ -14365,7 +14479,8 @@
       "calcular-plusvalia",
       "impuesto-sucesiones",
       "calcular-hipoteca",
-      "calculadora-alquiler-argentina"
+      "calculadora-alquiler-argentina",
+      "calculadora-registral"
     ],
     "image": {
       "file": "precio-de-reforma-de-piso-por-metro-cuadrado.webp",
@@ -14377,7 +14492,7 @@
     "name": "Calculadora de Huella de Carbono Personal",
     "shortName": "Huella de carbono",
     "category": "calculadoras",
-    "metaTitle": "Calculadora de Huella de Carbono | Tus Emisiones de CO₂ al Año",
+    "metaTitle": "Calculadora de Huella de Carbono: tus emisiones de CO₂",
     "metaDescription": "Calcula tu huella de carbono personal: hogar, coche, transporte público, vuelos, alimentación y consumo. Descubre qué parte pesa más y cómo reducirla.",
     "webApp": true,
     "appCategory": "LifestyleApplication",
@@ -14522,12 +14637,12 @@
     "relatedTools": [
       "convertidor-moneda",
       "conversor-criptomonedas",
-      "calculadora-sueldo-neto-argentina",
-      "monotributo",
       "dolar-a-peso-mexicano",
       "uf-a-pesos",
       "utm-a-pesos",
-      "uit-a-soles"
+      "uit-a-soles",
+      "calculadora-sueldo-neto-argentina",
+      "monotributo"
     ],
     "image": {
       "file": "cotizacion-dolar-blue-a-pesos-argentinos.webp",
@@ -14607,6 +14722,7 @@
       "calcular-sac-argentina",
       "preaviso-laboral",
       "calcular-indemnizacion-despido",
+      "calculadora-empleados-de-comercio",
       "dolar-blue"
     ],
     "image": {
@@ -14698,7 +14814,7 @@
     "name": "Calculadora de Preaviso Laboral (Argentina)",
     "shortName": "Preaviso laboral",
     "category": "calculadoras",
-    "metaTitle": "Calcular Preaviso Laboral Argentina | Indemnización Sustitutiva",
+    "metaTitle": "Calcular Preaviso Laboral Argentina 2026",
     "metaDescription": "Calculá el preaviso según la Ley de Contrato de Trabajo: 15 días, 1 o 2 meses según antigüedad, integración del mes de despido y SAC sobre ambos conceptos.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -14765,6 +14881,7 @@
       "calcular-indemnizacion-despido",
       "calcular-sac-argentina",
       "calculadora-sueldo-neto-argentina",
+      "calculadora-empleados-de-comercio",
       "monotributo",
       "dolar-blue"
     ],
@@ -14858,8 +14975,8 @@
     "name": "Calculadora de Finiquito Chile",
     "shortName": "Finiquito Chile",
     "category": "calculadoras",
-    "metaTitle": "Calcular Finiquito Chile 2026 | Indemnización y Vacaciones",
-    "metaDescription": "Calcula tu finiquito en Chile según la causal: indemnización por años de servicio, aviso previo, feriado proporcional y recargos del art. 168, con tope de 90 UF.",
+    "metaTitle": "Calcular Finiquito Chile 2026: indemnización",
+    "metaDescription": "Calcula tu finiquito en Chile según la causal: indemnización por años de servicio, aviso previo, feriado proporcional y recargos, con tope de 90 UF.",
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Al terminar un contrato de trabajo en Chile, el empleador debe pagar un finiquito con los montos que correspondan según la causal de término. Esta calculadora estima la indemnización por años de servicio y la sustitutiva del aviso previo. También calcula el feriado proporcional por las vacaciones no tomadas y los recargos legales si el despido es declarado injustificado. Aplica los topes del Código del Trabajo: 11 años de servicio y 90 UF de remuneración mensual.",
@@ -15004,12 +15121,12 @@
     "relatedTools": [
       "utm-a-pesos",
       "convertidor-moneda",
-      "sueldo-liquido-chile",
-      "finiquito-chile",
-      "cotizacion-afp",
       "conversor-criptomonedas",
       "dolar-a-peso-mexicano",
-      "dolar-blue"
+      "dolar-blue",
+      "sueldo-liquido-chile",
+      "finiquito-chile",
+      "cotizacion-afp"
     ],
     "image": {
       "file": "valor-uf-hoy-en-pesos-chilenos.webp",
@@ -15086,13 +15203,13 @@
     ],
     "relatedTools": [
       "uf-a-pesos",
-      "sueldo-liquido-chile",
       "uit-a-soles",
-      "finiquito-chile",
-      "gratificacion-chile",
+      "sueldo-liquido-chile",
       "convertidor-moneda",
       "conversor-criptomonedas",
-      "dolar-a-peso-mexicano"
+      "dolar-a-peso-mexicano",
+      "finiquito-chile",
+      "gratificacion-chile"
     ],
     "image": {
       "file": "valor-utm-en-pesos-chilenos.webp",
@@ -15413,7 +15530,9 @@
       "calculadora-promedio",
       "calculadora-promedio-ponderado",
       "calculadora-nota-necesaria",
-      "tablas-de-multiplicar"
+      "tablas-de-multiplicar",
+      "calculadora-de-notas",
+      "calculadora-upao"
     ],
     "image": {
       "file": "calcular-puntaje-ponderado-paes.webp",
@@ -15425,7 +15544,7 @@
     "name": "Calculadora de Prima de Servicios Colombia 2026",
     "shortName": "Prima de servicios",
     "category": "calculadoras",
-    "metaTitle": "Calcular Prima de Servicios 2026 Colombia | Junio y Diciembre",
+    "metaTitle": "Calcular Prima de Servicios Colombia 2026",
     "metaDescription": "Calcula tu prima de servicios en Colombia: salario más auxilio de transporte por días trabajados ÷ 360, con los valores 2026 del salario mínimo y el auxilio.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -15494,7 +15613,8 @@
       "vacaciones-colombia",
       "calculadora-liquidacion-laboral-colombia",
       "calculadora-seguridad-social-colombia",
-      "retencion-en-la-fuente"
+      "retencion-en-la-fuente",
+      "calculadora-4x1000"
     ],
     "image": {
       "file": "calcular-prima-de-servicios-colombia.webp",
@@ -15575,7 +15695,8 @@
       "vacaciones-colombia",
       "calculadora-liquidacion-laboral-colombia",
       "calculadora-seguridad-social-colombia",
-      "retencion-en-la-fuente"
+      "retencion-en-la-fuente",
+      "calculadora-4x1000"
     ],
     "image": {
       "file": "como-calcular-cesantias-colombia.webp",
@@ -15656,7 +15777,8 @@
       "calculadora-liquidacion-laboral-colombia",
       "vacaciones-colombia",
       "calculadora-seguridad-social-colombia",
-      "retencion-en-la-fuente"
+      "retencion-en-la-fuente",
+      "calculadora-4x1000"
     ],
     "image": {
       "file": "calcular-intereses-sobre-cesantias.webp",
@@ -15668,7 +15790,7 @@
     "name": "Calculadora de Retención en la Fuente por Salarios 2026",
     "shortName": "Retención en la fuente",
     "category": "calculadoras",
-    "metaTitle": "Calcular Retención en la Fuente 2026 | Salarios Colombia (UVT)",
+    "metaTitle": "Calcular Retención en la Fuente 2026 Colombia",
     "metaDescription": "Calcula la retención en la fuente de tu salario en Colombia con el procedimiento 1 y la tabla del art. 383 en UVT 2026: aportes, deducciones y renta exenta del 25%.",
     "webApp": true,
     "appCategory": "FinanceApplication",
@@ -15732,6 +15854,7 @@
       }
     ],
     "relatedTools": [
+      "calculadora-4x1000",
       "calculadora-seguridad-social-colombia",
       "prima-de-servicios",
       "calcular-cesantias",
@@ -15818,7 +15941,8 @@
       "calculadora-liquidacion-laboral-colombia",
       "intereses-cesantias",
       "calculadora-seguridad-social-colombia",
-      "retencion-en-la-fuente"
+      "retencion-en-la-fuente",
+      "calculadora-4x1000"
     ],
     "image": {
       "file": "calcular-vacaciones-en-colombia.webp",
@@ -15900,6 +16024,7 @@
       "calculadora-cts-peru",
       "vacaciones-peru",
       "calculadora-de-igv",
+      "calculadora-registral",
       "afp-vs-onp"
     ],
     "image": {
@@ -15978,12 +16103,12 @@
     "relatedTools": [
       "renta-quinta-categoria",
       "calcular-detraccion",
-      "calculadora-de-igv",
       "utm-a-pesos",
+      "calculadora-de-igv",
+      "calculadora-registral",
       "calculadora-cts-peru",
       "calcular-gratificacion-peru",
-      "vacaciones-peru",
-      "afp-vs-onp"
+      "vacaciones-peru"
     ],
     "image": {
       "file": "valor-uit-2026-en-soles.webp",
@@ -16714,7 +16839,7 @@
     "name": "¿Cuántos Días Faltan para Navidad? Cuenta Regresiva",
     "shortName": "Días para Navidad",
     "category": "calculadoras",
-    "metaTitle": "¿Cuántos Días Faltan para Navidad? | Cuenta Regresiva en Vivo",
+    "metaTitle": "¿Cuántos Días Faltan para Navidad? Cuenta Regresiva",
     "metaDescription": "Cuenta regresiva en vivo para Navidad: días, horas, minutos y segundos. También para Nochebuena, Año Nuevo, Reyes, San Valentín, Halloween y tu propia fecha.",
     "webApp": true,
     "appCategory": "LifestyleApplication",
@@ -16862,8 +16987,8 @@
     "relatedTools": [
       "presupuesto-mensual",
       "dividir-cuenta",
-      "calculadora-ahorro",
       "calculadora-factura-luz",
+      "calculadora-ahorro",
       "calculadora-propinas",
       "calcular-gasolina",
       "calcular-descuento",
@@ -17211,7 +17336,7 @@
     "name": "Conversor de Tallas de Anillo",
     "shortName": "Tallas de anillo",
     "category": "convertidores",
-    "metaTitle": "Conversor de Tallas de Anillo | México, EE. UU., Europa y España",
+    "metaTitle": "Tallas de Anillo: México, EE. UU., Europa y España",
     "metaDescription": "Convierte tallas de anillo entre México, EE. UU., Europa, España y Reino Unido, y calcula tu talla a partir del diámetro o el contorno de tu dedo en mm.",
     "webApp": true,
     "appCategory": "LifestyleApplication",
@@ -17287,6 +17412,506 @@
     "image": {
       "file": "tabla-de-tallas-de-anillo.webp",
       "alt": "Tallas de anillo"
+    }
+  },
+  {
+    "slug": "calculadora-finiquito-mexico",
+    "name": "Calculadora de Finiquito México 2026",
+    "shortName": "Finiquito México",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Finiquito México 2026",
+    "metaDescription": "Calcula tu finiquito o liquidación en México: aguinaldo, vacaciones, prima vacacional y de antigüedad según la LFT 2026. Gratis, con desglose paso a paso.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Cuando dejas un trabajo en México, tu patrón debe pagarte un finiquito con todo lo que ya ganaste: los días de salario pendientes, la parte proporcional del aguinaldo, las vacaciones que no disfrutaste y su prima vacacional. Si el despido fue injustificado, además te corresponde una liquidación con indemnización. Esta calculadora aplica la Ley Federal del Trabajo vigente en 2026, incluida la tabla de vacaciones de la reforma de 2023, y te muestra cada concepto por separado para que puedas revisar el documento que te presente la empresa antes de firmarlo.",
+    "howToUse": [
+      "Escribe tu salario bruto y elige si es mensual, quincenal, semanal o diario",
+      "Indica tu fecha de ingreso y tu último día de trabajo",
+      "Elige el motivo de la salida: renuncia, despido injustificado o despido justificado",
+      "Añade los días de salario que te deban y las vacaciones de años anteriores que no tomaste",
+      "Ajusta los días de aguinaldo y el porcentaje de prima vacacional si tu contrato da más que la ley, y pulsa «Calcular finiquito»"
+    ],
+    "benefits": [
+      "Distingue finiquito (lo ya ganado) de liquidación (la indemnización por despido)",
+      "Usa la tabla de vacaciones vigente desde 2023: 12 días el primer año",
+      "Aplica la prima de antigüedad con el tope del doble del salario mínimo 2026",
+      "Calcula la indemnización con tu salario diario integrado",
+      "Indica qué parte está exenta de ISR según la UMA 2026",
+      "Gratis, sin registro y calculado en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "Qué es el finiquito y en qué se diferencia de la liquidación",
+        "body": "El finiquito es el pago de las prestaciones que ya generaste y que te corresponden siempre, sin importar si renuncias o te despiden: salario pendiente, aguinaldo proporcional (art. 87 de la LFT), vacaciones no disfrutadas (art. 79) y prima vacacional de al menos 25% (art. 80). La liquidación es otra cosa: es la indemnización que se suma al finiquito cuando el despido es injustificado, equivalente a tres meses de salario (art. 48), más la prima de antigüedad. Si renunciaste, solo recibes el finiquito, salvo que tengas 15 años o más de antigüedad, caso en el que también te toca la prima de antigüedad (art. 162). En nuestra guía sobre el [finiquito por renuncia](/blog/finiquito-por-renuncia) explicamos cada caso con detalle."
+      },
+      {
+        "title": "Cómo se calcula el finiquito paso a paso",
+        "body": "Primero se obtiene tu salario diario dividiendo el sueldo mensual entre 30. El aguinaldo proporcional son 15 días multiplicados por los días que trabajaste en el año y divididos entre 365. Las vacaciones se calculan con los días que te tocarían al cumplir tu siguiente aniversario, en proporción al tiempo transcurrido desde el último; por ejemplo, en tu quinto año corresponden 20 días. La prima vacacional es el 25% del pago de esas vacaciones. Para la prima de antigüedad se toman 12 días por año trabajado, pero con un salario que no puede superar el doble del mínimo: en 2026, $630.08 diarios en la zona general. Puedes revisar por separado tu [aguinaldo](/calcular-aguinaldo) y tus [días de vacaciones](/calcular-vacaciones) con nuestras otras calculadoras."
+      },
+      {
+        "title": "Ejemplo de finiquito por renuncia con números reales",
+        "body": "Ana gana $15,000 al mes ($500 diarios), entró el 1 de marzo de 2022 y renuncia el 15 de octubre de 2026. Le deben 15 días de salario: $7,500. Trabajó 288 días de 2026, así que su aguinaldo proporcional es 15 × 288 ÷ 365 = 11.84 días, $5,917.81. Cumplió 4 años en marzo; en su quinto año le tocarían 20 días de vacaciones, y han pasado 228 días desde su aniversario: 20 × 228 ÷ 365 = 12.49 días, $6,246.58, con una prima vacacional de $1,561.64. Su finiquito bruto es de $21,226.03. Como renunció con menos de 15 años, no le corresponde prima de antigüedad."
+      },
+      {
+        "title": "Cuánto paga de ISR tu finiquito",
+        "body": "No todo el finiquito paga impuestos. El artículo 93 de la Ley del ISR exenta el aguinaldo hasta 30 UMA ($3,519.30 en 2026), la prima vacacional hasta 15 UMA ($1,759.65) y las indemnizaciones y la prima de antigüedad hasta 90 UMA por cada año de servicio. Lo que excede esos límites se grava, y el patrón debe retener el ISR. Por eso la calculadora muestra montos brutos e indica cuánto de cada concepto queda exento."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto me toca de finiquito si renuncio?",
+        "answer": "Si renuncias te corresponde el salario pendiente, el aguinaldo proporcional, las vacaciones que no disfrutaste y su prima vacacional. La prima de antigüedad solo se paga por renuncia si tienes 15 años o más en la empresa. No hay indemnización de tres meses, porque esa solo procede por despido injustificado."
+      },
+      {
+        "question": "¿Cuánto tiempo tiene la empresa para pagarme el finiquito?",
+        "answer": "La Ley Federal del Trabajo no fija un plazo exacto, pero la práctica y los criterios de los tribunales indican que debe pagarse al terminar la relación laboral, normalmente el último día o en la siguiente fecha de pago. Si la empresa no te paga, puedes acudir a la Profedet o al Centro de Conciliación de tu estado."
+      },
+      {
+        "question": "¿Qué pasa si me despiden sin causa justificada?",
+        "answer": "Además del finiquito, tienes derecho a una indemnización de tres meses de salario integrado (art. 48 LFT) y a la prima de antigüedad de 12 días por año, sin importar tu antigüedad. Si demandas la reinstalación y el patrón se niega, se añaden 20 días de salario por año de servicio (art. 50)."
+      },
+      {
+        "question": "¿Debo firmar el finiquito si no estoy de acuerdo con la cantidad?",
+        "answer": "No estás obligado a firmar. Revisa cada concepto con esta calculadora y, si hay diferencias, pide la corrección por escrito o acude a la Profedet, que asesora de forma gratuita. Una vez firmado ante el Centro de Conciliación, es más difícil reclamar después."
+      },
+      {
+        "question": "¿El finiquito se calcula con el salario integrado?",
+        "answer": "El finiquito se calcula con tu salario diario ordinario. El salario diario integrado, que incluye la parte proporcional de aguinaldo y prima vacacional, se usa para la indemnización por despido injustificado. La prima de antigüedad usa tu salario con un tope del doble del salario mínimo."
+      }
+    ],
+    "relatedTools": [
+      "calcular-aguinaldo",
+      "calcular-prima-vacacional",
+      "calcular-vacaciones",
+      "calcular-ptu",
+      "calcular-salario-diario-integrado",
+      "calculadora-nomina",
+      "calcular-subsidio-empleo",
+      "calcular-cuota-imss"
+    ],
+    "image": {
+      "file": "calcular-finiquito-por-renuncia-o-despido-mexico.webp",
+      "alt": "Calculadora de finiquito México"
+    }
+  },
+  {
+    "slug": "calculadora-4x1000",
+    "name": "Calculadora 4x1000 Colombia (GMF)",
+    "shortName": "Calcular 4x1000",
+    "category": "calculadoras",
+    "metaTitle": "Calcular 4x1000 en Colombia 2026 (GMF)",
+    "metaDescription": "Calcula el 4x1000 de tus retiros y transferencias en Colombia: gravamen del 0.4%, cupo exento de 350 UVT en 2026 y lo que sale de tu cuenta. Gratis.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "El 4x1000, o Gravamen a los Movimientos Financieros (GMF), es el impuesto que cobra tu banco por cada retiro, pago o transferencia que haces en Colombia: 4 pesos por cada 1,000. Esta calculadora te dice cuánto pagarás por un movimiento y cuánto saldrá en total de tu cuenta. Si tienes una cuenta marcada como exenta, aplica el cupo de 350 UVT al mes, que en 2026 equivale a $18,330,900, y te muestra cuánto cupo te queda.",
+    "howToUse": [
+      "Escribe el valor del retiro, pago o transferencia",
+      "Marca la casilla si la cuenta está registrada como exenta del 4x1000",
+      "Si es exenta, indica cuánto has retirado ya este mes desde esa cuenta",
+      "Pulsa «Calcular 4x1000» y revisa el impuesto y el total debitado"
+    ],
+    "benefits": [
+      "Aplica la tarifa oficial del 4 por mil del Estatuto Tributario",
+      "Calcula el cupo exento de 350 UVT con la UVT 2026",
+      "Te dice cuánto cupo exento te queda en el mes",
+      "Muestra el total que sale de tu cuenta, impuesto incluido",
+      "Gratis, sin registro y calculado en tu navegador"
+    ],
+    "contentSections": [
+      {
+        "title": "Qué es el 4x1000 y cuándo se cobra",
+        "body": "El Gravamen a los Movimientos Financieros está regulado en los artículos 871 y siguientes del Estatuto Tributario. Se cobra a una tarifa del 4 por mil (0.4%) sobre retiros en efectivo, transferencias, pagos con cheque y débitos de cuentas de ahorro y corrientes. El banco lo descuenta automáticamente y lo traslada a la DIAN. Las transferencias entre cuentas del mismo titular en la misma entidad suelen estar exentas, igual que otros casos del artículo 879."
+      },
+      {
+        "title": "La cuenta exenta: 350 UVT al mes",
+        "body": "El artículo 879, numeral 1, exime del 4x1000 los retiros de una sola cuenta de ahorros o corriente por persona, hasta 350 UVT al mes. Con la UVT 2026 de $52,374, el cupo exento es de $18,330,900 mensuales. Debes pedirle a tu banco que marque la cuenta como exenta; si tienes varias cuentas, solo una puede tener el beneficio. Lo que retires por encima del cupo paga el 4x1000 normal."
+      },
+      {
+        "title": "Ejemplo con números reales",
+        "body": "Si transfieres $2,000,000 desde una cuenta sin exención, el 4x1000 es $2,000,000 × 0.004 = $8,000, así que de tu cuenta salen $2,008,000. Si la cuenta es exenta y este mes ya retiraste $17,000,000, te quedan $1,330,900 de cupo: esa parte no paga y los $669,100 restantes pagan $2,676. Para otros cálculos de nómina en Colombia puedes usar la calculadora de [retención en la fuente](/retencion-en-la-fuente) o la de [liquidación laboral](/calculadora-liquidacion-laboral-colombia)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto es el 4x1000 de 1 millón de pesos?",
+        "answer": "$4,000. Se multiplica el valor del movimiento por 0.004. Si la cuenta es exenta y aún tienes cupo, no pagas nada."
+      },
+      {
+        "question": "¿Cuál es el tope exento del 4x1000 en 2026?",
+        "answer": "350 UVT al mes. Con la UVT 2026 de $52,374, son $18,330,900 mensuales de retiros exentos en la cuenta marcada."
+      },
+      {
+        "question": "¿Cómo marco una cuenta como exenta del 4x1000?",
+        "answer": "Lo solicitas directamente a tu banco, en la app, la página web o una oficina. Solo puedes tener una cuenta exenta en todo el sistema financiero."
+      },
+      {
+        "question": "¿El 4x1000 se puede descontar en la declaración de renta?",
+        "answer": "Sí, el 50% del GMF efectivamente pagado y certificado por el banco es deducible en la declaración de renta, según el artículo 115 del Estatuto Tributario."
+      }
+    ],
+    "relatedTools": [
+      "retencion-en-la-fuente",
+      "calculadora-cdt",
+      "calculadora-liquidacion-laboral-colombia",
+      "calculadora-seguridad-social-colombia",
+      "prima-de-servicios",
+      "calcular-cesantias",
+      "intereses-cesantias",
+      "vacaciones-colombia"
+    ],
+    "image": {
+      "file": "calcular-gravamen-4x1000-colombia.webp",
+      "alt": "Calculadora 4x1000"
+    }
+  },
+  {
+    "slug": "calculadora-de-notas",
+    "name": "Calculadora de Notas Colombia (0 a 5)",
+    "shortName": "Calculadora de notas",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora de Notas Colombia (0.0 a 5.0)",
+    "metaDescription": "Calcula tu nota definitiva por cortes y porcentajes en escala de 0 a 5, cuánto necesitas para pasar con 3.0 y tu promedio ponderado por créditos. Gratis.",
+    "webApp": true,
+    "appCategory": "EducationalApplication",
+    "intro": "Con esta calculadora de notas sabes al instante cómo vas en una materia con la escala colombiana de 0.0 a 5.0. Escribe la nota de cada corte, parcial o taller con su porcentaje y obtén tu nota definitiva, o la nota que necesitas en lo que falta para pasar con 3.0. En la pestaña de créditos calculas el promedio ponderado del semestre, el que aparece en tu historial académico. Viene con la plantilla clásica de tres cortes (30%, 30% y 40%), y puedes adaptarla a cualquier materia.",
+    "howToUse": [
+      "Ajusta los cortes o evaluaciones y sus porcentajes según el programa de tu materia",
+      "Escribe las notas que ya tienes, de 0.0 a 5.0, y deja en blanco las que faltan",
+      "Lee tu nota definitiva o la nota mínima que necesitas para pasar",
+      "En «Promedio por créditos», escribe la definitiva y los créditos de cada materia"
+    ],
+    "benefits": [
+      "Escala colombiana de 0.0 a 5.0 con aprobación en 3.0",
+      "Plantilla de tres cortes: 30%, 30% y 40%",
+      "Calcula la nota que necesitas en el último corte",
+      "Promedio ponderado del semestre por créditos",
+      "Evaluaciones y porcentajes editables",
+      "Gratis y sin registro"
+    ],
+    "contentSections": [
+      {
+        "title": "Cómo se calcula la nota definitiva",
+        "body": "En la mayoría de universidades y colegios de Colombia las notas van de 0.0 a 5.0 y se aprueba con 3.0. La nota definitiva de una materia es un promedio ponderado: multiplicas la nota de cada corte por su porcentaje y sumas los resultados. Con la plantilla de tres cortes de 30%, 30% y 40%, una materia con 3.5, 2.8 y 3.2 da 3.5 × 0.3 + 2.8 × 0.3 + 3.2 × 0.4 = 3.17. Muchas instituciones redondean la definitiva a una cifra decimal, así que quedaría en 3.2; el reglamento estudiantil de cada universidad define la regla exacta."
+      },
+      {
+        "title": "Cuánto necesito en el último corte para pasar",
+        "body": "Si sacaste 2.5 en el primer corte y 3.0 en el segundo, llevas 2.5 × 0.3 + 3.0 × 0.3 = 1.65 puntos. Para llegar a 3.0 te faltan 1.35 puntos, que en un corte del 40% equivalen a 1.35 ÷ 0.4 = 3.38. Necesitas al menos un 3.4 en el tercer corte para llegar a 3.0 sin depender del redondeo; si tu universidad redondea la definitiva a un decimal, con 3.3 llegarías a 2.97, que sube a 3.0. La calculadora usa este segundo criterio. Si la cuenta da más de 5.0, ya no es posible pasar la materia con ese corte. Si estudias en otro país, la calculadora de [nota necesaria](/calculadora-nota-necesaria) admite escalas de 0 a 10, de 0 a 20 y de 1 a 7."
+      },
+      {
+        "title": "Promedio ponderado del semestre",
+        "body": "El promedio del semestre pondera cada definitiva por los créditos de la materia: multiplica cada nota por sus créditos, suma los resultados y divide entre el total de créditos. Una materia de 4 créditos pesa el doble que una de 2. Ese promedio es el que suele usarse para becas, matrícula de honor o para mantener un crédito educativo. Para promedios sin créditos usa la [calculadora de promedio ponderado](/calculadora-promedio-ponderado)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Con cuánto se pasa una materia en Colombia?",
+        "answer": "En la escala más común, de 0.0 a 5.0, se aprueba con 3.0. Algunos posgrados exigen 3.5; revisa el reglamento de tu institución."
+      },
+      {
+        "question": "¿Cómo saco la nota definitiva con porcentajes?",
+        "answer": "Multiplica cada nota por su porcentaje expresado en decimal (30% = 0.3) y suma los resultados. Los porcentajes deben sumar 100%."
+      },
+      {
+        "question": "¿Un 2.95 se redondea a 3.0?",
+        "answer": "En muchas universidades sí, porque la definitiva se aproxima a una cifra decimal. No todas lo hacen igual, así que confirma la regla en tu reglamento estudiantil."
+      },
+      {
+        "question": "¿Cómo calculo el promedio del semestre?",
+        "answer": "Multiplica la definitiva de cada materia por sus créditos, suma esos resultados y divide entre el total de créditos del semestre."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-promedio-ponderado",
+      "calculadora-nota-necesaria",
+      "calculadora-promedio",
+      "tablas-de-multiplicar",
+      "nota-de-corte",
+      "puntaje-paes",
+      "calculadora-upao"
+    ],
+    "image": {
+      "file": "calcular-nota-definitiva-por-cortes-colombia.webp",
+      "alt": "Calculadora de notas"
+    }
+  },
+  {
+    "slug": "calculadora-empleados-de-comercio",
+    "name": "Calculadora de Sueldo Empleados de Comercio",
+    "shortName": "Empleados de comercio",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora Empleados de Comercio 2026",
+    "metaDescription": "Calcula tu sueldo de empleado de comercio (CCT 130/75): básico por categoría, antigüedad, presentismo, suma no remunerativa y descuentos. Gratis.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Si trabajás bajo el convenio de Empleados de Comercio (CCT 130/75), esta calculadora te muestra cuánto vas a cobrar de bolsillo. Elegí tu categoría, cargá tus años de antigüedad y tus horas semanales, y obtené el bruto, cada descuento y el neto. Usa la escala de FAECyS vigente desde septiembre de 2026 y la suma no remunerativa de $120.000, y podés modificar los montos cuando salga una nueva paritaria. Es útil para controlar tu recibo o para estimar el sueldo de un puesto antes de aceptarlo.",
+    "howToUse": [
+      "Elegí tu categoría: el básico se completa solo con la escala vigente",
+      "Cargá tus años de antigüedad y las horas semanales que trabajás",
+      "Revisá la suma no remunerativa y marcá si cobrás presentismo",
+      "Si estás afiliado al sindicato, marcá la casilla y revisá el porcentaje; después tocá «Calcular sueldo»"
+    ],
+    "benefits": [
+      "Escala de las 21 categorías del CCT 130/75",
+      "Antigüedad del 1% por año y presentismo de 8,33%",
+      "Calcula jornadas parciales en proporción a 48 horas",
+      "Separa lo remunerativo de lo no remunerativo",
+      "Detalla cada descuento: jubilación, PAMI, obra social y FAECyS",
+      "Montos editables para cada nueva paritaria"
+    ],
+    "contentSections": [
+      {
+        "title": "Cómo se arma el sueldo de un empleado de comercio",
+        "body": "El sueldo de comercio parte del básico de tu categoría para una jornada completa de 48 horas semanales. Sobre ese básico se suma un 1% por cada año de antigüedad y, si no tuviste más de una falta injustificada en el mes, el presentismo, que equivale a un doceavo (8,33%) de lo remunerativo. A eso se agrega la suma fija no remunerativa acordada en paritarias, que en septiembre de 2026 es de $120.000. Si trabajás menos horas, el básico y la suma fija se cobran en proporción."
+      },
+      {
+        "title": "Qué descuentos tiene el recibo",
+        "body": "Sobre lo remunerativo se descuenta un 11% de jubilación, un 3% de la Ley 19.032 (PAMI) y un 3% de obra social, es decir, un 17%. Sobre la suma no remunerativa no hay aportes jubilatorios, pero sí se descuenta el 3% de obra social (OSECAC). Además, el artículo 100 del convenio fija un aporte del 0,5% para FAECyS, y si estás afiliado se descuenta la cuota sindical. Para otros convenios o para calcular el neto de cualquier sueldo, usá la [calculadora de sueldo neto](/calculadora-sueldo-neto-argentina)."
+      },
+      {
+        "title": "Ejemplo con la escala de septiembre de 2026",
+        "body": "Una persona en la categoría Administrativo A, con jornada completa y 3 años de antigüedad, tiene un básico de $1.196.632. La antigüedad suma $35.898,96 y el presentismo $102.710,91, con lo que el total remunerativo es de $1.335.241,87. Con la suma no remunerativa de $120.000, el bruto llega a $1.455.241,87. Los descuentos suman $237.867,33, así que el neto estimado es de $1.217.374,55, sin cuota sindical. Para el medio aguinaldo de junio y diciembre podés usar la calculadora de [SAC](/calcular-sac-argentina)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cobra un empleado de comercio en 2026?",
+        "answer": "Con la escala vigente desde septiembre de 2026, los básicos de jornada completa van de $1.183.900 (Maestranza A) a $1.253.514 (Administrativo F y Vendedor D), más la suma no remunerativa de $120.000, la antigüedad y el presentismo."
+      },
+      {
+        "question": "¿Cuánto es el presentismo en comercio?",
+        "answer": "Es un doceavo de lo remunerativo del mes, es decir, un 8,33%. Se pierde si tenés más de una falta injustificada en el mes."
+      },
+      {
+        "question": "¿Cómo se calcula la antigüedad en comercio?",
+        "answer": "Se suma un 1% del básico de tu categoría por cada año de antigüedad en la empresa."
+      },
+      {
+        "question": "¿La suma no remunerativa tiene descuentos?",
+        "answer": "No tiene aportes jubilatorios, pero sí se descuentan el 3% de obra social, el aporte a FAECyS y, si estás afiliado, la cuota sindical."
+      }
+    ],
+    "relatedTools": [
+      "calcular-indemnizacion-despido",
+      "calcular-sac-argentina",
+      "calculadora-sueldo-neto-argentina",
+      "preaviso-laboral",
+      "monotributo",
+      "dolar-blue"
+    ],
+    "image": {
+      "file": "sueldo-empleados-de-comercio-escala-cct-130-75.webp",
+      "alt": "Calculadora empleados de comercio"
+    }
+  },
+  {
+    "slug": "calculadora-registral",
+    "name": "Calculadora Registral SUNARP",
+    "shortName": "Calculadora registral",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora Registral SUNARP 2026",
+    "metaDescription": "Calcula los derechos registrales de SUNARP para inscribir una compraventa, hipoteca o empresa en 2026: calificación e inscripción con la UIT. Gratis.",
+    "webApp": true,
+    "appCategory": "FinanceApplication",
+    "intro": "Antes de inscribir una propiedad o una empresa en los Registros Públicos del Perú conviene saber cuánto vas a pagar. Esta calculadora registral estima los derechos de SUNARP para una compraventa de inmueble, una hipoteca o la constitución de una sociedad, separando el derecho de calificación, que se calcula con la UIT 2026 de S/ 5,500, y el derecho de inscripción, que depende del valor del acto. Las tasas vienen precargadas y puedes ajustarlas si el arancel cambia.",
+    "howToUse": [
+      "Elige el acto que vas a inscribir: compraventa, hipoteca, constitución de empresa u otro",
+      "Escribe el valor del acto en soles: precio de venta, monto de la hipoteca o capital social",
+      "Revisa las tasas precargadas y ajústalas si tu caso usa otras",
+      "Pulsa «Calcular derechos registrales» y revisa el desglose"
+    ],
+    "benefits": [
+      "Usa la UIT 2026 de S/ 5,500",
+      "Separa el derecho de calificación del de inscripción",
+      "Incluye compraventa, hipoteca y constitución de empresa",
+      "Tasas editables para cualquier otro acto",
+      "Gratis y sin registro"
+    ],
+    "contentSections": [
+      {
+        "title": "Qué son los derechos registrales",
+        "body": "Son las tasas que cobra la Superintendencia Nacional de los Registros Públicos (SUNARP) por inscribir un acto en sus registros. Se pagan en dos partes: el derecho de calificación, un porcentaje de la Unidad Impositiva Tributaria que cubre la revisión del título por el registrador, y el derecho de inscripción, que se calcula como un tanto por mil del valor del acto. Para el arancel de 2026 se usa la UIT de S/ 5,500. Si necesitas convertir la UIT a soles para otros trámites, usa la calculadora de [UIT a soles](/uit-a-soles)."
+      },
+      {
+        "title": "Ejemplo: inscribir una compraventa de S/ 250,000",
+        "body": "El derecho de calificación es el 0.81% de la UIT: S/ 5,500 × 0.81% = S/ 44.55. El derecho de inscripción es el 3 por mil del precio: S/ 250,000 × 3 ÷ 1,000 = S/ 750. En total pagarías unos S/ 794.55 a SUNARP. A eso se suman los gastos notariales de la escritura y, para el comprador, el impuesto de alcabala que cobra la municipalidad."
+      },
+      {
+        "title": "Por qué el monto es referencial",
+        "body": "El monto exacto lo liquida el registrador al calificar tu título, y puede pedir un mayor derecho si el acto incluye varias partidas o actos adicionales. Las tasas se fijan en el arancel de SUNARP y pueden cambiar por resolución, así que antes de pagar compáralas con la calculadora oficial de sunarp.gob.pe. Si el precio de tu inmueble está en dólares, conviértelo primero a soles con el [conversor de moneda](/convertidor-moneda)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta inscribir una propiedad en SUNARP?",
+        "answer": "Se paga un derecho de calificación de 0.81% de la UIT (S/ 44.55 en 2026) y un derecho de inscripción de alrededor del 3 por mil del valor del inmueble. Para una propiedad de S/ 250,000 son unos S/ 794.55."
+      },
+      {
+        "question": "¿Qué es el derecho de calificación?",
+        "answer": "Es la tasa que cubre la revisión que hace el registrador de tu título y sus documentos. Se calcula como un porcentaje de la UIT y se paga al presentar el título."
+      },
+      {
+        "question": "¿Cuál es la UIT 2026?",
+        "answer": "S/ 5,500, fijada por el Ministerio de Economía y Finanzas. Es la base para calcular el derecho de calificación y otras tasas."
+      },
+      {
+        "question": "¿Los derechos registrales incluyen la notaría?",
+        "answer": "No. Los honorarios notariales por la escritura pública y el impuesto de alcabala se pagan aparte."
+      }
+    ],
+    "relatedTools": [
+      "calcular-detraccion",
+      "renta-quinta-categoria",
+      "calcular-plusvalia",
+      "impuesto-sucesiones",
+      "calculadora-de-igv",
+      "uit-a-soles",
+      "calculadora-alquiler-argentina",
+      "cuanto-cuesta-reformar"
+    ],
+    "image": {
+      "file": "calcular-derechos-registrales-sunarp.webp",
+      "alt": "Calculadora registral SUNARP"
+    }
+  },
+  {
+    "slug": "calculadora-upao",
+    "name": "Calculadora UPAO de Notas y Promedio",
+    "shortName": "Calculadora UPAO",
+    "category": "calculadoras",
+    "metaTitle": "Calculadora UPAO: nota del curso y promedio",
+    "metaDescription": "Calculadora UPAO gratis: saca la nota final de tu curso con EP1, EVP, EP2 y EVF, cuánto necesitas para aprobar con 11 y tu promedio ponderado por créditos.",
+    "webApp": true,
+    "appCategory": "EducationalApplication",
+    "intro": "Esta calculadora UPAO te ayuda a saber cómo vas en cada curso de la Universidad Privada Antenor Orrego. Escribe las notas que ya tienes en tus evaluaciones de proceso, el parcial y el final, y verás tu nota final redondeada o la nota que necesitas en lo que falta para aprobar con 11. En la segunda pestaña calculas tu promedio ponderado del ciclo según los créditos de cada curso. Los porcentajes vienen con la plantilla más habitual, pero puedes cambiarlos según tu sílabo.",
+    "howToUse": [
+      "Revisa en tu sílabo los porcentajes de cada evaluación y ajústalos si son distintos",
+      "Escribe las notas que ya tienes, de 0 a 20, y deja en blanco las pendientes",
+      "Lee tu nota final o el promedio que necesitas en las evaluaciones que faltan",
+      "En «Promedio por créditos», escribe la nota final y los créditos de cada curso del ciclo"
+    ],
+    "benefits": [
+      "Plantilla habitual de la UPAO: EP1, EVP, EP2 y EVF",
+      "Te dice la nota mínima que necesitas para aprobar",
+      "Aplica el redondeo: 10.5 sube a 11",
+      "Calcula el promedio ponderado del ciclo por créditos",
+      "Porcentajes y evaluaciones editables para cualquier curso",
+      "Gratis y sin registro"
+    ],
+    "contentSections": [
+      {
+        "title": "Cómo se calcula la nota de un curso en la UPAO",
+        "body": "En la UPAO las notas van de 0 a 20 y la nota final de un curso es un promedio ponderado: cada evaluación se multiplica por su porcentaje y se suman los resultados. Una plantilla frecuente es EP1 (evaluación de proceso 1) 20%, EVP (evaluación parcial) 30%, EP2 (evaluación de proceso 2) 20% y EVF (evaluación final) 30%, pero cada docente fija los pesos en el sílabo, así que conviene revisarlo. La nota aprobatoria es 11 y las fracciones de 0.5 o más se redondean al entero superior: un 10.5 se convierte en 11 y apruebas; un 10.4 queda en 10."
+      },
+      {
+        "title": "Ejemplo con notas reales",
+        "body": "Supón que sacaste 12 en la EP1, 9 en el parcial y 13 en la EP2. Llevas 12 × 0.20 + 9 × 0.30 + 13 × 0.20 = 7.7 puntos, con el 70% del curso evaluado. Para llegar a 10.5 te faltan 2.8 puntos, que en un final que vale 30% equivalen a una nota de 2.8 ÷ 0.30 = 9.33. Con un 10 en la EVF terminarías con 10.7, que se redondea a 11. Si tu escala de referencia es la de otra universidad, prueba la calculadora de [nota necesaria](/calculadora-nota-necesaria), que admite varias escalas."
+      },
+      {
+        "title": "Promedio ponderado por créditos",
+        "body": "El promedio ponderado del ciclo multiplica la nota final de cada curso por sus créditos, suma los resultados y los divide entre el total de créditos. Un curso de 5 créditos pesa más que uno de 2. Por ejemplo, con 14 en un curso de 4 créditos y 11 en uno de 3, tu promedio es (56 + 33) ÷ 7 = 12.71. Si quieres el promedio simple de varias notas, usa la [calculadora de promedio](/calculadora-promedio) o la de [promedio ponderado](/calculadora-promedio-ponderado)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Con cuánto se aprueba en la UPAO?",
+        "answer": "Con 11 sobre 20. Como las fracciones de 0.5 o más se redondean hacia arriba, un promedio de 10.5 ya se convierte en 11 y apruebas."
+      },
+      {
+        "question": "¿Cuánto valen el parcial y el final en la UPAO?",
+        "answer": "Depende del sílabo de cada curso. La plantilla más frecuente da 30% al parcial y 30% al final, y 20% a cada evaluación de proceso, pero tu docente puede usar otros pesos."
+      },
+      {
+        "question": "¿Cómo calculo cuánto necesito en el final?",
+        "answer": "Resta a 10.5 los puntos que ya llevas y divide el resultado entre el peso del final. La calculadora lo hace sola si dejas en blanco la nota del final."
+      },
+      {
+        "question": "¿Qué es el promedio ponderado en la UPAO?",
+        "answer": "Es el promedio de tus notas finales de un ciclo, donde cada curso pesa según sus créditos. Se usa, por ejemplo, para el orden de mérito y para algunos beneficios académicos."
+      }
+    ],
+    "relatedTools": [
+      "calculadora-promedio-ponderado",
+      "calculadora-nota-necesaria",
+      "calculadora-promedio",
+      "tablas-de-multiplicar",
+      "nota-de-corte",
+      "puntaje-paes",
+      "calculadora-de-notas"
+    ],
+    "image": {
+      "file": "calcular-promedio-notas-upao.webp",
+      "alt": "Calculadora UPAO"
+    }
+  },
+  {
+    "slug": "convertidor-libras-a-newtons",
+    "name": "Convertidor de Libras a Newtons (lb a N)",
+    "shortName": "Libras a newtons",
+    "category": "convertidores",
+    "metaTitle": "Libras a Newtons (lb en N): convertidor",
+    "metaDescription": "Convierte libras-fuerza a newtons y newtons a libras al instante: 1 lbf = 4.448 N. Con tabla de equivalencias, kilonewtons y fórmula explicada. Gratis.",
+    "webApp": true,
+    "appCategory": "UtilitiesApplication",
+    "intro": "¿Cuántos newtons son 10 libras? Si una ficha técnica, un dinamómetro o un ejercicio de física te da una fuerza en libras (lb o lbf) y la necesitas en newtons (N), este convertidor hace la cuenta exacta al instante. También funciona al revés, de newtons a libras, y en kilonewtons para cargas grandes. Debajo tienes la fórmula, una tabla de equivalencias y un ejemplo resuelto para que entiendas de dónde sale cada número.",
+    "howToUse": [
+      "Escribe la cantidad de libras-fuerza que quieres convertir",
+      "Lee el resultado en newtons; se actualiza mientras escribes",
+      "Pulsa ⇄ si quieres convertir de newtons a libras",
+      "Elige la opción de kilonewtons en el selector para cargas grandes"
+    ],
+    "benefits": [
+      "Usa el factor exacto: 1 lbf = 4.4482216152605 N",
+      "Convierte en los dos sentidos: lb en N y newtons a lbs",
+      "Incluye kilonewtons para grúas, anclajes y estructuras",
+      "Muestra también la masa equivalente en kilogramos",
+      "Tabla de equivalencias rápidas incluida",
+      "Gratis y sin registro"
+    ],
+    "contentSections": [
+      {
+        "title": "Qué es una libra-fuerza y qué es un newton",
+        "body": "El newton (N) es la unidad de fuerza del Sistema Internacional: la fuerza necesaria para acelerar 1 kg a 1 m/s². La libra-fuerza (lbf), muy usada en Estados Unidos, es el peso de una libra de masa (0.45359237 kg) bajo la gravedad estándar de 9.80665 m/s². En el uso cotidiano se dice simplemente «libras», aunque en física conviene distinguir entre la libra de masa y la libra de fuerza. Si lo que tienes es una masa en libras y la quieres en kilos, usa nuestro convertidor de [libras a kilos](/libras-a-kilos)."
+      },
+      {
+        "title": "Fórmula para convertir lb en N",
+        "body": "Como 1 lbf = 0.45359237 kg × 9.80665 m/s², el factor exacto es 4.4482216152605. Para pasar de libras a newtons multiplica por 4.448; para pasar de newtons a libras divide entre 4.448 o multiplica por 0.2248. Por ejemplo, 1 N son 0.2248 lbf y 1 kN son unas 224.81 lbf. Si trabajas con otras magnitudes, el [convertidor de unidades](/convertidor-unidades) incluye longitud, peso, volumen y temperatura."
+      },
+      {
+        "title": "Ejemplo resuelto: 150 libras en newtons",
+        "body": "Una persona de 150 libras ejerce sobre el suelo una fuerza de 150 × 4.4482 = 667.23 N. Una llave de torque que marca 50 lbf de fuerza en el mango equivale a 222.41 N. Y un cable con una resistencia de 2,000 lbf soporta 8,896.44 N, es decir, 8.9 kN. En todos los casos basta multiplicar las libras por 4.4482."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Cuántos newtons tiene una libra?",
+        "answer": "Una libra-fuerza equivale a 4.4482216152605 newtons exactos. Para cuentas rápidas puedes redondear a 4.45 N."
+      },
+      {
+        "question": "¿Cómo convierto newtons a libras?",
+        "answer": "Divide los newtons entre 4.4482 o multiplícalos por 0.2248. Por ejemplo, 100 N son 22.48 lbf."
+      },
+      {
+        "question": "¿Es lo mismo lb que lbf?",
+        "answer": "No exactamente: lb es la libra de masa y lbf la libra-fuerza, que es el peso de una libra de masa en la Tierra. En la práctica, cuando una ficha técnica de fuerza dice «lb», se refiere a lbf."
+      },
+      {
+        "question": "¿Cuántas libras son 1 kN?",
+        "answer": "Un kilonewton equivale a unas 224.81 libras-fuerza. Es la unidad habitual en estructuras, grúas y anclajes."
+      }
+    ],
+    "relatedTools": [
+      "convertidor-unidades",
+      "celsius-a-fahrenheit",
+      "bar-a-psi",
+      "cm-a-pulgadas",
+      "arroba-a-kilos",
+      "calculadora-de-escalas",
+      "kilos-a-libras",
+      "libras-a-kilos"
+    ],
+    "image": {
+      "file": "convertir-libras-fuerza-a-newtons.webp",
+      "alt": "Libras a newtons"
     }
   }
 ]

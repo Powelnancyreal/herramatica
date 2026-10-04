@@ -3,8 +3,9 @@
 import { useMemo, useState } from 'react'
 
 const TASAS = [
-  { id: '16', label: '16%', sub: 'General', valor: 16 },
-  { id: '8', label: '8%', sub: 'Frontera', valor: 8 },
+  { id: '16', label: '16%', sub: 'México general', valor: 16 },
+  { id: '8', label: '8%', sub: 'México frontera', valor: 8 },
+  { id: '19', label: '19%', sub: 'Chile', valor: 19 },
   { id: '0', label: '0%', sub: 'Tasa cero', valor: 0 },
   { id: 'custom', label: 'Otra', sub: 'Personalizada', valor: null },
 ]
@@ -105,7 +106,7 @@ export default function CalcularIVA() {
       {/* Tasa */}
       <div>
         <label className={labelClass}>Tasa de IVA</label>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+        <div className="grid grid-cols-3 sm:grid-cols-5 gap-2">
           {TASAS.map((t) => (
             <button
               key={t.id}

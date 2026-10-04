@@ -18,7 +18,7 @@
       "herramientas": [
         "calculadora-isr",
         "calcular-aguinaldo",
-        "calculadora-finiquito",
+        "calculadora-finiquito-mexico",
         "calcular-rfc",
         "calcular-curp",
         "calcular-prima-vacacional",
@@ -45,6 +45,7 @@
       "id": "espana",
       "nombre": "España",
       "herramientas": [
+        "calculadora-finiquito",
         "calculadora-irpf",
         "calcular-paro",
         "cuota-autonomo",
@@ -73,7 +74,8 @@
         "calculadora-alquiler-argentina",
         "calculadora-inflacion",
         "calculadora-plazo-fijo",
-        "calcular-cuil"
+        "calcular-cuil",
+        "calculadora-empleados-de-comercio"
       ],
       "codigo": "AR"
     },
@@ -105,7 +107,9 @@
         "retencion-en-la-fuente",
         "calculadora-seguridad-social-colombia",
         "calculadora-cdt",
-        "calcular-nit"
+        "calcular-nit",
+        "calculadora-4x1000",
+        "calculadora-de-notas"
       ],
       "codigo": "CO"
     },
@@ -120,7 +124,9 @@
         "afp-vs-onp",
         "uit-a-soles",
         "calculadora-de-igv",
-        "calcular-detraccion"
+        "calcular-detraccion",
+        "calculadora-upao",
+        "calculadora-registral"
       ],
       "codigo": "PE"
     },

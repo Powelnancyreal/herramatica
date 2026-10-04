@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import toolsData from '@/data/tools.json'
 import categoriesData from '@/data/categories.json'
+import { todosLosArticulos } from '@/lib/blog'
 
 const SITE_URL = 'https://herramatica.com'
 
@@ -46,5 +47,24 @@ export default function sitemap() {
     priority: 0.3,
   }))
 
-  return [homeRoute, ...categoryRoutes, ...toolRoutes, ...legalRoutes]
+  // Blog: la fecha de cada artículo es la de su última actualización real, no la de compilación.
+  const articulos = todosLosArticulos()
+  const blogRoutes = articulos.length
+    ? [
+        {
+          url: `${SITE_URL}/blog`,
+          lastModified: new Date(articulos.map((a) => a.actualizado).sort().at(-1)),
+          changeFrequency: 'weekly',
+          priority: 0.7,
+        },
+        ...articulos.map((a) => ({
+          url: `${SITE_URL}/blog/${a.slug}`,
+          lastModified: new Date(a.actualizado),
+          changeFrequency: 'monthly',
+          priority: 0.7,
+        })),
+      ]
+    : []
+
+  return [homeRoute, ...categoryRoutes, ...toolRoutes, ...blogRoutes, ...legalRoutes]
 }

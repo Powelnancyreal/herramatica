@@ -20,3 +20,29 @@
     overflow: hidden;
   }
 }
+
+/* Cuerpo de los artículos del blog (HTML generado desde Markdown): tipografía editorial. */
+@layer components {
+  .articulo {
+    @apply text-stone-800 text-[1.0625rem] sm:text-lg leading-relaxed;
+  }
+  .articulo > * + * { @apply mt-5; }
+  .articulo h2 { @apply font-serif text-2xl sm:text-3xl font-bold text-stone-900 mt-12 mb-4 scroll-mt-24 leading-snug; }
+  .articulo h3 { @apply font-sans text-xl font-bold text-stone-900 mt-8 mb-3 scroll-mt-24; }
+  .articulo p { @apply my-5; }
+  .articulo a { @apply text-purple-700 font-semibold underline decoration-purple-300 underline-offset-2 hover:decoration-purple-700; }
+  .articulo strong { @apply font-bold text-stone-900; }
+  .articulo ul { @apply list-disc pl-6 space-y-2 my-5; }
+  .articulo ol { @apply list-decimal pl-6 space-y-2 my-5; }
+  .articulo li::marker { @apply text-purple-600; }
+  .articulo blockquote { @apply my-8 rounded-r-xl border-l-4 border-purple-600 bg-purple-50 px-5 py-4 text-stone-800 not-italic; }
+  .articulo blockquote p { @apply my-0; }
+  .articulo .tabla { @apply my-8 overflow-x-auto rounded-xl border border-stone-200; }
+  .articulo table { @apply w-full text-base border-collapse; }
+  .articulo th { @apply bg-stone-100 text-left font-bold text-stone-900 px-4 py-3 border-b border-stone-200 whitespace-nowrap; }
+  .articulo td { @apply px-4 py-2.5 border-b border-stone-100 align-top; }
+  .articulo tbody tr:last-child td { @apply border-b-0; }
+  .articulo code { @apply bg-stone-100 rounded px-1.5 py-0.5 text-[0.9em]; }
+  .articulo hr { @apply my-10 border-stone-200; }
+  .articulo .not-articulo h3 { @apply m-0 font-semibold text-base; }
+}

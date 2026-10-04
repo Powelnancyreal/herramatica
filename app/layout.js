@@ -9,7 +9,7 @@ export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: `${SITE_NAME} | Herramientas Online Gratuitas en Español`,
-    template: `%s | ${SITE_NAME}`,
+    template: `%s`,
   },
   description: SITE_DESCRIPTION,
   manifest: '/manifest.json',

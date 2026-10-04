@@ -234,4 +234,11 @@ export const toolComponents = {
   'generador-favicon': dynamic(() => import('./generador-favicon')),
   'generador-excusas': dynamic(() => import('./generador-excusas')),
   'tallas-de-anillo': dynamic(() => import('./tallas-de-anillo')),
+  'calculadora-finiquito-mexico': dynamic(() => import('./calculadora-finiquito-mexico')),
+  'calculadora-4x1000': dynamic(() => import('./calculadora-4x1000')),
+  'calculadora-de-notas': dynamic(() => import('./calculadora-de-notas')),
+  'calculadora-empleados-de-comercio': dynamic(() => import('./calculadora-empleados-de-comercio')),
+  'calculadora-registral': dynamic(() => import('./calculadora-registral')),
+  'calculadora-upao': dynamic(() => import('./calculadora-upao')),
+  'convertidor-libras-a-newtons': dynamic(() => import('./convertidor-libras-a-newtons')),
 }

@@ -3,7 +3,7 @@ import toolsData from '@/data/tools.json'
 import { hreflang } from '@/lib/seo'
 
 export const metadata = {
-  title: 'Generadores Online Gratis | Herramatica',
+  title: 'Generadores Online Gratis',
   description:
     'Descubre todos nuestros generadores online gratuitos. Genera texto invisible, nombres, contraseñas y mucho más con un solo clic.',
   alternates: { canonical: 'https://herramatica.com/generadores', languages: hreflang('https://herramatica.com/generadores') },

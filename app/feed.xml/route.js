@@ -1,5 +1,6 @@
 import toolsData from '@/data/tools.json'
 import { SITE_NAME, SITE_URL, SITE_DESCRIPTION } from '@/lib/seo'
+import { todosLosArticulos } from '@/lib/blog'
 
 export const dynamic = 'force-static'
 
@@ -16,7 +17,21 @@ export function GET() {
   const buildDate = new Date().toUTCString()
   const feedUrl = `${SITE_URL}/feed.xml`
 
-  const items = toolsData
+  const articleItems = todosLosArticulos()
+    .map((a) => {
+      const url = `${SITE_URL}/blog/${a.slug}`
+      return `    <item>
+      <title>${escapeXml(a.titulo)}</title>
+      <link>${url}</link>
+      <guid isPermaLink="true">${url}</guid>
+      <description>${escapeXml(a.metaDescription)}</description>
+      <category>blog</category>
+      <pubDate>${new Date(`${a.publicado}T12:00:00Z`).toUTCString()}</pubDate>
+    </item>`
+    })
+    .join('\n')
+
+  const items = articleItems + (articleItems ? '\n' : '') + toolsData
     .map((tool) => {
       const url = `${SITE_URL}/${tool.slug}`
       return `    <item>

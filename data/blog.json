@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "homoclave-del-rfc",
+    "cluster": "rfc",
+    "titulo": "Qué es la homoclave del RFC y cómo saber mi RFC con homoclave",
+    "metaTitle": "Homoclave del RFC: qué es y cómo saber la tuya",
+    "metaDescription": "Qué es la homoclave del RFC, por qué tiene 3 caracteres y cómo consultar tu RFC con homoclave en el SAT paso a paso, sin pagar a gestores.",
+    "extracto": "La homoclave son los tres últimos caracteres de tu RFC. Te explicamos para qué sirve y dónde consultarla gratis.",
+    "publicado": "2026-10-04",
+    "actualizado": "2026-10-04",
+    "herramienta": { "href": "/calcular-rfc", "titulo": "Calculadora de RFC", "texto": "Obtén al instante los primeros 10 caracteres de tu RFC a partir de tu nombre y fecha de nacimiento.", "boton": "Calcular mi RFC" },
+    "faqs": [
+      { "question": "¿Cuál es la homoclave del RFC?", "answer": "Son los tres últimos caracteres del RFC. Los dos primeros los asigna el SAT a partir de tu nombre completo para distinguirte de otras personas con la misma clave base, y el tercero es un dígito verificador." },
+      { "question": "¿Cómo sé mi RFC con homoclave?", "answer": "Aparece en tu Constancia de Situación Fiscal, en tus recibos de nómina timbrados y en tus facturas. Si no tienes ninguno a mano, puedes descargar la constancia en el portal del SAT o en la app SAT Móvil con tu RFC y contraseña." },
+      { "question": "¿Puedo calcular la homoclave yo mismo?", "answer": "Existen algoritmos que intentan reproducirla, pero el único RFC válido es el que asigna el SAT. Usa una calculadora para conocer los primeros 10 caracteres y confirma la homoclave en un documento oficial antes de usarla en una factura." },
+      { "question": "¿La homoclave puede cambiar?", "answer": "No cambia mientras tus datos de nacimiento y nombre sean los mismos. Si el SAT corrige tu nombre o tu fecha de nacimiento en el registro, puede asignarte un RFC distinto; en ese caso usa siempre el de tu constancia más reciente." },
+      { "question": "¿Las personas morales también tienen homoclave?", "answer": "Sí. El RFC de una empresa tiene 12 caracteres: tres letras del nombre, seis dígitos de la fecha de constitución y los mismos tres caracteres de homoclave." }
+    ]
+  },
+  {
+    "slug": "rfc-generico",
+    "cluster": "rfc",
+    "titulo": "RFC genérico: qué es y cuándo usarlo",
+    "metaTitle": "RFC genérico: qué es y cuándo usarlo en una factura",
+    "metaDescription": "RFC genérico nacional (XAXX010101000) y extranjero (XEXX010101000): cuándo usarlos, cómo llenar el CFDI 4.0 y los errores que debes evitar.",
+    "extracto": "Las dos claves genéricas del SAT, la nacional y la extranjera, y cómo llenar bien una factura al público en general.",
+    "publicado": "2026-10-04",
+    "actualizado": "2026-10-04",
+    "herramienta": { "href": "/calcular-rfc", "titulo": "Calculadora de RFC", "texto": "Si tu cliente sí tiene RFC pero no lo recuerda, calcula sus primeros 10 caracteres en segundos.", "boton": "Ir a la calculadora de RFC" },
+    "faqs": [
+      { "question": "¿Cuál es el RFC genérico para el público en general?", "answer": "Es XAXX010101000. Se usa cuando le vendes a una persona en México que no te da su RFC, y en la factura global que agrupa las ventas al público en general de un periodo." },
+      { "question": "¿Qué RFC genérico se usa para un extranjero?", "answer": "XEXX010101000, para clientes residentes en el extranjero que no tienen RFC mexicano, por ejemplo en una exportación de servicios. En ese caso debes registrar también su país de residencia y su número de identificación fiscal." },
+      { "question": "¿Una factura con RFC genérico sirve para deducir?", "answer": "No. El uso de CFDI de estas facturas es S01, sin efectos fiscales, así que el comprador no puede deducir el gasto ni acreditar el IVA. Si tu cliente quiere deducir, necesitas su RFC real." },
+      { "question": "¿Qué régimen fiscal lleva el RFC genérico en el CFDI 4.0?", "answer": "El régimen del receptor es 616, sin obligaciones fiscales, y el código postal del receptor es el mismo que el del emisor. Con XAXX010101000 el nombre debe escribirse exactamente como PUBLICO EN GENERAL." },
+      { "question": "¿Puedo usar el RFC genérico si mi cliente no quiere darme sus datos?", "answer": "Sí, siempre que la operación sea con una persona que no requiere factura a su nombre. Lo que no debes hacer es usarlo con empresas o personas que sí piden comprobante fiscal, porque el SAT puede considerar que la factura está mal emitida." }
+    ]
+  },
+  {
+    "slug": "como-sacar-mi-rfc",
+    "cluster": "rfc",
+    "titulo": "Cómo sacar mi RFC por primera vez (guía 2026)",
+    "metaTitle": "Cómo sacar mi RFC por primera vez: guía 2026",
+    "metaDescription": "Saca tu RFC por primera vez en 2026: en línea solo con tu CURP o con cita en el SAT. Requisitos, pasos y cómo obtener tu constancia fiscal gratis.",
+    "extracto": "Los dos caminos para inscribirte en el RFC, en línea con tu CURP o en una oficina del SAT, explicados paso a paso.",
+    "publicado": "2026-10-04",
+    "actualizado": "2026-10-04",
+    "herramienta": { "href": "/calcular-rfc", "titulo": "Calculadora de RFC", "texto": "Antes de hacer el trámite, consulta cómo quedarán los primeros 10 caracteres de tu RFC.", "boton": "Calcular mi RFC" },
+    "faqs": [
+      { "question": "¿Cuánto cuesta sacar el RFC?", "answer": "Nada. La inscripción en el RFC es gratuita tanto en línea como en las oficinas del SAT. Desconfía de páginas o gestores que te cobren por un trámite que puedes hacer tú mismo." },
+      { "question": "¿Puedo sacar mi RFC solo con la CURP?", "answer": "Sí. En el portal del SAT existe la inscripción en el RFC con CURP para personas mayores de edad: capturas tu CURP, completas tus datos de domicilio y obtienes tu acuse con tu clave. No tienes que enviar documentos." },
+      { "question": "¿Qué necesito para sacar el RFC en una oficina del SAT?", "answer": "Tu CURP, una identificación oficial vigente y un comprobante de domicilio con antigüedad no mayor a tres meses. Necesitas cita previa, que se agenda en el portal del SAT." },
+      { "question": "¿Cuánto tarda el trámite?", "answer": "En línea obtienes tu acuse en el momento si tus datos son correctos. En la oficina, el trámite suele resolverse en la misma cita, y ahí también puedes tramitar tu e.firma." },
+      { "question": "¿Necesito RFC para trabajar en una empresa?", "answer": "Sí. Tu patrón necesita tu RFC con homoclave para timbrar tus recibos de nómina y retenerte el ISR. Por eso es lo primero que te piden al contratarte." }
+    ]
+  },
+  {
+    "slug": "como-calcular-prima-vacacional",
+    "cluster": "vacaciones",
+    "titulo": "Cómo se calcula la prima vacacional (con ejemplo)",
+    "metaTitle": "Cálculo de prima vacacional 2026: fórmula y ejemplo",
+    "metaDescription": "Cálculo de la prima vacacional paso a paso: fórmula, 25% mínimo de la LFT, días por antigüedad, parte exenta de ISR en 2026 y ejemplos con números.",
+    "extracto": "La fórmula de la prima vacacional, cuánto está exento de ISR en 2026 y tres ejemplos con salarios reales.",
+    "publicado": "2026-10-04",
+    "actualizado": "2026-10-04",
+    "herramienta": { "href": "/calcular-prima-vacacional", "titulo": "Calculadora de prima vacacional", "texto": "Calcula tu prima vacacional bruta, la parte exenta de ISR y lo que recibirás en neto.", "boton": "Calcular mi prima vacacional" },
+    "faqs": [
+      { "question": "¿Cuánto es la prima vacacional por ley?", "answer": "Al menos el 25% del salario que te corresponde durante tus días de vacaciones (artículo 80 de la LFT). Tu contrato o el contrato colectivo pueden darte un porcentaje mayor, pero nunca menor." },
+      { "question": "¿La prima vacacional se calcula con el salario integrado?", "answer": "No. Se calcula con tu salario diario ordinario, es decir, tu sueldo mensual entre 30. El salario diario integrado se usa para las cuotas del IMSS y para indemnizaciones, no para la prima." },
+      { "question": "¿Cuándo se paga la prima vacacional?", "answer": "La ley no fija una fecha exacta. Lo más común es que se pague al salir de vacaciones o en la nómina del periodo en que las tomas; algunas empresas la pagan en tu aniversario laboral." },
+      { "question": "¿La prima vacacional paga ISR?", "answer": "Solo la parte que supera 15 UMA al año, que en 2026 equivale a $1,759.65 (artículo 93, fracción XIV de la LISR). Lo que excede ese límite se suma a tu sueldo para calcular la retención." },
+      { "question": "¿Me pagan prima vacacional si renuncio?", "answer": "Sí. En tu finiquito deben incluir las vacaciones que no disfrutaste, incluida la parte proporcional del año en curso, más el 25% de prima vacacional sobre ese pago." }
+    ]
+  },
+  {
+    "slug": "salario-diario-integrado",
+    "cluster": "salario",
+    "titulo": "Qué es el salario diario integrado y cómo se calcula",
+    "metaTitle": "Salario diario integrado: qué es y cómo se calcula",
+    "metaDescription": "Qué es el salario diario integrado (SDI), cómo se calcula el factor de integración en 2026, qué conceptos se suman y un ejemplo con números reales.",
+    "extracto": "Qué incluye el SDI, cómo sacar tu factor de integración y por qué importa para tu pensión y tus cuotas del IMSS.",
+    "publicado": "2026-10-04",
+    "actualizado": "2026-10-04",
+    "herramienta": { "href": "/calcular-salario-diario-integrado", "titulo": "Calculadora de salario diario integrado", "texto": "Obtén tu SDI y tu factor de integración 2026 según tu antigüedad y tus prestaciones.", "boton": "Calcular mi SDI" },
+    "faqs": [
+      { "question": "¿Qué es el salario diario integrado?", "answer": "Es tu salario diario más la parte proporcional diaria de las prestaciones que recibes, como aguinaldo y prima vacacional. Lo define el artículo 84 de la LFT y es la base para tus cuotas al IMSS y para las indemnizaciones." },
+      { "question": "¿Cuál es el factor de integración mínimo en 2026?", "answer": "Con las prestaciones mínimas de ley, 15 días de aguinaldo y 12 días de vacaciones con 25% de prima, el factor del primer año es 1.0493. Aumenta con la antigüedad porque crecen los días de vacaciones." },
+      { "question": "¿El SDI es lo mismo que el salario base de cotización?", "answer": "Casi. El salario base de cotización es el SDI que se reporta al IMSS, con los conceptos que excluye el artículo 27 de la Ley del Seguro Social y con un tope de 25 UMA diarias, que en 2026 es de $2,932.75." },
+      { "question": "¿Dónde veo mi salario diario integrado?", "answer": "Aparece en tus recibos de nómina timbrados y en la constancia de semanas cotizadas del IMSS. Si no coincide con tu cálculo, pregunta a recursos humanos qué prestaciones están integrando." },
+      { "question": "¿Por qué me conviene que mi SDI sea correcto?", "answer": "Porque de él dependen tus semanas cotizadas, el monto de tus incapacidades, tu crédito Infonavit y tu futura pensión. Un SDI reportado por debajo de lo real reduce todos esos beneficios." }
+    ]
+  },
+  {
+    "slug": "como-calcular-el-aguinaldo",
+    "cluster": "aguinaldo",
+    "titulo": "Cómo calcular el aguinaldo paso a paso (con ejemplo)",
+    "metaTitle": "Cómo calcular el aguinaldo 2026: fórmula y ejemplos",
+    "metaDescription": "Cómo se calcula el aguinaldo en México paso a paso: fórmula, aguinaldo proporcional, días trabajados y ejemplos con números reales. Actualizado 2026.",
+    "extracto": "La fórmula del aguinaldo, cómo sacar el proporcional si no trabajaste el año completo y ejemplos con salarios reales.",
+    "publicado": "2026-10-04",
+    "actualizado": "2026-10-04",
+    "herramienta": { "href": "/calcular-aguinaldo", "titulo": "Calculadora de aguinaldo", "texto": "Calcula tu aguinaldo 2026 exacto según tu fecha de ingreso, con la parte exenta de ISR.", "boton": "Calcular mi aguinaldo" },
+    "faqs": [
+      { "question": "¿Cómo se calcula el aguinaldo?", "answer": "Divide tu salario mensual entre 30 para obtener tu salario diario y multiplícalo por 15 días, que es el mínimo de ley. Si no trabajaste el año completo, multiplica ese resultado por los días trabajados y divídelo entre 365." },
+      { "question": "¿Cuándo se paga el aguinaldo?", "answer": "Antes del 20 de diciembre, según el artículo 87 de la LFT. Muchas empresas lo pagan en la primera quincena de diciembre." },
+      { "question": "¿Me toca aguinaldo si entré a trabajar a mitad de año?", "answer": "Sí. Te corresponde la parte proporcional a los días que trabajaste durante el año, aunque sigas en la empresa o ya te hayas ido." },
+      { "question": "¿Las faltas descuentan aguinaldo?", "answer": "Las faltas injustificadas pueden descontarse porque son días no trabajados. Las licencias de maternidad y las incapacidades por riesgo de trabajo son distintas: los tribunales laborales las han considerado tiempo trabajado, así que no deberían reducir tu aguinaldo." },
+      { "question": "¿El aguinaldo se calcula con el salario integrado?", "answer": "No. Se calcula con tu salario diario ordinario, sin integrar prestaciones. Las comisiones y otros ingresos variables solo se suman si forman parte de tu salario habitual." }
+    ]
+  },
+  {
+    "slug": "aguinaldo-exento-impuestos",
+    "cluster": "aguinaldo",
+    "titulo": "Aguinaldo exento de impuestos: cuánto está libre del ISR",
+    "metaTitle": "Aguinaldo exento de ISR 2026: monto libre de impuestos",
+    "metaDescription": "Cuánto aguinaldo está exento de ISR en 2026: 30 UMA ($3,519.30). Tabla 2024-2026, cómo se calcula la parte gravable y ejemplo de retención.",
+    "extracto": "La parte de tu aguinaldo que no paga impuestos en 2026, cómo cambió frente a 2025 y cómo se calcula la retención.",
+    "publicado": "2026-10-04",
+    "actualizado": "2026-10-04",
+    "herramienta": { "href": "/calcular-isr-aguinaldo", "titulo": "Calculadora de ISR del aguinaldo", "texto": "Calcula la parte exenta, el ISR con el artículo 96 y con el 174 del reglamento, y tu aguinaldo neto.", "boton": "Calcular el ISR de mi aguinaldo" },
+    "faqs": [
+      { "question": "¿Cuánto aguinaldo está exento de ISR en 2026?", "answer": "Hasta 30 veces la UMA diaria. Con la UMA de 2026, de $117.31, el límite exento es de $3,519.30. Si tu aguinaldo es menor o igual, no pagas ISR por él." },
+      { "question": "¿Cuál fue el aguinaldo exento en 2025?", "answer": "Con la UMA de 2025, de $113.14, el límite fue de $3,394.20. La UMA se actualiza cada febrero con la inflación, por eso el monto exento cambia cada año." },
+      { "question": "¿Por qué se usa la UMA y no el salario mínimo?", "answer": "Desde la desindexación de 2016, los montos de referencia de las leyes fiscales se calculan con la Unidad de Medida y Actualización. Aunque la LISR menciona el salario mínimo, debe entenderse referida a la UMA." },
+      { "question": "¿Cómo me retienen el ISR del aguinaldo?", "answer": "Tu patrón puede sumar la parte gravable a tu sueldo del mes y aplicar la tarifa del artículo 96 de la LISR, o usar el procedimiento opcional del artículo 174 del reglamento, que suele dar una retención menor." },
+      { "question": "¿Puedo recuperar el ISR de mi aguinaldo?", "answer": "Si te retuvieron de más, puedes obtener saldo a favor en tu declaración anual, siempre que estés obligado o elijas presentarla. Tu patrón también puede ajustarlo en el cálculo anual de diciembre." }
+    ]
+  },
+  {
+    "slug": "reforma-30-dias-aguinaldo",
+    "cluster": "aguinaldo",
+    "titulo": "30 días de aguinaldo: cuándo entra en vigor la reforma",
+    "metaTitle": "30 días de aguinaldo: ¿cuándo entra en vigor la reforma?",
+    "metaDescription": "¿Ya es ley el aguinaldo de 30 días? Estado de la reforma a la LFT en 2026, qué se aprobó y qué falta, y cuánto te toca hoy. Explicado sin rumores.",
+    "extracto": "En qué punto está la propuesta para duplicar el aguinaldo y qué debes cobrar mientras no se publique en el DOF.",
+    "publicado": "2026-10-04",
+    "actualizado": "2026-10-04",
+    "herramienta": { "href": "/calcular-aguinaldo", "titulo": "Calculadora de aguinaldo", "texto": "Compara tu aguinaldo con 15 y con 30 días cambiando un solo dato.", "boton": "Calcular mi aguinaldo" },
+    "faqs": [
+      { "question": "¿Ya se aprobó el aguinaldo de 30 días?", "answer": "No. A la fecha de actualización de este artículo, la reforma no se ha publicado en el Diario Oficial de la Federación, así que el mínimo legal sigue siendo de 15 días de salario." },
+      { "question": "¿Cuándo entraría en vigor el aguinaldo de 30 días?", "answer": "Al día siguiente de su publicación en el DOF o en la fecha que indiquen sus artículos transitorios. Para que llegue a publicarse, la reforma debe aprobarse en el Senado y en la Cámara de Diputados." },
+      { "question": "¿Este diciembre me pagarán 30 días de aguinaldo?", "answer": "Solo si tu contrato individual o colectivo ya lo establece. Los trabajadores al servicio del Estado tienen 40 días por su propia ley (artículo 42 Bis de la Ley Federal de los Trabajadores al Servicio del Estado), pero el mínimo para el sector privado sigue en 15." },
+      { "question": "¿Cómo sé si una noticia sobre el aguinaldo es cierta?", "answer": "Busca si la reforma aparece publicada en el Diario Oficial de la Federación. Una aprobación en comisiones o en una sola cámara todavía no cambia la ley." }
+    ]
+  },
+  {
+    "slug": "aguinaldo-pensionados-imss",
+    "cluster": "aguinaldo",
+    "titulo": "Aguinaldo para pensionados del IMSS",
+    "metaTitle": "Aguinaldo pensionados IMSS 2026: días y fecha de pago",
+    "metaDescription": "Cuántos días de aguinaldo reciben los pensionados del IMSS en 2026 según su régimen, Ley 73 o Ley 97, cuándo se paga y cuánto está exento de ISR.",
+    "extracto": "Quién recibe aguinaldo en su pensión del IMSS, cuántos días según el régimen y en qué mes se deposita.",
+    "publicado": "2026-10-04",
+    "actualizado": "2026-10-04",
+    "herramienta": { "href": "/pension-imss-modalidad-40", "titulo": "Simulador de pensión IMSS Ley 73", "texto": "Si aún no te pensionas, estima tu pensión mensual y tu aguinaldo con el simulador de Modalidad 40.", "boton": "Simular mi pensión" },
+    "faqs": [
+      { "question": "¿Cuántos días de aguinaldo reciben los pensionados del IMSS?", "answer": "Los pensionados por cesantía en edad avanzada o vejez de la Ley 73 reciben un mes de pensión. Con la Ley 97, los pensionados por riesgo de trabajo con más del 50% de incapacidad, y las viudas y huérfanos pensionados por un riesgo de trabajo, reciben 15 días de pensión." },
+      { "question": "¿Cuándo pagan el aguinaldo a los pensionados del IMSS?", "answer": "El IMSS lo deposita en noviembre, junto con la pensión de ese mes, por lo que llega antes que el aguinaldo de los trabajadores en activo." },
+      { "question": "¿El aguinaldo de pensionados incluye las asignaciones familiares?", "answer": "No. Para el régimen de 1973 se calcula sobre el importe de la pensión sin las asignaciones familiares ni la ayuda asistencial." },
+      { "question": "¿Los pensionados con retiro programado reciben aguinaldo?", "answer": "Quienes se pensionaron con la Ley 97 y retiran su ahorro mediante retiro programado no reciben aguinaldo del IMSS, porque su pensión sale de su propia cuenta individual. Con renta vitalicia, depende de lo que pague la aseguradora." }
+    ]
+  },
+  {
+    "slug": "finiquito-por-renuncia",
+    "cluster": "finiquito",
+    "titulo": "Finiquito por renuncia: qué te toca y cómo calcularlo",
+    "metaTitle": "Finiquito por renuncia 2026: qué te toca y cómo calcularlo",
+    "metaDescription": "Qué incluye el finiquito por renuncia voluntaria en México, cuándo te toca prima de antigüedad, cómo calcularlo paso a paso y un ejemplo con cifras 2026.",
+    "extracto": "Los conceptos que te deben pagar si renuncias, cómo calcular cada uno y qué revisar antes de firmar.",
+    "publicado": "2026-10-04",
+    "actualizado": "2026-10-04",
+    "herramienta": { "href": "/calculadora-finiquito-mexico", "titulo": "Calculadora de finiquito México", "texto": "Calcula tu finiquito o tu liquidación con tus fechas y tu salario, concepto por concepto.", "boton": "Calcular mi finiquito" },
+    "faqs": [
+      { "question": "¿Qué me toca de finiquito si renuncio?", "answer": "El salario de los días trabajados que no te han pagado, el aguinaldo proporcional, las vacaciones que no disfrutaste con su prima vacacional y, si tienes 15 años o más en la empresa, la prima de antigüedad." },
+      { "question": "¿Si renuncio me toca liquidación?", "answer": "No. La indemnización de tres meses de salario es para el despido injustificado. Al renunciar solo recibes el finiquito, que son las prestaciones que ya generaste." },
+      { "question": "¿Tengo que dar aviso con anticipación para renunciar?", "answer": "La LFT no exige un aviso previo para renunciar. Aun así, entregar tu renuncia por escrito y con copia firmada de recibido te protege si después hay un desacuerdo sobre tu fecha de salida." },
+      { "question": "¿Cuándo me deben pagar el finiquito?", "answer": "Lo normal es que se pague el último día de trabajo o en la siguiente fecha de pago. Si la empresa se retrasa o no te paga, la Profedet te asesora de forma gratuita para reclamarlo." },
+      { "question": "¿Me pueden descontar algo del finiquito?", "answer": "Solo los que permite el artículo 110 de la LFT: deudas con la empresa por anticipos, pagos en exceso, pérdidas o averías (en el monto que convengas y sin pasar de un mes de salario), el crédito Infonavit o una pensión alimenticia ordenada por un juez. Renunciar no es motivo de descuento." }
+    ]
+  },
+  {
+    "slug": "dias-de-vacaciones-por-ano",
+    "cluster": "vacaciones",
+    "titulo": "Días de vacaciones por año según la LFT (tabla completa)",
+    "metaTitle": "Días de vacaciones por año LFT: tabla completa",
+    "metaDescription": "Tabla completa de días de vacaciones por año según el artículo 76 de la LFT: de 12 días el primer año hasta 40 años de antigüedad, con ejemplos.",
+    "extracto": "Cuántos días de vacaciones corresponden por cada año de antigüedad, del primero al cuadragésimo, según el artículo 76.",
+    "publicado": "2026-10-04",
+    "actualizado": "2026-10-04",
+    "herramienta": { "href": "/calcular-vacaciones", "titulo": "Calculadora de vacaciones", "texto": "Escribe tu fecha de ingreso y conoce tus días de vacaciones y los proporcionales del año en curso.", "boton": "Calcular mis vacaciones" },
+    "faqs": [
+      { "question": "¿Cuántos días de vacaciones me tocan por año?", "answer": "12 días al cumplir el primer año, 14 el segundo, 16 el tercero, 18 el cuarto y 20 el quinto. Del sexto año en adelante aumentan 2 días por cada cinco años de servicio." },
+      { "question": "¿Cuántos días de vacaciones tengo con 10 años de antigüedad?", "answer": "22 días. Del sexto al décimo año de servicio corresponden 22 días; a partir del año 11 subes a 24." },
+      { "question": "¿Las vacaciones son días hábiles o naturales?", "answer": "Son días laborables. El artículo 76 habla de días laborables, así que los fines de semana o tus días de descanso no cuentan dentro de tus vacaciones." },
+      { "question": "¿La tabla nueva aplica a quienes ya trabajaban antes de 2023?", "answer": "Sí. La reforma vigente desde el 1 de enero de 2023 aplica a todos los trabajadores según su antigüedad acumulada, sin importar cuándo empezaron." }
+    ]
+  },
+  {
+    "slug": "vacaciones-por-ley",
+    "cluster": "vacaciones",
+    "titulo": "Vacaciones por ley en México: cuántos días te tocan",
+    "metaTitle": "Vacaciones por ley en México: tus derechos en 2026",
+    "metaDescription": "Vacaciones por ley en México: cuántos días te tocan, cuándo puedes tomarlas, si te las pueden pagar, cuándo prescriben y qué hacer si te las niegan.",
+    "extracto": "Tus derechos sobre las vacaciones: cuándo se generan, cómo se toman, si se pueden cambiar por dinero y cuándo prescriben.",
+    "publicado": "2026-10-04",
+    "actualizado": "2026-10-04",
+    "herramienta": { "href": "/calcular-vacaciones", "titulo": "Calculadora de vacaciones", "texto": "Comprueba cuántos días te corresponden hoy según tu fecha de ingreso.", "boton": "Calcular mis vacaciones" },
+    "faqs": [
+      { "question": "¿Mi jefe puede negarme las vacaciones?", "answer": "Puede decidir las fechas junto contigo, pero no puede dejar de dártelas. El patrón debe concederlas dentro de los seis meses siguientes a cada aniversario laboral (artículo 81 de la LFT)." },
+      { "question": "¿Me pueden pagar las vacaciones en lugar de tomarlas?", "answer": "No mientras sigas trabajando. El artículo 79 prohíbe compensar las vacaciones con dinero; solo se pagan cuando la relación laboral termina antes de que las disfrutes." },
+      { "question": "¿Puedo dividir mis vacaciones?", "answer": "Sí, pero al menos 12 días deben ser continuos, de acuerdo con el artículo 78. Los días restantes puedes distribuirlos como acuerdes con tu patrón." },
+      { "question": "¿Las vacaciones se pierden si no las tomo?", "answer": "Prescriben un año después de que vence el plazo de seis meses para disfrutarlas (artículo 516). En la práctica tienes hasta 18 meses desde tu aniversario para reclamarlas." },
+      { "question": "¿Los trabajadores eventuales tienen vacaciones?", "answer": "Sí. Si prestas servicios discontinuos o de temporada, tienes derecho a vacaciones en proporción al número de días trabajados en el año (artículo 77)." }
+    ]
+  },
+  {
+    "slug": "tabla-de-vacaciones-2026",
+    "cluster": "vacaciones",
+    "titulo": "Tabla de vacaciones 2026",
+    "metaTitle": "Tabla de vacaciones 2026 en México y días festivos",
+    "metaDescription": "Tabla de vacaciones 2026 por antigüedad, comparación con la tabla anterior a 2023 y días de descanso obligatorio de 2026 para planear tus vacaciones.",
+    "extracto": "La tabla vigente en 2026, en qué cambió respecto a la anterior y los días de descanso obligatorio del año para planear tus vacaciones.",
+    "publicado": "2026-10-04",
+    "actualizado": "2026-10-04",
+    "herramienta": { "href": "/calcular-vacaciones", "titulo": "Calculadora de vacaciones", "texto": "Calcula tus días de vacaciones 2026 a partir de tu fecha de ingreso.", "boton": "Calcular mis vacaciones" },
+    "faqs": [
+      { "question": "¿Cuál es la tabla de vacaciones 2026?", "answer": "Es la misma que rige desde 2023: 12 días el primer año, 14 el segundo, 16 el tercero, 18 el cuarto, 20 el quinto y, a partir del sexto, 2 días más por cada cinco años de servicio." },
+      { "question": "¿Cambió la tabla de vacaciones en 2026?", "answer": "No. La última reforma al artículo 76 de la LFT se publicó en el DOF el 27 de diciembre de 2022 y está vigente desde el 1 de enero de 2023." },
+      { "question": "¿Cuáles son los días de descanso obligatorio en 2026?", "answer": "1 de enero, 2 de febrero, 16 de marzo, 1 de mayo, 16 de septiembre, 16 de noviembre y 25 de diciembre, según el artículo 74 de la LFT." },
+      { "question": "¿Si un día festivo cae en mis vacaciones lo pierdo?", "answer": "No. Como las vacaciones se cuentan en días laborables, un día de descanso obligatorio dentro de tu periodo no se descuenta de tus vacaciones." }
+    ]
+  }
+]

@@ -18,10 +18,11 @@ export function formatNumber(n, decimals = 2) {
   return new Intl.NumberFormat('es-MX', { minimumFractionDigits: 0, maximumFractionDigits: decimals }).format(n)
 }
 
-export function Field({ label, hint, children }) {
+// Con `id`, la etiqueta queda asociada al campo (pásale el mismo id al input).
+export function Field({ label, hint, id, children }) {
   return (
     <div>
-      <label className={labelClass}>{label}</label>
+      <label className={labelClass} htmlFor={id}>{label}</label>
       {children}
       {hint && <p className="text-xs text-gray-500 mt-1">{hint}</p>}
     </div>

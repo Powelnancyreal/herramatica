@@ -3,7 +3,7 @@ import toolsData from '@/data/tools.json'
 import { hreflang } from '@/lib/seo'
 
 export const metadata = {
-  title: 'Juegos Online Gratis | Herramatica',
+  title: 'Juegos Online Gratis',
   description:
     'Juegos y ejercicios interactivos gratuitos para entrenar tu mente. Cálculo mental, memoria y más, directamente en tu navegador.',
   alternates: { canonical: 'https://herramatica.com/juegos', languages: hreflang('https://herramatica.com/juegos') },

@@ -1,6 +1,6 @@
 'use client'
 
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
@@ -11,6 +11,11 @@ const normalizar = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase
 export default function BuscadorHerramientas({ herramientas }) {
   const router = useRouter()
   const [consulta, setConsulta] = useState('')
+  // Admite /?q=... para que funcione la SearchAction declarada en el esquema WebSite.
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search).get('q')
+    if (q) setConsulta(q)
+  }, [])
   const indice = useMemo(
     () => herramientas.map((h) => ({ ...h, n: normalizar(h.nombre), d: normalizar(h.descripcion) })),
     [herramientas]

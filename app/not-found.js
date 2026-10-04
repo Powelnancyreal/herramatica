@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Página no encontrada',
+  title: 'Página no encontrada | Herramatica',
 }
 
 export default function NotFound() {
