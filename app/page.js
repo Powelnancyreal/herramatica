@@ -2,24 +2,20 @@ import Link from 'next/link'
 import Image from 'next/image'
 import toolsData from '@/data/tools.json'
 import categoriesData from '@/data/categories.json'
-import { SITE_DESCRIPTION } from '@/lib/seo'
+import { SITE_DESCRIPTION, hreflang } from '@/lib/seo'
 import HomeSections, { IndiceHerramientas, Estadisticas } from '@/components/HomeSections'
+import BuscadorHerramientas from '@/components/BuscadorHerramientas'
+
+const iconoCategoria = new Map(categoriesData.map((c) => [c.slug, c.icon]))
+// Solo lo que el buscador necesita: el resto de tools.json (FAQs, contenido) no viaja al navegador.
+const indiceBusqueda = toolsData.map((t) => ({ slug: t.slug, nombre: t.name, descripcion: t.metaDescription, icono: iconoCategoria.get(t.category) }))
 
 export const metadata = {
   title: 'Herramatica | Herramientas Online Gratuitas en Español',
   description: SITE_DESCRIPTION,
   alternates: {
     canonical: 'https://herramatica.com',
-    languages: {
-      'es-MX': 'https://herramatica.com',
-      'es-AR': 'https://herramatica.com',
-      'es-CO': 'https://herramatica.com',
-      'es-PE': 'https://herramatica.com',
-      'es-CL': 'https://herramatica.com',
-      'es-ES': 'https://herramatica.com',
-      es: 'https://herramatica.com',
-      'x-default': 'https://herramatica.com',
-    },
+    languages: hreflang('https://herramatica.com'),
     types: {
       'application/rss+xml': 'https://herramatica.com/feed.xml',
     },
@@ -74,7 +70,7 @@ export default function HomePage() {
             Herramientas online<br className="hidden sm:block" /> gratuitas en español
           </h1>
           <p className="text-lg text-blue-100 max-w-2xl mx-auto text-center mt-4 mb-8">
-            Herramatica es tu colección de herramientas online gratuitas en español. Más de 220 utilidades para
+            Herramatica es tu colección de herramientas online gratuitas en español. Más de 230 utilidades para
             calcular, convertir y generar contenido al instante. Sin registro, sin límites, disponibles para México,
             Argentina, Colombia, Chile, Perú, España y todos los países de habla hispana.
           </p>
@@ -89,6 +85,7 @@ export default function HomePage() {
               </Link>
             ))}
           </div>
+          <BuscadorHerramientas herramientas={indiceBusqueda} />
         </div>
       </section>
 

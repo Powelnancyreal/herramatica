@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import toolsData from '@/data/tools.json'
+import { hreflang } from '@/lib/seo'
 
 export const metadata = {
   title: 'Herramientas de Texto Online Gratis | Herramatica',
   description:
     'Herramientas de texto gratuitas. Transforma, analiza y manipula texto de forma sencilla. Contador de palabras, convertidor de texto y más.',
-  alternates: { canonical: 'https://herramatica.com/texto' },
+  alternates: { canonical: 'https://herramatica.com/texto', languages: hreflang('https://herramatica.com/texto') },
 }
 
 export default function TextoPage() {

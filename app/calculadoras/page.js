@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import toolsData from '@/data/tools.json'
+import { hreflang } from '@/lib/seo'
 
 export const metadata = {
   title: 'Calculadoras Online Gratis | Herramatica',
   description:
     'Calculadoras online precisas y gratuitas. Calcula edades, porcentajes, conversiones y mucho más al instante.',
-  alternates: { canonical: 'https://herramatica.com/calculadoras' },
+  alternates: { canonical: 'https://herramatica.com/calculadoras', languages: hreflang('https://herramatica.com/calculadoras') },
 }
 
 export default function CalculadorasPage() {

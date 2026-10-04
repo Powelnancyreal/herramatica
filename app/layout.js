@@ -2,7 +2,7 @@ import Script from 'next/script'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { SITE_NAME, SITE_DESCRIPTION, SITE_URL } from '@/lib/seo'
+import { SITE_NAME, SITE_DESCRIPTION, SITE_URL, OG_ALTERNATE_LOCALES } from '@/lib/seo'
 import { generateOrganizationSchema, generateSiteSchema } from '@/lib/schema'
 
 export const metadata = {
@@ -22,7 +22,7 @@ export const metadata = {
     siteName: SITE_NAME,
     description: SITE_DESCRIPTION,
     locale: 'es',
-    alternateLocale: ['es_MX', 'es_AR', 'es_CO', 'es_PE', 'es_CL', 'es_ES'],
+    alternateLocale: OG_ALTERNATE_LOCALES,
     type: 'website',
     images: [
       {
@@ -37,7 +37,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Herramatica | Herramientas Online Gratuitas en Español',
     description:
-      'Más de 220 herramientas online gratuitas en español: calculadoras, generadores, convertidores y más. Sin registro, sin límites.',
+      'Más de 230 herramientas online gratuitas en español: calculadoras, generadores, convertidores y más. Sin registro, sin límites.',
     images: ['https://herramatica.com/images/og-image.webp'],
   },
   icons: {
