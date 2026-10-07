@@ -5,8 +5,8 @@
 <image:image>
 <image:loc>https://herramatica.com/images/hero-home.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
-<changefreq>daily</changefreq>
+<lastmod>2026-10-05T12:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
 <priority>1</priority>
 </url>
 <url>
@@ -14,7 +14,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/cat-generadores.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
@@ -23,7 +23,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/cat-calculadoras.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-05T12:00:00.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
@@ -32,7 +32,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/cat-texto.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
@@ -41,7 +41,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/cat-juegos.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-05T12:00:00.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
@@ -50,7 +50,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/cat-convertidores.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
@@ -59,7 +59,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/texto-invisible.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -68,7 +68,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-edad.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -77,7 +77,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-rfc.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -86,7 +86,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-imc.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -95,7 +95,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-alicia.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -104,7 +104,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generador-qr.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -113,7 +113,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-horas.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -122,7 +122,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-cientifica.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -131,7 +131,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-finiquito.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -140,7 +140,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-isr.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -149,7 +149,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-aguinaldo.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -158,7 +158,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-dias.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -167,7 +167,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-iva.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -176,7 +176,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculo-mental.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -185,7 +185,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-curp.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -194,7 +194,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-porcentaje.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -203,7 +203,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertidor-moneda.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -212,7 +212,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generador-contrasenas.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -221,7 +221,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/contador-palabras.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -230,7 +230,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-propinas.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -239,7 +239,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-prestamo.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -248,7 +248,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertidor-unidades.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -257,7 +257,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generador-nombres.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -266,7 +266,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertidor-imagenes.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -275,7 +275,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/imagenes-a-pdf.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -284,7 +284,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertidor-numeros-a-letras.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -293,7 +293,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertidor-fracciones.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -302,7 +302,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertidor-mayusculas-minusculas.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -311,7 +311,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertidor-binario.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -320,7 +320,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-irpf.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -329,7 +329,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-hipoteca.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -338,7 +338,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-letra-dni.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -347,7 +347,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculo-pension-jubilacion.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -356,7 +356,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-apiretal.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -365,7 +365,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-del-amor.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -374,7 +374,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-nit.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -383,7 +383,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-cuil.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -392,7 +392,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-rut.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -401,7 +401,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-area-circulo.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -410,7 +410,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-hexadecimal-a-decimal.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -419,7 +419,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-velocidad-distancia-tiempo.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -428,7 +428,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-gasolina.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -437,7 +437,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-volumen-cilindro.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -446,7 +446,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-ritmo.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-06T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -455,7 +455,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/cronometro-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -464,7 +464,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/palabras-al-reves.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-06T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -473,7 +473,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/celsius-a-fahrenheit.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-06T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -482,7 +482,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/bar-a-psi.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -491,7 +491,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/medidas-de-cocina.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -500,7 +500,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/tipografia-para-instagram.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -509,7 +509,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/cm-a-pulgadas.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -518,7 +518,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/arroba-a-kilos.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-06T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -527,7 +527,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-tiempo-lectura.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -536,7 +536,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-indemnizacion-despido.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -545,7 +545,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-sac-argentina.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -554,7 +554,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-alquiler-argentina.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -563,7 +563,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-plazo-fijo.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-06T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -572,7 +572,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-interes-compuesto.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -581,7 +581,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-sueldo-neto-argentina.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-06T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -590,7 +590,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-area.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -599,7 +599,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-volumen.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -608,7 +608,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-calculos-combinados.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -617,7 +617,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-resistencias.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -626,7 +626,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-calorias.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -635,7 +635,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-embarazo.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -644,7 +644,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-peso-ideal.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-06T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -653,7 +653,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-ciclos-sueno.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -662,7 +662,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-de-escalas.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -671,7 +671,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/sopa-de-letras.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-06T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -680,7 +680,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generador-de-letras-grandes.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -689,7 +689,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generador-codigo-de-barras.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-06T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -698,7 +698,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generador-de-crucigramas.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -707,7 +707,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generador-de-nombres-para-free-fire.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -716,7 +716,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generador-de-link-de-whatsapp.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -725,7 +725,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-engagement-instagram.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -734,7 +734,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculador-de-horarios.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -743,7 +743,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/hexadecimal-a-texto.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -752,7 +752,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/ruleta-aleatoria-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -761,7 +761,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-promedio-ponderado.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -770,7 +770,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-cts-peru.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-06T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -779,7 +779,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-gratificacion-peru.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -788,7 +788,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-de-igv.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -797,7 +797,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-detraccion.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-06T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -806,7 +806,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-de-matrices.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -815,7 +815,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-de-ecuaciones.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -824,7 +824,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-precios-influencers-tiktok.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -833,7 +833,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-ip.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -842,7 +842,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-regla-de-tres.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -851,7 +851,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-de-pendiente.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-06T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -860,7 +860,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-derivadas-integrales.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -869,7 +869,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-ldl.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -878,7 +878,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-pafi.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-25T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -887,7 +887,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/indice-de-barthel.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -896,7 +896,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-liquidacion-laboral-colombia.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -905,7 +905,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-seguridad-social-colombia.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -914,7 +914,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-cdt.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -923,7 +923,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/como-calcular-la-prima-vacacional-2026.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -932,7 +932,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/dias-de-vacaciones-por-antiguedad-mexico.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -941,7 +941,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculo-reparto-de-utilidades-ptu-2026.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -950,7 +950,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/como-calcular-salario-diario-integrado-imss.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -959,7 +959,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-costo-anual-total-cat-credito.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -968,7 +968,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-sueldo-neto-nomina-mexico.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -977,7 +977,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-porcentaje-de-descuento-precio-final.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -986,7 +986,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calculadora-meta-de-ahorro-mensual.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -995,7 +995,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-retorno-de-inversion-roi.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1004,7 +1004,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/que-nota-necesito-para-aprobar.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1013,7 +1013,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/contar-dias-habiles-entre-dos-fechas.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1022,7 +1022,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/que-fecha-sera-dentro-de-x-dias.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1031,7 +1031,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/validar-numero-iban-cuenta-bancaria.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1040,7 +1040,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-dias-fertiles-y-ovulacion.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1049,7 +1049,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-metabolismo-basal-tmb.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1058,7 +1058,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-porcentaje-de-grasa-corporal.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1067,7 +1067,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/cuanta-agua-debo-tomar-al-dia.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1076,7 +1076,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/formatear-y-validar-json-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1085,7 +1085,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/codificar-y-decodificar-base64-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1094,7 +1094,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generar-uuid-v4-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1103,7 +1103,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/probar-expresiones-regulares-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1112,7 +1112,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generar-hash-md5-sha256-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1121,7 +1121,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generar-texto-lorem-ipsum-de-relleno.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1130,7 +1130,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/validar-correo-electronico-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1139,7 +1139,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/contar-caracteres-de-un-texto-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1148,7 +1148,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/hacer-sorteo-de-nombres-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1157,7 +1157,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generar-numeros-aleatorios-y-dados-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1166,7 +1166,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/lanzar-moneda-cara-o-cruz-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1175,7 +1175,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/temporizador-cuenta-regresiva-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1184,7 +1184,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertir-bitcoin-a-pesos-y-dolares.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1193,7 +1193,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertir-hora-entre-paises.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1202,7 +1202,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertir-kilos-a-libras.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1211,7 +1211,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/tabla-de-tallas-de-ropa-y-zapatos-mexico-usa-europa.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1220,7 +1220,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/subsidio-al-empleo-2026-monto-mensual.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1229,7 +1229,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/cuotas-imss-patron-y-trabajador-2026.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1238,7 +1238,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/tabla-salario-minimo-2026-mexico.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1247,7 +1247,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/simulador-pension-modalidad-40-ley-73.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1256,7 +1256,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-semanas-cotizadas-imss.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1265,7 +1265,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/pago-de-horas-extras-dobles-y-triples.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1274,7 +1274,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/comparar-afore-rendimiento-neto.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1283,7 +1283,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-isr-del-aguinaldo-2026.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1292,7 +1292,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/tipo-de-cambio-dolar-a-peso-mexicano-hoy.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1301,7 +1301,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generar-tabla-de-amortizacion-de-prestamo.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1310,7 +1310,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-rendimiento-de-cetes.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1319,7 +1319,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-mensualidad-credito-de-auto.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1328,7 +1328,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/formula-de-interes-simple-calculadora.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1337,7 +1337,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/hacer-presupuesto-mensual-regla-50-30-20.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1346,7 +1346,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/metodo-bola-de-nieve-y-avalancha-deudas.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1355,7 +1355,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-comision-por-ventas.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1364,7 +1364,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/comparar-precio-por-kilo-en-el-super.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1373,7 +1373,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertir-libras-a-kilos.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1382,7 +1382,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertir-grados-fahrenheit-a-celsius.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1391,7 +1391,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertir-onzas-a-gramos.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1400,7 +1400,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/cuantos-ml-tiene-una-taza.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1409,7 +1409,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertir-millas-a-kilometros.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1418,7 +1418,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertir-pies-a-metros-y-estatura.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1427,7 +1427,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertir-litros-a-galones.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1436,7 +1436,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/validar-curp-online-gratis.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1445,7 +1445,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/dividir-la-cuenta-del-restaurante-con-propina.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1454,7 +1454,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertir-hora-de-12-a-24-horas.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1463,7 +1463,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/sacar-promedio-de-calificaciones.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1472,7 +1472,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/sumar-restar-multiplicar-dividir-fracciones.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1481,7 +1481,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-maximo-comun-divisor-y-minimo-comun-multiplo.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1490,7 +1490,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-hipotenusa-teorema-de-pitagoras.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1499,7 +1499,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-factorial-de-un-numero.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1508,7 +1508,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-desviacion-estandar-y-varianza.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1517,7 +1517,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/tablas-de-multiplicar-para-imprimir-y-practicar.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1526,7 +1526,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-edad-de-perro-en-anos-humanos.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1535,7 +1535,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/decodificar-token-jwt-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1544,7 +1544,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertir-csv-a-json-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1553,7 +1553,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/codificar-y-decodificar-url-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1562,7 +1562,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/minificar-javascript-css-html-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1571,7 +1571,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generar-datos-falsos-de-prueba-en-espanol.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1580,7 +1580,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/crear-paleta-de-colores-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1589,7 +1589,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/selector-de-color-hex-rgb-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1598,7 +1598,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertir-color-hex-a-rgb.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1607,7 +1607,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertir-imagen-a-base64-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1616,7 +1616,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/nombres-de-bebe-con-significado.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1625,7 +1625,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generador-de-apodos-originales.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1634,7 +1634,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/ideas-de-nombres-para-empresas-y-negocios.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1643,7 +1643,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/jugar-piedra-papel-o-tijera-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1652,7 +1652,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/hacer-equipos-aleatorios-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1661,7 +1661,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/tombola-y-bingo-online-gratis.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1670,7 +1670,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/preguntas-de-verdad-o-reto-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1679,7 +1679,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generador-de-ideas-para-escribir-historias.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1688,7 +1688,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/generador-de-hashtags-para-instagram.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1697,7 +1697,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/ideas-de-biografia-para-instagram.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1706,7 +1706,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/crear-firma-de-correo-para-gmail-y-outlook.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1715,7 +1715,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/ideas-de-esloganes-para-negocios.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1724,7 +1724,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/crear-enlaces-con-parametros-utm.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1733,7 +1733,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertir-markdown-a-html-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1742,7 +1742,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/cuanto-cobro-de-paro-en-2026.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1751,7 +1751,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-cuota-de-autonomos-por-tramos.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1760,7 +1760,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-plusvalia-municipal-venta-de-vivienda.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1769,7 +1769,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-nota-de-admision-ebau-sobre-14.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1778,7 +1778,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-factura-de-la-luz-por-kwh.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1787,7 +1787,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/edad-de-jubilacion-en-espana-2026.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1796,7 +1796,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-impuesto-de-sucesiones-por-comunidad.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1805,7 +1805,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/precio-de-reforma-de-piso-por-metro-cuadrado.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1814,7 +1814,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-mi-huella-de-carbono-personal.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1823,7 +1823,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/cotizacion-dolar-blue-a-pesos-argentinos.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1832,7 +1832,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-categoria-de-monotributo.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1841,7 +1841,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-inflacion-acumulada.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1850,7 +1850,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-indemnizacion-sustitutiva-de-preaviso.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1859,7 +1859,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-sueldo-liquido-en-chile.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1868,7 +1868,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-finiquito-e-indemnizacion-chile.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1877,7 +1877,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/valor-uf-hoy-en-pesos-chilenos.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1886,7 +1886,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/valor-utm-en-pesos-chilenos.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1895,7 +1895,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/simular-dividendo-credito-hipotecario-chile.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1904,7 +1904,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-gratificacion-legal-chile.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1913,7 +1913,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/cuanto-descuenta-la-afp-chile.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1922,7 +1922,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-puntaje-ponderado-paes.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1931,7 +1931,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-prima-de-servicios-colombia.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1940,7 +1940,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/como-calcular-cesantias-colombia.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1949,7 +1949,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-intereses-sobre-cesantias.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1958,7 +1958,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-retencion-en-la-fuente-salarios.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1967,7 +1967,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-vacaciones-en-colombia.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1976,7 +1976,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-impuesto-renta-quinta-categoria.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1985,7 +1985,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/valor-uit-2026-en-soles.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -1994,7 +1994,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-vacaciones-truncas-peru.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2003,7 +2003,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/comparar-pension-afp-vs-onp.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2012,7 +2012,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-decimo-tercer-sueldo-ecuador.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2021,7 +2021,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-decimo-cuarto-sueldo-ecuador.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2030,7 +2030,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-fondos-de-reserva-iess.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2039,7 +2039,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-impuesto-a-la-renta-ecuador.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2048,7 +2048,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-aguinaldo-en-uruguay.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2057,7 +2057,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-irpf-uruguay-sueldo.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2066,7 +2066,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/sorteo-amigo-invisible-online.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2075,7 +2075,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/cuantos-dias-faltan-para-navidad.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2084,7 +2084,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/cuanto-cuesta-una-boda-presupuesto.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2093,7 +2093,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/comprimir-imagen-sin-perder-calidad.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2102,7 +2102,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/cambiar-tamano-de-imagen-para-redes-sociales.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2111,7 +2111,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/crear-favicon-ico-para-sitio-web.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2120,7 +2120,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/excusas-creibles-y-graciosas.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-09-30T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2129,7 +2129,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/tabla-de-tallas-de-anillo.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2138,7 +2138,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-finiquito-por-renuncia-o-despido-mexico.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2147,7 +2147,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-gravamen-4x1000-colombia.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2156,7 +2156,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-nota-definitiva-por-cortes-colombia.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2165,7 +2165,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/sueldo-empleados-de-comercio-escala-cct-130-75.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2174,7 +2174,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-derechos-registrales-sunarp.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2183,7 +2183,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-promedio-notas-upao.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2192,7 +2192,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/convertir-libras-fuerza-a-newtons.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2201,7 +2201,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/calcular-sueldo-docente-provincia-de-buenos-aires.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-05T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -2210,121 +2210,121 @@
 <image:image>
 <image:loc>https://herramatica.com/images/tools/simulador-tabla-de-posiciones-liga-1-peru.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-10-05T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>https://herramatica.com/blog</loc>
-<lastmod>2026-10-04T00:00:00.000Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://herramatica.com/blog/reforma-30-dias-aguinaldo</loc>
-<lastmod>2026-10-04T00:00:00.000Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://herramatica.com/blog/aguinaldo-exento-impuestos</loc>
-<lastmod>2026-10-04T00:00:00.000Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://herramatica.com/blog/aguinaldo-pensionados-imss</loc>
-<lastmod>2026-10-04T00:00:00.000Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://herramatica.com/blog/como-calcular-el-aguinaldo</loc>
-<lastmod>2026-10-04T00:00:00.000Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://herramatica.com/blog/como-sacar-mi-rfc</loc>
-<lastmod>2026-10-04T00:00:00.000Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://herramatica.com/blog/como-calcular-prima-vacacional</loc>
-<lastmod>2026-10-04T00:00:00.000Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://herramatica.com/blog/dias-de-vacaciones-por-ano</loc>
-<lastmod>2026-10-04T00:00:00.000Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://herramatica.com/blog/finiquito-por-renuncia</loc>
-<lastmod>2026-10-04T00:00:00.000Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://herramatica.com/blog/salario-diario-integrado</loc>
-<lastmod>2026-10-04T00:00:00.000Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://herramatica.com/blog/homoclave-del-rfc</loc>
-<lastmod>2026-10-04T00:00:00.000Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://herramatica.com/blog/rfc-generico</loc>
-<lastmod>2026-10-04T00:00:00.000Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://herramatica.com/blog/tabla-de-vacaciones-2026</loc>
-<lastmod>2026-10-04T00:00:00.000Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://herramatica.com/blog/vacaciones-por-ley</loc>
-<lastmod>2026-10-04T00:00:00.000Z</lastmod>
+<lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://herramatica.com/privacidad</loc>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>yearly</changefreq>
 <priority>0.3</priority>
 </url>
 <url>
 <loc>https://herramatica.com/terminos</loc>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>yearly</changefreq>
 <priority>0.3</priority>
 </url>
 <url>
 <loc>https://herramatica.com/cookies</loc>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>yearly</changefreq>
 <priority>0.3</priority>
 </url>
 <url>
 <loc>https://herramatica.com/acerca</loc>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>yearly</changefreq>
 <priority>0.3</priority>
 </url>
 <url>
 <loc>https://herramatica.com/contacto</loc>
-<lastmod>2026-10-04T18:45:44.117Z</lastmod>
+<lastmod>2026-08-27T12:00:00.000Z</lastmod>
 <changefreq>yearly</changefreq>
 <priority>0.3</priority>
 </url>

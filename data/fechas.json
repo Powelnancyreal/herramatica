@@ -1,0 +1,1457 @@
+{
+  "herramientas": {
+    "texto-invisible": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "e7a869fd3c64",
+      "componente": "3c7d4b4739e9"
+    },
+    "calculadora-edad": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "30b4ccdefe41",
+      "componente": "acf1dd193940"
+    },
+    "calcular-rfc": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-10-04",
+      "contenido": "ae98b02af190",
+      "componente": "0ce66c60d128"
+    },
+    "calcular-imc": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-10-04",
+      "contenido": "0d3ea38eaa61",
+      "componente": "79fd90382388"
+    },
+    "calculadora-alicia": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-10-04",
+      "contenido": "ee01dfc8810c",
+      "componente": "db000a412c47"
+    },
+    "generador-qr": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "742e43d1b03f",
+      "componente": "6c490dd3a24d"
+    },
+    "calculadora-horas": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "8e08ad6100c1",
+      "componente": "216aa489bfbc"
+    },
+    "calculadora-cientifica": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-10-04",
+      "contenido": "67d39d650612",
+      "componente": "55255174e9c7"
+    },
+    "calculadora-finiquito": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-10-04",
+      "contenido": "8ef971031939",
+      "componente": "4237e8a5920b"
+    },
+    "calculadora-isr": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-09-30",
+      "contenido": "dc98fc287885",
+      "componente": "5e00f12782b9"
+    },
+    "calcular-aguinaldo": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-10-04",
+      "contenido": "b3ad64382c55",
+      "componente": "d76c93d9129e"
+    },
+    "calculadora-dias": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-10-04",
+      "contenido": "53a30ed5d286",
+      "componente": "a5f2211d8614"
+    },
+    "calcular-iva": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-10-04",
+      "contenido": "2e65477633ca",
+      "componente": "6e53f24abf1f"
+    },
+    "calculo-mental": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-10-04",
+      "contenido": "a9c632750cb1",
+      "componente": "7c33d9ac8150"
+    },
+    "calcular-curp": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "cb990726ff8c",
+      "componente": "7631645f4f3b"
+    },
+    "calculadora-porcentaje": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-10-04",
+      "contenido": "dd8691fbcc74",
+      "componente": "133f66c43612"
+    },
+    "convertidor-moneda": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "651cf3d153a0",
+      "componente": "745977ce1ff1"
+    },
+    "generador-contrasenas": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "17c51d2ab47d",
+      "componente": "7234486e6bcb"
+    },
+    "contador-palabras": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "e562c51ab3b7",
+      "componente": "170a95bdc45f"
+    },
+    "calculadora-propinas": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "d186b9d2dd53",
+      "componente": "a241579e8138"
+    },
+    "calculadora-prestamo": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-10-04",
+      "contenido": "2c1733bc73f2",
+      "componente": "39b6708bf573"
+    },
+    "convertidor-unidades": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-10-04",
+      "contenido": "b29723be3019",
+      "componente": "da5f254a0223"
+    },
+    "generador-nombres": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-10-04",
+      "contenido": "6026aae0841e",
+      "componente": "ff51141c065d"
+    },
+    "convertidor-imagenes": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "7db6211cf650",
+      "componente": "8843ad63ab76"
+    },
+    "imagenes-a-pdf": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "15201ef78359",
+      "componente": "c6d5db147041"
+    },
+    "convertidor-numeros-a-letras": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "147235cbee4f",
+      "componente": "0ab8f048acb3"
+    },
+    "convertidor-fracciones": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "6400d08480e0",
+      "componente": "35606efa7348"
+    },
+    "convertidor-mayusculas-minusculas": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "9635de2c9feb",
+      "componente": "4bcde7e2f31c"
+    },
+    "convertidor-binario": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-10-04",
+      "contenido": "71ba3f088d21",
+      "componente": "fe464afba840"
+    },
+    "calculadora-irpf": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "0cd6dbe06635",
+      "componente": "42b1d0c0a4c4"
+    },
+    "calcular-hipoteca": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "060061027bc3",
+      "componente": "3eb6f0a2026f"
+    },
+    "calcular-letra-dni": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "1af778d67691",
+      "componente": "6072587ab4d5"
+    },
+    "calculo-pension-jubilacion": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "ad9e15888850",
+      "componente": "bd1deb63e327"
+    },
+    "calculadora-apiretal": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-10-04",
+      "contenido": "03dfff7c381f",
+      "componente": "70b122eec610"
+    },
+    "calculadora-del-amor": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "58775391b555",
+      "componente": "3fa2bb1b19fa"
+    },
+    "calcular-nit": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-10-04",
+      "contenido": "6c05022a10f1",
+      "componente": "493a5295d44d"
+    },
+    "calcular-cuil": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "39992da7a516",
+      "componente": "0c42531dad9e"
+    },
+    "calcular-rut": {
+      "creado": "2026-08-27",
+      "actualizado": "2026-08-27",
+      "contenido": "986a95f80d12",
+      "componente": "5a25bc433a03"
+    },
+    "calcular-area-circulo": {
+      "creado": "2026-08-28",
+      "actualizado": "2026-10-04",
+      "contenido": "99ab195246ad",
+      "componente": "11d8a3dded81"
+    },
+    "calcular-hexadecimal-a-decimal": {
+      "creado": "2026-08-29",
+      "actualizado": "2026-10-04",
+      "contenido": "5cf7e2839834",
+      "componente": "e11b4a8a4fb1"
+    },
+    "calcular-velocidad-distancia-tiempo": {
+      "creado": "2026-08-29",
+      "actualizado": "2026-10-04",
+      "contenido": "f30452c26f57",
+      "componente": "e329bef5e577"
+    },
+    "calcular-gasolina": {
+      "creado": "2026-08-29",
+      "actualizado": "2026-10-04",
+      "contenido": "c0e841d71316",
+      "componente": "0dfa646c3ea1"
+    },
+    "calcular-volumen-cilindro": {
+      "creado": "2026-08-29",
+      "actualizado": "2026-10-04",
+      "contenido": "398074138507",
+      "componente": "e3fa46cf21b0"
+    },
+    "calcular-ritmo": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-09-06",
+      "contenido": "e4cbb6a6ae04",
+      "componente": "b156f2b72fee"
+    },
+    "cronometro-online": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "5ddfe3fb96fa",
+      "componente": "6ea10105d2da"
+    },
+    "palabras-al-reves": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-09-06",
+      "contenido": "1f9a1dffa712",
+      "componente": "1580fa36805e"
+    },
+    "celsius-a-fahrenheit": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-09-06",
+      "contenido": "c349c9a04d41",
+      "componente": "05ef3dac655a"
+    },
+    "bar-a-psi": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "e4964b31c321",
+      "componente": "7d585eaaca20"
+    },
+    "medidas-de-cocina": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "e6f2ebdf2019",
+      "componente": "6ea6e6311ef7"
+    },
+    "tipografia-para-instagram": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "b03248ba5353",
+      "componente": "5fdb94793adf"
+    },
+    "cm-a-pulgadas": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "95805a261eed",
+      "componente": "447c9d1adace"
+    },
+    "arroba-a-kilos": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-09-06",
+      "contenido": "5d8290e026a2",
+      "componente": "f8e0303cf160"
+    },
+    "calculadora-tiempo-lectura": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "f6da69c5a717",
+      "componente": "175da7f7ea21"
+    },
+    "calcular-indemnizacion-despido": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "291031ba3ac3",
+      "componente": "63b73f994d63"
+    },
+    "calcular-sac-argentina": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "1a790faba387",
+      "componente": "6e5a629bf495"
+    },
+    "calculadora-alquiler-argentina": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "fbf52faed604",
+      "componente": "1cf197ff926b"
+    },
+    "calculadora-plazo-fijo": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-09-06",
+      "contenido": "95d039da996e",
+      "componente": "6d6bcf142685"
+    },
+    "calculadora-interes-compuesto": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "81b73110f2d0",
+      "componente": "9d1f09f522a5"
+    },
+    "calculadora-sueldo-neto-argentina": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-09-06",
+      "contenido": "a505fda4f6b8",
+      "componente": "0d32a0943757"
+    },
+    "calculadora-area": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "239269662b70",
+      "componente": "307fed1d7c95"
+    },
+    "calculadora-volumen": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "6b2dcebef2d9",
+      "componente": "0e7e061471b4"
+    },
+    "calculadora-calculos-combinados": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "e9c49fc3316b",
+      "componente": "522a648275a2"
+    },
+    "calculadora-resistencias": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "f80f1c8c2c28",
+      "componente": "643736660cd0"
+    },
+    "calculadora-calorias": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "d0d6246a07f2",
+      "componente": "6211b73ef36c"
+    },
+    "calculadora-embarazo": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "e7654e5528e6",
+      "componente": "a514008dde81"
+    },
+    "calculadora-peso-ideal": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-09-06",
+      "contenido": "3478f5b4c6e7",
+      "componente": "1f1a37b39dbb"
+    },
+    "calculadora-ciclos-sueno": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "09989f87a795",
+      "componente": "4ca802c419a3"
+    },
+    "calculadora-de-escalas": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "308343a8d382",
+      "componente": "7ae3bf0900f8"
+    },
+    "sopa-de-letras": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-09-06",
+      "contenido": "1e9a4ae9859e",
+      "componente": "657c7a58c4c9"
+    },
+    "generador-de-letras-grandes": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "3b624b028c8e",
+      "componente": "555c79833542"
+    },
+    "generador-codigo-de-barras": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-09-06",
+      "contenido": "f3d2efdf0e7a",
+      "componente": "6352a4aff061"
+    },
+    "generador-de-crucigramas": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "e78159abad69",
+      "componente": "eb124dc408ee"
+    },
+    "generador-de-nombres-para-free-fire": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "1d470d5b2399",
+      "componente": "3b1a41463cf8"
+    },
+    "generador-de-link-de-whatsapp": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "54cc3027894c",
+      "componente": "22ec26552cdd"
+    },
+    "calculadora-engagement-instagram": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "016abda738c4",
+      "componente": "1a667ce4c11b"
+    },
+    "calculador-de-horarios": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "5e2a56ce95a6",
+      "componente": "555924134932"
+    },
+    "hexadecimal-a-texto": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "e25c312d63fc",
+      "componente": "dbfa51d8df23"
+    },
+    "ruleta-aleatoria-online": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "10debe7fa152",
+      "componente": "d2ecdcf9cc5d"
+    },
+    "calculadora-promedio-ponderado": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "9740a0ec5c87",
+      "componente": "1fde5ceb87d7"
+    },
+    "calculadora-cts-peru": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-09-06",
+      "contenido": "90ea525253a9",
+      "componente": "6cb8699c85d6"
+    },
+    "calcular-gratificacion-peru": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "a8e7d3291732",
+      "componente": "237c17d84c18"
+    },
+    "calculadora-de-igv": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "40ae46533527",
+      "componente": "50ee4f6dacd5"
+    },
+    "calcular-detraccion": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-09-06",
+      "contenido": "1808ba87b9a1",
+      "componente": "5a3d6f715e6b"
+    },
+    "calculadora-de-matrices": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "a380dcad1b7d",
+      "componente": "3007fe566fc3"
+    },
+    "calculadora-de-ecuaciones": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "9b1b72fca65f",
+      "componente": "c5cb42f6f842"
+    },
+    "calculadora-precios-influencers-tiktok": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "ea43996ad1bc",
+      "componente": "0a494a4f80f8"
+    },
+    "calculadora-ip": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "7a1bfde41432",
+      "componente": "a0443724dc6d"
+    },
+    "calculadora-regla-de-tres": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "7cde28e33ef9",
+      "componente": "65442c4ca9f6"
+    },
+    "calculadora-de-pendiente": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-09-06",
+      "contenido": "b2fc6994758a",
+      "componente": "bfdc59b00427"
+    },
+    "calculadora-derivadas-integrales": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "338a66d82c2a",
+      "componente": "cc62f60df6a3"
+    },
+    "calculadora-ldl": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "20f59915c6d8",
+      "componente": "f42a7f144ef5"
+    },
+    "calculadora-pafi": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-09-25",
+      "contenido": "38bee8309d22",
+      "componente": "8c0cb92a86b2"
+    },
+    "indice-de-barthel": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "34f883c05d40",
+      "componente": "e19049d100a0"
+    },
+    "calculadora-liquidacion-laboral-colombia": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "29b9af4ea91d",
+      "componente": "aa25586b78cd"
+    },
+    "calculadora-seguridad-social-colombia": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "2cc74db538f5",
+      "componente": "33c8e9e19f6d"
+    },
+    "calculadora-cdt": {
+      "creado": "2026-09-06",
+      "actualizado": "2026-10-04",
+      "contenido": "8622c1bcfa92",
+      "componente": "8248fafafe5c"
+    },
+    "calcular-prima-vacacional": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "731a6750ea9f",
+      "componente": "92a5eaacae9d"
+    },
+    "calcular-vacaciones": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "5ed674671d4a",
+      "componente": "8ef5b00530cb"
+    },
+    "calcular-ptu": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "1a1bf85d9d90",
+      "componente": "4799ee0dfbce"
+    },
+    "calcular-salario-diario-integrado": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "b31706fa2067",
+      "componente": "715b876774f7"
+    },
+    "calculadora-cat": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "ff588dd544e1",
+      "componente": "b9587d358f6a"
+    },
+    "calculadora-nomina": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "6bc4bad00dfe",
+      "componente": "666396820f0e"
+    },
+    "calcular-descuento": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "60db91374e3e",
+      "componente": "21e29c80fc3a"
+    },
+    "calculadora-ahorro": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "0937f75e2ec0",
+      "componente": "11e6bb519b3b"
+    },
+    "calculadora-roi": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "d112b366a417",
+      "componente": "2ceaae0f4a99"
+    },
+    "calculadora-nota-necesaria": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "c6eb53e5315c",
+      "componente": "f2d3521250bf"
+    },
+    "calculadora-dias-habiles": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "0e0b4420f1b4",
+      "componente": "b02214e6f7d8"
+    },
+    "calcular-fecha-futura": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "447ef55da73d",
+      "componente": "82b75eee98c0"
+    },
+    "validador-iban": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "b5ae48f81a19",
+      "componente": "50382d31fcd8"
+    },
+    "calculadora-ovulacion": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "61b47ede46ee",
+      "componente": "388f7e5e535f"
+    },
+    "calculadora-tmb": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "593d2fd6e85f",
+      "componente": "8b28a2e7519c"
+    },
+    "calculadora-grasa-corporal": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "017009e1a999",
+      "componente": "36760295477e"
+    },
+    "calculadora-agua-diaria": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "42e36abcf1d0",
+      "componente": "04d667283cf2"
+    },
+    "formateador-json": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "42a72c9d80d8",
+      "componente": "ea313a2e972c"
+    },
+    "codificador-base64": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "f94774250d28",
+      "componente": "a63838e26672"
+    },
+    "generador-uuid": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "6b13cd3818d2",
+      "componente": "cf139b6a88fd"
+    },
+    "probador-regex": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "3e0b49dc3e6a",
+      "componente": "26ca91bb7612"
+    },
+    "generador-hash": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "4c2c0275919f",
+      "componente": "3f055554fdb4"
+    },
+    "generador-lorem-ipsum": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "edbfa3523233",
+      "componente": "e17c7e6666ef"
+    },
+    "validador-email": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "324eccd28f8a",
+      "componente": "225890071b39"
+    },
+    "contador-caracteres": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "a75f4be87101",
+      "componente": "a6dde783e349"
+    },
+    "sorteo-online": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "da98accf6327",
+      "componente": "e9ebcebb672a"
+    },
+    "generador-numeros-aleatorios": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "1eaf5dd5a928",
+      "componente": "92c558126219"
+    },
+    "cara-o-cruz": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "08deca7f0f37",
+      "componente": "0028574fe837"
+    },
+    "temporizador-online": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "c877beef368f",
+      "componente": "0362cf4ced37"
+    },
+    "conversor-criptomonedas": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "43b591979e0f",
+      "componente": "055acec8d76d"
+    },
+    "conversor-zona-horaria": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "53ea2f43bc41",
+      "componente": "ad3ea4940458"
+    },
+    "kilos-a-libras": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "ec8eb386b8d2",
+      "componente": "3d945c3c56da"
+    },
+    "convertidor-tallas": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "a1f45cd4806b",
+      "componente": "001d580546b7"
+    },
+    "calcular-subsidio-empleo": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "bc3f3544c65f",
+      "componente": "5ff99e32912c"
+    },
+    "calcular-cuota-imss": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "eb362e591fa7",
+      "componente": "bca4afd82c98"
+    },
+    "salarios-minimos-2026": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "b0638c97dd2c",
+      "componente": "9ba5d2aa1966"
+    },
+    "pension-imss-modalidad-40": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "6dff5f3dc0eb",
+      "componente": "8befb6719ccf"
+    },
+    "semanas-cotizadas-imss": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "8c994ec7b668",
+      "componente": "d87a7926a116"
+    },
+    "calcular-horas-extras": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "a9aa9a38bb0f",
+      "componente": "21310cbe1cd8"
+    },
+    "comparador-afore": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "cbfc8c60290c",
+      "componente": "e11a7d6cec1a"
+    },
+    "calcular-isr-aguinaldo": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "0ab36f54e4b5",
+      "componente": "d29e0896713f"
+    },
+    "dolar-a-peso-mexicano": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "0ea1026f2a89",
+      "componente": "8b4d2aa510c6"
+    },
+    "tabla-de-amortizacion": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "fb543b0a8995",
+      "componente": "1e84d18db8c7"
+    },
+    "calculadora-cetes": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "234980f101c2",
+      "componente": "74a88968fcc2"
+    },
+    "simulador-credito-automotriz": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "f6b0678dd17c",
+      "componente": "20ac16272a01"
+    },
+    "calculadora-interes-simple": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "6cd0bea371d7",
+      "componente": "521b298e94b4"
+    },
+    "presupuesto-mensual": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "9772b0a57c27",
+      "componente": "c14b261786e0"
+    },
+    "plan-pago-deudas": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "00becf895b80",
+      "componente": "de68b0e51b26"
+    },
+    "calculadora-comision-ventas": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "2b67948695b1",
+      "componente": "0fe0d0c5f871"
+    },
+    "comparador-precios": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "8e0f5c7394ca",
+      "componente": "005b112f3c18"
+    },
+    "libras-a-kilos": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "9b203c886e06",
+      "componente": "c1cd78fbbd02"
+    },
+    "fahrenheit-a-celsius": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "977b3e33a99f",
+      "componente": "1327bb47e0b1"
+    },
+    "onzas-a-gramos": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "5a5d7078323a",
+      "componente": "c99a540867ea"
+    },
+    "tazas-a-ml": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "f3998dc576ef",
+      "componente": "6072779f1b3c"
+    },
+    "millas-a-kilometros": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "ccc326538586",
+      "componente": "78e3772afb80"
+    },
+    "pies-a-metros": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "b51ea7e4bdbd",
+      "componente": "9307b953efb9"
+    },
+    "litros-a-galones": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "f08fd31ddb7d",
+      "componente": "bf5d096e3dfe"
+    },
+    "validar-curp": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "a188a8768521",
+      "componente": "9f0bd1e9e348"
+    },
+    "dividir-cuenta": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "35c85d5c0753",
+      "componente": "dc0a2125d268"
+    },
+    "hora-militar": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "6b088a1610fb",
+      "componente": "9c27df01d55a"
+    },
+    "calculadora-promedio": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "6d61b666f23f",
+      "componente": "c98bc8a71763"
+    },
+    "calculadora-fracciones": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "2429e8ac7e09",
+      "componente": "353e16488b81"
+    },
+    "calculadora-mcd-mcm": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "3172be2cf820",
+      "componente": "5bce0c90247e"
+    },
+    "calculadora-pitagoras": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "59277e34aca9",
+      "componente": "6e55e5a0b390"
+    },
+    "calculadora-factorial": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "173cad35021c",
+      "componente": "e06d728a3186"
+    },
+    "calculadora-desviacion-estandar": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "c45075e766b3",
+      "componente": "f2f0eb6b824d"
+    },
+    "tablas-de-multiplicar": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "49d0d6dd0e1c",
+      "componente": "824c48943ac3"
+    },
+    "edad-de-mi-perro": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "6c23a4ed6fa2",
+      "componente": "e88e61f537ac"
+    },
+    "decodificador-jwt": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "a1bbd3b07caf",
+      "componente": "6eb5aaef8e49"
+    },
+    "conversor-csv-json": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "04afd2a61f3d",
+      "componente": "7fefa832f697"
+    },
+    "codificador-url": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "c8410b39b680",
+      "componente": "8f5a4215e79c"
+    },
+    "minificador-codigo": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "4feb640d344a",
+      "componente": "32f608d36387"
+    },
+    "generador-datos-prueba": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "ca33f99ae054",
+      "componente": "67b924113c0d"
+    },
+    "generador-paleta-colores": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "b4e207233ba8",
+      "componente": "4d199ab0f165"
+    },
+    "selector-de-color": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "a4c90b602371",
+      "componente": "21405e78425b"
+    },
+    "conversor-hex-rgb": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "25dc86dc9fad",
+      "componente": "96d2a983ea81"
+    },
+    "imagen-a-base64": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "7ae1191d8529",
+      "componente": "c28c2b0697d9"
+    },
+    "generador-nombres-bebe": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "fe558156799c",
+      "componente": "53db2bfe90be"
+    },
+    "generador-apodos": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "0f9540b7dc85",
+      "componente": "cb1f25b82113"
+    },
+    "generador-nombres-empresa": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "453efdc5f387",
+      "componente": "b33001ff46e5"
+    },
+    "piedra-papel-tijera": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "0a12d63f9d52",
+      "componente": "f844d07148bd"
+    },
+    "generador-equipos": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "b32c3a2d3251",
+      "componente": "29a630a70e1e"
+    },
+    "tombola-online": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "890d66864efe",
+      "componente": "37b8fa0dc0e6"
+    },
+    "verdad-o-reto": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "64dd87499733",
+      "componente": "3fa2d8360348"
+    },
+    "ideas-para-historias": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "cd95aa934a9b",
+      "componente": "6e0277682819"
+    },
+    "generador-hashtags": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "b4d83c1cf5b4",
+      "componente": "bcf3cc516c34"
+    },
+    "generador-bio-instagram": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "4bfeca28f04f",
+      "componente": "5f640d550807"
+    },
+    "generador-firma-email": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "c32dff664136",
+      "componente": "c2e8909bbec5"
+    },
+    "generador-esloganes": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "9bf5a223c979",
+      "componente": "8abec8ce7aee"
+    },
+    "generador-utm": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "6dccbe17d031",
+      "componente": "5703eb80f783"
+    },
+    "markdown-a-html": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "590723c66870",
+      "componente": "95aea8000cbc"
+    },
+    "calcular-paro": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "bbe40728e495",
+      "componente": "b1c1d649c3f5"
+    },
+    "cuota-autonomo": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "cc03c1ee5cf8",
+      "componente": "85496ba8ab12"
+    },
+    "calcular-plusvalia": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "636512a79fee",
+      "componente": "c75939dee71a"
+    },
+    "nota-de-corte": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "1d5b08c7f093",
+      "componente": "39ae09a96993"
+    },
+    "calculadora-factura-luz": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "bbb6baa5610c",
+      "componente": "08c139bf55d4"
+    },
+    "jubilacion-espana": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "bba3a617a8b0",
+      "componente": "bd36d44df8a9"
+    },
+    "impuesto-sucesiones": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "54b9aa5d2626",
+      "componente": "bbcc949b7d7f"
+    },
+    "cuanto-cuesta-reformar": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "836f4a7747a7",
+      "componente": "4ca2ca109478"
+    },
+    "huella-de-carbono": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "5fcd8c3966ce",
+      "componente": "bf2569eb757f"
+    },
+    "dolar-blue": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "d2dffeba2652",
+      "componente": "7cb62ab7f15e"
+    },
+    "monotributo": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "fa4dad3b37b0",
+      "componente": "a33a86d597c0"
+    },
+    "calculadora-inflacion": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "6a6ce3ed587f",
+      "componente": "33d9063c274f"
+    },
+    "preaviso-laboral": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "91b23347d052",
+      "componente": "7a86a67e17d7"
+    },
+    "sueldo-liquido-chile": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "c7adc90fd25f",
+      "componente": "3677e47c76ef"
+    },
+    "finiquito-chile": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "b2c8c9c65e60",
+      "componente": "bf7acf146f8a"
+    },
+    "uf-a-pesos": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "3344a6d81e81",
+      "componente": "c74d11509e74"
+    },
+    "utm-a-pesos": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "2d7f60437ea0",
+      "componente": "1e58d8d5c210"
+    },
+    "dividendo-hipotecario": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "4f1f51cb5cb8",
+      "componente": "0fc1372b91c9"
+    },
+    "gratificacion-chile": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "f3a15cd3f406",
+      "componente": "b275d4bb63bd"
+    },
+    "cotizacion-afp": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "90a0e0952aab",
+      "componente": "943b72bd2af4"
+    },
+    "puntaje-paes": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "53de774101cd",
+      "componente": "cf0a0ecd3bb8"
+    },
+    "prima-de-servicios": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "bed24faf2a59",
+      "componente": "97b27251213e"
+    },
+    "calcular-cesantias": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "c5329e862509",
+      "componente": "e8334230b176"
+    },
+    "intereses-cesantias": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "1b6d0b125ef9",
+      "componente": "330bd4f1226f"
+    },
+    "retencion-en-la-fuente": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "52206fb5819c",
+      "componente": "d434148b1b89"
+    },
+    "vacaciones-colombia": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "52ebd41d1fa8",
+      "componente": "7be064bc40bd"
+    },
+    "renta-quinta-categoria": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "90ac778a9304",
+      "componente": "e00eaff32112"
+    },
+    "uit-a-soles": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "a384a4c6917c",
+      "componente": "f7d4a59d7cf4"
+    },
+    "vacaciones-peru": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "82a8b2716eaa",
+      "componente": "b81f3c62d35f"
+    },
+    "afp-vs-onp": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "80ba0a2f2897",
+      "componente": "ca82a63ef1c2"
+    },
+    "decimo-tercer-sueldo": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "0d5fa9c8f1de",
+      "componente": "271963563e68"
+    },
+    "decimo-cuarto-sueldo": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "3113f7f063c6",
+      "componente": "d09579966dec"
+    },
+    "fondos-de-reserva": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "5e11d55b26ea",
+      "componente": "d9feefdff111"
+    },
+    "impuesto-renta-ecuador": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "7f5db43645d9",
+      "componente": "1cd4a2814b7d"
+    },
+    "aguinaldo-uruguay": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "058fb2afccdc",
+      "componente": "a68d02d784a5"
+    },
+    "irpf-uruguay": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "ac519db51351",
+      "componente": "279867ee510f"
+    },
+    "amigo-invisible": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "a23daf44f884",
+      "componente": "a8c25fe97ec5"
+    },
+    "dias-para-navidad": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "435ec811d867",
+      "componente": "b03862409967"
+    },
+    "presupuesto-boda": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "06c40b386e83",
+      "componente": "5767075922a1"
+    },
+    "comprimir-imagen": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "f6d371b0987d",
+      "componente": "869304d81fbd"
+    },
+    "redimensionar-imagen": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "7c002715180a",
+      "componente": "786934da0549"
+    },
+    "generador-favicon": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "e60053ec74d3",
+      "componente": "1bb3012bdbb7"
+    },
+    "generador-excusas": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-09-30",
+      "contenido": "2bb80857bed9",
+      "componente": "1c4ea2c13ed8"
+    },
+    "tallas-de-anillo": {
+      "creado": "2026-09-30",
+      "actualizado": "2026-10-04",
+      "contenido": "5c6e2ce60b4b",
+      "componente": "a14a8d7ad67a"
+    },
+    "calculadora-finiquito-mexico": {
+      "creado": "2026-10-04",
+      "actualizado": "2026-10-04",
+      "contenido": "10355dc51ca1",
+      "componente": "2c5797c800f5"
+    },
+    "calculadora-4x1000": {
+      "creado": "2026-10-04",
+      "actualizado": "2026-10-04",
+      "contenido": "4fe0656f547a",
+      "componente": "3da596c763b5"
+    },
+    "calculadora-de-notas": {
+      "creado": "2026-10-04",
+      "actualizado": "2026-10-04",
+      "contenido": "e32c18b0b2f0",
+      "componente": "a9744e6f13fc"
+    },
+    "calculadora-empleados-de-comercio": {
+      "creado": "2026-10-04",
+      "actualizado": "2026-10-04",
+      "contenido": "7d45731464bf",
+      "componente": "9ad38d21b75a"
+    },
+    "calculadora-registral": {
+      "creado": "2026-10-04",
+      "actualizado": "2026-10-04",
+      "contenido": "0aef6772dbc1",
+      "componente": "811cebf4c643"
+    },
+    "calculadora-upao": {
+      "creado": "2026-10-04",
+      "actualizado": "2026-10-04",
+      "contenido": "b312f1ba985d",
+      "componente": "df1b5ce37fef"
+    },
+    "convertidor-libras-a-newtons": {
+      "creado": "2026-10-04",
+      "actualizado": "2026-10-04",
+      "contenido": "fa95d5cf9d4d",
+      "componente": "cd7a0261f267"
+    },
+    "calculadora-suteba": {
+      "creado": "2026-10-05",
+      "actualizado": "2026-10-05",
+      "contenido": "a87582f2c7ac",
+      "componente": "b3fc03cb1524"
+    },
+    "simulador-liga-1": {
+      "creado": "2026-10-05",
+      "actualizado": "2026-10-05",
+      "contenido": "d61ada7fe209",
+      "componente": "251ac515030f"
+    }
+  },
+  "paginas": {
+    "privacidad": "2026-08-27",
+    "terminos": "2026-08-27",
+    "cookies": "2026-08-27",
+    "acerca": "2026-08-27",
+    "contacto": "2026-08-27",
+    "calculadoras": "2026-10-04",
+    "convertidores": "2026-10-04",
+    "generadores": "2026-10-04",
+    "juegos": "2026-10-04",
+    "texto": "2026-10-04",
+    "inicio": "2026-10-04"
+  }
+}
