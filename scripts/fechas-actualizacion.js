@@ -23,7 +23,9 @@ const git = (cmd) => {
     return ''
   }
 }
-const hayGit = git('rev-parse --is-inside-work-tree') === 'true'
+// Un clon superficial (como el del servidor de despliegue) no tiene el historial completo: sus fechas serían falsas,
+// así que en ese caso se conservan las de data/fechas.json.
+const hayGit = git('rev-parse --is-inside-work-tree') === 'true' && git('rev-parse --is-shallow-repository') !== 'true'
 const fechaArchivo = (rel) => (hayGit && git(`log -1 --format=%cs -- "${rel}"`)) || null
 const contenido = (tool) => JSON.stringify(CAMPOS.map((c) => tool[c] ?? null))
 const hash = (texto) => crypto.createHash('sha1').update(texto).digest('hex').slice(0, 12)
