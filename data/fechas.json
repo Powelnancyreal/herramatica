@@ -122,62 +122,62 @@
     },
     "calculadora-prestamo": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-04",
-      "contenido": "2c1733bc73f2",
+      "actualizado": "2026-10-20",
+      "contenido": "693260dca88d",
       "componente": "39b6708bf573"
     },
     "convertidor-unidades": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-04",
-      "contenido": "b29723be3019",
+      "actualizado": "2026-10-20",
+      "contenido": "ee4d747224de",
       "componente": "da5f254a0223"
     },
     "generador-nombres": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-04",
-      "contenido": "6026aae0841e",
+      "actualizado": "2026-10-20",
+      "contenido": "3664b08f0a3b",
       "componente": "ff51141c065d"
     },
     "convertidor-imagenes": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "7db6211cf650",
+      "actualizado": "2026-10-20",
+      "contenido": "c71bf8f71518",
       "componente": "8843ad63ab76"
     },
     "imagenes-a-pdf": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "15201ef78359",
+      "actualizado": "2026-10-20",
+      "contenido": "69342e6b2ef0",
       "componente": "c6d5db147041"
     },
     "convertidor-numeros-a-letras": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "147235cbee4f",
+      "actualizado": "2026-10-20",
+      "contenido": "1b2073de8ab1",
       "componente": "0ab8f048acb3"
     },
     "convertidor-fracciones": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "6400d08480e0",
+      "actualizado": "2026-10-20",
+      "contenido": "177f3e688a7b",
       "componente": "35606efa7348"
     },
     "convertidor-mayusculas-minusculas": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "9635de2c9feb",
+      "actualizado": "2026-10-20",
+      "contenido": "57df82b53f2e",
       "componente": "4bcde7e2f31c"
     },
     "convertidor-binario": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-04",
-      "contenido": "71ba3f088d21",
+      "actualizado": "2026-10-20",
+      "contenido": "abef86e4bfd8",
       "componente": "fe464afba840"
     },
     "calculadora-irpf": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "0cd6dbe06635",
+      "actualizado": "2026-10-20",
+      "contenido": "524f908488a5",
       "componente": "42b1d0c0a4c4"
     },
     "calcular-hipoteca": {

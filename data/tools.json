@@ -3024,31 +3024,113 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula el pago mensual de un préstamo a partir del monto, la tasa de interés anual y el plazo, usando el sistema de amortización francés (cuota fija), el más común en préstamos personales, hipotecas y créditos automotrices. Además del pago mensual, obtén el total de intereses que pagarás y la tabla de amortización completa, mes a mes.",
-    "howToUse": [
-      "Introduce el monto del préstamo",
-      "Indica la tasa de interés anual (la que te informa la institución financiera)",
-      "Introduce el plazo del préstamo, en meses o en años",
-      "Pulsa \"Calcular préstamo\" para ver la cuota mensual, el total a pagar y la tabla de amortización completa"
-    ],
-    "benefits": [
-      "Usa el sistema de amortización francés (cuota fija), el más habitual en préstamos personales e hipotecas",
-      "Muestra el total de intereses que pagarás durante toda la vida del préstamo, no solo la cuota mensual",
-      "Incluye la tabla de amortización completa, mes a mes, con capital, interés y saldo restante",
-      "Permite introducir el plazo en meses o en años, según te resulte más cómodo",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe el monto, la tasa de interés anual y el plazo para saber tu pago mensual, cuánto pagarás de intereses en total y cómo baja tu deuda mes a mes con el sistema francés de cuota fija.",
+    "bloques": [
       {
-        "title": "¿Cómo funciona el sistema de amortización francés?",
-        "body": "En el sistema francés, la cuota mensual es siempre la misma durante todo el préstamo, pero la proporción entre capital e interés cambia mes a mes: al principio, la mayor parte de la cuota se destina a pagar intereses (porque el saldo pendiente es más alto), y con el tiempo, una proporción cada vez mayor se destina a pagar capital. Es el sistema más usado en préstamos personales, hipotecas y créditos automotrices porque ofrece una cuota predecible y estable."
+        "tipo": "infografia",
+        "archivo": "amortizacion-prestamo-cuota-fija.webp",
+        "alt": "Reparto de capital e intereses en cada cuota de un préstamo de 100 mil pesos a 12 meses",
+        "ancho": 800,
+        "alto": 1011,
+        "titulo": "¿Cuánto de cada pago se va a intereses y cuánto a capital?"
       },
       {
-        "title": "¿Por qué pago tantos intereses al principio del préstamo?",
-        "body": "Los intereses de cada mes se calculan sobre el saldo pendiente del préstamo, que es más alto al inicio. Por eso, en las primeras cuotas, una parte mayor de tu pago se destina a intereses y una parte menor a reducir el capital. A medida que el saldo pendiente disminuye, los intereses de cada cuota también disminuyen, y una proporción mayor de la cuota se destina a pagar capital. Este patrón es normal y no significa que estés pagando \"de más\": es matemáticamente inherente al sistema de amortización francés."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto pago al mes por un préstamo de $100,000?",
+        "intro": "Con una tasa anual del 18 %, alargar el plazo baja la mensualidad pero multiplica los intereses.",
+        "cabeceras": [
+          "Plazo",
+          "Pago mensual",
+          "Intereses totales"
+        ],
+        "filas": [
+          [
+            "12 meses",
+            "$9,168.00",
+            "$10,015.99"
+          ],
+          [
+            "24 meses",
+            "$4,992.41",
+            "$19,817.84"
+          ],
+          [
+            "36 meses",
+            "$3,615.24",
+            "$30,148.62"
+          ],
+          [
+            "48 meses",
+            "$2,937.50",
+            "$41,000.00"
+          ],
+          [
+            "60 meses",
+            "$2,539.34",
+            "$52,360.56"
+          ]
+        ],
+        "nota": "A 60 meses pagas en intereses más de la mitad de lo que pediste prestado."
       },
       {
-        "title": "Fórmula del pago mensual (cuota fija)",
-        "body": "La cuota mensual se calcula con la fórmula M = P × r × (1+r)ⁿ / ((1+r)ⁿ − 1), donde P es el monto del préstamo, r es la tasa de interés mensual (la tasa anual dividida entre 12 y expresada en decimal), y n es el número total de cuotas mensuales. Esta calculadora aplica exactamente esta fórmula y genera la tabla de amortización completa a partir de ella."
+        "tipo": "texto",
+        "titulo": "¿Cómo se calcula la cuota fija de un préstamo?",
+        "parrafos": [
+          "La fórmula del sistema francés es M = P × r × (1 + r)ⁿ ÷ ((1 + r)ⁿ − 1), donde P es el monto, r la tasa mensual (la anual entre 12, en decimal) y n el número de pagos. Para $100,000 al 18 % a 12 meses, r = 0.015 y la cuota sale de $9,168.00.",
+          "Cada mes, el interés se calcula sobre lo que aún debes y el resto de la cuota amortiza capital. Puedes ver el desglose mes a mes en la [tabla de amortización](/tabla-de-amortizacion)."
+        ]
+      },
+      {
+        "tipo": "comparacion",
+        "titulo": "¿Conviene más reducir el plazo o la mensualidad con un pago anticipado?",
+        "columnas": [
+          {
+            "titulo": "Reducir el plazo",
+            "tono": "verde",
+            "items": [
+              "Mantienes la misma cuota y terminas antes.",
+              "Es la opción que más intereses ahorra.",
+              "Ideal si la cuota actual no te aprieta."
+            ]
+          },
+          {
+            "titulo": "Reducir la cuota",
+            "tono": "azul",
+            "items": [
+              "Terminas en la misma fecha pero pagas menos cada mes.",
+              "Ahorras menos intereses.",
+              "Útil si necesitas liberar dinero cada mes."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "ambar",
+        "titulo": "¿Qué costos de un préstamo no aparecen en la tasa de interés?",
+        "texto": "Esta calculadora usa solo la tasa de interés. Los bancos suman comisión por apertura, seguros e IVA sobre los intereses. Para comparar ofertas de verdad fíjate en el CAT, que incluye todos esos costos: calcúlalo con la [calculadora de CAT](/calculadora-cat)."
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Qué calculadora usar según el tipo de crédito?",
+        "items": [
+          {
+            "titulo": "Coche",
+            "texto": "Con enganche y plazos típicos de agencia: [simulador de crédito automotriz](/simulador-credito-automotriz)."
+          },
+          {
+            "titulo": "Casa",
+            "texto": "Plazos de 15 a 30 años y tasa fija o variable: [calculadora de hipoteca](/calcular-hipoteca)."
+          },
+          {
+            "titulo": "Varias deudas",
+            "texto": "Si tienes tarjetas y préstamos a la vez, ordena los pagos con el [plan de pago de deudas](/plan-pago-deudas)."
+          },
+          {
+            "titulo": "Interés compuesto",
+            "texto": "Para ver cómo crece un ahorro o una inversión, usa la [calculadora de interés compuesto](/calculadora-interes-compuesto)."
+          }
+        ]
       }
     ],
     "faqs": [
@@ -3090,36 +3172,102 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte entre las unidades de medida más habituales del sistema métrico e imperial: longitud, peso, temperatura, volumen, velocidad, área, presión y potencia. Elige la categoría, selecciona la unidad de origen y destino, e introduce el valor para obtener el resultado al instante.",
-    "howToUse": [
-      "Elige la categoría de medida: longitud, peso, temperatura, volumen, velocidad, área, presión o potencia",
-      "Selecciona la unidad de origen (\"De\") y la unidad de destino (\"A\")",
-      "Introduce el valor que quieres convertir",
-      "El resultado se calcula automáticamente; usa el botón ⇄ para invertir el sentido de la conversión"
-    ],
-    "benefits": [
-      "Ocho categorías de conversión en una sola herramienta: longitud, peso, temperatura, volumen, velocidad, área, presión y potencia",
-      "Incluye tanto unidades del sistema métrico como del sistema imperial (pulgadas, libras, millas, PSI, HP, etc.)",
-      "La temperatura se convierte con las fórmulas correctas (no lineales), no una simple multiplicación",
-      "Convierte unidades técnicas como pascales, bar, PSI, vatios, kilovatios y caballos de fuerza, útiles para neumáticos, motores y fichas técnicas",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Convierte longitud, peso, temperatura, volumen, velocidad, área, presión y potencia entre el sistema métrico y el imperial. Elige la categoría, las unidades y el valor, y obtén el resultado al instante.",
+    "bloques": [
       {
-        "title": "¿Por qué la conversión de temperatura es distinta a las demás?",
-        "body": "A diferencia de la longitud o el peso, donde convertir entre unidades es simplemente multiplicar por un factor fijo, la temperatura requiere fórmulas específicas porque las escalas Celsius, Fahrenheit y Kelvin no comparten el mismo punto cero. Por ejemplo, para pasar de Celsius a Fahrenheit se usa la fórmula F = C × 9/5 + 32, y para pasar a Kelvin se suma 273.15 a los grados Celsius. Esta calculadora aplica las fórmulas correctas para cada conversión de temperatura."
+        "tipo": "infografia",
+        "archivo": "equivalencias-unidades-medida.webp",
+        "alt": "Equivalencias de pulgadas, pies, millas, libras, onzas, galones, bar, HP y CV, y fórmula de grados",
+        "ancho": 800,
+        "alto": 866,
+        "titulo": "¿Cuáles son las equivalencias de unidades más usadas?"
       },
       {
-        "title": "¿Qué unidades incluye cada categoría?",
-        "body": "Longitud: milímetros, centímetros, metros, kilómetros, pulgadas, pies, yardas y millas. Peso: miligramos, gramos, kilogramos, toneladas, libras y onzas. Volumen: mililitros, litros, metros cúbicos, galones, cuartos y tazas (sistema estadounidense). Velocidad: kilómetros por hora, metros por segundo, millas por hora y nudos. Área: centímetros, metros y kilómetros cuadrados, hectáreas, pies cuadrados y acres. Presión: pascales, kilopascales, bar, PSI, atmósferas y kg/cm². Potencia: vatios, kilovatios, caballos de fuerza (HP), caballos de vapor (CV) y BTU/h."
+        "tipo": "consejos",
+        "titulo": "¿Qué conversión necesitas con más frecuencia?",
+        "items": [
+          {
+            "titulo": "Pantallas y ropa",
+            "texto": "Las pulgadas de un televisor o de unos jeans: [centímetros a pulgadas](/cm-a-pulgadas) y el [convertidor de tallas](/convertidor-tallas)."
+          },
+          {
+            "titulo": "Peso corporal y paquetería",
+            "texto": "Las básculas y envíos de EE. UU. usan libras: [kilos a libras](/kilos-a-libras)."
+          },
+          {
+            "titulo": "Recetas",
+            "texto": "Tazas, cucharadas y onzas en gramos o mililitros: [medidas de cocina](/medidas-de-cocina)."
+          },
+          {
+            "titulo": "Neumáticos",
+            "texto": "La presión recomendada suele venir en PSI y el manómetro en bar: [bar a PSI](/bar-a-psi)."
+          }
+        ]
       },
       {
-        "title": "Conversión de presión: PSI, bar y pascales",
-        "body": "La presión es una de las conversiones técnicas más buscadas, sobre todo para inflar neumáticos (que suelen especificarse en PSI o bar) o interpretar manómetros industriales (a menudo en kg/cm² o atmósferas). Esta calculadora convierte entre pascales (la unidad del Sistema Internacional), kilopascales, bar, PSI (libras por pulgada cuadrada, usada en Estados Unidos), atmósferas y kg/cm², con los factores de conversión exactos."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuántos grados Fahrenheit son 37 °C?",
+        "intro": "La temperatura no se convierte con un solo factor, porque las escalas no empiezan en el mismo cero.",
+        "pasos": [
+          {
+            "texto": "Multiplica los grados Celsius por 1,8.",
+            "operacion": "37 × 1,8 = 66,6"
+          },
+          {
+            "texto": "Suma 32.",
+            "operacion": "66,6 + 32 = 98,6"
+          }
+        ],
+        "resultado": [
+          "Temperatura corporal normal",
+          "98,6 °F"
+        ]
       },
       {
-        "title": "Conversión de potencia: HP, CV y kilovatios",
-        "body": "La potencia de motores y electrodomésticos se expresa en distintas unidades según el país y el sector: vatios y kilovatios (unidades eléctricas), caballos de fuerza o HP (común en Estados Unidos y en fichas técnicas de vehículos), caballos de vapor o CV (usado tradicionalmente en Europa) y BTU/h (habitual en aires acondicionados). Esta calculadora convierte entre las cinco con los factores correctos, incluyendo la pequeña diferencia entre HP y CV."
+        "tipo": "texto",
+        "titulo": "¿Por qué un galón no mide lo mismo en todos los países?",
+        "parrafos": [
+          "El galón estadounidense tiene 3,785 litros y el imperial británico 4,546. Lo mismo pasa con la onza líquida y la pinta. Este convertidor usa siempre las unidades de EE. UU., que son las que aparecen en recetas, etiquetas y combustibles de América. Para volúmenes concretos tienes el conversor de [litros a galones](/litros-a-galones).",
+          "En potencia ocurre algo parecido: el HP estadounidense equivale a 745,7 W y el CV europeo a 735,5 W. Un motor de 100 CV tiene unos 98,6 HP."
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Qué unidades incluye cada categoría del convertidor?",
+        "cabeceras": [
+          "Categoría",
+          "Unidades"
+        ],
+        "filas": [
+          [
+            "Longitud",
+            "mm, cm, m, km, pulgadas, pies, yardas, millas"
+          ],
+          [
+            "Peso",
+            "mg, g, kg, toneladas, libras, onzas"
+          ],
+          [
+            "Temperatura",
+            "°C, °F, kelvin"
+          ],
+          [
+            "Presión",
+            "Pa, kPa, bar, PSI, atmósferas, kg/cm²"
+          ],
+          [
+            "Potencia",
+            "W, kW, HP, CV, BTU/h"
+          ],
+          [
+            "Volumen",
+            "ml, L, m³, galones, cuartos y tazas de EE. UU."
+          ],
+          [
+            "Velocidad y área",
+            "km/h, m/s, mph, nudos · cm², m², km², hectáreas, pies², acres"
+          ]
+        ]
       }
     ],
     "faqs": [
@@ -3169,27 +3317,68 @@
     "webApp": true,
     "appCategory": "EntertainmentApplication",
     "intro": "Este generador de nombres aleatorios cubre cuatro categorías: nombres de persona (con o sin apellido, filtrando por sexo), nombres de mascotas (perros y gatos), nombres de personajes de fantasía, y nombres de usuario combinando palabras y números. Elige la categoría, ajusta las opciones y genera hasta 30 nombres de una sola vez.",
-    "howToUse": [
-      "Elige la categoría: Personas, Mascotas, Fantasía o Usuario",
-      "Ajusta las opciones disponibles según la categoría (sexo, tipo de mascota, incluir apellido, etc.)",
-      "Indica cuántos nombres quieres generar (hasta 30 a la vez)",
-      "Pulsa \"Generar nombres\" para ver la lista completa al instante"
-    ],
-    "benefits": [
-      "Cuatro categorías distintas en una sola herramienta: personas, mascotas, fantasía y nombres de usuario",
-      "Genera varios nombres a la vez (hasta 30), no uno por uno",
-      "Filtra nombres de persona por sexo e incluye apellidos comunes en español",
-      "Los nombres de fantasía se generan combinando sílabas de forma aleatoria, por lo que nunca se agotan",
-      "Gratis, sin registro y sin límite de usos"
-    ],
-    "contentSections": [
+    "resumen": "Genera nombres aleatorios de persona (con apellido y filtrados por sexo), de mascotas, de personajes de fantasía o de usuario. Pulsa de nuevo para otra tanda y copia los que te gusten.",
+    "bloques": [
       {
-        "title": "¿Para qué sirve un generador de nombres aleatorios?",
-        "body": "Un generador de nombres aleatorios es útil en múltiples situaciones: elegir el nombre de una mascota nueva, encontrar inspiración para personajes de una historia o partida de rol, generar nombres de prueba para maquetas o formularios de desarrollo, o simplemente resolver el bloqueo creativo al elegir un nombre de usuario para una cuenta nueva."
+        "tipo": "comparacion",
+        "titulo": "¿Qué tipos de nombres puedo generar?",
+        "columnas": [
+          {
+            "titulo": "Personas y mascotas",
+            "tono": "azul",
+            "items": [
+              "Nombres reales en español de listas revisadas a mano.",
+              "Puedes elegir masculino, femenino o ambos, con o sin apellido.",
+              "Nombres de perros y gatos cortos y fáciles de llamar."
+            ]
+          },
+          {
+            "titulo": "Fantasía y usuario",
+            "tono": "verde",
+            "items": [
+              "Nombres inventados combinando sílabas al azar: cada tanda es distinta.",
+              "Nombres de usuario que mezclan palabras y números.",
+              "Pensados para juegos, rol y novelas."
+            ]
+          }
+        ]
       },
       {
-        "title": "¿Cómo se generan los nombres de fantasía?",
-        "body": "A diferencia de las categorías de personas o mascotas, que usan listas curadas de nombres reales, los nombres de fantasía se construyen combinando aleatoriamente un conjunto de sílabas iniciales y finales típicas de nombres de fantasía (usados en literatura, videojuegos y juegos de rol), lo que permite generar un número prácticamente ilimitado de combinaciones nuevas y pronunciables."
+        "tipo": "infografia",
+        "archivo": "nombres-fantasia-y-mascotas.webp",
+        "alt": "Cómo se forman los nombres de fantasía y consejos para elegir el nombre de una mascota",
+        "ancho": 800,
+        "alto": 900,
+        "titulo": "¿Cómo se inventa un nombre de fantasía?"
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Para qué sirve un generador de nombres aleatorios?",
+        "items": [
+          {
+            "titulo": "Escribir una historia",
+            "texto": "Para personajes secundarios que necesitan nombre ya, sin cortar el ritmo de escritura."
+          },
+          {
+            "titulo": "Partidas de rol",
+            "texto": "Ten a mano nombres de fantasía para los personajes que improvisas en la partida."
+          },
+          {
+            "titulo": "Datos de prueba",
+            "texto": "Para rellenar formularios o maquetas. Si necesitas datos completos, usa el [generador de datos de prueba](/generador-datos-prueba)."
+          },
+          {
+            "titulo": "Tu perfil en un juego",
+            "texto": "Combínalo con símbolos del [generador de nombres para Free Fire](/generador-de-nombres-para-free-fire) o pide ideas al [generador de apodos](/generador-apodos)."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Buscas el nombre de un bebé o de una empresa?",
+        "parrafos": [
+          "Para un bebé conviene ver el significado y el origen de cada nombre: el [generador de nombres de bebé](/generador-nombres-bebe) los muestra. Para una marca o un negocio, las reglas son otras (que sea fácil de recordar, que el dominio esté libre), y para eso está el [generador de nombres de empresa](/generador-nombres-empresa)."
+        ]
       }
     ],
     "faqs": [
@@ -3227,27 +3416,72 @@
     "webApp": true,
     "appCategory": "MultimediaApplication",
     "intro": "Convierte tus imágenes entre los formatos JPG, PNG y WEBP en segundos. A diferencia de la mayoría de convertidores online, todo el proceso ocurre directamente en tu navegador usando la tecnología Canvas: tus imágenes nunca se suben a ningún servidor, lo que lo hace más rápido y más privado.",
-    "howToUse": [
-      "Elige el formato al que quieres convertir: PNG, JPG o WEBP",
-      "Si conviertes a JPG o WEBP, ajusta el nivel de calidad con el control deslizante",
-      "Arrastra tus imágenes al recuadro o haz clic para seleccionarlas (puedes subir varias a la vez)",
-      "Pulsa \"Convertir\" en cada imagen para descargarla en el nuevo formato"
-    ],
-    "benefits": [
-      "Convierte entre JPG, PNG y WEBP sin límite de imágenes",
-      "Todo el procesamiento ocurre en tu navegador: tus imágenes nunca se suben a ningún servidor",
-      "Control de calidad para JPG y WEBP, útil para reducir el peso del archivo",
-      "Admite conversión de varias imágenes a la vez",
-      "Sin marcas de agua, sin registro y completamente gratis"
-    ],
-    "contentSections": [
+    "resumen": "Convierte imágenes entre JPG, PNG y WEBP directamente en tu navegador, sin subirlas a ningún servidor. Ajusta la calidad de JPG y WEBP para equilibrar nitidez y tamaño, y descarga el resultado al momento.",
+    "bloques": [
       {
-        "title": "¿Por qué convertir una imagen de formato?",
-        "body": "Cada formato de imagen tiene ventajas distintas: JPG es ideal para fotografías por su buena compresión con pérdida mínima visible; PNG conserva transparencia y es mejor para capturas de pantalla, logotipos o gráficos con texto nítido; WEBP ofrece una compresión más eficiente que JPG y PNG manteniendo buena calidad, ideal para páginas web que necesitan cargar rápido. Convertir entre estos formatos te permite elegir el más adecuado según dónde vayas a usar la imagen."
+        "tipo": "infografia",
+        "archivo": "jpg-png-webp-diferencias.webp",
+        "alt": "Diferencias entre JPG, PNG y WEBP: transparencia, compresión, peso y usos",
+        "ancho": 800,
+        "alto": 952,
+        "titulo": "¿Qué diferencia hay entre JPG, PNG y WEBP?"
       },
       {
-        "title": "¿Por qué algunas imágenes no se pueden convertir (como HEIC)?",
-        "body": "El formato HEIC, usado por defecto en los iPhone, y el formato AVIF no son compatibles con todos los navegadores: algunos navegadores pueden mostrarlos y convertirlos sin problema, mientras que otros no pueden decodificarlos en absoluto. Si tu imagen no se convierte, prueba a abrirla primero en la aplicación de Fotos de tu dispositivo y exportarla como JPG antes de subirla aquí."
+        "tipo": "tabla",
+        "titulo": "¿Qué calidad elegir al convertir a JPG o WEBP?",
+        "cabeceras": [
+          "Calidad",
+          "Resultado",
+          "Úsala para"
+        ],
+        "filas": [
+          [
+            "90–100 %",
+            "Casi idéntica al original, archivo grande",
+            "Imprimir o editar después"
+          ],
+          [
+            "75–85 %",
+            "Diferencia invisible a simple vista",
+            "Web, redes sociales y correo"
+          ],
+          [
+            "50–70 %",
+            "Se notan defectos en bordes y degradados",
+            "Miniaturas y vistas previas"
+          ]
+        ],
+        "destacar": 1
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo convertir una foto HEIC del iPhone a JPG?",
+        "parrafos": [
+          "El formato HEIC solo se puede convertir aquí si tu navegador lo sabe abrir: Safari en Mac y iPhone suele poder, Chrome y Firefox en Windows normalmente no. La forma más sencilla es evitarlo desde el origen: en el iPhone ve a Ajustes > Cámara > Formatos y elige «Más compatible». A partir de ese momento las fotos se guardan en JPG."
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "¿Cómo reducir el peso de una imagen para la web?",
+        "pasos": [
+          {
+            "titulo": "Ajusta las dimensiones",
+            "texto": "Una foto de móvil mide unos 4.000 px de ancho; para una web bastan 1.200 a 1.600. Hazlo con [redimensionar imagen](/redimensionar-imagen)."
+          },
+          {
+            "titulo": "Conviértela a WEBP",
+            "texto": "Con calidad del 80 % suele pesar bastante menos que el mismo JPG."
+          },
+          {
+            "titulo": "Comprímela si aún pesa",
+            "texto": "El [compresor de imágenes](/comprimir-imagen) te muestra el antes y el después."
+          }
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "Tus imágenes no salen de tu dispositivo: la conversión la hace tu propio navegador. Por eso puedes usarla con documentos o fotos personales sin preocuparte."
       }
     ],
     "faqs": [
@@ -3289,28 +3523,66 @@
     "webApp": true,
     "appCategory": "ProductivityApplication",
     "intro": "Convierte tus fotos o imágenes JPG y PNG en un único documento PDF, con cada imagen como una página independiente. Puedes subir varias imágenes a la vez, reordenarlas antes de generar el archivo, y elegir la orientación y los márgenes de página. Todo ocurre directamente en tu navegador, sin subir tus archivos a ningún servidor.",
-    "howToUse": [
-      "Sube una o varias imágenes JPG o PNG arrastrándolas o seleccionándolas desde tu dispositivo",
-      "Reordena las imágenes con las flechas ↑ y ↓ si es necesario; cada una será una página del PDF",
-      "Elige la orientación de página (automática, vertical u horizontal) y si quieres márgenes",
-      "Pulsa \"Descargar PDF\" para generar y guardar el documento final"
-    ],
-    "benefits": [
-      "Convierte varias imágenes en un solo PDF con varias páginas, no una por una",
-      "Permite reordenar las imágenes antes de generar el documento final",
-      "Ajusta automáticamente el tamaño de cada imagen a la página, centrada y sin deformarse",
-      "Elige orientación automática (según cada imagen), vertical u horizontal",
-      "Todo el proceso ocurre en tu navegador: tus fotos nunca se suben a un servidor",
-      "Gratis, sin marca de agua y sin límite de imágenes"
-    ],
-    "contentSections": [
+    "resumen": "Junta varias fotos JPG o PNG en un solo PDF, una imagen por página. Ordénalas, elige la orientación y el margen, y descarga el documento. Todo pasa en tu navegador.",
+    "bloques": [
       {
-        "title": "¿Para qué sirve convertir imágenes a PDF?",
-        "body": "Convertir fotos o imágenes a PDF es útil para enviar varios documentos escaneados como un solo archivo (por ejemplo, las páginas de una identificación o un contrato fotografiadas con el celular), preparar un portafolio de imágenes para imprimir o compartir, o simplemente unificar capturas de pantalla en un único documento fácil de archivar o enviar por correo."
+        "tipo": "pasos",
+        "titulo": "¿Cómo convertir fotos del celular en un PDF?",
+        "pasos": [
+          {
+            "titulo": "Toma las fotos con buena luz",
+            "texto": "Apoya el documento en una superficie oscura y fotografíalo desde arriba, sin sombras."
+          },
+          {
+            "titulo": "Súbelas aquí en orden",
+            "texto": "Puedes seleccionar varias a la vez y luego reordenarlas arrastrando."
+          },
+          {
+            "titulo": "Elige orientación «auto»",
+            "texto": "Cada página se pone vertical u horizontal según su foto."
+          },
+          {
+            "titulo": "Descarga y revisa",
+            "texto": "Abre el PDF antes de enviarlo para comprobar que todo se lee."
+          }
+        ]
       },
       {
-        "title": "¿Cómo se ajusta el tamaño de cada imagen dentro del PDF?",
-        "body": "Cada imagen se escala automáticamente para ocupar el máximo espacio posible dentro de la página, respetando sus proporciones originales (para que no se vea estirada ni deformada) y centrándola dentro de los márgenes que elijas. Si seleccionas orientación \"automática\", cada página adopta la orientación (vertical u horizontal) que mejor se ajuste a las proporciones de su imagen correspondiente."
+        "tipo": "infografia",
+        "archivo": "imagenes-en-pdf-tamano-a4.webp",
+        "alt": "Cómo se ajustan las fotos verticales y horizontales en una página A4 del PDF",
+        "ancho": 800,
+        "alto": 826,
+        "titulo": "¿Cómo se ajusta cada foto a la página del PDF?"
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Para qué trámites sirve unir imágenes en un PDF?",
+        "items": [
+          {
+            "titulo": "Identificaciones",
+            "texto": "Frente y reverso de tu INE, DNI o cédula en un solo archivo, como piden bancos y empleadores."
+          },
+          {
+            "titulo": "Comprobantes",
+            "texto": "Recibos y facturas fotografiados para reembolsos de gastos."
+          },
+          {
+            "titulo": "Tareas escolares",
+            "texto": "Páginas del cuaderno en un único archivo para subir a la plataforma del colegio."
+          },
+          {
+            "titulo": "Contratos firmados",
+            "texto": "Las hojas firmadas a mano, en orden y en un solo documento."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo hacer que el PDF pese menos?",
+        "parrafos": [
+          "El peso del PDF depende de las fotos. Si un portal te limita a 2 o 5 MB, reduce antes cada imagen con el [compresor de imágenes](/comprimir-imagen) o baja su tamaño con [redimensionar imagen](/redimensionar-imagen). Una foto de documento a 1.600 px de ancho se sigue leyendo perfectamente."
+        ]
       }
     ],
     "faqs": [
@@ -3352,27 +3624,90 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte cualquier número a su escritura en letras en español, siguiendo las reglas gramaticales correctas (incluidas las excepciones como \"veintiún millones\" o \"ciento un mil\"). Incluye un modo especial de formato de cheque, que escribe el monto en letras seguido de los centavos en números, tal como se requiere al llenar un cheque bancario.",
-    "howToUse": [
-      "Introduce el número que quieres convertir (admite decimales)",
-      "Activa \"Formato de cheque\" si necesitas el formato PESOS XX/100 M.N., típico para llenar cheques",
-      "Pulsa \"Convertir a letras\" para ver el resultado",
-      "Usa el botón \"Copiar\" para pegar el texto donde lo necesites"
-    ],
-    "benefits": [
-      "Aplica correctamente las reglas gramaticales del español, incluidas las excepciones (veintiún, ciento un, etc.)",
-      "Incluye el formato específico para cheques bancarios (PESOS XX/100 M.N.)",
-      "Admite números decimales, mostrando los centavos correctamente",
-      "Funciona con números negativos",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe cualquier número y obtenlo en letras en español con las reglas de la RAE, incluidos casos como «veintiún mil» o «ciento un mil». El modo cheque añade la moneda y los centavos en formato XX/100 M.N.",
+    "bloques": [
       {
-        "title": "¿Por qué \"veintiún millones\" y no \"veintiuno millones\"?",
-        "body": "En español, cuando el número \"uno\" (o \"veintiuno\", \"treinta y uno\", etc.) precede directamente a una palabra como \"mil\" o \"millones\", pierde su vocal final: \"uno\" se convierte en \"un\" y \"veintiuno\" en \"veintiún\". Por eso decimos \"veintiún millones\" y \"treinta y un mil\", nunca \"veintiuno millones\" o \"treinta y uno mil\". Esta herramienta aplica esta regla (y sus variantes, como \"ciento un mil\" o \"ciento un millones\") de forma automática y correcta."
+        "tipo": "infografia",
+        "archivo": "numeros-en-letras-reglas.webp",
+        "alt": "Reglas para escribir números en letras en español y ejemplo en formato de cheque",
+        "ancho": 800,
+        "alto": 994,
+        "titulo": "¿Cuáles son los números que más se escriben mal en letras?"
       },
       {
-        "title": "¿Para qué sirve el formato de cheque?",
-        "body": "Al llenar un cheque bancario, es obligatorio escribir el monto en letras (para evitar alteraciones) seguido de los centavos expresados como fracción sobre 100, por ejemplo: \"MIL DOSCIENTOS TREINTA Y CUATRO PESOS 56/100 M.N.\". Activando la opción \"Formato de cheque\" en esta herramienta, obtienes directamente el texto listo para copiar y usar al llenar tu cheque."
+        "tipo": "tabla",
+        "titulo": "¿Cómo se escriben en letras los números más buscados?",
+        "cabeceras": [
+          "Número",
+          "En letras"
+        ],
+        "filas": [
+          [
+            "15",
+            "quince"
+          ],
+          [
+            "16",
+            "dieciséis"
+          ],
+          [
+            "22",
+            "veintidós"
+          ],
+          [
+            "31",
+            "treinta y uno"
+          ],
+          [
+            "101",
+            "ciento uno"
+          ],
+          [
+            "1.000",
+            "mil"
+          ],
+          [
+            "1.500",
+            "mil quinientos"
+          ],
+          [
+            "21.000",
+            "veintiún mil"
+          ],
+          [
+            "100.000",
+            "cien mil"
+          ],
+          [
+            "1.000.000",
+            "un millón"
+          ]
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "¿Cómo llenar un cheque correctamente en México?",
+        "pasos": [
+          {
+            "titulo": "Cantidad en número",
+            "texto": "Escríbela pegada al signo de pesos, sin espacios: $1,235.50."
+          },
+          {
+            "titulo": "Cantidad en letra",
+            "texto": "En mayúsculas y empezando pegado al margen: MIL DOSCIENTOS TREINTA Y CINCO PESOS 50/100 M.N. Cierra el espacio que sobre con una línea."
+          },
+          {
+            "titulo": "Revisa que coincidan",
+            "texto": "Si la cifra y la letra no coinciden, el banco puede rechazar el cheque."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cuándo se dice «un» y cuándo «uno»?",
+        "parrafos": [
+          "«Uno» y los números que acaban en uno pierden la última vocal delante de un sustantivo masculino o de «mil» y «millones»: un libro, veintiún años, ciento un mil, treinta y un millones. Delante de un sustantivo femenino lo correcto es «una» o «veintiuna» (veintiuna personas), aunque la RAE también admite «veintiún» delante de un nombre femenino que empieza por «a» tónica."
+        ]
       }
     ],
     "faqs": [
@@ -3414,26 +3749,67 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "Convierte entre fracciones y decimales, o entre fracciones mixtas e impropias, con resultado instantáneo. Las fracciones se simplifican automáticamente a su forma más reducida usando el máximo común divisor, tal como se enseña en la escuela.",
-    "howToUse": [
-      "Elige la conversión que necesitas: fracción a decimal, decimal a fracción, o mixta ↔ impropia",
-      "Introduce los valores solicitados (numerador y denominador, o el número decimal)",
-      "El resultado se calcula automáticamente, ya simplificado a su forma más reducida"
-    ],
-    "benefits": [
-      "Tres conversiones distintas en una sola herramienta",
-      "Simplifica automáticamente las fracciones a su forma reducida usando el máximo común divisor",
-      "Convierte en ambos sentidos entre fracciones mixtas e impropias",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Convierte fracciones a decimales y decimales a fracciones, o fracciones impropias a mixtas y al revés. El resultado se simplifica solo con el máximo común divisor.",
+    "bloques": [
       {
-        "title": "¿Cómo se simplifica una fracción?",
-        "body": "Para simplificar una fracción, se calcula el máximo común divisor (MCD) entre el numerador y el denominador, y se divide a ambos entre ese número. Por ejemplo, en la fracción 8/12, el MCD de 8 y 12 es 4, por lo que dividiendo ambos entre 4 se obtiene 2/3, la forma más simplificada posible. Esta herramienta aplica este proceso automáticamente en cada resultado."
+        "tipo": "infografia",
+        "archivo": "simplificar-fracciones-decimales.webp",
+        "alt": "Cómo simplificar fracciones, pasar de impropia a mixta y tabla de fracciones a decimales",
+        "ancho": 800,
+        "alto": 910,
+        "titulo": "¿Cómo se simplifica una fracción y se pasa a decimal?"
       },
       {
-        "title": "¿Qué es una fracción mixta y una fracción impropia?",
-        "body": "Una fracción impropia es aquella donde el numerador es mayor o igual que el denominador (como 11/4), mientras que una fracción mixta combina un número entero con una fracción propia (como 2 3/4, que representa exactamente el mismo valor que 11/4). Ambas formas son matemáticamente equivalentes; la mixta suele ser más intuitiva de leer, mientras que la impropia es más práctica para operaciones matemáticas como sumas o multiplicaciones."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo pasar 0,375 a fracción?",
+        "pasos": [
+          {
+            "texto": "Escribe el decimal sobre 1 seguido de tantos ceros como cifras decimales tenga.",
+            "operacion": "0,375 = 375 / 1000"
+          },
+          {
+            "texto": "Busca el máximo común divisor de 375 y 1000.",
+            "operacion": "MCD(375, 1000) = 125"
+          },
+          {
+            "texto": "Divide numerador y denominador entre 125.",
+            "operacion": "375 ÷ 125 = 3 · 1000 ÷ 125 = 8"
+          }
+        ],
+        "resultado": [
+          "0,375 en fracción",
+          "3/8"
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo se pasa un número mixto a fracción impropia?",
+        "parrafos": [
+          "Multiplica el entero por el denominador y súmale el numerador; el denominador no cambia. Por ejemplo, 2 3/4 = (2 × 4 + 3) / 4 = 11/4. Es el paso previo para multiplicar o dividir fracciones mixtas.",
+          "Para sumar, restar, multiplicar o dividir fracciones con el procedimiento completo, usa la [calculadora de fracciones](/calculadora-fracciones). Si solo necesitas el máximo común divisor, la [calculadora de MCD y MCM](/calculadora-mcd-mcm) te lo da con sus pasos."
+        ]
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Dónde se usan las fracciones en la vida diaria?",
+        "items": [
+          {
+            "titulo": "Cocina",
+            "texto": "3/4 de taza o 1/2 cucharadita. Pásalas a gramos con las [medidas de cocina](/medidas-de-cocina)."
+          },
+          {
+            "titulo": "Bricolaje",
+            "texto": "Brocas y tornillos en pulgadas: una broca de 3/8\" mide 9,5 mm."
+          },
+          {
+            "titulo": "Descuentos",
+            "texto": "«Un tercio menos» es un 33,3 %. Compruébalo con la [calculadora de porcentajes](/calculadora-porcentaje)."
+          },
+          {
+            "titulo": "Tiempo",
+            "texto": "Tres cuartos de hora son 45 minutos, o 0,75 horas."
+          }
+        ]
       }
     ],
     "faqs": [
@@ -3471,26 +3847,69 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte cualquier texto entre MAYÚSCULAS, minúsculas, Cada Palabra En Mayúscula (tipo título), formato de oración y texto AlTeRnAdO, todo a la vez y en tiempo real mientras escribes. Copia el resultado que necesites con un solo clic.",
-    "howToUse": [
-      "Escribe o pega tu texto en el cuadro principal",
-      "Revisa los cinco formatos generados automáticamente debajo",
-      "Pulsa \"Copiar\" junto al formato que necesites para copiarlo al portapapeles"
-    ],
-    "benefits": [
-      "Genera cinco formatos de texto a la vez, sin tener que elegir uno primero",
-      "Actualización en tiempo real mientras escribes, sin botón \"convertir\"",
-      "El formato \"Tipo Título\" respeta las palabras que en español van en minúscula (de, la, el, y...)",
-      "Botón de copiado individual para cada formato",
-      "Gratis, sin registro y funciona directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Pega tu texto y conviértelo a la vez a MAYÚSCULAS, minúsculas, Tipo Título, tipo oración o aLtErNaDo. Funciona con tildes y eñes, en tiempo real, y copias cada formato con un clic.",
+    "bloques": [
       {
-        "title": "¿Para qué sirve cambiar el formato de mayúsculas y minúsculas de un texto?",
-        "body": "Cambiar entre mayúsculas y minúsculas es útil para corregir texto que se escribió sin querer con Bloq Mayús activado, dar formato a títulos y encabezados de documentos, ajustar nombres o direcciones a un formato consistente, o simplemente dar énfasis o estilo a un mensaje en redes sociales."
+        "tipo": "infografia",
+        "archivo": "formatos-mayusculas-minusculas.webp",
+        "alt": "Los cinco formatos de mayúsculas y minúsculas con un ejemplo y su uso",
+        "ancho": 800,
+        "alto": 880,
+        "titulo": "¿Qué formato de mayúsculas usar en cada caso?"
       },
       {
-        "title": "¿Cómo funciona el formato \"Tipo Título\"?",
-        "body": "El formato \"Cada Palabra En Mayúscula\" pone en mayúscula la primera letra de cada palabra, excepto los artículos, preposiciones y conjunciones cortas que en español convencionalmente se escriben en minúscula dentro de un título (como \"de\", \"la\", \"el\", \"y\", \"en\"), salvo que sean la primera palabra del texto. Por ejemplo, \"el señor de los anillos\" se convierte en \"El Señor de los Anillos\"."
+        "tipo": "comparacion",
+        "titulo": "¿Los títulos en español llevan mayúscula en cada palabra?",
+        "intro": "No. Es una costumbre del inglés que se ha colado en el español, sobre todo en internet.",
+        "columnas": [
+          {
+            "titulo": "Correcto en español",
+            "tono": "verde",
+            "items": [
+              "Cien años de soledad",
+              "La casa de papel",
+              "Guía para calcular el aguinaldo"
+            ]
+          },
+          {
+            "titulo": "Estilo inglés",
+            "tono": "rojo",
+            "items": [
+              "Cien Años De Soledad",
+              "La Casa De Papel",
+              "Guía Para Calcular El Aguinaldo"
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Se ponen tildes en las mayúsculas?",
+        "parrafos": [
+          "Sí. Las mayúsculas llevan tilde igual que las minúsculas: ÁFRICA, ÉXITO, ÍNDICE. La norma de no acentuarlas viene de las antiguas máquinas de escribir y la RAE la descarta desde hace décadas. Este convertidor conserva todas las tildes y la Ñ al cambiar de formato."
+        ]
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Cuándo es útil cambiar mayúsculas y minúsculas?",
+        "items": [
+          {
+            "titulo": "Texto escrito con Bloq Mayús",
+            "texto": "Pásalo a tipo oración y ahórrate reescribirlo."
+          },
+          {
+            "titulo": "Listas de nombres",
+            "texto": "Unifica nombres y direcciones de una hoja de cálculo que vienen mezclados."
+          },
+          {
+            "titulo": "Redes sociales",
+            "texto": "Para letras con estilo, usa la [tipografía para Instagram](/tipografia-para-instagram)."
+          },
+          {
+            "titulo": "Revisar la extensión",
+            "texto": "Después de dar formato, comprueba la longitud con el [contador de palabras](/contador-palabras)."
+          }
+        ]
       }
     ],
     "faqs": [
@@ -3532,26 +3951,80 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte números entre los cuatro sistemas numéricos más usados en informática: binario (base 2), octal (base 8), decimal (base 10) y hexadecimal (base 16). Introduce un valor en cualquiera de estas bases y obtén su equivalente en las otras tres al instante.",
-    "howToUse": [
-      "Elige la base numérica en la que vas a introducir tu valor",
-      "Escribe el número en el campo de texto",
-      "Consulta al instante su equivalente en binario, octal, decimal y hexadecimal"
-    ],
-    "benefits": [
-      "Convierte entre cuatro sistemas numéricos a la vez: binario, octal, decimal y hexadecimal",
-      "Valida el formato del número según la base elegida, evitando errores de entrada",
-      "Resultado instantáneo mientras escribes",
-      "Útil para programación, redes, electrónica digital y estudios de informática",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe un número en binario, octal, decimal o hexadecimal y obtén su valor en los otros tres sistemas al instante. Útil para programación, redes y electrónica.",
+    "bloques": [
       {
-        "title": "¿Qué es cada sistema numérico y dónde se usa?",
-        "body": "El sistema binario (solo 0 y 1) es el lenguaje fundamental de las computadoras, donde cada dígito representa un bit. El sistema hexadecimal (0-9 y A-F) se usa habitualmente para representar colores en diseño web, direcciones de memoria y códigos de caracteres, porque cada dígito hexadecimal representa exactamente 4 bits, haciendo las conversiones más compactas que el binario. El sistema octal (0-7) se usa con menor frecuencia hoy en día, aunque sigue apareciendo en permisos de archivos de sistemas Unix/Linux. El sistema decimal (0-9) es el que usamos en la vida cotidiana."
+        "tipo": "infografia",
+        "archivo": "tabla-binario-hexadecimal-octal.webp",
+        "alt": "Tabla de números del 0 al 15 en binario, hexadecimal y octal, y conversión de 13 a binario",
+        "ancho": 800,
+        "alto": 934,
+        "titulo": "¿Cómo se escriben del 0 al 15 en binario y hexadecimal?"
       },
       {
-        "title": "¿Cómo se convierte manualmente de decimal a binario?",
-        "body": "Para convertir un número decimal a binario manualmente, se divide el número entre 2 repetidamente, anotando el residuo (0 o 1) de cada división, hasta llegar a 0. El número binario resultante se lee de abajo hacia arriba (los residuos en orden inverso). Por ejemplo, 13 en decimal: 13÷2=6 residuo 1, 6÷2=3 residuo 0, 3÷2=1 residuo 1, 1÷2=0 residuo 1; leyendo los residuos de abajo hacia arriba se obtiene 1101, que es 13 en binario."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo pasar un número binario a decimal?",
+        "intro": "Cada cifra vale el doble que la de su derecha. Ejemplo con 101101:",
+        "pasos": [
+          {
+            "texto": "Asigna a cada cifra su potencia de 2, de derecha a izquierda.",
+            "operacion": "1·32 + 0·16 + 1·8 + 1·4 + 0·2 + 1·1"
+          },
+          {
+            "texto": "Suma solo las posiciones con un 1.",
+            "operacion": "32 + 8 + 4 + 1 = 45"
+          }
+        ],
+        "resultado": [
+          "101101 en decimal",
+          "45"
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Por qué los programadores usan hexadecimal?",
+        "parrafos": [
+          "Cada cifra hexadecimal equivale exactamente a cuatro bits, así que un byte (8 bits) se escribe siempre con dos cifras: 11111111 es FF. Es mucho más corto de leer que el binario y se convierte de cabeza. Por eso aparece en los colores web (#7C3AED), en las direcciones de memoria y en las direcciones MAC.",
+          "Si trabajas con colores, el [conversor de HEX a RGB](/conversor-hex-rgb) traduce cada par de cifras; para direcciones IP y máscaras de red, la [calculadora de IP](/calculadora-ip) usa estas mismas conversiones."
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Para qué se usa cada sistema numérico?",
+        "cabeceras": [
+          "Sistema",
+          "Base",
+          "Dónde se usa"
+        ],
+        "filas": [
+          [
+            "Binario",
+            "2",
+            "Lo que entiende el procesador: bits, máscaras de red, electrónica digital"
+          ],
+          [
+            "Octal",
+            "8",
+            "Permisos de archivos en Linux (chmod 755)"
+          ],
+          [
+            "Decimal",
+            "10",
+            "El uso cotidiano"
+          ],
+          [
+            "Hexadecimal",
+            "16",
+            "Colores web, memoria, direcciones MAC, códigos Unicode"
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Necesitas convertir texto en lugar de números?",
+        "parrafos": [
+          "Para pasar letras a sus códigos hexadecimales y al revés usa [hexadecimal a texto](/hexadecimal-a-texto); para codificar archivos o texto en Base64, el [codificador Base64](/codificador-base64)."
+        ]
       }
     ],
     "faqs": [
@@ -3589,32 +4062,138 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El IRPF (Impuesto sobre la Renta de las Personas Físicas) es el impuesto que grava tu salario en España, aplicado de forma progresiva y repartido entre el Estado y tu Comunidad Autónoma. Esta calculadora estima tu IRPF anual y tu salario neto aplicando la escala estatal real, la reducción por obtención de rendimientos del trabajo (Art. 20 LIRPF), el mínimo personal y familiar según tu edad y tus hijos a cargo, y la cotización a la Seguridad Social del trabajador, mostrando cada paso del cálculo, no solo el resultado final.",
-    "howToUse": [
-      "Introduce tu salario bruto anual",
-      "Indica tu edad (afecta al mínimo personal exento) y el número de hijos a cargo, señalando cuántos son menores de 3 años",
-      "Elige si cobras en 12 o 14 pagas para ver el importe por paga",
-      "Pulsa \"Calcular IRPF\" para ver el desglose completo: cotización a la Seguridad Social, base liquidable, mínimo personal y familiar, cuota de IRPF y tu salario neto estimado"
-    ],
-    "benefits": [
-      "Aplica la escala estatal real del IRPF 2026, no un porcentaje fijo aproximado",
-      "Incluye la reducción por rendimientos del trabajo (Art. 20 LIRPF), que beneficia a las rentas más bajas",
-      "Calcula el mínimo personal y familiar según tu edad y tus hijos a cargo, incluido el incremento por menores de 3 años",
-      "Aplica correctamente el mecanismo legal del mínimo (resta de cuotas, no de bases), el mismo que usa la Agencia Tributaria",
-      "Muestra el desglose completo paso a paso: nada se queda oculto en una caja negra",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula cuánto IRPF te retienen en España y tu sueldo neto anual y mensual a partir del salario bruto, tu edad y tus hijos, con la escala estatal de 2026, la reducción por rendimientos del trabajo y el mínimo personal y familiar.",
+    "bloques": [
       {
-        "title": "¿Por qué el resultado de esta calculadora es una estimación y no un número exacto?",
-        "body": "El IRPF se divide en dos partes iguales: la cuota estatal (igual para toda España, aplicando la escala del artículo 63 de la LIRPF) y la cuota autonómica, que cada una de las 17 Comunidades Autónomas fija con su propia escala de tramos y tipos. Esta calculadora aplica la escala estatal real y verificada, y estima la parte autonómica duplicando la cuota estatal, ya que reproducir con precisión las 17 escalas autonómicas distintas está fuera del alcance de una herramienta general. Tu resultado real puede variar unos puntos porcentuales según tu Comunidad Autónoma de residencia; comunidades como Madrid suelen tener tipos autonómicos más bajos que la media, mientras que otras como la Comunidad Valenciana los tienen más altos."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto cobro neto según mi sueldo bruto anual?",
+        "intro": "Estimación para una persona menor de 65 años, sin hijos y con contrato indefinido, con la escala autonómica igual a la estatal.",
+        "cabeceras": [
+          "Bruto anual",
+          "IRPF",
+          "Tipo efectivo",
+          "Neto en 12 pagas",
+          "Neto en 14 pagas"
+        ],
+        "filas": [
+          [
+            "18.000 €",
+            "376 €",
+            "2,1 %",
+            "1.371 €",
+            "1.175 €"
+          ],
+          [
+            "22.000 €",
+            "2.458 €",
+            "11,2 %",
+            "1.509 €",
+            "1.294 €"
+          ],
+          [
+            "25.000 €",
+            "3.524 €",
+            "14,1 %",
+            "1.654 €",
+            "1.418 €"
+          ],
+          [
+            "30.000 €",
+            "4.926 €",
+            "16,4 %",
+            "1.927 €",
+            "1.652 €"
+          ],
+          [
+            "40.000 €",
+            "7.745 €",
+            "19,4 %",
+            "2.471 €",
+            "2.118 €"
+          ],
+          [
+            "50.000 €",
+            "11.205 €",
+            "22,4 %",
+            "2.962 €",
+            "2.539 €"
+          ]
+        ],
+        "nota": "Incluye la cotización a la Seguridad Social del trabajador (6,5 %)."
       },
       {
-        "title": "¿Cómo se calcula la base liquidable a partir de tu salario bruto?",
-        "body": "Primero se restan al salario bruto las cotizaciones a la Seguridad Social del trabajador y una deducción fija de 2.000 € anuales en concepto de \"otros gastos\" (Art. 19.2.f LIRPF), obteniendo el rendimiento neto del trabajo. Si ese rendimiento neto es inferior a 19.747,50 € (y no tienes otras rentas relevantes), se aplica además la reducción por obtención de rendimientos del trabajo, que puede llegar hasta 7.302 € para las rentas más bajas y disminuye progresivamente hasta desaparecer en ese umbral. El resultado es tu base liquidable general, la cifra sobre la que realmente se calcula el impuesto."
+        "tipo": "infografia",
+        "archivo": "tramos-irpf-ejemplo-30000.webp",
+        "alt": "Tramos del IRPF estatal y ejemplo de cálculo para un sueldo de 30 mil euros",
+        "ancho": 800,
+        "alto": 1126,
+        "titulo": "¿Cómo se calcula el IRPF de un sueldo paso a paso?"
       },
       {
-        "title": "¿Cómo funciona el mínimo personal y familiar?",
-        "body": "El mínimo personal y familiar es la cantidad que la ley considera necesaria para tu subsistencia y la de tu familia, y que no debe tributar. No se resta directamente de tu base liquidable: en su lugar, se calcula la cuota que correspondería aplicando la escala tanto a tu base liquidable completa como al mínimo por separado, y la diferencia entre ambas cuotas es tu cuota final. Este mecanismo asegura que el mínimo se \"descuente\" al tipo marginal que te corresponde, no al tipo más bajo de la escala. El mínimo personal es de 5.550 € (5.550 hasta los 65 años, 6.700 € entre 65 y 75, y 8.100 € a partir de 75), y se incrementa por cada hijo a cargo: 2.400 € por el primero, 2.700 € por el segundo, 4.000 € por el tercero y 4.500 € por el cuarto y siguientes, con 2.800 € adicionales por cada hijo menor de 3 años."
+        "tipo": "texto",
+        "titulo": "¿Pagas más IRPF en Madrid o en Cataluña?",
+        "parrafos": [
+          "La mitad del IRPF va al Estado, con una escala igual para todos, y la otra mitad a tu comunidad, que fija sus propios tramos y deducciones. Madrid tiene tipos algo más bajos que la media y Cataluña o la Comunidad Valenciana, algo más altos en los tramos medios. Esta calculadora supone que la escala autonómica es igual a la estatal, por lo que el resultado puede variar unos cientos de euros respecto a tu nómina."
+        ]
+      },
+      {
+        "tipo": "comparacion",
+        "titulo": "¿Qué reduce el IRPF que pagas?",
+        "columnas": [
+          {
+            "titulo": "Lo aplica la calculadora",
+            "tono": "verde",
+            "items": [
+              "Cotizaciones a la Seguridad Social y 2.000 € de otros gastos.",
+              "Reducción por rendimientos del trabajo para sueldos bajos.",
+              "Mínimo personal (más alto a partir de 65 y 75 años) y por hijos."
+            ]
+          },
+          {
+            "titulo": "Tendrás que añadir tú",
+            "tono": "gris",
+            "items": [
+              "Aportaciones a planes de pensiones.",
+              "Deducciones autonómicas: alquiler, nacimiento, gastos educativos.",
+              "Discapacidad, movilidad geográfica u otras situaciones especiales."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Qué otras calculadoras te pueden servir en España?",
+        "items": [
+          {
+            "titulo": "Si dejas tu empleo",
+            "texto": "Calcula lo que te deben con la [calculadora de finiquito](/calculadora-finiquito) y la prestación con la [calculadora del paro](/calcular-paro)."
+          },
+          {
+            "titulo": "Si eres autónomo",
+            "texto": "Tu cuota a la Seguridad Social depende de tus ingresos: [cuota de autónomo](/cuota-autonomo)."
+          },
+          {
+            "titulo": "Jubilación",
+            "texto": "Estima tu pensión pública con la [calculadora de jubilación en España](/jubilacion-espana)."
+          },
+          {
+            "titulo": "Vivienda",
+            "texto": "Si vendes un piso, revisa la [plusvalía municipal](/calcular-plusvalia)."
+          }
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Ley 35/2006 del IRPF (BOE, texto consolidado)",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764"
+          },
+          {
+            "texto": "Agencia Tributaria: Renta",
+            "url": "https://sede.agenciatributaria.gob.es/Sede/irpf.html"
+          }
+        ]
       }
     ],
     "faqs": [

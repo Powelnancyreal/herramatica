@@ -118,5 +118,65 @@
     "alt": "Porcentaje de propina habitual en México, Argentina, Colombia, Chile, Perú y España",
     "ancho": 800,
     "alto": 841
+  },
+  "amortizacion-prestamo-cuota-fija": {
+    "archivo": "amortizacion-prestamo-cuota-fija.webp",
+    "alt": "Reparto de capital e intereses en cada cuota de un préstamo de 100 mil pesos a 12 meses",
+    "ancho": 800,
+    "alto": 1011
+  },
+  "equivalencias-unidades-medida": {
+    "archivo": "equivalencias-unidades-medida.webp",
+    "alt": "Equivalencias de pulgadas, pies, millas, libras, onzas, galones, bar, HP y CV, y fórmula de grados",
+    "ancho": 800,
+    "alto": 866
+  },
+  "nombres-fantasia-y-mascotas": {
+    "archivo": "nombres-fantasia-y-mascotas.webp",
+    "alt": "Cómo se forman los nombres de fantasía y consejos para elegir el nombre de una mascota",
+    "ancho": 800,
+    "alto": 900
+  },
+  "jpg-png-webp-diferencias": {
+    "archivo": "jpg-png-webp-diferencias.webp",
+    "alt": "Diferencias entre JPG, PNG y WEBP: transparencia, compresión, peso y usos",
+    "ancho": 800,
+    "alto": 952
+  },
+  "imagenes-en-pdf-tamano-a4": {
+    "archivo": "imagenes-en-pdf-tamano-a4.webp",
+    "alt": "Cómo se ajustan las fotos verticales y horizontales en una página A4 del PDF",
+    "ancho": 800,
+    "alto": 826
+  },
+  "numeros-en-letras-reglas": {
+    "archivo": "numeros-en-letras-reglas.webp",
+    "alt": "Reglas para escribir números en letras en español y ejemplo en formato de cheque",
+    "ancho": 800,
+    "alto": 994
+  },
+  "simplificar-fracciones-decimales": {
+    "archivo": "simplificar-fracciones-decimales.webp",
+    "alt": "Cómo simplificar fracciones, pasar de impropia a mixta y tabla de fracciones a decimales",
+    "ancho": 800,
+    "alto": 910
+  },
+  "formatos-mayusculas-minusculas": {
+    "archivo": "formatos-mayusculas-minusculas.webp",
+    "alt": "Los cinco formatos de mayúsculas y minúsculas con un ejemplo y su uso",
+    "ancho": 800,
+    "alto": 880
+  },
+  "tabla-binario-hexadecimal-octal": {
+    "archivo": "tabla-binario-hexadecimal-octal.webp",
+    "alt": "Tabla de números del 0 al 15 en binario, hexadecimal y octal, y conversión de 13 a binario",
+    "ancho": 800,
+    "alto": 934
+  },
+  "tramos-irpf-ejemplo-30000": {
+    "archivo": "tramos-irpf-ejemplo-30000.webp",
+    "alt": "Tramos del IRPF estatal y ejemplo de cálculo para un sueldo de 30 mil euros",
+    "ancho": 800,
+    "alto": 1126
   }
 }
