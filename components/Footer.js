@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { BotonConfigurarCookies } from '@/components/ConsentimientoCookies'
 
 export default function Footer() {
   return (
@@ -118,6 +119,9 @@ export default function Footer() {
                 <Link href="/cookies" className="hover:text-white transition-colors">
                   Cookies
                 </Link>
+              </li>
+              <li>
+                <BotonConfigurarCookies className="hover:text-white transition-colors text-left" />
               </li>
               <li>
                 <Link href="/acerca" className="hover:text-white transition-colors">

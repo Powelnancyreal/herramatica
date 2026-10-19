@@ -4,6 +4,8 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { SITE_NAME, SITE_DESCRIPTION, SITE_URL, OG_ALTERNATE_LOCALES } from '@/lib/seo'
 import { generateOrganizationSchema, generateSiteSchema } from '@/lib/schema'
+import { CLAVE_CONSENTIMIENTO, REGION_CONSENTIMIENTO_PREVIO } from '@/lib/consentimiento'
+import ConsentimientoCookies from '@/components/ConsentimientoCookies'
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
@@ -76,6 +78,12 @@ export default function RootLayout({ children }) {
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
+            gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied', region: ${JSON.stringify(REGION_CONSENTIMIENTO_PREVIO)} });
+            gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'granted' });
+            try {
+              var c = localStorage.getItem('${CLAVE_CONSENTIMIENTO}');
+              if (c) gtag('consent', 'update', { analytics_storage: c === 'aceptadas' ? 'granted' : 'denied' });
+            } catch (e) {}
             gtag('js', new Date());
             gtag('config', 'G-EJC91PS2KH');
           `}
@@ -84,6 +92,7 @@ export default function RootLayout({ children }) {
         <Header />
         <div className="flex-1">{children}</div>
         <Footer />
+        <ConsentimientoCookies />
       </body>
     </html>
   )
