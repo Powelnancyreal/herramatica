@@ -7,18 +7,109 @@
     "metaTitle": "Generador de Texto Invisible | Caracteres Unicode Gratis",
     "metaDescription": "Genera texto invisible con caracteres Unicode especiales para WhatsApp, Instagram, Twitter y más. Copia con un solo clic. Gratis y sin registro.",
     "intro": "El texto invisible está formado por caracteres Unicode especiales que no tienen representación visual pero sí ocupan espacio. Son perfectos para enviar mensajes aparentemente en blanco en WhatsApp, crear apodos únicos en videojuegos, o añadir espacios especiales en redes sociales como Instagram y Twitter.",
-    "howToUse": [
-      "Elige el tipo de carácter invisible que necesitas en el selector",
-      "Indica la cantidad de caracteres que deseas generar",
-      "Pulsa el botón Generar para crear el texto invisible",
-      "Haz clic en Copiar y pega el resultado donde lo necesites"
-    ],
-    "benefits": [
-      "Completamente gratuito y sin necesidad de registro",
-      "Compatible con WhatsApp, Instagram, Twitter, Discord y más",
-      "Genera múltiples tipos de caracteres Unicode invisibles",
-      "Copia al portapapeles con un solo clic",
-      "Funciona en todos los navegadores modernos"
+    "resumen": "Copia un carácter invisible con un toque o genera hasta 200 seguidos. Para un nombre o un mensaje en blanco usa U+3164 (relleno hangul) o U+2800 (braille en blanco); para separar texto sin que se note, el espacio de ancho cero U+200B.",
+    "bloques": [
+      {
+        "tipo": "infografia",
+        "archivo": "caracteres-invisibles-unicode.webp",
+        "alt": "Tabla de caracteres invisibles de Unicode como U+3164 y U+200B con su uso",
+        "ancho": 800,
+        "alto": 927,
+        "titulo": "¿Qué carácter invisible elegir para WhatsApp o Free Fire?",
+        "pie": "Los siete caracteres que ofrece el generador, con su código Unicode."
+      },
+      {
+        "tipo": "comparacion",
+        "titulo": "¿Qué diferencia hay entre un carácter invisible con hueco y uno de ancho cero?",
+        "intro": "Todos los caracteres invisibles son letras o espacios reales para el teléfono, pero no todos ocupan sitio en pantalla. Elegir el tipo correcto es la diferencia entre que funcione o que la app lo borre.",
+        "columnas": [
+          {
+            "titulo": "Ocupan espacio",
+            "subtitulo": "U+3164, U+2800, U+00A0, U+3000",
+            "tono": "verde",
+            "items": [
+              "Sirven para nombres, apodos y mensajes que parecen vacíos.",
+              "Las apps los tratan como texto escrito, así que no los suelen eliminar.",
+              "Se pueden repetir para crear un hueco más ancho."
+            ]
+          },
+          {
+            "titulo": "Ancho cero",
+            "subtitulo": "U+200B, U+200C, U+200D",
+            "tono": "gris",
+            "items": [
+              "No dejan ningún hueco visible.",
+              "Sirven para separar palabras o enlaces sin espacio, o para unir y separar emojis.",
+              "Muchas apps los eliminan si el texto solo contiene estos caracteres."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "¿Cómo enviar un mensaje en blanco por WhatsApp?",
+        "pasos": [
+          {
+            "titulo": "Copia un carácter U+3164",
+            "texto": "Pulsa «Copiar U+3164» en la copia rápida de arriba. Si quieres un mensaje más alto, genera varios seguidos."
+          },
+          {
+            "titulo": "Pégalo en el chat",
+            "texto": "Mantén pulsado el cuadro de texto de WhatsApp y elige «Pegar». Parecerá que no has escrito nada, pero el botón de enviar se activa."
+          },
+          {
+            "titulo": "Envíalo",
+            "texto": "El mensaje llega como una burbuja vacía. Si en tu teléfono se ve un recuadro, prueba con U+2800: depende de las fuentes instaladas."
+          }
+        ]
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Para qué sirve el texto invisible?",
+        "items": [
+          {
+            "titulo": "Nombre en blanco en juegos",
+            "texto": "Muchos juegos piden un mínimo de caracteres. Pega varios U+3164 seguidos o combínalos con un símbolo del [generador de nombres para Free Fire](/generador-de-nombres-para-free-fire)."
+          },
+          {
+            "titulo": "Bio de Instagram con espacios",
+            "texto": "Instagram borra las líneas vacías. Pon un U+2800 en cada línea que quieras dejar en blanco y combínalo con las [letras para Instagram](/tipografia-para-instagram)."
+          },
+          {
+            "titulo": "Separar sin espacio visible",
+            "texto": "Un U+200B dentro de una palabra larga o de un enlace evita que se convierta en un enlace automático o permite cortar la línea en ese punto."
+          },
+          {
+            "titulo": "Contar lo que no se ve",
+            "texto": "Si dudas de cuántos caracteres invisibles tiene un texto, pégalo en el [contador de caracteres](/contador-caracteres): los cuenta igual que los visibles."
+          }
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "ambar",
+        "titulo": "¿Por qué el texto invisible a veces no funciona?",
+        "texto": "Cada app decide qué caracteres acepta. Algunas eliminan los espacios de ancho cero, otras limitan los nombres a ciertos alfabetos y, si el teléfono no tiene una fuente para U+3164, se ve un recuadro en lugar de un hueco. Si un carácter falla, prueba con otro de los que ocupan espacio."
+      },
+      {
+        "tipo": "fuentes",
+        "titulo": "Fuentes",
+        "intro": "Tablas oficiales del estándar Unicode donde aparece cada carácter.",
+        "items": [
+          {
+            "texto": "Unicode: Hangul Compatibility Jamo (U+3164)",
+            "url": "https://www.unicode.org/charts/PDF/U3130.pdf"
+          },
+          {
+            "texto": "Unicode: Braille Patterns (U+2800)",
+            "url": "https://www.unicode.org/charts/PDF/U2800.pdf"
+          },
+          {
+            "texto": "Unicode: General Punctuation (U+200B a U+200D)",
+            "url": "https://www.unicode.org/charts/PDF/U2000.pdf"
+          }
+        ]
+      }
     ],
     "faqs": [
       {
@@ -61,18 +152,118 @@
     "metaTitle": "Calculadora de Edad Exacta | Años, Meses y Días Gratis",
     "metaDescription": "Calcula tu edad exacta en años, meses y días al instante. Descubre cuántos días, horas y minutos has vivido desde tu fecha de nacimiento. Gratis y preciso.",
     "intro": "Nuestra calculadora de edad te permite conocer tu edad exacta al día de hoy a partir de tu fecha de nacimiento. Obtendrás el resultado en años, meses y días, además de datos curiosos como el número total de días que has vivido, las semanas transcurridas y cuándo será tu próximo cumpleaños.",
-    "howToUse": [
-      "Introduce tu fecha de nacimiento en el campo de fecha",
-      "Haz clic en el botón Calcular edad",
-      "Obtén tu edad exacta en años, meses y días",
-      "Explora los datos adicionales como días totales vividos y próximo cumpleaños"
-    ],
-    "benefits": [
-      "Cálculo preciso teniendo en cuenta años bisiestos",
-      "Muestra la edad en múltiples formatos simultáneamente",
-      "Calcula los días que faltan para tu próximo cumpleaños",
-      "Indica el día de la semana en que naciste",
-      "Completamente gratuito y sin registro"
+    "resumen": "Escribe tu fecha de nacimiento y obtén tu edad exacta en años, meses y días, el total de días y semanas vividos y cuánto falta para tu próximo cumpleaños. También sirve para calcular la edad de otra persona en cualquier fecha.",
+    "bloques": [
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cuántos años tiene alguien nacido el 15 de marzo de 1995?",
+        "intro": "Así hace la calculadora la cuenta, con el 20 de octubre de 2026 como fecha de hoy.",
+        "datos": [
+          [
+            "Fecha de nacimiento",
+            "15/03/1995"
+          ],
+          [
+            "Fecha de cálculo",
+            "20/10/2026"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Cuenta los años completos: del 15/03/1995 al 15/03/2026 han pasado 31 cumpleaños.",
+            "operacion": "2026 − 1995 = 31 años"
+          },
+          {
+            "texto": "Cuenta los meses completos desde el último cumpleaños: del 15/03/2026 al 15/10/2026.",
+            "operacion": "10 − 3 = 7 meses"
+          },
+          {
+            "texto": "Cuenta los días que quedan hasta hoy: del 15/10/2026 al 20/10/2026.",
+            "operacion": "20 − 15 = 5 días"
+          },
+          {
+            "texto": "Para el total de días vividos se cuentan uno a uno los días del calendario, incluidos los 29 de febrero de los años bisiestos."
+          }
+        ],
+        "resultado": [
+          "31 años, 7 meses y 5 días",
+          "11.542 días"
+        ]
+      },
+      {
+        "tipo": "infografia",
+        "archivo": "como-calcular-edad-exacta.webp",
+        "alt": "Cómo calcular la edad exacta en años, meses y días con un ejemplo en una línea de tiempo",
+        "ancho": 800,
+        "alto": 733
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo se calcula la edad si todavía no ha llegado el día de tu cumpleaños este mes?",
+        "parrafos": [
+          "Si naciste un día 25 y hoy es día 10, todavía no se ha completado el mes en curso. La calculadora resta un mes y suma los días que tiene el mes anterior: si el mes anterior tuvo 30 días, quedan 30 − 25 + 10 = 15 días. Es el mismo «préstamo» que se hace en una resta en columna, pero con meses de 28, 29, 30 o 31 días.",
+          "Por eso dos personas que nacieron con un día de diferencia pueden tener resultados en días que no parecen consecutivos al final de un mes: no es un error, es el calendario."
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Cuántos días he vivido según mi edad?",
+        "intro": "Referencia rápida con la duración media del año (365,25 días). Tu cifra exacta depende de cuántos años bisiestos hayas vivido.",
+        "cabeceras": [
+          "Edad",
+          "Días vividos (aprox.)",
+          "Semanas (aprox.)"
+        ],
+        "filas": [
+          [
+            "18 años",
+            "6.575",
+            "939"
+          ],
+          [
+            "30 años",
+            "10.958",
+            "1.565"
+          ],
+          [
+            "40 años",
+            "14.610",
+            "2.087"
+          ],
+          [
+            "50 años",
+            "18.263",
+            "2.609"
+          ],
+          [
+            "65 años",
+            "23.741",
+            "3.391"
+          ]
+        ]
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Para qué trámites se necesita la edad exacta?",
+        "items": [
+          {
+            "titulo": "Jubilación",
+            "texto": "La edad de retiro se cuenta al día. Combina tu edad con la [calculadora de pensión de jubilación](/calculo-pension-jubilacion) para planificar."
+          },
+          {
+            "titulo": "Plazos entre fechas",
+            "texto": "Para contar días entre dos fechas cualesquiera, como un contrato o un viaje, usa la [calculadora de días](/calculadora-dias)."
+          },
+          {
+            "titulo": "Embarazo",
+            "texto": "La edad gestacional se cuenta en semanas desde la última regla: la [calculadora de embarazo](/calculadora-embarazo) lo hace por ti."
+          },
+          {
+            "titulo": "Tu mascota",
+            "texto": "Los años de un perro no equivalen a siete humanos. Compruébalo con la [calculadora de edad de tu perro](/edad-de-mi-perro)."
+          }
+        ]
+      }
     ],
     "faqs": [
       {
@@ -114,39 +305,145 @@
     "metaTitle": "Calculadora de RFC y RFC Genérico (XAXX010101000)",
     "metaDescription": "¿Qué es el RFC genérico? Los códigos XAXX010101000 y XEXX010101000 para facturar a público en general, explicados. Además, calcula gratis tu propio RFC personal.",
     "intro": "¿Buscas el RFC genérico para facturar a público en general, o necesitas calcular tu propio RFC personal? Esta página resuelve ambas cosas: te explicamos los códigos de RFC genérico que usa el SAT (XAXX010101000 y XEXX010101000) y cuándo corresponde cada uno, y además incluye una calculadora gratuita que genera la clave base de tu RFC personal a partir de tu nombre, apellidos y fecha de nacimiento, siguiendo las reglas públicas del SAT. No necesitas CURP ni registro.",
-    "howToUse": [
-      "Escribe tu nombre o nombres en el primer campo (por ejemplo: Juan Carlos)",
-      "Ingresa tu apellido paterno con o sin acento — la herramienta lo normaliza automáticamente",
-      "Añade tu apellido materno si lo tienes; si no, el sistema usa X como indica el SAT",
-      "Selecciona tu fecha de nacimiento y pulsa Calcular RFC para obtener el resultado"
-    ],
-    "benefits": [
-      "100% gratuito y sin necesidad de registro ni CURP",
-      "Maneja acentos y nombres compuestos automáticamente",
-      "Aplica el algoritmo base oficial del SAT para personas físicas",
-      "Resultado instantáneo sin salir del navegador",
-      "Compatible con todos los dispositivos móviles y de escritorio"
-    ],
-    "contentSections": [
+    "resumen": "Calcula los 10 primeros caracteres de tu RFC con tu nombre y fecha de nacimiento. Si solo necesitas facturar a público en general, el RFC genérico es XAXX010101000 (clientes nacionales) o XEXX010101000 (extranjeros). La homoclave final la asigna siempre el SAT.",
+    "bloques": [
       {
-        "title": "¿Qué es el RFC en México?",
-        "body": "El RFC (Registro Federal de Contribuyentes) es la clave fiscal que el SAT asigna a personas físicas y morales en México para identificarlas ante el fisco. Se utiliza para emitir facturas electrónicas (CFDI), presentar declaraciones de impuestos y realizar cualquier trámite tributario. Para personas físicas, el RFC se compone de cuatro letras derivadas del nombre y apellidos, seis dígitos de la fecha de nacimiento en formato YYMMDD, y tres caracteres adicionales llamados homoclave que solo el SAT puede calcular y asignar."
+        "tipo": "infografia",
+        "archivo": "partes-del-rfc-persona-fisica.webp",
+        "alt": "Partes del RFC de una persona física: letras de apellidos y nombre, fecha de nacimiento y homoclave",
+        "ancho": 800,
+        "alto": 838,
+        "titulo": "¿Cómo se forma el RFC de una persona física?",
+        "pie": "Los cuatro bloques del RFC de una persona física."
       },
       {
-        "title": "¿Qué es el RFC genérico y cuál es el código correcto?",
-        "body": "El RFC genérico es un valor fijo y oficial que el SAT autoriza usar cuando el cliente de una venta no proporciona su RFC o no lo necesita para efectos fiscales, típicamente en ventas al público en general o en facturas globales. Existen dos códigos: XAXX010101000, para operaciones con clientes nacionales (mexicanos), y XEXX010101000, para operaciones con clientes extranjeros. En ambos casos, el nombre o razón social que se registra en el CFDI es \"PÚBLICO EN GENERAL\". A diferencia de un RFC personal, el RFC genérico no se tramita ni se calcula: es el mismo valor predefinido para todos los negocios que facturan en México, y no permite identificar al comprador ante el SAT ni sirve para que este deduzca impuestos con esa factura."
+        "tipo": "tabla",
+        "titulo": "¿Qué RFC genérico usar para facturar a público en general?",
+        "intro": "El RFC genérico no se tramita ni se calcula: es un valor fijo que el SAT autoriza cuando el cliente no da su RFC.",
+        "cabeceras": [
+          "RFC",
+          "Cuándo se usa",
+          "Nombre en el CFDI"
+        ],
+        "filas": [
+          [
+            "XAXX010101000",
+            "Ventas a clientes nacionales que no piden factura a su nombre, y facturas globales del periodo.",
+            "PÚBLICO EN GENERAL"
+          ],
+          [
+            "XEXX010101000",
+            "Operaciones con clientes extranjeros que no tienen RFC mexicano.",
+            "Nombre del cliente extranjero"
+          ]
+        ],
+        "nota": "Una factura con RFC genérico no permite al comprador deducirla. Más detalle en la guía sobre [cuándo usar el RFC genérico](/blog/rfc-generico)."
       },
       {
-        "title": "Ejemplo de RFC calculado paso a paso",
-        "body": "Tomemos a Juan Carlos López García, nacido el 21 de agosto de 1995. El algoritmo toma la primera letra del apellido paterno (L), la primera vocal interna del apellido paterno (O de López), la primera letra del apellido materno (G de García) y la primera letra del nombre (J de Juan). A estos cuatro caracteres se añade la fecha en formato YYMMDD: 950821. El RFC base resultante es LOGJ950821. A este resultado el SAT añade la homoclave oficial para completar el RFC."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se calcula el RFC con un ejemplo real?",
+        "datos": [
+          [
+            "Nombre",
+            "Juan Carlos"
+          ],
+          [
+            "Apellidos",
+            "López García"
+          ],
+          [
+            "Nacimiento",
+            "21/08/1995"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Primera letra y primera vocal interna del primer apellido, LÓPEZ.",
+            "operacion": "L + O"
+          },
+          {
+            "texto": "Inicial del segundo apellido, GARCÍA.",
+            "operacion": "G"
+          },
+          {
+            "texto": "Inicial del primer nombre, JUAN.",
+            "operacion": "J"
+          },
+          {
+            "texto": "Fecha de nacimiento en formato año, mes y día.",
+            "operacion": "95 08 21"
+          },
+          {
+            "texto": "El SAT añade tres caracteres de homoclave al dar de alta el RFC.",
+            "operacion": "LOGJ950821 + ???"
+          }
+        ],
+        "resultado": [
+          "Clave base del RFC",
+          "LOGJ950821"
+        ]
       },
       {
-        "title": "¿Se puede obtener el RFC oficial aquí?",
-        "body": "No. Esta herramienta calcula la clave base del RFC siguiendo las reglas públicas del SAT, pero el RFC oficial incluye una homoclave de tres caracteres que solo el SAT puede asignar. Para obtener tu RFC completo y oficial debes tramitarlo en el portal sat.gob.mx o en una oficina del SAT. Esta calculadora es útil para conocer tu clave base, entender cómo se construye tu RFC o verificar que lo recuerdas correctamente antes de acudir al SAT."
+        "tipo": "comparacion",
+        "titulo": "¿El RFC que da esta calculadora es el oficial del SAT?",
+        "columnas": [
+          {
+            "titulo": "Esta calculadora",
+            "tono": "azul",
+            "items": [
+              "Calcula las 4 letras y las 6 cifras de la fecha con las reglas públicas del SAT.",
+              "Aplica las excepciones de partículas (DE, DEL, LA) y nombres como JOSÉ o MARÍA.",
+              "Te sirve para comprobar tu RFC o adelantar un trámite."
+            ]
+          },
+          {
+            "titulo": "Solo el SAT",
+            "tono": "ambar",
+            "items": [
+              "Asigna la homoclave de tres caracteres.",
+              "Da de alta el RFC y emite la constancia de situación fiscal.",
+              "Corrige errores en un RFC ya registrado."
+            ]
+          }
+        ]
       },
       {
-        "title": "Guías sobre el RFC",
-        "body": "Si es tu primera vez con el SAT, te explicamos [cómo sacar tu RFC por primera vez](/blog/como-sacar-mi-rfc) en línea con tu CURP, [qué es la homoclave del RFC](/blog/homoclave-del-rfc) y dónde consultarla gratis, y [cuándo usar el RFC genérico](/blog/rfc-generico) nacional o extranjero en una factura."
+        "tipo": "pasos",
+        "titulo": "¿Cómo obtener tu RFC con homoclave en el SAT?",
+        "pasos": [
+          {
+            "titulo": "Ten a mano tu CURP",
+            "texto": "El alta en línea del RFC se hace con la CURP. Si no la recuerdas, puedes [calcular tu CURP](/calcular-curp) para comprobarla."
+          },
+          {
+            "titulo": "Entra al portal del SAT",
+            "texto": "En sat.gob.mx busca la inscripción al RFC con CURP y llena el formulario con tus datos y domicilio."
+          },
+          {
+            "titulo": "Descarga tu constancia",
+            "texto": "Al terminar obtienes el acuse con tu RFC completo, homoclave incluida. Te lo explicamos con capturas en la guía [cómo sacar tu RFC por primera vez](/blog/como-sacar-mi-rfc)."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué es la homoclave del RFC y por qué no se puede calcular?",
+        "parrafos": [
+          "La homoclave son los tres últimos caracteres del RFC. El SAT la calcula a partir de tu nombre completo con un algoritmo propio para que dos personas con las mismas iniciales y la misma fecha de nacimiento no tengan el mismo RFC. Por eso ninguna calculadora puede garantizarla: la única homoclave válida es la que aparece en tu constancia. Más detalles en [qué es la homoclave del RFC](/blog/homoclave-del-rfc)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Servicio de Administración Tributaria (SAT)",
+            "url": "https://www.sat.gob.mx"
+          },
+          {
+            "texto": "Código Fiscal de la Federación, artículo 27 (Cámara de Diputados)",
+            "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CFF.pdf"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -203,39 +500,142 @@
     "webApp": true,
     "appCategory": "HealthApplication",
     "intro": "Calcula tu IMC (Índice de Masa Corporal) de forma gratuita con nuestra calculadora online. Solo necesitas tu peso en kilogramos y tu altura en centímetros para obtener el resultado al instante y saber si tu peso es saludable según los criterios de la Organización Mundial de la Salud. Sin registros, sin descargas, el cálculo de IMC en segundos desde cualquier dispositivo.",
-    "howToUse": [
-      "Introduce tu peso en kilogramos en el primer campo (por ejemplo: 72 kg)",
-      "Escribe tu altura en centímetros en el segundo campo (por ejemplo: 175 cm)",
-      "Pulsa el botón Calcular IMC para obtener el resultado al instante",
-      "Revisa tu índice de masa corporal, tu categoría de peso y el mensaje personalizado basado en tu resultado"
-    ],
-    "benefits": [
-      "Resultado inmediato sin necesidad de registrarte ni descargar ninguna aplicación",
-      "Utiliza la fórmula oficial validada por la Organización Mundial de la Salud (OMS)",
-      "Muestra tu categoría de peso con una explicación clara y un consejo personalizado",
-      "Incluye una escala visual que indica exactamente dónde se ubica tu IMC",
-      "100% gratuita y privada: ningún dato personal sale de tu dispositivo"
-    ],
-    "contentSections": [
+    "resumen": "El IMC es tu peso en kilos dividido entre tu altura en metros al cuadrado. En adultos, un resultado entre 18,5 y 24,9 se considera peso normal según la OMS; de 25 a 29,9, sobrepeso, y de 30 en adelante, obesidad.",
+    "bloques": [
       {
-        "title": "¿Qué es el IMC o Índice de Masa Corporal?",
-        "body": "El Índice de Masa Corporal (IMC), conocido internacionalmente como BMI (Body Mass Index), es la herramienta de referencia recomendada por la Organización Mundial de la Salud para evaluar si el peso de una persona es proporcional a su altura. Se calcula dividiendo el peso en kilogramos entre el cuadrado de la altura en metros. Aunque el IMC no mide directamente el porcentaje de grasa corporal, es un indicador accesible, rápido y globalmente aceptado para detectar posibles riesgos de salud relacionados con el bajo peso, el sobrepeso y la obesidad en adultos."
+        "tipo": "tabla",
+        "titulo": "¿Cuál es la tabla del IMC según la OMS?",
+        "cabeceras": [
+          "IMC",
+          "Clasificación",
+          "Peso para 1,70 m"
+        ],
+        "filas": [
+          [
+            "Menos de 18,5",
+            "Bajo peso",
+            "Menos de 53,5 kg"
+          ],
+          [
+            "18,5 a 24,9",
+            "Peso normal",
+            "53,5 a 72,0 kg"
+          ],
+          [
+            "25 a 29,9",
+            "Sobrepeso",
+            "72,3 a 86,4 kg"
+          ],
+          [
+            "30 a 34,9",
+            "Obesidad grado I",
+            "86,7 a 100,9 kg"
+          ],
+          [
+            "35 a 39,9",
+            "Obesidad grado II",
+            "101,2 a 115,3 kg"
+          ],
+          [
+            "40 o más",
+            "Obesidad grado III",
+            "115,6 kg o más"
+          ]
+        ],
+        "destacar": 1,
+        "nota": "Valores para adultos de 18 años o más, iguales para hombres y mujeres. La última columna es un ejemplo para una persona de 1,70 m."
       },
       {
-        "title": "Fórmula del IMC: cómo se calcula paso a paso",
-        "body": "La fórmula para calcular el IMC es: IMC = peso (kg) ÷ altura² (m). Si tu altura está en centímetros, primero divídela entre 100 para convertirla a metros. Por ejemplo, si mides 170 cm, tu altura en metros es 1.70. Luego multiplícala por sí misma: 1.70 × 1.70 = 2.89. Finalmente divide tu peso entre ese valor: si pesas 70 kg, tu IMC es 70 ÷ 2.89 = 24.22. Nuestra calculadora de IMC realiza todos estos pasos automáticamente en menos de un segundo, eliminando cualquier posibilidad de error de cálculo."
+        "tipo": "infografia",
+        "archivo": "tabla-imc-oms-adultos.webp",
+        "alt": "Tabla de clasificación del IMC según la OMS con la fórmula y un ejemplo de 70 kg y 1,75 m",
+        "ancho": 800,
+        "alto": 723
       },
       {
-        "title": "Tabla de clasificación del IMC según la OMS",
-        "body": "Los rangos del IMC establecidos por la Organización Mundial de la Salud para adultos son los siguientes: un IMC menor a 18.5 indica bajo peso; entre 18.5 y 24.9 corresponde a peso normal o saludable; de 25 a 29.9 se clasifica como sobrepeso; y un IMC de 30 o más indica obesidad. La obesidad se subdivide en grado I (30–34.9), grado II (35–39.9) y obesidad mórbida o grado III (40 o más). Estos valores son universales y se aplican a hombres y mujeres adultos en todo el mundo, aunque para poblaciones asiáticas algunos organismos recomiendan umbrales ligeramente más bajos."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuál es el IMC de una persona de 80 kg y 1,75 m?",
+        "datos": [
+          [
+            "Peso",
+            "80 kg"
+          ],
+          [
+            "Altura",
+            "175 cm"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Pasa la altura a metros.",
+            "operacion": "175 ÷ 100 = 1,75 m"
+          },
+          {
+            "texto": "Eleva la altura al cuadrado.",
+            "operacion": "1,75 × 1,75 = 3,0625"
+          },
+          {
+            "texto": "Divide el peso entre ese resultado.",
+            "operacion": "80 ÷ 3,0625 = 26,12"
+          },
+          {
+            "texto": "Para saber el peso máximo dentro del rango normal, multiplica 24,9 por la altura al cuadrado: 24,9 × 3,0625 = 76,3 kg. Esta persona está 3,7 kg por encima."
+          }
+        ],
+        "resultado": [
+          "IMC 26,1: sobrepeso",
+          "26,12"
+        ]
       },
       {
-        "title": "Ejemplo real de cálculo de IMC",
-        "body": "Supongamos que una persona pesa 80 kg y mide 175 cm (1.75 m). Primero elevamos la altura al cuadrado: 1.75 × 1.75 = 3.0625. Luego dividimos el peso: 80 ÷ 3.0625 = 26.12. El resultado es un IMC de 26.12, que cae en la categoría de sobrepeso leve. Con nuestra calculadora solo necesitas introducir 80 en el campo de peso y 175 en el de altura para obtener ese resultado de forma instantánea, sin hacer ninguna operación manual."
+        "tipo": "comparacion",
+        "titulo": "¿Es fiable el IMC si haces deporte o tienes mucho músculo?",
+        "columnas": [
+          {
+            "titulo": "Sirve para",
+            "tono": "verde",
+            "items": [
+              "Detectar de forma rápida si tu peso está en un rango de riesgo.",
+              "Seguir tu evolución con el tiempo usando siempre la misma medida.",
+              "Comparar con las referencias de la OMS, que usan médicos de todo el mundo."
+            ]
+          },
+          {
+            "titulo": "No distingue",
+            "tono": "ambar",
+            "items": [
+              "Entre músculo y grasa: un deportista musculoso puede salir con sobrepeso.",
+              "Dónde se acumula la grasa: la del abdomen es la de mayor riesgo.",
+              "La edad ni el sexo. Para completar la imagen, prueba la [calculadora de grasa corporal](/calculadora-grasa-corporal)."
+            ]
+          }
+        ]
       },
       {
-        "title": "IMC en niños y adolescentes: diferencias clave",
-        "body": "En adultos, el IMC usa rangos fijos independientemente del sexo y la edad. En niños y adolescentes de 2 a 19 años, la interpretación es diferente: se utilizan percentiles según la edad y el sexo del menor, porque la composición corporal varía enormemente durante el crecimiento. Esta calculadora está diseñada exclusivamente para adultos. Para evaluar el peso de un niño o adolescente, consulta las tablas de crecimiento de la OMS o acude a un pediatra, quien podrá interpretar el resultado de forma personalizada y segura."
+        "tipo": "texto",
+        "titulo": "¿Se calcula igual el IMC en niños y adolescentes?",
+        "parrafos": [
+          "Entre los 2 y los 19 años el cuerpo cambia tanto que un mismo IMC significa cosas distintas según la edad y el sexo. Por eso en menores no se usan los rangos de la tabla, sino percentiles de las curvas de crecimiento de la OMS. Esta calculadora está pensada para adultos: para un menor, consulta con su pediatra.",
+          "Si tu objetivo es ajustar tu peso, conocer tu [peso ideal](/calculadora-peso-ideal) y las [calorías que necesitas al día](/calculadora-calorias) te ayuda a plantear un cambio realista."
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "El IMC es una herramienta de cribado, no un diagnóstico. Si tu resultado está fuera del rango normal, coméntalo con un profesional sanitario."
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Organización Mundial de la Salud: Obesidad y sobrepeso",
+            "url": "https://www.who.int/es/news-room/fact-sheets/detail/obesity-and-overweight"
+          },
+          {
+            "texto": "OMS: Patrones de crecimiento infantil",
+            "url": "https://www.who.int/tools/child-growth-standards"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -281,35 +681,93 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "La Calculadora de Alicia es una herramienta educativa gratuita que muestra el procedimiento completo de las operaciones matemáticas básicas: suma en columna con acarreos, resta con préstamo y división con cociente y resto. A diferencia de las calculadoras normales, aquí no solo ves el resultado, sino cada paso del proceso, igual que se enseña en el colegio. Ideal para que niños y estudiantes revisen sus deberes, entiendan dónde se equivocaron y aprendan matemáticas de forma visual.",
-    "howToUse": [
-      "Selecciona la operación que necesitas: Suma, Resta o División",
-      "Introduce los dos números en los campos correspondientes (solo números enteros)",
-      "Pulsa el botón de calcular y obtén el resultado al instante",
-      "Lee el procedimiento paso a paso: cada columna explicada con acarreos, préstamos o restos según la operación"
-    ],
-    "benefits": [
-      "Muestra el procedimiento completo igual que se enseña en primaria y secundaria",
-      "Ideal para revisar los deberes y entender dónde está el error",
-      "Explica los acarreos en sumas, los préstamos en restas y los pasos de la división",
-      "Interfaz sencilla y visual que cualquier niño puede usar sin ayuda",
-      "100% gratuita, sin registro y sin anuncios molestos"
-    ],
-    "contentSections": [
+    "resumen": "Escribe dos números y la Calculadora de Alicia resuelve la suma, la resta o la división como en el cuaderno: con las llevadas, los préstamos y cada paso explicado, para que los niños entiendan el procedimiento y no solo el resultado.",
+    "bloques": [
       {
-        "title": "¿Qué es la Calculadora de Alicia?",
-        "body": "La Calculadora de Alicia es una calculadora educativa diseñada para ayudar a niños y estudiantes a dominar las matemáticas básicas mostrando el procedimiento detallado de cada operación. A diferencia de una calculadora convencional que solo da el resultado, la Calculadora de Alicia desglosa cada paso: muestra los acarreos de las sumas en columna, los préstamos de las restas, y cada etapa del método de la división. Es la herramienta perfecta para hacer los deberes, repasar antes de un examen o simplemente aprender a calcular de forma autónoma."
+        "tipo": "infografia",
+        "archivo": "suma-en-columna-con-llevadas.webp",
+        "alt": "Suma en columna con llevadas paso a paso: 478 más 356 igual a 834",
+        "ancho": 800,
+        "alto": 677,
+        "titulo": "¿Cómo se hace una suma con llevadas paso a paso?"
       },
       {
-        "title": "¿Cómo funciona la suma en columna paso a paso?",
-        "body": "En la suma en columna, los números se colocan uno encima del otro alineados por sus cifras (unidades bajo unidades, decenas bajo decenas, etc.). Se empieza por la columna de las unidades: si la suma es mayor que 9, se escribe el dígito de las unidades y se lleva el de las decenas a la siguiente columna. Este número que se lleva se llama acarreo. La Calculadora de Alicia muestra cada acarreo encima de la columna correspondiente y explica el cálculo de cada posición en texto claro para que el niño pueda seguirlo fácilmente."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se resta pidiendo prestado cuando hay un cero?",
+        "intro": "El caso que más cuesta: hay que pedir prestado a una columna que vale cero.",
+        "pasos": [
+          {
+            "texto": "Unidades: 3 es menor que 8. Hay que pedir prestado, pero las decenas valen 0, así que se pide a las centenas: el 5 pasa a 4 y las decenas a 10.",
+            "operacion": "5 0 3 → 4 10 3"
+          },
+          {
+            "texto": "Ahora las decenas prestan 1 a las unidades: las decenas quedan en 9 y las unidades en 13.",
+            "operacion": "13 − 8 = 5"
+          },
+          {
+            "texto": "Decenas: 9 menos 7.",
+            "operacion": "9 − 7 = 2"
+          },
+          {
+            "texto": "Centenas: 4 menos 2.",
+            "operacion": "4 − 2 = 2"
+          }
+        ],
+        "resultado": [
+          "503 − 278",
+          "225"
+        ]
       },
       {
-        "title": "¿Cómo funciona la resta con préstamo paso a paso?",
-        "body": "La resta en columna se realiza de derecha a izquierda, igual que la suma. Cuando la cifra de arriba es menor que la de abajo, se pide prestado a la columna de la izquierda: la cifra de arriba aumenta en 10 y la columna vecina disminuye en 1. Este proceso se llama préstamo o reagrupación. La Calculadora de Alicia indica en cada paso si se ha realizado un préstamo y qué números se han modificado, facilitando la comprensión del procedimiento completo."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se hace una división de una cifra paso a paso?",
+        "pasos": [
+          {
+            "texto": "El 1 es menor que 6, así que se toman dos cifras: 15. El 6 cabe 2 veces en 15.",
+            "operacion": "6 × 2 = 12 · 15 − 12 = 3"
+          },
+          {
+            "texto": "Se baja el 7 junto al resto: 37. El 6 cabe 6 veces en 37.",
+            "operacion": "6 × 6 = 36 · 37 − 36 = 1"
+          },
+          {
+            "texto": "No quedan cifras por bajar: el cociente es 26 y sobra 1."
+          }
+        ],
+        "resultado": [
+          "Cociente 26, resto 1",
+          "26 r 1"
+        ]
       },
       {
-        "title": "¿Cómo funciona la división paso a paso?",
-        "body": "La división larga (o método de la garita, como se conoce en España y Latinoamérica) consiste en dividir el dividendo cifra a cifra. En cada paso se baja un dígito del dividendo, se determina cuántas veces cabe el divisor en ese número parcial, se multiplica y se resta para obtener el resto parcial. La Calculadora de Alicia muestra el divisor y el cociente en la caja clásica de la división, y explica cada bajada de dígito y cada multiplicación para que el proceso sea completamente transparente."
+        "tipo": "consejos",
+        "titulo": "¿Cómo comprobar si una resta o una división está bien hecha?",
+        "items": [
+          {
+            "titulo": "La resta se comprueba sumando",
+            "texto": "Suma el resultado y el número que restaste: tiene que darte el primero. 225 + 278 = 503."
+          },
+          {
+            "titulo": "La división, multiplicando",
+            "texto": "Divisor por cociente más resto debe dar el dividendo: 6 × 26 + 1 = 157. El resto siempre es menor que el divisor."
+          },
+          {
+            "titulo": "Estima antes de calcular",
+            "texto": "478 + 356 es algo más que 400 + 350 = 750. Si te da 8.340 o 83, sabes que algo falló."
+          },
+          {
+            "titulo": "Practica sin calculadora",
+            "texto": "Cuando el procedimiento esté claro, refuerza la agilidad con las [tablas de multiplicar](/tablas-de-multiplicar) y el juego de [cálculo mental](/calculo-mental)."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Por qué es mejor ver el procedimiento y no solo el resultado?",
+        "parrafos": [
+          "Una calculadora normal da el número final, pero en el colegio se evalúa el camino: dónde va la llevada, por qué se pide prestado o cómo se baja la siguiente cifra. La Calculadora de Alicia muestra esos pasos en el mismo orden y con la misma disposición que en el cuaderno, para que el niño pueda comparar su trabajo con el correcto e identificar en qué paso se equivocó.",
+          "Para los siguientes cursos, la [calculadora de fracciones](/calculadora-fracciones) sigue la misma idea con sumas, restas y simplificación de fracciones explicadas."
+        ]
       }
     ],
     "faqs": [
@@ -355,35 +813,134 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Un código QR es un código de barras bidimensional capaz de almacenar enlaces, textos, datos de contacto o credenciales de una red WiFi, y que cualquier smartphone puede leer al instante con la cámara. Nuestro generador de código QR crea tu QR directamente en el navegador, sin subir tus datos a ningún servidor: eliges el tipo de contenido, personalizas el color y el tamaño, y descargas la imagen en segundos, totalmente gratis y sin necesidad de registro.",
-    "howToUse": [
-      "Elige el tipo de código QR que necesitas: texto o URL, WiFi, email, teléfono, SMS, WhatsApp o contacto (vCard)",
-      "Rellena los campos correspondientes con la información que quieres codificar",
-      "Personaliza el color, el tamaño, el nivel de corrección de errores y, si quieres, añade tu logo en el centro",
-      "Descarga tu código QR en formato PNG o SVG y úsalo donde lo necesites"
-    ],
-    "benefits": [
-      "Genera QR de texto, URL, WiFi, email, teléfono, SMS, WhatsApp y contactos (vCard)",
-      "Personalización completa: colores, tamaño y logo propio en el centro del código",
-      "Descarga en PNG (para imprimir o compartir) o SVG (calidad vectorial ilimitada)",
-      "Todo se genera en tu navegador: tus datos nunca se envían a ningún servidor",
-      "Sin registro, sin límite de usos y completamente gratis"
-    ],
-    "contentSections": [
+    "resumen": "Crea un código QR para un enlace, tu WiFi, WhatsApp, un correo o un contacto, personaliza el color y descárgalo en PNG o SVG. Se genera en tu navegador, no caduca y no pasa por ningún servidor.",
+    "bloques": [
       {
-        "title": "¿Qué es un código QR y para qué sirve?",
-        "body": "QR son las siglas de \"Quick Response\" (respuesta rápida). Es un código de barras bidimensional que puede almacenar mucha más información que un código de barras tradicional: enlaces web, textos, datos de contacto, credenciales WiFi o mensajes predefinidos para WhatsApp o SMS. Al escanearlo con la cámara de un smartphone, el dispositivo interpreta el patrón de cuadrados en blanco y negro y ejecuta la acción correspondiente al instante, como abrir una web o conectar a una red WiFi. Por eso los códigos QR se usan tanto en cartas de restaurantes, packaging de productos, tarjetas de visita, carteles publicitarios o puntos de acceso WiFi."
+        "tipo": "cifras",
+        "items": [
+          [
+            "Nunca",
+            "caduca: el contenido va dentro del código"
+          ],
+          [
+            "7 tipos",
+            "de contenido: URL, WiFi, WhatsApp, vCard…"
+          ],
+          [
+            "30 %",
+            "del código puede dañarse con el nivel H"
+          ],
+          [
+            "0",
+            "datos enviados a un servidor"
+          ]
+        ]
       },
       {
-        "title": "Tipos de código QR que puedes crear con esta herramienta",
-        "body": "Este generador soporta los formatos más utilizados: texto o URL (para enlazar a una web o mostrar cualquier texto), WiFi (para que los invitados se conecten a tu red escaneando el código, sin escribir la contraseña), email (abre el cliente de correo con destinatario, asunto y mensaje ya rellenos), teléfono y SMS (para llamar o enviar un mensaje con un solo toque), WhatsApp (abre un chat con un mensaje predefinido) y contacto vCard (guarda un contacto completo en la agenda del móvil con un solo escaneo)."
+        "tipo": "infografia",
+        "archivo": "partes-de-un-codigo-qr.webp",
+        "alt": "Partes de un código QR y niveles de corrección de errores L, M, Q y H",
+        "ancho": 800,
+        "alto": 878,
+        "titulo": "¿Cuáles son las partes de un código QR?",
+        "pie": "El código de la imagen es real: apunta a herramatica.com."
       },
       {
-        "title": "¿Qué nivel de corrección de errores debo elegir?",
-        "body": "El nivel de corrección de errores determina cuánta información redundante lleva el código QR para poder leerse incluso si está parcialmente dañado, sucio o tapado. Existen cuatro niveles: L (~7% de recuperación), M (~15%), Q (~25%) y H (~30%). Para un uso general, el nivel M es suficiente. Si vas a imprimir el código QR en un tamaño pequeño, en un material que se puede ensuciar, o si añades un logo en el centro, se recomienda usar el nivel H, ya que ofrece el máximo margen de corrección y evita errores de lectura."
+        "tipo": "tabla",
+        "titulo": "¿Qué nivel de corrección de errores elegir para un código QR?",
+        "cabeceras": [
+          "Nivel",
+          "Recupera",
+          "Úsalo para"
+        ],
+        "filas": [
+          [
+            "L",
+            "Hasta el 7 %",
+            "Pantallas y documentos digitales, donde el código no se daña."
+          ],
+          [
+            "M",
+            "Hasta el 15 %",
+            "La opción general: folletos, tarjetas y carteles."
+          ],
+          [
+            "Q",
+            "Hasta el 25 %",
+            "Superficies que se ensucian o desgastan, como etiquetas de producto."
+          ],
+          [
+            "H",
+            "Hasta el 30 %",
+            "Códigos con un logo en el centro o impresos en exteriores."
+          ]
+        ],
+        "destacar": 1,
+        "nota": "Más corrección significa más módulos, así que el código se vuelve más denso: imprímelo algo más grande."
       },
       {
-        "title": "Consejos para que tu código QR funcione siempre",
-        "body": "Para asegurarte de que tu código QR se escanea sin problemas: mantén suficiente contraste entre el color del código y el fondo (evita combinaciones de colores claros muy similares), deja un margen blanco alrededor del código, no reduzcas demasiado el tamaño del logo central, y prueba siempre el código con varios móviles antes de imprimirlo o publicarlo. Si el contenido es una URL, comprueba que el enlace funcione correctamente y utiliza siempre https:// para mayor confianza por parte de quien lo escanea."
+        "tipo": "consejos",
+        "titulo": "¿De qué tamaño imprimir un código QR para que se escanee bien?",
+        "items": [
+          {
+            "titulo": "Tamaño mínimo",
+            "texto": "Como regla práctica, imprime el código a 2 × 2 cm o más, y súmale tamaño si se va a escanear de lejos: la distancia de lectura ronda diez veces el ancho del código."
+          },
+          {
+            "titulo": "Contraste",
+            "texto": "Código oscuro sobre fondo claro. Los colores invertidos o con poco contraste fallan en muchos móviles."
+          },
+          {
+            "titulo": "Margen blanco",
+            "texto": "Deja al menos cuatro módulos libres alrededor. Si lo pegas al borde de un diseño, la cámara no encuentra las esquinas."
+          },
+          {
+            "titulo": "Pruébalo antes de imprimir",
+            "texto": "Escanéalo con dos o tres teléfonos distintos y comprueba que el enlace abre la página correcta, con https."
+          }
+        ]
+      },
+      {
+        "tipo": "comparacion",
+        "titulo": "¿Es mejor descargar el código QR en PNG o en SVG?",
+        "columnas": [
+          {
+            "titulo": "PNG",
+            "tono": "azul",
+            "items": [
+              "Imagen de píxeles lista para usar.",
+              "Ideal para WhatsApp, redes sociales, presentaciones y webs.",
+              "Si la amplías mucho, los bordes se ven borrosos."
+            ]
+          },
+          {
+            "titulo": "SVG",
+            "tono": "verde",
+            "items": [
+              "Imagen vectorial: se amplía sin perder calidad.",
+              "Ideal para imprenta, carteles, lonas y diseño gráfico.",
+              "Se abre con Illustrator, Inkscape, Canva o cualquier navegador."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué se puede guardar en un código QR?",
+        "parrafos": [
+          "Un QR estático guarda el contenido dentro del propio dibujo: un enlace, un texto, los datos de tu red WiFi para que tus invitados se conecten sin escribir la contraseña, un correo con asunto ya escrito, un teléfono, un SMS, un chat de WhatsApp con mensaje predefinido o una tarjeta de contacto vCard.",
+          "Si solo quieres compartir tu WhatsApp en una web o en tu bio, a veces basta con un enlace: créalo con el [generador de link de WhatsApp](/generador-de-link-de-whatsapp). Para productos con código de barras lineal, usa el [generador de código de barras](/generador-codigo-de-barras)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "titulo": "Más información",
+        "items": [
+          {
+            "texto": "DENSO WAVE, creador del código QR",
+            "url": "https://www.qrcode.com/es/"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -432,31 +989,88 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Calcular horas a mano es fácil de complicar porque el tiempo no funciona en base 10: una hora tiene 60 minutos, no 100. Nuestra calculadora de horas resuelve al instante los tres cálculos con el tiempo más habituales: saber cuántas horas has trabajado entre una hora de entrada y una de salida (restando el descanso), sumar o restar una cantidad de horas y minutos a una hora concreta, y convertir horas y minutos a formato decimal para nóminas y hojas de cálculo.",
-    "howToUse": [
-      "Elige la pestaña según lo que necesites: Horas trabajadas, Sumar/Restar o Convertir a decimal",
-      "En \"Horas trabajadas\", introduce la hora de entrada, la de salida y los minutos de descanso",
-      "En \"Sumar/Restar\", indica una hora inicial y la cantidad de horas y minutos a sumar o restar",
-      "En \"Convertir a decimal\", introduce horas y minutos o un número decimal para ver la conversión al instante"
-    ],
-    "benefits": [
-      "Calcula automáticamente turnos que cruzan la medianoche (turnos nocturnos)",
-      "Resta el tiempo de descanso para obtener las horas efectivas trabajadas",
-      "Suma o resta horas y minutos a cualquier hora, indicando si cambia de día",
-      "Convierte entre formato horas:minutos y formato decimal en ambos sentidos",
-      "Sin registro, sin límites y funciona en cualquier dispositivo"
-    ],
-    "contentSections": [
+    "resumen": "Calcula las horas trabajadas entre la entrada y la salida descontando el descanso, suma o resta tiempo a una hora y convierte horas y minutos a formato decimal para tu nómina o tu factura. Los turnos que cruzan la medianoche se calculan solos.",
+    "bloques": [
       {
-        "title": "¿Por qué es tan difícil calcular horas a mano?",
-        "body": "El tiempo se mide en base sexagesimal: cada hora tiene 60 minutos, no 100. Esto significa que no puedes simplemente restar 17:30 menos 9:15 como si fueran números decimales, porque 30 menos 15 no da el resultado correcto en minutos si hay que \"llevar\" desde la columna de las horas o pedir prestado un minuto. Esta calculadora aplica automáticamente la aritmética sexagesimal correcta, incluyendo los casos en los que el turno cruza la medianoche."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo calcular las horas de un turno de noche que pasa la medianoche?",
+        "intro": "El caso que más errores da en una hoja de cálculo, porque la salida es «menor» que la entrada.",
+        "datos": [
+          [
+            "Entrada",
+            "22:00"
+          ],
+          [
+            "Salida",
+            "06:30"
+          ],
+          [
+            "Descanso",
+            "30 min"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Como la salida es anterior a la entrada, el turno cruza la medianoche: se suman 24 horas a la salida.",
+            "operacion": "06:30 + 24:00 = 30:30"
+          },
+          {
+            "texto": "Se resta la hora de entrada.",
+            "operacion": "30:30 − 22:00 = 8 h 30 min"
+          },
+          {
+            "texto": "Se descuenta el descanso.",
+            "operacion": "8 h 30 min − 30 min = 8 h 00 min"
+          }
+        ],
+        "resultado": [
+          "Horas trabajadas",
+          "8,00 h"
+        ]
       },
       {
-        "title": "¿Cómo se calculan las horas trabajadas con descanso?",
-        "body": "Para saber cuántas horas efectivas has trabajado, se calcula la diferencia entre la hora de salida y la hora de entrada, y a ese resultado se le restan los minutos de descanso (por ejemplo, la pausa para comer). Si la hora de salida es anterior a la de entrada, la calculadora entiende que el turno cruza la medianoche y añade 24 horas antes de restar, típico de turnos nocturnos o de hostelería."
+        "tipo": "infografia",
+        "archivo": "tabla-minutos-a-horas-decimales.webp",
+        "alt": "Tabla para convertir minutos a horas decimales con un ejemplo de jornada laboral",
+        "ancho": 800,
+        "alto": 905,
+        "titulo": "¿Cómo pasar minutos a horas decimales?"
       },
       {
-        "title": "¿Para qué sirve el formato decimal de horas?",
-        "body": "Muchos programas de nóminas, hojas de cálculo y sistemas de fichaje no trabajan con el formato horas:minutos, sino con horas decimales (por ejemplo, 7 horas y 30 minutos se expresan como 7,5). Convertir correctamente entre ambos formatos evita errores habituales, como confundir 7:30 con 7,3 horas cuando en realidad equivale a 7,5 horas, ya que 30 minutos son medio (0,5) de una hora, no tres décimas."
+        "tipo": "aviso",
+        "tono": "rojo",
+        "titulo": "¿7:30 horas son 7,3 o 7,5 en decimal?",
+        "texto": "7 horas y 30 minutos son 7,5 horas, no 7,3. Si tu sistema de nómina usa decimales y escribes los minutos tal cual, cada jornada de 7:30 te pagaría 12 minutos menos: unas 4 horas al mes en una jornada de lunes a viernes."
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Por qué no se pueden restar horas como números normales?",
+        "parrafos": [
+          "Una hora tiene 60 minutos, no 100. Si restas 17:15 − 9:30 como si fueran decimales obtienes 7,85, que no significa nada. Hay que pedir prestada una hora y convertirla en 60 minutos: 16:75 − 9:30 = 7 h 45 min. La calculadora hace este préstamo sola, igual que el paso a las horas decimales.",
+          "Si trabajas más de tu jornada, la [calculadora de horas extras](/calcular-horas-extras) aplica los recargos según la ley de tu país, y la [calculadora de nómina](/calculadora-nomina) los incorpora a tu sueldo."
+        ]
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Para qué sirve calcular horas trabajadas?",
+        "items": [
+          {
+            "titulo": "Registro de jornada",
+            "texto": "Suma tus horas diarias y comprueba que coinciden con lo que marca el fichaje de tu empresa."
+          },
+          {
+            "titulo": "Facturar por horas",
+            "texto": "Si cobras por hora, multiplica las horas decimales por tu tarifa: 3 h 45 min a 20 € son 3,75 × 20 = 75 €."
+          },
+          {
+            "titulo": "Calcular a qué hora sales",
+            "texto": "Suma tu jornada y tu descanso a la hora de entrada: 08:15 + 8 h + 1 h = 17:15."
+          },
+          {
+            "titulo": "Horarios semanales",
+            "texto": "Para organizar clases o turnos de toda la semana, usa el [calculador de horarios](/calculador-de-horarios)."
+          }
+        ]
       }
     ],
     "faqs": [
@@ -506,37 +1120,125 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Esta calculadora científica online incluye todas las funciones de una calculadora física avanzada (trigonometría, logaritmos, potencias, raíces, funciones hiperbólicas, factorial y memoria) sin necesidad de cambiar entre un \"modo básico\" y un \"modo científico\": todas las funciones están siempre a la vista. Puedes escribir expresiones completas como en una calculadora gráfica, ver el resultado en tiempo real mientras escribes, usar el teclado de tu ordenador igual que los botones en pantalla, y consultar el historial de tus últimos cálculos con un clic. Todo el cálculo ocurre en tu navegador: tus operaciones nunca se envían a ningún servidor.",
-    "howToUse": [
-      "Escribe tu operación con los botones en pantalla o directamente con el teclado de tu ordenador (números, +, -, *, /, paréntesis, Enter para calcular)",
-      "Usa las funciones científicas (sin, cos, log, √, xʸ, etc.) para construir expresiones más avanzadas; el resultado se previsualiza en tiempo real",
-      "Pulsa el botón \"2nd\" para acceder a las funciones inversas (sin⁻¹, cos⁻¹, √x, 10ˣ, etc.) sin saturar la pantalla de botones",
-      "Cambia entre grados (DEG), radianes (RAD) y gradianes (GRAD) según lo que necesites, y consulta o reutiliza cálculos anteriores desde el historial"
-    ],
-    "benefits": [
-      "Todas las funciones visibles a la vez: sin tener que cambiar entre modo básico y científico",
-      "Vista previa del resultado en tiempo real mientras escribes la expresión, antes incluso de pulsar \"=\"",
-      "Historial de cálculos: revisa y reutiliza tus últimas 30 operaciones con un clic",
-      "Memoria completa (MC, MR, M+, M−) y función Ans para encadenar cálculos con el resultado anterior",
-      "Funciones hiperbólicas, factorial, raíz de índice n, logaritmo en base y, y modos DEG/RAD/GRAD",
-      "Compatible con el teclado físico: escribe como en una calculadora de verdad, sin tocar el ratón",
-      "Privacidad total: el cálculo se ejecuta en tu navegador, sin enviar datos a ningún servidor"
-    ],
-    "contentSections": [
+    "resumen": "Calculadora científica completa en el navegador: trigonometría en grados, radianes o gradianes, logaritmos, potencias, raíces de cualquier índice, factorial, funciones hiperbólicas, memoria e historial. Escribe la expresión entera y ve el resultado mientras tecleas.",
+    "bloques": [
       {
-        "title": "¿Qué diferencia a esta calculadora científica de otras online?",
-        "body": "La mayoría de calculadoras científicas online obligan a alternar entre un modo \"básico\" y uno \"científico\", u ocultan funciones avanzadas detrás de menús. Aquí todas las funciones (trigonometría, logaritmos, potencias, raíces, hiperbólicas y memoria) están disponibles desde la primera pantalla, organizadas en una cuadrícula clara. Además, incorpora funciones poco habituales en calculadoras online gratuitas: raíz de índice n (ʸ√x), logaritmo en base personalizada, modo gradianes (GRAD) además de grados y radianes, historial de cálculos reutilizable, y previsualización del resultado en tiempo real mientras escribes."
+        "tipo": "infografia",
+        "archivo": "grados-y-radianes-calculadora.webp",
+        "alt": "Diferencia entre grados y radianes en la calculadora científica con el seno de 30",
+        "ancho": 800,
+        "alto": 841,
+        "titulo": "¿Por qué sen(30) da −0,988 en la calculadora?"
       },
       {
-        "title": "¿Cómo funciona el modo DEG, RAD y GRAD?",
-        "body": "Las funciones trigonométricas (seno, coseno, tangente y sus inversas) interpretan el ángulo de forma distinta según el modo seleccionado: DEG (grados, de 0 a 360), RAD (radianes, de 0 a 2π) y GRAD (gradianes, de 0 a 400, un sistema usado en topografía e ingeniería). Pulsa el botón de modo (arriba a la izquierda) para alternar entre los tres. Un error muy común es calcular sin(30) esperando 0,5 pero estando en modo RAD en lugar de DEG: comprueba siempre el modo activo antes de trabajar con ángulos."
+        "tipo": "tabla",
+        "titulo": "¿Cómo se escriben las funciones en la calculadora científica?",
+        "intro": "Puedes usar los botones o escribir las funciones con el teclado. Estas son las equivalencias:",
+        "cabeceras": [
+          "Función",
+          "Se escribe",
+          "Ejemplo",
+          "Resultado"
+        ],
+        "filas": [
+          [
+            "Seno, coseno, tangente",
+            "sin( cos( tan(",
+            "sin(30) en DEG",
+            "0,5"
+          ],
+          [
+            "Inversas",
+            "asin( acos( atan(",
+            "asin(1) en DEG",
+            "90"
+          ],
+          [
+            "Logaritmo decimal",
+            "log(",
+            "log(1000)",
+            "3"
+          ],
+          [
+            "Logaritmo natural",
+            "ln(",
+            "ln(e)",
+            "1"
+          ],
+          [
+            "Logaritmo en base y",
+            "logy(base,x)",
+            "logy(2,8)",
+            "3"
+          ],
+          [
+            "Raíz cuadrada y cúbica",
+            "sqrt( cbrt(",
+            "sqrt(144)",
+            "12"
+          ],
+          [
+            "Raíz de índice n",
+            "root(n,x)",
+            "root(3,8)",
+            "2"
+          ],
+          [
+            "Potencia",
+            "^",
+            "2^10",
+            "1024"
+          ],
+          [
+            "Factorial",
+            "!",
+            "5!",
+            "120"
+          ],
+          [
+            "Último resultado",
+            "Ans",
+            "Ans×2",
+            "el doble del anterior"
+          ]
+        ]
       },
       {
-        "title": "¿Cómo se usan las funciones con más de un argumento?",
-        "body": "Dos funciones de esta calculadora necesitan dos valores: la raíz de índice y (ʸ√x) y el logaritmo en base y (logᵧ). Al pulsarlas se inserta el nombre de la función seguido de un paréntesis abierto; escribe el primer valor, pulsa la coma (,), escribe el segundo valor y cierra el paréntesis. Por ejemplo, root(3,8) calcula la raíz cúbica de 8 (resultado 2), y logy(2,8) calcula el logaritmo en base 2 de 8 (resultado 3)."
+        "tipo": "texto",
+        "titulo": "¿Cuándo usar grados, radianes o gradianes?",
+        "parrafos": [
+          "Las funciones trigonométricas interpretan el número según el modo activo: DEG usa grados (una vuelta son 360), RAD usa radianes (una vuelta son 2π, unos 6,283) y GRAD usa gradianes (una vuelta son 400), habituales en topografía. Cambia de modo con el botón de la esquina superior izquierda.",
+          "En el colegio y en problemas de geometría casi siempre se trabaja en grados; en cálculo, física y programación, en radianes. Si un ejercicio da π/4, estás en radianes."
+        ]
       },
       {
-        "title": "Atajos de teclado disponibles",
-        "body": "Puedes escribir directamente con tu teclado físico: los números y el punto decimal, +, -, * (multiplicación), / (división), ^ (potencia), paréntesis, coma y % funcionan igual que sus botones equivalentes. Pulsa Enter o el signo igual para calcular, Retroceso (Backspace) para borrar el último elemento introducido, y Escape para borrar toda la expresión actual."
+        "tipo": "consejos",
+        "titulo": "¿Qué tiene esta calculadora científica que no tengan otras?",
+        "items": [
+          {
+            "titulo": "Previsualización en vivo",
+            "texto": "El resultado aparece mientras escribes, así detectas un paréntesis mal puesto antes de pulsar igual."
+          },
+          {
+            "titulo": "Historial reutilizable",
+            "texto": "Pulsa un cálculo anterior para recuperarlo y modificarlo sin escribirlo de nuevo."
+          },
+          {
+            "titulo": "Raíz y logaritmo de cualquier base",
+            "texto": "root(5,32) da 2 y logy(3,81) da 4, sin cambiar de fórmula."
+          },
+          {
+            "titulo": "Teclado físico",
+            "texto": "Escribe con el teclado: Enter calcula, Retroceso borra el último elemento y Escape limpia la expresión."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué calculadora usar para ecuaciones, derivadas o matrices?",
+        "parrafos": [
+          "Si tienes que despejar una incógnita, la [calculadora de ecuaciones](/calculadora-de-ecuaciones) resuelve ecuaciones lineales y de segundo grado paso a paso. Para límites, derivadas e integrales definidas usa la [calculadora de derivadas e integrales](/calculadora-derivadas-integrales), y para operar con matrices, la [calculadora de matrices](/calculadora-de-matrices)."
+        ]
       }
     ],
     "faqs": [
@@ -586,36 +1288,154 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El finiquito es la liquidación económica que la empresa debe abonarte al finalizar tu relación laboral, incluya o no indemnización por despido. Esta calculadora desglosa cada concepto por separado (salario pendiente del último mes, vacaciones no disfrutadas, parte proporcional de pagas extra e indemnización según el motivo de extinción) siguiendo el Estatuto de los Trabajadores, incluyendo el cálculo especial para contratos anteriores al 12 de febrero de 2012 en caso de despido improcedente. Introduce los datos de tu contrato y obtén una estimación detallada, con cada partida explicada.",
-    "howToUse": [
-      "Introduce la fecha de inicio y fin de tu contrato, tu salario bruto mensual y el número de pagas extra al año",
-      "Indica si tu salario ya incluye las pagas extra prorrateadas cada mes, y cuántos días de vacaciones tienes pendientes de disfrutar",
-      "Selecciona el motivo de extinción del contrato (baja voluntaria, despido procedente, objetivo o improcedente, fin de contrato temporal, etc.)",
-      "Pulsa \"Calcular finiquito\" para obtener el desglose completo: salario pendiente, vacaciones, pagas extra, indemnización, retención de IRPF y el total neto estimado"
-    ],
-    "benefits": [
-      "Desglosa cada concepto por separado, no solo un número final, para que entiendas de dónde sale cada euro",
-      "Calcula la indemnización correctamente según el motivo de extinción, incluyendo los topes legales de mensualidades",
-      "Aplica automáticamente la doble escala de indemnización (45 días/año antes del 12/02/2012, 33 días/año después) en despidos improcedentes",
-      "Incluye la parte proporcional de pagas extra y una retención de IRPF estimada para calcular el neto aproximado",
-      "Explica el motivo de extinción seleccionado y avisa cuando se aplica el tope legal de indemnización",
-      "Gratis, sin registro y con los cálculos hechos en tu propio navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu finiquito en España: salario pendiente, vacaciones no disfrutadas, pagas extra proporcionales e indemnización según el motivo del cese (12, 20, 33 o 45 días por año), con los topes del Estatuto de los Trabajadores y la doble escala para contratos anteriores a 2012.",
+    "bloques": [
       {
-        "title": "¿Qué conceptos incluye el finiquito?",
-        "body": "El finiquito recoge todas las cantidades económicas que la empresa te debe en el momento de finalizar el contrato. Habitualmente incluye: la parte proporcional del salario correspondiente a los días trabajados en el último mes, los días de vacaciones generados y no disfrutados, y la parte proporcional de las pagas extra si estas no se abonan prorrateadas mes a mes. A esto se suma, solo si corresponde según el motivo de la extinción, la indemnización por despido. El finiquito se debe abonar el último día de la relación laboral o inmediatamente después."
+        "tipo": "infografia",
+        "archivo": "conceptos-finiquito-indemnizacion-espana.webp",
+        "alt": "Conceptos del finiquito y días de indemnización por año según el tipo de despido en España",
+        "ancho": 800,
+        "alto": 1064,
+        "titulo": "¿Qué conceptos incluye el finiquito en España?"
       },
       {
-        "title": "¿Cómo se calcula la indemnización según el tipo de despido?",
-        "body": "La indemnización depende del motivo de extinción del contrato: la baja voluntaria y el despido disciplinario declarado procedente no generan indemnización; el fin de un contrato temporal por expiración del plazo pactado da derecho a 12 días de salario por año trabajado; el despido objetivo procedente (por causas económicas, técnicas, organizativas o de producción) y el despido colectivo (ERE) dan derecho a 20 días de salario por año trabajado con un tope de 12 mensualidades; y el despido improcedente da derecho a 33 días de salario por año trabajado, con un tope de 24 mensualidades."
+        "tipo": "tabla",
+        "titulo": "¿Cuántos días de indemnización corresponden según el tipo de despido?",
+        "cabeceras": [
+          "Motivo",
+          "Días por año",
+          "Tope",
+          "Artículo"
+        ],
+        "filas": [
+          [
+            "Baja voluntaria",
+            "0",
+            "—",
+            "Art. 49.1.d ET"
+          ],
+          [
+            "Despido disciplinario procedente",
+            "0",
+            "—",
+            "Art. 55 ET"
+          ],
+          [
+            "Fin de contrato temporal",
+            "12",
+            "—",
+            "Art. 49.1.c ET"
+          ],
+          [
+            "Despido objetivo o colectivo (ERE)",
+            "20",
+            "12 mensualidades",
+            "Arts. 51 y 53 ET"
+          ],
+          [
+            "Despido improcedente",
+            "33",
+            "24 mensualidades",
+            "Art. 56 ET"
+          ],
+          [
+            "Improcedente, tiempo anterior al 12/02/2012",
+            "45",
+            "42 mensualidades",
+            "DT 11.ª ET"
+          ]
+        ],
+        "nota": "Los periodos inferiores a un año se prorratean por meses. Tu convenio colectivo puede mejorar estas cantidades, nunca empeorarlas."
       },
       {
-        "title": "La particularidad de los contratos anteriores al 12 de febrero de 2012",
-        "body": "La reforma laboral de 2012 redujo la indemnización por despido improcedente de 45 a 33 días por año trabajado. Sin embargo, para los contratos firmados antes del 12 de febrero de 2012, el periodo trabajado hasta esa fecha sigue indemnizándose a razón de 45 días por año, mientras que el periodo posterior se indemniza a 33 días por año, con un tope conjunto de 42 mensualidades. Esta calculadora aplica automáticamente esta doble escala cuando detecta que la fecha de inicio del contrato es anterior al 12/02/2012."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto es la indemnización por despido improcedente con 4 años de antigüedad?",
+        "datos": [
+          [
+            "Salario bruto mensual",
+            "1.800 €"
+          ],
+          [
+            "Pagas al año",
+            "14"
+          ],
+          [
+            "Antigüedad",
+            "4 años y 3 meses"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Calcula el salario anual bruto, con las pagas extra.",
+            "operacion": "1.800 × 14 = 25.200 €"
+          },
+          {
+            "texto": "Obtén el salario diario dividiendo entre 365.",
+            "operacion": "25.200 ÷ 365 = 69,04 €/día"
+          },
+          {
+            "texto": "Multiplica los años trabajados por 33 días.",
+            "operacion": "4,25 × 33 = 140,25 días"
+          },
+          {
+            "texto": "Multiplica los días de indemnización por el salario diario. El tope de 24 mensualidades (43.200 €) no se alcanza.",
+            "operacion": "140,25 × 69,04 = 9.683 €"
+          }
+        ],
+        "resultado": [
+          "Indemnización aproximada",
+          "9.683 €"
+        ]
       },
       {
-        "title": "¿Qué diferencia hay entre finiquito y liquidación?",
-        "body": "En el lenguaje cotidiano, \"finiquito\" y \"liquidación\" suelen usarse como sinónimos para referirse al documento y al pago que recibe el trabajador al terminar su relación laboral. Técnicamente, el finiquito es el documento que certifica el saldo y el fin de la relación laboral, mientras que la liquidación es el cálculo económico de las cantidades pendientes. En la práctica, ambos términos describen el mismo proceso: el cierre económico de la relación laboral."
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "La calculadora cuenta los días exactos entre tus fechas de alta y de baja, así que su resultado puede variar unos euros respecto a un cálculo por meses completos como el del ejemplo."
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo se calcula la indemnización si mi contrato es anterior a 2012?",
+        "parrafos": [
+          "La reforma laboral de 2012 rebajó la indemnización por despido improcedente de 45 a 33 días por año. Si tu contrato empezó antes del 12/02/2012, el tiempo trabajado hasta esa fecha se sigue pagando a 45 días por año y el posterior a 33. El conjunto no puede superar 720 días de salario, salvo que el tramo anterior a 2012 ya dé más, con un máximo de 42 mensualidades. La calculadora aplica esta doble escala sola al detectar la fecha de inicio."
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "¿Qué hacer si no estás de acuerdo con tu finiquito?",
+        "pasos": [
+          {
+            "titulo": "Compara cada concepto",
+            "texto": "Revisa el documento de la empresa línea a línea con el desglose de esta calculadora: días pendientes, vacaciones, pagas e indemnización."
+          },
+          {
+            "titulo": "Firma «no conforme» si hay diferencias",
+            "texto": "Firmar solo acredita que lo recibes. Si no estás de acuerdo, escribe «no conforme» junto a tu firma: conservas el derecho a reclamar."
+          },
+          {
+            "titulo": "Reclama a tiempo",
+            "texto": "Para impugnar un despido tienes 20 días hábiles desde la fecha de efectos; empieza con la papeleta de conciliación. Para reclamar cantidades, un año."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué trámites hacer después de cobrar el finiquito?",
+        "parrafos": [
+          "Si te han despedido o ha terminado tu contrato, probablemente tengas derecho a prestación por desempleo: calcula cuánto cobrarás con la [calculadora del paro](/calcular-paro). Y para saber cuánto retiene Hacienda de tu nueva nómina, usa la [calculadora de IRPF](/calculadora-irpf). ¿Trabajas en México? Usa la [calculadora de finiquito para México](/calculadora-finiquito-mexico)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Estatuto de los Trabajadores (BOE, texto consolidado)",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+          },
+          {
+            "texto": "Ley Reguladora de la Jurisdicción Social, plazos de reclamación (BOE)",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15936"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -662,36 +1482,183 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El ISR (Impuesto Sobre la Renta) es el impuesto federal que se retiene automáticamente de tu sueldo en México, calculado con la tarifa progresiva que publica el SAT. Esta calculadora aplica la tabla mensual ISR 2026 vigente y el subsidio al empleo, y funciona con cualquier periodo de pago (diario, semanal, quincenal, mensual o anual): tu ingreso se convierte a su equivalente mensual, se aplica la tarifa correspondiente y el resultado se expresa de nuevo en tu periodo, mostrando cada paso del cálculo.",
-    "howToUse": [
-      "Introduce tu ingreso bruto (antes de impuestos) del periodo que quieras calcular",
-      "Selecciona el periodo de pago: diario, semanal, quincenal, mensual o anual",
-      "Si aplica, indica la parte de ese ingreso que está exenta de ISR (por ejemplo, la parte exenta del aguinaldo)",
-      "Pulsa \"Calcular ISR\" para ver el desglose completo: rango aplicable, cuota fija, impuesto marginal, subsidio al empleo, ISR a retener y sueldo neto estimado"
-    ],
-    "benefits": [
-      "Usa la tabla ISR mensual 2026 oficial del SAT (Anexo 8 de la Resolución Miscelánea Fiscal)",
-      "Calcula automáticamente cualquier periodo de pago, no solo el mensual",
-      "Incluye el subsidio al empleo vigente para quienes no superan el límite de ingresos",
-      "Desglosa cada paso del cálculo: rango, cuota fija, impuesto marginal y subsidio, no solo el resultado final",
-      "Permite descontar ingresos exentos de ISR para un cálculo más ajustado a tu caso",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el ISR que te retienen en México con la tarifa del artículo 96 de la LISR para 2026 y el subsidio al empleo. Funciona con sueldos diarios, semanales, quincenales, mensuales o anuales y muestra tu tasa efectiva.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula el ISR de un asalariado en México?",
-        "body": "El ISR de un trabajador asalariado se calcula con una tarifa progresiva: se localiza el rango de la tabla ISR en el que cae tu ingreso mensual, se resta el límite inferior de ese rango a tu ingreso (obteniendo el \"excedente\"), se multiplica ese excedente por el porcentaje del rango, y al resultado se le suma la cuota fija correspondiente. A ese ISR calculado se le resta el subsidio al empleo, si aplica, para obtener el ISR final a retener."
+        "tipo": "infografia",
+        "archivo": "calculo-isr-mensual-2026-ejemplo.webp",
+        "alt": "Cálculo del ISR mensual 2026 paso a paso con la tarifa del SAT para un sueldo de 15 mil pesos",
+        "ancho": 800,
+        "alto": 1037,
+        "titulo": "¿Cómo se calcula el ISR de un sueldo mensual?"
       },
       {
-        "title": "¿Qué es el subsidio al empleo y quién lo recibe?",
-        "body": "El subsidio al empleo es una cantidad fija que el Gobierno de México devuelve a los trabajadores de menores ingresos para reducir su carga fiscal. Para 2026, el monto es de $535.65 mensuales de febrero a diciembre ($536.21 en enero) para quienes no superen un ingreso mensual de $11,492.66. Si tu ingreso mensual equivalente supera ese límite, no tienes derecho al subsidio y el ISR se calcula únicamente con la tarifa progresiva."
+        "tipo": "tabla",
+        "titulo": "¿Cuál es la tabla del ISR mensual 2026?",
+        "intro": "La tabla que aplica la calculadora, publicada en el Anexo 8 de la Resolución Miscelánea Fiscal 2026.",
+        "cabeceras": [
+          "Límite inferior",
+          "Límite superior",
+          "Cuota fija",
+          "% sobre excedente"
+        ],
+        "filas": [
+          [
+            "$0.01",
+            "$844.59",
+            "$0.00",
+            "1.92 %"
+          ],
+          [
+            "$844.60",
+            "$7,168.51",
+            "$16.22",
+            "6.40 %"
+          ],
+          [
+            "$7,168.52",
+            "$12,598.02",
+            "$420.95",
+            "10.88 %"
+          ],
+          [
+            "$12,598.03",
+            "$14,644.64",
+            "$1,011.68",
+            "16.00 %"
+          ],
+          [
+            "$14,644.65",
+            "$17,533.64",
+            "$1,339.14",
+            "17.92 %"
+          ],
+          [
+            "$17,533.65",
+            "$35,362.83",
+            "$1,856.84",
+            "21.36 %"
+          ],
+          [
+            "$35,362.84",
+            "$55,736.68",
+            "$5,665.16",
+            "23.52 %"
+          ],
+          [
+            "$55,736.69",
+            "$106,410.50",
+            "$10,457.09",
+            "30.00 %"
+          ],
+          [
+            "$106,410.51",
+            "$141,880.66",
+            "$25,659.23",
+            "32.00 %"
+          ],
+          [
+            "$141,880.67",
+            "$425,641.99",
+            "$37,009.69",
+            "34.00 %"
+          ],
+          [
+            "$425,642.00",
+            "En adelante",
+            "$133,488.54",
+            "35.00 %"
+          ]
+        ],
+        "leyenda": "Fuente: SAT, Anexo 8 de la RMF 2026."
       },
       {
-        "title": "¿Cómo se calcula el ISR si me pagan quincenal o semanal?",
-        "body": "El SAT permite calcular el ISR de periodos distintos al mensual \"elevando al mes\" el ingreso: se convierte el ingreso del periodo a su equivalente mensual (multiplicando por 30.4 y dividiendo entre los días del periodo), se aplica la tabla mensual, y el ISR resultante se vuelve a expresar en el periodo original con la proporción inversa. Es el mismo criterio que aplican la mayoría de los sistemas de nómina para periodos semanales, quincenales o de cuatro semanas."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto ISR me retienen si gano $8,000 a la quincena?",
+        "intro": "Con pagos quincenales, el ingreso se «eleva al mes», se aplica la tabla mensual y el impuesto se vuelve a pasar a quincena.",
+        "datos": [
+          [
+            "Sueldo quincenal",
+            "$8,000.00"
+          ],
+          [
+            "Factor quincenal",
+            "15 ÷ 30.4"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Eleva la quincena a su equivalente mensual.",
+            "operacion": "8,000 ÷ (15 ÷ 30.4) = $16,213.33"
+          },
+          {
+            "texto": "Cae en el renglón de $14,644.65: resta el límite inferior.",
+            "operacion": "16,213.33 − 14,644.65 = $1,568.68"
+          },
+          {
+            "texto": "Aplica el 17.92 % y suma la cuota fija.",
+            "operacion": "1,568.68 × 17.92 % + 1,339.14 = $1,620.25"
+          },
+          {
+            "texto": "No hay subsidio: el ingreso mensual supera $11,492.66. Pasa el ISR mensual a quincena.",
+            "operacion": "1,620.25 × (15 ÷ 30.4) = $799.46"
+          }
+        ],
+        "resultado": [
+          "ISR de la quincena (tasa efectiva 9.99 %)",
+          "$799.46"
+        ]
       },
       {
-        "title": "¿Qué diferencia hay entre esta calculadora y una calculadora de nómina completa?",
-        "body": "Esta calculadora se centra exclusivamente en el ISR y el subsidio al empleo. No incluye las cuotas obrero-patronales del IMSS (que dependen del salario base de cotización, un cálculo distinto que integra aguinaldo, prima vacacional y otras prestaciones) ni otras deducciones específicas de tu empresa, como préstamos o pensión alimenticia. Tu recibo de nómina real puede diferir ligeramente de esta estimación por esos conceptos adicionales."
+        "tipo": "texto",
+        "titulo": "¿Quién recibe el subsidio al empleo en 2026 y de cuánto es?",
+        "parrafos": [
+          "Si tu ingreso mensual no supera $11,492.66, tu patrón te descuenta $535.65 del ISR cada mes de febrero a diciembre ($536.21 en enero). El subsidio solo reduce el impuesto: si es mayor que tu ISR, la diferencia no se te paga. Puedes revisarlo en detalle con la [calculadora de subsidio al empleo](/calcular-subsidio-empleo)."
+        ]
+      },
+      {
+        "tipo": "comparacion",
+        "titulo": "¿Por qué el ISR de mi recibo de nómina no coincide?",
+        "columnas": [
+          {
+            "titulo": "Esta calculadora incluye",
+            "tono": "azul",
+            "items": [
+              "La tarifa mensual del artículo 96 de la LISR para 2026.",
+              "El subsidio al empleo vigente.",
+              "Ingresos exentos que indiques, como parte del aguinaldo."
+            ]
+          },
+          {
+            "titulo": "Tu recibo además puede tener",
+            "tono": "gris",
+            "items": [
+              "Cuotas obreras del IMSS, que calcula la [calculadora de cuotas IMSS](/calcular-cuota-imss).",
+              "Ajustes anuales o del mes de diciembre.",
+              "Descuentos de tu empresa: Infonavit, préstamos o pensión alimenticia."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cuánto del aguinaldo está exento de ISR en 2026?",
+        "parrafos": [
+          "El aguinaldo está exento hasta 30 UMA y la prima vacacional hasta 15 UMA; solo lo que exceda paga ISR. Te lo explicamos en la guía [aguinaldo exento de impuestos](/blog/aguinaldo-exento-impuestos), y puedes calcularlo con la [calculadora de ISR del aguinaldo](/calcular-isr-aguinaldo). Para ver tu sueldo neto completo, usa la [calculadora de nómina](/calculadora-nomina)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Ley del Impuesto sobre la Renta, artículo 96 (Cámara de Diputados)",
+            "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf"
+          },
+          {
+            "texto": "Servicio de Administración Tributaria (SAT)",
+            "url": "https://www.sat.gob.mx"
+          }
+        ]
       }
     ],
     "faqs": [

@@ -4,7 +4,12 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 import RelatedTools from '@/components/RelatedTools'
 import TextoConEnlaces from '@/components/TextoConEnlaces'
+import BloquesHerramienta from '@/components/BloquesHerramienta'
 import { getToolImage as getToolIllustration } from '@/lib/toolImage'
+import fechas from '@/data/fechas.json'
+
+const formatoFecha = (iso) =>
+  new Intl.DateTimeFormat('es', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${iso}T12:00:00Z`))
 
 const toolImageOverrides = {
   'generador-qr': 'tool-qr',
@@ -74,6 +79,7 @@ export default function ToolLayout({ tool, children }) {
   const bottomImage = getToolIllustration(tool)
   const toolBottomImage = bottomImage?.src
   const toolNameForAlt = cleanToolName(tool.name)
+  const actualizado = fechas.herramientas[tool.slug]?.actualizado
   const toolBottomImageAlt =
     bottomImage?.alt || toolBottomImageAltOverrides[tool.slug] || `${toolNameForAlt} - herramienta online gratis en español`
 
@@ -99,7 +105,31 @@ export default function ToolLayout({ tool, children }) {
       </nav>
 
       {/* H1 */}
-      <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">{tool.name}</h1>
+      <h1 className="text-3xl sm:text-4xl font-bold text-gray-900">{tool.name}</h1>
+      {actualizado && (
+        <p className="mt-2 mb-6 text-sm text-gray-500">
+          Actualizado el <time dateTime={actualizado}>{formatoFecha(actualizado)}</time>
+          {tool.bloques?.some((b) => b.tipo === 'fuentes') && <> · <a href="#fuentes" className="underline underline-offset-2 hover:text-gray-700">Ver fuentes</a></>}
+        </p>
+      )}
+      {!actualizado && <div className="mb-6" />}
+
+      {tool.bloques ? (
+        <>
+          {tool.resumen && (
+            <p className="mb-6 rounded-2xl border border-blue-100 bg-blue-50/70 p-4 sm:p-5 text-gray-800 leading-relaxed">
+              <TextoConEnlaces texto={tool.resumen} origen={tool.slug} />
+            </p>
+          )}
+          <div className="bg-white border border-gray-200 rounded-2xl shadow-sm p-5 sm:p-6 mb-12">{children}</div>
+          <BloquesHerramienta tool={tool} ilustracion={toolBottomImage ? { src: toolBottomImage, alt: toolBottomImageAlt } : null} />
+          <div className="mt-12">
+            <FAQ faqs={tool.faqs} />
+            <RelatedTools relatedSlugs={tool.relatedTools} />
+          </div>
+        </>
+      ) : (
+        <>
 
       {toolImage && (
         <Image
@@ -194,6 +224,8 @@ export default function ToolLayout({ tool, children }) {
 
       {/* Related tools */}
       <RelatedTools relatedSlugs={tool.relatedTools} />
+        </>
+      )}
     </main>
   )
 }

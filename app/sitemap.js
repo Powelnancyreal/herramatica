@@ -52,7 +52,10 @@ export default function sitemap() {
     lastModified: fecha(herramienta(tool.slug).actualizado),
     changeFrequency: 'monthly',
     priority: 0.8,
-    images: imageIfExists(`images/tools/${tool.image?.file || `${tool.slug}.webp`}`),
+    images: [
+      ...(imageIfExists(`images/tools/${tool.image?.file || `${tool.slug}.webp`}`) || []),
+      ...(tool.bloques || []).filter((b) => b.tipo === 'infografia').flatMap((b) => imageIfExists(`images/infografias/${b.archivo}`) || []),
+    ],
   }))
 
   const blogRoutes = articulos.length

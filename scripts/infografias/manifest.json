@@ -1,0 +1,62 @@
+{
+  "partes-del-rfc-persona-fisica": {
+    "archivo": "partes-del-rfc-persona-fisica.webp",
+    "alt": "Partes del RFC de una persona física: letras de apellidos y nombre, fecha de nacimiento y homoclave",
+    "ancho": 800,
+    "alto": 838
+  },
+  "tabla-imc-oms-adultos": {
+    "archivo": "tabla-imc-oms-adultos.webp",
+    "alt": "Tabla de clasificación del IMC según la OMS con la fórmula y un ejemplo de 70 kg y 1,75 m",
+    "ancho": 800,
+    "alto": 723
+  },
+  "como-calcular-edad-exacta": {
+    "archivo": "como-calcular-edad-exacta.webp",
+    "alt": "Cómo calcular la edad exacta en años, meses y días con un ejemplo en una línea de tiempo",
+    "ancho": 800,
+    "alto": 733
+  },
+  "suma-en-columna-con-llevadas": {
+    "archivo": "suma-en-columna-con-llevadas.webp",
+    "alt": "Suma en columna con llevadas paso a paso: 478 más 356 igual a 834",
+    "ancho": 800,
+    "alto": 677
+  },
+  "partes-de-un-codigo-qr": {
+    "archivo": "partes-de-un-codigo-qr.webp",
+    "alt": "Partes de un código QR y niveles de corrección de errores L, M, Q y H",
+    "ancho": 800,
+    "alto": 878
+  },
+  "tabla-minutos-a-horas-decimales": {
+    "archivo": "tabla-minutos-a-horas-decimales.webp",
+    "alt": "Tabla para convertir minutos a horas decimales con un ejemplo de jornada laboral",
+    "ancho": 800,
+    "alto": 905
+  },
+  "grados-y-radianes-calculadora": {
+    "archivo": "grados-y-radianes-calculadora.webp",
+    "alt": "Diferencia entre grados y radianes en la calculadora científica con el seno de 30",
+    "ancho": 800,
+    "alto": 841
+  },
+  "conceptos-finiquito-indemnizacion-espana": {
+    "archivo": "conceptos-finiquito-indemnizacion-espana.webp",
+    "alt": "Conceptos del finiquito y días de indemnización por año según el tipo de despido en España",
+    "ancho": 800,
+    "alto": 1064
+  },
+  "calculo-isr-mensual-2026-ejemplo": {
+    "archivo": "calculo-isr-mensual-2026-ejemplo.webp",
+    "alt": "Cálculo del ISR mensual 2026 paso a paso con la tarifa del SAT para un sueldo de 15 mil pesos",
+    "ancho": 800,
+    "alto": 1037
+  },
+  "caracteres-invisibles-unicode": {
+    "archivo": "caracteres-invisibles-unicode.webp",
+    "alt": "Tabla de caracteres invisibles de Unicode como U+3164 y U+200B con su uso",
+    "ancho": 800,
+    "alto": 927
+  }
+}

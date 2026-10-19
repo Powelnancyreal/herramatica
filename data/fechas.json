@@ -2,62 +2,62 @@
   "herramientas": {
     "texto-invisible": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "e7a869fd3c64",
-      "componente": "3c7d4b4739e9"
+      "actualizado": "2026-10-20",
+      "contenido": "8755c09bddbf",
+      "componente": "9bd0ea4a9e99"
     },
     "calculadora-edad": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "30b4ccdefe41",
+      "actualizado": "2026-10-20",
+      "contenido": "f3caedbb4605",
       "componente": "acf1dd193940"
     },
     "calcular-rfc": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-04",
-      "contenido": "ae98b02af190",
+      "actualizado": "2026-10-20",
+      "contenido": "9d9b92e58c80",
       "componente": "0ce66c60d128"
     },
     "calcular-imc": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-04",
-      "contenido": "0d3ea38eaa61",
+      "actualizado": "2026-10-20",
+      "contenido": "23f2598c666f",
       "componente": "79fd90382388"
     },
     "calculadora-alicia": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-04",
-      "contenido": "ee01dfc8810c",
+      "actualizado": "2026-10-20",
+      "contenido": "100b396afe05",
       "componente": "db000a412c47"
     },
     "generador-qr": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "742e43d1b03f",
+      "actualizado": "2026-10-20",
+      "contenido": "989b14f4a08a",
       "componente": "6c490dd3a24d"
     },
     "calculadora-horas": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "8e08ad6100c1",
+      "actualizado": "2026-10-20",
+      "contenido": "18b010375d42",
       "componente": "216aa489bfbc"
     },
     "calculadora-cientifica": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-04",
-      "contenido": "67d39d650612",
+      "actualizado": "2026-10-20",
+      "contenido": "3e00012efcbb",
       "componente": "55255174e9c7"
     },
     "calculadora-finiquito": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-04",
-      "contenido": "8ef971031939",
+      "actualizado": "2026-10-20",
+      "contenido": "0a067206ee84",
       "componente": "4237e8a5920b"
     },
     "calculadora-isr": {
       "creado": "2026-08-27",
-      "actualizado": "2026-09-30",
-      "contenido": "dc98fc287885",
+      "actualizado": "2026-10-20",
+      "contenido": "9c2d483345c0",
       "componente": "5e00f12782b9"
     },
     "calcular-aguinaldo": {

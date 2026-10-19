@@ -14,7 +14,8 @@ const { execSync } = require('child_process')
 const ROOT = path.join(__dirname, '..')
 const SALIDA = path.join(ROOT, 'data', 'fechas.json')
 const CAMPOS = ['name', 'shortName', 'metaTitle', 'metaDescription', 'intro', 'howToUse', 'benefits', 'contentSections', 'faqs']
-const hoy = new Date().toISOString().slice(0, 10)
+// Fecha local (no UTC), la misma zona que usan las fechas de los commits.
+const hoy = new Date().toLocaleDateString('sv')
 
 const git = (cmd) => {
   try {
@@ -27,7 +28,10 @@ const git = (cmd) => {
 // así que en ese caso se conservan las de data/fechas.json.
 const hayGit = git('rev-parse --is-inside-work-tree') === 'true' && git('rev-parse --is-shallow-repository') !== 'true'
 const fechaArchivo = (rel) => (hayGit && git(`log -1 --format=%cs -- "${rel}"`)) || null
-const contenido = (tool) => JSON.stringify(CAMPOS.map((c) => tool[c] ?? null))
+// Los campos de la plantilla por bloques solo entran en el hash si existen, para no cambiar la huella (y la fecha)
+// de las herramientas que aún no los usan.
+const contenido = (tool) =>
+  JSON.stringify(CAMPOS.map((c) => tool[c] ?? null)) + (tool.bloques || tool.resumen ? JSON.stringify([tool.resumen ?? null, tool.bloques ?? null]) : '')
 const hash = (texto) => crypto.createHash('sha1').update(texto).digest('hex').slice(0, 12)
 const componente = (slug) => {
   const f = path.join(ROOT, 'tools', `${slug}.js`)
