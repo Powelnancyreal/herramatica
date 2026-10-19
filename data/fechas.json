@@ -62,62 +62,62 @@
     },
     "calcular-aguinaldo": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-04",
-      "contenido": "b3ad64382c55",
+      "actualizado": "2026-10-20",
+      "contenido": "9ee1ee1f100a",
       "componente": "d76c93d9129e"
     },
     "calculadora-dias": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-04",
-      "contenido": "53a30ed5d286",
+      "actualizado": "2026-10-20",
+      "contenido": "e234f58a20ec",
       "componente": "a5f2211d8614"
     },
     "calcular-iva": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-04",
-      "contenido": "2e65477633ca",
+      "actualizado": "2026-10-20",
+      "contenido": "8dd3e8943814",
       "componente": "6e53f24abf1f"
     },
     "calculo-mental": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-04",
-      "contenido": "a9c632750cb1",
+      "actualizado": "2026-10-20",
+      "contenido": "87cfb67dbedd",
       "componente": "7c33d9ac8150"
     },
     "calcular-curp": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "cb990726ff8c",
+      "actualizado": "2026-10-20",
+      "contenido": "a98d26348246",
       "componente": "7631645f4f3b"
     },
     "calculadora-porcentaje": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-04",
-      "contenido": "dd8691fbcc74",
+      "actualizado": "2026-10-20",
+      "contenido": "8b3b32513d0d",
       "componente": "133f66c43612"
     },
     "convertidor-moneda": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "651cf3d153a0",
+      "actualizado": "2026-10-20",
+      "contenido": "351397142185",
       "componente": "745977ce1ff1"
     },
     "generador-contrasenas": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "17c51d2ab47d",
+      "actualizado": "2026-10-20",
+      "contenido": "8433e598a710",
       "componente": "7234486e6bcb"
     },
     "contador-palabras": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "e562c51ab3b7",
+      "actualizado": "2026-10-20",
+      "contenido": "c28a645a7d8e",
       "componente": "170a95bdc45f"
     },
     "calculadora-propinas": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "d186b9d2dd53",
+      "actualizado": "2026-10-20",
+      "contenido": "1b60338d06b7",
       "componente": "a241579e8138"
     },
     "calculadora-prestamo": {

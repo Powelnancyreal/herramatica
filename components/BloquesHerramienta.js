@@ -5,6 +5,28 @@ import TextoConEnlaces from '@/components/TextoConEnlaces'
 // qué bloques usa y en qué orden, así que dos herramientas no comparten la misma estructura.
 // Todos los textos admiten enlaces internos con la sintaxis [texto](/ruta), que se validan al compilar.
 
+// Ancla de cada bloque con título, a partir del propio título (o de b.id si lo fija el bloque).
+export const idBloque = (b) =>
+  b.id || (b.tipo === 'fuentes' ? 'fuentes' : b.titulo?.toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 80))
+
+// Índice «En esta página» con las preguntas de la herramienta, para saltar directo a la que interesa.
+export function IndiceBloques({ tool }) {
+  const items = tool.bloques.filter((b) => b.titulo && b.tipo !== 'fuentes')
+  if (items.length < 3) return null
+  return (
+    <nav aria-label="En esta página" className="mb-12 rounded-2xl border border-gray-200 p-5">
+      <p className="text-xs font-bold uppercase tracking-wide text-gray-500">En esta página</p>
+      <ul className="mt-3 space-y-2">
+        {items.map((b) => (
+          <li key={idBloque(b)}>
+            <a href={`#${idBloque(b)}`} className="text-gray-700 hover:text-blue-700 underline decoration-gray-300 underline-offset-4 hover:decoration-blue-600">{b.titulo}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  )
+}
+
 const T = ({ t, origen }) => <TextoConEnlaces texto={t} origen={origen} />
 const H2 = ({ children, id }) => <h2 id={id} className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">{children}</h2>
 
@@ -19,7 +41,7 @@ const TONOS = {
 function Texto({ b, o }) {
   return (
     <section>
-      {b.titulo && <H2 id={b.id}>{b.titulo}</H2>}
+      {b.titulo && <H2 id={idBloque(b)}>{b.titulo}</H2>}
       <div className="space-y-4 text-gray-700 leading-relaxed">
         {b.parrafos.map((p, i) => <p key={i}><T t={p} origen={o} /></p>)}
       </div>
@@ -30,7 +52,7 @@ function Texto({ b, o }) {
 function Pasos({ b, o }) {
   return (
     <section>
-      <H2 id={b.id}>{b.titulo}</H2>
+      <H2 id={idBloque(b)}>{b.titulo}</H2>
       <ol className="relative border-l-2 border-blue-100 ml-4 space-y-6">
         {b.pasos.map((p, i) => (
           <li key={i} className="pl-8 relative">
@@ -49,7 +71,7 @@ function Ejemplo({ b, o }) {
     <section className="rounded-2xl border border-gray-200 overflow-hidden">
       <div className="bg-gray-900 px-5 py-4 text-white">
         <p className="text-xs font-bold uppercase tracking-wider text-gray-400">Ejemplo resuelto</p>
-        <h2 id={b.id} className="mt-1 text-xl font-bold scroll-mt-24">{b.titulo}</h2>
+        <h2 id={idBloque(b)} className="mt-1 text-xl font-bold scroll-mt-24">{b.titulo}</h2>
       </div>
       <div className="p-5 space-y-5">
         {b.intro && <p className="text-gray-700 leading-relaxed"><T t={b.intro} origen={o} /></p>}
@@ -88,7 +110,7 @@ function Ejemplo({ b, o }) {
 function Tabla({ b, o }) {
   return (
     <section>
-      <H2 id={b.id}>{b.titulo}</H2>
+      <H2 id={idBloque(b)}>{b.titulo}</H2>
       {b.intro && <p className="text-gray-700 leading-relaxed mb-4"><T t={b.intro} origen={o} /></p>}
       <div className="overflow-x-auto rounded-xl border border-gray-200">
         <table className="w-full text-sm">
@@ -113,7 +135,7 @@ function Tabla({ b, o }) {
 function Infografia({ b }) {
   return (
     <figure>
-      {b.titulo && <H2 id={b.id}>{b.titulo}</H2>}
+      {b.titulo && <H2 id={idBloque(b)}>{b.titulo}</H2>}
       <Image
         src={`/images/infografias/${b.archivo}`}
         alt={b.alt}
@@ -131,7 +153,7 @@ function Infografia({ b }) {
 function Comparacion({ b, o }) {
   return (
     <section>
-      <H2 id={b.id}>{b.titulo}</H2>
+      <H2 id={idBloque(b)}>{b.titulo}</H2>
       {b.intro && <p className="text-gray-700 leading-relaxed mb-4"><T t={b.intro} origen={o} /></p>}
       <div className={`grid gap-4 ${b.columnas.length === 3 ? 'sm:grid-cols-3' : 'sm:grid-cols-2'}`}>
         {b.columnas.map((c) => (
@@ -165,7 +187,7 @@ function Aviso({ b, o }) {
 function Consejos({ b, o }) {
   return (
     <section>
-      <H2 id={b.id}>{b.titulo}</H2>
+      <H2 id={idBloque(b)}>{b.titulo}</H2>
       <div className="grid gap-4 sm:grid-cols-2">
         {b.items.map((it) => (
           <div key={it.titulo} className="rounded-2xl border border-gray-200 bg-white p-5">
@@ -181,7 +203,7 @@ function Consejos({ b, o }) {
 function Cifras({ b }) {
   return (
     <section>
-      {b.titulo && <H2 id={b.id}>{b.titulo}</H2>}
+      {b.titulo && <H2 id={idBloque(b)}>{b.titulo}</H2>}
       <dl className={`grid gap-px overflow-hidden rounded-2xl border border-gray-200 bg-gray-200 grid-cols-2 ${b.items.length > 3 ? 'sm:grid-cols-4' : 'sm:grid-cols-3'}`}>
         {b.items.map(([valor, texto]) => (
           <div key={texto} className="bg-white px-4 py-4">
@@ -200,7 +222,7 @@ function Cifras({ b }) {
 function Fuentes({ b }) {
   return (
     <section className="rounded-2xl bg-gray-50 p-5">
-      <h2 id={b.id || 'fuentes'} className="text-lg font-bold text-gray-900 scroll-mt-24">{b.titulo || 'Fuentes oficiales'}</h2>
+      <h2 id={idBloque(b)} className="text-lg font-bold text-gray-900 scroll-mt-24">{b.titulo || 'Fuentes oficiales'}</h2>
       {b.intro && <p className="mt-1 text-sm text-gray-600">{b.intro}</p>}
       <ul className="mt-3 space-y-2 text-sm">
         {b.items.map((f) => (

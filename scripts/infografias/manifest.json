@@ -58,5 +58,65 @@
     "alt": "Tabla de caracteres invisibles de Unicode como U+3164 y U+200B con su uso",
     "ancho": 800,
     "alto": 927
+  },
+  "calculo-aguinaldo-proporcional-2026": {
+    "archivo": "calculo-aguinaldo-proporcional-2026.webp",
+    "alt": "Cálculo del aguinaldo proporcional 2026 con 275 días trabajados y la parte exenta de ISR",
+    "ancho": 800,
+    "alto": 901
+  },
+  "dias-habiles-vs-naturales": {
+    "archivo": "dias-habiles-vs-naturales.webp",
+    "alt": "Calendario de octubre de 2026 con 22 días hábiles y 31 días naturales",
+    "ancho": 800,
+    "alto": 877
+  },
+  "como-quitar-el-iva-correctamente": {
+    "archivo": "como-quitar-el-iva-correctamente.webp",
+    "alt": "Cómo quitar el IVA de un precio: dividir entre 1.16 en lugar de restar el 16 por ciento",
+    "ancho": 800,
+    "alto": 784
+  },
+  "trucos-de-calculo-mental": {
+    "archivo": "trucos-de-calculo-mental.webp",
+    "alt": "Seis trucos de cálculo mental para multiplicar por 5, 9, 11 y 4 con ejemplos",
+    "ancho": 800,
+    "alto": 794
+  },
+  "significado-caracteres-curp": {
+    "archivo": "significado-caracteres-curp.webp",
+    "alt": "Significado de cada carácter de la CURP con un ejemplo de 18 caracteres",
+    "ancho": 800,
+    "alto": 852
+  },
+  "formulas-de-porcentajes": {
+    "archivo": "formulas-de-porcentajes.webp",
+    "alt": "Fórmulas de porcentajes y por qué dos descuentos del 10 por ciento suman 19",
+    "ancho": 800,
+    "alto": 838
+  },
+  "tipo-de-cambio-compra-venta": {
+    "archivo": "tipo-de-cambio-compra-venta.webp",
+    "alt": "Diferencia entre tipo de cambio de referencia, precio de compra y de venta del dólar",
+    "ancho": 800,
+    "alto": 774
+  },
+  "tiempo-descifrar-contrasena": {
+    "archivo": "tiempo-descifrar-contrasena.webp",
+    "alt": "Tiempo para descifrar una contraseña por fuerza bruta según su longitud y caracteres",
+    "ancho": 800,
+    "alto": 856
+  },
+  "limites-de-caracteres-redes": {
+    "archivo": "limites-de-caracteres-redes.webp",
+    "alt": "Límites de caracteres de SMS, Instagram, X, YouTube, LinkedIn y títulos SEO",
+    "ancho": 800,
+    "alto": 846
+  },
+  "propina-por-pais": {
+    "archivo": "propina-por-pais.webp",
+    "alt": "Porcentaje de propina habitual en México, Argentina, Colombia, Chile, Perú y España",
+    "ancho": 800,
+    "alto": 841
   }
 }

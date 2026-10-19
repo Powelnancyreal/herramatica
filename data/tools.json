@@ -1708,40 +1708,126 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El aguinaldo es la prestación anual obligatoria que toda empresa en México debe pagar antes del 20 de diciembre, equivalente a un mínimo de 15 días de salario por el artículo 87 de la Ley Federal del Trabajo. Esta calculadora obtiene tus días trabajados automáticamente a partir de tu fecha de ingreso (no con un simple \"sí/no\" como la mayoría de calculadoras), calcula el monto proporcional exacto si no trabajaste el año completo, y estima el ISR real sobre la parte gravable usando la tabla ISR 2026 del SAT, sumándola a tu salario ordinario en lugar de limitarse a mencionar que \"hay que pagar impuestos\".",
-    "howToUse": [
-      "Introduce tu salario mensual bruto y el número de días de aguinaldo que te corresponden (mínimo legal: 15 días)",
-      "Indica tu fecha de ingreso a la empresa: la calculadora calcula automáticamente cuántos días has trabajado en el año",
-      "Ajusta la fecha de corte solo si ya no laboras en la empresa o quieres calcular un año distinto al actual",
-      "Pulsa \"Calcular aguinaldo\" para ver el desglose completo: aguinaldo bruto, parte exenta y gravable de ISR, retención estimada y el neto que deberías recibir"
-    ],
-    "benefits": [
-      "Calcula los días trabajados automáticamente a partir de tu fecha de ingreso, sin necesidad de contarlos a mano",
-      "Aplica correctamente el prorrateo cuando no trabajaste el año completo",
-      "Estima el ISR real sobre la parte gravable sumándolo a tu salario ordinario, no solo advierte que \"se descuentan impuestos\"",
-      "Muestra la parte exenta de ISR (hasta 30 UMA) y la parte gravable por separado, con la barra de progreso de días trabajados",
-      "Funciona igual de bien si trabajaste el año completo o solo una parte, sin toggles confusos",
-      "Gratis, sin registro y con el cálculo hecho en tu propio navegador"
-    ],
-    "contentSections": [
+    "resumen": "En México el aguinaldo mínimo son 15 días de salario y se paga antes del 20 de diciembre. Si no trabajaste el año completo te toca la parte proporcional. Escribe tu salario y tu fecha de ingreso: la calculadora cuenta los días y separa la parte exenta de ISR.",
+    "bloques": [
       {
-        "title": "¿Qué es el aguinaldo y quién tiene derecho a recibirlo?",
-        "body": "El aguinaldo es una prestación económica anual que la Ley Federal del Trabajo (artículo 87) obliga a pagar a todo trabajador, sin importar el tipo de contrato (planta, temporal, por obra, honorarios asimilados a salarios) ni la antigüedad. Corresponde un mínimo de 15 días de salario, y debe pagarse antes del 20 de diciembre de cada año. Muchas empresas otorgan más de 15 días como prestación superior a la ley, especialmente en puestos de mayor responsabilidad o por convenio colectivo."
+        "tipo": "infografia",
+        "archivo": "calculo-aguinaldo-proporcional-2026.webp",
+        "alt": "Cálculo del aguinaldo proporcional 2026 con 275 días trabajados y la parte exenta de ISR",
+        "ancho": 800,
+        "alto": 901,
+        "titulo": "¿Cómo se calcula el aguinaldo proporcional si entré a mitad de año?"
       },
       {
-        "title": "¿Cómo se calcula el aguinaldo proporcional?",
-        "body": "Si no trabajaste el año completo (por ejemplo, ingresaste a mitad de año o dejaste la empresa antes de diciembre), el aguinaldo se paga de forma proporcional a los días efectivamente trabajados: aguinaldo = salario diario × días de aguinaldo × (días trabajados en el año ÷ 365). El salario diario se obtiene dividiendo el salario mensual entre 30, siguiendo el criterio estándar usado en los cálculos de nómina en México."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto aguinaldo me toca según mi sueldo?",
+        "intro": "Aguinaldo de un año completo con los 15 días que marca la ley. Si tu empresa da más días, multiplica tu salario diario por esos días.",
+        "cabeceras": [
+          "Sueldo mensual",
+          "Salario diario",
+          "Aguinaldo (15 días)",
+          "Paga ISR"
+        ],
+        "filas": [
+          [
+            "$9,577.22 (mínimo)",
+            "$315.04",
+            "$4,725.60",
+            "$1,206.30"
+          ],
+          [
+            "$12,000.00",
+            "$394.74",
+            "$5,921.05",
+            "$2,401.75"
+          ],
+          [
+            "$15,000.00",
+            "$493.42",
+            "$7,401.32",
+            "$3,882.02"
+          ],
+          [
+            "$20,000.00",
+            "$657.89",
+            "$9,868.42",
+            "$6,349.12"
+          ],
+          [
+            "$30,000.00",
+            "$986.84",
+            "$14,802.63",
+            "$11,283.33"
+          ]
+        ],
+        "nota": "Salario diario = sueldo mensual ÷ 30.4. La columna «Paga ISR» es lo que supera la exención de 30 UMA ($3,519.30 en 2026)."
       },
       {
-        "title": "Aguinaldo e ISR: qué parte está exenta y cómo se grava el resto",
-        "body": "El aguinaldo está exento de ISR hasta el equivalente a 30 días de UMA (Unidad de Medida y Actualización). Con la UMA diaria de 2026 en $117.31, la exención equivale a $3,519.30. La parte del aguinaldo que exceda ese monto sí es gravable, y se suma a tus demás ingresos del mes para calcular el ISR correspondiente con la tarifa progresiva del SAT. Esta calculadora estima esa retención comparando el ISR de tu salario normal contra el ISR de tu salario más la parte gravable del aguinaldo, y la diferencia es el impuesto atribuible al aguinaldo."
+        "tipo": "comparacion",
+        "titulo": "¿Quién tiene derecho a aguinaldo y quién no?",
+        "columnas": [
+          {
+            "titulo": "Sí tienen derecho",
+            "tono": "verde",
+            "items": [
+              "Trabajadores de planta, eventuales, por obra o por temporada.",
+              "Quien renunció o fue despedido antes de diciembre: cobra la parte proporcional en su finiquito.",
+              "Trabajadoras del hogar, con las mismas reglas."
+            ]
+          },
+          {
+            "titulo": "No por la LFT",
+            "tono": "gris",
+            "items": [
+              "Quien cobra por honorarios profesionales sin relación laboral.",
+              "Socios o accionistas por su participación.",
+              "Los pensionados del IMSS reciben un aguinaldo distinto: lo explicamos en [aguinaldo de pensionados](/blog/aguinaldo-pensionados-imss)."
+            ]
+          }
+        ]
       },
       {
-        "title": "¿Qué hacer si mi empresa no me paga el aguinaldo?",
-        "body": "Si tu empresa no te paga el aguinaldo antes del 20 de diciembre, tienes derecho a reclamarlo. Puedes acudir a la Procuraduría Federal de la Defensa del Trabajo (PROFEDET), que ofrece asesoría y representación legal gratuita, o presentar una queja ante la Junta de Conciliación y Arbitraje (o el Tribunal Laboral correspondiente tras la reforma de justicia laboral). El derecho a reclamar el aguinaldo prescribe (caduca) en un plazo de un año contado a partir de la fecha en que debió pagarse."
+        "tipo": "pasos",
+        "titulo": "¿Qué hacer si no me pagan el aguinaldo antes del 20 de diciembre?",
+        "pasos": [
+          {
+            "titulo": "Pídelo por escrito",
+            "texto": "Muchas veces es un retraso de nómina. Una solicitud por correo deja constancia de la fecha."
+          },
+          {
+            "titulo": "Acude a la PROFEDET",
+            "texto": "La Procuraduría Federal de la Defensa del Trabajo asesora y representa gratis a los trabajadores, en línea o en sus oficinas."
+          },
+          {
+            "titulo": "Inicia la conciliación",
+            "texto": "Si no hay acuerdo, la reclamación pasa por el Centro de Conciliación Laboral. Tienes un año desde la fecha en que debieron pagarte."
+          }
+        ]
       },
       {
-        "title": "Cálculo de aguinaldo: guías paso a paso",
-        "body": "Si quieres entender cada número del resultado, en el blog tenemos guías detalladas: [cómo calcular el aguinaldo paso a paso](/blog/como-calcular-el-aguinaldo), con ejemplos de sueldo completo y proporcional; [cuánto aguinaldo está exento de impuestos](/blog/aguinaldo-exento-impuestos) en 2026; en qué va la [reforma de 30 días de aguinaldo](/blog/reforma-30-dias-aguinaldo), y cuánto reciben los [pensionados del IMSS](/blog/aguinaldo-pensionados-imss)."
+        "tipo": "texto",
+        "titulo": "¿Cuánto del aguinaldo paga impuestos?",
+        "parrafos": [
+          "Los primeros $3,519.30 de tu aguinaldo (30 veces la UMA diaria de $117.31) están exentos. Lo que exceda se suma a tu sueldo de diciembre y paga ISR, por eso el depósito es menor que el monto bruto. Calcula la retención exacta con la [calculadora de ISR del aguinaldo](/calcular-isr-aguinaldo) o lee la guía [aguinaldo exento de impuestos](/blog/aguinaldo-exento-impuestos).",
+          "Hay una iniciativa para subir el mínimo a 30 días; te contamos en qué va en [la reforma de los 30 días de aguinaldo](/blog/reforma-30-dias-aguinaldo). Mientras no se publique en el DOF, el mínimo sigue siendo 15 días."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Ley Federal del Trabajo, artículo 87 (Cámara de Diputados)",
+            "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf"
+          },
+          {
+            "texto": "Procuraduría Federal de la Defensa del Trabajo (PROFEDET)",
+            "url": "https://www.gob.mx/profedet"
+          },
+          {
+            "texto": "INEGI: Unidad de Medida y Actualización (UMA)",
+            "url": "https://www.inegi.org.mx/temas/uma/"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -1791,36 +1877,111 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Esta calculadora de días reúne en una sola herramienta los tres cálculos con fechas más buscados: la diferencia exacta entre dos fechas (en años, meses, días, semanas y días hábiles), sumar o restar días, semanas, meses o años a una fecha concreta, y saber cuántos días faltan (o han pasado) para una fecha determinada. A diferencia de la mayoría de calculadoras de fechas, que solo cubren una de estas funciones, aquí las tienes todas juntas, incluyendo el conteo de días hábiles excluyendo fines de semana.",
-    "howToUse": [
-      "Elige la pestaña según lo que necesites: Diferencia entre fechas, Sumar/Restar días o Días hasta una fecha",
-      "En \"Diferencia entre fechas\", introduce la fecha inicial y la final para ver el desglose completo en años, meses, días y días hábiles",
-      "En \"Sumar/Restar días\", indica una fecha, la operación, la cantidad y la unidad (días, semanas, meses o años); activa \"solo días hábiles\" si necesitas omitir fines de semana",
-      "En \"Días hasta una fecha\", introduce cualquier fecha futura o pasada para ver cuánto falta o cuánto ha transcurrido desde hoy"
-    ],
-    "benefits": [
-      "Tres calculadoras en una: diferencia entre fechas, suma/resta de fechas y cuenta atrás, sin cambiar de página",
-      "Desglose completo en años, meses y días, no solo el total en días",
-      "Cuenta los días hábiles (lunes a viernes) por separado, útil para plazos legales o laborales",
-      "Permite sumar o restar solo días hábiles, omitiendo automáticamente los fines de semana",
-      "Funciona con fechas pasadas y futuras indistintamente, sin necesidad de ordenarlas tú mismo",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula cuántos días hay entre dos fechas (también en semanas, meses y días hábiles), suma o resta días a una fecha y descubre cuánto falta para un evento. Los meses de distinta duración y los años bisiestos se tienen en cuenta solos.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula la diferencia entre dos fechas?",
-        "body": "Para calcular la diferencia entre dos fechas de forma precisa, no basta con restar los números de días: hay que tener en cuenta que los meses tienen distinta duración y que los años bisiestos añaden un día a febrero. Esta calculadora primero determina cuántos meses completos caben entre ambas fechas, respetando la duración real de cada mes, y expresa el resto como días sueltos, ofreciendo también el total exacto de días, semanas y días hábiles entre ambas fechas."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuántos días hay entre el 15 de enero y el 30 de junio de 2026?",
+        "datos": [
+          [
+            "Fecha inicial",
+            "15/01/2026"
+          ],
+          [
+            "Fecha final",
+            "30/06/2026"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Días que quedan de enero después del 15.",
+            "operacion": "31 − 15 = 16"
+          },
+          {
+            "texto": "Meses completos de febrero a mayo (2026 no es bisiesto).",
+            "operacion": "28 + 31 + 30 + 31 = 120"
+          },
+          {
+            "texto": "Días de junio hasta el 30.",
+            "operacion": "30"
+          },
+          {
+            "texto": "Suma los tres tramos.",
+            "operacion": "16 + 120 + 30 = 166 días"
+          }
+        ],
+        "resultado": [
+          "Diferencia",
+          "166 días (23 semanas y 5 días)"
+        ]
       },
       {
-        "title": "¿Qué son los \"días hábiles\" y por qué son útiles?",
-        "body": "Los días hábiles son los días de la semana de lunes a viernes, excluyendo sábados y domingos. Se usan habitualmente para calcular plazos legales, administrativos o laborales (por ejemplo, \"tienes 10 días hábiles para responder\"). Esta calculadora no excluye días festivos, ya que estos varían según el país y la región; solo omite los fines de semana. Si tu plazo debe excluir festivos concretos, tenlo en cuenta al interpretar el resultado."
+        "tipo": "infografia",
+        "archivo": "dias-habiles-vs-naturales.webp",
+        "alt": "Calendario de octubre de 2026 con 22 días hábiles y 31 días naturales",
+        "ancho": 800,
+        "alto": 877,
+        "titulo": "¿Qué diferencia hay entre días naturales y días hábiles?"
       },
       {
-        "title": "¿Cómo sumar o restar meses a una fecha sin errores?",
-        "body": "Sumar meses a una fecha parece sencillo, pero se complica cuando el día de partida no existe en el mes de destino (por ejemplo, 31 de enero + 1 mes no puede dar 31 de febrero, porque febrero no tiene 31 días). Esta calculadora ajusta automáticamente esos casos, mostrando el último día válido del mes de destino cuando corresponde, en lugar de desbordarse a un mes distinto del esperado."
+        "tipo": "aviso",
+        "tono": "ambar",
+        "titulo": "¿Los días hábiles descuentan los festivos?",
+        "texto": "No. Aquí son días hábiles todos los de lunes a viernes. Los festivos cambian según el país y hasta la ciudad, así que, si tu plazo es legal o administrativo, resta los que caigan en el periodo o usa la [calculadora de días hábiles](/calculadora-dias-habiles)."
       },
       {
-        "title": "¿Es lo mismo una \"calculadora de días\" que una \"calculadora de fecha\"?",
-        "body": "Sí: ambos términos se usan indistintamente para referirse a la misma necesidad, calcular la diferencia entre dos fechas, sumar o restar tiempo a una fecha, o saber cuánto falta para un día concreto. Esta calculadora de fecha reúne las tres funciones en una sola herramienta, en lugar de obligarte a buscar una página distinta para cada una."
+        "tipo": "tabla",
+        "titulo": "¿Qué fecha da sumar un mes al 31 de enero?",
+        "intro": "Sumar meses a una fecha de fin de mes es donde más se equivocan las hojas de cálculo. Así resuelve la calculadora los casos difíciles:",
+        "cabeceras": [
+          "Fecha de partida",
+          "Operación",
+          "Resultado"
+        ],
+        "filas": [
+          [
+            "31/01/2026",
+            "+ 1 mes",
+            "28/02/2026 (último día de febrero)"
+          ],
+          [
+            "31/03/2026",
+            "+ 1 mes",
+            "30/04/2026"
+          ],
+          [
+            "29/02/2028",
+            "+ 1 año",
+            "28/02/2029"
+          ],
+          [
+            "15/10/2026",
+            "+ 90 días",
+            "13/01/2027"
+          ]
+        ]
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Para qué se usa una calculadora de días?",
+        "items": [
+          {
+            "titulo": "Plazos de contratos y garantías",
+            "texto": "Una garantía de 90 días o un periodo de prueba de 3 meses: suma desde la fecha de firma y anota el vencimiento."
+          },
+          {
+            "titulo": "Cuentas regresivas",
+            "texto": "Bodas, viajes o exámenes. Para Navidad tienes una cuenta atrás dedicada: [días para Navidad](/dias-para-navidad)."
+          },
+          {
+            "titulo": "Antigüedad laboral",
+            "texto": "La antigüedad para vacaciones o un finiquito se cuenta en días; para la edad exacta usa la [calculadora de edad](/calculadora-edad)."
+          },
+          {
+            "titulo": "Fechas futuras",
+            "texto": "Si solo quieres saber qué día cae dentro de N días, la [calculadora de fecha futura](/calcular-fecha-futura) va directo al grano."
+          }
+        ]
       }
     ],
     "faqs": [
@@ -1865,36 +2026,123 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El IVA (Impuesto al Valor Agregado) es un impuesto indirecto que se añade al precio de la mayoría de bienes y servicios en México. Esta calculadora funciona en ambos sentidos: puedes agregar IVA a un precio sin impuesto para saber el total a cobrar o pagar, o quitar (desglosar) el IVA de un precio que ya lo incluye para saber cuál es el subtotal real. Incluye las tres tasas vigentes (16% general, 8% en la franja fronteriza y 0% para la tasa cero) además de una tasa personalizada para otros países o casos particulares, con el resultado actualizándose al instante mientras escribes.",
-    "howToUse": [
-      "Elige si quieres \"Agregar IVA\" (tienes el precio sin impuesto) o \"Quitar IVA\" (tienes el precio ya con impuesto incluido)",
-      "Introduce el monto correspondiente",
-      "Selecciona la tasa: 16% general, 8% zona fronteriza, 0% tasa cero, u \"Otra\" para introducir un porcentaje personalizado",
-      "El desglose de subtotal, IVA y total se calcula automáticamente; usa \"Copiar desglose\" para pegarlo donde lo necesites"
-    ],
-    "benefits": [
-      "Calcula en ambos sentidos: agregar IVA a un subtotal o desglosarlo de un total, sin fórmulas que memorizar",
-      "Incluye las tres tasas vigentes en México (16%, 8% frontera y 0%) más una tasa personalizada para cualquier otro caso",
-      "Resultado instantáneo mientras escribes, sin necesidad de pulsar un botón \"calcular\"",
-      "Botón para copiar el desglose completo (subtotal, IVA y total) con un clic",
-      "Explica cuándo aplica cada tasa, para evitar errores comunes como usar el 8% fuera de la franja fronteriza",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Agrega o quita el IVA de un precio en segundos. En México la tasa general es 16 %, en la franja fronteriza 8 % y algunos productos van al 0 %; en Chile es 19 %. Para quitar el IVA divide entre 1.16 (o 1.19): restar el porcentaje da un resultado equivocado.",
+    "bloques": [
       {
-        "title": "¿Qué es el IVA y por qué hay tres tasas distintas?",
-        "body": "El IVA es un impuesto indirecto que grava el consumo: lo paga el consumidor final, pero lo recauda y entera al SAT la empresa que vende el bien o presta el servicio. En México existen tres tasas: el 16% es la tasa general, aplicable a la gran mayoría de operaciones en todo el país; el 8% se aplica únicamente a la región fronteriza (los municipios de la franja fronteriza norte y algunos de la sur, siempre que se cumplan los requisitos del decreto correspondiente); y la tasa del 0% se aplica a actividades específicas señaladas en el artículo 2-A de la Ley del IVA, como alimentos básicos, medicinas de patente, libros, periódicos y exportaciones."
+        "tipo": "infografia",
+        "archivo": "como-quitar-el-iva-correctamente.webp",
+        "alt": "Cómo quitar el IVA de un precio: dividir entre 1.16 en lugar de restar el 16 por ciento",
+        "ancho": 800,
+        "alto": 784,
+        "titulo": "¿Cómo quitar el IVA de un precio que ya lo incluye?"
       },
       {
-        "title": "La diferencia entre tasa 0% y actividad exenta de IVA",
-        "body": "Es un error común confundir la tasa 0% con la exención de IVA. Cuando una actividad tiene tasa 0%, sí es un acto gravado por la Ley del IVA (por eso el vendedor puede acreditar el IVA que pagó en sus compras y recuperarlo), simplemente el impuesto a cobrar es cero. Una actividad exenta, en cambio, no está gravada por la ley en absoluto, por lo que quien la realiza no puede acreditar el IVA de sus gastos relacionados con esa actividad. La diferencia parece técnica, pero tiene un impacto real en la contabilidad de una empresa."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto es el IVA de los montos más comunes?",
+        "cabeceras": [
+          "Subtotal",
+          "IVA 16 %",
+          "Total con IVA",
+          "IVA 8 % (frontera)"
+        ],
+        "filas": [
+          [
+            "$100",
+            "$16.00",
+            "$116.00",
+            "$8.00"
+          ],
+          [
+            "$500",
+            "$80.00",
+            "$580.00",
+            "$40.00"
+          ],
+          [
+            "$1,000",
+            "$160.00",
+            "$1,160.00",
+            "$80.00"
+          ],
+          [
+            "$5,000",
+            "$800.00",
+            "$5,800.00",
+            "$400.00"
+          ],
+          [
+            "$10,000",
+            "$1,600.00",
+            "$11,600.00",
+            "$800.00"
+          ]
+        ]
       },
       {
-        "title": "Fórmulas para agregar y quitar el IVA",
-        "body": "Para agregar IVA a un precio sin impuesto: IVA = Subtotal × (tasa ÷ 100), y Total = Subtotal + IVA. Para quitar el IVA de un precio que ya lo incluye, el error más común es restar directamente el porcentaje del total (por ejemplo, restar 16% de $1,740 no da el subtotal correcto). La forma correcta es: Subtotal = Total ÷ (1 + tasa ÷ 100), y después IVA = Total − Subtotal. Por ejemplo, con un total de $1,740 al 16%, el subtotal es $1,740 ÷ 1.16 = $1,500, y el IVA es $240 (no $278.40, que sería el resultado si restaras el 16% directamente)."
+        "tipo": "comparacion",
+        "titulo": "¿Es lo mismo tasa 0 % que estar exento de IVA?",
+        "intro": "En el ticket no se ve la diferencia, pero para quien vende sí la hay.",
+        "columnas": [
+          {
+            "titulo": "Tasa 0 %",
+            "tono": "verde",
+            "subtitulo": "Alimentos básicos, medicinas, exportaciones",
+            "items": [
+              "Es un acto gravado con una tasa de cero.",
+              "El vendedor puede recuperar el IVA que pagó en sus compras.",
+              "Se declara como actividad gravada."
+            ]
+          },
+          {
+            "titulo": "Exento",
+            "tono": "gris",
+            "subtitulo": "Colegiaturas, renta de casa habitación, consultas médicas",
+            "items": [
+              "El acto no está gravado por la Ley del IVA.",
+              "El vendedor no puede recuperar el IVA de sus compras: se vuelve un costo.",
+              "No se cobra IVA al cliente."
+            ]
+          }
+        ]
       },
       {
-        "title": "Calcular IVA en Chile: el 19%",
-        "body": "En Chile el IVA es del 19% y lo regula el Decreto Ley 825. Para agregarlo a un precio neto multiplica por 1.19: un servicio de $100.000 neto se factura en $119.000, con $19.000 de IVA. Para calcular el neto desde un precio con IVA, divide entre 1.19: de $59.500 en una boleta, el neto es $50.000 y el IVA, $9.500. En la calculadora elige la tasa de 19% y el modo agregar o quitar."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto IVA lleva un servicio de $59,500 con IVA en Chile?",
+        "pasos": [
+          {
+            "texto": "Divide el total entre 1,19 para obtener el neto.",
+            "operacion": "59.500 ÷ 1,19 = 50.000"
+          },
+          {
+            "texto": "Resta el neto al total para obtener el IVA.",
+            "operacion": "59.500 − 50.000 = 9.500"
+          }
+        ],
+        "resultado": [
+          "IVA (19 %)",
+          "$9.500"
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cuándo se aplica el IVA del 8 % en México?",
+        "parrafos": [
+          "El 8 % es un estímulo fiscal para negocios inscritos en el padrón de la región fronteriza norte o sur que venden o prestan servicios en esa zona. No es automático: el contribuyente debe estar registrado ante el SAT y cumplir los requisitos del decreto. Si tienes dudas, usa el 16 %.",
+          "Para otros cálculos de precio, prueba la [calculadora de descuentos](/calcular-descuento) o la [calculadora de porcentajes](/calculadora-porcentaje)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Ley del Impuesto al Valor Agregado (Cámara de Diputados)",
+            "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIVA.pdf"
+          },
+          {
+            "texto": "Servicio de Impuestos Internos de Chile (SII)",
+            "url": "https://www.sii.cl"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -1948,36 +2196,71 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "El cálculo mental es la capacidad de resolver operaciones matemáticas sin ayuda de calculadora, papel o lápiz, y se entrena igual que un músculo: con práctica regular y progresiva. Este juego genera problemas de suma, resta, multiplicación y división de forma aleatoria, con tres niveles de dificultad y dos modos de juego (sin límite de tiempo o contrarreloj), para que puedas practicar a tu ritmo o ponerte a prueba bajo presión. Cada partida guarda tu mejor racha de aciertos consecutivos, para que puedas superarte partida tras partida.",
-    "howToUse": [
-      "Elige qué operaciones quieres practicar: suma, resta, multiplicación, división, o combínalas",
-      "Selecciona el nivel de dificultad (fácil, medio o difícil) y el modo de juego (libre o contrarreloj)",
-      "Resuelve cada ejercicio mentalmente y escribe la respuesta; pulsa Enter o \"Comprobar\" para validarla",
-      "Al terminar la partida, revisa tu precisión, aciertos, fallos y tu mejor racha de la sesión"
-    ],
-    "benefits": [
-      "Ejercicios generados aleatoriamente en cada partida, para que nunca se repitan de la misma forma",
-      "Tres niveles de dificultad, desde operaciones básicas hasta números de varias cifras",
-      "Modo contrarreloj (30, 60 o 120 segundos) para entrenar la velocidad de cálculo bajo presión",
-      "Guarda tu mejor racha de aciertos consecutivos en tu propio navegador, para que puedas superar tu récord",
-      "Ideal para estudiantes, opositores, o cualquiera que quiera mantener ágil su capacidad de cálculo",
-      "Gratis, sin registro y sin límite de partidas"
-    ],
-    "contentSections": [
+    "resumen": "Entrena el cálculo mental con sumas, restas, multiplicaciones y divisiones aleatorias en tres niveles. Juega sin límite de tiempo para aprender o contrarreloj para ganar velocidad, y supera tu mejor racha, que se guarda en tu dispositivo.",
+    "bloques": [
       {
-        "title": "¿Por qué es importante practicar el cálculo mental?",
-        "body": "El cálculo mental no solo sirve para resolver operaciones sin calculadora: mejora la memoria de trabajo, la concentración y la capacidad de estimar resultados rápidamente, una habilidad útil en exámenes, compras, finanzas personales y multitud de situaciones cotidianas. Como cualquier habilidad cognitiva, mejora con la práctica constante y progresiva, por eso este juego permite ajustar la dificultad y repetir sesiones cortas de forma regular."
+        "tipo": "tabla",
+        "titulo": "¿Qué nivel de cálculo mental elegir según la edad?",
+        "cabeceras": [
+          "Nivel",
+          "Qué incluye",
+          "Recomendado para"
+        ],
+        "filas": [
+          [
+            "Fácil",
+            "Sumas y restas hasta 20, tablas del 1 al 5",
+            "Primeros cursos de primaria"
+          ],
+          [
+            "Medio",
+            "Sumas y restas hasta 100, tablas hasta el 10",
+            "Final de primaria"
+          ],
+          [
+            "Difícil",
+            "Números más grandes y divisiones",
+            "Secundaria y adultos"
+          ]
+        ]
       },
       {
-        "title": "¿Cómo funcionan los niveles de dificultad?",
-        "body": "El nivel \"Fácil\" trabaja con sumas y restas de números pequeños (hasta 20) y tablas de multiplicar del 1 al 5, ideal para iniciarse. El nivel \"Medio\" amplía el rango a números de hasta 100 en sumas y restas, y tablas de multiplicar completas hasta el 10. El nivel \"Difícil\" introduce sumas y restas con números de varias cifras (hasta 500) y multiplicaciones y divisiones más exigentes, pensado para quienes ya dominan los niveles anteriores. En todos los niveles, las restas y divisiones están diseñadas para dar siempre un resultado entero y no negativo, manteniendo el cálculo mental limpio y realista."
+        "tipo": "infografia",
+        "archivo": "trucos-de-calculo-mental.webp",
+        "alt": "Seis trucos de cálculo mental para multiplicar por 5, 9, 11 y 4 con ejemplos",
+        "ancho": 800,
+        "alto": 794,
+        "titulo": "¿Qué trucos de cálculo mental funcionan de verdad?"
       },
       {
-        "title": "Modo libre vs. modo contrarreloj: ¿cuál elegir?",
-        "body": "El modo sin límite de tiempo es ideal para aprender sin presión, revisando cada ejercicio con calma y prestando atención a los errores. El modo contrarreloj, en cambio, pone a prueba tu rapidez: tienes 30, 60 o 120 segundos para resolver tantos ejercicios como puedas, simulando la presión de un examen o una situación real. Alternar entre ambos modos es una buena estrategia: primero domina la precisión en modo libre, y después trabaja la velocidad en modo contrarreloj."
+        "tipo": "pasos",
+        "titulo": "¿Cómo practicar cálculo mental para mejorar rápido?",
+        "pasos": [
+          {
+            "titulo": "Empieza sin reloj",
+            "texto": "En modo libre, fíjate en qué operaciones fallas más. Velocidad sin precisión no sirve."
+          },
+          {
+            "titulo": "Sesiones cortas cada día",
+            "texto": "Cinco minutos diarios rinden más que una hora a la semana: la agilidad se pierde si no se usa."
+          },
+          {
+            "titulo": "Pasa al contrarreloj",
+            "texto": "Cuando aciertes casi todo, prueba 60 segundos y anota cuántos ejercicios resuelves."
+          },
+          {
+            "titulo": "Sube de nivel",
+            "texto": "Si superas tu mejor racha tres días seguidos, cambia al siguiente nivel."
+          }
+        ]
       },
       {
-        "title": "Trucos de cálculo mental que puedes practicar",
-        "body": "Para multiplicar por 5, multiplica por 10 y divide entre 2: 48 × 5 = 480 ÷ 2 = 240. Para multiplicar por 9, multiplica por 10 y resta el número: 9 × 37 = 370 − 37 = 333. Para sumar 99 o 98, suma 100 y resta la diferencia. Para restar, completa hasta la decena: 83 − 47 es lo mismo que 86 − 50 = 36. Y para elevar al cuadrado un número que termina en 5, multiplica las decenas por la siguiente y añade 25: 35² = 3 × 4 = 12, luego 1225. Si quieres reforzar la base, repasa las [tablas de multiplicar](/tablas-de-multiplicar)."
+        "tipo": "texto",
+        "titulo": "¿Para qué sirve el cálculo mental en la vida diaria?",
+        "parrafos": [
+          "Calcular de cabeza entrena la memoria de trabajo y la concentración, y tiene usos muy concretos: saber si un descuento compensa, repartir una cuenta o detectar un cobro equivocado antes de pagar. En los exámenes, además, ahorra tiempo y permite comprobar resultados.",
+          "Si el problema son las tablas, repásalas primero con las [tablas de multiplicar](/tablas-de-multiplicar). Para entender el procedimiento escrito de una operación, la [Calculadora de Alicia](/calculadora-alicia) lo muestra paso a paso."
+        ]
       }
     ],
     "faqs": [
@@ -2027,36 +2310,108 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "La CURP (Clave Única de Registro de Población) es el código de 18 caracteres que identifica de forma única a cada persona registrada en México. Esta calculadora reproduce el algoritmo oficial que usa RENAPO: toma las primeras letras de tus apellidos y nombre, tu fecha de nacimiento, tu sexo y tu entidad de nacimiento, aplica el filtro de palabras inconvenientes cuando corresponde, y calcula el dígito verificador real mediante el mismo algoritmo de suma ponderada que usa el gobierno, no una aproximación simplificada.",
-    "howToUse": [
-      "Introduce tu nombre o nombres y tus apellidos paterno y materno (el materno es opcional)",
-      "Selecciona tu fecha de nacimiento, tu sexo y el estado (entidad federativa) donde naciste",
-      "Pulsa \"Calcular CURP\" para obtener tu clave completa de 18 caracteres, incluido el dígito verificador",
-      "Usa el botón \"Copiar CURP\" para pegarla donde la necesites"
-    ],
-    "benefits": [
-      "Calcula el dígito verificador real con el algoritmo oficial de suma ponderada, no lo omite ni lo deja en blanco",
-      "Aplica correctamente las reglas especiales: nombres compuestos con María o José, apellidos con preposiciones (de, del, la...)",
-      "Incluye el filtro de palabras inconvenientes que usa RENAPO para evitar combinaciones ofensivas",
-      "Cubre las 32 entidades federativas más la clave para nacidos en el extranjero",
-      "Explica exactamente qué significa cada uno de los 18 caracteres de tu CURP",
-      "Gratis, sin registro y calculado enteramente en tu navegador, sin enviar tus datos a ningún servidor"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu CURP de 18 caracteres con tu nombre, fecha y estado de nacimiento y sexo, con el mismo algoritmo que usa RENAPO, incluido el dígito verificador. Para trámites, descarga siempre la constancia oficial en gob.mx/curp.",
+    "bloques": [
       {
-        "title": "¿Qué significa cada carácter de la CURP?",
-        "body": "La CURP tiene siempre 18 caracteres con una estructura fija: la posición 1 es la primera letra de tu apellido paterno; la posición 2, la primera vocal interna de ese apellido; la posición 3, la primera letra de tu apellido materno (o X si no tienes); la posición 4, la primera letra de tu primer nombre. Las posiciones 5 a 10 son tu fecha de nacimiento en formato AAMMDD. La posición 11 es H o M según tu sexo. Las posiciones 12 y 13 son el código de dos letras de tu entidad de nacimiento. Las posiciones 14, 15 y 16 son la primera consonante interna de tu apellido paterno, materno y nombre, respectivamente. La posición 17 es un diferenciador que evita duplicados (un dígito del 0 al 9 si naciste antes del año 2000, o una letra de la A a la Z si naciste en el año 2000 o después). La posición 18 es el dígito verificador, calculado matemáticamente a partir de las 17 posiciones anteriores."
+        "tipo": "infografia",
+        "archivo": "significado-caracteres-curp.webp",
+        "alt": "Significado de cada carácter de la CURP con un ejemplo de 18 caracteres",
+        "ancho": 800,
+        "alto": 852,
+        "titulo": "¿Qué significa cada letra y número de la CURP?"
       },
       {
-        "title": "Reglas especiales: nombres compuestos y apellidos con preposiciones",
-        "body": "Si tu primer nombre es \"María\" o \"José\" y tienes más de un nombre, la CURP usa el segundo nombre en lugar del primero para la posición 4 (por ejemplo, \"María Fernanda\" usa la F de Fernanda, no la M de María). En los apellidos compuestos, las preposiciones y artículos como \"de\", \"del\", \"la\", \"las\", \"los\" o \"y\" se ignoran al elegir la primera letra: \"De la Cruz\" usa la C de Cruz, no la D de \"De\"."
+        "tipo": "tabla",
+        "titulo": "¿Qué casos especiales cambian la CURP?",
+        "cabeceras": [
+          "Situación",
+          "Regla",
+          "Ejemplo"
+        ],
+        "filas": [
+          [
+            "Primer nombre María o José",
+            "Se usa el segundo nombre",
+            "María Fernanda → F"
+          ],
+          [
+            "Apellido con DE, DEL, LA, LOS",
+            "Se omite la partícula",
+            "De la Rosa → R"
+          ],
+          [
+            "Sin segundo apellido",
+            "Se pone X",
+            "Posiciones 3 y 15 = X"
+          ],
+          [
+            "Las 4 letras forman una palabra inconveniente",
+            "La segunda letra pasa a X",
+            "BUEI → BXEI"
+          ],
+          [
+            "Nacido en el extranjero",
+            "Entidad NE",
+            "Posiciones 12 y 13 = NE"
+          ]
+        ]
       },
       {
-        "title": "¿Cómo se calcula el dígito verificador (posición 18)?",
-        "body": "El dígito verificador se calcula asignando un valor numérico (del 0 al 36) a cada uno de los primeros 17 caracteres de la CURP, según una tabla que incluye los dígitos del 0 al 9 y las 27 letras del alfabeto español (incluida la Ñ, con valor 24). Cada valor se multiplica por un peso que desciende de 18 a 2 según su posición, se suman todos los productos, se obtiene el residuo de dividir esa suma entre 10, y el dígito verificador es 10 menos ese residuo (o 0 si el residuo es 0). Este es exactamente el algoritmo que usa RENAPO para validar que una CURP esté bien transcrita, y es el mismo que aplica esta calculadora."
+        "tipo": "texto",
+        "titulo": "¿Cómo se calcula el último dígito de la CURP?",
+        "parrafos": [
+          "Cada uno de los primeros 17 caracteres se convierte en un número (0 a 9 para los dígitos y 10 a 36 para las letras, con la Ñ incluida) y se multiplica por un peso que va de 18 a 2. Se suman los resultados, se toma el residuo de dividir entre 10 y se resta de 10. Si sale 10, el dígito es 0.",
+          "Gracias a este dígito un error de captura se detecta al momento. Si ya tienes tu CURP y quieres comprobar que está bien formada, usa el [validador de CURP](/validar-curp)."
+        ]
       },
       {
-        "title": "¿Por qué esta calculadora podría no coincidir exactamente con tu CURP oficial?",
-        "body": "En la inmensa mayoría de los casos, el resultado coincidirá exactamente con tu CURP oficial. Sin embargo, la posición 17 (el diferenciador) no se puede determinar con total certeza sin consultar la base de datos de RENAPO: esta calculadora usa el valor por defecto (0 o A) que se asigna quien no tiene colisión con otra persona con nombre, apellidos, sexo, fecha y entidad idénticos. Si existe esa coincidencia, RENAPO asigna un valor distinto para evitar duplicados, lo que también cambiaría el dígito verificador final. Por eso, esta herramienta es ideal para entender y verificar tu CURP, pero el documento oficial siempre debe consultarse en renapo.gob.mx."
+        "tipo": "comparacion",
+        "titulo": "¿La CURP calculada aquí es igual a la oficial?",
+        "columnas": [
+          {
+            "titulo": "Casi siempre coincide",
+            "tono": "verde",
+            "items": [
+              "Las 16 primeras posiciones siguen reglas públicas.",
+              "El dígito verificador se calcula igual que RENAPO."
+            ]
+          },
+          {
+            "titulo": "Puede variar",
+            "tono": "ambar",
+            "items": [
+              "La posición 17 (diferenciador) la asigna RENAPO para evitar duplicados.",
+              "Si te registraron con un dato distinto al de tu acta, tu CURP oficial lo conserva."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "¿Cómo descargar tu CURP oficial gratis?",
+        "pasos": [
+          {
+            "titulo": "Entra a gob.mx/curp",
+            "texto": "Es el único sitio oficial y gratuito. No pagues a páginas que la «venden»."
+          },
+          {
+            "titulo": "Busca con tus datos o tu CURP",
+            "texto": "Puedes usar la CURP calculada aquí o tus datos personales."
+          },
+          {
+            "titulo": "Descarga el PDF",
+            "texto": "La constancia tiene validez oficial para cualquier trámite. Con la CURP también puedes [calcular tu RFC](/calcular-rfc)."
+          }
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Consulta oficial de la CURP (RENAPO)",
+            "url": "https://www.gob.mx/curp/"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -2105,27 +2460,89 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Esta calculadora de porcentajes resuelve los tres cálculos con porcentajes más habituales en un solo lugar: cuánto es un porcentaje de una cantidad, qué porcentaje representa un número sobre otro, y cómo aplicar (o calcular) un aumento o descuento porcentual. El resultado se actualiza al instante mientras escribes, sin necesidad de pulsar ningún botón.",
-    "howToUse": [
-      "Elige la pestaña según lo que necesites calcular",
-      "En \"¿Qué es X% de Y?\", introduce el porcentaje y el número sobre el que se aplica",
-      "En \"X es qué % de Y?\", introduce ambos números para saber la proporción entre ellos",
-      "En \"Aumento/Descuento\", aplica un porcentaje a un valor o calcula la variación porcentual entre dos cifras"
-    ],
-    "benefits": [
-      "Tres calculadoras de porcentaje en una sola herramienta, sin cambiar de página",
-      "Resultado instantáneo mientras escribes, sin botón \"calcular\"",
-      "Calcula tanto aumentos como descuentos porcentuales",
-      "Incluye el cálculo inverso: la variación porcentual entre dos valores",
-      "Gratis, sin registro y calculado en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Resuelve cualquier cálculo con porcentajes: cuánto es un porcentaje de una cantidad, qué porcentaje representa un número de otro y cuánto sube o baja un valor. El resultado aparece mientras escribes, con la fórmula a la vista.",
+    "bloques": [
       {
-        "title": "Fórmulas básicas de porcentajes",
-        "body": "Para calcular el X% de un número Y, la fórmula es (X ÷ 100) × Y. Para saber qué porcentaje representa un número X sobre otro Y, la fórmula es (X ÷ Y) × 100. Para calcular un aumento porcentual, se multiplica el valor inicial por (1 + porcentaje ÷ 100); para un descuento, por (1 − porcentaje ÷ 100). Para hallar la variación porcentual entre un valor inicial y uno final, se usa ((valor final − valor inicial) ÷ valor inicial) × 100."
+        "tipo": "infografia",
+        "archivo": "formulas-de-porcentajes.webp",
+        "alt": "Fórmulas de porcentajes y por qué dos descuentos del 10 por ciento suman 19",
+        "ancho": 800,
+        "alto": 838,
+        "titulo": "¿Cuáles son las fórmulas para calcular porcentajes?"
       },
       {
-        "title": "Errores comunes al calcular descuentos",
-        "body": "Un error frecuente es aplicar descuentos sucesivos sumándolos directamente: dos descuentos del 10% no equivalen a un 20% de descuento total, sino a un 19% (ya que el segundo 10% se aplica sobre el precio ya rebajado). Otro error común es confundir \"aumentar un 50%\" con \"multiplicar por 1.5 y luego dividir entre 2 para volver al original\": para deshacer un aumento del 50%, no basta con restar un 50%, hay que dividir entre 1.5."
+        "tipo": "tabla",
+        "titulo": "¿Cómo sacar el porcentaje de un número de cabeza?",
+        "intro": "Atajos para los porcentajes que más se usan:",
+        "cabeceras": [
+          "Porcentaje",
+          "Atajo",
+          "Ejemplo con 360"
+        ],
+        "filas": [
+          [
+            "50 %",
+            "Divide entre 2",
+            "180"
+          ],
+          [
+            "25 %",
+            "Divide entre 4",
+            "90"
+          ],
+          [
+            "10 %",
+            "Mueve la coma un lugar",
+            "36"
+          ],
+          [
+            "5 %",
+            "La mitad del 10 %",
+            "18"
+          ],
+          [
+            "20 %",
+            "El 10 % por dos",
+            "72"
+          ],
+          [
+            "1 %",
+            "Mueve la coma dos lugares",
+            "3,6"
+          ]
+        ]
+      },
+      {
+        "tipo": "comparacion",
+        "titulo": "¿Por qué subir un 20 % y bajar un 20 % no te deja igual?",
+        "columnas": [
+          {
+            "titulo": "Sube 20 % y luego baja 20 %",
+            "tono": "ambar",
+            "items": [
+              "100 + 20 % = 120",
+              "120 − 20 % = 96",
+              "Pierdes un 4 %: la bajada se aplica sobre una cantidad mayor."
+            ]
+          },
+          {
+            "titulo": "Para volver al valor inicial",
+            "tono": "verde",
+            "items": [
+              "Tras subir un 20 %, hay que bajar un 16,67 %.",
+              "Tras bajar un 20 %, hay que subir un 25 %.",
+              "Fórmula: porcentaje ÷ (100 ± porcentaje) × 100."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué diferencia hay entre puntos porcentuales y porcentaje?",
+        "parrafos": [
+          "Si una tasa de interés pasa del 10 % al 12 %, ha subido 2 puntos porcentuales, pero un 20 % en términos relativos (2 es el 20 % de 10). Las noticias los confunden a menudo, y la diferencia importa en créditos, impuestos o encuestas.",
+          "Para precios con rebaja usa la [calculadora de descuentos](/calcular-descuento); para proporciones del tipo «si 3 cuestan 45, ¿cuánto cuestan 7?», la [regla de tres](/calculadora-regla-de-tres)."
+        ]
       }
     ],
     "faqs": [
@@ -2167,27 +2584,59 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Este convertidor de moneda usa tasas de cambio de referencia actualizadas para convertir entre dólar estadounidense, peso mexicano, euro y otras divisas habituales. Elige la moneda de origen y destino, introduce el monto, y obtén el resultado al instante junto con la tasa de cambio unitaria aplicada.",
-    "howToUse": [
-      "Selecciona la moneda de origen (\"De\") y la moneda a la que quieres convertir (\"A\")",
-      "Introduce el monto que quieres convertir",
-      "El resultado se calcula automáticamente con la tasa de cambio de referencia más reciente disponible",
-      "Usa el botón ⇄ para invertir rápidamente el sentido de la conversión"
-    ],
-    "benefits": [
-      "Tasas de cambio de referencia actualizadas, no valores fijos desactualizados",
-      "Enfoque en el peso mexicano junto a las divisas internacionales más usadas",
-      "Conversión instantánea en ambos sentidos con un solo clic",
-      "Muestra la tasa unitaria (1 unidad de la moneda de origen) para comparar fácilmente",
-      "Gratis y sin necesidad de registro"
-    ],
-    "contentSections": [
+    "resumen": "Convierte entre dólar, peso mexicano, euro y otras monedas con el tipo de cambio de referencia del Banco Central Europeo, actualizado cada día hábil. Te sirve para saber cuánto vale algo; al cambiar dinero, el banco aplicará su propio margen.",
+    "bloques": [
       {
-        "title": "¿De dónde vienen las tasas de cambio de esta calculadora?",
-        "body": "Las tasas se obtienen de un servicio de referencia que publica los tipos de cambio de referencia del Banco Central Europeo, actualizados en días hábiles. Son tasas de referencia del mercado interbancario, por lo que pueden diferir ligeramente de las que ofrecen bancos, casas de cambio o plataformas de remesas, que habitualmente aplican un margen o comisión adicional sobre la tasa de referencia."
+        "tipo": "infografia",
+        "archivo": "tipo-de-cambio-compra-venta.webp",
+        "alt": "Diferencia entre tipo de cambio de referencia, precio de compra y de venta del dólar",
+        "ancho": 800,
+        "alto": 774,
+        "titulo": "¿Por qué el banco me da un tipo de cambio distinto?"
       },
       {
-        "title": "¿Por qué el tipo de cambio que me dan en el banco es distinto al de esta calculadora?",
-        "body": "Los bancos, casas de cambio y servicios de remesas no usan la tasa de referencia interbancaria directamente: aplican un margen (spread) sobre esa tasa para cubrir su costo operativo y generar ganancia. Por eso, al comprar o vender divisas físicamente, el tipo de cambio real casi siempre es menos favorable que la tasa de referencia que muestran las calculadoras y noticieros financieros."
+        "tipo": "consejos",
+        "titulo": "¿Cómo pagar menos comisión al cambiar dinero?",
+        "items": [
+          {
+            "titulo": "Compara el margen, no la comisión",
+            "texto": "Una casa «sin comisión» puede cobrarte más en el tipo de cambio. Compara cuánto recibes al final."
+          },
+          {
+            "titulo": "Paga en la moneda local",
+            "texto": "Si una terminal en el extranjero te ofrece cobrar en tu moneda, recházalo: esa conversión suele ser más cara que la de tu banco."
+          },
+          {
+            "titulo": "Evita el aeropuerto",
+            "texto": "Las casas de cambio de aeropuertos y hoteles suelen tener los márgenes más altos."
+          },
+          {
+            "titulo": "Usa la referencia como guía",
+            "texto": "Si la diferencia entre lo que te ofrecen y el tipo de referencia supera el 3 %, busca otra opción."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿De dónde salen los tipos de cambio de este convertidor?",
+        "parrafos": [
+          "Usamos los tipos de referencia que publica el Banco Central Europeo cada día hábil, a través de un servicio público. Son tasas del mercado interbancario: las que usan los bancos entre ellos, sin margen para el cliente. Los fines de semana se muestra la última publicada.",
+          "Para monedas con mercados paralelos o muy variables hay herramientas específicas: el [dólar a peso mexicano](/dolar-a-peso-mexicano) con su evolución reciente, el [dólar blue](/dolar-blue) en Argentina y el [conversor de criptomonedas](/conversor-criptomonedas)."
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "Este convertidor es informativo. Para una transferencia o un cambio real, el tipo que cuenta es el que te confirme tu banco o casa de cambio antes de operar."
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Banco Central Europeo: tipos de cambio de referencia",
+            "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.es.html"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -2227,28 +2676,72 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Este generador crea contraseñas verdaderamente aleatorias usando la API criptográfica del navegador (Web Crypto API), la misma tecnología que usan los gestores de contraseñas profesionales, no un simple Math.random() como hacen muchos generadores online. Ajusta la longitud y los tipos de caracteres, revisa el medidor de fortaleza basado en bits de entropía, y copia tu contraseña con un clic.",
-    "howToUse": [
-      "Ajusta la longitud de la contraseña con el control deslizante (de 4 a 64 caracteres)",
-      "Elige qué tipos de caracteres incluir: mayúsculas, minúsculas, números y símbolos",
-      "Activa \"Excluir caracteres ambiguos\" si necesitas evitar confusiones entre l, 1, I, O y 0",
-      "Copia la contraseña generada, o pulsa el icono 🔄 para generar una nueva al instante"
-    ],
-    "benefits": [
-      "Usa la Web Crypto API del navegador, criptográficamente segura, no un generador pseudoaleatorio débil",
-      "Medidor de fortaleza basado en bits de entropía real, no una estimación superficial",
-      "Control total sobre longitud y tipos de caracteres incluidos",
-      "Opción de excluir caracteres ambiguos para contraseñas que se transcriben a mano",
-      "Guarda un historial temporal de las últimas contraseñas generadas en la sesión",
-      "Todo se genera en tu navegador: ninguna contraseña se envía ni se guarda en un servidor"
-    ],
-    "contentSections": [
+    "resumen": "Genera contraseñas aleatorias de verdad con la API criptográfica del navegador. Elige longitud y tipos de caracteres, excluye los que se confunden (l, 1, I, O, 0) y copia el resultado. Nada sale de tu dispositivo.",
+    "bloques": [
       {
-        "title": "¿Por qué importa que la generación sea \"criptográficamente segura\"?",
-        "body": "La función Math.random() de JavaScript, que usan muchos generadores de contraseñas online, no está diseñada para ser impredecible: es un generador pseudoaleatorio pensado para animaciones o juegos, no para seguridad. La Web Crypto API (crypto.getRandomValues), en cambio, usa el generador de números aleatorios del sistema operativo, diseñado específicamente para que sus resultados sean computacionalmente imposibles de predecir, el mismo estándar que usan los navegadores para generar claves criptográficas."
+        "tipo": "infografia",
+        "archivo": "tiempo-descifrar-contrasena.webp",
+        "alt": "Tiempo para descifrar una contraseña por fuerza bruta según su longitud y caracteres",
+        "ancho": 800,
+        "alto": 856,
+        "titulo": "¿Cuánto tarda un hacker en descifrar mi contraseña?"
       },
       {
-        "title": "¿Qué es la entropía de una contraseña y por qué importa?",
-        "body": "La entropía mide, en bits, cuántos intentos necesitaría un atacante para adivinar tu contraseña por fuerza bruta. Se calcula como longitud × log₂(tamaño del conjunto de caracteres). Una contraseña de 12 caracteres usando solo minúsculas tiene unos 56 bits de entropía, mientras que una de 12 caracteres con mayúsculas, minúsculas, números y símbolos supera los 78 bits, miles de millones de veces más difícil de adivinar. Como referencia general, se considera razonable a partir de 60 bits y fuerte a partir de 80 bits."
+        "tipo": "comparacion",
+        "titulo": "¿Cómo es una contraseña segura en 2026?",
+        "columnas": [
+          {
+            "titulo": "Segura",
+            "tono": "verde",
+            "items": [
+              "16 caracteres o más.",
+              "Generada al azar, no inventada.",
+              "Distinta en cada cuenta y guardada en un gestor de contraseñas."
+            ]
+          },
+          {
+            "titulo": "Insegura",
+            "tono": "rojo",
+            "items": [
+              "Nombres, fechas o palabras del diccionario, aunque cambies letras por números.",
+              "Menos de 12 caracteres.",
+              "La misma en varias cuentas: si se filtra una, caen todas."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Por qué importa que el generador sea criptográficamente seguro?",
+        "parrafos": [
+          "Muchos generadores online usan Math.random(), una función pensada para juegos y animaciones cuyo resultado se puede predecir si se conoce su estado interno. Este generador usa crypto.getRandomValues(), la fuente de aleatoriedad del sistema operativo que usan los gestores de contraseñas y los navegadores para el cifrado.",
+          "La seguridad de una contraseña se mide en bits de entropía: longitud × log₂(caracteres posibles). Con 94 caracteres, cada uno aporta unos 6,6 bits; una contraseña de 16 llega a 105 bits, fuera del alcance de cualquier ataque de fuerza bruta conocido."
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "¿Qué hacer después de generar la contraseña?",
+        "pasos": [
+          {
+            "titulo": "Guárdala en un gestor",
+            "texto": "Bitwarden, 1Password o el gestor de tu navegador la recuerdan por ti y la rellenan solos."
+          },
+          {
+            "titulo": "Activa la verificación en dos pasos",
+            "texto": "Aunque alguien consiga tu contraseña, necesitará además un código de tu teléfono."
+          },
+          {
+            "titulo": "Cambia las reutilizadas",
+            "texto": "Empieza por el correo y el banco: con acceso a tu correo se pueden restablecer todas las demás."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Necesitas otro tipo de código aleatorio?",
+        "parrafos": [
+          "Para identificadores únicos en bases de datos usa el [generador de UUID](/generador-uuid); para comprobar la integridad de un archivo o un texto, el [generador de hash](/generador-hash)."
+        ]
       }
     ],
     "faqs": [
@@ -2290,28 +2783,75 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Este contador de palabras analiza tu texto en tiempo real mientras escribes o pegas contenido: número de palabras, caracteres (con y sin espacios), oraciones, párrafos, tiempo estimado de lectura y las palabras que más se repiten. Útil para ajustarte a límites de caracteres en redes sociales, cumplir con la extensión mínima o máxima de un trabajo académico, o revisar la repetición excesiva de palabras en un texto.",
-    "howToUse": [
-      "Escribe o pega tu texto en el cuadro principal",
-      "Las estadísticas (palabras, caracteres, oraciones, párrafos) se actualizan automáticamente mientras escribes",
-      "Revisa el tiempo de lectura estimado, calculado a una velocidad media de 200 palabras por minuto",
-      "Consulta las palabras más repetidas para detectar redundancias en tu texto"
-    ],
-    "benefits": [
-      "Conteo en tiempo real, sin necesidad de pulsar ningún botón",
-      "Distingue caracteres con y sin espacios, útil para límites exactos de plataformas",
-      "Calcula oraciones y párrafos, no solo palabras y caracteres",
-      "Estima el tiempo de lectura de tu texto",
-      "Detecta las palabras más repetidas para mejorar la variedad de tu redacción",
-      "Gratis, sin registro y funciona directamente en tu navegador, sin subir tu texto a ningún servidor"
-    ],
-    "contentSections": [
+    "resumen": "Pega o escribe tu texto y ve al instante las palabras, los caracteres con y sin espacios, las oraciones, los párrafos, el tiempo de lectura y las palabras que más repites. Todo se procesa en tu navegador.",
+    "bloques": [
       {
-        "title": "¿Para qué sirve contar palabras y caracteres?",
-        "body": "Contar palabras y caracteres es útil en múltiples contextos: cumplir con la extensión exacta de un ensayo o trabajo académico, ajustarte al límite de caracteres de una publicación en redes sociales, verificar que una meta descripción SEO no exceda los caracteres recomendados, o simplemente llevar control de cuánto has escrito en un borrador."
+        "tipo": "tabla",
+        "titulo": "¿Cuántas palabras tiene una página o un ensayo?",
+        "intro": "Referencias habituales para trabajos escolares y universitarios. Revisa siempre lo que pide tu profesor o la convocatoria.",
+        "cabeceras": [
+          "Texto",
+          "Extensión aproximada"
+        ],
+        "filas": [
+          [
+            "Una página a doble espacio (12 pt)",
+            "250 a 300 palabras"
+          ],
+          [
+            "Una página a espacio sencillo (12 pt)",
+            "500 a 600 palabras"
+          ],
+          [
+            "Ensayo escolar breve",
+            "500 a 1.000 palabras"
+          ],
+          [
+            "Artículo de blog completo",
+            "1.000 a 2.000 palabras"
+          ],
+          [
+            "Trabajo de fin de grado",
+            "8.000 a 15.000 palabras"
+          ]
+        ]
       },
       {
-        "title": "¿Cómo se calcula el tiempo de lectura?",
-        "body": "El tiempo de lectura estimado se calcula dividiendo el número de palabras del texto entre 200, que es la velocidad de lectura promedio de un adulto en español leyendo en silencio. Es una estimación general: la velocidad real varía según la complejidad del texto y la familiaridad del lector con el tema."
+        "tipo": "infografia",
+        "archivo": "limites-de-caracteres-redes.webp",
+        "alt": "Límites de caracteres de SMS, Instagram, X, YouTube, LinkedIn y títulos SEO",
+        "ancho": 800,
+        "alto": 846,
+        "titulo": "¿Cuántos caracteres permite cada red social?"
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo se calcula el tiempo de lectura de un texto?",
+        "parrafos": [
+          "Dividimos el número de palabras entre 200, la velocidad media de lectura silenciosa de un adulto en español. Un artículo de 1.200 palabras se lee en unos 6 minutos. Para textos técnicos la velocidad baja, y si vas a leerlo en voz alta, calcula unas 130 palabras por minuto. La [calculadora de tiempo de lectura](/calculadora-tiempo-lectura) te deja ajustar la velocidad."
+        ]
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Para qué sirve ver las palabras más repetidas?",
+        "items": [
+          {
+            "titulo": "Evitar muletillas",
+            "texto": "Si «además» o «muy» aparecen diez veces, es momento de buscar sinónimos o recortar."
+          },
+          {
+            "titulo": "Revisar el enfoque",
+            "texto": "Las palabras más frecuentes deberían ser las del tema principal. Si no lo son, el texto se dispersa."
+          },
+          {
+            "titulo": "Ajustar al límite",
+            "texto": "Cuando te sobran palabras, las repetidas son lo primero que se puede quitar sin perder contenido."
+          },
+          {
+            "titulo": "Contar solo caracteres",
+            "texto": "Si solo te importa el límite de una red social, el [contador de caracteres](/contador-caracteres) es más directo."
+          }
+        ]
       }
     ],
     "faqs": [
@@ -2353,27 +2893,92 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Calcula cuánto dejar de propina y cuánto le toca pagar a cada persona en segundos. Elige un porcentaje predefinido o uno personalizado, indica entre cuántas personas se divide la cuenta, y obtén al instante el monto de la propina, el total a pagar y la parte exacta de cada comensal.",
-    "howToUse": [
-      "Introduce el monto total de la cuenta",
-      "Elige un porcentaje de propina predefinido (10%, 15%, 18%, 20%, 25%) o escribe uno personalizado",
-      "Indica entre cuántas personas se va a dividir la cuenta",
-      "Consulta al instante la propina total, el total a pagar y cuánto le corresponde a cada persona"
-    ],
-    "benefits": [
-      "Resultado instantáneo mientras ajustas los valores, sin botón \"calcular\"",
-      "Porcentajes predefinidos habituales más la opción de un porcentaje personalizado",
-      "Divide automáticamente el total entre el número de personas que indiques",
-      "Muestra el desglose por persona: su parte de la cuenta y su parte de la propina por separado",
-      "Gratis, sin registro y funciona en cualquier dispositivo"
-    ],
-    "contentSections": [
+    "resumen": "Elige un porcentaje de propina, indica entre cuántas personas se divide la cuenta y obtén la propina, el total y lo que paga cada uno, redondeado al centavo.",
+    "bloques": [
       {
-        "title": "¿Cuánto se acostumbra dejar de propina?",
-        "body": "El porcentaje habitual varía según el país: en México y buena parte de Latinoamérica, lo común es entre el 10% y el 15% en restaurantes con servicio a la mesa. En España, donde el servicio suele estar más incluido en el precio, es común dejar una propina menor, entre el 5% y el 10%, o simplemente redondear la cuenta. En Estados Unidos, la propina esperada es considerablemente más alta, entre el 15% y el 20%, ya que el salario del personal de servicio suele depender en gran parte de ella."
+        "tipo": "infografia",
+        "archivo": "propina-por-pais.webp",
+        "alt": "Porcentaje de propina habitual en México, Argentina, Colombia, Chile, Perú y España",
+        "ancho": 800,
+        "alto": 841,
+        "titulo": "¿Cuánta propina se deja en México, Argentina, Colombia y España?"
       },
       {
-        "title": "¿Cómo se calcula la propina al dividir la cuenta entre varias personas?",
-        "body": "Esta calculadora primero calcula la propina total sobre el monto completo de la cuenta, y después divide tanto la cuenta como la propina entre el número de personas indicado, para que cada quien pague una parte proporcional y justa, en lugar de que cada persona calcule su propina por separado sobre lo que consumió individualmente (lo que puede complicarse si no se pidió por partes iguales)."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto es el 10, 15 o 20 % de propina?",
+        "cabeceras": [
+          "Cuenta",
+          "10 %",
+          "15 %",
+          "20 %"
+        ],
+        "filas": [
+          [
+            "$200",
+            "$20",
+            "$30",
+            "$40"
+          ],
+          [
+            "$500",
+            "$50",
+            "$75",
+            "$100"
+          ],
+          [
+            "$800",
+            "$80",
+            "$120",
+            "$160"
+          ],
+          [
+            "$1,000",
+            "$100",
+            "$150",
+            "$200"
+          ],
+          [
+            "$2,500",
+            "$250",
+            "$375",
+            "$500"
+          ]
+        ],
+        "nota": "Truco: el 10 % es mover la coma un lugar; el 15 % es ese 10 % más su mitad; el 20 %, el 10 % por dos."
+      },
+      {
+        "tipo": "comparacion",
+        "titulo": "¿Se deja propina sobre el total con IVA o sobre el subtotal?",
+        "columnas": [
+          {
+            "titulo": "Sobre el total con IVA",
+            "tono": "azul",
+            "items": [
+              "Es lo más habitual en México y Latinoamérica: el porcentaje se aplica al total de la cuenta.",
+              "Es más simple: usas el número que aparece al final del ticket."
+            ]
+          },
+          {
+            "titulo": "Sobre el subtotal",
+            "tono": "gris",
+            "items": [
+              "Algunas personas prefieren no dar propina sobre el impuesto.",
+              "La diferencia es pequeña: en una cuenta de $1,160, el 15 % es $174 frente a $150."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo repartir la propina cuando cada uno pidió algo distinto?",
+        "parrafos": [
+          "Esta calculadora reparte a partes iguales, que es lo justo cuando se comparte todo. Si cada quien pidió algo distinto, suma lo de cada persona, aplica el mismo porcentaje de propina a cada parte y redondea. Para repartir gastos de un viaje o una casa entre varias personas, usa [dividir cuenta](/dividir-cuenta)."
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "ambar",
+        "texto": "Antes de añadir propina, revisa si la cuenta ya incluye un «cargo por servicio». En México la propina es voluntaria y un restaurante no puede incluirla sin tu consentimiento."
       }
     ],
     "faqs": [

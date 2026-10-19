@@ -4,7 +4,7 @@ import Image from 'next/image'
 import FAQ from '@/components/FAQ'
 import RelatedTools from '@/components/RelatedTools'
 import TextoConEnlaces from '@/components/TextoConEnlaces'
-import BloquesHerramienta from '@/components/BloquesHerramienta'
+import BloquesHerramienta, { IndiceBloques } from '@/components/BloquesHerramienta'
 import { getToolImage as getToolIllustration } from '@/lib/toolImage'
 import fechas from '@/data/fechas.json'
 
@@ -122,6 +122,7 @@ export default function ToolLayout({ tool, children }) {
             </p>
           )}
           <div className="bg-white border border-gray-200 rounded-2xl shadow-sm p-5 sm:p-6 mb-12">{children}</div>
+          <IndiceBloques tool={tool} />
           <BloquesHerramienta tool={tool} ilustracion={toolBottomImage ? { src: toolBottomImage, alt: toolBottomImageAlt } : null} />
           <div className="mt-12">
             <FAQ faqs={tool.faqs} />

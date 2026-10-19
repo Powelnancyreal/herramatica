@@ -27,7 +27,7 @@ function parrafo(x, y, t, { size = 22, max = 52, alto = 1.32, ...op } = {}) {
 // Las piezas colocan su contenido suponiendo un título de una línea; si el título ocupa más, todo baja.
 function lienzo({ alto: altoBase, titulo, subtitulo, slug, cuerpo }) {
   const tit = parrafo(M, 92, titulo, { size: 36, max: 38, anchor: 'start', fill: C.slate, alto: 1.2 })
-  const sub = subtitulo ? parrafo(M, 92 + tit.h + 10, subtitulo, { size: 22, max: 60, anchor: 'start', fill: C.slateMid, weight: 400 }) : { svg: '', h: 22 * 1.32 }
+  const sub = subtitulo ? parrafo(M, 92 + tit.h + 10, subtitulo, { size: 22, max: 60, anchor: 'start', fill: C.slateMid, weight: 400 }) : { svg: '', h: 0 }
   const dy = Math.round(tit.h - 36 * 1.2 + sub.h - 22 * 1.32) + 24
   const alto = Math.round(altoBase + dy)
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${alto}" width="${W}" height="${alto}">
@@ -439,3 +439,6 @@ module.exports = [
   pieza('calculo-isr-mensual-2026-ejemplo', 'Cálculo del ISR mensual 2026 paso a paso con la tarifa del SAT para un sueldo de 15 mil pesos', isr),
   pieza('caracteres-invisibles-unicode', 'Tabla de caracteres invisibles de Unicode como U+3164 y U+200B con su uso', textoInvisible),
 ]
+
+// Utilidades compartidas con los demás archivos de piezas.
+module.exports.util = { W, M, partir, parrafo, lienzo, linea, flechaAbajo }

@@ -6,7 +6,12 @@
 const fs = require('fs')
 const path = require('path')
 const sharp = require('sharp')
-const piezas = require('./piezas')
+// Todas las piezas: piezas.js, piezas-2.js, piezas-3.js… (un archivo por lote de herramientas).
+const piezas = fs
+  .readdirSync(__dirname)
+  .filter((f) => /^piezas(-\d+)?\.js$/.test(f))
+  .sort()
+  .flatMap((f) => [...require(path.join(__dirname, f))])
 
 const ROOT = path.join(__dirname, '..', '..')
 const OUT = path.join(ROOT, 'public', 'images', 'infografias')
