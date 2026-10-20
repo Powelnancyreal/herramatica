@@ -5,6 +5,7 @@ import blogData from '@/data/blog.json'
 import temas from '@/data/temas-herramientas.json'
 import { generateBreadcrumbSchema } from '@/lib/schema'
 import { EMAIL } from '@/components/LegalLayout'
+import { FACEBOOK_URL, REDES } from '@/lib/redes'
 
 const URL = 'https://herramatica.com/acerca'
 const decena = (n) => Math.floor(n / 10) * 10
@@ -98,6 +99,7 @@ export default function AcercaPage() {
         name: 'Herramatica',
         url: 'https://herramatica.com',
         email: EMAIL,
+        sameAs: REDES.map((r) => r.url),
         logo: 'https://herramatica.com/images/logo.svg',
         foundingDate: '2026-08',
         knowsLanguage: 'es',
@@ -274,6 +276,9 @@ export default function AcercaPage() {
             <div className="flex flex-col gap-3">
               <a href={`mailto:${EMAIL}`} className="rounded-xl bg-white px-5 py-3 text-center font-semibold text-gray-900 hover:bg-blue-50">
                 {EMAIL}
+              </a>
+              <a href={FACEBOOK_URL} target="_blank" rel="me noopener noreferrer" className="rounded-xl border border-gray-600 px-5 py-3 text-center font-medium text-gray-200 hover:border-gray-400">
+                Síguenos en Facebook
               </a>
               <Link href="/contacto" className="rounded-xl border border-gray-600 px-5 py-3 text-center font-medium text-gray-200 hover:border-gray-400">
                 Ver formas de contacto

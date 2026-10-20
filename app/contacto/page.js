@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { generateBreadcrumbSchema } from '@/lib/schema'
 import { EMAIL } from '@/components/LegalLayout'
+import { FACEBOOK_URL, REDES } from '@/lib/redes'
 
 const URL = 'https://herramatica.com/contacto'
 
@@ -53,6 +54,7 @@ export default function ContactoPage() {
         name: 'Herramatica',
         url: 'https://herramatica.com',
         email: EMAIL,
+        sameAs: REDES.map((r) => r.url),
         contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', email: EMAIL, availableLanguage: 'Spanish' },
       },
     },
@@ -88,6 +90,17 @@ export default function ContactoPage() {
         </div>
         <a href={`mailto:${EMAIL}`} className="mt-5 sm:mt-0 inline-block shrink-0 rounded-xl bg-blue-600 px-6 py-3 font-semibold text-white hover:bg-blue-700">
           Escribir un correo
+        </a>
+      </div>
+
+      <div className="mt-4 rounded-2xl border border-gray-200 bg-white p-6 sm:p-8 sm:flex sm:items-center sm:justify-between sm:gap-6">
+        <div>
+          <p className="text-sm text-gray-500">Redes sociales</p>
+          <p className="mt-1 text-lg font-semibold text-gray-900">Herramatica en Facebook</p>
+          <p className="mt-1 text-sm text-gray-600">Novedades, herramientas nuevas y avisos cuando cambian cifras como la UMA o el salario mínimo.</p>
+        </div>
+        <a href={FACEBOOK_URL} target="_blank" rel="me noopener noreferrer" className="mt-5 sm:mt-0 inline-block shrink-0 rounded-xl border border-gray-300 px-6 py-3 font-semibold text-gray-800 hover:border-blue-300 hover:text-blue-700">
+          Ir a Facebook
         </a>
       </div>
 
