@@ -4238,37 +4238,120 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcular una hipoteca implica más que la cuota mensual: cuánto puedes financiar según el precio de la vivienda, si te conviene un tipo fijo, variable o mixto, si tu cuota es asumible según tus ingresos (el llamado \"esfuerzo hipotecario\"), y cuánto dinero necesitas realmente ahorrado, sumando la entrada y los gastos e impuestos de comprar una vivienda. Esta calculadora resuelve todo eso en un solo lugar, con el sistema de amortización francés que usan los bancos españoles y una tabla de amortización completa.",
-    "howToUse": [
-      "Introduce el precio de la vivienda, la entrada de la que dispones y el plazo en años",
-      "Elige el tipo de hipoteca: fija (un TIN fijo), variable (euríbor + diferencial) o mixta (fija los primeros años y variable después)",
-      "Indica si la vivienda es de obra nueva o de segunda mano, para estimar los gastos de compra",
-      "Añade tus ingresos netos mensuales (opcional) para ver tu esfuerzo hipotecario",
-      "Pulsa \"Calcular hipoteca\" para ver la cuota, el total de intereses, los gastos estimados y la tabla de amortización completa"
-    ],
-    "benefits": [
-      "Calcula hipotecas fijas, variables y mixtas, recalculando correctamente la cuota en el cambio de fase",
-      "Estima cuánto necesitas ahorrado en total, no solo la entrada: incluye tasación e impuestos de compraventa",
-      "Calcula tu esfuerzo hipotecario (cuota entre tus ingresos) con un aviso si supera el 35% recomendado",
-      "Avisa si estás financiando más del 80% del precio, el límite habitual de los bancos españoles",
-      "Incluye la tabla de amortización completa, mes a mes, con capital, interés y saldo restante",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Antes de firmar una hipoteca conviene saber tres cosas: la cuota que vas a pagar, cuánto tienes que tener ahorrado y si esa cuota cabe en tu sueldo. Esta calculadora te da las tres con tipo fijo, variable o mixto.",
+    "bloques": [
       {
-        "title": "Hipoteca fija, variable o mixta: ¿cuál elegir?",
-        "body": "La hipoteca fija mantiene el mismo tipo de interés (TIN) durante toda la vida del préstamo, ofreciendo cuotas estables y previsibles, ideal si prefieres certeza frente al riesgo de que suban los tipos. La hipoteca variable se calcula como euríbor más un diferencial fijado por el banco, y se revisa periódicamente (normalmente cada 6 o 12 meses): puede salir más barata a largo plazo, pero tu cuota puede subir o bajar según el mercado. La hipoteca mixta combina ambas: un periodo inicial a tipo fijo (habitualmente entre 3 y 10 años) y el resto del plazo a tipo variable, buscando el equilibrio entre estabilidad inicial y la posibilidad de beneficiarte de tipos variables más bajos después."
+        "tipo": "escenarios",
+        "titulo": "¿Cuánto se paga al mes por una hipoteca de 160.000 €?",
+        "intro": "Mismo préstamo, tres plazos distintos, con un tipo fijo del 3 %:",
+        "items": [
+          {
+            "titulo": "A 20 años",
+            "situacion": "Pagas antes, pero la cuota aprieta más cada mes.",
+            "resultado": "887,36 €",
+            "detalle": "52.965 € de intereses"
+          },
+          {
+            "titulo": "A 25 años",
+            "situacion": "El plazo más habitual para una primera vivienda.",
+            "resultado": "758,74 €",
+            "detalle": "67.621 € de intereses"
+          },
+          {
+            "titulo": "A 30 años",
+            "situacion": "La cuota más baja, a costa de muchos más intereses.",
+            "resultado": "674,57 €",
+            "detalle": "82.844 € de intereses"
+          }
+        ]
       },
       {
-        "title": "¿Qué es el esfuerzo hipotecario y por qué importa?",
-        "body": "El esfuerzo hipotecario es el porcentaje de tus ingresos netos mensuales que se destina a pagar la cuota de la hipoteca. Los bancos españoles, siguiendo las recomendaciones del Banco de España, generalmente no conceden hipotecas cuya cuota supere el 30-35% de los ingresos del solicitante, ya que un esfuerzo mayor se considera un riesgo elevado de impago. Por eso, además de calcular tu cuota, esta calculadora te muestra qué porcentaje representa sobre tus ingresos, para que sepas si tu hipoteca deseada es realista antes de solicitarla."
+        "tipo": "infografia",
+        "archivo": "ahorro-necesario-hipoteca.webp",
+        "alt": "Ahorro necesario para comprar un piso de 200 mil euros con hipoteca del 80 por ciento y cuota mensual",
+        "ancho": 800,
+        "alto": 859,
+        "titulo": "¿Cuánto dinero necesito ahorrado para comprar un piso?"
       },
       {
-        "title": "¿Cuánto dinero necesitas ahorrado para comprar una vivienda?",
-        "body": "No basta con la entrada: los bancos españoles financian generalmente hasta el 80% del valor de tasación o compraventa (el menor de los dos), por lo que necesitas al menos un 20% ahorrado como entrada. A eso hay que sumar los gastos e impuestos de comprar una vivienda, que suelen rondar entre el 10% y el 12% adicional del precio: en vivienda nueva, el IVA (10%) más el Impuesto de Actos Jurídicos Documentados (AJD, que varía por Comunidad Autónoma); en vivienda de segunda mano, el Impuesto de Transmisiones Patrimoniales (ITP, también variable por región), además de notaría, registro y gestoría de la compraventa (no de la hipoteca). En total, comprar una vivienda de 200.000 € suele requerir entre 60.000 € y 65.000 € ahorrados (entrada más gastos), no solo los 40.000 € de la entrada mínima."
+        "tipo": "glosario",
+        "titulo": "¿Qué significan TIN, TAE, euríbor y diferencial?",
+        "items": [
+          [
+            "TIN",
+            "El tipo de interés nominal: el porcentaje que el banco aplica a lo que debes. Es el que se usa para calcular la cuota."
+          ],
+          [
+            "TAE",
+            "Incluye el TIN más comisiones y productos vinculados. Sirve para comparar ofertas de distintos bancos."
+          ],
+          [
+            "Euríbor",
+            "El índice de referencia de las hipotecas variables en España. Se revisa normalmente cada 6 o 12 meses."
+          ],
+          [
+            "Diferencial",
+            "Lo que el banco suma al euríbor en una hipoteca variable: euríbor + 0,8 %, por ejemplo."
+          ],
+          [
+            "Esfuerzo",
+            "El porcentaje de tus ingresos netos que se va en la cuota. Lo recomendable es no pasar del 30 al 35 %."
+          ]
+        ]
       },
       {
-        "title": "¿Quién paga los gastos de la hipoteca desde 2019?",
-        "body": "Desde la entrada en vigor de la Ley 5/2019 de contratos de crédito inmobiliario, para las hipotecas firmadas a partir del 16 de junio de 2019, el banco asume por ley los gastos de notaría, gestoría, registro de la propiedad (de la escritura de préstamo) y el Impuesto de Actos Jurídicos Documentados sobre la hipoteca. El único gasto que sigue corriendo a cargo del cliente es la tasación de la vivienda, que suele costar entre 250 € y 400 €. Esto no incluye los gastos de la compraventa de la vivienda en sí (notaría, registro e impuestos de la escritura de compraventa), que siguen corriendo a cargo del comprador."
+        "tipo": "comparacion",
+        "titulo": "¿Me conviene una hipoteca fija, variable o mixta?",
+        "columnas": [
+          {
+            "titulo": "Fija",
+            "tono": "azul",
+            "items": [
+              "La cuota no cambia en toda la vida del préstamo.",
+              "Tipo de partida algo más alto.",
+              "Para quien quiere certeza y no asumir riesgos."
+            ]
+          },
+          {
+            "titulo": "Variable",
+            "tono": "ambar",
+            "items": [
+              "La cuota sube o baja con el euríbor.",
+              "Más barata cuando los tipos bajan.",
+              "Para quien tiene margen si la cuota sube."
+            ]
+          },
+          {
+            "titulo": "Mixta",
+            "tono": "verde",
+            "items": [
+              "Fija los primeros años y luego variable.",
+              "Estabilidad al principio, cuando más se debe.",
+              "Un término medio entre las dos."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Quién paga los gastos de la hipoteca desde 2019?",
+        "parrafos": [
+          "Con la Ley 5/2019 de crédito inmobiliario, el banco paga la notaría de la escritura de préstamo, el registro, la gestoría y el impuesto de actos jurídicos documentados de la hipoteca. Al comprador le queda la tasación y los gastos de la propia compraventa: el impuesto de transmisiones o el IVA, la notaría y el registro de la compra.",
+          "Si después vendes, revisa la [plusvalía municipal](/calcular-plusvalia); y para préstamos personales o de coche usa la [calculadora de préstamos](/calculadora-prestamo)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Ley 5/2019 reguladora de los contratos de crédito inmobiliario (BOE)",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-3814"
+          },
+          {
+            "texto": "Banco de España: Portal del Cliente Bancario",
+            "url": "https://clientebancario.bde.es/pcb/es/"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -4318,35 +4401,138 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "La letra del DNI (y del NIE) es un dígito de control que se calcula matemáticamente a partir del número del documento, mediante el algoritmo oficial del módulo 23. Esta herramienta hace dos cosas: calcula la letra correcta a partir de tu número de DNI o NIE, y valida si un DNI o NIE completo (con su letra) es correcto, avisándote si hay un error de transcripción. Todo el cálculo ocurre en tu navegador, siguiendo el mismo algoritmo que usan las administraciones públicas españolas.",
-    "howToUse": [
-      "Elige \"Calcular letra\" si tienes el número pero no sabes qué letra le corresponde, o \"Validar DNI/NIE\" si quieres comprobar si un documento completo es correcto",
-      "Para calcular: selecciona DNI o NIE, introduce el número (o la letra inicial X/Y/Z y los dígitos, en el caso del NIE)",
-      "Para validar: introduce el DNI o NIE completo, incluida la letra",
-      "Pulsa el botón correspondiente para ver el resultado al instante"
-    ],
-    "benefits": [
-      "Calcula la letra tanto para DNI (8 dígitos) como para NIE (X/Y/Z + 7 dígitos)",
-      "Incluye un modo de validación que detecta si la letra de un DNI o NIE ya existente es correcta",
-      "Aplica el algoritmo oficial del módulo 23 con la tabla de 23 letras válidas",
-      "Útil para detectar errores de transcripción antes de rellenar un formulario oficial",
-      "Gratis, sin registro y calculado directamente en tu navegador, sin enviar tu número de documento a ningún servidor"
-    ],
-    "contentSections": [
+    "resumen": "Escribe los 8 números de tu DNI o tu NIE y obtén la letra correcta, o comprueba si un DNI completo es válido. La letra es un dígito de control: sale del resto de dividir el número entre 23.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula la letra del DNI? El algoritmo del módulo 23",
-        "body": "La letra del DNI se obtiene dividiendo el número de 8 dígitos entre 23 y usando el resto de esa división para buscar la letra correspondiente en una tabla fija de 23 letras: TRWAGMYFPDXBNJZSQVHLCKE (la primera letra, T, corresponde al resto 0; la última, E, al resto 22). Por ejemplo, para el número 12345678, el resto de dividir entre 23 es 14, y la letra en la posición 14 de la tabla es la Z, por lo que el DNI completo sería 12345678Z. Este mismo algoritmo es el que usan la Policía Nacional, la Agencia Tributaria y el resto de administraciones para verificar que un DNI está bien escrito."
+        "tipo": "infografia",
+        "archivo": "calculo-letra-dni-modulo-23.webp",
+        "alt": "Cálculo de la letra del DNI con el resto de dividir entre 23 y la tabla de letras",
+        "ancho": 800,
+        "alto": 785,
+        "titulo": "¿Cómo se calcula la letra del DNI paso a paso?"
       },
       {
-        "title": "¿Por qué la tabla de letras no incluye la I, la Ñ, la O ni la U?",
-        "body": "La tabla de 23 letras excluye deliberadamente la I (fácil de confundir con el número 1), la O (fácil de confundir con el número 0), la Ñ (por no existir en otros alfabetos y complicar sistemas internacionales) y la U (fácil de confundir con la V). Esta exclusión reduce los errores de lectura y transcripción manual del documento, especialmente importante en formularios, escáneres de documentos y sistemas automatizados."
+        "tipo": "tabla",
+        "titulo": "¿Qué letra corresponde a cada resto?",
+        "cabeceras": [
+          "Resto",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "filas": [
+          [
+            "Letra",
+            "T",
+            "R",
+            "W",
+            "A",
+            "G",
+            "M",
+            "Y",
+            "F",
+            "P",
+            "D",
+            "X",
+            "B"
+          ],
+          [
+            "Resto",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            ""
+          ],
+          [
+            "Letra",
+            "N",
+            "J",
+            "Z",
+            "S",
+            "Q",
+            "V",
+            "H",
+            "L",
+            "C",
+            "K",
+            "E",
+            ""
+          ]
+        ]
       },
       {
-        "title": "¿Cómo se calcula la letra del NIE?",
-        "body": "El NIE (Número de Identidad de Extranjero) sigue el mismo algoritmo que el DNI, con un paso previo: la primera letra del NIE (X, Y o Z) se sustituye por un dígito antes de aplicar el módulo 23: la X se convierte en 0, la Y en 1, y la Z en 2. Por ejemplo, un NIE que empieza por X se trata exactamente igual que un DNI que empezara por 0. El resto del cálculo (dividir entre 23 y buscar la letra en la tabla) es idéntico al del DNI."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se calcula la letra de un NIE?",
+        "datos": [
+          [
+            "NIE",
+            "X1234567"
+          ],
+          [
+            "Sustitución",
+            "X → 0"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Cambia la letra inicial por su número: X por 0, Y por 1, Z por 2.",
+            "operacion": "X1234567 → 01234567"
+          },
+          {
+            "texto": "Divide entre 23 y quédate con el resto.",
+            "operacion": "1234567 ÷ 23 → resto 19"
+          },
+          {
+            "texto": "Busca el resto en la tabla.",
+            "operacion": "19 → L"
+          }
+        ],
+        "resultado": [
+          "NIE completo",
+          "X1234567L"
+        ]
       },
       {
-        "title": "¿Es lo mismo el NIF que el DNI o el CIF?",
-        "body": "El NIF (Número de Identificación Fiscal) de una persona física es, en la práctica, el mismo número que su DNI o NIE seguido de su letra: no es un número distinto, sino el mismo documento usado a efectos fiscales. Las empresas, en cambio, tienen CIF (Código de Identificación Fiscal), que sigue un formato y un algoritmo distintos (una letra inicial según el tipo de entidad, seguida de dígitos y un carácter de control calculado con una fórmula diferente al módulo 23), por lo que esta calculadora no es aplicable a los CIF de empresas."
+        "tipo": "mitos",
+        "titulo": "¿Qué es verdad y qué no sobre la letra del DNI?",
+        "items": [
+          {
+            "mito": "La letra se elige al azar o según la provincia.",
+            "realidad": "Se calcula siempre a partir del número con el módulo 23: dos DNI con el mismo número tendrían la misma letra."
+          },
+          {
+            "mito": "Al renovar el DNI te pueden cambiar la letra.",
+            "realidad": "No. El número es el mismo toda la vida, así que la letra tampoco cambia."
+          },
+          {
+            "mito": "Un DNI con la letra correcta es un DNI real.",
+            "realidad": "La letra solo comprueba que no hay errores al escribirlo. Cualquier número tiene su letra válida, exista o no esa persona."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué diferencia hay entre el DNI, el NIE y el NIF de una empresa?",
+        "parrafos": [
+          "Para las personas con nacionalidad española, el NIF es el número del DNI con su letra. Los extranjeros usan el NIE como NIF. Las empresas tienen un NIF que empieza por una letra según el tipo de sociedad (antes llamado CIF) y su control se calcula con otro algoritmo, no con esta tabla. Para cuentas bancarias, comprueba el código con el [validador de IBAN](/validador-iban)."
+        ]
       }
     ],
     "faqs": [
@@ -4399,32 +4585,97 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcular con exactitud tu pensión de jubilación requiere tus bases de cotización reales de los últimos 25 a 27 años, información que solo tiene la Seguridad Social (accesible con Cl@ve PIN en tu vida laboral). Esta calculadora ofrece una estimación simplificada y transparente: a partir de tu salario actual (como aproximación de tu base reguladora) y tus años cotizados, aplica la escala oficial de porcentajes y los límites mínimos y máximos de pensión vigentes en 2026, mostrando claramente qué es un cálculo real y qué es una aproximación.",
-    "howToUse": [
-      "Introduce tu salario bruto mensual actual, o el promedio que estimes de toda tu carrera laboral",
-      "Indica tus años (y meses) cotizados a la Seguridad Social",
-      "Selecciona tu situación familiar (con o sin cónyuge a cargo, o unidad económica unipersonal), que determina la pensión mínima aplicable",
-      "Pulsa \"Estimar pensión\" para ver el porcentaje de la base reguladora que te corresponde y tu pensión mensual y anual estimada"
-    ],
-    "benefits": [
-      "Aplica la escala oficial de porcentajes por años cotizados (50% a los 15 años, 100% a los 36 años y 6 meses)",
-      "Aplica automáticamente la pensión mínima o máxima 2026 si tu resultado calculado queda fuera de esos límites",
-      "Diferencia la pensión mínima según tu situación familiar (sin cónyuge, con cónyuge a cargo, o unidad unipersonal)",
-      "Indica tu edad ordinaria de jubilación estimada para 2026 según tus años cotizados",
-      "Explica con total transparencia qué partes del cálculo son exactas y cuáles son una simplificación",
-      "Gratis, sin registro y sin necesidad de identificarte ni dar tus datos personales"
-    ],
-    "contentSections": [
+    "resumen": "Estima tu pensión de jubilación en España con tu base reguladora y tus años cotizados: con 15 años cobras el 50 % de la base y con 36 años y 6 meses, el 100 %. El cálculo oficial y exacto solo lo puede hacer la Seguridad Social.",
+    "bloques": [
       {
-        "title": "¿Por qué esta calculadora no puede ser 100% exacta?",
-        "body": "La pensión de jubilación real se calcula a partir de la \"base reguladora\", que resulta de sumar tus bases de cotización mensuales reales de los últimos 25 años (300 meses) y dividirlas entre 350. Desde 2026, la Seguridad Social calcula además un segundo método alternativo (las 302 mejores bases de los últimos 304 meses) y aplica de oficio el que te resulte más favorable. Ese cálculo requiere tu historial de cotización mes a mes, información que solo posee la Seguridad Social. Esta calculadora usa tu salario actual (o el promedio que tú estimes) como una aproximación razonable, el mismo enfoque que usan la mayoría de simuladores públicos que no requieren identificación oficial."
+        "tipo": "infografia",
+        "archivo": "porcentaje-pension-anos-cotizados.webp",
+        "alt": "Porcentaje de la pensión de jubilación según los años cotizados: 50 por ciento con 15 años y 100 con 36 y medio",
+        "ancho": 800,
+        "alto": 836,
+        "titulo": "¿Qué porcentaje de pensión me queda según los años cotizados?"
       },
       {
-        "title": "¿Cómo funciona la escala de porcentajes por años cotizados?",
-        "body": "Con 15 años cotizados, el mínimo legal para tener derecho a pensión, corresponde el 50% de la base reguladora. A partir de ahí, cada mes cotizado adicional suma porcentaje: un 0,19% por cada mes entre los 15 y los 25 años, y un porcentaje algo menor por cada mes entre los 25 años y los 36 años y 6 meses, momento en el que se alcanza el 100% de la base reguladora, el máximo posible por esta vía. Esta calculadora aplica esta escala oficial de forma progresiva, sin necesidad de que consultes tablas manualmente."
+        "tipo": "escenarios",
+        "titulo": "¿Cuánto cobraría con una base reguladora de 1.800 €?",
+        "items": [
+          {
+            "titulo": "15 años cotizados",
+            "situacion": "El mínimo para tener derecho a pensión contributiva.",
+            "resultado": "900 €/mes",
+            "detalle": "50 % de la base"
+          },
+          {
+            "titulo": "25 años cotizados",
+            "situacion": "Una carrera con interrupciones o empezada tarde.",
+            "resultado": "1.310 €/mes",
+            "detalle": "72,8 % de la base"
+          },
+          {
+            "titulo": "37 años cotizados",
+            "situacion": "Carrera completa: se alcanza el máximo de la escala.",
+            "resultado": "1.800 €/mes",
+            "detalle": "100 % de la base"
+          }
+        ]
       },
       {
-        "title": "Lo que esta calculadora NO incluye (y por qué)",
-        "body": "Para mantener la fiabilidad de lo que sí calcula, esta herramienta deja fuera deliberadamente los coeficientes reductores por jubilación anticipada (una reducción de entre el 2,81% y el 21% según cuántos meses te jubiles antes de la edad ordinaria y tus años cotizados) y los incrementos por jubilación demorada, ya que ambos dependen de tablas específicas que cambian con frecuencia dentro de la reforma de pensiones en vigor hasta 2027. Tampoco incluye complementos específicos (por brecha de género, por maternidad, etc.). Si tu caso incluye jubilación anticipada, demorada, o algún complemento, el resultado de esta calculadora será orientativo únicamente para la jubilación ordinaria a tu edad legal."
+        "tipo": "glosario",
+        "titulo": "¿Qué es la base reguladora y otros términos de la pensión?",
+        "items": [
+          [
+            "Base reguladora",
+            "La media de tus bases de cotización de los últimos años. Sobre ella se aplica el porcentaje según los años cotizados."
+          ],
+          [
+            "Edad ordinaria",
+            "En 2026, 66 años y 10 meses, o 65 años si has cotizado al menos 38 años y 3 meses."
+          ],
+          [
+            "Complemento a mínimos",
+            "Lo que añade la Seguridad Social si tu pensión queda por debajo de la mínima y cumples los requisitos de ingresos."
+          ],
+          [
+            "Pensión máxima",
+            "El tope que no se puede superar aunque hayas cotizado mucho: 3.359,60 € al mes en 14 pagas en 2026."
+          ],
+          [
+            "Vida laboral",
+            "El informe con todos tus periodos cotizados. Se descarga gratis en la sede de la Seguridad Social."
+          ]
+        ]
+      },
+      {
+        "tipo": "checklist",
+        "titulo": "¿Qué preparar para calcular tu pensión con precisión?",
+        "items": [
+          "Tu informe de vida laboral, para saber los años y meses exactos cotizados.",
+          "Tus bases de cotización de los últimos años, que aparecen en tus nóminas o en la sede electrónica.",
+          "La fecha a la que quieres jubilarte, para comprobar si llegas a la edad ordinaria.",
+          "Si tienes hijos, consulta el complemento para la reducción de la brecha de género, que se suma a la pensión.",
+          "El simulador oficial de Tu Seguridad Social para contrastar el resultado."
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué no tiene en cuenta esta estimación?",
+        "parrafos": [
+          "La jubilación anticipada, voluntaria o involuntaria, que aplica coeficientes reductores por cada trimestre que adelantes; la jubilación demorada, que suma un porcentaje por cada año que retrases; y los periodos sin cotizar dentro del cálculo de la base, que se rellenan con reglas especiales. Si estás cerca de jubilarte, pide una simulación oficial.",
+          "Para la jubilación en general tienes también la [calculadora de jubilación en España](/jubilacion-espana), y para tu sueldo actual, la [calculadora de IRPF](/calculadora-irpf)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Seguridad Social: Jubilación ordinaria",
+            "url": "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/10963/28393"
+          },
+          {
+            "texto": "Tu Seguridad Social: simulador de pensión",
+            "url": "https://portal.seg-social.gob.es"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -4471,32 +4722,66 @@
     "webApp": true,
     "appCategory": "MedicalApplication",
     "intro": "Apiretal 100 mg/ml solución oral es un medicamento de paracetamol pediátrico muy usado en España para bajar la fiebre y aliviar el dolor en niños. Esta calculadora reproduce fielmente la pauta de dosificación del prospecto oficial registrado en la AEMPS (Agencia Española de Medicamentos y Productos Sanitarios): 15 mg/kg por toma, cada 6-8 horas, sin superar 4 tomas ni 60 mg/kg al día. Es una herramienta de referencia rápida, no un sustituto de la indicación de tu pediatra o farmacéutico.",
-    "howToUse": [
-      "Introduce el peso actual del niño o niña en kilogramos (dato más preciso que la edad para calcular la dosis)",
-      "Pulsa \"Calcular dosis\" para ver los mililitros exactos a administrar con la jeringa dosificadora",
-      "Consulta también la cantidad máxima diaria y el número máximo de tomas",
-      "Lee siempre los avisos de seguridad antes de administrar cualquier dosis"
-    ],
-    "benefits": [
-      "Basada en el prospecto oficial de Apiretal 100 mg/ml registrado en la AEMPS/CIMA, no en una estimación genérica",
-      "Verificada frente a la tabla de dosificación por peso publicada en el propio prospecto",
-      "Avisa específicamente cuando el peso introducido requiere consulta médica antes de administrar (menores de 4 kg)",
-      "Muestra la dosis máxima diaria de forma coherente con la dosis por toma, sin cifras contradictorias",
-      "Incluye el teléfono del Servicio de Información Toxicológica para casos de sobredosis",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Introduce el peso de tu hijo y obtén la dosis de Apiretal 100 mg/ml en mililitros, según el prospecto: 0,15 ml por kilo y toma, cada 6 a 8 horas, con un máximo de 4 tomas al día. Ante cualquier duda, consulta al pediatra.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula la dosis de Apiretal?",
-        "body": "Apiretal 100 mg/ml contiene 100 miligramos de paracetamol por cada mililitro de solución. La dosis recomendada es de 15 mg por kilogramo de peso en cada toma, lo que equivale a multiplicar el peso del niño en kilos por 0,15 para obtener los mililitros de esa toma. Por ejemplo, un niño de 15 kg necesita 2,3 ml por toma. Esta pauta debe repetirse cada 6-8 horas, sin superar las 4 tomas al día ni los 60 mg de paracetamol por kilogramo de peso en 24 horas."
+        "tipo": "aviso",
+        "tono": "rojo",
+        "titulo": "Antes de dar cualquier dosis",
+        "texto": "Para bebés de menos de 4 kg, menores de 3 meses, niños con enfermedades del hígado o si la fiebre dura más de 3 días, consulta siempre al pediatra. Esta calculadora no sustituye su indicación."
       },
       {
-        "title": "Por qué el peso es más fiable que la edad para calcular la dosis",
-        "body": "El prospecto de Apiretal incluye una tabla orientativa que relaciona rangos de edad con rangos de peso, pero deja claro que el peso es el criterio determinante: dos niños de la misma edad pueden pesar de forma muy distinta, y la dosis de paracetamol se ajusta al peso corporal, no a la edad. Por eso, siempre que conozcas el peso actual del niño, es preferible usarlo directamente en lugar de guiarte solo por su edad."
+        "tipo": "infografia",
+        "archivo": "dosis-apiretal-por-peso.webp",
+        "alt": "Tabla de dosis de Apiretal 100 mg/ml en mililitros según el peso del niño",
+        "ancho": 800,
+        "alto": 862,
+        "titulo": "¿Cuántos ml de Apiretal le doy según su peso?"
       },
       {
-        "title": "¿Por qué existen distintas concentraciones de paracetamol pediátrico?",
-        "body": "Históricamente, en España han circulado presentaciones de paracetamol infantil con concentraciones distintas (por ejemplo, gotas más concentradas para bebés y jarabes menos concentrados para niños mayores), lo que en el pasado generó errores de dosificación cuando los cuidadores confundían un producto por otro. Por eso es fundamental confirmar que estás calculando la dosis para la concentración correcta: esta calculadora está diseñada específicamente para Apiretal 100 mg/ml solución oral. Si tu medicamento tiene una concentración distinta o es una marca diferente, la dosis en mililitros no será la misma, aunque el principio activo sea el mismo paracetamol."
+        "tipo": "checklist",
+        "titulo": "¿Cómo dar Apiretal de forma segura?",
+        "items": [
+          "Usa siempre la jeringa dosificadora que viene en el envase, no una cuchara de cocina.",
+          "Anota la hora de cada toma para no repetir antes de 6 horas.",
+          "Comprueba la concentración del frasco: Apiretal es de 100 mg/ml; otros jarabes de paracetamol tienen otra.",
+          "Calcula la dosis por el peso actual, no por la edad: dos niños de la misma edad pueden pesar muy distinto.",
+          "No combines con otros medicamentos que lleven paracetamol, como algunos antigripales."
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "¿Qué hay de cierto en lo que se dice sobre la fiebre?",
+        "items": [
+          {
+            "mito": "Hay que bajar la fiebre siempre, aunque el niño esté bien.",
+            "realidad": "La fiebre es una defensa del cuerpo. El objetivo del antitérmico es que el niño esté cómodo, no llegar a una cifra concreta."
+          },
+          {
+            "mito": "Si no baja con una dosis, se puede dar otra antes de tiempo.",
+            "realidad": "No. Hay que respetar al menos 6 horas entre tomas. Si la fiebre no cede, consulta con el pediatra."
+          },
+          {
+            "mito": "Alternar paracetamol e ibuprofeno es lo normal.",
+            "realidad": "Solo si lo indica el pediatra. Alternarlos por tu cuenta aumenta el riesgo de equivocarse de dosis."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Por qué es mejor calcular la dosis por peso que por edad?",
+        "parrafos": [
+          "El paracetamol se dosifica en miligramos por kilo: 15 mg/kg por toma. Las tablas por edad son una aproximación para un niño de peso medio, y a la misma edad el peso puede variar mucho. Con el peso real, la dosis es más precisa: ni se queda corta ni se pasa."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "CIMA (AEMPS): ficha y prospecto de Apiretal 100 mg/ml",
+            "url": "https://cima.aemps.es/cima/publico/lista.html"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -4546,27 +4831,50 @@
     "webApp": true,
     "appCategory": "LifestyleApplication",
     "intro": "La calculadora del amor combina dos nombres y calcula un porcentaje de compatibilidad del 0 al 100%, con un mensaje distinto según el resultado. Es un test 100% de entretenimiento, sin ninguna base científica: pruébalo con tu pareja, tu crush, un amigo o cualquier combinación de nombres que se te ocurra. El resultado es siempre el mismo para el mismo par de nombres, así que puedes compartirlo con confianza.",
-    "howToUse": [
-      "Escribe tu nombre en el primer campo",
-      "Escribe el nombre de la otra persona en el segundo campo",
-      "Pulsa \"Calcular compatibilidad\" para ver vuestro porcentaje de amor al instante",
-      "Copia el resultado para compartirlo con quien quieras"
-    ],
-    "benefits": [
-      "Resultado instantáneo con un mensaje distinto según el porcentaje obtenido",
-      "El mismo par de nombres siempre da el mismo resultado, no importa en qué orden los escribas",
-      "Botón para copiar y compartir tu resultado fácilmente",
-      "Pruébalo con cualquier combinación: pareja, crush, amigos, familia o personajes famosos",
-      "Gratis, sin registro y sin límite de usos"
-    ],
-    "contentSections": [
+    "resumen": "Escribe tu nombre y el de la otra persona y descubre vuestro «porcentaje de compatibilidad». Es un juego para reír un rato: el mismo par de nombres da siempre el mismo resultado, en el orden que los escribas.",
+    "bloques": [
       {
-        "title": "¿Cómo funciona la calculadora del amor?",
-        "body": "Esta calculadora combina las letras de ambos nombres (ignorando mayúsculas, tildes y espacios) y las convierte en un número mediante un algoritmo determinista. Por eso, el resultado no es aleatorio en cada intento: el mismo par de nombres, escrito de cualquier forma (mayúsculas, minúsculas o en el orden que sea), siempre dará el mismo porcentaje de compatibilidad, lo que la hace perfecta para comprobar resultados o compartirlos con otras personas."
+        "tipo": "infografia",
+        "archivo": "como-funciona-calculadora-amor.webp",
+        "alt": "Cómo funciona la calculadora del amor: nombres normalizados, ordenados y convertidos en un porcentaje",
+        "ancho": 800,
+        "alto": 909,
+        "titulo": "¿Cómo calcula la calculadora del amor el porcentaje?"
       },
       {
-        "title": "¿Es un resultado real o solo por diversión?",
-        "body": "Es únicamente un juego de entretenimiento. No existe ningún estudio científico que relacione las letras de dos nombres con la compatibilidad real entre dos personas; el atractivo de este tipo de calculadoras viene de la curiosidad y la diversión de probar distintas combinaciones, no de una predicción seria sobre una relación."
+        "tipo": "consejos",
+        "titulo": "¿Con quién probar la calculadora del amor?",
+        "items": [
+          {
+            "titulo": "Tu pareja",
+            "texto": "El clásico. Si sale bajo, siempre podéis probar con los apellidos."
+          },
+          {
+            "titulo": "Tu mejor amigo o amiga",
+            "texto": "Funciona igual con cualquier par de nombres: compatibilidad de amistad."
+          },
+          {
+            "titulo": "Tu crush famoso",
+            "texto": "Escribe su nombre artístico y comprueba si tenéis futuro."
+          },
+          {
+            "titulo": "En una fiesta",
+            "texto": "Probad todas las parejas del grupo y comparad. Para más juegos, prueba [verdad o reto](/verdad-o-reto)."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Es fiable el porcentaje de la calculadora del amor?",
+        "parrafos": [
+          "Cada web usa su propia fórmula para convertir las letras en un número, así que el mismo par de nombres puede dar 85 % en una y 40 % en otra. Ninguna es más «acertada»: todas son juegos. La nuestra es estable, así que el resultado no cambia por volver a calcularlo.",
+          "Si os gustan este tipo de juegos, el [generador de equipos](/generador-equipos) y el [sorteo online](/sorteo-online) también sirven para animar una reunión."
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "Los nombres que escribes no se guardan ni se envían a ningún sitio: el cálculo se hace en tu navegador."
       }
     ],
     "faqs": [
@@ -4608,27 +4916,75 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "El NIT (Número de Identificación Tributaria) en Colombia incluye un dígito de verificación (DV) calculado matemáticamente a partir del número base, siguiendo el algoritmo oficial de la DIAN definido en la Orden Administrativa 4 de 1989. Esta calculadora obtiene el dígito de verificación correcto para tu NIT, o valida si un NIT completo (número más DV) ya es correcto, todo con el mismo algoritmo del módulo 11 que usa la DIAN.",
-    "howToUse": [
-      "Elige \"Calcular DV\" si tienes el número de NIT pero no sabes su dígito de verificación",
-      "Introduce el NIT sin el dígito de verificación (solo números)",
-      "Pulsa \"Calcular dígito de verificación\" para obtener el NIT completo",
-      "Usa la pestaña \"Validar NIT\" si quieres comprobar si un NIT completo que ya tienes es correcto"
-    ],
-    "benefits": [
-      "Aplica el algoritmo oficial del módulo 11 de la DIAN, con la serie de pesos primos exacta",
-      "Verificada frente a un ejemplo de cálculo publicado y contrastado",
-      "Incluye un modo de validación para comprobar NIT ya existentes",
-      "Funciona con NIT de personas naturales y jurídicas, de 5 a 15 dígitos",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el dígito de verificación (DV) de un NIT colombiano o comprueba si un NIT completo es correcto, con el algoritmo de la DIAN. Funciona con NIT de empresas y con números de cédula usados como NIT.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula el dígito de verificación del NIT?",
-        "body": "El algoritmo, definido por la DIAN, multiplica cada dígito del NIT (de derecha a izquierda) por una serie fija de números primos: 3, 7, 13, 17, 19, 23, 29, 37, 41, 43, 47, 53, 59, 67 y 71. Se suman todos los productos, se calcula el resto de dividir esa suma entre 11, y ese resto determina el dígito de verificación: si el resto es 0 o 1, ese mismo valor es el DV; si es mayor que 1, el DV es el resultado de restar el resto a 11."
+        "tipo": "infografia",
+        "archivo": "digito-verificacion-nit-colombia.webp",
+        "alt": "Cálculo del dígito de verificación del NIT de Colombia con los pesos de la DIAN",
+        "ancho": 800,
+        "alto": 921,
+        "titulo": "¿Cómo se calcula el dígito de verificación del NIT?"
       },
       {
-        "title": "¿Para qué sirve el dígito de verificación?",
-        "body": "El dígito de verificación permite detectar errores de transcripción en el NIT: si alguien escribe mal un número, es muy probable que el DV calculado ya no coincida con el DV declarado, lo que ayuda a los sistemas de facturación electrónica, la DIAN y otras entidades a identificar el error automáticamente antes de procesar un documento o una transacción."
+        "tipo": "glosario",
+        "titulo": "¿Qué diferencia hay entre NIT, RUT y cédula?",
+        "items": [
+          [
+            "NIT",
+            "Número de Identificación Tributaria. Identifica a personas y empresas ante la DIAN. Se escribe con un guion y el DV al final."
+          ],
+          [
+            "DV",
+            "Dígito de verificación: una cifra calculada a partir del NIT que permite detectar errores al escribirlo."
+          ],
+          [
+            "RUT",
+            "Registro Único Tributario: el documento de la DIAN donde figura tu NIT y tus responsabilidades fiscales."
+          ],
+          [
+            "Cédula",
+            "En las personas naturales, el NIT suele ser el número de cédula más su DV."
+          ]
+        ]
+      },
+      {
+        "tipo": "escenarios",
+        "titulo": "¿Cuándo te pedirán el NIT con el dígito de verificación?",
+        "items": [
+          {
+            "titulo": "Facturación electrónica",
+            "situacion": "Para emitir o recibir una factura electrónica a nombre de una empresa o de un profesional.",
+            "resultado": "NIT-DV"
+          },
+          {
+            "titulo": "Pagos a proveedores",
+            "situacion": "Los bancos validan el DV antes de registrar un nuevo beneficiario.",
+            "resultado": "NIT-DV"
+          },
+          {
+            "titulo": "Declaraciones",
+            "situacion": "En los formularios de la DIAN, el DV va en una casilla aparte.",
+            "resultado": "DV aparte"
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué hacer si el NIT da error al facturar?",
+        "parrafos": [
+          "Lo más común es un error al copiar el número: un dígito cambiado o de más. Escribe solo los números del NIT, sin puntos ni el DV, y compáralo con el que aparece en tu RUT. Si siguen sin coincidir, el dato válido es siempre el del RUT expedido por la DIAN.",
+          "Para otras cuentas y documentos de Colombia tienes la [liquidación laboral](/calculadora-liquidacion-laboral-colombia) y la [retención en la fuente](/retencion-en-la-fuente)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "DIAN: Registro Único Tributario",
+            "url": "https://www.dian.gov.co"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -4665,27 +5021,88 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "El CUIL (Código Único de Identificación Laboral) se obtiene a partir de tu número de DNI, un prefijo de dos dígitos (según sexo registrado) y un dígito verificador calculado matemáticamente. Esta calculadora reproduce el algoritmo oficial de AFIP para obtener tu CUIL completo a partir de tu DNI, y también permite validar si un CUIL o CUIT completo ya existente es correcto.",
-    "howToUse": [
-      "Introduce tu número de DNI, sin puntos",
-      "Selecciona el sexo registrado o \"persona jurídica\" si corresponde",
-      "Pulsa \"Calcular CUIL\" para obtener tu código completo con el formato XX-XXXXXXXX-X",
-      "Usa la pestaña \"Validar CUIL/CUIT\" para comprobar si un código que ya tienes es correcto"
-    ],
-    "benefits": [
-      "Aplica el algoritmo oficial del módulo 11 de AFIP con los pesos exactos [5,4,3,2,7,6,5,4,3,2]",
-      "Maneja automáticamente el caso especial en que el dígito verificador da 10, reintentando con el prefijo 23",
-      "Incluye un modo de validación para CUIL y CUIT completos",
-      "Rellena automáticamente con ceros los DNI de 7 dígitos",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calculá tu CUIL a partir de tu DNI y tu sexo registrado, con el mismo algoritmo que usa ANSES: prefijo, DNI de 8 cifras y dígito verificador. También sirve para validar un CUIL o CUIT que ya tenés.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula el CUIL a partir del DNI?",
-        "body": "Se antepone al DNI un prefijo de dos dígitos (20 para hombres, 27 para mujeres, o 30 para personas jurídicas), formando una secuencia de 10 dígitos. Cada uno de esos 10 dígitos se multiplica por su peso correspondiente en la serie [5,4,3,2,7,6,5,4,3,2], se suman los resultados, se calcula el resto de dividir esa suma entre 11, y el dígito verificador es 11 menos ese resto. Si el resultado es 11, el dígito verificador es 0; si es 10, no es válido con ese prefijo y se debe usar el prefijo 23 en su lugar."
+        "tipo": "infografia",
+        "archivo": "partes-del-cuil-argentina.webp",
+        "alt": "Partes del CUIL argentino: prefijo según sexo, DNI y dígito verificador",
+        "ancho": 800,
+        "alto": 821,
+        "titulo": "¿Qué significan los números del CUIL?"
       },
       {
-        "title": "¿Qué diferencia hay entre CUIL y CUIT?",
-        "body": "El CUIL identifica a una persona como trabajador en relación de dependencia, mientras que el CUIT (Código Único de Identificación Tributaria) identifica a una persona o empresa ante la AFIP a efectos impositivos, típicamente cuando se factura de forma independiente o se es titular de una empresa. Ambos comparten exactamente el mismo algoritmo de cálculo del dígito verificador y el mismo formato de 11 dígitos; la diferencia está en el prefijo utilizado y el contexto en el que se usa cada uno."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se calcula el dígito verificador del CUIL?",
+        "datos": [
+          [
+            "DNI",
+            "30.123.456"
+          ],
+          [
+            "Sexo",
+            "Masculino (prefijo 20)"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Uní prefijo y DNI en 10 cifras.",
+            "operacion": "2 0 3 0 1 2 3 4 5 6"
+          },
+          {
+            "texto": "Multiplicá cada cifra por 5, 4, 3, 2, 7, 6, 5, 4, 3, 2 y sumá.",
+            "operacion": "10 + 0 + 9 + 0 + 7 + 12 + 15 + 16 + 15 + 12 = 96"
+          },
+          {
+            "texto": "Dividí entre 11 y restá el resto a 11.",
+            "operacion": "96 ÷ 11 → resto 8 · 11 − 8 = 3"
+          }
+        ],
+        "resultado": [
+          "CUIL",
+          "20-30123456-3"
+        ]
+      },
+      {
+        "tipo": "comparacion",
+        "titulo": "¿Qué diferencia hay entre CUIL y CUIT?",
+        "columnas": [
+          {
+            "titulo": "CUIL",
+            "tono": "azul",
+            "items": [
+              "Lo otorga ANSES a todas las personas.",
+              "Sirve para trabajar en relación de dependencia, cobrar jubilaciones o asignaciones.",
+              "Se consulta gratis en la web de ANSES."
+            ]
+          },
+          {
+            "titulo": "CUIT",
+            "tono": "verde",
+            "items": [
+              "Lo otorga ARCA (ex AFIP) a quien factura o paga impuestos.",
+              "Lo necesitan monotributistas, autónomos y empresas.",
+              "En personas suele ser el mismo número que el CUIL."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Por qué hay personas con prefijo 23?",
+        "parrafos": [
+          "Si con el prefijo 20 o 27 el dígito verificador da 10, que no entra en una sola cifra, el sistema cambia el prefijo a 23 y vuelve a calcular. Por eso hay hombres y mujeres con CUIL 23: es un ajuste matemático, no otra categoría.",
+          "Si estás empezando a facturar, mirá cuánto pagarías en el [monotributo](/monotributo); y para tu sueldo, la [calculadora de sueldo neto](/calculadora-sueldo-neto-argentina)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "ANSES: constancia de CUIL",
+            "url": "https://www.anses.gob.ar/consulta/constancia-de-cuil"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -4726,26 +5143,60 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "El RUT (Rol Único Tributario) chileno incluye un dígito verificador (DV) calculado matemáticamente mediante el algoritmo del módulo 11, el mismo que también se usa para el RUN de personas naturales. Esta calculadora obtiene el dígito verificador correcto (que puede ser un número del 0 al 9, o la letra K) a partir del número base de tu RUT, y también permite validar si un RUT completo ya existente es correcto.",
-    "howToUse": [
-      "Introduce el número de tu RUT sin puntos ni el dígito verificador",
-      "Pulsa \"Calcular dígito verificador\" para obtener tu RUT completo, con puntos y guion",
-      "Usa la pestaña \"Validar RUT\" para comprobar si un RUT que ya tienes escrito es correcto"
-    ],
-    "benefits": [
-      "Aplica el algoritmo oficial del módulo 11 con la serie cíclica de pesos [2,3,4,5,6,7]",
-      "Verificada frente al ejemplo de RUT más citado y contrastado (12.345.678-5)",
-      "Maneja correctamente los dos casos especiales: dígito verificador K y dígito verificador 0",
-      "Formatea automáticamente el número con los puntos de miles",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el dígito verificador de un RUT o RUN chileno o comprueba si un RUT completo es válido, con el algoritmo del módulo 11 que usan el SII y el Registro Civil. Si te sale K, es correcto: es el dígito 10.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula el dígito verificador del RUT?",
-        "body": "Se toma el número del RUT (sin el dígito verificador) de derecha a izquierda, y se multiplica cada cifra por una serie cíclica de pesos: 2, 3, 4, 5, 6, 7, y si el número tiene más de seis cifras, la serie vuelve a empezar en 2. Se suman todos los productos, se calcula el resto de dividir esa suma entre 11, y al número 11 se le resta ese resto para obtener el dígito verificador."
+        "tipo": "infografia",
+        "archivo": "digito-verificador-rut-chile.webp",
+        "alt": "Cálculo del dígito verificador del RUT chileno con el módulo 11",
+        "ancho": 800,
+        "alto": 913,
+        "titulo": "¿Cómo se calcula el dígito verificador del RUT?"
       },
       {
-        "title": "¿Por qué algunos RUT terminan en la letra K?",
-        "body": "Cuando el cálculo del algoritmo del módulo 11 da como resultado 10, el dígito verificador se representa con la letra K en lugar de con un número, ya que el sistema solo usa dígitos del 0 al 9 más este símbolo especial para ese caso concreto. Del mismo modo, si el resultado del cálculo es 11, el dígito verificador es 0. Ambos son resultados perfectamente válidos y habituales, no errores."
+        "tipo": "mitos",
+        "titulo": "¿Qué hay de cierto sobre el RUT y su dígito verificador?",
+        "items": [
+          {
+            "mito": "Un RUT terminado en K es extranjero o especial.",
+            "realidad": "La K solo aparece cuando el cálculo da 10. Cualquier persona o empresa puede tenerla."
+          },
+          {
+            "mito": "El RUT y el RUN son documentos distintos.",
+            "realidad": "Para las personas naturales es el mismo número: RUN en el Registro Civil y RUT en el SII."
+          },
+          {
+            "mito": "Si el dígito verificador cuadra, el RUT existe.",
+            "realidad": "Solo confirma que el número está bien escrito. Para saber a quién pertenece hay que consultar al SII."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo se escribe correctamente un RUT?",
+        "parrafos": [
+          "Con puntos de miles y un guion antes del dígito verificador: 12.345.678-5. Muchos formularios en línea piden el RUT sin puntos (12345678-5) o con el dígito en una casilla aparte. La K puede ir en mayúscula o minúscula; es la misma.",
+          "Si trabajas en Chile, te pueden servir el [sueldo líquido](/sueldo-liquido-chile), el [finiquito](/finiquito-chile) y los valores de la [UF](/uf-a-pesos) y la [UTM](/utm-a-pesos)."
+        ]
+      },
+      {
+        "tipo": "checklist",
+        "titulo": "¿Qué revisar si un RUT aparece como no válido?",
+        "items": [
+          "Que no hayas confundido un 1 con una l o un 0 con una O.",
+          "Que el número tenga todas sus cifras: los RUT de personas jóvenes suelen tener 8.",
+          "Que el dígito verificador sea el del final y no lo hayas incluido en el número.",
+          "Que no sea un RUT de empresa mal copiado: suelen empezar por 76 o 77 millones."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Servicio de Impuestos Internos (SII)",
+            "url": "https://www.sii.cl"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -4782,31 +5233,81 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Esta calculadora obtiene el área de un círculo a partir de cualquiera de sus tres medidas más comunes: el radio, el diámetro o la circunferencia (perímetro). Introduce el dato que tengas disponible y la calculadora aplica automáticamente la fórmula correcta, mostrando además el radio, el diámetro y la circunferencia completos para referencia.",
-    "howToUse": [
-      "Elige qué dato tienes disponible: Radio, Diámetro o Circunferencia",
-      "Introduce el valor correspondiente",
-      "El área se calcula al instante con la fórmula A = π × r²",
-      "Consulta también el radio, el diámetro y la circunferencia completos, calculados a partir de tu dato"
-    ],
-    "benefits": [
-      "Acepta tres formas de entrada distintas: radio, diámetro o circunferencia, no solo el radio como la mayoría de calculadoras",
-      "Aplica la fórmula exacta A = π × r², usando el valor completo de π, no una aproximación como 3.14",
-      "Muestra el radio, el diámetro y la circunferencia completos junto al área, útil para verificar tus datos",
-      "Resultado instantáneo mientras escribes, sin necesidad de pulsar ningún botón",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el área de un círculo con el radio, el diámetro o la circunferencia, el dato que tengas. El resultado sale en la unidad al cuadrado que uses, con el procedimiento a la vista.",
+    "bloques": [
       {
-        "title": "Fórmula del área de un círculo",
-        "body": "El área de un círculo se calcula con la fórmula A = π × r², donde r es el radio (la distancia desde el centro hasta cualquier punto del borde) y π (pi) es una constante matemática aproximadamente igual a 3.14159265. Por ejemplo, un círculo con radio 5 tiene un área de π × 5² = π × 25 ≈ 78.54 unidades cuadradas."
+        "tipo": "infografia",
+        "archivo": "formulas-area-del-circulo.webp",
+        "alt": "Fórmulas del área del círculo con el radio, el diámetro o la circunferencia",
+        "ancho": 800,
+        "alto": 747,
+        "titulo": "¿Cómo se calcula el área de un círculo con radio, diámetro o perímetro?"
       },
       {
-        "title": "¿Cómo calcular el área si solo tengo el diámetro o la circunferencia?",
-        "body": "Si conoces el diámetro (la distancia de un extremo a otro pasando por el centro), primero divide entre 2 para obtener el radio (r = d ÷ 2) y luego aplica la fórmula del área. Si conoces la circunferencia o perímetro del círculo, despeja el radio con r = C ÷ (2 × π), y después calcula el área normalmente. Esta calculadora hace ambos pasos automáticamente según el dato que introduzcas."
+        "tipo": "tabla",
+        "titulo": "¿Cuál es el área de los círculos más comunes?",
+        "cabeceras": [
+          "Objeto",
+          "Diámetro",
+          "Área"
+        ],
+        "filas": [
+          [
+            "Moneda de 1 euro",
+            "23,25 mm",
+            "4,25 cm²"
+          ],
+          [
+            "CD o DVD",
+            "12 cm",
+            "113,10 cm²"
+          ],
+          [
+            "Pizza mediana",
+            "30 cm",
+            "706,86 cm²"
+          ],
+          [
+            "Pizza familiar",
+            "40 cm",
+            "1.256,64 cm²"
+          ],
+          [
+            "Piscina redonda",
+            "3,6 m",
+            "10,18 m²"
+          ]
+        ],
+        "nota": "Una pizza de 40 cm tiene casi el doble de superficie que una de 30 cm, aunque solo mida 10 cm más."
       },
       {
-        "title": "Diferencia entre área y perímetro (circunferencia) de un círculo",
-        "body": "El área mide la superficie total que ocupa el círculo, expresada en unidades cuadradas (cm², m², etc.), y se calcula con A = π × r². La circunferencia (o perímetro) mide la longitud del contorno del círculo, expresada en unidades simples (cm, m, etc.), y se calcula con C = 2 × π × r. Son dos magnitudes distintas: no se debe confundir \"área del círculo\" con \"circunferencia del círculo\", aunque ambas dependen del mismo radio."
+        "tipo": "escenarios",
+        "titulo": "¿Para qué sirve calcular el área de un círculo?",
+        "items": [
+          {
+            "titulo": "Comparar pizzas",
+            "situacion": "¿Dos medianas de 30 cm o una familiar de 40 cm? Dos medianas suman 1.413,72 cm².",
+            "resultado": "2 medianas"
+          },
+          {
+            "titulo": "Pintar o embaldosar",
+            "situacion": "Una mesa redonda de 1,2 m de diámetro necesita pintura para 1,13 m².",
+            "resultado": "1,13 m²"
+          },
+          {
+            "titulo": "Césped o lona",
+            "situacion": "Una zona de riego de 5 m de radio cubre casi 79 m² de jardín.",
+            "resultado": "78,54 m²"
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué diferencia hay entre área y circunferencia?",
+        "parrafos": [
+          "El área mide la superficie de dentro del círculo y se expresa en unidades al cuadrado; la circunferencia (o perímetro) mide la longitud del borde y se expresa en unidades lineales. Si duplicas el radio, la circunferencia se duplica pero el área se multiplica por cuatro.",
+          "Para otras figuras usa la [calculadora de áreas](/calculadora-area), y si necesitas el volumen de un cuerpo con base circular, la [calculadora del volumen del cilindro](/calcular-volumen-cilindro)."
+        ]
       }
     ],
     "faqs": [
@@ -4852,27 +5353,80 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte números del sistema hexadecimal (base 16) al sistema decimal (base 10) al instante, o al revés. Introduce el valor hexadecimal (usando dígitos 0-9 y letras A-F) para obtener su equivalente decimal, o introduce un número decimal para obtener su hexadecimal, junto con el equivalente en binario.",
-    "howToUse": [
-      "Elige la dirección de la conversión: \"Hexadecimal → Decimal\" o \"Decimal → Hexadecimal\"",
-      "Escribe el número en el campo correspondiente",
-      "El resultado se calcula al instante, junto con su equivalente en binario",
-      "Si el valor introducido no es válido para esa base, la herramienta te lo indica"
-    ],
-    "benefits": [
-      "Convierte en ambos sentidos: hexadecimal a decimal y decimal a hexadecimal",
-      "Muestra también el equivalente en binario, sin tener que abrir otra herramienta",
-      "Valida el formato del número (solo 0-9 y A-F en hexadecimal, o solo dígitos en decimal)",
-      "Resultado instantáneo mientras escribes, sin necesidad de pulsar ningún botón",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Convierte de hexadecimal a decimal o de decimal a hexadecimal al instante. Escribe el número con las cifras 0-9 y las letras A-F, en mayúsculas o minúsculas, con o sin el prefijo 0x.",
+    "bloques": [
       {
-        "title": "¿Cómo se convierte manualmente de hexadecimal a decimal?",
-        "body": "Cada dígito hexadecimal representa una potencia de 16, empezando por 16⁰ en el dígito de más a la derecha. Para convertir, se multiplica cada dígito por la potencia de 16 que le corresponde y se suman los resultados. Por ejemplo, 1F4 en hexadecimal: 1×16² + F×16¹ + 4×16⁰ = 1×256 + 15×16 + 4×1 = 256 + 240 + 4 = 500 en decimal. Recuerda que en hexadecimal, A=10, B=11, C=12, D=13, E=14 y F=15."
+        "tipo": "infografia",
+        "archivo": "hexadecimal-a-decimal-paso-a-paso.webp",
+        "alt": "Conversión de hexadecimal a decimal paso a paso: 1A3 es 419",
+        "ancho": 800,
+        "alto": 876,
+        "titulo": "¿Cómo se pasa de hexadecimal a decimal a mano?"
       },
       {
-        "title": "¿Por qué se usa el sistema hexadecimal?",
-        "body": "El hexadecimal es muy usado en informática porque cada dígito hexadecimal representa exactamente 4 bits (medio byte), lo que hace mucho más compacta la representación de valores binarios largos. Se usa habitualmente para escribir colores en HTML/CSS (por ejemplo, #1F4A8C), direcciones de memoria, códigos de error, identificadores únicos (UUID) y volcados de memoria (hex dumps) en depuración de software."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo pasar un número decimal a hexadecimal?",
+        "intro": "Se divide entre 16 sucesivamente y se leen los restos de abajo arriba. Ejemplo con 2026:",
+        "pasos": [
+          {
+            "texto": "Divide 2026 entre 16.",
+            "operacion": "2026 ÷ 16 = 126, resto 10 (A)"
+          },
+          {
+            "texto": "Divide el cociente entre 16.",
+            "operacion": "126 ÷ 16 = 7, resto 14 (E)"
+          },
+          {
+            "texto": "Divide de nuevo.",
+            "operacion": "7 ÷ 16 = 0, resto 7"
+          },
+          {
+            "texto": "Lee los restos desde el último.",
+            "operacion": "7 · E · A"
+          }
+        ],
+        "resultado": [
+          "2026 en hexadecimal",
+          "7EA"
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Dónde te vas a encontrar números hexadecimales?",
+        "cabeceras": [
+          "Uso",
+          "Ejemplo",
+          "Qué significa"
+        ],
+        "filas": [
+          [
+            "Colores web",
+            "#7C3AED",
+            "Rojo 7C (124), verde 3A (58), azul ED (237)"
+          ],
+          [
+            "Unicode",
+            "U+00F1",
+            "El carácter 241: la ñ"
+          ],
+          [
+            "Direcciones MAC",
+            "00:1A:2B:3C:4D:5E",
+            "Seis bytes que identifican una tarjeta de red"
+          ],
+          [
+            "Errores de Windows",
+            "0x80070005",
+            "Código de «acceso denegado»"
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué herramienta usar para otras bases?",
+        "parrafos": [
+          "Si además necesitas binario u octal, el [convertidor binario](/convertidor-binario) muestra las cuatro bases a la vez. Para colores, el [conversor de HEX a RGB](/conversor-hex-rgb) y el [selector de color](/selector-de-color); y para leer texto codificado en hexadecimal, [hexadecimal a texto](/hexadecimal-a-texto)."
+        ]
       }
     ],
     "faqs": [
@@ -4918,28 +5472,84 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Esta calculadora resuelve los tres problemas clásicos de movimiento a velocidad constante: calcular el tiempo que tardarás en un trayecto (a partir de la distancia y la velocidad), calcular la velocidad media (a partir de la distancia y el tiempo), o calcular la distancia recorrida (a partir de la velocidad y el tiempo). Admite distintas unidades de distancia (kilómetros, metros, millas), tiempo (horas, minutos, segundos) y velocidad (km/h, m/s, mph), convirtiendo automáticamente entre ellas.",
-    "howToUse": [
-      "Elige qué quieres calcular: Tiempo, Velocidad o Distancia",
-      "Introduce los dos datos que ya conoces, junto con su unidad de medida",
-      "El resultado se calcula al instante, sin necesidad de convertir las unidades manualmente",
-      "Cuando calculas el tiempo, el resultado se muestra en formato horas-minutos-segundos y también en decimal"
-    ],
-    "benefits": [
-      "Resuelve las tres variables del movimiento: tiempo, velocidad y distancia, en una sola herramienta",
-      "Convierte automáticamente entre kilómetros, metros y millas, y entre horas, minutos y segundos",
-      "El tiempo calculado se muestra en formato legible (por ejemplo, 2h 15min 30s), no solo en decimal",
-      "Al calcular velocidad o distancia, muestra el resultado en varias unidades a la vez (km/h, m/s, mph)",
-      "Útil para planificar viajes, calcular ritmos de carrera o resolver problemas de física básica",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Elige qué quieres saber (velocidad, distancia o tiempo), escribe los otros dos datos y obtén el resultado con la fórmula aplicada. Acepta kilómetros o millas y horas, minutos y segundos.",
+    "bloques": [
       {
-        "title": "Fórmulas de velocidad, distancia y tiempo",
-        "body": "Las tres fórmulas se derivan una de otra: Velocidad = Distancia ÷ Tiempo (V = D/T), Distancia = Velocidad × Tiempo (D = V×T), y Tiempo = Distancia ÷ Velocidad (T = D/V). Estas fórmulas solo son válidas cuando la velocidad es constante durante todo el trayecto; si la velocidad varía, el resultado obtenido es la velocidad media del recorrido, no la velocidad en cada instante."
+        "tipo": "infografia",
+        "archivo": "triangulo-velocidad-distancia-tiempo.webp",
+        "alt": "Triángulo para recordar las fórmulas de velocidad, distancia y tiempo con ejemplos",
+        "ancho": 800,
+        "alto": 766,
+        "titulo": "¿Cuál es el truco para recordar las fórmulas de velocidad?"
       },
       {
-        "title": "El error más común: mezclar unidades",
-        "body": "El error más frecuente al aplicar estas fórmulas es mezclar unidades de distinto sistema, por ejemplo dividir kilómetros entre un tiempo en minutos sin convertir antes a horas, lo que da un resultado incorrecto. Por eso es importante que la distancia, el tiempo y la velocidad estén en unidades compatibles entre sí (por ejemplo, km con km/h y horas, o metros con m/s y segundos) antes de dividir o multiplicar. Esta calculadora hace esa conversión automáticamente, sea cual sea la combinación de unidades que elijas."
+        "tipo": "escenarios",
+        "titulo": "¿Cuánto tardo en llegar a mi destino?",
+        "intro": "Tres viajes resueltos con t = d ÷ v:",
+        "items": [
+          {
+            "titulo": "Autopista",
+            "situacion": "320 km a una media de 100 km/h, contando paradas y tráfico.",
+            "resultado": "3 h 12 min",
+            "detalle": "320 ÷ 100 = 3,2 h"
+          },
+          {
+            "titulo": "En bicicleta",
+            "situacion": "24 km por ciudad a 16 km/h de media.",
+            "resultado": "1 h 30 min",
+            "detalle": "24 ÷ 16 = 1,5 h"
+          },
+          {
+            "titulo": "Caminando",
+            "situacion": "6 km a paso tranquilo de 5 km/h.",
+            "resultado": "1 h 12 min",
+            "detalle": "6 ÷ 5 = 1,2 h"
+          }
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Cómo pasar de km/h a m/s y otras unidades de velocidad?",
+        "cabeceras": [
+          "Para pasar de",
+          "A",
+          "Haz esto",
+          "Ejemplo"
+        ],
+        "filas": [
+          [
+            "km/h",
+            "m/s",
+            "Divide entre 3,6",
+            "90 km/h = 25 m/s"
+          ],
+          [
+            "m/s",
+            "km/h",
+            "Multiplica por 3,6",
+            "10 m/s = 36 km/h"
+          ],
+          [
+            "mph",
+            "km/h",
+            "Multiplica por 1,609",
+            "60 mph = 96,6 km/h"
+          ],
+          [
+            "nudos",
+            "km/h",
+            "Multiplica por 1,852",
+            "20 nudos = 37 km/h"
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Por qué los problemas de física dan resultados raros?",
+        "parrafos": [
+          "Casi siempre es por mezclar unidades: una distancia en metros con una velocidad en km/h, o un tiempo en minutos tratado como horas. Antes de aplicar la fórmula, pasa todo al mismo sistema. Para otras conversiones tienes el [convertidor de unidades](/convertidor-unidades) y, para minutos y horas, la [calculadora de horas](/calculadora-horas).",
+          "Si corres, el ritmo en minutos por kilómetro es más práctico que la velocidad: calcúlalo con la [calculadora de ritmo](/calcular-ritmo)."
+        ]
       }
     ],
     "faqs": [
@@ -4985,29 +5595,81 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Calcula cuánto vas a gastar en gasolina en un viaje a partir de la distancia del trayecto, el consumo de tu vehículo (en litros por cada 100 km, o en kilómetros por litro) y el precio actual del combustible. Obtén al instante los litros necesarios, el costo total del viaje, el costo por kilómetro, y si viajas acompañado, el costo dividido por persona.",
-    "howToUse": [
-      "Introduce la distancia del trayecto en kilómetros; marca la casilla si es un viaje de ida y vuelta",
-      "Indica el consumo de tu vehículo, en litros por cada 100 km o en kilómetros por litro",
-      "Introduce el precio actual del combustible por litro",
-      "Opcionalmente, indica el número de personas para dividir el gasto",
-      "El costo total, los litros necesarios y el costo por kilómetro se calculan al instante"
-    ],
-    "benefits": [
-      "Acepta el consumo en las dos unidades más comunes: litros por 100 km o kilómetros por litro",
-      "Calcula automáticamente el doble de distancia para viajes de ida y vuelta",
-      "Divide el gasto total entre los pasajeros, útil para viajes compartidos",
-      "Muestra el costo por kilómetro, útil para comparar rutas o vehículos",
-      "Resultado instantáneo mientras escribes, sin necesidad de pulsar ningún botón",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe los kilómetros del viaje, el consumo de tu coche (en L/100 km o en km/L) y el precio del litro: sabrás cuántos litros vas a gastar y cuánto te va a costar, también por persona si compartís gastos.",
+    "bloques": [
       {
-        "title": "Fórmula para calcular el gasto en gasolina",
-        "body": "Primero se calculan los litros necesarios dividiendo la distancia del trayecto entre el rendimiento del vehículo en kilómetros por litro: Litros = Distancia ÷ (km por litro). Si el consumo lo tienes en litros por 100 km, primero se convierte a km por litro con la fórmula km/L = 100 ÷ (L/100km). Después, el costo total se obtiene multiplicando los litros necesarios por el precio del combustible: Costo = Litros × Precio por litro."
+        "tipo": "infografia",
+        "archivo": "costo-gasolina-viaje-ejemplo.webp",
+        "alt": "Cálculo del costo de gasolina de un viaje de 450 km y conversión de L/100 km a km/L",
+        "ancho": 800,
+        "alto": 847,
+        "titulo": "¿Cuánto cuesta en gasolina un viaje de 450 km?"
       },
       {
-        "title": "L/100 km vs. km/L: ¿qué diferencia hay?",
-        "body": "Ambas son formas de expresar el consumo de combustible de un vehículo, pero funcionan de manera inversa: en litros por 100 km (L/100km), un número más bajo significa mayor eficiencia (menos combustible gastado), mientras que en kilómetros por litro (km/L), un número más alto significa mayor eficiencia (más distancia recorrida con un litro). La ficha técnica de muchos vehículos en España y Europa usa L/100km, mientras que en otros países de habla hispana es más común ver km/L. Esta calculadora admite ambos formatos indistintamente."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto gasta de media cada tipo de coche?",
+        "intro": "Consumos orientativos en uso mixto. El de tu coche está en su ficha técnica o en el ordenador de a bordo.",
+        "cabeceras": [
+          "Vehículo",
+          "L/100 km",
+          "km/L"
+        ],
+        "filas": [
+          [
+            "Moto de 125 cc",
+            "2,5",
+            "40"
+          ],
+          [
+            "Coche pequeño de gasolina",
+            "5,5",
+            "18,2"
+          ],
+          [
+            "Sedán mediano",
+            "7",
+            "14,3"
+          ],
+          [
+            "SUV o camioneta",
+            "9",
+            "11,1"
+          ],
+          [
+            "Pickup grande",
+            "12",
+            "8,3"
+          ]
+        ]
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Cómo gastar menos gasolina en carretera?",
+        "items": [
+          {
+            "titulo": "Velocidad constante",
+            "texto": "Ir a 110 en lugar de 130 km/h reduce mucho el consumo: la resistencia del aire crece con el cuadrado de la velocidad."
+          },
+          {
+            "titulo": "Presión de neumáticos",
+            "texto": "Ruedas bajas aumentan el consumo. Revisa la presión en frío con nuestro conversor de [bar a PSI](/bar-a-psi)."
+          },
+          {
+            "titulo": "Menos peso y menos aire acondicionado",
+            "texto": "Quita el portaequipajes del techo si no lo usas y usa el aire con moderación."
+          },
+          {
+            "titulo": "Marchas largas",
+            "texto": "Cambia pronto de marcha y anticipa las frenadas para no acelerar de más."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo repartir la gasolina entre los que viajan?",
+        "parrafos": [
+          "Divide el coste total entre el número de personas que comparten el viaje, sumando peajes y estacionamiento si los hay. Para repartir todos los gastos del viaje entre varios, usa [dividir cuenta](/dividir-cuenta). Y si quieres medir el impacto ambiental, la [calculadora de huella de carbono](/huella-de-carbono) estima las emisiones del trayecto."
+        ]
       }
     ],
     "faqs": [
@@ -5051,27 +5713,73 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Esta calculadora obtiene el volumen de un cilindro a partir del radio o el diámetro de su base circular y su altura, aplicando la fórmula V = π × r² × h. Además del volumen, muestra el área lateral y el área total (superficie completa) del cilindro, útil para problemas de geometría, cálculo de materiales o proyectos de construcción y diseño.",
-    "howToUse": [
-      "Elige si vas a introducir el Radio o el Diámetro de la base circular",
-      "Introduce el valor correspondiente",
-      "Introduce la altura del cilindro",
-      "El volumen, el área lateral y el área total se calculan al instante"
-    ],
-    "benefits": [
-      "Acepta el radio o el diámetro de la base, sin necesidad de convertir manualmente",
-      "Aplica la fórmula exacta V = π × r² × h, usando el valor completo de π",
-      "Muestra también el área lateral y el área total del cilindro, no solo el volumen",
-      "Resultado instantáneo mientras escribes, sin necesidad de pulsar ningún botón",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe el radio o el diámetro de la base y la altura para obtener el volumen del cilindro, su área lateral y su área total. El resultado incluye la conversión a litros si mides en centímetros.",
+    "bloques": [
       {
-        "title": "Fórmula del volumen de un cilindro",
-        "body": "El volumen de un cilindro se calcula con la fórmula V = π × r² × h, donde r es el radio de la base circular y h es la altura del cilindro (la distancia entre las dos bases). Por ejemplo, un cilindro con radio 3 y altura 10 tiene un volumen de π × 3² × 10 = π × 9 × 10 ≈ 282.74 unidades cúbicas. Si conoces el diámetro en lugar del radio, primero divide entre 2 (r = d ÷ 2) antes de aplicar la fórmula; esta calculadora lo hace automáticamente."
+        "tipo": "infografia",
+        "archivo": "volumen-area-cilindro-formulas.webp",
+        "alt": "Fórmulas del volumen, área lateral y área total de un cilindro con un ejemplo",
+        "ancho": 800,
+        "alto": 690,
+        "titulo": "¿Cuáles son las fórmulas del volumen y del área de un cilindro?"
       },
       {
-        "title": "Área lateral y área total del cilindro",
-        "body": "Además del volumen, esta calculadora muestra dos medidas de superficie: el área lateral, que es la superficie de la cara curva del cilindro (sin incluir las dos tapas circulares), calculada como 2 × π × r × h; y el área total, que suma el área lateral y el área de las dos bases circulares, calculada como 2 × π × r × (r + h). Estas medidas son útiles, por ejemplo, para calcular cuánto material se necesita para fabricar o forrar un cilindro."
+        "tipo": "escenarios",
+        "titulo": "¿Cuántos litros caben en un tanque o una maceta cilíndrica?",
+        "items": [
+          {
+            "titulo": "Tinaco de agua",
+            "situacion": "Diámetro de 1,1 m y altura de 1,2 m.",
+            "resultado": "1.140 L",
+            "detalle": "π × 0,55² × 1,2 = 1,14 m³"
+          },
+          {
+            "titulo": "Maceta",
+            "situacion": "Diámetro de 30 cm y altura de 28 cm.",
+            "resultado": "19,8 L",
+            "detalle": "π × 15² × 28 = 19.792 cm³"
+          },
+          {
+            "titulo": "Lata de refresco",
+            "situacion": "6,6 cm de diámetro y 12,2 cm de alto, aproximadamente.",
+            "resultado": "417 ml",
+            "detalle": "algo más que los 355 ml que contiene"
+          }
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Cómo convertir el volumen a litros?",
+        "cabeceras": [
+          "Si el resultado está en",
+          "Para pasarlo a litros"
+        ],
+        "filas": [
+          [
+            "cm³",
+            "Divide entre 1.000 (1 L = 1.000 cm³)"
+          ],
+          [
+            "m³",
+            "Multiplica por 1.000 (1 m³ = 1.000 L)"
+          ],
+          [
+            "dm³",
+            "Es lo mismo: 1 dm³ = 1 L"
+          ],
+          [
+            "pulgadas³",
+            "Multiplica por 0,016387"
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Para qué sirve el área total del cilindro?",
+        "parrafos": [
+          "El área lateral es la superficie del «tubo» sin las tapas: lo que necesitas para forrar una lata o pintar una columna. El área total suma las dos bases circulares: la cantidad de material para fabricar un depósito cerrado.",
+          "Si solo te interesa la base, usa la [calculadora del área del círculo](/calcular-area-circulo); para cubos, conos o esferas, la [calculadora de volumen](/calculadora-volumen)."
+        ]
       }
     ],
     "faqs": [
@@ -5117,28 +5825,71 @@
     "webApp": true,
     "appCategory": "SportsApplication",
     "intro": "Esta calculadora de ritmo de carrera (pace) resuelve los tres cálculos más habituales para corredores: tu ritmo en minutos y segundos por kilómetro a partir de una distancia y un tiempo, el tiempo que tardarías en recorrer una distancia a un ritmo determinado, o la distancia que recorrerías en un tiempo dado. Al calcular el tiempo, también te muestra a qué hora terminarías carreras estándar como 5K, 10K, media maratón y maratón a ese mismo ritmo.",
-    "howToUse": [
-      "Elige qué quieres calcular: Ritmo, Tiempo o Distancia",
-      "Introduce los datos que ya conoces (distancia, tiempo o ritmo)",
-      "El resultado se calcula al instante, en formato min:seg por kilómetro",
-      "En \"Calcular Tiempo\", revisa también la tabla de tiempos estimados para 5K, 10K, media maratón y maratón a ese ritmo"
-    ],
-    "benefits": [
-      "Calcula el ritmo, el tiempo o la distancia a partir de los otros dos datos",
-      "Muestra el ritmo tanto en min/km como en min/milla, además de la velocidad en km/h",
-      "Predice automáticamente tus tiempos estimados en 5K, 10K, media maratón y maratón según tu ritmo",
-      "Formato de tiempo legible (H:MM:SS), pensado para tiempos de carrera reales",
-      "Útil para planificar entrenamientos, calcular objetivos de carrera o comparar tiempos con otros corredores",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu ritmo en minutos por kilómetro a partir de una distancia y un tiempo, cuánto tardarías en otra distancia a ese ritmo, o qué ritmo necesitas para tu objetivo en 5K, 10K, media maratón o maratón.",
+    "bloques": [
       {
-        "title": "¿Qué es el ritmo (pace) y cómo se calcula?",
-        "body": "El ritmo, o pace, es el tiempo que tardas en recorrer un kilómetro (o una milla), expresado en minutos y segundos, por ejemplo 5:30 min/km. Se calcula dividiendo el tiempo total empleado entre la distancia recorrida: Ritmo = Tiempo ÷ Distancia. Por ejemplo, si corres 10 km en 55 minutos, tu ritmo es 55 ÷ 10 = 5.5 minutos por km, es decir, 5 minutos y 30 segundos por kilómetro (5:30 /km)."
+        "tipo": "infografia",
+        "archivo": "tabla-ritmos-carrera-5k-maraton.webp",
+        "alt": "Tabla de ritmos de carrera por kilómetro con tiempos para 5K, 10K, media maratón y maratón",
+        "ancho": 800,
+        "alto": 899,
+        "titulo": "¿Qué ritmo por kilómetro necesito para cada marca?"
       },
       {
-        "title": "Ritmo vs. velocidad: dos formas de medir lo mismo",
-        "body": "El ritmo (min/km) y la velocidad (km/h) miden lo mismo desde ángulos opuestos: el ritmo indica cuánto tiempo tardas en recorrer una unidad de distancia, mientras que la velocidad indica cuánta distancia recorres en una unidad de tiempo. Entre corredores es más habitual hablar en ritmo (min/km), mientras que en ciclismo o conducción se suele usar la velocidad (km/h). Puedes convertir de uno a otro dividiendo 60 entre el ritmo en minutos por km para obtener los km/h."
+        "tipo": "glosario",
+        "titulo": "¿Qué significan ritmo, pace, negativo y otros términos de running?",
+        "items": [
+          [
+            "Ritmo o pace",
+            "Minutos que tardas en recorrer un kilómetro. 5:30 min/km equivale a 10,9 km/h."
+          ],
+          [
+            "Split",
+            "El tiempo de cada tramo (cada kilómetro o cada 5 km) dentro de una carrera."
+          ],
+          [
+            "Negativo",
+            "Correr la segunda mitad más rápido que la primera. Es la estrategia más eficiente en distancias largas."
+          ],
+          [
+            "Ritmo de rodaje",
+            "El ritmo cómodo de los entrenamientos suaves, normalmente 45 a 90 segundos por km más lento que el de carrera."
+          ],
+          [
+            "Marca personal (MMP)",
+            "Tu mejor tiempo en una distancia."
+          ]
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Qué ritmo necesito para bajar de 2 horas en media maratón?",
+        "pasos": [
+          {
+            "texto": "Pasa el objetivo a segundos.",
+            "operacion": "2 h = 7.200 s"
+          },
+          {
+            "texto": "Divide entre la distancia.",
+            "operacion": "7.200 ÷ 21,0975 = 341,3 s/km"
+          },
+          {
+            "texto": "Pasa los segundos a minutos y segundos.",
+            "operacion": "341 s = 5 min 41 s"
+          }
+        ],
+        "resultado": [
+          "Ritmo necesario",
+          "5:41 min/km o menos"
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo usar el ritmo para preparar una carrera?",
+        "parrafos": [
+          "Fija el ritmo objetivo con tu marca reciente en una distancia más corta, no con tus deseos: si haces 10K en 55 minutos, una media en torno a 2:00–2:05 es realista. En la carrera, sal a ritmo o algo más lento los primeros kilómetros y guarda energía para el final.",
+          "Para medir tus series en pista usa el [cronómetro online](/cronometro-online) con vueltas, y para la hidratación diaria, la [calculadora de agua](/calculadora-agua-diaria)."
+        ]
       }
     ],
     "faqs": [
@@ -5180,28 +5931,67 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Este cronómetro online mide el tiempo transcurrido con precisión de centésimas de segundo, directamente desde tu navegador, sin necesidad de descargar ninguna aplicación. Inicia, pausa y reinicia el conteo cuando quieras, y registra vueltas (splits) para comparar tiempos parciales en entrenamientos, carreras o cualquier actividad cronometrada.",
-    "howToUse": [
-      "Pulsa \"Iniciar\" para comenzar a contar el tiempo",
-      "Pulsa \"Pausar\" para detener el conteo, y \"Reanudar\" para continuar desde donde lo dejaste",
-      "Pulsa \"Marcar vuelta\" mientras el cronómetro está en marcha para registrar un tiempo parcial",
-      "Pulsa \"Reiniciar\" para poner el cronómetro a cero y borrar todas las vueltas registradas"
-    ],
-    "benefits": [
-      "Precisión de centésimas de segundo (HH:MM:SS.CC)",
-      "Registro de vueltas ilimitado, con tiempo parcial y tiempo total de cada una",
-      "Permite pausar y reanudar sin perder el tiempo acumulado",
-      "No requiere descargar ninguna aplicación ni crear una cuenta",
-      "Funciona en cualquier dispositivo con navegador: móvil, tablet u ordenador",
-      "Gratis, sin anuncios intrusivos y sin límite de uso"
-    ],
-    "contentSections": [
+    "resumen": "Cronómetro online con precisión de centésimas: inicia, pausa, reanuda y marca vueltas sin descargar nada. Cada vuelta muestra su tiempo parcial y el acumulado.",
+    "bloques": [
       {
-        "title": "¿Para qué sirve un cronómetro con registro de vueltas?",
-        "body": "El registro de vueltas (o \"splits\") permite comparar tiempos parciales dentro de una misma sesión cronometrada, sin necesidad de reiniciar el cronómetro cada vez. Es especialmente útil en entrenamientos de running o natación (para medir el tiempo de cada vuelta a la pista o cada largo de piscina), en competiciones, o en cualquier actividad donde necesites dividir un tiempo total en tramos para analizar tu rendimiento en cada uno."
+        "tipo": "infografia",
+        "archivo": "cronometro-vueltas-parcial-acumulado.webp",
+        "alt": "Cómo leer el cronómetro online: horas, minutos, segundos, centésimas y vueltas",
+        "ancho": 800,
+        "alto": 772,
+        "titulo": "¿Qué es el tiempo parcial y el acumulado de una vuelta?"
       },
       {
-        "title": "Cronómetro vs. temporizador: ¿cuál necesito?",
-        "body": "Un cronómetro cuenta el tiempo hacia adelante desde cero, sin un límite predefinido, y se usa cuando quieres medir cuánto tiempo tarda algo en completarse (una carrera, un ejercicio, una tarea). Un temporizador, en cambio, cuenta hacia atrás desde un tiempo fijado de antemano y avisa cuando llega a cero, y se usa para controlar un límite de tiempo (por ejemplo, cocinar o un descanso). Esta herramienta es un cronómetro: mide el tiempo transcurrido sin límite superior."
+        "tipo": "comparacion",
+        "titulo": "¿Cronómetro o temporizador: cuál necesito?",
+        "columnas": [
+          {
+            "titulo": "Cronómetro",
+            "tono": "azul",
+            "items": [
+              "Cuenta hacia arriba desde cero.",
+              "Mide cuánto tarda algo: una carrera, una tarea, una exposición.",
+              "Con vueltas, compara tramos."
+            ]
+          },
+          {
+            "titulo": "Temporizador",
+            "tono": "verde",
+            "items": [
+              "Cuenta hacia atrás desde un tiempo fijado.",
+              "Avisa cuando se acaba: cocina, descansos, exámenes.",
+              "Usa el [temporizador online](/temporizador-online)."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Para qué se usa un cronómetro con vueltas?",
+        "items": [
+          {
+            "titulo": "Series de atletismo",
+            "texto": "Marca cada vuelta a la pista para ver si mantienes el ritmo. Después calcúlalo con la [calculadora de ritmo](/calcular-ritmo)."
+          },
+          {
+            "titulo": "Presentaciones",
+            "texto": "Marca una vuelta al acabar cada parte y sabrás dónde te alargas."
+          },
+          {
+            "titulo": "Clases de educación física",
+            "texto": "Cronometra a varios alumnos seguidos con una vuelta por cada uno."
+          },
+          {
+            "titulo": "Productividad",
+            "texto": "Mide cuánto tardas de verdad en cada tarea antes de planificar tu semana con el [calculador de horarios](/calculador-de-horarios)."
+          }
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "azul",
+        "titulo": "¿Qué pasa si cambio de pestaña?",
+        "texto": "El tiempo sigue corriendo correctamente: el cronómetro calcula el tiempo transcurrido con el reloj de alta precisión del navegador, no contando ticks, así que no se atrasa aunque el navegador ralentice las pestañas en segundo plano."
       }
     ],
     "faqs": [
@@ -5246,27 +6036,68 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Esta herramienta escribe palabras y frases al revés de tres formas distintas: invirtiendo todos los caracteres del texto de un tirón, invirtiendo solo el orden de las palabras (manteniendo cada palabra normal), o invirtiendo únicamente las letras dentro de cada palabra sin cambiar su posición. Útil para juegos de palabras, acertijos, mensajes curiosos o simplemente por diversión.",
-    "howToUse": [
-      "Elige el modo de inversión que quieres aplicar",
-      "Escribe o pega tu texto en el cuadro",
-      "El resultado se genera al instante mientras escribes",
-      "Pulsa \"Copiar resultado\" para usarlo donde quieras"
-    ],
-    "benefits": [
-      "Tres modos de inversión distintos en una sola herramienta",
-      "Resultado instantáneo mientras escribes, sin botón \"generar\"",
-      "Funciona con frases completas, no solo con palabras sueltas",
-      "Copia el resultado al portapapeles con un clic",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe un texto y obtén tres versiones al revés: todas las letras invertidas, el orden de las palabras invertido o cada palabra invertida por separado. Perfecto para juegos, acertijos y mensajes curiosos.",
+    "bloques": [
       {
-        "title": "Tres formas distintas de invertir un texto",
-        "body": "\"Invertir todo el texto\" da la vuelta a la frase completa carácter por carácter, como si la leyeras en un espejo (por ejemplo, \"Hola\" se convierte en \"aloH\"). \"Invertir el orden de las palabras\" mantiene cada palabra intacta pero cambia el orden en que aparecen (\"Hola amigo\" se convierte en \"amigo Hola\"). \"Invertir cada palabra\" mantiene el orden de las palabras en la frase, pero invierte las letras dentro de cada una (\"Hola amigo\" se convierte en \"aloH ogima\")."
+        "tipo": "infografia",
+        "archivo": "escribir-al-reves-palindromos.webp",
+        "alt": "Tres formas de escribir un texto al revés y ejemplos de palíndromos en español",
+        "ancho": 800,
+        "alto": 884,
+        "titulo": "¿Cómo queda una frase escrita al revés de tres maneras?"
       },
       {
-        "title": "¿Para qué se usa escribir al revés?",
-        "body": "Escribir texto al revés es popular en juegos de palabras y acertijos, mensajes \"secretos\" entre amigos, retos de lectura, contenido curioso para redes sociales, o simplemente como curiosidad lingüística. También es una forma sencilla de comprobar palíndromos: si una palabra invertida es igual a la original (como \"reconocer\"), se trata de un palíndromo."
+        "tipo": "tabla",
+        "titulo": "¿Qué palabras y frases son palíndromos en español?",
+        "cabeceras": [
+          "Palíndromo",
+          "Tipo"
+        ],
+        "filas": [
+          [
+            "oso, ala, ojo, radar",
+            "Palabras cortas"
+          ],
+          [
+            "reconocer, sometemos, rotor",
+            "Palabras largas"
+          ],
+          [
+            "Anita lava la tina",
+            "Frase clásica"
+          ],
+          [
+            "Dábale arroz a la zorra el abad",
+            "Frase clásica"
+          ],
+          [
+            "Yo hago yoga hoy",
+            "Frase moderna"
+          ]
+        ],
+        "nota": "En las frases se ignoran los espacios, las tildes y las mayúsculas."
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Para qué sirve escribir al revés?",
+        "items": [
+          {
+            "titulo": "Juegos y acertijos",
+            "texto": "Mensajes secretos, búsquedas del tesoro o retos en grupo. Combínalo con la [sopa de letras](/sopa-de-letras)."
+          },
+          {
+            "titulo": "Texto cabeza abajo",
+            "texto": "Si quieres además las letras giradas, el estilo «volteado» de la [tipografía para Instagram](/tipografia-para-instagram) invierte el texto y pone cada letra boca abajo."
+          },
+          {
+            "titulo": "Clases de lengua",
+            "texto": "Buscar palíndromos es un buen ejercicio de ortografía y vocabulario."
+          },
+          {
+            "titulo": "Probar código",
+            "texto": "Invertir una cadena es un ejercicio clásico de programación: compara tu resultado con el de aquí."
+          }
+        ]
       }
     ],
     "faqs": [
@@ -5308,27 +6139,85 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte temperaturas entre Celsius (°C), Fahrenheit (°F) y Kelvin (K) al instante. Elige la escala en la que tienes el dato y obtén su equivalencia en las otras dos escalas simultáneamente, aplicando las fórmulas exactas de conversión de temperatura.",
-    "howToUse": [
-      "Elige la escala en la que tienes el dato: Celsius, Fahrenheit o Kelvin",
-      "Introduce el valor de la temperatura",
-      "El resultado se muestra al instante en las otras dos escalas",
-      "Cambia de escala de origen en cualquier momento sin perder el valor introducido"
-    ],
-    "benefits": [
-      "Convierte entre las tres escalas de temperatura más usadas: Celsius, Fahrenheit y Kelvin",
-      "Muestra el resultado en las tres escalas a la vez, no solo en la que necesitas",
-      "Usa las fórmulas exactas de conversión, no aproximaciones",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe una temperatura en Celsius, Fahrenheit o Kelvin y obtén las otras dos al instante. Para pasar de °C a °F multiplica por 1,8 y suma 32; para el camino inverso, resta 32 y divide entre 1,8.",
+    "bloques": [
       {
-        "title": "Fórmulas de conversión de temperatura",
-        "body": "Para convertir de Celsius a Fahrenheit se usa F = C × 9/5 + 32. Para convertir de Fahrenheit a Celsius se usa C = (F − 32) × 5/9. Para convertir de Celsius a Kelvin se suma 273.15 (K = C + 273.15), y para convertir de Kelvin a Celsius se resta 273.15 (C = K − 273.15). Por ejemplo, 37°C (temperatura corporal media) equivale a 98.6°F y a 310.15 K."
+        "tipo": "infografia",
+        "archivo": "temperaturas-celsius-fahrenheit-kelvin.webp",
+        "alt": "Termómetro con temperaturas clave en grados Celsius, Fahrenheit y Kelvin",
+        "ancho": 800,
+        "alto": 916,
+        "titulo": "¿Cuáles son las temperaturas de referencia en °C, °F y K?"
       },
       {
-        "title": "¿Por qué existen tres escalas de temperatura distintas?",
-        "body": "Celsius es la escala más usada en la mayoría de los países del mundo, con el punto de congelación del agua en 0° y el de ebullición en 100°. Fahrenheit, usada principalmente en Estados Unidos, sitúa la congelación del agua en 32° y la ebullición en 212°. Kelvin es la escala científica usada en física, donde 0 K representa el cero absoluto (la temperatura más baja posible), y no tiene valores negativos."
+        "tipo": "tabla",
+        "titulo": "¿A cuántos grados Celsius equivalen los Fahrenheit más buscados?",
+        "cabeceras": [
+          "°F",
+          "°C",
+          "Contexto"
+        ],
+        "filas": [
+          [
+            "350 °F",
+            "176,7 °C",
+            "Horno moderado en recetas de EE. UU."
+          ],
+          [
+            "100 °F",
+            "37,8 °C",
+            "Fiebre leve"
+          ],
+          [
+            "75 °F",
+            "23,9 °C",
+            "Temperatura agradable de interior"
+          ],
+          [
+            "50 °F",
+            "10 °C",
+            "Día fresco"
+          ],
+          [
+            "32 °F",
+            "0 °C",
+            "El agua se congela"
+          ],
+          [
+            "0 °F",
+            "−17,8 °C",
+            "Invierno muy frío"
+          ]
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo pasar 350 °F a grados Celsius para el horno?",
+        "pasos": [
+          {
+            "texto": "Resta 32.",
+            "operacion": "350 − 32 = 318"
+          },
+          {
+            "texto": "Divide entre 1,8.",
+            "operacion": "318 ÷ 1,8 = 176,7"
+          },
+          {
+            "texto": "Redondea al ajuste de tu horno.",
+            "operacion": "≈ 180 °C"
+          }
+        ],
+        "resultado": [
+          "350 °F",
+          "176,7 °C"
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué países usan grados Fahrenheit?",
+        "parrafos": [
+          "Estados Unidos y algunos territorios y países asociados. Por eso aparecen en recetas, termómetros y apps estadounidenses. El resto del mundo usa Celsius, y la ciencia trabaja en Kelvin, que empieza en el cero absoluto. Para otras medidas de recetas, usa las [medidas de cocina](/medidas-de-cocina); y para más unidades, el [convertidor de unidades](/convertidor-unidades) y el atajo de [Fahrenheit a Celsius](/fahrenheit-a-celsius)."
+        ]
       }
     ],
     "faqs": [
@@ -5374,27 +6263,85 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte unidades de presión entre bar, PSI (libras por pulgada cuadrada), kilopascales (kPa) y atmósferas (atm) al instante. Muy útil para comprobar la presión recomendada de neumáticos, que a menudo se especifica en unidades distintas según el país o el fabricante.",
-    "howToUse": [
-      "Elige la unidad en la que tienes el dato: bar, PSI, kPa o atm",
-      "Introduce el valor de la presión",
-      "El resultado se muestra al instante en las otras tres unidades",
-      "Cambia de unidad de origen en cualquier momento"
-    ],
-    "benefits": [
-      "Convierte entre las cuatro unidades de presión más habituales: bar, PSI, kPa y atm",
-      "Muestra el resultado en las cuatro unidades a la vez",
-      "Útil para verificar la presión de neumáticos entre especificaciones europeas y estadounidenses",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Convierte presión entre bar, PSI, kilopascales y atmósferas. Lo más habitual: 1 bar son 14,5 PSI, así que los 2,2 bar de un coche equivalen a unos 32 PSI.",
+    "bloques": [
       {
-        "title": "¿Por qué convertir entre bar y PSI?",
-        "body": "El bar es la unidad de presión más usada en Europa y gran parte de Latinoamérica, mientras que el PSI (pounds per square inch, libras por pulgada cuadrada) es el estándar en Estados Unidos. Esta diferencia es especialmente relevante al inflar neumáticos: un coche fabricado para el mercado europeo suele indicar la presión recomendada en bar, mientras que un manómetro o compresor de origen estadounidense puede estar calibrado en PSI."
+        "tipo": "infografia",
+        "archivo": "presion-neumaticos-bar-psi.webp",
+        "alt": "Manómetro y tabla de equivalencias de presión de neumáticos en bar y PSI",
+        "ancho": 800,
+        "alto": 696,
+        "titulo": "¿Cómo leer un manómetro en bar y en PSI?"
       },
       {
-        "title": "Equivalencias aproximadas de presión",
-        "body": "1 bar equivale aproximadamente a 14.5 PSI, a 100 kilopascales exactos, y a 0.987 atmósferas. Para presiones de neumáticos habituales, 2.0 bar equivalen a unos 29 PSI, y 2.5 bar equivalen a unos 36 PSI. Esta calculadora aplica los factores de conversión exactos para cualquier valor."
+        "tipo": "tabla",
+        "titulo": "¿Qué presión llevan los neumáticos según el vehículo?",
+        "intro": "Valores orientativos. La presión exacta de tu vehículo está en la etiqueta del marco de la puerta del conductor.",
+        "cabeceras": [
+          "Vehículo",
+          "Bar",
+          "PSI"
+        ],
+        "filas": [
+          [
+            "Coche pequeño o mediano",
+            "2,1 – 2,4",
+            "30 – 35"
+          ],
+          [
+            "SUV o monovolumen cargado",
+            "2,4 – 2,8",
+            "35 – 41"
+          ],
+          [
+            "Moto (rueda trasera)",
+            "2,5 – 2,9",
+            "36 – 42"
+          ],
+          [
+            "Bicicleta de montaña",
+            "1,6 – 2,4",
+            "23 – 35"
+          ],
+          [
+            "Bicicleta de carretera",
+            "5,5 – 7",
+            "80 – 100"
+          ]
+        ]
+      },
+      {
+        "tipo": "checklist",
+        "titulo": "¿Cómo revisar la presión de los neumáticos correctamente?",
+        "items": [
+          "Mide en frío, antes de conducir o tras menos de 3 km: el calor sube la presión.",
+          "Usa la presión de la etiqueta del coche, no la máxima grabada en el neumático.",
+          "Sube la presión si viajas con el coche cargado; la etiqueta indica cuánto.",
+          "Revisa también la rueda de repuesto.",
+          "Hazlo al menos una vez al mes y antes de un viaje largo."
+        ]
+      },
+      {
+        "tipo": "glosario",
+        "titulo": "¿Qué significan bar, PSI, kPa y atmósfera?",
+        "items": [
+          [
+            "Bar",
+            "Unidad métrica habitual en Europa y Latinoamérica. 1 bar es casi la presión del aire a nivel del mar."
+          ],
+          [
+            "PSI",
+            "Libras por pulgada cuadrada, la unidad de EE. UU. y de muchos compresores. 1 PSI = 0,069 bar."
+          ],
+          [
+            "kPa",
+            "Kilopascales, la unidad del sistema internacional. 1 bar = 100 kPa."
+          ],
+          [
+            "Atmósfera (atm)",
+            "La presión media al nivel del mar: 1,013 bar o 14,7 PSI."
+          ]
+        ]
       }
     ],
     "faqs": [
@@ -5436,27 +6383,77 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte entre las medidas de cocina más habituales en las recetas: cucharaditas, cucharadas, tazas, mililitros y litros. Muy útil cuando una receta usa medidas de volumen distintas a las que tienes disponibles en tu cocina, como cuando necesitas saber cuántos mililitros tiene una cucharada o cuántos mililitros tiene una taza.",
-    "howToUse": [
-      "Elige la unidad en la que tienes la medida: cucharadita, cucharada, taza, ml o litros",
-      "Introduce la cantidad",
-      "El resultado se muestra al instante en todas las demás unidades",
-      "Cambia de unidad de origen en cualquier momento"
-    ],
-    "benefits": [
-      "Convierte entre cinco medidas de cocina habituales en una sola herramienta",
-      "Muestra el resultado en todas las unidades a la vez, sin tener que elegir una por una",
-      "Usa las equivalencias estándar más comunes en recetas en español",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Convierte cucharaditas, cucharadas, tazas, mililitros y litros al instante para seguir cualquier receta sin medidor. Usa las medidas estándar de EE. UU.: cucharadita 5 ml, cucharada 15 ml y taza 240 ml.",
+    "bloques": [
       {
-        "title": "Equivalencias estándar de medidas de cocina",
-        "body": "Las equivalencias más usadas en recetas son: 1 cucharadita = 5 ml, 1 cucharada = 15 ml (equivalente a 3 cucharaditas), y 1 taza = 240 ml. Estas son las medidas estándar utilizadas en la mayoría de recetas en español, aunque algunas recetas europeas usan una taza de 250 ml; para la gran mayoría de preparaciones, esta pequeña diferencia no afecta el resultado final."
+        "tipo": "infografia",
+        "archivo": "equivalencias-medidas-cocina.webp",
+        "alt": "Equivalencias de taza, cucharada y cucharadita en mililitros y gramos aproximados",
+        "ancho": 800,
+        "alto": 991,
+        "titulo": "¿Qué equivalencias de cocina conviene tener a mano?"
       },
       {
-        "title": "¿Por qué varían las medidas de cocina entre países?",
-        "body": "A diferencia de las unidades del sistema métrico, las medidas de cocina como \"taza\" o \"cucharada\" no tienen un estándar internacional único: se basan en utensilios de cocina de uso común, que pueden variar ligeramente de un país a otro. Esta calculadora usa las equivalencias más extendidas en recetas en español (cucharadita de 5 ml, cucharada de 15 ml y taza de 240 ml), que funcionan correctamente para la inmensa mayoría de recetas caseras."
+        "tipo": "tabla",
+        "titulo": "¿Cuántos gramos son una taza de harina, azúcar o arroz?",
+        "intro": "La taza mide volumen, no peso. Cada ingrediente pesa distinto; estos valores son aproximados.",
+        "cabeceras": [
+          "Ingrediente",
+          "1 taza",
+          "1 cucharada"
+        ],
+        "filas": [
+          [
+            "Harina de trigo",
+            "≈ 125 g",
+            "≈ 8 g"
+          ],
+          [
+            "Azúcar blanca",
+            "≈ 200 g",
+            "≈ 12 g"
+          ],
+          [
+            "Arroz crudo",
+            "≈ 185 g",
+            "≈ 12 g"
+          ],
+          [
+            "Mantequilla",
+            "≈ 225 g",
+            "≈ 14 g"
+          ],
+          [
+            "Leche o agua",
+            "240 g",
+            "15 g"
+          ]
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "¿Qué errores son los más comunes al medir en la cocina?",
+        "items": [
+          {
+            "mito": "Una cucharada es la cuchara sopera que tengas.",
+            "realidad": "Las cucharas de casa varían de 10 a 20 ml. En repostería conviene un juego de cucharas medidoras."
+          },
+          {
+            "mito": "Da igual meter la taza en la harina o echar la harina a la taza.",
+            "realidad": "Hundir la taza compacta la harina y puede meter hasta un 20 % más. Échala con cuchara y enrasa con un cuchillo."
+          },
+          {
+            "mito": "Todas las tazas son iguales.",
+            "realidad": "La de EE. UU. tiene 240 ml; la británica y la australiana, 250 ml. En recetas pequeñas apenas importa; en repostería, sí."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo adaptar una receta a más o menos raciones?",
+        "parrafos": [
+          "Multiplica todas las cantidades por el mismo factor: para pasar de 4 a 6 raciones, por 1,5. Si te quedan cantidades raras, conviértelas aquí a una medida más cómoda (6 cucharadas son 3/8 de taza) o usa la [regla de tres](/calculadora-regla-de-tres). Para hornos en grados Fahrenheit, pásalos con [Celsius a Fahrenheit](/celsius-a-fahrenheit), y para fracciones de taza, el [convertidor de fracciones](/convertidor-fracciones)."
+        ]
       }
     ],
     "faqs": [
@@ -5502,27 +6499,53 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Este generador de tipografías convierte tu texto normal en más de una decena de estilos de letra distintos usando caracteres Unicode especiales, listos para copiar y pegar en tu biografía de Instagram, TikTok, Twitter/X, Facebook o cualquier plataforma que acepte texto Unicode. Incluye negrita, cursiva, gótico, doble rayado, texto circulado, volteado y más.",
-    "howToUse": [
-      "Escribe el texto que quieres transformar",
-      "Revisa la lista de estilos generados automáticamente debajo",
-      "Pulsa sobre el estilo que más te guste para copiarlo al portapapeles",
-      "Pega el texto copiado donde lo necesites"
-    ],
-    "benefits": [
-      "Más de 10 estilos de letra distintos generados al instante",
-      "Compatible con Instagram, TikTok, Twitter/X, Facebook y WhatsApp",
-      "Copia cada estilo con un solo clic",
-      "No requiere instalar fuentes ni aplicaciones adicionales",
-      "Gratis, sin registro y funciona directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe tu texto y cópialo en más de diez estilos de letra: negrita, cursiva, script, gótico, doble rayado, circulado, tachado y más. Funcionan en Instagram, TikTok, X y WhatsApp porque son símbolos Unicode, no fuentes.",
+    "bloques": [
       {
-        "title": "¿Cómo funcionan las letras \"bonitas\" para Instagram?",
-        "body": "Estas tipografías no son fuentes reales en el sentido tradicional: son caracteres Unicode especiales que representan visualmente letras con un estilo distinto (negrita, cursiva, gótico, etc.), pero que técnicamente siguen siendo texto. Por eso puedes copiarlos y pegarlos en cualquier campo de texto, como la biografía de Instagram, sin necesidad de instalar ninguna fuente: el estilo viaja junto con el propio carácter."
+        "tipo": "infografia",
+        "archivo": "estilos-letras-instagram-unicode.webp",
+        "alt": "Estilos de letra para Instagram como negrita, script y gótico creados con símbolos Unicode",
+        "ancho": 800,
+        "alto": 796,
+        "titulo": "¿Qué estilos de letra se pueden usar en Instagram?"
       },
       {
-        "title": "¿Estas letras se ven igual en todos los dispositivos?",
-        "body": "En la gran mayoría de los casos sí, ya que estos caracteres forman parte del estándar Unicode y son ampliamente compatibles con teléfonos, ordenadores y aplicaciones modernas. En muy raras ocasiones, dispositivos muy antiguos o fuentes del sistema muy limitadas podrían mostrar algún carácter como un pequeño cuadro en lugar del símbolo esperado."
+        "tipo": "escenarios",
+        "titulo": "¿Dónde quedan mejor las letras bonitas en Instagram?",
+        "items": [
+          {
+            "titulo": "Nombre del perfil",
+            "situacion": "Una palabra en negrita o script destaca en la búsqueda, pero el nombre de usuario debe ser texto normal.",
+            "resultado": "Nombre"
+          },
+          {
+            "titulo": "Biografía",
+            "situacion": "Resalta solo una frase o tu profesión; el resto en texto normal para que se lea bien.",
+            "resultado": "Bio"
+          },
+          {
+            "titulo": "Pies de foto",
+            "situacion": "Para títulos o la primera línea, que es la que se ve antes de «más».",
+            "resultado": "Pie"
+          }
+        ]
+      },
+      {
+        "tipo": "checklist",
+        "titulo": "¿Qué tener en cuenta antes de usar letras especiales?",
+        "items": [
+          "No escribas todo el texto con letras especiales: los lectores de pantalla las leen letra por letra o como símbolos.",
+          "Instagram no las encuentra al buscar, así que deja tus palabras clave en texto normal.",
+          "Algunos móviles antiguos muestran recuadros vacíos con los estilos menos comunes. Prueba cómo se ve antes de publicar.",
+          "Los hashtags deben ir en texto normal o no funcionarán."
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo combinar las letras con otros recursos para tu perfil?",
+        "parrafos": [
+          "Para una bio completa, el [generador de bio para Instagram](/generador-bio-instagram) propone frases y estructura, y con el [texto invisible](/texto-invisible) puedes dejar líneas en blanco que Instagram no borra. Para los hashtags del post, el [generador de hashtags](/generador-hashtags)."
+        ]
       }
     ],
     "faqs": [

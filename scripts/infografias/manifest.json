@@ -178,5 +178,125 @@
     "alt": "Tramos del IRPF estatal y ejemplo de cálculo para un sueldo de 30 mil euros",
     "ancho": 800,
     "alto": 1126
+  },
+  "ahorro-necesario-hipoteca": {
+    "archivo": "ahorro-necesario-hipoteca.webp",
+    "alt": "Ahorro necesario para comprar un piso de 200 mil euros con hipoteca del 80 por ciento y cuota mensual",
+    "ancho": 800,
+    "alto": 859
+  },
+  "calculo-letra-dni-modulo-23": {
+    "archivo": "calculo-letra-dni-modulo-23.webp",
+    "alt": "Cálculo de la letra del DNI con el resto de dividir entre 23 y la tabla de letras",
+    "ancho": 800,
+    "alto": 785
+  },
+  "porcentaje-pension-anos-cotizados": {
+    "archivo": "porcentaje-pension-anos-cotizados.webp",
+    "alt": "Porcentaje de la pensión de jubilación según los años cotizados: 50 por ciento con 15 años y 100 con 36 y medio",
+    "ancho": 800,
+    "alto": 836
+  },
+  "dosis-apiretal-por-peso": {
+    "archivo": "dosis-apiretal-por-peso.webp",
+    "alt": "Tabla de dosis de Apiretal 100 mg/ml en mililitros según el peso del niño",
+    "ancho": 800,
+    "alto": 862
+  },
+  "como-funciona-calculadora-amor": {
+    "archivo": "como-funciona-calculadora-amor.webp",
+    "alt": "Cómo funciona la calculadora del amor: nombres normalizados, ordenados y convertidos en un porcentaje",
+    "ancho": 800,
+    "alto": 909
+  },
+  "digito-verificacion-nit-colombia": {
+    "archivo": "digito-verificacion-nit-colombia.webp",
+    "alt": "Cálculo del dígito de verificación del NIT de Colombia con los pesos de la DIAN",
+    "ancho": 800,
+    "alto": 921
+  },
+  "partes-del-cuil-argentina": {
+    "archivo": "partes-del-cuil-argentina.webp",
+    "alt": "Partes del CUIL argentino: prefijo según sexo, DNI y dígito verificador",
+    "ancho": 800,
+    "alto": 821
+  },
+  "digito-verificador-rut-chile": {
+    "archivo": "digito-verificador-rut-chile.webp",
+    "alt": "Cálculo del dígito verificador del RUT chileno con el módulo 11",
+    "ancho": 800,
+    "alto": 913
+  },
+  "formulas-area-del-circulo": {
+    "archivo": "formulas-area-del-circulo.webp",
+    "alt": "Fórmulas del área del círculo con el radio, el diámetro o la circunferencia",
+    "ancho": 800,
+    "alto": 747
+  },
+  "hexadecimal-a-decimal-paso-a-paso": {
+    "archivo": "hexadecimal-a-decimal-paso-a-paso.webp",
+    "alt": "Conversión de hexadecimal a decimal paso a paso: 1A3 es 419",
+    "ancho": 800,
+    "alto": 876
+  },
+  "triangulo-velocidad-distancia-tiempo": {
+    "archivo": "triangulo-velocidad-distancia-tiempo.webp",
+    "alt": "Triángulo para recordar las fórmulas de velocidad, distancia y tiempo con ejemplos",
+    "ancho": 800,
+    "alto": 766
+  },
+  "costo-gasolina-viaje-ejemplo": {
+    "archivo": "costo-gasolina-viaje-ejemplo.webp",
+    "alt": "Cálculo del costo de gasolina de un viaje de 450 km y conversión de L/100 km a km/L",
+    "ancho": 800,
+    "alto": 847
+  },
+  "volumen-area-cilindro-formulas": {
+    "archivo": "volumen-area-cilindro-formulas.webp",
+    "alt": "Fórmulas del volumen, área lateral y área total de un cilindro con un ejemplo",
+    "ancho": 800,
+    "alto": 690
+  },
+  "tabla-ritmos-carrera-5k-maraton": {
+    "archivo": "tabla-ritmos-carrera-5k-maraton.webp",
+    "alt": "Tabla de ritmos de carrera por kilómetro con tiempos para 5K, 10K, media maratón y maratón",
+    "ancho": 800,
+    "alto": 899
+  },
+  "cronometro-vueltas-parcial-acumulado": {
+    "archivo": "cronometro-vueltas-parcial-acumulado.webp",
+    "alt": "Cómo leer el cronómetro online: horas, minutos, segundos, centésimas y vueltas",
+    "ancho": 800,
+    "alto": 772
+  },
+  "escribir-al-reves-palindromos": {
+    "archivo": "escribir-al-reves-palindromos.webp",
+    "alt": "Tres formas de escribir un texto al revés y ejemplos de palíndromos en español",
+    "ancho": 800,
+    "alto": 884
+  },
+  "temperaturas-celsius-fahrenheit-kelvin": {
+    "archivo": "temperaturas-celsius-fahrenheit-kelvin.webp",
+    "alt": "Termómetro con temperaturas clave en grados Celsius, Fahrenheit y Kelvin",
+    "ancho": 800,
+    "alto": 916
+  },
+  "presion-neumaticos-bar-psi": {
+    "archivo": "presion-neumaticos-bar-psi.webp",
+    "alt": "Manómetro y tabla de equivalencias de presión de neumáticos en bar y PSI",
+    "ancho": 800,
+    "alto": 696
+  },
+  "equivalencias-medidas-cocina": {
+    "archivo": "equivalencias-medidas-cocina.webp",
+    "alt": "Equivalencias de taza, cucharada y cucharadita en mililitros y gramos aproximados",
+    "ancho": 800,
+    "alto": 991
+  },
+  "estilos-letras-instagram-unicode": {
+    "archivo": "estilos-letras-instagram-unicode.webp",
+    "alt": "Estilos de letra para Instagram como negrita, script y gótico creados con símbolos Unicode",
+    "ancho": 800,
+    "alto": 796
   }
 }

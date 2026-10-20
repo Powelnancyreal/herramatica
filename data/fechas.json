@@ -182,122 +182,122 @@
     },
     "calcular-hipoteca": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "060061027bc3",
+      "actualizado": "2026-10-20",
+      "contenido": "d955e9be0753",
       "componente": "3eb6f0a2026f"
     },
     "calcular-letra-dni": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "1af778d67691",
+      "actualizado": "2026-10-20",
+      "contenido": "ac08d96673fb",
       "componente": "6072587ab4d5"
     },
     "calculo-pension-jubilacion": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "ad9e15888850",
+      "actualizado": "2026-10-20",
+      "contenido": "1adf9da95097",
       "componente": "bd1deb63e327"
     },
     "calculadora-apiretal": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-04",
-      "contenido": "03dfff7c381f",
+      "actualizado": "2026-10-20",
+      "contenido": "4c7fdc7ef076",
       "componente": "70b122eec610"
     },
     "calculadora-del-amor": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "58775391b555",
+      "actualizado": "2026-10-20",
+      "contenido": "b1a629a94ed9",
       "componente": "3fa2bb1b19fa"
     },
     "calcular-nit": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-04",
-      "contenido": "6c05022a10f1",
+      "actualizado": "2026-10-20",
+      "contenido": "91a7ac6d4b29",
       "componente": "493a5295d44d"
     },
     "calcular-cuil": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "39992da7a516",
+      "actualizado": "2026-10-20",
+      "contenido": "0be1c5721030",
       "componente": "0c42531dad9e"
     },
     "calcular-rut": {
       "creado": "2026-08-27",
-      "actualizado": "2026-08-27",
-      "contenido": "986a95f80d12",
+      "actualizado": "2026-10-20",
+      "contenido": "b3852b057b0e",
       "componente": "5a25bc433a03"
     },
     "calcular-area-circulo": {
       "creado": "2026-08-28",
-      "actualizado": "2026-10-04",
-      "contenido": "99ab195246ad",
+      "actualizado": "2026-10-20",
+      "contenido": "ed474d5f9465",
       "componente": "11d8a3dded81"
     },
     "calcular-hexadecimal-a-decimal": {
       "creado": "2026-08-29",
-      "actualizado": "2026-10-04",
-      "contenido": "5cf7e2839834",
+      "actualizado": "2026-10-20",
+      "contenido": "92f50c5ea669",
       "componente": "e11b4a8a4fb1"
     },
     "calcular-velocidad-distancia-tiempo": {
       "creado": "2026-08-29",
-      "actualizado": "2026-10-04",
-      "contenido": "f30452c26f57",
+      "actualizado": "2026-10-20",
+      "contenido": "3f0d2dd597e2",
       "componente": "e329bef5e577"
     },
     "calcular-gasolina": {
       "creado": "2026-08-29",
-      "actualizado": "2026-10-04",
-      "contenido": "c0e841d71316",
+      "actualizado": "2026-10-20",
+      "contenido": "b6acd3a296ba",
       "componente": "0dfa646c3ea1"
     },
     "calcular-volumen-cilindro": {
       "creado": "2026-08-29",
-      "actualizado": "2026-10-04",
-      "contenido": "398074138507",
+      "actualizado": "2026-10-20",
+      "contenido": "93b440e4bda2",
       "componente": "e3fa46cf21b0"
     },
     "calcular-ritmo": {
       "creado": "2026-09-06",
-      "actualizado": "2026-09-06",
-      "contenido": "e4cbb6a6ae04",
+      "actualizado": "2026-10-20",
+      "contenido": "e938879f9993",
       "componente": "b156f2b72fee"
     },
     "cronometro-online": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "5ddfe3fb96fa",
+      "actualizado": "2026-10-20",
+      "contenido": "dbb1e800717a",
       "componente": "6ea10105d2da"
     },
     "palabras-al-reves": {
       "creado": "2026-09-06",
-      "actualizado": "2026-09-06",
-      "contenido": "1f9a1dffa712",
+      "actualizado": "2026-10-20",
+      "contenido": "33b79c51178f",
       "componente": "1580fa36805e"
     },
     "celsius-a-fahrenheit": {
       "creado": "2026-09-06",
-      "actualizado": "2026-09-06",
-      "contenido": "c349c9a04d41",
+      "actualizado": "2026-10-20",
+      "contenido": "4f6c49da1a1a",
       "componente": "05ef3dac655a"
     },
     "bar-a-psi": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "e4964b31c321",
+      "actualizado": "2026-10-20",
+      "contenido": "79ee5a6416eb",
       "componente": "7d585eaaca20"
     },
     "medidas-de-cocina": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "e6f2ebdf2019",
+      "actualizado": "2026-10-20",
+      "contenido": "a30452841e4e",
       "componente": "6ea6e6311ef7"
     },
     "tipografia-para-instagram": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "b03248ba5353",
+      "actualizado": "2026-10-20",
+      "contenido": "c7b7da5fb3f4",
       "componente": "5fdb94793adf"
     },
     "cm-a-pulgadas": {

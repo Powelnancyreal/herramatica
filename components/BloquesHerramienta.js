@@ -243,7 +243,85 @@ function Ilustracion({ imagen }) {
   )
 }
 
+// Mito frente a realidad: corrige creencias habituales sobre el tema de la herramienta.
+function Mitos({ b, o }) {
+  return (
+    <section>
+      <H2 id={idBloque(b)}>{b.titulo}</H2>
+      <ul className="space-y-3">
+        {b.items.map((m, i) => (
+          <li key={i} className="grid gap-px overflow-hidden rounded-2xl border border-gray-200 bg-gray-200 sm:grid-cols-2">
+            <div className="bg-red-50 p-4">
+              <p className="text-xs font-bold uppercase tracking-wide text-red-700">Mito</p>
+              <p className="mt-1 text-gray-800 line-through decoration-red-300">{m.mito}</p>
+            </div>
+            <div className="bg-white p-4">
+              <p className="text-xs font-bold uppercase tracking-wide text-green-700">Realidad</p>
+              <p className="mt-1 text-gray-700 leading-relaxed"><T t={m.realidad} origen={o} /></p>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+// Glosario de términos técnicos que aparecen en la herramienta.
+function Glosario({ b, o }) {
+  return (
+    <section>
+      <H2 id={idBloque(b)}>{b.titulo}</H2>
+      <dl className="divide-y divide-gray-100 rounded-2xl border border-gray-200">
+        {b.items.map(([termino, def]) => (
+          <div key={termino} className="grid gap-1 p-4 sm:grid-cols-[11rem_1fr] sm:gap-4">
+            <dt className="font-semibold text-gray-900">{termino}</dt>
+            <dd className="text-gray-700 leading-relaxed"><T t={def} origen={o} /></dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  )
+}
+
+// Lista de comprobación: pasos o requisitos que el lector puede ir revisando.
+function Checklist({ b, o }) {
+  return (
+    <section className="rounded-2xl bg-green-50/60 border border-green-100 p-5 sm:p-6">
+      <H2 id={idBloque(b)}>{b.titulo}</H2>
+      <ul className="space-y-3">
+        {b.items.map((it, i) => (
+          <li key={i} className="flex gap-3">
+            <span aria-hidden="true" className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded border-2 border-green-600 text-green-700 text-xs font-bold">✓</span>
+            <span className="text-gray-800 leading-relaxed"><T t={it} origen={o} /></span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+// Escenarios: situaciones concretas con su resultado, para que el lector se reconozca en una.
+function Escenarios({ b, o }) {
+  return (
+    <section>
+      <H2 id={idBloque(b)}>{b.titulo}</H2>
+      {b.intro && <p className="text-gray-700 leading-relaxed mb-4"><T t={b.intro} origen={o} /></p>}
+      <div className="grid gap-4 sm:grid-cols-3">
+        {b.items.map((e) => (
+          <div key={e.titulo} className="flex flex-col rounded-2xl border border-gray-200 bg-white p-5">
+            <p className="text-sm font-semibold text-gray-500">{e.titulo}</p>
+            <p className="mt-2 text-sm text-gray-700 leading-relaxed flex-1"><T t={e.situacion} origen={o} /></p>
+            <p className="mt-4 border-t border-gray-100 pt-3 text-2xl font-bold text-gray-900 tabular-nums">{e.resultado}</p>
+            {e.detalle && <p className="text-xs text-gray-500">{e.detalle}</p>}
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
+
 const BLOQUES = {
+  mitos: Mitos, glosario: Glosario, checklist: Checklist, escenarios: Escenarios,
   texto: Texto, pasos: Pasos, ejemplo: Ejemplo, tabla: Tabla, infografia: Infografia, comparacion: Comparacion,
   aviso: Aviso, consejos: Consejos, cifras: Cifras, fuentes: Fuentes,
 }
