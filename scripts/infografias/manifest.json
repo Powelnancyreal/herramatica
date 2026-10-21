@@ -298,5 +298,125 @@
     "alt": "Estilos de letra para Instagram como negrita, script y gótico creados con símbolos Unicode",
     "ancho": 800,
     "alto": 796
+  },
+  "regla-centimetros-pulgadas": {
+    "archivo": "regla-centimetros-pulgadas.webp",
+    "alt": "Regla con centímetros y pulgadas, tamaños de pantalla y estaturas en pies convertidas a centímetros",
+    "ancho": 800,
+    "alto": 856
+  },
+  "cuantos-kilos-tiene-una-arroba": {
+    "archivo": "cuantos-kilos-tiene-una-arroba.webp",
+    "alt": "Equivalencias de la arroba en kilos: castellana de 11,5 kg, de 12,5 kg y de 15 kg",
+    "ancho": 800,
+    "alto": 848
+  },
+  "tiempo-de-lectura-por-palabras": {
+    "archivo": "tiempo-de-lectura-por-palabras.webp",
+    "alt": "Tiempo de lectura de textos de 150 a 5000 palabras a velocidad lenta, media y rápida",
+    "ancho": 800,
+    "alto": 881
+  },
+  "componentes-indemnizacion-argentina": {
+    "archivo": "componentes-indemnizacion-argentina.webp",
+    "alt": "Componentes de la indemnización por despido en Argentina: antigüedad, preaviso e integración del mes",
+    "ancho": 800,
+    "alto": 911
+  },
+  "calculo-sac-proporcional-argentina": {
+    "archivo": "calculo-sac-proporcional-argentina.webp",
+    "alt": "Cálculo del aguinaldo SAC proporcional en Argentina con un ejemplo del segundo semestre",
+    "ancho": 800,
+    "alto": 924
+  },
+  "actualizacion-alquiler-icl-ipc": {
+    "archivo": "actualizacion-alquiler-icl-ipc.webp",
+    "alt": "Cómo actualizar un alquiler en Argentina con el coeficiente del ICL, IPC o CVS",
+    "ancho": 800,
+    "alto": 893
+  },
+  "rendimiento-plazo-fijo-30-dias": {
+    "archivo": "rendimiento-plazo-fijo-30-dias.webp",
+    "alt": "Rendimiento de un plazo fijo de un millón de pesos a 30 días y diferencia entre TNA y TEA",
+    "ancho": 800,
+    "alto": 818
+  },
+  "interes-compuesto-vs-simple": {
+    "archivo": "interes-compuesto-vs-simple.webp",
+    "alt": "Gráfico de interés compuesto frente a interés simple de 10 mil pesos al 10 por ciento en 30 años",
+    "ancho": 800,
+    "alto": 837
+  },
+  "descuentos-sueldo-bruto-argentina": {
+    "archivo": "descuentos-sueldo-bruto-argentina.webp",
+    "alt": "Descuentos del sueldo bruto en Argentina: jubilación 11 por ciento, obra social 3 y PAMI 3",
+    "ancho": 800,
+    "alto": 738
+  },
+  "formulas-area-figuras-pitagoras": {
+    "archivo": "formulas-area-figuras-pitagoras.webp",
+    "alt": "Fórmulas de área del cuadrado, rectángulo y triángulo y teorema de Pitágoras en una pizarra",
+    "ancho": 800,
+    "alto": 716
+  },
+  "formulas-volumen-cubo-esfera-cono": {
+    "archivo": "formulas-volumen-cubo-esfera-cono.webp",
+    "alt": "Fórmulas de volumen del cubo, la esfera, el cono y el prisma rectangular con ejemplos",
+    "ancho": 800,
+    "alto": 749
+  },
+  "orden-de-las-operaciones-ejemplo": {
+    "archivo": "orden-de-las-operaciones-ejemplo.webp",
+    "alt": "Orden de las operaciones combinadas con un ejemplo resuelto paso a paso que da 11",
+    "ancho": 800,
+    "alto": 885
+  },
+  "codigo-colores-resistencias": {
+    "archivo": "codigo-colores-resistencias.webp",
+    "alt": "Código de colores de una resistencia de 1 kilohmio y tabla de valores de cada color",
+    "ancho": 800,
+    "alto": 836
+  },
+  "calorias-bmr-tdee-deficit": {
+    "archivo": "calorias-bmr-tdee-deficit.webp",
+    "alt": "Cálculo de calorías diarias: metabolismo basal, gasto con actividad y déficit para bajar de peso",
+    "ancho": 800,
+    "alto": 919
+  },
+  "semanas-embarazo-fecha-parto": {
+    "archivo": "semanas-embarazo-fecha-parto.webp",
+    "alt": "Línea de las 40 semanas de embarazo por trimestres y cálculo de la fecha probable de parto",
+    "ancho": 800,
+    "alto": 734
+  },
+  "peso-saludable-segun-altura": {
+    "archivo": "peso-saludable-segun-altura.webp",
+    "alt": "Rango de peso saludable en kilos según la altura de 150 a 190 cm",
+    "ancho": 800,
+    "alto": 818
+  },
+  "hora-dormir-ciclos-de-sueno": {
+    "archivo": "hora-dormir-ciclos-de-sueno.webp",
+    "alt": "Horas para acostarse según los ciclos de sueño de 90 minutos si te despiertas a las 7",
+    "ancho": 800,
+    "alto": 871
+  },
+  "escalas-planos-mapas": {
+    "archivo": "escalas-planos-mapas.webp",
+    "alt": "Escalas de planos y mapas como 1:50, 1:100 y 1:50.000 con su equivalencia real",
+    "ancho": 800,
+    "alto": 758
+  },
+  "sopa-de-letras-direcciones": {
+    "archivo": "sopa-de-letras-direcciones.webp",
+    "alt": "Ejemplo de sopa de letras con palabras resaltadas y las ocho direcciones posibles",
+    "ancho": 800,
+    "alto": 910
+  },
+  "estilos-letras-grandes": {
+    "archivo": "estilos-letras-grandes.webp",
+    "alt": "Estilos de letras grandes: grafiti, tatuaje y molde con sus usos",
+    "ancho": 800,
+    "alto": 789
   }
 }

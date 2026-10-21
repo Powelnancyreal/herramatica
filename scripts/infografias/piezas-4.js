@@ -12,6 +12,8 @@ const TEMAS = {
   oscuro: { bg: '#111827', ink: '#F9FAFB', muted: '#9CA3AF', accent: '#A78BFA', soft: '#1F2937', line: '#374151', font: 'Segoe UI, Arial, sans-serif', titulo: 'Segoe UI, Arial, sans-serif' },
   cuaderno: { bg: '#FFFFFF', ink: '#1E3A8A', muted: '#475569', accent: '#DC2626', soft: '#EFF6FF', line: '#DBEAFE', font: 'Segoe UI, Arial, sans-serif', titulo: 'Segoe Print, Comic Sans MS, cursive', cuadricula: true },
   terminal: { bg: '#0B1020', ink: '#E5E7EB', muted: '#94A3B8', accent: '#34D399', soft: '#111A33', line: '#1E2A4A', font: 'Consolas, Courier New, monospace', titulo: 'Consolas, Courier New, monospace' },
+  pizarra: { bg: '#1F3A2E', ink: '#F1F5EE', muted: '#B7C7B9', accent: '#FDE68A', soft: '#2A4A3B', line: '#3E6151', font: 'Segoe UI, Arial, sans-serif', titulo: 'Segoe Print, Comic Sans MS, cursive' },
+  pastel: { bg: '#FDF4FF', ink: '#3B0764', muted: '#7E6A8A', accent: '#C026D3', soft: '#FAE8FF', line: '#F0D5F5', font: 'Verdana, Arial, sans-serif', titulo: 'Verdana, Arial, sans-serif', maxTitulo: 34 },
   banda: { bg: '#FFFFFF', ink: '#1F2937', muted: '#6B7280', accent: '#0D9488', soft: '#F0FDFA', line: '#E5E7EB', font: 'Trebuchet MS, Arial, sans-serif', titulo: 'Trebuchet MS, Arial, sans-serif', banda: true },
 }
 
@@ -27,7 +29,7 @@ function tema(nombre, extra = {}) {
 
   function lienzo({ alto: base, titulo, subtitulo, slug, cuerpo }) {
     const enBanda = t.banda
-    const tit = parrafo(M, enBanda ? 96 : 92, titulo, { size: 34, max: 40, alto: 1.2, weight: 700, family: t.titulo, fill: enBanda ? '#FFFFFF' : t.ink })
+    const tit = parrafo(M, enBanda ? 96 : 92, titulo, { size: 34, max: t.maxTitulo || 40, alto: 1.2, weight: 700, family: t.titulo, fill: enBanda ? '#FFFFFF' : t.ink })
     const sub = subtitulo
       ? parrafo(M, (enBanda ? 96 : 92) + tit.h + 8, subtitulo, { size: 20, max: 62, fill: enBanda ? 'rgba(255,255,255,0.85)' : t.muted })
       : { svg: '', h: 0 }

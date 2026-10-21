@@ -6587,33 +6587,86 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte centímetros a pulgadas o pulgadas a centímetros al instante, usando el factor de conversión exacto de 2.54 centímetros por pulgada. Muy útil para interpretar medidas de pantallas, ruedas, herramientas o productos importados de Estados Unidos, donde las pulgadas son la unidad de medida habitual.",
-    "howToUse": [
-      "Elige si vas a convertir de centímetros a pulgadas o al revés",
-      "Introduce el valor que quieres convertir",
-      "El resultado se calcula al instante"
-    ],
-    "benefits": [
-      "Convierte en ambos sentidos: centímetros a pulgadas y pulgadas a centímetros",
-      "Usa el factor de conversión exacto (1 pulgada = 2.54 cm), no una aproximación",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Convierte centímetros a pulgadas y pulgadas a centímetros con el factor exacto de 2,54. Sirve para pantallas, llantas, ropa, herramientas y estaturas en pies y pulgadas.",
+    "bloques": [
       {
-        "title": "¿Cuántos centímetros tiene una pulgada?",
-        "body": "Una pulgada equivale exactamente a 2.54 centímetros, por definición internacional acordada en 1959. Para convertir centímetros a pulgadas, se divide el valor en centímetros entre 2.54; para convertir pulgadas a centímetros, se multiplica el valor en pulgadas por 2.54."
+        "tipo": "infografia",
+        "archivo": "regla-centimetros-pulgadas.webp",
+        "alt": "Regla con centímetros y pulgadas, tamaños de pantalla y estaturas en pies convertidas a centímetros",
+        "ancho": 800,
+        "alto": 856,
+        "titulo": "¿Cuánto mide una pulgada comparada con un centímetro?"
       },
       {
-        "title": "¿Dónde se usan habitualmente las pulgadas?",
-        "body": "Las pulgadas son la unidad de longitud predominante en Estados Unidos y el Reino Unido, y también se usan internacionalmente para especificar el tamaño de pantallas (televisores, monitores, móviles), llantas de vehículos, tuberías y ciertas herramientas, incluso en países que usan el sistema métrico para el resto de medidas."
+        "tipo": "tabla",
+        "titulo": "¿Cuántos centímetros son las pulgadas más buscadas?",
+        "cabeceras": [
+          "Pulgadas",
+          "Centímetros",
+          "Dónde aparece"
+        ],
+        "filas": [
+          [
+            "1/4\"",
+            "0,64 cm",
+            "Brocas, tornillos y llaves"
+          ],
+          [
+            "1\"",
+            "2,54 cm",
+            "Tubería y mangueras"
+          ],
+          [
+            "6\"",
+            "15,24 cm",
+            "Pantalla de un móvil"
+          ],
+          [
+            "15,6\"",
+            "39,62 cm",
+            "Portátil estándar"
+          ],
+          [
+            "17\"",
+            "43,18 cm",
+            "Rin o llanta de coche"
+          ],
+          [
+            "32\"",
+            "81,28 cm",
+            "Talla de pantalón (cintura)"
+          ]
+        ]
       },
       {
-        "title": "Cómo convertir pulgadas a cm",
-        "body": "Para pasar de pulgadas a centímetros multiplica por 2.54, el factor exacto definido en 1959. Así, 10 pulgadas son 25.4 cm y una pantalla de 55 pulgadas mide 139.7 cm de diagonal. Para el camino inverso, de cm a pulgadas, divide entre 2.54: 30 cm son 11.81 pulgadas."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo pasar cualquier estatura en pies a centímetros?",
+        "pasos": [
+          {
+            "texto": "Pasa los pies a pulgadas: un pie tiene 12.",
+            "operacion": "5 × 12 = 60 pulgadas"
+          },
+          {
+            "texto": "Suma las pulgadas sueltas.",
+            "operacion": "60 + 9 = 69 pulgadas"
+          },
+          {
+            "texto": "Multiplica por 2,54.",
+            "operacion": "69 × 2,54 = 175,26 cm"
+          }
+        ],
+        "resultado": [
+          "5'9\"",
+          "175,3 cm"
+        ]
       },
       {
-        "title": "Estatura en pies y pulgadas a cm: 5'6\" y 5'5\"",
-        "body": "Las estaturas en Estados Unidos se escriben en pies y pulgadas, como 5'6\". Primero pasa todo a pulgadas (un pie tiene 12): 5 pies y 6 pulgadas son 66 pulgadas, que multiplicadas por 2.54 dan 167.64 cm. Del mismo modo, 5'5\" son 65 pulgadas, es decir, 165.1 cm, y 5'10\" son 177.8 cm. Para convertir estaturas directamente, usa el convertidor de [pies a metros](/pies-a-metros), que acepta pies y pulgadas a la vez."
+        "tipo": "texto",
+        "titulo": "¿Qué mide la pulgada de un televisor?",
+        "parrafos": [
+          "La diagonal de la pantalla, de esquina a esquina, sin contar el marco. Un televisor de 55\" tiene 140 cm de diagonal, pero mide unos 122 cm de ancho y 69 cm de alto en formato 16:9. Antes de comprar, comprueba el ancho real para saber si cabe en tu mueble.",
+          "Para otras medidas tienes el [convertidor de pies a metros](/pies-a-metros), el de [millas a kilómetros](/millas-a-kilometros) y el [convertidor de tallas](/convertidor-tallas)."
+        ]
       }
     ],
     "faqs": [
@@ -6663,27 +6716,86 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte arrobas a kilogramos o kilogramos a arrobas al instante. Como el valor de la arroba varía según el país y el contexto de uso (agrícola, ganadero o tradicional), esta calculadora te permite elegir entre las equivalencias más comunes: la arroba castellana (11.502 kg) y las arrobas de 12.5 kg y 15 kg usadas en distintos países de Latinoamérica.",
-    "howToUse": [
-      "Elige la equivalencia de arroba que corresponde a tu país o contexto",
-      "Elige si vas a convertir de arrobas a kilos o al revés",
-      "Introduce el valor que quieres convertir",
-      "El resultado se calcula al instante"
-    ],
-    "benefits": [
-      "Incluye las tres equivalencias de arroba más usadas, no un único valor fijo",
-      "Convierte en ambos sentidos: arrobas a kilos y kilos a arrobas",
-      "Aviso claro sobre la variación regional de esta unidad, para evitar confusiones",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Convierte arrobas a kilos y kilos a arrobas eligiendo la arroba que se usa en tu zona: la castellana de 11,502 kg, la de 12,5 kg o la de 15 kg. Así evitas errores al comprar o vender ganado, café o cosechas.",
+    "bloques": [
       {
-        "title": "¿Por qué el valor de la arroba varía según el país?",
-        "body": "A diferencia de las unidades del Sistema Internacional, la arroba es una unidad de peso tradicional cuyo valor exacto nunca se estandarizó globalmente. La \"arroba castellana\", histórica de España, equivale a 11.502 kg (25 libras castellanas). En varios países de Latinoamérica, especialmente en contextos agrícolas y ganaderos (como el peso de café, ganado o productos del campo), es habitual usar arrobas de 12.5 kg o 15 kg, según la región y la costumbre local."
+        "tipo": "infografia",
+        "archivo": "cuantos-kilos-tiene-una-arroba.webp",
+        "alt": "Equivalencias de la arroba en kilos: castellana de 11,5 kg, de 12,5 kg y de 15 kg",
+        "ancho": 800,
+        "alto": 848,
+        "titulo": "¿Por qué la arroba no pesa lo mismo en todas partes?"
       },
       {
-        "title": "¿Qué equivalencia debo usar?",
-        "body": "Si necesitas la equivalencia histórica o tradicional española, usa la arroba castellana (11.502 kg). Si trabajas con pesos agrícolas o ganaderos en Latinoamérica, consulta cuál es el estándar usado en tu región o mercado específico, ya que puede ser de 12.5 kg, 15 kg u otro valor local, y selecciona la opción correspondiente en esta calculadora."
+        "tipo": "tabla",
+        "titulo": "¿Cuántos kilos son 5, 10 o 20 arrobas?",
+        "cabeceras": [
+          "Arrobas",
+          "Castellana (11,502 kg)",
+          "12,5 kg",
+          "15 kg"
+        ],
+        "filas": [
+          [
+            "1",
+            "11,5 kg",
+            "12,5 kg",
+            "15 kg"
+          ],
+          [
+            "5",
+            "57,5 kg",
+            "62,5 kg",
+            "75 kg"
+          ],
+          [
+            "10",
+            "115 kg",
+            "125 kg",
+            "150 kg"
+          ],
+          [
+            "20",
+            "230 kg",
+            "250 kg",
+            "300 kg"
+          ],
+          [
+            "40",
+            "460,1 kg",
+            "500 kg",
+            "600 kg"
+          ]
+        ]
+      },
+      {
+        "tipo": "escenarios",
+        "titulo": "¿Qué arroba se usa en cada caso?",
+        "items": [
+          {
+            "titulo": "Venta de ganado",
+            "situacion": "En las ferias de Brasil y en buena parte del sector ganadero se cotiza por arroba de 15 kg de carcasa.",
+            "resultado": "15 kg"
+          },
+          {
+            "titulo": "Café, papa y cosechas",
+            "situacion": "En Colombia y otras zonas de Latinoamérica es habitual la arroba de 25 libras.",
+            "resultado": "12,5 kg"
+          },
+          {
+            "titulo": "Uso tradicional",
+            "situacion": "En España y en documentos antiguos, la arroba castellana de 25 libras castellanas.",
+            "resultado": "11,502 kg"
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué tiene que ver la arroba con el símbolo @?",
+        "parrafos": [
+          "Del árabe «ar-rub», que significa «la cuarta parte»: una arroba era la cuarta parte de un quintal. Como el quintal y la libra variaban de una región a otra, cada lugar acabó con su propia arroba. El símbolo @ que usamos en los correos se llamaba también arroba porque se usaba para abreviar esta medida.",
+          "Para otras unidades de peso tienes [kilos a libras](/kilos-a-libras), [libras a kilos](/libras-a-kilos) y el [convertidor de unidades](/convertidor-unidades)."
+        ]
       }
     ],
     "faqs": [
@@ -6725,26 +6837,81 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Esta calculadora estima el tiempo de lectura de un texto de dos formas: pegando el texto completo (que se cuenta automáticamente) o indicando directamente el número de palabras si ya lo conoces. El resultado se muestra para tres velocidades de lectura distintas: lenta, media y rápida, útil para artículos, guiones, presentaciones o trabajos académicos.",
-    "howToUse": [
-      "Elige si vas a pegar el texto completo o indicar el número de palabras directamente",
-      "Pega tu texto o escribe el número de palabras",
-      "Consulta el tiempo estimado de lectura para velocidad lenta, media y rápida"
-    ],
-    "benefits": [
-      "Admite tanto texto completo como número de palabras directo",
-      "Muestra el tiempo para tres velocidades de lectura distintas, no una sola estimación",
-      "Resultado instantáneo mientras escribes",
-      "Útil para artículos, guiones de vídeo, presentaciones y trabajos académicos",
-      "Gratis, sin registro y funciona directamente en tu navegador, sin subir tu texto a ningún servidor"
-    ],
-    "contentSections": [
+    "resumen": "Pega tu texto o escribe el número de palabras y obtén el tiempo de lectura a velocidad lenta (150 palabras por minuto), media (200) o rápida (260). Útil para blogs, presentaciones, discursos y exámenes.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula el tiempo de lectura?",
-        "body": "El tiempo de lectura se calcula dividiendo el número total de palabras entre la velocidad de lectura en palabras por minuto (ppm). Esta calculadora usa tres velocidades de referencia: lectura lenta (150 ppm), lectura media (200 ppm) y lectura rápida (260 ppm), que cubren el rango habitual de velocidad de lectura en silencio de un adulto en español."
+        "tipo": "infografia",
+        "archivo": "tiempo-de-lectura-por-palabras.webp",
+        "alt": "Tiempo de lectura de textos de 150 a 5000 palabras a velocidad lenta, media y rápida",
+        "ancho": 800,
+        "alto": 881,
+        "titulo": "¿Cuánto tarda en leerse un post, un artículo o un capítulo?"
       },
       {
-        "title": "¿Por qué varía tanto la velocidad de lectura entre personas?",
-        "body": "La velocidad de lectura depende de la familiaridad del lector con el tema, la complejidad del vocabulario y la estructura de las frases, el idioma nativo del lector, y si está leyendo por placer o analizando el texto en detalle. Por eso esta calculadora ofrece un rango de estimaciones (lenta, media y rápida) en lugar de un único número, para que puedas elegir la referencia más realista según tu audiencia."
+        "tipo": "tabla",
+        "titulo": "¿Cuántas palabras necesito para hablar X minutos?",
+        "intro": "Leyendo en voz alta, a unas 130 palabras por minuto:",
+        "cabeceras": [
+          "Duración",
+          "Palabras aproximadas",
+          "Ejemplo"
+        ],
+        "filas": [
+          [
+            "1 minuto",
+            "130",
+            "Presentación personal"
+          ],
+          [
+            "3 minutos",
+            "390",
+            "Brindis o discurso corto"
+          ],
+          [
+            "5 minutos",
+            "650",
+            "Exposición en clase"
+          ],
+          [
+            "10 minutos",
+            "1.300",
+            "Charla o ponencia breve"
+          ],
+          [
+            "20 minutos",
+            "2.600",
+            "Conferencia"
+          ]
+        ]
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Para qué sirve conocer el tiempo de lectura?",
+        "items": [
+          {
+            "titulo": "En un blog",
+            "texto": "Mostrar «5 min de lectura» ayuda al lector a decidir si lo lee ahora o lo guarda."
+          },
+          {
+            "titulo": "En un discurso",
+            "texto": "Ajusta el texto al tiempo que te dan antes de ensayar, no después."
+          },
+          {
+            "titulo": "En un examen",
+            "texto": "Calcula cuánto te llevará leer los textos largos y reparte el tiempo."
+          },
+          {
+            "titulo": "Con límite de palabras",
+            "texto": "Si además tienes un máximo de palabras, controla ambos con el [contador de palabras](/contador-palabras)."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué hace que una persona lea más rápido o más despacio?",
+        "parrafos": [
+          "El tipo de texto pesa más que la persona: una novela se lee mucho más rápido que un contrato o un artículo técnico. También influyen la familiaridad con el tema, la pantalla (en el móvil se lee algo más despacio) y si tomas notas. Por eso conviene usar la velocidad lenta para textos de estudio y la media para contenido divulgativo."
+        ]
       }
     ],
     "faqs": [
@@ -6786,31 +6953,67 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Esta calculadora estima la indemnización por despido sin causa justificada y la liquidación final que corresponde a un trabajador en relación de dependencia en Argentina, según la Ley de Contrato de Trabajo (LCT). Incluye la indemnización por antigüedad (Art. 245), el preaviso no otorgado, la integración del mes de despido, el SAC proporcional y las vacaciones no gozadas.",
-    "howToUse": [
-      "Elige entre \"Indemnización por Despido\" (para despido sin causa) o \"Liquidación Final\" (aplica también a renuncias)",
-      "Introduce tu mejor remuneración mensual, normal y habitual",
-      "Introduce tu fecha de ingreso y de egreso",
-      "Consulta el desglose completo de cada componente de la liquidación"
-    ],
-    "benefits": [
-      "Calcula la indemnización por antigüedad según el Art. 245 de la LCT",
-      "Incluye preaviso, integración del mes de despido, SAC y vacaciones proporcionales",
-      "Determina automáticamente los años de antigüedad computables, incluyendo fracciones mayores a 3 meses",
-      "Cubre tanto el despido sin causa como la liquidación final por renuncia",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calculá la indemnización por despido sin causa en Argentina: un mes de tu mejor sueldo por cada año trabajado (la fracción de más de 3 meses cuenta como año), más el preaviso si no te lo dieron y la integración del mes de despido.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula la indemnización por antigüedad (Art. 245 LCT)?",
-        "body": "La indemnización por antigüedad equivale a un mes de la mejor remuneración mensual, normal y habitual percibida durante el último año (o durante la relación laboral, si fue menor a un año), multiplicado por la cantidad de años de servicio. Toda fracción mayor a tres meses se computa como un año completo. Por ejemplo, un trabajador con 4 años y 5 meses de antigüedad cobra 5 meses de sueldo en concepto de indemnización por antigüedad."
+        "tipo": "infografia",
+        "archivo": "componentes-indemnizacion-argentina.webp",
+        "alt": "Componentes de la indemnización por despido en Argentina: antigüedad, preaviso e integración del mes",
+        "ancho": 800,
+        "alto": 911,
+        "titulo": "¿Qué conceptos incluye la indemnización por despido?"
       },
       {
-        "title": "¿Qué es la liquidación final y en qué se diferencia de la indemnización?",
-        "body": "La liquidación final corresponde a los conceptos que se deben pagar a todo trabajador que deja de prestar servicios, sea por renuncia o por despido: el SAC (aguinaldo) proporcional a los días trabajados en el semestre, y las vacaciones proporcionales no gozadas. La indemnización por despido (Art. 245), en cambio, solo corresponde cuando el empleador despide al trabajador sin una causa justificada, y se suma a la liquidación final."
+        "tipo": "glosario",
+        "titulo": "¿Qué significan antigüedad, preaviso e integración?",
+        "items": [
+          [
+            "Antigüedad (art. 245)",
+            "Un sueldo por cada año trabajado o fracción mayor de 3 meses, tomando la mejor remuneración mensual, normal y habitual del último año."
+          ],
+          [
+            "Preaviso (art. 231)",
+            "Aviso previo al despido: 15 días en período de prueba, 1 mes con menos de 5 años y 2 meses con 5 años o más. Si no te avisaron, te lo deben pagar."
+          ],
+          [
+            "Integración del mes (art. 233)",
+            "Si el despido no fue el último día del mes, te pagan los días que faltaban para terminarlo."
+          ],
+          [
+            "Liquidación final",
+            "Lo que te corresponde por cualquier salida: días trabajados del mes, vacaciones no gozadas y SAC proporcional."
+          ],
+          [
+            "Tope",
+            "El convenio colectivo fija un tope para la base del cálculo de antigüedad. Afecta sobre todo a sueldos altos."
+          ]
+        ]
       },
       {
-        "title": "Cálculo de indemnización paso a paso con ejemplo",
-        "body": "La indemnización por antigüedad del artículo 245 de la LCT es un mes de la mejor remuneración mensual, normal y habitual del último año por cada año de servicio o fracción mayor a tres meses. Con un mejor sueldo de $1.500.000 y 4 años y 5 meses de antigüedad, se cuentan 5 períodos: $7.500.000. A eso se suman la indemnización sustitutiva del preaviso (un mes si tenés hasta 5 años de antigüedad, dos meses si tenés más), la integración del mes de despido si no te despidieron el último día del mes, y la liquidación final con SAC y vacaciones proporcionales. Podés calcular el preaviso por separado con la calculadora de [preaviso laboral](/preaviso-laboral)."
+        "tipo": "checklist",
+        "titulo": "¿Qué tener a mano para calcular tu indemnización?",
+        "items": [
+          "Tus recibos del último año, para identificar la mejor remuneración mensual, normal y habitual.",
+          "La fecha de ingreso que figura en tu recibo y la fecha del despido.",
+          "Si te dieron preaviso por escrito y desde cuándo.",
+          "Tu convenio colectivo, por el tope y por posibles adicionales.",
+          "Los días de vacaciones que te quedaban pendientes."
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "ambar",
+        "titulo": "¿Qué no incluye esta calculadora?",
+        "texto": "No aplica el tope del convenio ni las multas o agravantes que pueden corresponder en algunos casos. Tampoco reemplaza el asesoramiento: si vas a reclamar, consultá con un abogado laboral o con el Ministerio de Capital Humano. Para el aguinaldo proporcional usá la [calculadora de SAC](/calcular-sac-argentina)."
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Ley de Contrato de Trabajo 20.744 (InfoLEG)",
+            "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25552/texact.htm"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -6855,27 +7058,65 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula el Sueldo Anual Complementario (SAC), conocido como aguinaldo, que corresponde a todo trabajador en relación de dependencia en Argentina. Elige la cuota (primer o segundo semestre), introduce tu mejor remuneración del período y obtén el monto exacto, incluso si trabajaste solo una parte del semestre.",
-    "howToUse": [
-      "Elige la cuota del SAC: primer semestre (se cobra en junio) o segundo semestre (se cobra en diciembre)",
-      "Introduce el año correspondiente",
-      "Introduce tu mejor remuneración mensual del semestre",
-      "Si empezaste a trabajar durante ese semestre, indica tu fecha de ingreso para el cálculo proporcional"
-    ],
-    "benefits": [
-      "Calcula tanto el SAC completo como el proporcional para semestres incompletos",
-      "Aplica la fórmula oficial: 50% de la mejor remuneración mensual del semestre",
-      "Diferenciado por cuota (junio o diciembre) y por año",
-      "Resultado instantáneo mientras completas los datos",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calculá tu aguinaldo (SAC): la mitad del mejor sueldo bruto del semestre, o la parte proporcional si no trabajaste el semestre completo. Se paga en dos cuotas, hasta el 30 de junio y el 18 de diciembre.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula el aguinaldo (SAC) en Argentina?",
-        "body": "El SAC equivale al 50% de la mejor remuneración mensual, normal y habitual devengada durante el semestre correspondiente (enero-junio o julio-diciembre). Se paga en dos cuotas: la primera antes del 30 de junio y la segunda antes del 18 de diciembre, según la Ley 23.041. Si el sueldo varió durante el semestre (por un aumento, por ejemplo), se toma el mes con la remuneración más alta."
+        "tipo": "infografia",
+        "archivo": "calculo-sac-proporcional-argentina.webp",
+        "alt": "Cálculo del aguinaldo SAC proporcional en Argentina con un ejemplo del segundo semestre",
+        "ancho": 800,
+        "alto": 924,
+        "titulo": "¿Cómo se calcula el SAC si entré a mitad de semestre?"
       },
       {
-        "title": "¿Cómo se calcula el aguinaldo si empecé a trabajar a mitad de semestre?",
-        "body": "Si trabajaste solo una parte del semestre, el SAC se calcula en proporción a los días efectivamente trabajados: se toma el 50% de la mejor remuneración del período trabajado, multiplicado por la proporción de días trabajados sobre el total de días del semestre. Esta calculadora hace este cálculo automáticamente al introducir tu fecha de ingreso."
+        "tipo": "escenarios",
+        "titulo": "¿Cuánto cobro de aguinaldo según mi situación?",
+        "intro": "Con un mejor sueldo bruto del semestre de $1.200.000:",
+        "items": [
+          {
+            "titulo": "Semestre completo",
+            "situacion": "Trabajaste de julio a diciembre sin interrupciones.",
+            "resultado": "$600.000",
+            "detalle": "bruto, antes de aportes"
+          },
+          {
+            "titulo": "Entraste en septiembre",
+            "situacion": "Trabajaste 122 de los 184 días del segundo semestre.",
+            "resultado": "$397.826",
+            "detalle": "$600.000 × 122 ÷ 184"
+          },
+          {
+            "titulo": "Te fuiste en agosto",
+            "situacion": "Se cobra en la liquidación final, por los días trabajados del semestre.",
+            "resultado": "Proporcional",
+            "detalle": "según los días trabajados"
+          }
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "¿Qué es cierto sobre el aguinaldo en Argentina?",
+        "items": [
+          {
+            "mito": "El aguinaldo es un sueldo completo por año.",
+            "realidad": "Es medio sueldo por semestre: dos cuotas que suman un sueldo al año."
+          },
+          {
+            "mito": "Se calcula con el sueldo de junio o de diciembre.",
+            "realidad": "Se usa el mejor sueldo bruto mensual del semestre, aunque haya sido en otro mes."
+          },
+          {
+            "mito": "El aguinaldo no tiene descuentos.",
+            "realidad": "Tiene los mismos aportes que el sueldo: jubilación, obra social y PAMI."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cuánto cobro de aguinaldo en mano?",
+        "parrafos": [
+          "Al SAC bruto se le restan los aportes del 17 % (11 % jubilación, 3 % obra social y 3 % PAMI), igual que al sueldo. Con un SAC de $600.000 cobrarías unos $498.000. Si pagás Impuesto a las Ganancias, el aguinaldo también se tiene en cuenta. Calculá tu sueldo en mano con la [calculadora de sueldo neto](/calculadora-sueldo-neto-argentina)."
+        ]
       }
     ],
     "faqs": [
@@ -6920,34 +7161,75 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula el nuevo valor de tu alquiler aplicando el coeficiente de ajuste correspondiente a tu contrato (ICL del BCRA, IPC del INDEC, CVS u otro índice pactado), o directamente un porcentaje de aumento acordado. Introduce el alquiler actual y el coeficiente o porcentaje vigente para tu fecha de actualización.",
-    "howToUse": [
-      "Introduce el monto de tu alquiler actual",
-      "Elige si vas a aplicar un coeficiente de ajuste (ICL, IPC, CVS) o un porcentaje de aumento",
-      "Introduce el coeficiente o porcentaje correspondiente a tu fecha de actualización",
-      "Obtén el nuevo valor de tu alquiler al instante"
-    ],
-    "benefits": [
-      "Admite tanto coeficientes de ajuste (ICL, IPC, CVS) como porcentajes de aumento directos",
-      "Muestra el aumento en pesos y en porcentaje, además del nuevo alquiler",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calculá el nuevo valor de tu alquiler con el coeficiente del índice que fija tu contrato (ICL, IPC, CVS u otro) o con un porcentaje de aumento. Multiplicás el alquiler actual por el coeficiente y listo.",
+    "bloques": [
       {
-        "title": "¿Qué índices se usan para ajustar el alquiler en Argentina?",
-        "body": "Los contratos de alquiler en Argentina suelen ajustarse según distintos índices, dependiendo de lo pactado: el ICL (Índice para Contratos de Locación) publicado por el BCRA, el IPC (Índice de Precios al Consumidor) publicado por el INDEC, el CVS (Coeficiente de Variación Salarial), o combinaciones de estos según la fecha de firma del contrato y la normativa vigente en ese momento. El coeficiente publicado indica cuánto se multiplica el alquiler anterior para obtener el nuevo valor."
+        "tipo": "infografia",
+        "archivo": "actualizacion-alquiler-icl-ipc.webp",
+        "alt": "Cómo actualizar un alquiler en Argentina con el coeficiente del ICL, IPC o CVS",
+        "ancho": 800,
+        "alto": 893,
+        "titulo": "¿Cómo se calcula el aumento del alquiler con un coeficiente?"
       },
       {
-        "title": "¿Dónde consigo el coeficiente vigente para mi contrato?",
-        "body": "El coeficiente exacto depende de la fecha de tu contrato y de la fecha de ajuste, y se actualiza mensualmente. Puedes consultarlo en el simulador oficial del BCRA (para el índice ICL) o en las publicaciones del INDEC (para el IPC), ingresando la fecha de inicio del contrato y la fecha del ajuste. Esta calculadora no publica esos valores porque cambian cada mes; una vez que tengas el coeficiente, introdúcelo aquí para calcular tu nuevo alquiler al instante."
+        "tipo": "pasos",
+        "titulo": "¿Cómo saber cuánto me aumenta el alquiler este mes?",
+        "pasos": [
+          {
+            "titulo": "Revisá tu contrato",
+            "texto": "Buscá la cláusula de actualización: qué índice usa y cada cuánto se ajusta (cada 3, 4, 6 o 12 meses)."
+          },
+          {
+            "titulo": "Conseguí el coeficiente",
+            "texto": "Dividí el valor del índice en la fecha de ajuste por su valor al inicio del período. El BCRA publica el ICL y el INDEC el IPC y el CVS."
+          },
+          {
+            "titulo": "Aplicalo aquí",
+            "texto": "Escribí tu alquiler actual y el coeficiente: obtenés el nuevo monto y el porcentaje de aumento."
+          }
+        ]
       },
       {
-        "title": "Cómo calcular el aumento del alquiler por IPC",
-        "body": "Si tu contrato se ajusta por inflación, el aumento se calcula con la variación del Índice de Precios al Consumidor que publica el INDEC cada mes. Para un ajuste trimestral, multiplicá los coeficientes de los tres meses: si la inflación fue de 3%, 2.5% y 2%, el coeficiente es 1.03 × 1.025 × 1.02 = 1.0769, es decir, un aumento del 7.69%. Un alquiler de $500.000 pasaría a $538.433. No sumes los porcentajes: la inflación se acumula. Para calcular la inflación acumulada de cualquier período podés usar nuestra [calculadora de inflación](/calculadora-inflacion)."
+        "tipo": "comparacion",
+        "titulo": "¿Qué cambió con la derogación de la Ley de Alquileres?",
+        "columnas": [
+          {
+            "titulo": "Contratos anteriores a 2024",
+            "tono": "gris",
+            "items": [
+              "Firmados con la Ley 27.551 vigente.",
+              "Ajuste anual por ICL, o según la modificación de 2023.",
+              "Siguen con lo que dice el contrato hasta que termine."
+            ]
+          },
+          {
+            "titulo": "Contratos desde el 29/12/2023",
+            "tono": "azul",
+            "items": [
+              "Rige el DNU 70/2023: las partes acuerdan libremente.",
+              "Pueden pactar cualquier índice o porcentaje y cualquier frecuencia.",
+              "También el plazo y la moneda del alquiler."
+            ]
+          }
+        ]
       },
       {
-        "title": "Calculadora de alquileres BCRA: el índice ICL",
-        "body": "El Índice para Contratos de Locación (ICL) lo publica el Banco Central (BCRA) a diario y es el que usan los contratos firmados bajo la Ley 27.551, entre julio de 2020 y octubre de 2023, que se ajustan una vez al año. El coeficiente se obtiene dividiendo el ICL del día del ajuste por el ICL del día de inicio del contrato. Los contratos firmados bajo la Ley 27.737, desde octubre hasta fines de 2023, se ajustan cada seis meses con el índice Casa Propia. Desde el DNU 70/2023, en los contratos nuevos las partes eligen libremente el índice y la frecuencia, así que revisá siempre lo que dice el tuyo."
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "La calculadora no carga los índices automáticamente porque cada contrato usa un índice y unas fechas distintas. Así evitás aplicar un coeficiente que no es el tuyo."
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "BCRA: Índice para Contratos de Locación (ICL)",
+            "url": "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp"
+          },
+          {
+            "texto": "INDEC: Índice de precios al consumidor",
+            "url": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -6993,27 +7275,76 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula el interés y el monto final de un plazo fijo tradicional a partir del capital depositado, la Tasa Nominal Anual (TNA) que ofrece el banco y el plazo en días. También calcula la Tasa Efectiva Anual (TEA) equivalente, útil para comparar ofertas de distintos bancos.",
-    "howToUse": [
-      "Introduce el capital que vas a depositar",
-      "Introduce la TNA (tasa nominal anual) que te ofrece el banco",
-      "Elige el plazo en días",
-      "Consulta el interés ganado, el monto final y la TEA equivalente"
-    ],
-    "benefits": [
-      "Calcula el interés exacto usando la fórmula estándar de interés simple de un plazo fijo",
-      "Convierte la TNA a TEA (tasa efectiva anual), útil para comparar entre bancos",
-      "Admite los plazos más habituales: 30, 60, 90, 180 y 365 días",
-      "Resultado instantáneo mientras completas los datos",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribí el capital, la TNA que ofrece tu banco y el plazo en días: obtenés el interés, el total al vencimiento y la TEA. Funciona con plazos fijos tradicionales en pesos.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula el interés de un plazo fijo?",
-        "body": "Un plazo fijo tradicional usa interés simple: Interés = Capital × (TNA ÷ 365) × días del plazo. Por ejemplo, con un capital de $500.000, una TNA del 35% y un plazo de 30 días, el interés es 500.000 × (0.35 ÷ 365) × 30 ≈ $14.384. El monto final es el capital más el interés ganado."
+        "tipo": "infografia",
+        "archivo": "rendimiento-plazo-fijo-30-dias.webp",
+        "alt": "Rendimiento de un plazo fijo de un millón de pesos a 30 días y diferencia entre TNA y TEA",
+        "ancho": 800,
+        "alto": 818,
+        "titulo": "¿Qué parte de lo que cobro al vencer es interés?"
       },
       {
-        "title": "¿Qué diferencia hay entre TNA y TEA?",
-        "body": "La TNA (Tasa Nominal Anual) es la tasa que informa el banco, pero no refleja directamente el rendimiento real si reinvirtieras los intereses periódicamente. La TEA (Tasa Efectiva Anual) sí lo hace, y por eso siempre es un poco mayor que la TNA para un mismo producto. Al comparar plazos fijos de distintos bancos, la TEA es la referencia más precisa del rendimiento real."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto rinde un plazo fijo según el monto?",
+        "intro": "Interés a 30 días con una TNA de ejemplo del 35 %:",
+        "cabeceras": [
+          "Capital",
+          "Interés a 30 días",
+          "Total al vencer"
+        ],
+        "filas": [
+          [
+            "$100.000",
+            "$2.877",
+            "$102.877"
+          ],
+          [
+            "$500.000",
+            "$14.384",
+            "$514.384"
+          ],
+          [
+            "$1.000.000",
+            "$28.767",
+            "$1.028.767"
+          ],
+          [
+            "$5.000.000",
+            "$143.836",
+            "$5.143.836"
+          ]
+        ]
+      },
+      {
+        "tipo": "glosario",
+        "titulo": "¿Qué es la TNA, la TEA y el plazo fijo UVA?",
+        "items": [
+          [
+            "TNA",
+            "Tasa Nominal Anual. Es la que anuncia el banco y sirve para calcular el interés de un plazo concreto."
+          ],
+          [
+            "TEA",
+            "Tasa Efectiva Anual. Lo que ganarías en un año si renovaras capital e intereses en cada vencimiento. Siempre es mayor que la TNA."
+          ],
+          [
+            "Plazo fijo UVA",
+            "Ajusta el capital por inflación (por las UVA) y paga una tasa adicional. Tiene un plazo mínimo más largo."
+          ],
+          [
+            "Precancelable",
+            "Permite retirar el dinero antes del vencimiento a cambio de una tasa menor."
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo saber si un plazo fijo me conviene?",
+        "parrafos": [
+          "Compará la tasa mensual (TNA ÷ 12) con la inflación mensual esperada: si la inflación es mayor, tu dinero pierde poder de compra aunque los pesos aumenten. Para ver cómo crece un ahorro a largo plazo con reinversión, probá la [calculadora de interés compuesto](/calculadora-interes-compuesto); y para el efecto de la inflación sobre tus ahorros, la [calculadora de inflación](/calculadora-inflacion)."
+        ]
       }
     ],
     "faqs": [
@@ -7053,27 +7384,66 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula cómo crece una inversión con interés compuesto a lo largo del tiempo, a partir del capital inicial, la tasa de interés anual, el plazo y la frecuencia de capitalización. Incluye la opción de sumar aportes mensuales adicionales, para simular un plan de ahorro periódico.",
-    "howToUse": [
-      "Introduce el capital inicial",
-      "Introduce la tasa de interés anual esperada",
-      "Elige el plazo en años y la frecuencia de capitalización",
-      "Si haces aportes periódicos, indica el monto mensual adicional"
-    ],
-    "benefits": [
-      "Calcula el efecto del interés compuesto a lo largo de varios años",
-      "Permite simular aportes mensuales adicionales, no solo el capital inicial",
-      "Admite distintas frecuencias de capitalización: anual, semestral, trimestral, mensual o diaria",
-      "Muestra el total aportado por separado del interés ganado",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula cuánto crece tu dinero con interés compuesto: capital inicial, tasa anual, años, frecuencia de capitalización y aportes periódicos. Verás el saldo final y cuánto corresponde a intereses.",
+    "bloques": [
       {
-        "title": "¿Qué es el interés compuesto?",
-        "body": "El interés compuesto es aquel que se calcula no solo sobre el capital inicial, sino también sobre los intereses ya generados en períodos anteriores, por lo que el crecimiento se acelera con el tiempo (\"interés sobre interés\"). La fórmula básica es A = P × (1 + r/n)^(n×t), donde P es el capital inicial, r es la tasa anual en decimal, n es la cantidad de capitalizaciones por año, y t es el tiempo en años."
+        "tipo": "infografia",
+        "archivo": "interes-compuesto-vs-simple.webp",
+        "alt": "Gráfico de interés compuesto frente a interés simple de 10 mil pesos al 10 por ciento en 30 años",
+        "ancho": 800,
+        "alto": 837,
+        "titulo": "¿Cuánto más gana el interés compuesto que el simple?"
       },
       {
-        "title": "¿Por qué importan los aportes periódicos además del capital inicial?",
-        "body": "Aportar una cantidad fija todos los meses, además del capital inicial, acelera notablemente el crecimiento de una inversión a largo plazo, ya que cada nuevo aporte también empieza a generar intereses compuestos desde el momento en que se realiza. Esta es la base de estrategias de ahorro e inversión a largo plazo, donde la constancia de los aportes suele ser tan importante como la tasa de interés obtenida."
+        "tipo": "escenarios",
+        "titulo": "¿Cuánto tendré si ahorro cada mes?",
+        "intro": "Aportes mensuales al 8 % anual, capitalizando cada mes, sin capital inicial:",
+        "items": [
+          {
+            "titulo": "$1.000 al mes",
+            "situacion": "Durante 10 años: aportas $120.000 en total.",
+            "resultado": "$182.946",
+            "detalle": "$62.946 de intereses"
+          },
+          {
+            "titulo": "$1.000 al mes",
+            "situacion": "Durante 20 años: aportas $240.000 en total.",
+            "resultado": "$589.020",
+            "detalle": "los intereses superan lo aportado"
+          },
+          {
+            "titulo": "$1.000 al mes",
+            "situacion": "Durante 30 años: aportas $360.000 en total.",
+            "resultado": "$1.490.359",
+            "detalle": "el 76 % son intereses"
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo influyen los aportes mensuales en el resultado final?",
+        "parrafos": [
+          "Sin aportes, el saldo final es C × (1 + r/n)^(n×t), con C el capital, r la tasa anual, n las capitalizaciones por año y t los años. Cada aporte periódico crece igual desde la fecha en que lo haces, por eso los primeros aportes son los que más rinden.",
+          "La lección práctica es empezar pronto: 10 años más de plazo valen más que duplicar el aporte. Para depósitos a plazo concretos usa la [calculadora de plazo fijo](/calculadora-plazo-fijo) o la de [CETES](/calculadora-cetes); para ver el efecto contrario en una deuda, la [calculadora de préstamos](/calculadora-prestamo)."
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "¿Qué errores son comunes al calcular el interés compuesto?",
+        "items": [
+          {
+            "mito": "Un 10 % durante 10 años duplica el dinero exacto.",
+            "realidad": "Lo multiplica por 2,59: el interés de cada año también genera interés."
+          },
+          {
+            "mito": "La frecuencia de capitalización no importa.",
+            "realidad": "Importa, aunque menos de lo que parece: al 10 %, capitalizar cada mes rinde un 10,47 % anual en vez de un 10 %."
+          },
+          {
+            "mito": "El saldo final es dinero real de hoy.",
+            "realidad": "Hay que descontar la inflación: un 8 % con un 5 % de inflación es un rendimiento real de alrededor del 3 %."
+          }
+        ]
       }
     ],
     "faqs": [
@@ -7114,26 +7484,83 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula tu sueldo neto a partir del sueldo bruto, aplicando los descuentos estándar de todo trabajador en relación de dependencia en Argentina: jubilación (11%), obra social (3%) y PAMI (3%), además de la cuota sindical si corresponde a tu convenio.",
-    "howToUse": [
-      "Introduce tu sueldo bruto mensual",
-      "Si tu convenio colectivo incluye cuota sindical, introduce el porcentaje correspondiente",
-      "Consulta tu sueldo neto estimado y el detalle de cada descuento"
-    ],
-    "benefits": [
-      "Calcula los tres descuentos obligatorios de todo trabajador: jubilación, obra social y PAMI",
-      "Permite agregar la cuota sindical si tu convenio la incluye",
-      "Muestra el detalle de cada descuento por separado, no solo el total",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Ingresá tu sueldo bruto y obtenés el neto: te descuentan un 17 % de aportes (11 % jubilación, 3 % obra social y 3 % PAMI). El Impuesto a las Ganancias, si corresponde, se retiene aparte.",
+    "bloques": [
       {
-        "title": "¿Qué descuentos se aplican al sueldo bruto en Argentina?",
-        "body": "Todo trabajador en relación de dependencia en Argentina tiene tres descuentos obligatorios sobre su sueldo bruto: 11% para el sistema de jubilaciones (SIPA), 3% para la obra social, y 3% para el INSSJP (PAMI, Ley 19.032), sumando un 17% de descuentos estándar. A esto puede sumarse la cuota sindical, si el convenio colectivo aplicable a tu actividad la contempla, y la retención del Impuesto a las Ganancias, si tu sueldo supera el mínimo no imponible vigente."
+        "tipo": "infografia",
+        "archivo": "descuentos-sueldo-bruto-argentina.webp",
+        "alt": "Descuentos del sueldo bruto en Argentina: jubilación 11 por ciento, obra social 3 y PAMI 3",
+        "ancho": 800,
+        "alto": 738,
+        "titulo": "¿A dónde va cada peso que te descuentan del sueldo?"
       },
       {
-        "title": "¿Por qué esta calculadora no incluye el Impuesto a las Ganancias?",
-        "body": "El Impuesto a las Ganancias para trabajadores en relación de dependencia se calcula sobre escalas y deducciones que se actualizan periódicamente por la AFIP, y dependen de tu situación personal (cargas de familia, otras deducciones, etc.). Como estos valores cambian con cierta frecuencia, esta calculadora se limita a los descuentos fijos y estables (17%) para evitar mostrarte una cifra basada en escalas desactualizadas; consulta tu recibo de sueldo para conocer la retención de Ganancias que te corresponde."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto cobro en mano según mi sueldo bruto?",
+        "cabeceras": [
+          "Bruto",
+          "Aportes (17 %)",
+          "Neto"
+        ],
+        "filas": [
+          [
+            "$800.000",
+            "$136.000",
+            "$664.000"
+          ],
+          [
+            "$1.000.000",
+            "$170.000",
+            "$830.000"
+          ],
+          [
+            "$1.500.000",
+            "$255.000",
+            "$1.245.000"
+          ],
+          [
+            "$2.000.000",
+            "$340.000",
+            "$1.660.000"
+          ],
+          [
+            "$3.000.000",
+            "$510.000",
+            "$2.490.000"
+          ]
+        ],
+        "nota": "Sin Impuesto a las Ganancias ni cuota sindical."
+      },
+      {
+        "tipo": "comparacion",
+        "titulo": "¿Qué diferencia hay entre aportes y contribuciones?",
+        "columnas": [
+          {
+            "titulo": "Aportes (los pagás vos)",
+            "tono": "azul",
+            "items": [
+              "Se descuentan de tu sueldo bruto.",
+              "17 %: jubilación, obra social y PAMI.",
+              "Aparecen en tu recibo como descuentos."
+            ]
+          },
+          {
+            "titulo": "Contribuciones (las paga el empleador)",
+            "tono": "gris",
+            "items": [
+              "Se suman encima de tu sueldo bruto.",
+              "Van a jubilación, obra social, asignaciones familiares y más.",
+              "No afectan tu neto, pero sí cuánto le cuestas a la empresa."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otros descuentos pueden aparecer en mi recibo?",
+        "parrafos": [
+          "La cuota sindical si estás afiliado, aportes solidarios que fijan algunos convenios, adelantos y embargos. El Impuesto a las Ganancias se retiene solo si tu sueldo supera el mínimo no imponible de la cuarta categoría. Para ver qué cobrarías de aguinaldo usá la [calculadora de SAC](/calcular-sac-argentina) y, si te despidieron, la [calculadora de indemnización](/calcular-indemnizacion-despido)."
+        ]
       }
     ],
     "faqs": [
@@ -7174,26 +7601,74 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Calcula el área y el perímetro de las figuras geométricas más comunes: cuadrado, rectángulo y triángulo. Incluye también el teorema de Pitágoras, para calcular la hipotenusa o un cateto de un triángulo rectángulo.",
-    "howToUse": [
-      "Elige la figura: cuadrado, rectángulo, triángulo, o el teorema de Pitágoras",
-      "Introduce las medidas solicitadas (lado, base y altura, o los catetos)",
-      "El área, el perímetro o la hipotenusa se calculan al instante"
-    ],
-    "benefits": [
-      "Cuatro calculadoras geométricas en una sola herramienta",
-      "Calcula tanto el área como el perímetro de cada figura",
-      "Incluye el teorema de Pitágoras para triángulos rectángulos",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el área y el perímetro de un cuadrado, un rectángulo o un triángulo, y la hipotenusa o un cateto con el teorema de Pitágoras. Escribe las medidas y obtén el resultado con la fórmula aplicada.",
+    "bloques": [
       {
-        "title": "Fórmulas de área y perímetro",
-        "body": "Cuadrado: área = lado², perímetro = 4 × lado. Rectángulo: área = base × altura, perímetro = 2 × (base + altura). Triángulo: área = (base × altura) ÷ 2. Estas son las fórmulas básicas de geometría plana más utilizadas en la escuela y en la vida cotidiana, por ejemplo, para calcular la cantidad de material necesario para cubrir una superficie."
+        "tipo": "infografia",
+        "archivo": "formulas-area-figuras-pitagoras.webp",
+        "alt": "Fórmulas de área del cuadrado, rectángulo y triángulo y teorema de Pitágoras en una pizarra",
+        "ancho": 800,
+        "alto": 716,
+        "titulo": "¿Cuáles son las fórmulas de área de las figuras básicas?"
       },
       {
-        "title": "¿Cómo funciona el teorema de Pitágoras?",
-        "body": "El teorema de Pitágoras establece que, en un triángulo rectángulo, el cuadrado de la hipotenusa (el lado opuesto al ángulo recto) es igual a la suma de los cuadrados de los catetos: c² = a² + b². Se usa para calcular la hipotenusa cuando se conocen los dos catetos, o para calcular un cateto cuando se conocen la hipotenusa y el otro cateto."
+        "tipo": "escenarios",
+        "titulo": "¿Para qué se usa calcular un área en casa?",
+        "items": [
+          {
+            "titulo": "Piso o baldosa",
+            "situacion": "Una habitación de 4 × 3,5 m necesita 14 m² de suelo. Compra un 10 % más por cortes.",
+            "resultado": "15,4 m²"
+          },
+          {
+            "titulo": "Pintura",
+            "situacion": "Una pared de 5 × 2,6 m con una puerta de 0,8 × 2 m.",
+            "resultado": "11,4 m²"
+          },
+          {
+            "titulo": "Terreno triangular",
+            "situacion": "Base de 30 m y altura de 18 m.",
+            "resultado": "270 m²"
+          }
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Cómo convertir entre metros cuadrados y otras unidades?",
+        "cabeceras": [
+          "Unidad",
+          "Equivale a"
+        ],
+        "filas": [
+          [
+            "1 m²",
+            "10.000 cm²"
+          ],
+          [
+            "1 hectárea",
+            "10.000 m²"
+          ],
+          [
+            "1 km²",
+            "100 hectáreas"
+          ],
+          [
+            "1 pie²",
+            "0,0929 m²"
+          ],
+          [
+            "1 acre",
+            "4.046,86 m²"
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo saber si una esquina está a escuadra con Pitágoras?",
+        "parrafos": [
+          "Marca 3 unidades en una pared y 4 en la otra desde la esquina: si la distancia entre las dos marcas es exactamente 5, el ángulo es recto. Sirve con 30, 40 y 50 cm o con 60, 80 y 100 cm. Es el truco que usan albañiles y carpinteros.",
+          "Para círculos usa la [calculadora del área del círculo](/calcular-area-circulo); para el espacio que ocupa un cuerpo, la [calculadora de volumen](/calculadora-volumen); y para triángulos rectángulos en detalle, la [calculadora de Pitágoras](/calculadora-pitagoras)."
+        ]
       }
     ],
     "faqs": [
@@ -7235,25 +7710,73 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Calcula el volumen de las figuras geométricas tridimensionales más comunes: cubo, esfera, cono y prisma rectangular (caja). Introduce las medidas de cada figura y obtén el volumen al instante.",
-    "howToUse": [
-      "Elige la figura: cubo, esfera, cono o prisma rectangular",
-      "Introduce las medidas solicitadas para esa figura",
-      "El volumen se calcula al instante"
-    ],
-    "benefits": [
-      "Cuatro calculadoras de volumen en una sola herramienta",
-      "Cubre las figuras 3D más habituales en problemas de geometría",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el volumen de un cubo, una esfera, un cono o un prisma rectangular escribiendo sus medidas. El resultado sale en unidades cúbicas y te dice cuántos litros caben.",
+    "bloques": [
       {
-        "title": "Fórmulas de volumen de figuras geométricas",
-        "body": "Cubo: V = lado³. Esfera: V = (4/3) × π × radio³. Cono: V = (1/3) × π × radio² × altura. Prisma rectangular (caja): V = largo × ancho × alto. Todas estas fórmulas calculan el espacio tridimensional que ocupa cada figura, expresado en unidades cúbicas."
+        "tipo": "infografia",
+        "archivo": "formulas-volumen-cubo-esfera-cono.webp",
+        "alt": "Fórmulas de volumen del cubo, la esfera, el cono y el prisma rectangular con ejemplos",
+        "ancho": 800,
+        "alto": 749,
+        "titulo": "¿Qué fórmula de volumen se usa para cada cuerpo?"
       },
       {
-        "title": "¿Necesitas el volumen de un cilindro?",
-        "body": "Esta calculadora cubre cubo, esfera, cono y prisma rectangular. Si necesitas calcular el volumen de un cilindro (a partir del radio o diámetro de la base y la altura), tenemos una calculadora dedicada para esa figura, con área lateral y área total incluidas."
+        "tipo": "escenarios",
+        "titulo": "¿Cuántos litros caben en una caja, una pelota o un embudo?",
+        "items": [
+          {
+            "titulo": "Caja de mudanza",
+            "situacion": "50 × 40 × 40 cm.",
+            "resultado": "80 L",
+            "detalle": "80.000 cm³"
+          },
+          {
+            "titulo": "Balón de fútbol",
+            "situacion": "Unos 22 cm de diámetro (11 cm de radio).",
+            "resultado": "5,6 L",
+            "detalle": "4/3 × π × 11³"
+          },
+          {
+            "titulo": "Cucurucho de helado",
+            "situacion": "5 cm de diámetro y 12 cm de alto.",
+            "resultado": "79 ml",
+            "detalle": "π × 2,5² × 12 ÷ 3"
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Por qué un cono tiene un tercio del volumen de un cilindro?",
+        "parrafos": [
+          "Un cono con la misma base y la misma altura que un cilindro cabe exactamente tres veces dentro de él. Lo mismo pasa entre una pirámide y un prisma. Por eso la fórmula del cono es la del cilindro dividida entre 3. Para cilindros tienes una herramienta propia: la [calculadora del volumen del cilindro](/calcular-volumen-cilindro).",
+          "Si lo que necesitas es la superficie de una figura plana, usa la [calculadora de área](/calculadora-area); y para pasar el resultado a galones u otras unidades, el [convertidor de unidades](/convertidor-unidades)."
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Cómo se pasan los centímetros cúbicos a litros?",
+        "cabeceras": [
+          "Volumen",
+          "Equivale a"
+        ],
+        "filas": [
+          [
+            "1.000 cm³",
+            "1 litro"
+          ],
+          [
+            "1 cm³",
+            "1 mililitro"
+          ],
+          [
+            "1 m³",
+            "1.000 litros"
+          ],
+          [
+            "1 litro",
+            "0,264 galones de EE. UU."
+          ]
+        ]
       }
     ],
     "faqs": [
@@ -7295,27 +7818,62 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Resuelve cálculos combinados (también llamados operaciones combinadas) respetando estrictamente el orden correcto: paréntesis primero, luego potencias y raíces, después multiplicaciones y divisiones, y por último sumas y restas. Escribe la expresión completa y obtén el resultado exacto al instante.",
-    "howToUse": [
-      "Escribe tu expresión matemática usando +, −, ×, ÷, ^ (potencia), √ (raíz) y paréntesis",
-      "También puedes usar los botones para construir la expresión",
-      "El resultado se calcula al instante, respetando el orden de las operaciones",
-      "Si hay un error de sintaxis, la calculadora te indica dónde está el problema"
-    ],
-    "benefits": [
-      "Respeta estrictamente el orden de las operaciones (PEMDAS/PAPOMUDAS)",
-      "Admite paréntesis anidados, potencias, raíces cuadradas y números decimales",
-      "Detecta errores de sintaxis y division por cero, indicando el problema",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe una operación combinada y obtén el resultado respetando la jerarquía: paréntesis, potencias y raíces, multiplicaciones y divisiones, y por último sumas y restas, cada nivel de izquierda a derecha.",
+    "bloques": [
       {
-        "title": "¿Qué es el orden de las operaciones (PEMDAS)?",
-        "body": "El orden de las operaciones es la regla que determina en qué secuencia se resuelven las distintas operaciones dentro de una misma expresión matemática, para que el resultado sea siempre el mismo sin importar quién la calcule. El orden es: 1) Paréntesis, 2) Potencias y raíces, 3) Multiplicaciones y divisiones (de izquierda a derecha), 4) Sumas y restas (de izquierda a derecha). Por ejemplo, en 2 + 3 × 4, primero se multiplica (3×4=12) y luego se suma (2+12=14), en lugar de sumar primero."
+        "tipo": "infografia",
+        "archivo": "orden-de-las-operaciones-ejemplo.webp",
+        "alt": "Orden de las operaciones combinadas con un ejemplo resuelto paso a paso que da 11",
+        "ancho": 800,
+        "alto": 885,
+        "titulo": "¿Cómo se resuelve una operación combinada paso a paso?"
       },
       {
-        "title": "Errores comunes al resolver cálculos combinados",
-        "body": "Un error frecuente es resolver las operaciones en el orden en que aparecen escritas, de izquierda a derecha, sin respetar la jerarquía de operaciones. Otro error común es no aplicar correctamente el signo negativo con las potencias: −2² es igual a −4 (se eleva al cuadrado primero y luego se aplica el signo), mientras que (−2)² es igual a 4 (el signo forma parte de la base). Esta calculadora aplica ambas reglas correctamente."
+        "tipo": "mitos",
+        "titulo": "¿Cuáles son los errores más comunes en las operaciones combinadas?",
+        "items": [
+          {
+            "mito": "Las multiplicaciones van siempre antes que las divisiones.",
+            "realidad": "Tienen el mismo nivel: se resuelven de izquierda a derecha. 12 ÷ 3 × 2 es 8, no 2."
+          },
+          {
+            "mito": "Las sumas van antes que las restas.",
+            "realidad": "También tienen el mismo nivel. 10 − 4 + 2 es 8, no 4."
+          },
+          {
+            "mito": "Un paréntesis solo agrupa sumas.",
+            "realidad": "Agrupa cualquier cosa y siempre va primero: 2 × (3 + 4)² = 98."
+          }
+        ]
+      },
+      {
+        "tipo": "glosario",
+        "titulo": "¿Qué significan PEMDAS, jerarquía y signos de agrupación?",
+        "items": [
+          [
+            "PEMDAS",
+            "Regla para recordar el orden: Paréntesis, Exponentes, Multiplicación y División, Adición y Sustracción."
+          ],
+          [
+            "Jerarquía",
+            "El nombre que recibe ese orden en los libros de texto de primaria y secundaria."
+          ],
+          [
+            "Signos de agrupación",
+            "Paréntesis ( ), corchetes [ ] y llaves { }. Se resuelven de dentro hacia fuera."
+          ],
+          [
+            "Potencia de un negativo",
+            "−2² es −4, porque la potencia se hace antes que el signo. Para obtener 4 hay que escribir (−2)²."
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo practicar operaciones combinadas?",
+        "parrafos": [
+          "Resuelve la operación en tu cuaderno y compara cada paso con el de la calculadora: así detectas en qué nivel te equivocaste. Para operaciones de una sola cifra con el procedimiento del cuaderno, la [Calculadora de Alicia](/calculadora-alicia) muestra llevadas y préstamos; y para ganar agilidad, el juego de [cálculo mental](/calculo-mental). Con fracciones, usa la [calculadora de fracciones](/calculadora-fracciones)."
+        ]
       }
     ],
     "faqs": [
@@ -7357,27 +7915,94 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Calcula el valor en ohmios de una resistencia electrónica a partir de su código de colores de 4 bandas, o resuelve la Ley de Ohm (V = I × R) para obtener el voltaje, la corriente, la resistencia o la potencia de un circuito, a partir de los datos que conozcas.",
-    "howToUse": [
-      "En \"Código de Colores\", selecciona el color de cada banda de tu resistencia",
-      "Consulta el valor en ohmios y la tolerancia al instante",
-      "En \"Ley de Ohm\", introduce dos de los tres valores (voltaje, corriente o resistencia)",
-      "Obtén el tercer valor y la potencia calculados automáticamente"
-    ],
-    "benefits": [
-      "Decodifica resistencias de 4 bandas por su código de colores estándar",
-      "Incluye una calculadora de Ley de Ohm con voltaje, corriente, resistencia y potencia",
-      "Muestra visualmente las bandas de color seleccionadas",
-      "Resultado instantáneo mientras seleccionas los colores o introduces los valores",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Lee el valor de una resistencia por su código de 4 bandas de color o resuelve la Ley de Ohm para obtener voltaje, corriente, resistencia o potencia. Pensada para estudiantes y aficionados a la electrónica.",
+    "bloques": [
       {
-        "title": "¿Cómo se lee el código de colores de una resistencia?",
-        "body": "En una resistencia de 4 bandas, las dos primeras bandas representan los dígitos significativos del valor (cada color corresponde a un número del 0 al 9), la tercera banda es el multiplicador (por cuánto se multiplica ese número), y la cuarta banda indica la tolerancia (el margen de error respecto al valor nominal). Por ejemplo, amarillo-violeta-rojo-dorado se lee como 4, 7, ×100, ±5%, dando una resistencia de 4700 ohmios (4.7 kΩ) con un 5% de tolerancia."
+        "tipo": "infografia",
+        "archivo": "codigo-colores-resistencias.webp",
+        "alt": "Código de colores de una resistencia de 1 kilohmio y tabla de valores de cada color",
+        "ancho": 800,
+        "alto": 836,
+        "titulo": "¿Cómo se lee el código de colores de una resistencia?"
       },
       {
-        "title": "¿Qué es la Ley de Ohm?",
-        "body": "La Ley de Ohm establece la relación entre voltaje, corriente y resistencia en un circuito eléctrico: V = I × R (voltaje = corriente × resistencia). A partir de esta fórmula también se puede calcular la potencia disipada: P = V × I. Conociendo dos de estas magnitudes, siempre se pueden calcular las otras dos."
+        "tipo": "tabla",
+        "titulo": "¿Qué resistencias de uso común hay y qué colores tienen?",
+        "cabeceras": [
+          "Valor",
+          "Bandas",
+          "Uso típico"
+        ],
+        "filas": [
+          [
+            "220 Ω",
+            "Rojo, rojo, marrón",
+            "Limitar la corriente de un LED a 5 V"
+          ],
+          [
+            "330 Ω",
+            "Naranja, naranja, marrón",
+            "LED con fuentes de 5 V"
+          ],
+          [
+            "1 kΩ",
+            "Marrón, negro, rojo",
+            "Uso general"
+          ],
+          [
+            "4,7 kΩ",
+            "Amarillo, violeta, rojo",
+            "Resistencias de pull-up"
+          ],
+          [
+            "10 kΩ",
+            "Marrón, negro, naranja",
+            "Pull-up de pulsadores en Arduino"
+          ]
+        ],
+        "nota": "La cuarta banda indica la tolerancia: dorado ±5 %, plateado ±10 %."
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Qué resistencia necesito para un LED?",
+        "datos": [
+          [
+            "Fuente",
+            "5 V"
+          ],
+          [
+            "LED rojo",
+            "2 V, 20 mA"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Resta la caída del LED al voltaje de la fuente.",
+            "operacion": "5 − 2 = 3 V"
+          },
+          {
+            "texto": "Divide entre la corriente del LED en amperios (Ley de Ohm).",
+            "operacion": "3 ÷ 0,02 = 150 Ω"
+          },
+          {
+            "texto": "Elige el valor comercial superior más cercano.",
+            "operacion": "150 Ω o 220 Ω"
+          }
+        ],
+        "resultado": [
+          "Resistencia",
+          "150–220 Ω"
+        ]
+      },
+      {
+        "tipo": "checklist",
+        "titulo": "¿Cómo leer bien las bandas de una resistencia?",
+        "items": [
+          "Pon la banda de tolerancia (dorada o plateada) a la derecha: se empieza a leer por el otro extremo.",
+          "Las dos primeras bandas son cifras y la tercera, el multiplicador.",
+          "Si tiene 5 bandas, las tres primeras son cifras.",
+          "Si dudas entre marrón y rojo o entre rojo y naranja, mídela con un multímetro."
+        ]
       }
     ],
     "faqs": [
@@ -7419,27 +8044,72 @@
     "webApp": true,
     "appCategory": "HealthApplication",
     "intro": "Calcula cuántas calorías necesitas al día según tu sexo, edad, peso, altura y nivel de actividad física, usando la fórmula de Mifflin-St Jeor (la más precisa entre las fórmulas estándar). Elige tu objetivo (mantener, bajar o subir de peso) y obtén también una distribución sugerida de macronutrientes.",
-    "howToUse": [
-      "Introduce tu sexo, edad, peso y altura",
-      "Elige tu nivel de actividad física habitual",
-      "Elige tu objetivo: mantener, bajar o subir de peso",
-      "Consulta tus calorías diarias recomendadas y la distribución de macronutrientes"
-    ],
-    "benefits": [
-      "Usa la fórmula de Mifflin-St Jeor, considerada más precisa que la fórmula de Harris-Benedict",
-      "Calcula tanto tu metabolismo basal (BMR) como tu gasto energético total (TDEE)",
-      "Ajusta automáticamente según tu objetivo: déficit para bajar de peso, superávit para subir",
-      "Incluye una distribución sugerida de proteínas, carbohidratos y grasas",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu metabolismo basal y las calorías que necesitas al día según tu sexo, edad, peso, altura y actividad, con la fórmula de Mifflin-St Jeor. Elige mantener, bajar o subir de peso y obtén tu objetivo diario.",
+    "bloques": [
       {
-        "title": "¿Qué es el TDEE y cómo se calcula?",
-        "body": "El TDEE (Total Daily Energy Expenditure, gasto energético total diario) es la cantidad de calorías que tu cuerpo consume en un día, incluyendo tanto tu metabolismo basal (la energía que gastas en reposo) como la actividad física que realizas. Se calcula multiplicando tu metabolismo basal (BMR) por un factor de actividad, que va desde 1.2 (sedentario) hasta 1.9 (muy activo)."
+        "tipo": "infografia",
+        "archivo": "calorias-bmr-tdee-deficit.webp",
+        "alt": "Cálculo de calorías diarias: metabolismo basal, gasto con actividad y déficit para bajar de peso",
+        "ancho": 800,
+        "alto": 919,
+        "titulo": "¿Cómo se calculan las calorías que necesito al día?"
       },
       {
-        "title": "¿Cómo funciona el déficit y el superávit calórico?",
-        "body": "Para bajar de peso, es necesario consumir menos calorías de las que gasta el cuerpo (déficit calórico); esta calculadora aplica un déficit del 20% sobre tu TDEE. Para subir de peso o ganar masa muscular, es necesario consumir más calorías de las que gasta el cuerpo (superávit calórico); esta calculadora aplica un superávit del 15%. Estos porcentajes son valores de referencia moderados y sostenibles, ajustables según tu progreso real."
+        "tipo": "escenarios",
+        "titulo": "¿Cuántas calorías necesito según mi objetivo?",
+        "intro": "Para la mujer del ejemplo, con un gasto diario de 2.124 kcal:",
+        "items": [
+          {
+            "titulo": "Mantener",
+            "situacion": "Comer lo mismo que gastas mantiene el peso estable.",
+            "resultado": "2.124 kcal"
+          },
+          {
+            "titulo": "Bajar de peso",
+            "situacion": "Un déficit del 20 %: pérdida gradual, sostenible en el tiempo.",
+            "resultado": "1.699 kcal"
+          },
+          {
+            "titulo": "Subir de peso",
+            "situacion": "Un superávit del 15 %, idealmente con entrenamiento de fuerza.",
+            "resultado": "2.443 kcal"
+          }
+        ]
+      },
+      {
+        "tipo": "glosario",
+        "titulo": "¿Qué significan BMR, TDEE, déficit y macronutrientes?",
+        "items": [
+          [
+            "BMR",
+            "Metabolismo basal: las calorías que gasta tu cuerpo en reposo total para mantener sus funciones."
+          ],
+          [
+            "TDEE",
+            "Gasto energético total diario: el BMR multiplicado por un factor según tu actividad física."
+          ],
+          [
+            "Déficit calórico",
+            "Comer menos calorías de las que gastas. Es la base de cualquier pérdida de peso."
+          ],
+          [
+            "Macronutrientes",
+            "Proteínas y carbohidratos (4 kcal por gramo) y grasas (9 kcal por gramo)."
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué tan precisa es la fórmula de Mifflin-St Jeor?",
+        "parrafos": [
+          "Es la fórmula que mejor acierta en personas sanas entre las estimaciones habituales, pero sigue siendo una estimación: en una misma persona el gasto real puede variar en torno a un 10 %. Úsala como punto de partida, controla tu peso unas semanas y ajusta.",
+          "Para saber en qué rango de peso estás, usa la [calculadora de IMC](/calcular-imc) y la de [peso ideal](/calculadora-peso-ideal). Para el porcentaje de grasa, la [calculadora de grasa corporal](/calculadora-grasa-corporal)."
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "ambar",
+        "texto": "Si estás embarazada, en período de lactancia, tienes una enfermedad metabólica o eres menor de edad, pide a un profesional de la nutrición que ajuste estas cifras."
       }
     ],
     "faqs": [
@@ -7481,27 +8151,112 @@
     "webApp": true,
     "appCategory": "HealthApplication",
     "intro": "Calcula tus semanas de embarazo y la fecha probable de parto a partir de la fecha de tu última menstruación (FUM), usando la regla de Naegele. También puedes calcular tu ventana de días fértiles y la fecha estimada de ovulación según la duración de tu ciclo menstrual.",
-    "howToUse": [
-      "Elige entre \"Semanas de Embarazo y Fecha de Parto\" o \"Días Fértiles y Ovulación\"",
-      "Introduce la fecha de tu última menstruación",
-      "Si calculas días fértiles, indica también la duración habitual de tu ciclo",
-      "Consulta el resultado al instante"
-    ],
-    "benefits": [
-      "Calcula las semanas de embarazo y el trimestre actual",
-      "Estima la fecha probable de parto con la regla de Naegele",
-      "Calcula tu ventana fértil y fecha de ovulación estimada según tu ciclo",
-      "Ajustable a la duración real de tu ciclo menstrual, no solo 28 días por defecto",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe la fecha de tu última menstruación y obtén cuántas semanas de embarazo llevas, la fecha probable de parto y el trimestre en el que estás. También calcula tus días fértiles.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula la fecha probable de parto?",
-        "body": "La fecha probable de parto se estima sumando 280 días (40 semanas) a la fecha de la última menstruación, según la regla de Naegele, el método más usado en obstetricia. Este cálculo asume un ciclo menstrual regular de 28 días con ovulación en el día 14; si tu ciclo es más largo o más corto, la fecha real puede variar, y tu médico puede ajustarla con una ecografía."
+        "tipo": "infografia",
+        "archivo": "semanas-embarazo-fecha-parto.webp",
+        "alt": "Línea de las 40 semanas de embarazo por trimestres y cálculo de la fecha probable de parto",
+        "ancho": 800,
+        "alto": 734,
+        "titulo": "¿Cuándo empieza y termina cada trimestre del embarazo?"
       },
       {
-        "title": "¿Cómo se calcula la ventana de días fértiles?",
-        "body": "La ovulación suele ocurrir aproximadamente 14 días antes del inicio del siguiente período, independientemente de la duración total del ciclo. La ventana fértil (los días con mayor probabilidad de embarazo) abarca generalmente desde 5 días antes de la ovulación hasta 1 día después, ya que el espermatozoide puede sobrevivir varios días en el cuerpo, mientras que el óvulo solo es fecundable durante unas 24 horas tras la ovulación."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se calcula la fecha de parto con la regla de Naegele?",
+        "datos": [
+          [
+            "Última menstruación",
+            "1 de marzo de 2026"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Suma 7 días a la fecha de la última regla.",
+            "operacion": "1 de marzo + 7 días = 8 de marzo"
+          },
+          {
+            "texto": "Resta 3 meses.",
+            "operacion": "8 de marzo − 3 meses = 8 de diciembre"
+          },
+          {
+            "texto": "La regla manual da el 8 de diciembre. La calculadora suma 280 días exactos y obtiene el 6: la diferencia se debe a que los meses no tienen todos 30 días.",
+            "operacion": "FUM + 280 días = 6 de diciembre de 2026"
+          }
+        ],
+        "resultado": [
+          "Fecha probable de parto",
+          "6/12/2026"
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Qué semana de embarazo corresponde a cada mes?",
+        "cabeceras": [
+          "Mes",
+          "Semanas",
+          "Trimestre"
+        ],
+        "filas": [
+          [
+            "1.º",
+            "1 a 4",
+            "Primero"
+          ],
+          [
+            "2.º",
+            "5 a 8",
+            "Primero"
+          ],
+          [
+            "3.º",
+            "9 a 13",
+            "Primero"
+          ],
+          [
+            "4.º",
+            "14 a 17",
+            "Segundo"
+          ],
+          [
+            "5.º",
+            "18 a 22",
+            "Segundo"
+          ],
+          [
+            "6.º",
+            "23 a 27",
+            "Segundo"
+          ],
+          [
+            "7.º",
+            "28 a 31",
+            "Tercero"
+          ],
+          [
+            "8.º",
+            "32 a 35",
+            "Tercero"
+          ],
+          [
+            "9.º",
+            "36 a 40",
+            "Tercero"
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Por qué las semanas de embarazo se cuentan desde la última regla?",
+        "parrafos": [
+          "Porque la fecha de la última menstruación se conoce casi siempre y la de la concepción no. Así, en la «semana 2» todavía no hay embarazo: la ovulación ocurre hacia el final de esa semana. Por eso un embarazo dura 40 semanas desde la regla, pero unas 38 desde la concepción.",
+          "La ecografía del primer trimestre suele confirmar o corregir la fecha. Si estás buscando embarazo, la [calculadora de ovulación](/calculadora-ovulacion) te ayuda a identificar los días fértiles."
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "Si tus ciclos son irregulares o más largos de 28 días, la fecha calculada puede adelantarse. Tu ginecólogo o matrona la ajustará con la ecografía."
       }
     ],
     "faqs": [
@@ -7543,25 +8298,64 @@
     "webApp": true,
     "appCategory": "HealthApplication",
     "intro": "Calcula tu rango de peso saludable a partir de tu altura, usando el criterio del Índice de Masa Corporal (IMC) recomendado actualmente por organismos de salud, en lugar de fórmulas antiguas como la de Broca, que no consideran un rango sino un único número poco realista.",
-    "howToUse": [
-      "Introduce tu altura en centímetros",
-      "Consulta tu rango de peso saludable al instante",
-      "Recuerda que es un rango orientativo, no un número exacto"
-    ],
-    "benefits": [
-      "Basado en el criterio de IMC saludable (18.5-24.9), el más aceptado actualmente",
-      "Muestra un rango realista, no un único número como las fórmulas antiguas",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe tu altura y obtén tu rango de peso saludable, el que corresponde a un IMC de 18,5 a 24,9 según la OMS. Es un rango y no una cifra, porque el peso sano depende también de tu complexión y tu masa muscular.",
+    "bloques": [
       {
-        "title": "¿Por qué un rango y no un número exacto?",
-        "body": "El concepto de \"peso ideal\" como un número único (usado por fórmulas antiguas como la de Broca o Devine) está en desuso en la medicina actual, porque no considera la variabilidad natural en la composición corporal de cada persona. El enfoque moderno usa un rango de peso saludable, calculado a partir del Índice de Masa Corporal (IMC) recomendado por la Organización Mundial de la Salud, que va de 18.5 a 24.9."
+        "tipo": "infografia",
+        "archivo": "peso-saludable-segun-altura.webp",
+        "alt": "Rango de peso saludable en kilos según la altura de 150 a 190 cm",
+        "ancho": 800,
+        "alto": 818,
+        "titulo": "¿Qué rango de peso es saludable para cada altura?"
       },
       {
-        "title": "Limitaciones de este cálculo",
-        "body": "El rango de peso saludable basado en el IMC no distingue entre masa muscular y masa grasa, por lo que puede no ser preciso para personas muy musculosas (como deportistas), personas de edad avanzada, o personas con una composición corporal atípica. Es una referencia general útil para la mayoría de los adultos, pero no reemplaza una evaluación médica o nutricional individualizada."
+        "tipo": "comparacion",
+        "titulo": "¿Por qué ya no se usa la fórmula de Lorentz para el peso ideal?",
+        "columnas": [
+          {
+            "titulo": "Fórmulas antiguas (Lorentz, Broca)",
+            "tono": "gris",
+            "items": [
+              "Dan una única cifra, como si solo hubiera un peso correcto.",
+              "Se crearon con datos de poblaciones muy concretas.",
+              "No tienen en cuenta la complexión."
+            ]
+          },
+          {
+            "titulo": "Rango por IMC (OMS)",
+            "tono": "verde",
+            "items": [
+              "Da un margen de unos 15 a 20 kg según la altura.",
+              "Se basa en el riesgo de salud asociado a cada IMC.",
+              "Es el criterio que usan los médicos hoy."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "¿Qué hay de cierto sobre el peso ideal?",
+        "items": [
+          {
+            "mito": "Hay un peso perfecto para cada altura.",
+            "realidad": "Hay un rango amplio. Dentro de él, el mejor peso es el que puedes mantener con hábitos sanos."
+          },
+          {
+            "mito": "Las mujeres y los hombres tienen tablas distintas.",
+            "realidad": "Para adultos, el rango por IMC es el mismo. La diferencia está en la composición corporal, no en la tabla."
+          },
+          {
+            "mito": "Si estás en el rango, tu peso está bien sin más.",
+            "realidad": "Importan también la grasa abdominal, la fuerza y la analítica. Mide tu [grasa corporal](/calculadora-grasa-corporal) para tener más información."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué hacer si estoy fuera del rango saludable?",
+        "parrafos": [
+          "Un cambio de 0,5 kg por semana es un ritmo realista y sostenible. Calcula cuántas calorías necesitas con la [calculadora de calorías](/calculadora-calorias) y sigue tu evolución con la [calculadora de IMC](/calcular-imc). Si el cambio necesario es grande o tienes una enfermedad, hazlo con un profesional."
+        ]
       }
     ],
     "faqs": [
@@ -7603,29 +8397,83 @@
     "webApp": true,
     "appCategory": "HealthApplication",
     "intro": "Calcula la mejor hora para dormir o para despertar, basándote en ciclos de sueño de aproximadamente 90 minutos. Despertar al final de un ciclo completo (y no a mitad de uno) puede ayudarte a sentirte más descansado, incluso durmiendo la misma cantidad total de horas.",
-    "howToUse": [
-      "Elige si quieres saber a qué hora despertar (si te duermes ahora) o a qué hora dormir (para despertar a una hora concreta)",
-      "Si eliges la segunda opción, introduce la hora a la que necesitas despertar",
-      "Consulta las distintas opciones, cada una equivalente a una cantidad completa de ciclos de sueño"
-    ],
-    "benefits": [
-      "Calcula tanto la hora de dormir como la de despertar, según lo que necesites",
-      "Basado en ciclos de sueño de 90 minutos, con margen para conciliar el sueño",
-      "Muestra varias opciones (de 3 a 6 ciclos completos), no un único horario",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Dime a qué hora te levantas y te diré a qué hora acostarte para despertar al final de un ciclo de sueño, o al revés. Usa ciclos de 90 minutos y suma 15 minutos para quedarte dormido.",
+    "bloques": [
       {
-        "title": "¿Qué son los ciclos de sueño?",
-        "body": "Durante la noche, el sueño se organiza en ciclos de aproximadamente 90 minutos, que incluyen distintas fases (sueño ligero, sueño profundo y sueño REM). Despertar en medio de un ciclo, especialmente durante el sueño profundo, suele generar una sensación de cansancio o aturdimiento (inercia del sueño), incluso si se durmió una cantidad de horas razonable. Despertar al final de un ciclo completo, en cambio, suele sentirse más natural y descansado."
+        "tipo": "infografia",
+        "archivo": "hora-dormir-ciclos-de-sueno.webp",
+        "alt": "Horas para acostarse según los ciclos de sueño de 90 minutos si te despiertas a las 7",
+        "ancho": 800,
+        "alto": 871,
+        "titulo": "¿A qué hora debo acostarme si me levanto a las 7?"
       },
       {
-        "title": "¿Cuántos ciclos de sueño se recomiendan por noche?",
-        "body": "La mayoría de los adultos necesitan entre 5 y 6 ciclos completos de sueño por noche (entre 7.5 y 9 horas aproximadamente) para un descanso óptimo. Esta calculadora ofrece opciones desde 3 ciclos (unas 4.5 horas, para siestas o situaciones excepcionales) hasta 6 ciclos (9 horas), para que puedas elegir según tu disponibilidad de tiempo."
+        "tipo": "tabla",
+        "titulo": "¿Cuántas horas debo dormir según mi edad?",
+        "cabeceras": [
+          "Edad",
+          "Horas recomendadas"
+        ],
+        "filas": [
+          [
+            "Bebés de 4 a 12 meses",
+            "12 a 16 (con siestas)"
+          ],
+          [
+            "Niños de 1 a 2 años",
+            "11 a 14 (con siestas)"
+          ],
+          [
+            "Niños de 3 a 5 años",
+            "10 a 13"
+          ],
+          [
+            "Niños de 6 a 12 años",
+            "9 a 12"
+          ],
+          [
+            "Adolescentes de 13 a 18",
+            "8 a 10"
+          ],
+          [
+            "Adultos",
+            "7 o más"
+          ]
+        ],
+        "nota": "Recomendaciones de la Academia Americana de Medicina del Sueño."
       },
       {
-        "title": "Cuántas horas dormir según tu edad",
-        "body": "La National Sleep Foundation recomienda de 9 a 11 horas para niños de 6 a 13 años, de 8 a 10 horas para adolescentes de 14 a 17, de 7 a 9 horas para adultos de 18 a 64 y de 7 a 8 horas para mayores de 65. Con ciclos de unos 90 minutos, eso equivale a 5 o 6 ciclos completos para un adulto. La calculadora de sueño suma unos 15 minutos para quedarte dormido, para que la alarma suene al final de un ciclo y no en medio del sueño profundo."
+        "tipo": "glosario",
+        "titulo": "¿Qué fases tiene un ciclo de sueño?",
+        "items": [
+          [
+            "Sueño ligero (N1 y N2)",
+            "La entrada al sueño. Es fácil despertarse y ocupa casi la mitad de la noche."
+          ],
+          [
+            "Sueño profundo (N3)",
+            "El más reparador para el cuerpo. Si te despiertas en esta fase, te levantas aturdido."
+          ],
+          [
+            "Sueño REM",
+            "La fase de los sueños vívidos. Ayuda a la memoria y aumenta hacia el final de la noche."
+          ],
+          [
+            "Ciclo",
+            "Una vuelta completa por las fases: dura entre 80 y 110 minutos, unos 90 de media."
+          ]
+        ]
+      },
+      {
+        "tipo": "checklist",
+        "titulo": "¿Qué hábitos ayudan a dormir mejor?",
+        "items": [
+          "Acostarte y levantarte a la misma hora todos los días, también el fin de semana.",
+          "Evitar la cafeína en las 6 horas anteriores a dormir.",
+          "Dejar el móvil una hora antes y bajar las luces.",
+          "Mantener el dormitorio fresco, oscuro y en silencio.",
+          "Si a los 20 minutos no te duermes, levántate y haz algo tranquilo hasta tener sueño."
+        ]
       }
     ],
     "faqs": [
@@ -7671,26 +8519,65 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte medidas entre el tamaño real y el tamaño a escala de un plano, mapa o maqueta, en cualquier dirección. También puedes calcular la escala exacta (por ejemplo, 1:100) a partir de una medida real y su equivalente en el dibujo.",
-    "howToUse": [
-      "Elige qué quieres calcular: la medida a escala, la medida real, o la escala misma",
-      "Introduce los valores que ya conoces",
-      "El resultado se calcula al instante"
-    ],
-    "benefits": [
-      "Convierte en ambos sentidos: de medida real a escala, y de escala a medida real",
-      "Calcula la escala exacta a partir de dos medidas conocidas",
-      "Útil para planos de arquitectura, mapas, maquetas y modelos a escala",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Pasa medidas de un plano, un mapa o una maqueta a tamaño real y al revés, o descubre la escala de un dibujo a partir de una medida conocida. Funciona con cualquier escala del tipo 1:N.",
+    "bloques": [
       {
-        "title": "¿Cómo funciona una escala 1:N?",
-        "body": "Una escala expresada como 1:N (por ejemplo, 1:100) indica que cada unidad de medida en el plano, mapa o maqueta representa N unidades de esa misma medida en la realidad. Por ejemplo, en una escala 1:100, un centímetro en el plano equivale a 100 centímetros (1 metro) en la realidad. Para pasar de una medida real a su equivalente a escala, se divide entre N; para pasar de la escala a la medida real, se multiplica por N."
+        "tipo": "infografia",
+        "archivo": "escalas-planos-mapas.webp",
+        "alt": "Escalas de planos y mapas como 1:50, 1:100 y 1:50.000 con su equivalencia real",
+        "ancho": 800,
+        "alto": 758,
+        "titulo": "¿Qué significan las escalas 1:50, 1:100 o 1:50.000?"
       },
       {
-        "title": "¿Cómo se calcula la escala de un plano si no la conozco?",
-        "body": "Si tienes una medida real conocida (por ejemplo, el ancho real de una habitación) y su medida correspondiente en el plano, puedes calcular la escala dividiendo la medida real entre la medida del plano (ambas en la misma unidad). El resultado es el valor de N en la escala 1:N."
+        "tipo": "escenarios",
+        "titulo": "¿Cómo se usan las escalas en la práctica?",
+        "items": [
+          {
+            "titulo": "Plano de un piso",
+            "situacion": "Un salón mide 9 cm en un plano a 1:50.",
+            "resultado": "4,5 m",
+            "detalle": "9 × 50 = 450 cm"
+          },
+          {
+            "titulo": "Mapa de senderismo",
+            "situacion": "La ruta mide 7 cm en un mapa 1:25.000.",
+            "resultado": "1,75 km",
+            "detalle": "7 × 25.000 = 175.000 cm"
+          },
+          {
+            "titulo": "Maqueta",
+            "situacion": "Un coche de 4,2 m reproducido a escala 1:18.",
+            "resultado": "23,3 cm",
+            "detalle": "420 ÷ 18"
+          }
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo calcular la escala de un plano si no la indica?",
+        "intro": "Necesitas una medida real conocida, como el ancho de una puerta (normalmente 80 cm).",
+        "pasos": [
+          {
+            "texto": "Mide la puerta en el plano.",
+            "operacion": "1,6 cm"
+          },
+          {
+            "texto": "Divide la medida real entre la del plano, en la misma unidad.",
+            "operacion": "80 ÷ 1,6 = 50"
+          }
+        ],
+        "resultado": [
+          "Escala del plano",
+          "1:50"
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué escala usar para dibujar un plano a mano?",
+        "parrafos": [
+          "Para una casa en un folio A4, 1:100 suele bastar; si quieres ver muebles y detalles, 1:50 en una hoja A3. Para un mueble o una pieza, 1:10 o 1:20. Cuanto menor es el número N, más grande sale el dibujo. Si necesitas convertir unidades del resultado, usa el [convertidor de unidades](/convertidor-unidades) o, para pulgadas, el de [centímetros a pulgadas](/cm-a-pulgadas)."
+        ]
       }
     ],
     "faqs": [
@@ -7732,27 +8619,75 @@
     "webApp": true,
     "appCategory": "EntertainmentApplication",
     "intro": "Crea una sopa de letras personalizada a partir de tus propias palabras: nombres, temas escolares, vocabulario de un idioma, o lo que necesites. Las palabras se colocan automáticamente en la cuadrícula en distintas direcciones (horizontal, vertical y diagonal), lista para imprimir o jugar directamente en pantalla.",
-    "howToUse": [
-      "Escribe tus palabras, una por línea o separadas por comas",
-      "Elige el tamaño de la cuadrícula",
-      "Pulsa \"Generar otra distribución\" si quieres una disposición distinta",
-      "Activa \"Mostrar solución\" para ver dónde está cada palabra, o imprime la sopa de letras en blanco"
-    ],
-    "benefits": [
-      "Genera una sopa de letras personalizada con tus propias palabras al instante",
-      "Coloca las palabras en 8 direcciones distintas, incluyendo diagonales",
-      "Permite mostrar u ocultar la solución",
-      "Lista para imprimir directamente desde el navegador",
-      "Gratis, sin registro y funciona directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe tus propias palabras y crea una sopa de letras lista para imprimir. Las palabras se colocan al azar en horizontal, vertical y diagonal, también al revés, y puedes mostrar u ocultar las soluciones.",
+    "bloques": [
       {
-        "title": "Ideas para usar una sopa de letras personalizada",
-        "body": "Una sopa de letras con palabras propias es una actividad clásica para clases (vocabulario de un tema, palabras de un idioma que se está aprendiendo), cumpleaños infantiles (nombres de invitados, temática de la fiesta), o simplemente como pasatiempo. Al poder elegir tus propias palabras, la sopa de letras se adapta a cualquier ocasión, en lugar de usar siempre las mismas palabras genéricas."
+        "tipo": "infografia",
+        "archivo": "sopa-de-letras-direcciones.webp",
+        "alt": "Ejemplo de sopa de letras con palabras resaltadas y las ocho direcciones posibles",
+        "ancho": 800,
+        "alto": 910,
+        "titulo": "¿Cómo se colocan las palabras en la sopa de letras?"
       },
       {
-        "title": "¿Qué pasa si una palabra no se puede colocar?",
-        "body": "Si una palabra es demasiado larga para la cuadrícula elegida, o si hay demasiadas palabras para el espacio disponible, es posible que alguna no logre colocarse tras varios intentos. En ese caso, la herramienta te avisa qué palabras no se pudieron incluir, para que elijas una cuadrícula más grande o acortes la lista de palabras."
+        "tipo": "consejos",
+        "titulo": "¿Para qué usar una sopa de letras personalizada?",
+        "items": [
+          {
+            "titulo": "En clase",
+            "texto": "Vocabulario de un tema (partes de la planta, capitales, verbos irregulares) para repasar jugando."
+          },
+          {
+            "titulo": "Para aprender idiomas",
+            "texto": "Palabras en inglés o en el idioma que estudies, y su traducción como lista de pistas."
+          },
+          {
+            "titulo": "En fiestas",
+            "texto": "Nombres de los invitados en un cumpleaños o en un baby shower. Si quieres algo más difícil, prueba los [crucigramas](/generador-de-crucigramas)."
+          },
+          {
+            "titulo": "Para mayores",
+            "texto": "Un ejercicio de atención y memoria. Imprímela con letras grandes y pocas palabras."
+          }
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Cuántas palabras poner según la edad?",
+        "cabeceras": [
+          "Edad",
+          "Palabras",
+          "Consejo"
+        ],
+        "filas": [
+          [
+            "5 a 7 años",
+            "5 a 8 palabras cortas",
+            "Solo horizontal y vertical, sin palabras al revés"
+          ],
+          [
+            "8 a 11 años",
+            "8 a 12 palabras",
+            "Añade diagonales"
+          ],
+          [
+            "12 años o más",
+            "12 a 20 palabras",
+            "Todas las direcciones"
+          ],
+          [
+            "Personas mayores",
+            "8 a 10 palabras",
+            "Letra grande y buen contraste al imprimir"
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué hacer si una palabra no entra en la cuadrícula?",
+        "parrafos": [
+          "Las palabras muy largas o muchas palabras en una cuadrícula pequeña pueden no caber. Prueba a generar de nuevo (la colocación cambia cada vez), acorta la lista o usa palabras más cortas. Para otros juegos de palabras tienes [palabras al revés](/palabras-al-reves) y, para el aula, las [tablas de multiplicar](/tablas-de-multiplicar)."
+        ]
       }
     ],
     "faqs": [
@@ -7794,27 +8729,63 @@
     "webApp": true,
     "appCategory": "DesignApplication",
     "intro": "Genera una imagen con tu texto en letras grandes, en tres estilos distintos: grafiti (estilo urbano y llamativo), tatuaje (letra cursiva tipo script, ideal como referencia para un tatuador), o molde para imprimir (letras grandes y claras, pensadas para imprimir, calcar o recortar). Descarga el resultado como imagen PNG.",
-    "howToUse": [
-      "Elige el estilo: Grafiti, Tatuaje/Script o Molde para Imprimir",
-      "Escribe tu texto (funciona mejor con palabras cortas)",
-      "En el estilo \"Molde\", puedes activar \"solo contorno\" para ahorrar tinta al imprimir",
-      "Pulsa \"Descargar imagen\" para guardar el resultado en PNG"
-    ],
-    "benefits": [
-      "Tres estilos distintos en una sola herramienta: grafiti, tatuaje y molde para imprimir",
-      "Genera una imagen real (no solo texto), lista para descargar o compartir",
-      "El molde para imprimir incluye una opción de solo contorno para ahorrar tinta",
-      "Ajusta automáticamente el tamaño del texto para que quepa en la imagen",
-      "Gratis, sin registro y funciona directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe un nombre o una frase y genera una imagen en letras grandes con estilo grafiti, tatuaje o molde. Descárgala para un cartel o una invitación, o imprímela en varias hojas para recortar las letras.",
+    "bloques": [
       {
-        "title": "¿Para qué sirve cada estilo?",
-        "body": "El estilo Grafiti genera letras grandes y llamativas con contorno, ideal para carteles, miniaturas o contenido con un look urbano. El estilo Tatuaje usa una tipografía cursiva y elegante (script), muy usada como referencia para llevar a un estudio de tatuajes. El estilo Molde para Imprimir usa una tipografía gruesa y clara, pensada para imprimirse en papel y luego calcarse o recortarse, por ejemplo, para manualidades, carteles escolares o decoración."
+        "tipo": "infografia",
+        "archivo": "estilos-letras-grandes.webp",
+        "alt": "Estilos de letras grandes: grafiti, tatuaje y molde con sus usos",
+        "ancho": 800,
+        "alto": 789,
+        "titulo": "¿Qué estilo de letras grandes elegir?"
       },
       {
-        "title": "¿En qué se diferencia esta herramienta del generador de tipografías Unicode?",
-        "body": "Nuestro generador de tipografía para Instagram convierte tu texto en caracteres Unicode especiales que puedes copiar y pegar como texto normal en cualquier campo. Esta herramienta, en cambio, genera una imagen real (PNG) con tu texto dibujado en un estilo concreto, pensada para descargar, imprimir o usar como diseño, no para pegar como texto editable."
+        "tipo": "pasos",
+        "titulo": "¿Cómo hacer letras grandes para un cartel de cumpleaños?",
+        "pasos": [
+          {
+            "titulo": "Escribe el texto corto",
+            "texto": "Un nombre o dos o tres palabras. Cuanto más corto, más grande sale cada letra."
+          },
+          {
+            "titulo": "Elige el estilo molde",
+            "texto": "Las letras gruesas son las más fáciles de recortar y se leen de lejos."
+          },
+          {
+            "titulo": "Imprime en cartulina",
+            "texto": "Una letra por hoja queda bien para una guirnalda. Recorta por el borde y une con cordel."
+          }
+        ]
+      },
+      {
+        "tipo": "comparacion",
+        "titulo": "¿Qué diferencia hay entre letras grandes y letras para Instagram?",
+        "columnas": [
+          {
+            "titulo": "Letras grandes (esta herramienta)",
+            "tono": "azul",
+            "items": [
+              "Generan una imagen con una fuente decorativa.",
+              "Sirven para imprimir, carteles y diseños.",
+              "No se pueden pegar como texto."
+            ]
+          },
+          {
+            "titulo": "Letras para Instagram",
+            "tono": "verde",
+            "items": [
+              "Son símbolos Unicode que se copian como texto.",
+              "Sirven para bios, nombres y mensajes.",
+              "Pruébalas en [tipografía para Instagram](/tipografia-para-instagram)."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "ambar",
+        "titulo": "¿Sirve la imagen como diseño de tatuaje?",
+        "texto": "Como referencia, sí: te ayuda a decidir el estilo y el tamaño. Pero lleva siempre el diseño a tu tatuador para que lo adapte a tu piel y a la zona, sobre todo los trazos finos del estilo script."
       }
     ],
     "faqs": [
