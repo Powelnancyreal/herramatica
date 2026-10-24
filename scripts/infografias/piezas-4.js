@@ -12,6 +12,7 @@ const TEMAS = {
   oscuro: { bg: '#111827', ink: '#F9FAFB', muted: '#9CA3AF', accent: '#A78BFA', soft: '#1F2937', line: '#374151', font: 'Segoe UI, Arial, sans-serif', titulo: 'Segoe UI, Arial, sans-serif' },
   cuaderno: { bg: '#FFFFFF', ink: '#1E3A8A', muted: '#475569', accent: '#DC2626', soft: '#EFF6FF', line: '#DBEAFE', font: 'Segoe UI, Arial, sans-serif', titulo: 'Segoe Print, Comic Sans MS, cursive', cuadricula: true },
   terminal: { bg: '#0B1020', ink: '#E5E7EB', muted: '#94A3B8', accent: '#34D399', soft: '#111A33', line: '#1E2A4A', font: 'Consolas, Courier New, monospace', titulo: 'Consolas, Courier New, monospace' },
+  plano: { bg: '#0B2A4A', ink: '#E0F2FE', muted: '#93C5FD', accent: '#FCD34D', soft: '#123A63', line: '#1E4D7B', font: 'Consolas, Courier New, monospace', titulo: 'Segoe UI, Arial, sans-serif', cuadricula: true, sinMargen: true },
   pizarra: { bg: '#1F3A2E', ink: '#F1F5EE', muted: '#B7C7B9', accent: '#FDE68A', soft: '#2A4A3B', line: '#3E6151', font: 'Segoe UI, Arial, sans-serif', titulo: 'Segoe Print, Comic Sans MS, cursive' },
   pastel: { bg: '#FDF4FF', ink: '#3B0764', muted: '#7E6A8A', accent: '#C026D3', soft: '#FAE8FF', line: '#F0D5F5', font: 'Verdana, Arial, sans-serif', titulo: 'Verdana, Arial, sans-serif', maxTitulo: 34 },
   banda: { bg: '#FFFFFF', ink: '#1F2937', muted: '#6B7280', accent: '#0D9488', soft: '#F0FDFA', line: '#E5E7EB', font: 'Trebuchet MS, Arial, sans-serif', titulo: 'Trebuchet MS, Arial, sans-serif', banda: true },
@@ -39,7 +40,7 @@ function tema(nombre, extra = {}) {
     let fondo = `<rect width="${W}" height="${alto}" fill="${t.bg}"/>`
     if (t.cuadricula) {
       fondo += `<defs><pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="${t.line}" stroke-width="1"/></pattern></defs><rect width="${W}" height="${alto}" fill="url(#g)"/>`
-      fondo += `<line x1="${M - 16}" y1="0" x2="${M - 16}" y2="${alto}" stroke="#FCA5A5" stroke-width="2"/>`
+      if (!t.sinMargen) fondo += `<line x1="${M - 16}" y1="0" x2="${M - 16}" y2="${alto}" stroke="#FCA5A5" stroke-width="2"/>`
     }
     if (enBanda) fondo += `<rect width="${W}" height="${finCabecera + 30}" fill="${t.accent}"/>`
     if (!enBanda && !t.cuadricula) fondo += `<rect x="${M}" y="${alto - 58}" width="${W - 2 * M}" height="1.5" fill="${t.line}"/>`

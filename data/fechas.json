@@ -32,8 +32,8 @@
     },
     "generador-qr": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "989b14f4a08a",
+      "actualizado": "2026-10-24",
+      "contenido": "8b69fffc03e5",
       "componente": "6c490dd3a24d"
     },
     "calculadora-horas": {
@@ -218,8 +218,8 @@
     },
     "calcular-cuil": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "0be1c5721030",
+      "actualizado": "2026-10-24",
+      "contenido": "7f564213cad3",
       "componente": "0c42531dad9e"
     },
     "calcular-rut": {
@@ -332,8 +332,8 @@
     },
     "calculadora-alquiler-argentina": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-21",
-      "contenido": "8c3ef7de7ea8",
+      "actualizado": "2026-10-24",
+      "contenido": "e7de3b70b58e",
       "componente": "1cf197ff926b"
     },
     "calculadora-plazo-fijo": {
@@ -422,122 +422,122 @@
     },
     "generador-codigo-de-barras": {
       "creado": "2026-09-06",
-      "actualizado": "2026-09-06",
-      "contenido": "f3d2efdf0e7a",
+      "actualizado": "2026-10-24",
+      "contenido": "8d00f63157ed",
       "componente": "6352a4aff061"
     },
     "generador-de-crucigramas": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "e78159abad69",
+      "actualizado": "2026-10-24",
+      "contenido": "1b8feadf1e15",
       "componente": "eb124dc408ee"
     },
     "generador-de-nombres-para-free-fire": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "1d470d5b2399",
+      "actualizado": "2026-10-24",
+      "contenido": "6831f4a50365",
       "componente": "3b1a41463cf8"
     },
     "generador-de-link-de-whatsapp": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "54cc3027894c",
+      "actualizado": "2026-10-24",
+      "contenido": "c08f7db93bbc",
       "componente": "22ec26552cdd"
     },
     "calculadora-engagement-instagram": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "016abda738c4",
+      "actualizado": "2026-10-24",
+      "contenido": "aa07f4202534",
       "componente": "1a667ce4c11b"
     },
     "calculador-de-horarios": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "5e2a56ce95a6",
+      "actualizado": "2026-10-24",
+      "contenido": "d5360082b5ed",
       "componente": "555924134932"
     },
     "hexadecimal-a-texto": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "e25c312d63fc",
+      "actualizado": "2026-10-24",
+      "contenido": "c274d3b419c1",
       "componente": "dbfa51d8df23"
     },
     "ruleta-aleatoria-online": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "10debe7fa152",
+      "actualizado": "2026-10-24",
+      "contenido": "6cb634c49f6f",
       "componente": "d2ecdcf9cc5d"
     },
     "calculadora-promedio-ponderado": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "9740a0ec5c87",
+      "actualizado": "2026-10-24",
+      "contenido": "eab60e096988",
       "componente": "1fde5ceb87d7"
     },
     "calculadora-cts-peru": {
       "creado": "2026-09-06",
-      "actualizado": "2026-09-06",
-      "contenido": "90ea525253a9",
+      "actualizado": "2026-10-24",
+      "contenido": "8f8e248c3011",
       "componente": "6cb8699c85d6"
     },
     "calcular-gratificacion-peru": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "a8e7d3291732",
+      "actualizado": "2026-10-24",
+      "contenido": "0e6f7de0acc8",
       "componente": "237c17d84c18"
     },
     "calculadora-de-igv": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "40ae46533527",
+      "actualizado": "2026-10-24",
+      "contenido": "7843020a30d0",
       "componente": "50ee4f6dacd5"
     },
     "calcular-detraccion": {
       "creado": "2026-09-06",
-      "actualizado": "2026-09-06",
-      "contenido": "1808ba87b9a1",
+      "actualizado": "2026-10-24",
+      "contenido": "14c58d9ab62d",
       "componente": "5a3d6f715e6b"
     },
     "calculadora-de-matrices": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "a380dcad1b7d",
+      "actualizado": "2026-10-24",
+      "contenido": "5c252b51c7b1",
       "componente": "3007fe566fc3"
     },
     "calculadora-de-ecuaciones": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "9b1b72fca65f",
+      "actualizado": "2026-10-24",
+      "contenido": "22dad02cb6ad",
       "componente": "c5cb42f6f842"
     },
     "calculadora-precios-influencers-tiktok": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "ea43996ad1bc",
+      "actualizado": "2026-10-24",
+      "contenido": "0c7c41b44004",
       "componente": "0a494a4f80f8"
     },
     "calculadora-ip": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "7a1bfde41432",
+      "actualizado": "2026-10-24",
+      "contenido": "fead73ba5cff",
       "componente": "a0443724dc6d"
     },
     "calculadora-regla-de-tres": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "7cde28e33ef9",
+      "actualizado": "2026-10-24",
+      "contenido": "e0aae9904bec",
       "componente": "65442c4ca9f6"
     },
     "calculadora-de-pendiente": {
       "creado": "2026-09-06",
-      "actualizado": "2026-09-06",
-      "contenido": "b2fc6994758a",
+      "actualizado": "2026-10-24",
+      "contenido": "9ec9ec7c1049",
       "componente": "bfdc59b00427"
     },
     "calculadora-derivadas-integrales": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "338a66d82c2a",
+      "actualizado": "2026-10-24",
+      "contenido": "07682229af8e",
       "componente": "cc62f60df6a3"
     },
     "calculadora-ldl": {

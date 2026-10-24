@@ -418,5 +418,125 @@
     "alt": "Estilos de letras grandes: grafiti, tatuaje y molde con sus usos",
     "ancho": 800,
     "alto": 789
+  },
+  "partes-codigo-barras-ean13": {
+    "archivo": "partes-codigo-barras-ean13.webp",
+    "alt": "Partes de un código de barras EAN-13 y cálculo de su dígito de control",
+    "ancho": 800,
+    "alto": 905
+  },
+  "como-se-cruzan-palabras-crucigrama": {
+    "archivo": "como-se-cruzan-palabras-crucigrama.webp",
+    "alt": "Ejemplo de crucigrama con palabras cruzadas y pistas horizontales y verticales",
+    "ancho": 800,
+    "alto": 669
+  },
+  "como-armar-nombre-free-fire": {
+    "archivo": "como-armar-nombre-free-fire.webp",
+    "alt": "Cómo armar un nombre para Free Fire con símbolos, palabras y números",
+    "ancho": 800,
+    "alto": 696
+  },
+  "partes-enlace-whatsapp-wa-me": {
+    "archivo": "partes-enlace-whatsapp-wa-me.webp",
+    "alt": "Partes de un enlace de WhatsApp wa.me con número, mensaje y códigos de país",
+    "ancho": 800,
+    "alto": 810
+  },
+  "calculo-engagement-instagram": {
+    "archivo": "calculo-engagement-instagram.webp",
+    "alt": "Cálculo de la tasa de engagement de Instagram con un ejemplo y rangos de referencia",
+    "ancho": 800,
+    "alto": 757
+  },
+  "horario-semanal-por-colores": {
+    "archivo": "horario-semanal-por-colores.webp",
+    "alt": "Ejemplo de horario semanal de clases organizado por colores",
+    "ancho": 800,
+    "alto": 789
+  },
+  "hexadecimal-a-texto-utf8": {
+    "archivo": "hexadecimal-a-texto-utf8.webp",
+    "alt": "Conversión de hexadecimal a texto: 48 6F 6C 61 es Hola, y bytes UTF-8 de la ñ, la á y el euro",
+    "ancho": 800,
+    "alto": 758
+  },
+  "probabilidad-ruleta-aleatoria": {
+    "archivo": "probabilidad-ruleta-aleatoria.webp",
+    "alt": "Ruleta aleatoria de seis opciones con 16,7 por ciento de probabilidad cada una",
+    "ancho": 800,
+    "alto": 767
+  },
+  "promedio-ponderado-vs-simple": {
+    "archivo": "promedio-ponderado-vs-simple.webp",
+    "alt": "Cálculo del promedio ponderado por créditos frente al promedio simple con cuatro cursos",
+    "ancho": 800,
+    "alto": 827
+  },
+  "calculo-cts-peru-deposito": {
+    "archivo": "calculo-cts-peru-deposito.webp",
+    "alt": "Cálculo de la CTS en Perú con la remuneración computable y fechas de depósito de mayo y noviembre",
+    "ancho": 800,
+    "alto": 751
+  },
+  "calculo-gratificacion-peru-julio": {
+    "archivo": "calculo-gratificacion-peru-julio.webp",
+    "alt": "Cálculo de la gratificación de julio o diciembre en Perú con la bonificación extraordinaria del 9 por ciento",
+    "ancho": 800,
+    "alto": 885
+  },
+  "agregar-quitar-igv-peru": {
+    "archivo": "agregar-quitar-igv-peru.webp",
+    "alt": "Cómo agregar o quitar el IGV del 18 por ciento en Perú con una tabla de montos",
+    "ancho": 800,
+    "alto": 767
+  },
+  "como-funciona-detraccion-sunat": {
+    "archivo": "como-funciona-detraccion-sunat.webp",
+    "alt": "Cómo funciona una detracción de SUNAT: reparto del pago entre el proveedor y la cuenta del Banco de la Nación",
+    "ancho": 800,
+    "alto": 835
+  },
+  "determinante-inversa-matriz-2x2": {
+    "archivo": "determinante-inversa-matriz-2x2.webp",
+    "alt": "Cálculo del determinante y la matriz inversa de una matriz 2 por 2",
+    "ancho": 800,
+    "alto": 685
+  },
+  "ecuacion-segundo-grado-discriminante": {
+    "archivo": "ecuacion-segundo-grado-discriminante.webp",
+    "alt": "Resolución de una ecuación de segundo grado con el discriminante y su parábola",
+    "ancho": 800,
+    "alto": 770
+  },
+  "precio-video-patrocinado-tiktok": {
+    "archivo": "precio-video-patrocinado-tiktok.webp",
+    "alt": "Cálculo del precio estimado de un video patrocinado en TikTok según seguidores y engagement",
+    "ancho": 800,
+    "alto": 867
+  },
+  "subred-ip-red-host-broadcast": {
+    "archivo": "subred-ip-red-host-broadcast.webp",
+    "alt": "División de una dirección IP en bits de red y de host con máscara, red, broadcast y hosts",
+    "ancho": 800,
+    "alto": 797
+  },
+  "regla-de-tres-directa-inversa": {
+    "archivo": "regla-de-tres-directa-inversa.webp",
+    "alt": "Ejemplos de regla de tres directa e inversa resueltos paso a paso",
+    "ancho": 800,
+    "alto": 759
+  },
+  "pendiente-recta-dos-puntos": {
+    "archivo": "pendiente-recta-dos-puntos.webp",
+    "alt": "Gráfica de la pendiente de una recta entre los puntos 1,2 y 4,8 con su ecuación",
+    "ancho": 800,
+    "alto": 788
+  },
+  "derivada-integral-x-cuadrado": {
+    "archivo": "derivada-integral-x-cuadrado.webp",
+    "alt": "Derivada de x al cuadrado en x igual a 3 y área bajo la curva entre 0 y 2",
+    "ancho": 800,
+    "alto": 830
   }
 }

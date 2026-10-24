@@ -938,7 +938,7 @@
         "items": [
           {
             "texto": "DENSO WAVE, creador del código QR",
-            "url": "https://www.qrcode.com/es/"
+            "url": "https://www.qrcode.com/en/"
           }
         ]
       }
@@ -5099,8 +5099,8 @@
         "tipo": "fuentes",
         "items": [
           {
-            "texto": "ANSES: constancia de CUIL",
-            "url": "https://www.anses.gob.ar/consulta/constancia-de-cuil"
+            "texto": "ANSES: consulta y constancia de CUIL",
+            "url": "https://www.anses.gob.ar"
           }
         ]
       }
@@ -7227,7 +7227,7 @@
           },
           {
             "texto": "INDEC: Índice de precios al consumidor",
-            "url": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31"
+            "url": "https://www.indec.gob.ar"
           }
         ]
       }
@@ -8827,27 +8827,100 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Genera un código de barras en formato EAN-13, el estándar más usado en productos comerciales en todo el mundo. Introduce los primeros 12 dígitos y esta herramienta calcula automáticamente el dígito de control y dibuja el código de barras completo, listo para descargar como imagen.",
-    "howToUse": [
-      "Introduce los primeros 12 dígitos de tu código",
-      "El dígito de control (13º dígito) se calcula automáticamente",
-      "El código de barras se dibuja al instante",
-      "Pulsa \"Descargar imagen\" para guardar el resultado en PNG"
-    ],
-    "benefits": [
-      "Genera códigos de barras EAN-13 válidos, con el dígito de control correcto",
-      "Dibuja el código de barras completo con los dígitos legibles debajo",
-      "Descarga la imagen en PNG lista para usar",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe los 12 primeros dígitos de un código EAN-13 y obtén el dígito de control y el código de barras listo para descargar en PNG o SVG. Ideal para etiquetas internas, pruebas y prototipos.",
+    "bloques": [
       {
-        "title": "¿Qué es el formato EAN-13?",
-        "body": "EAN-13 (European Article Number, 13 dígitos) es el estándar de código de barras más utilizado en productos de venta al público en Europa, Latinoamérica y gran parte del mundo. Consta de 13 dígitos: los primeros indican el país o región de la empresa, los siguientes identifican al fabricante y al producto, y el último es un dígito de control que permite verificar que el código se leyó correctamente."
+        "tipo": "infografia",
+        "archivo": "partes-codigo-barras-ean13.webp",
+        "alt": "Partes de un código de barras EAN-13 y cálculo de su dígito de control",
+        "ancho": 800,
+        "alto": 905,
+        "titulo": "¿Qué significa cada número de un código EAN-13?"
       },
       {
-        "title": "¿Cómo se calcula el dígito de control?",
-        "body": "El dígito de control se calcula sumando los dígitos en posiciones impares (1ª, 3ª, 5ª...) multiplicados por 1, y los dígitos en posiciones pares multiplicados por 3, sobre los primeros 12 dígitos. El dígito de control es el número que, sumado a ese total, da un múltiplo de 10. Esta calculadora aplica esta fórmula automáticamente."
+        "tipo": "tabla",
+        "titulo": "¿Con qué números empiezan los códigos de barras de cada país?",
+        "intro": "Los tres primeros dígitos indican la organización GS1 donde se registró la empresa, no dónde se fabricó el producto.",
+        "cabeceras": [
+          "País",
+          "Prefijo GS1"
+        ],
+        "filas": [
+          [
+            "México",
+            "750"
+          ],
+          [
+            "Colombia",
+            "770 – 771"
+          ],
+          [
+            "Perú",
+            "775"
+          ],
+          [
+            "Uruguay",
+            "773"
+          ],
+          [
+            "Argentina",
+            "778 – 779"
+          ],
+          [
+            "Chile",
+            "780"
+          ],
+          [
+            "Ecuador",
+            "786"
+          ],
+          [
+            "España",
+            "84"
+          ]
+        ]
+      },
+      {
+        "tipo": "comparacion",
+        "titulo": "¿Puedo usar este código de barras para vender en una tienda?",
+        "columnas": [
+          {
+            "titulo": "Sí sirve para",
+            "tono": "verde",
+            "items": [
+              "Inventario interno de tu negocio o almacén.",
+              "Prototipos, pruebas de escáner y prácticas de clase.",
+              "Etiquetar productos que solo vendes tú, en tu propio sistema."
+            ]
+          },
+          {
+            "titulo": "No sirve para",
+            "tono": "rojo",
+            "items": [
+              "Vender en supermercados o grandes tiendas: exigen un código registrado en GS1.",
+              "Marketplaces que verifican el código con la base de datos de GS1.",
+              "Exportar productos."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "checklist",
+        "titulo": "¿Cómo imprimir un código de barras que se lea bien?",
+        "items": [
+          "Descárgalo en SVG si lo vas a escalar: no pierde nitidez.",
+          "Imprime en negro sobre fondo blanco; los colores claros fallan en muchos lectores.",
+          "Respeta los márgenes blancos a los lados, sin texto ni bordes pegados.",
+          "No lo reduzcas por debajo del 80 % de su tamaño nominal (unos 37 × 26 mm).",
+          "Pruébalo con un lector o con la cámara del móvil antes de imprimir en cantidad."
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Necesitas un código que guarde un enlace o un texto?",
+        "parrafos": [
+          "Un código de barras EAN solo guarda números. Para un enlace, un menú o los datos de tu WiFi, usa el [generador de código QR](/generador-qr)."
+        ]
       }
     ],
     "faqs": [
@@ -8888,27 +8961,71 @@
     "webApp": true,
     "appCategory": "EntertainmentApplication",
     "intro": "Crea un crucigrama personalizado a partir de tus propias palabras y pistas. La herramienta conecta automáticamente las palabras que comparten letras, generando un crucigrama con casillas horizontales y verticales numeradas, listo para imprimir o resolver en pantalla.",
-    "howToUse": [
-      "Escribe cada palabra con su pista, en el formato PALABRA: pista, una por línea",
-      "Elige el tamaño de la cuadrícula",
-      "Pulsa \"Reorganizar\" si quieres una disposición distinta",
-      "Activa \"Mostrar respuestas\" para ver las letras, o imprime el crucigrama en blanco para resolverlo"
-    ],
-    "benefits": [
-      "Genera un crucigrama personalizado con tus propias palabras y pistas",
-      "Conecta automáticamente las palabras que comparten letras, como un crucigrama real",
-      "Numera las pistas horizontales y verticales por separado",
-      "Lista para imprimir directamente desde el navegador",
-      "Gratis, sin registro y funciona directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe tus palabras con sus pistas y obtén un crucigrama que las cruza automáticamente, con numeración y listas de horizontales y verticales. Puedes imprimirlo en blanco o con las soluciones.",
+    "bloques": [
       {
-        "title": "¿Cómo se conectan las palabras en un crucigrama?",
-        "body": "Un crucigrama conecta sus palabras aprovechando las letras que tienen en común: si dos palabras comparten una letra, pueden cruzarse en esa posición, una en horizontal y la otra en vertical. Esta herramienta busca automáticamente esas coincidencias entre las palabras que introduces y las coloca de forma que se entrelacen, igual que en un crucigrama tradicional."
+        "tipo": "infografia",
+        "archivo": "como-se-cruzan-palabras-crucigrama.webp",
+        "alt": "Ejemplo de crucigrama con palabras cruzadas y pistas horizontales y verticales",
+        "ancho": 800,
+        "alto": 669,
+        "titulo": "¿Cómo conecta el generador las palabras del crucigrama?"
       },
       {
-        "title": "¿Qué pasa si una palabra no se puede conectar?",
-        "body": "Si una palabra no comparte ninguna letra con las demás palabras de la lista, no podrá conectarse al resto del crucigrama y la herramienta te avisará. Para evitarlo, intenta incluir palabras relacionadas por temática, que suelen compartir letras con más frecuencia, o ajusta manualmente tu lista de palabras."
+        "tipo": "consejos",
+        "titulo": "¿Cómo escribir buenas pistas para un crucigrama?",
+        "items": [
+          {
+            "titulo": "Una sola respuesta posible",
+            "texto": "«Animal doméstico» admite muchas; «Animal doméstico que maúlla» solo una."
+          },
+          {
+            "titulo": "Adapta la dificultad",
+            "texto": "Para niños, definiciones directas; para adultos, sinónimos o juegos de palabras."
+          },
+          {
+            "titulo": "Varía el tipo de pista",
+            "texto": "Mezcla definiciones, frases para completar («Más vale ___ que nunca») y preguntas."
+          },
+          {
+            "titulo": "Revisa la ortografía",
+            "texto": "Una tilde de más o de menos no cambia la casilla, pero sí puede confundir al que resuelve."
+          }
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Cuántas palabras necesito para un buen crucigrama?",
+        "cabeceras": [
+          "Para",
+          "Palabras",
+          "Longitud recomendada"
+        ],
+        "filas": [
+          [
+            "Niños de 6 a 9 años",
+            "5 a 8",
+            "3 a 6 letras"
+          ],
+          [
+            "Clase de repaso",
+            "10 a 15",
+            "4 a 10 letras"
+          ],
+          [
+            "Pasatiempo para adultos",
+            "15 a 25",
+            "Mezcla de cortas y largas"
+          ]
+        ],
+        "nota": "Las palabras con vocales comunes (A, E, O) se cruzan con más facilidad."
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otros pasatiempos puedo crear para clase?",
+        "parrafos": [
+          "Con la misma lista de palabras puedes hacer una [sopa de letras](/sopa-de-letras), más fácil para los pequeños. Para actividades de matemáticas tienes las [tablas de multiplicar](/tablas-de-multiplicar) y el juego de [cálculo mental](/calculo-mental)."
+        ]
       }
     ],
     "faqs": [
@@ -8950,27 +9067,53 @@
     "webApp": true,
     "appCategory": "EntertainmentApplication",
     "intro": "Genera ideas de nombres y apodos (nicks) para tu perfil de Free Fire, combinando palabras de estilo gamer, símbolos decorativos y números, o personalízalo a partir de tu propio nombre. Copia el resultado con un clic y úsalo directamente en el juego.",
-    "howToUse": [
-      "Escribe tu nombre base, o déjalo vacío para generar uno totalmente aleatorio",
-      "Elige si quieres añadir símbolos decorativos, un número, o combinar dos palabras",
-      "Pulsa \"Generar nombres\" para ver 10 opciones",
-      "Pulsa sobre el nombre que más te guste para copiarlo"
-    ],
-    "benefits": [
-      "Genera 10 nombres distintos de un solo clic",
-      "Incluye símbolos decorativos populares en nombres de gamers",
-      "Permite personalizar a partir de tu propio nombre o generar uno aleatorio",
-      "Copia cada nombre al portapapeles con un clic",
-      "Gratis, sin registro y funciona directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Genera nicks para Free Fire combinando palabras con estilo gamer, símbolos decorativos y números, o parte de tu propio nombre. Copia el que te guste y pégalo en el juego.",
+    "bloques": [
       {
-        "title": "¿Qué hace único a un buen nombre de Free Fire?",
-        "body": "Los nicks más llamativos en Free Fire suelen combinar una palabra con estilo (relacionada con fuerza, misterio o velocidad), símbolos decorativos poco comunes que hacen que destaque visualmente, y a veces un número que lo hace único y evita que ya esté ocupado por otro jugador."
+        "tipo": "infografia",
+        "archivo": "como-armar-nombre-free-fire.webp",
+        "alt": "Cómo armar un nombre para Free Fire con símbolos, palabras y números",
+        "ancho": 800,
+        "alto": 696,
+        "titulo": "¿Cómo se arma un nombre con símbolos para Free Fire?"
       },
       {
-        "title": "¿Free Fire acepta símbolos especiales en el nombre?",
-        "body": "Sí, Free Fire permite usar una variedad de símbolos Unicode y caracteres especiales en el nombre del jugador, lo que ha popularizado el uso de decoraciones como ✿, ⚡ o 亗 en los nicks. Ten en cuenta que el juego puede tener un límite de caracteres para el nombre, así que revisa que tu elección no lo supere."
+        "tipo": "escenarios",
+        "titulo": "¿Qué tipo de nombre va con tu forma de jugar?",
+        "items": [
+          {
+            "titulo": "Rusher",
+            "situacion": "Vas siempre al frente. Nombres cortos y agresivos que se recuerden.",
+            "resultado": "Rayo Letal"
+          },
+          {
+            "titulo": "Sniper",
+            "situacion": "Juegas a distancia y en silencio. Nombres misteriosos.",
+            "resultado": "Sombra Gris"
+          },
+          {
+            "titulo": "Para tu clan",
+            "situacion": "Un mismo símbolo o prefijo para todos los miembros.",
+            "resultado": "乂Clan乂"
+          }
+        ]
+      },
+      {
+        "tipo": "checklist",
+        "titulo": "¿Qué revisar antes de cambiar tu nombre en el juego?",
+        "items": [
+          "Acorta el nombre: el límite de caracteres es corto y los símbolos también cuentan.",
+          "Quita los símbolos raros uno a uno hasta encontrar el que falla.",
+          "Comprueba que no esté ya en uso añadiendo un número o un símbolo.",
+          "Evita palabras ofensivas: el filtro del juego las bloquea aunque lleven símbolos."
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo dejar espacios invisibles o letras con estilo en el nombre?",
+        "parrafos": [
+          "Para un hueco que el juego no borre, prueba el carácter U+3164 del [generador de texto invisible](/texto-invisible). Para letras en negrita, gótico o script, usa la [tipografía para Instagram](/tipografia-para-instagram): algunas se ven en el juego y otras no, según el dispositivo. Si buscas un apodo para otras redes, el [generador de apodos](/generador-apodos) da más ideas."
+        ]
       }
     ],
     "faqs": [
@@ -9012,26 +9155,54 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Genera un enlace directo de WhatsApp (wa.me) a partir de un número de teléfono, con un mensaje predefinido opcional. Al hacer clic en el enlace, se abre una conversación de WhatsApp con ese número, sin necesidad de tenerlo guardado en los contactos. Ideal para botones de \"Contáctanos por WhatsApp\" en tu sitio web, biografías de redes sociales o firmas de correo.",
-    "howToUse": [
-      "Introduce el número de WhatsApp, con código de país y sin el símbolo +",
-      "Opcionalmente, escribe un mensaje que aparecerá ya escrito al abrir el chat",
-      "Copia el enlace generado, o pulsa \"Probar enlace\" para comprobarlo"
-    ],
-    "benefits": [
-      "Genera el enlace al instante mientras escribes",
-      "Permite incluir un mensaje predefinido, codificado correctamente para la URL",
-      "Funciona sin necesidad de tener el número guardado en tus contactos",
-      "Incluye un botón para probar el enlace directamente",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe tu número con el código de país y, si quieres, un mensaje: obtienes un enlace wa.me que abre un chat contigo sin que nadie tenga que guardar tu número. Perfecto para tu web, Instagram o un código QR.",
+    "bloques": [
       {
-        "title": "¿Cómo funciona un enlace wa.me?",
-        "body": "Un enlace con el formato https://wa.me/[número] es un enlace oficial de WhatsApp que, al abrirse, inicia una conversación con ese número específico, tanto desde el móvil como desde WhatsApp Web en el ordenador, sin necesidad de que el número esté guardado en tu agenda de contactos. Si se añade el parámetro ?text=, el mensaje indicado aparece ya escrito en el cuadro de texto, listo para enviar."
+        "tipo": "infografia",
+        "archivo": "partes-enlace-whatsapp-wa-me.webp",
+        "alt": "Partes de un enlace de WhatsApp wa.me con número, mensaje y códigos de país",
+        "ancho": 800,
+        "alto": 810,
+        "titulo": "¿Cómo es un enlace de WhatsApp por dentro?"
       },
       {
-        "title": "¿Dónde se usa este tipo de enlace?",
-        "body": "Los enlaces de WhatsApp con mensaje predefinido son muy usados en botones de contacto de páginas web (\"Escríbenos por WhatsApp\"), en la biografía de Instagram o TikTok de negocios, en firmas de correo electrónico, o en tarjetas de presentación digitales, ya que facilitan que un cliente potencial inicie la conversación sin tener que escribir el número manualmente."
+        "tipo": "escenarios",
+        "titulo": "¿Dónde poner tu enlace de WhatsApp?",
+        "items": [
+          {
+            "titulo": "Bio de Instagram o TikTok",
+            "situacion": "Un clic y el cliente te escribe, sin copiar el número.",
+            "resultado": "Más mensajes"
+          },
+          {
+            "titulo": "Botón en tu web",
+            "situacion": "Un botón «Escríbenos» con un mensaje ya preparado: «Hola, quiero información sobre…».",
+            "resultado": "Consultas más claras"
+          },
+          {
+            "titulo": "Folletos y menús",
+            "situacion": "Convierte el enlace en un QR para que lo escaneen desde el papel.",
+            "resultado": "Del papel al chat"
+          }
+        ]
+      },
+      {
+        "tipo": "checklist",
+        "titulo": "¿Por qué no funciona mi enlace de WhatsApp?",
+        "items": [
+          "El número debe ir con código de país y sin el signo +, espacios, guiones ni paréntesis.",
+          "No pongas el 0 o el 15 de los prefijos locales.",
+          "En Argentina, los móviles llevan un 9 después del 54.",
+          "El número tiene que tener una cuenta de WhatsApp activa.",
+          "Prueba el enlace desde otro teléfono antes de publicarlo."
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo convertir el enlace de WhatsApp en un código QR?",
+        "parrafos": [
+          "Copia el enlace generado y pégalo en el [generador de código QR](/generador-qr). Al escanearlo, se abre el chat con tu mensaje listo para enviar. Para medir qué enlace trae más clientes, puedes añadir parámetros con el [generador de UTM](/generador-utm) a los enlaces de tu web."
+        ]
       }
     ],
     "faqs": [
@@ -9073,27 +9244,66 @@
     "webApp": true,
     "appCategory": "BusinessApplication",
     "intro": "Calcula la tasa de engagement (interacción) de una cuenta de Instagram, ya sea para una publicación concreta o como promedio de varias publicaciones. El engagement rate es una de las métricas más usadas para medir qué tan activa e interesada está tu audiencia, más allá del simple número de seguidores.",
-    "howToUse": [
-      "Elige si quieres calcular el engagement de una sola publicación o el promedio de varias",
-      "Introduce tus seguidores totales",
-      "Introduce los likes y comentarios (y opcionalmente guardados y compartidos) de la publicación",
-      "Consulta tu tasa de engagement y su nivel de referencia (bajo, promedio, alto o excelente)"
-    ],
-    "benefits": [
-      "Calcula el engagement de una publicación individual o el promedio de varias a la vez",
-      "Incluye guardados y compartidos además de likes y comentarios, para un cálculo más completo",
-      "Clasifica el resultado según rangos de referencia habituales en marketing digital",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula la tasa de engagement de una publicación o de tu cuenta: suma likes, comentarios, guardados y compartidos y divide entre tus seguidores. Así sabes si tu contenido conecta y puedes compararte con cuentas de tu tamaño.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula el engagement rate de Instagram?",
-        "body": "La fórmula más habitual es: Engagement Rate = (Likes + Comentarios + Guardados + Compartidos) ÷ Seguidores × 100. Por ejemplo, una cuenta con 10,000 seguidores y una publicación con 450 likes y 30 comentarios tiene una tasa de engagement de (480 ÷ 10,000) × 100 = 4.8%. Esta variante, calculada sobre el total de seguidores, es la más usada para comparar el rendimiento entre publicaciones de una misma cuenta a lo largo del tiempo."
+        "tipo": "infografia",
+        "archivo": "calculo-engagement-instagram.webp",
+        "alt": "Cálculo de la tasa de engagement de Instagram con un ejemplo y rangos de referencia",
+        "ancho": 800,
+        "alto": 757,
+        "titulo": "¿Qué es un buen engagement en Instagram?"
       },
       {
-        "title": "¿Qué se considera una buena tasa de engagement?",
-        "body": "Como referencia general en marketing digital: por debajo del 1% se considera bajo, entre 1% y 3.5% es un promedio saludable para la mayoría de las cuentas, entre 3.5% y 6% se considera alto, y por encima del 6% es excelente. Sin embargo, estos rangos son orientativos: cuentas más pequeñas y nichos muy específicos suelen tener tasas de engagement más altas que cuentas grandes y generalistas, por lo que conviene comparar tu tasa con cuentas similares a la tuya, no con estos rangos de forma absoluta."
+        "tipo": "glosario",
+        "titulo": "¿Qué significan engagement, alcance e impresiones?",
+        "items": [
+          [
+            "Engagement",
+            "Interacciones (likes, comentarios, guardados, compartidos) en relación con tus seguidores o tu alcance."
+          ],
+          [
+            "Alcance",
+            "Cuántas cuentas distintas vieron tu publicación."
+          ],
+          [
+            "Impresiones",
+            "Cuántas veces se mostró, contando repeticiones de la misma persona."
+          ],
+          [
+            "Guardados",
+            "Una de las señales más valiosas: indica que el contenido es útil y alguien quiere volver a verlo."
+          ]
+        ]
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Cómo subir el engagement de una cuenta de Instagram?",
+        "items": [
+          {
+            "titulo": "Contenido que se guarda",
+            "texto": "Listas, tutoriales y datos útiles generan más guardados que las fotos bonitas."
+          },
+          {
+            "titulo": "Preguntas en el pie de foto",
+            "texto": "Una pregunta concreta al final invita a comentar."
+          },
+          {
+            "titulo": "Responde rápido",
+            "texto": "Contestar en la primera hora alarga la conversación."
+          },
+          {
+            "titulo": "Hashtags específicos",
+            "texto": "Mejor pocos y del nicho que muchos genéricos. Busca ideas con el [generador de hashtags](/generador-hashtags)."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cuánto cobrar por una publicación según el engagement?",
+        "parrafos": [
+          "Las marcas miran el engagement más que los seguidores: una cuenta pequeña con mucha interacción puede valer más que una grande y pasiva. Para estimar tarifas de video, usa la [calculadora de precios de TikTok](/calculadora-precios-influencers-tiktok); y para la bio de tu perfil, el [generador de bio para Instagram](/generador-bio-instagram)."
+        ]
       }
     ],
     "faqs": [
@@ -9135,27 +9345,65 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Crea tu propio horario semanal, ya sea para organizar tus clases, tus turnos de trabajo o tu rutina personal. Elige el rango de horas, los días que quieres mostrar, y rellena cada casilla con la actividad y el color que prefieras. Ideal para imprimir y pegar donde lo necesites.",
-    "howToUse": [
-      "Elige la hora de inicio y de fin, y el intervalo entre franjas horarias",
-      "Selecciona los días que quieres incluir en tu horario",
-      "Haz clic en cualquier casilla para escribir una actividad y elegir un color",
-      "Pulsa \"Imprimir horario\" cuando esté listo"
-    ],
-    "benefits": [
-      "Personaliza el rango de horas, el intervalo y los días de tu horario",
-      "Asigna un color distinto a cada tipo de actividad, para identificarlas de un vistazo",
-      "Funciona igual de bien para horarios de clases, turnos de trabajo o rutinas personales",
-      "Listo para imprimir directamente desde el navegador",
-      "Gratis, sin registro y funciona directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Crea tu horario semanal de clases, turnos o rutina: elige las horas y los días, rellena cada bloque con su actividad y color, e imprímelo. Todo se queda en tu navegador.",
+    "bloques": [
       {
-        "title": "¿Para qué se usa un horario semanal?",
-        "body": "Un horario semanal visual ayuda a organizar de un vistazo las actividades recurrentes de la semana: el horario de clases de un estudiante, los turnos rotativos de un trabajo, una rutina de entrenamiento, o simplemente la planificación semanal de tareas domésticas y personales. Visualizar todas las actividades en una sola cuadrícula facilita detectar huecos libres o solapamientos entre actividades."
+        "tipo": "infografia",
+        "archivo": "horario-semanal-por-colores.webp",
+        "alt": "Ejemplo de horario semanal de clases organizado por colores",
+        "ancho": 800,
+        "alto": 789,
+        "titulo": "¿Cómo queda un horario semanal organizado por colores?"
       },
       {
-        "title": "Consejos para organizar tu horario por colores",
-        "body": "Asignar un color distinto a cada categoría de actividad (por ejemplo, azul para trabajo, verde para estudio, rosa para tiempo libre) hace que el horario sea mucho más fácil de leer de un vistazo, sin necesidad de leer el texto de cada casilla. Esta técnica, muy usada en agendas y planificadores, ayuda especialmente a detectar de un vistazo si un día está sobrecargado de un tipo de actividad."
+        "tipo": "pasos",
+        "titulo": "¿Cómo hacer un horario de estudio que se cumpla?",
+        "pasos": [
+          {
+            "titulo": "Empieza por lo fijo",
+            "texto": "Clases, trabajo, comidas y transporte. Lo que no puedes mover va primero."
+          },
+          {
+            "titulo": "Bloques de 45 a 90 minutos",
+            "texto": "Para estudiar, mejor bloques cortos con descanso que tardes enteras."
+          },
+          {
+            "titulo": "Lo difícil cuando tienes más energía",
+            "texto": "Si rindes más por la mañana, pon ahí las materias que más te cuestan."
+          },
+          {
+            "titulo": "Deja huecos libres",
+            "texto": "Un horario sin margen se rompe en cuanto surge un imprevisto."
+          }
+        ]
+      },
+      {
+        "tipo": "escenarios",
+        "titulo": "¿Para qué tipos de horario sirve?",
+        "items": [
+          {
+            "titulo": "Estudiantes",
+            "situacion": "Clases, horas de estudio y actividades extraescolares con un color por materia.",
+            "resultado": "Lunes a viernes"
+          },
+          {
+            "titulo": "Turnos de trabajo",
+            "situacion": "Quién trabaja cada franja en un comercio o restaurante, de lunes a domingo.",
+            "resultado": "7 días"
+          },
+          {
+            "titulo": "Rutina personal",
+            "situacion": "Gimnasio, lectura, tareas de casa y tiempo libre.",
+            "resultado": "Hábitos"
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo calcular cuántas horas suma mi horario?",
+        "parrafos": [
+          "Para sumar horas y minutos de varios bloques o pasar el total a formato decimal, usa la [calculadora de horas](/calculadora-horas). Si quieres medir cuánto tardas de verdad en cada tarea, cronométrala con el [cronómetro online](/cronometro-online)."
+        ]
       }
     ],
     "faqs": [
@@ -9197,27 +9445,93 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte una cadena de códigos hexadecimales a texto legible, interpretando cada par de dígitos hexadecimales como un byte de texto codificado en UTF-8 (compatible con tildes y la letra ñ). También puedes hacer la conversión inversa: de texto a su representación en hexadecimal.",
-    "howToUse": [
-      "Elige la dirección: \"Hexadecimal → Texto\" o \"Texto → Hexadecimal\"",
-      "Pega el código hexadecimal (con o sin espacios entre bytes) o escribe tu texto",
-      "El resultado se muestra al instante",
-      "Si el hexadecimal no es válido o no forma texto UTF-8 correcto, se indica el error"
-    ],
-    "benefits": [
-      "Convierte en ambos sentidos: hexadecimal a texto y texto a hexadecimal",
-      "Compatible con UTF-8, por lo que decodifica correctamente tildes, la ñ y otros caracteres especiales",
-      "Acepta el hexadecimal con o sin espacios entre bytes",
-      "Detecta y explica errores de formato en lugar de mostrar texto corrupto",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Pega una cadena hexadecimal y obtén el texto que representa, leyendo cada par de cifras como un byte en UTF-8, o convierte un texto a hexadecimal. Funciona con tildes, eñes y emojis.",
+    "bloques": [
       {
-        "title": "¿En qué se diferencia esto de convertir hexadecimal a decimal?",
-        "body": "Convertir hexadecimal a decimal transforma un número escrito en base 16 a su valor equivalente en base 10 (por ejemplo, 1F4 hexadecimal es 500 en decimal): es una conversión numérica. Convertir hexadecimal a texto, en cambio, interpreta cada par de dígitos hexadecimales como el código de un carácter (por ejemplo, 48 es la letra \"H\"), reconstruyendo una cadena de texto legible a partir de esos códigos, no un número."
+        "tipo": "infografia",
+        "archivo": "hexadecimal-a-texto-utf8.webp",
+        "alt": "Conversión de hexadecimal a texto: 48 6F 6C 61 es Hola, y bytes UTF-8 de la ñ, la á y el euro",
+        "ancho": 800,
+        "alto": 758,
+        "titulo": "¿Cómo se convierte una cadena hexadecimal en texto?"
       },
       {
-        "title": "¿Por qué es importante la codificación UTF-8?",
-        "body": "En UTF-8, los caracteres básicos del inglés (letras sin tilde, números) ocupan un solo byte, pero caracteres como la ñ, las vocales con tilde o los emojis pueden ocupar dos o más bytes. Por eso, decodificar hexadecimal a texto correctamente requiere interpretar los bytes según las reglas de UTF-8, en lugar de asumir que cada byte es siempre un carácter simple; esta calculadora aplica esa interpretación correctamente."
+        "tipo": "tabla",
+        "titulo": "¿Qué código hexadecimal tiene cada letra?",
+        "cabeceras": [
+          "Carácter",
+          "Hex (UTF-8)",
+          "Carácter",
+          "Hex (UTF-8)"
+        ],
+        "filas": [
+          [
+            "A",
+            "41",
+            "a",
+            "61"
+          ],
+          [
+            "B",
+            "42",
+            "b",
+            "62"
+          ],
+          [
+            "Z",
+            "5A",
+            "z",
+            "7A"
+          ],
+          [
+            "0",
+            "30",
+            "9",
+            "39"
+          ],
+          [
+            "espacio",
+            "20",
+            "!",
+            "21"
+          ],
+          [
+            "ñ",
+            "C3 B1",
+            "é",
+            "C3 A9"
+          ]
+        ],
+        "nota": "Las mayúsculas y las minúsculas se diferencian en 20 hexadecimal (32 decimal)."
+      },
+      {
+        "tipo": "glosario",
+        "titulo": "¿Qué son ASCII, Unicode y UTF-8?",
+        "items": [
+          [
+            "ASCII",
+            "La tabla original de 128 caracteres: letras sin tilde, números y signos. Cada uno ocupa un byte."
+          ],
+          [
+            "Unicode",
+            "El catálogo de todos los caracteres del mundo, con un número para cada uno (U+00F1 es la ñ)."
+          ],
+          [
+            "UTF-8",
+            "La forma más usada de guardar Unicode: los caracteres de ASCII ocupan 1 byte y el resto, de 2 a 4."
+          ],
+          [
+            "Byte",
+            "Ocho bits. En hexadecimal se escribe siempre con dos cifras, de 00 a FF."
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Para qué se usa convertir hexadecimal a texto?",
+        "parrafos": [
+          "Para leer datos en volcados de memoria, paquetes de red o archivos binarios, para resolver retos de programación y CTF, o para depurar problemas de codificación cuando aparecen caracteres raros como «Ã±» en lugar de «ñ». Para números, usa [hexadecimal a decimal](/calcular-hexadecimal-a-decimal); para codificaciones de texto en la web, el [codificador Base64](/codificador-base64) y el [codificador de URL](/codificador-url)."
+        ]
       }
     ],
     "faqs": [
@@ -9259,27 +9573,74 @@
     "webApp": true,
     "appCategory": "EntertainmentApplication",
     "intro": "Crea una ruleta personalizada con tus propias opciones (nombres, comidas, actividades, premios, o lo que necesites) y gírala para elegir una al azar. Útil para tomar decisiones, hacer sorteos, elegir al azar en clase, o simplemente para divertirte con amigos.",
-    "howToUse": [
-      "Escribe tus opciones, una por línea, en el cuadro de texto",
-      "Activa \"Eliminar la opción ganadora\" si quieres usar la ruleta para varias rondas sin repetir",
-      "Pulsa \"Girar\" y espera a que la ruleta se detenga",
-      "El resultado se muestra debajo de la ruleta"
-    ],
-    "benefits": [
-      "Admite cualquier número de opciones personalizadas",
-      "Selección verdaderamente aleatoria en cada giro",
-      "Opción de eliminar la ganadora tras cada ronda, ideal para sorteos con varios premios",
-      "Animación de giro realista con desaceleración",
-      "Gratis, sin registro y funciona directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe tus opciones, gira la ruleta y deja que el azar decida: qué comer, quién empieza, a quién le toca un premio. Todas las opciones tienen la misma probabilidad de salir.",
+    "bloques": [
       {
-        "title": "¿Para qué se usa una ruleta aleatoria?",
-        "body": "Una ruleta aleatoria (o \"rueda de la fortuna\" para decisiones) es una forma visual y entretenida de elegir una opción al azar entre varias, sin sesgos ni preferencias. Es muy usada para hacer sorteos entre varios participantes, decidir quién empieza un juego, elegir un lugar para comer entre varias opciones, sortear premios en redes sociales, o elegir al azar a un alumno en clase."
+        "tipo": "infografia",
+        "archivo": "probabilidad-ruleta-aleatoria.webp",
+        "alt": "Ruleta aleatoria de seis opciones con 16,7 por ciento de probabilidad cada una",
+        "ancho": 800,
+        "alto": 767,
+        "titulo": "¿Qué probabilidad tiene cada opción de salir en la ruleta?"
       },
       {
-        "title": "¿Cómo se garantiza que el resultado sea aleatorio?",
-        "body": "Esta herramienta elige la opción ganadora usando el generador de números aleatorios del navegador antes de iniciar la animación de giro; la animación visual simplemente representa ese resultado ya determinado, girando varias vueltas completas antes de detenerse exactamente en la opción elegida. Todas las opciones tienen la misma probabilidad de salir, sin importar su posición en la ruleta."
+        "tipo": "consejos",
+        "titulo": "¿Para qué usar una ruleta aleatoria?",
+        "items": [
+          {
+            "titulo": "En clase",
+            "texto": "Elegir quién sale a la pizarra o qué tema se repasa, sin que nadie se sienta señalado."
+          },
+          {
+            "titulo": "En casa",
+            "texto": "Qué cenar, qué película ver o a quién le toca fregar."
+          },
+          {
+            "titulo": "En redes y directos",
+            "texto": "Sorteos en vivo con los nombres de los participantes."
+          },
+          {
+            "titulo": "Para decidir",
+            "texto": "Cuando dudas entre opciones parecidas, lo que sientes al ver el resultado te dice cuál preferías."
+          }
+        ]
+      },
+      {
+        "tipo": "comparacion",
+        "titulo": "¿Ruleta, sorteo o tómbola: cuál usar?",
+        "columnas": [
+          {
+            "titulo": "Ruleta",
+            "tono": "azul",
+            "items": [
+              "Visual y emocionante para un grupo.",
+              "Ideal con pocas opciones, hasta unas 20."
+            ]
+          },
+          {
+            "titulo": "Sorteo",
+            "tono": "verde",
+            "items": [
+              "Para listas largas o varios ganadores sin repetir.",
+              "Usa el [sorteo online](/sorteo-online)."
+            ]
+          },
+          {
+            "titulo": "Tómbola",
+            "tono": "ambar",
+            "items": [
+              "Números sacados uno a uno, como en el bingo.",
+              "Prueba la [tómbola online](/tombola-online)."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo dar más probabilidad a una opción?",
+        "parrafos": [
+          "Escríbela varias veces en la lista: si «Pizza» aparece dos veces entre seis opciones, tiene un 33 % de salir en lugar de un 16,7 %. Para formar grupos al azar con los nombres de una clase, usa el [generador de equipos](/generador-equipos)."
+        ]
       }
     ],
     "faqs": [
@@ -9321,27 +9682,67 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "Calcula tu promedio ponderado universitario a partir de las notas y los créditos de cada uno de tus cursos, usando la fórmula estándar de ponderación por créditos que aplican la mayoría de universidades, incluyendo UPAO y otras universidades peruanas y latinoamericanas. Añade tantos cursos como necesites y obtén tu promedio ponderado al instante, junto con el promedio simple para comparar.",
-    "howToUse": [
-      "Añade una fila por cada curso que quieras incluir",
-      "Introduce la nota y los créditos de cada curso (el nombre del curso es opcional)",
-      "Pulsa \"+ Añadir curso\" para incluir más filas",
-      "Tu promedio ponderado se calcula automáticamente mientras completas los datos"
-    ],
-    "benefits": [
-      "Calcula el promedio ponderado por créditos, el sistema usado por la mayoría de universidades",
-      "Permite añadir tantos cursos como necesites, sin límite",
-      "Muestra también el promedio simple (sin ponderar) para comparar",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe la nota y los créditos de cada curso para obtener tu promedio ponderado universitario: cada nota pesa según sus créditos. Funciona con la escala de 0 a 20 de Perú y con cualquier otra.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula el promedio ponderado universitario?",
-        "body": "El promedio ponderado se calcula multiplicando la nota de cada curso por su número de créditos, sumando esos resultados, y dividiendo el total entre la suma de todos los créditos: Promedio ponderado = Σ(nota × créditos) ÷ Σ(créditos). A diferencia del promedio simple (que trata todos los cursos por igual), el promedio ponderado da más peso a los cursos con más créditos, reflejando mejor su importancia real en el plan de estudios."
+        "tipo": "infografia",
+        "archivo": "promedio-ponderado-vs-simple.webp",
+        "alt": "Cálculo del promedio ponderado por créditos frente al promedio simple con cuatro cursos",
+        "ancho": 800,
+        "alto": 827,
+        "titulo": "¿Cuánto cambia el promedio cuando un curso tiene más créditos?"
       },
       {
-        "title": "¿Por qué el promedio ponderado es distinto al promedio simple?",
-        "body": "Un curso de 5 créditos con nota 12 afecta tu promedio mucho más que un curso de 1 crédito con la misma nota, porque representa una carga académica mayor. El promedio simple ignora esta diferencia y trata todos los cursos por igual, lo que puede dar una imagen poco precisa de tu rendimiento real. Por eso la mayoría de universidades, incluyendo UPAO y otras universidades peruanas, usan el promedio ponderado por créditos como indicador oficial."
+        "tipo": "ejemplo",
+        "titulo": "¿Qué nota necesito para subir mi promedio ponderado?",
+        "intro": "Llevas 60 créditos con un promedio de 13,5 y te quedan dos cursos de 4 créditos. ¿Qué necesitas para cerrar el ciclo en 14?",
+        "pasos": [
+          {
+            "texto": "Puntos que ya tienes.",
+            "operacion": "13,5 × 60 = 810"
+          },
+          {
+            "texto": "Puntos necesarios para un 14 con 68 créditos.",
+            "operacion": "14 × 68 = 952"
+          },
+          {
+            "texto": "Puntos que deben aportar los dos cursos.",
+            "operacion": "952 − 810 = 142"
+          },
+          {
+            "texto": "Nota media en esos 8 créditos.",
+            "operacion": "142 ÷ 8 = 17,75"
+          }
+        ],
+        "resultado": [
+          "Nota necesaria en los dos cursos",
+          "17,75"
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "¿Qué errores son comunes al calcular el promedio ponderado?",
+        "items": [
+          {
+            "mito": "Todos los cursos cuentan igual.",
+            "realidad": "Un curso de 5 créditos pesa más del doble que uno de 2."
+          },
+          {
+            "mito": "Los cursos desaprobados no cuentan.",
+            "realidad": "En la mayoría de universidades sí entran en el promedio ponderado, salvo que el reglamento diga lo contrario."
+          },
+          {
+            "mito": "Se redondea cada nota antes de calcular.",
+            "realidad": "Se suele redondear solo al final. Revisa el reglamento de tu universidad."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Hay calculadoras de promedio para universidades concretas?",
+        "parrafos": [
+          "Sí: la [calculadora de la UPAO](/calculadora-upao) aplica los pesos de sus evaluaciones. Para el promedio de una sola materia con sus exámenes y trabajos, usa la [calculadora de notas](/calculadora-de-notas); y para saber qué nota necesitas en el examen final, la [calculadora de nota necesaria](/calculadora-nota-necesaria)."
+        ]
       }
     ],
     "faqs": [
@@ -9383,27 +9784,75 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula el depósito de CTS (Compensación por Tiempo de Servicios) que te corresponde recibir en Perú, ya sea en mayo (por el periodo noviembre-abril) o en noviembre (por el periodo mayo-octubre). Introduce tu remuneración mensual y tu última gratificación para calcular tu remuneración computable, y obtén el monto exacto o proporcional si trabajaste solo una parte del periodo.",
-    "howToUse": [
-      "Introduce tu remuneración mensual (sueldo básico)",
-      "Introduce tu última gratificación recibida, si aplica (se usa 1/6 de este valor)",
-      "Elige el periodo de depósito correspondiente",
-      "Si empezaste a trabajar durante el periodo, indica tu fecha de ingreso"
-    ],
-    "benefits": [
-      "Calcula la remuneración computable incluyendo el sexto de gratificación",
-      "Calcula el depósito completo o proporcional según los días trabajados en el periodo",
-      "Cubre ambos periodos de depósito: mayo y noviembre",
-      "Resultado instantáneo mientras completas los datos",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu depósito de CTS de mayo o de noviembre con tu sueldo, tu gratificación y el tiempo trabajado en el semestre: la remuneración computable dividida entre 12 por cada mes y entre 360 por cada día.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula la CTS en Perú?",
-        "body": "La CTS se deposita dos veces al año (en mayo y en noviembre) en la cuenta bancaria del trabajador, y se calcula sobre la \"remuneración computable\", que incluye la remuneración mensual más 1/6 de la última gratificación percibida. Para un periodo completo de 6 meses trabajados, el depósito equivale a la mitad de la remuneración computable; si se trabajó menos tiempo, el monto se calcula de forma proporcional a los meses y días trabajados en el periodo."
+        "tipo": "infografia",
+        "archivo": "calculo-cts-peru-deposito.webp",
+        "alt": "Cálculo de la CTS en Perú con la remuneración computable y fechas de depósito de mayo y noviembre",
+        "ancho": 800,
+        "alto": 751,
+        "titulo": "¿Cómo se calcula el depósito de CTS?"
       },
       {
-        "title": "¿Qué es la remuneración computable para la CTS?",
-        "body": "La remuneración computable para la CTS no es solo el sueldo básico: incluye también 1/6 de la última gratificación (de julio o diciembre) percibida por el trabajador, ya que esta \"sextiliza\" mensualmente forma parte de la remuneración regular para efectos de este cálculo. Otros conceptos remunerativos regulares (como ciertas asignaciones) también podrían formar parte de la base de cálculo, según cada caso."
+        "tipo": "escenarios",
+        "titulo": "¿Cuánto me depositan de CTS según el tiempo trabajado?",
+        "intro": "Con un sueldo de S/ 2.000 y la última gratificación de S/ 2.000 (remuneración computable S/ 2.333,33):",
+        "items": [
+          {
+            "titulo": "Semestre completo",
+            "situacion": "6 meses trabajados de noviembre a abril.",
+            "resultado": "S/ 1.166,67"
+          },
+          {
+            "titulo": "4 meses",
+            "situacion": "Entraste a trabajar a comienzos de enero.",
+            "resultado": "S/ 777,78"
+          },
+          {
+            "titulo": "2 meses y 10 días",
+            "situacion": "Entraste a mediados de febrero.",
+            "resultado": "S/ 453,70"
+          }
+        ]
+      },
+      {
+        "tipo": "glosario",
+        "titulo": "¿Qué significan remuneración computable y otros términos de la CTS?",
+        "items": [
+          [
+            "CTS",
+            "Compensación por Tiempo de Servicios: un ahorro obligatorio que el empleador deposita para cuando termine tu relación laboral."
+          ],
+          [
+            "Remuneración computable",
+            "Tu sueldo más 1/6 de la última gratificación, y otros conceptos regulares como la asignación familiar."
+          ],
+          [
+            "Entidad depositaria",
+            "El banco, caja o financiera que eliges para recibir la CTS. Puedes cambiarla."
+          ],
+          [
+            "Intangibilidad",
+            "La CTS está pensada para cuando te quedas sin trabajo, por eso su retiro tiene límites, salvo leyes que lo autorizan temporalmente."
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otros beneficios laborales tengo en Perú?",
+        "parrafos": [
+          "Dos gratificaciones al año, en julio y diciembre (calcúlalas con la [calculadora de gratificación](/calcular-gratificacion-peru)), 30 días de [vacaciones](/vacaciones-peru) y, si ganas lo suficiente, el impuesto de [renta de quinta categoría](/renta-quinta-categoria). Para elegir sistema de pensiones, compara [AFP u ONP](/afp-vs-onp)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Ministerio de Trabajo y Promoción del Empleo (MTPE)",
+            "url": "https://www.gob.pe/mtpe"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -9443,27 +9892,92 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula el monto de tu gratificación de Fiestas Patrias (julio) o Navidad (diciembre) en Perú, incluyendo la bonificación extraordinaria (9% para trabajadores afiliados a EsSalud, o 6.75% para EPS). Si trabajaste menos de 6 meses en el semestre, calcula el monto proporcional correspondiente.",
-    "howToUse": [
-      "Introduce tu remuneración mensual",
-      "Elige la gratificación: Fiestas Patrias (julio) o Navidad (diciembre)",
-      "Elige tu régimen de salud (EsSalud o EPS)",
-      "Si empezaste a trabajar durante el semestre, indica tu fecha de ingreso"
-    ],
-    "benefits": [
-      "Calcula la gratificación completa o proporcional según el tiempo trabajado",
-      "Incluye la bonificación extraordinaria correspondiente a tu régimen de salud",
-      "Cubre ambas gratificaciones: julio y diciembre",
-      "Resultado instantáneo mientras completas los datos",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu gratificación de Fiestas Patrias o de Navidad: un sueldo completo si trabajaste todo el semestre, o la sexta parte por cada mes completo, más la bonificación extraordinaria del 9 % (EsSalud) o del 6,75 % (EPS).",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula la gratificación en Perú?",
-        "body": "Si trabajaste el semestre completo (6 meses), la gratificación equivale a una remuneración mensual completa. Si trabajaste menos tiempo, se calcula de forma proporcional: (remuneración ÷ 6) × meses trabajados. A este monto se le suma la bonificación extraordinaria, creada por la Ley N.º 29351 para trasladar al trabajador el ahorro que el empleador obtiene al no pagar sus aportes a EsSalud sobre la gratificación."
+        "tipo": "infografia",
+        "archivo": "calculo-gratificacion-peru-julio.webp",
+        "alt": "Cálculo de la gratificación de julio o diciembre en Perú con la bonificación extraordinaria del 9 por ciento",
+        "ancho": 800,
+        "alto": 885,
+        "titulo": "¿Cuánto me pagan de gratificación con mi sueldo?"
       },
       {
-        "title": "¿Qué es la bonificación extraordinaria del 9%?",
-        "body": "Como las gratificaciones están inafectas de aportes a EsSalud, la ley estableció que el empleador debe pagar al trabajador, como bonificación extraordinaria, un monto equivalente al 9% de la gratificación (el aporte que le hubiera correspondido pagar a EsSalud), o 6.75% si el trabajador está afiliado a una EPS en lugar de EsSalud. Esta bonificación se suma automáticamente a la gratificación, no se descuenta."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto es la gratificación según los meses trabajados?",
+        "intro": "Para un sueldo de S/ 2.500 con EsSalud:",
+        "cabeceras": [
+          "Meses completos",
+          "Gratificación",
+          "Bonificación 9 %",
+          "Total"
+        ],
+        "filas": [
+          [
+            "6",
+            "S/ 2.500,00",
+            "S/ 225,00",
+            "S/ 2.725,00"
+          ],
+          [
+            "5",
+            "S/ 2.083,33",
+            "S/ 187,50",
+            "S/ 2.270,83"
+          ],
+          [
+            "4",
+            "S/ 1.666,67",
+            "S/ 150,00",
+            "S/ 1.816,67"
+          ],
+          [
+            "3",
+            "S/ 1.250,00",
+            "S/ 112,50",
+            "S/ 1.362,50"
+          ],
+          [
+            "1",
+            "S/ 416,67",
+            "S/ 37,50",
+            "S/ 454,17"
+          ]
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "¿Qué hay de cierto sobre la gratificación en Perú?",
+        "items": [
+          {
+            "mito": "Si renuncio antes de julio pierdo la gratificación.",
+            "realidad": "Te corresponde la gratificación trunca: la parte proporcional a los meses completos trabajados."
+          },
+          {
+            "mito": "Le descuentan AFP u ONP como al sueldo.",
+            "realidad": "No. La gratificación está libre de aportes a pensiones y a EsSalud; por eso se paga además la bonificación del 9 %."
+          },
+          {
+            "mito": "Los días sueltos también cuentan.",
+            "realidad": "Solo cuentan los meses calendario completos. Los días de un mes incompleto no suman."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿La gratificación paga impuesto a la renta?",
+        "parrafos": [
+          "Sí puede: se suma a tus ingresos del año para calcular la renta de quinta categoría, aunque no tenga aportes de pensiones. Calcula la retención con la [calculadora de renta de quinta categoría](/renta-quinta-categoria). La gratificación también forma parte de tu [CTS](/calculadora-cts-peru): un sexto de ella entra en la remuneración computable."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Ministerio de Trabajo y Promoción del Empleo (MTPE)",
+            "url": "https://www.gob.pe/mtpe"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -9503,30 +10017,75 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula el Impuesto General a las Ventas (IGV) de Perú, actualmente del 18%, ya sea para agregarlo a un precio sin impuesto (valor de venta) o para extraerlo de un precio que ya lo incluye (precio de venta al público).",
-    "howToUse": [
-      "Elige si tienes el precio sin IGV o el precio con IGV ya incluido",
-      "Introduce el monto",
-      "Consulta el valor de venta, el monto de IGV y el precio final al instante"
-    ],
-    "benefits": [
-      "Calcula el IGV en ambos sentidos: agregarlo o extraerlo de un precio",
-      "Usa la tasa oficial vigente del 18%",
-      "Muestra el valor de venta, el IGV y el precio total por separado",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Agrega el 18 % de IGV a un valor de venta o quítalo de un precio que ya lo incluye. Para quitarlo, divide entre 1,18: restar el 18 % da una cifra equivocada.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula el IGV en Perú?",
-        "body": "El IGV en Perú es del 18% (compuesto por 16% de IGV propiamente dicho y 2% del Impuesto de Promoción Municipal, aplicados en conjunto). Para agregar el IGV a un precio sin impuesto, se multiplica ese valor por 0.18 y se suma al original. Para extraer el IGV de un precio que ya lo incluye, se divide el precio total entre 1.18 para obtener el valor de venta, y la diferencia es el IGV."
+        "tipo": "infografia",
+        "archivo": "agregar-quitar-igv-peru.webp",
+        "alt": "Cómo agregar o quitar el IGV del 18 por ciento en Perú con una tabla de montos",
+        "ancho": 800,
+        "alto": 767,
+        "titulo": "¿Qué fórmulas usar para el IGV del 18 %?"
       },
       {
-        "title": "¿Qué es el valor de venta y el precio de venta?",
-        "body": "El \"valor de venta\" es el precio de un bien o servicio sin incluir el IGV, la base sobre la que se calcula el impuesto. El \"precio de venta\" (o precio final al consumidor) es el valor de venta más el IGV ya incluido, el monto que efectivamente paga el comprador. Las boletas y facturas en Perú suelen mostrar ambos valores por separado."
+        "tipo": "comparacion",
+        "titulo": "¿Por qué no se puede quitar el IGV restando el 18 %?",
+        "columnas": [
+          {
+            "titulo": "Restar el 18 %",
+            "tono": "rojo",
+            "items": [
+              "S/ 118 − 18 % = S/ 96,76",
+              "Quitas IGV de más: el 18 % se calculó sobre 100, no sobre 118."
+            ]
+          },
+          {
+            "titulo": "Dividir entre 1,18",
+            "tono": "verde",
+            "items": [
+              "S/ 118 ÷ 1,18 = S/ 100",
+              "El IGV real es S/ 18, justo el 18 % de 100."
+            ]
+          }
+        ]
       },
       {
-        "title": "Cómo calcular el IGV paso a paso",
-        "body": "El IGV en Perú es del 18%: 16% de Impuesto General a las Ventas más 2% de Impuesto de Promoción Municipal. Para agregarlo a un valor de venta, multiplica por 1.18: un producto de S/ 1,000 sin IGV cuesta S/ 1,180 con IGV, y el impuesto es S/ 180. Para quitarlo de un precio que ya lo incluye, divide entre 1.18: de un precio final de S/ 590, el valor de venta es S/ 500 y el IGV, S/ 90. No calcules el 18% sobre el precio final, porque obtendrías un IGV mayor al real. Si además tu venta está sujeta al sistema de detracciones, usa la [calculadora de detracción](/calcular-detraccion)."
+        "tipo": "glosario",
+        "titulo": "¿Qué significan valor de venta, precio de venta e IPM?",
+        "items": [
+          [
+            "Valor de venta",
+            "El precio sin impuesto. Es la base sobre la que se calcula el IGV."
+          ],
+          [
+            "Precio de venta",
+            "Lo que paga el cliente: valor de venta más IGV."
+          ],
+          [
+            "IPM",
+            "Impuesto de Promoción Municipal, un 2 % que se cobra junto al IGV del 16 %."
+          ],
+          [
+            "Crédito fiscal",
+            "El IGV que pagas en tus compras y puedes descontar del IGV de tus ventas."
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otros impuestos de Perú puedo calcular?",
+        "parrafos": [
+          "Si emites facturas por servicios, comprueba si te toca una [detracción](/calcular-detraccion). Para el impuesto de los trabajadores, la [renta de quinta categoría](/renta-quinta-categoria); y para pasar UIT a soles, la calculadora de [UIT a soles](/uit-a-soles)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "SUNAT",
+            "url": "https://www.sunat.gob.pe"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -9572,26 +10131,83 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula el monto de detracción que corresponde depositar en la cuenta de detracciones del Banco de la Nación, a partir del precio de venta y el porcentaje de detracción aplicable a tu categoría de bien o servicio, según el sistema de detracciones de SUNAT en Perú.",
-    "howToUse": [
-      "Introduce el precio de venta (con IGV incluido) de la operación",
-      "Introduce el porcentaje de detracción correspondiente a tu categoría, según el anexo vigente de SUNAT",
-      "Consulta el monto a detraer y el monto neto que recibirá el proveedor"
-    ],
-    "benefits": [
-      "Calcula el monto exacto de detracción sobre cualquier precio de venta",
-      "Te permite introducir el porcentaje vigente de tu categoría, en lugar de asumir uno fijo",
-      "Muestra tanto el monto detraído como el monto neto a recibir",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe el importe total de la factura y el porcentaje de detracción de tu bien o servicio: obtienes cuánto se deposita en la cuenta de detracciones del Banco de la Nación y cuánto se paga directamente al proveedor.",
+    "bloques": [
       {
-        "title": "¿Qué es el sistema de detracciones de SUNAT?",
-        "body": "El sistema de detracciones es un mecanismo de recaudación anticipada del IGV en Perú, mediante el cual el comprador de ciertos bienes o servicios debe depositar un porcentaje del precio de venta en una cuenta especial del proveedor en el Banco de la Nación, en lugar de pagárselo directamente. Ese monto queda disponible para que el proveedor pague sus propias obligaciones tributarias."
+        "tipo": "infografia",
+        "archivo": "como-funciona-detraccion-sunat.webp",
+        "alt": "Cómo funciona una detracción de SUNAT: reparto del pago entre el proveedor y la cuenta del Banco de la Nación",
+        "ancho": 800,
+        "alto": 835,
+        "titulo": "¿A dónde va el dinero de una detracción?"
       },
       {
-        "title": "¿Por qué esta calculadora no incluye el porcentaje de cada categoría?",
-        "body": "SUNAT mantiene un anexo con decenas de categorías de bienes y servicios sujetos a detracción, cada una con un porcentaje distinto (4%, 10%, 12%, entre otros), y este listado se actualiza periódicamente. En lugar de arriesgarnos a mostrarte un porcentaje desactualizado, te pedimos que introduzcas el porcentaje vigente de tu categoría específica, que puedes verificar en el anexo oficial de SUNAT."
+        "tipo": "tabla",
+        "titulo": "¿Qué operaciones tienen detracción del 12 %, del 10 % o del 4 %?",
+        "intro": "Algunos de los más habituales. La lista completa y vigente está en los anexos del sistema de detracciones de SUNAT.",
+        "cabeceras": [
+          "Operación",
+          "Porcentaje"
+        ],
+        "filas": [
+          [
+            "Servicios empresariales (asesoría, consultoría, publicidad)",
+            "12 %"
+          ],
+          [
+            "Mantenimiento y reparación de bienes muebles",
+            "12 %"
+          ],
+          [
+            "Arrendamiento de bienes",
+            "10 %"
+          ],
+          [
+            "Contratos de construcción",
+            "4 %"
+          ],
+          [
+            "Transporte de bienes por carretera",
+            "4 %"
+          ]
+        ],
+        "nota": "En los servicios, la detracción se aplica cuando el importe de la operación supera S/ 700."
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "¿Cómo depositar una detracción paso a paso?",
+        "pasos": [
+          {
+            "titulo": "Identifica la operación",
+            "texto": "Comprueba en la factura que lleva la leyenda «Operación sujeta al Sistema de Pago de Obligaciones Tributarias» y el porcentaje."
+          },
+          {
+            "titulo": "Calcula el importe",
+            "texto": "Aplica el porcentaje al importe total, IGV incluido, y redondea a soles enteros."
+          },
+          {
+            "titulo": "Deposita en el Banco de la Nación",
+            "texto": "En la cuenta de detracciones del proveedor, por internet o en ventanilla, dentro del plazo que fija SUNAT."
+          },
+          {
+            "titulo": "Paga el resto al proveedor",
+            "texto": "Le transfieres el importe total menos la detracción y guardas la constancia."
+          }
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "ambar",
+        "texto": "Si el cliente no deposita la detracción a tiempo, puede perder el derecho a usar el crédito fiscal de esa compra y recibir multas. El proveedor, por su parte, no puede emitir la factura sin mencionarla."
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "SUNAT: Sistema de detracciones (SPOT)",
+            "url": "https://www.sunat.gob.pe"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -9633,27 +10249,77 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Realiza las operaciones más habituales con matrices de 2×2 y 3×3: suma, resta, multiplicación, determinante, matriz inversa y matriz transpuesta. Introduce los valores de cada matriz y obtén el resultado al instante.",
-    "howToUse": [
-      "Elige el tamaño de las matrices: 2×2 o 3×3",
-      "Elige la operación que quieres realizar",
-      "Introduce los valores de la matriz A (y de la matriz B si la operación lo requiere)",
-      "El resultado se calcula al instante"
-    ],
-    "benefits": [
-      "Seis operaciones distintas en una sola herramienta",
-      "Admite matrices de 2×2 y 3×3",
-      "Calcula la inversa usando el método de Gauss-Jordan",
-      "Detecta y explica cuando una matriz no tiene inversa",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Suma, resta y multiplica matrices de 2×2 y 3×3, y calcula su determinante, su inversa y su transpuesta. Escribe los valores en la cuadrícula y obtén el resultado al instante.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula el determinante de una matriz?",
-        "body": "Para una matriz 2×2, el determinante se calcula como (a×d) − (b×c). Para una matriz 3×3, se usa la expansión por cofactores a lo largo de la primera fila, combinando los determinantes de las submatrices 2×2 resultantes de eliminar cada fila y columna correspondiente. El determinante indica, entre otras cosas, si una matriz tiene inversa: si es igual a cero, la matriz no es invertible."
+        "tipo": "infografia",
+        "archivo": "determinante-inversa-matriz-2x2.webp",
+        "alt": "Cálculo del determinante y la matriz inversa de una matriz 2 por 2",
+        "ancho": 800,
+        "alto": 685,
+        "titulo": "¿Cómo se calcula el determinante y la inversa de una matriz?"
       },
       {
-        "title": "¿Cómo se calcula la matriz inversa?",
-        "body": "Esta calculadora usa el método de Gauss-Jordan: se coloca la matriz original junto a la matriz identidad, y mediante operaciones de fila (multiplicar, sumar o intercambiar filas) se transforma la matriz original en la identidad; al hacerlo, la matriz identidad original se transforma en la matriz inversa. Este método funciona para cualquier matriz cuadrada cuyo determinante no sea cero."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se multiplican dos matrices 2×2?",
+        "intro": "Cada elemento del resultado es una fila de la primera por una columna de la segunda.",
+        "datos": [
+          [
+            "A",
+            "[1 2 ; 3 4]"
+          ],
+          [
+            "B",
+            "[5 6 ; 7 8]"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Fila 1 por columna 1.",
+            "operacion": "1·5 + 2·7 = 19"
+          },
+          {
+            "texto": "Fila 1 por columna 2.",
+            "operacion": "1·6 + 2·8 = 22"
+          },
+          {
+            "texto": "Fila 2 por columna 1.",
+            "operacion": "3·5 + 4·7 = 43"
+          },
+          {
+            "texto": "Fila 2 por columna 2.",
+            "operacion": "3·6 + 4·8 = 50"
+          }
+        ],
+        "resultado": [
+          "A × B",
+          "[19 22 ; 43 50]"
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "¿Qué errores son frecuentes al operar con matrices?",
+        "items": [
+          {
+            "mito": "A × B es igual que B × A.",
+            "realidad": "En general no: el producto de matrices no es conmutativo. Con el ejemplo de arriba, B × A da [23 34 ; 31 46]."
+          },
+          {
+            "mito": "Toda matriz cuadrada tiene inversa.",
+            "realidad": "Solo si su determinante es distinto de cero."
+          },
+          {
+            "mito": "Se multiplican elemento a elemento.",
+            "realidad": "Eso es otra operación. El producto de matrices combina filas con columnas."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Para qué sirven las matrices fuera del aula?",
+        "parrafos": [
+          "Para resolver sistemas de ecuaciones, mover y girar objetos en gráficos por ordenador, en economía (tablas de insumo-producto) y en el aprendizaje automático. Si tu sistema es de una sola ecuación, usa la [calculadora de ecuaciones](/calculadora-de-ecuaciones); para operaciones sueltas, la [calculadora científica](/calculadora-cientifica)."
+        ]
       }
     ],
     "faqs": [
@@ -9695,26 +10361,72 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Resuelve ecuaciones lineales de primer grado (ax + b = 0) y ecuaciones cuadráticas de segundo grado (ax² + bx + c = 0) al instante, incluyendo el caso de soluciones complejas cuando el discriminante es negativo.",
-    "howToUse": [
-      "Elige el tipo de ecuación: lineal o cuadrática",
-      "Introduce los coeficientes a, b (y c en el caso cuadrático)",
-      "La solución se calcula al instante"
-    ],
-    "benefits": [
-      "Resuelve tanto ecuaciones lineales como cuadráticas",
-      "Muestra el discriminante y el tipo de solución (dos raíces reales, una raíz doble, o raíces complejas)",
-      "Calcula correctamente incluso cuando no hay solución real",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Resuelve ecuaciones de primer grado (ax + b = 0) y de segundo grado (ax² + bx + c = 0), con el discriminante y las soluciones reales o complejas. Escribe los coeficientes y obtén las raíces con el procedimiento.",
+    "bloques": [
       {
-        "title": "¿Cómo se resuelve una ecuación cuadrática?",
-        "body": "Una ecuación cuadrática ax² + bx + c = 0 se resuelve con la fórmula general: x = (−b ± √(b² − 4ac)) ÷ (2a). El término dentro de la raíz, b² − 4ac, se llama discriminante: si es positivo, hay dos soluciones reales distintas; si es cero, hay una única solución (raíz doble); si es negativo, las soluciones son números complejos."
+        "tipo": "infografia",
+        "archivo": "ecuacion-segundo-grado-discriminante.webp",
+        "alt": "Resolución de una ecuación de segundo grado con el discriminante y su parábola",
+        "ancho": 800,
+        "alto": 770,
+        "titulo": "¿Cómo se resuelve una ecuación de segundo grado con la fórmula general?"
       },
       {
-        "title": "¿Qué significa que una ecuación tenga soluciones complejas?",
-        "body": "Cuando el discriminante de una ecuación cuadrática es negativo, no existe ningún número real que la satisfaga, porque implicaría calcular la raíz cuadrada de un número negativo. En ese caso, las soluciones se expresan como números complejos, de la forma a ± bi, donde \"i\" representa la unidad imaginaria (la raíz cuadrada de −1)."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se despeja una ecuación de primer grado?",
+        "datos": [
+          [
+            "Ecuación",
+            "3x − 7 = 11"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Pasa el número sin x al otro lado cambiando el signo.",
+            "operacion": "3x = 11 + 7 = 18"
+          },
+          {
+            "texto": "Divide entre el coeficiente de x.",
+            "operacion": "x = 18 ÷ 3"
+          },
+          {
+            "texto": "Comprueba sustituyendo.",
+            "operacion": "3·6 − 7 = 11 ✓"
+          }
+        ],
+        "resultado": [
+          "Solución",
+          "x = 6"
+        ]
+      },
+      {
+        "tipo": "glosario",
+        "titulo": "¿Qué significan coeficiente, discriminante y raíz?",
+        "items": [
+          [
+            "Coeficiente",
+            "El número que multiplica a la incógnita: en 3x² − 5x + 2, son 3, −5 y 2."
+          ],
+          [
+            "Discriminante (Δ)",
+            "b² − 4ac. Indica cuántas soluciones reales tiene una ecuación de segundo grado."
+          ],
+          [
+            "Raíz o solución",
+            "El valor de x que hace que la ecuación se cumpla."
+          ],
+          [
+            "Número complejo",
+            "Aparece cuando Δ es negativo: tiene una parte real y una imaginaria, con i = √−1."
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cuándo usar la fórmula general y cuándo factorizar?",
+        "parrafos": [
+          "Si encuentras dos números que suman −b/a y multiplicados dan c/a, factorizar es más rápido: x² − 5x + 6 = (x − 2)(x − 3). Si no salen a simple vista, la fórmula general funciona siempre. Para sistemas de varias ecuaciones, usa la [calculadora de matrices](/calculadora-de-matrices); para ver la recta de una ecuación lineal, la [calculadora de pendiente](/calculadora-de-pendiente)."
+        ]
       }
     ],
     "faqs": [
@@ -9756,27 +10468,55 @@
     "webApp": true,
     "appCategory": "BusinessApplication",
     "intro": "Estima un rango de precio orientativo para un video patrocinado en TikTok, a partir de los seguidores del creador, su tasa de engagement, el tipo de contenido (mención, video dedicado, paquete de varios videos) y el nivel de tarifa según el contexto de la negociación. Útil tanto para creadores que empiezan a cobrar por contenido patrocinado como para marcas que buscan una referencia inicial de presupuesto.",
-    "howToUse": [
-      "Introduce el número de seguidores de la cuenta de TikTok",
-      "Introduce la tasa de engagement (puedes calcularla con nuestra calculadora de engagement)",
-      "Elige el tipo de contenido: mención breve, video dedicado, video con repost, o paquete de varios videos",
-      "Elige el nivel de tarifa según el contexto (marca pequeña, mercado general, o nicho especializado)"
-    ],
-    "benefits": [
-      "Calcula un rango de precio (no un único número), reflejando la variabilidad real del mercado",
-      "Ajusta el resultado según el tipo de contenido y el contexto de negociación",
-      "Metodología del cálculo completamente transparente, sin caja negra",
-      "Resultado instantáneo mientras completas los datos",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Estima cuánto cobrar o pagar por un video patrocinado en TikTok a partir de los seguidores, la tasa de engagement, el tipo de contenido y el nivel de tarifa. El resultado es un rango orientativo en dólares para negociar.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula el precio estimado?",
-        "body": "Esta calculadora combina tres factores citados habitualmente en el sector del marketing de influencers: el número de seguidores, la tasa de engagement (que refleja qué tan activa es la audiencia, no solo su tamaño), y un factor de tarifa por interacción que varía según el tipo de contenido y el nivel de negociación. El resultado se presenta como un rango, porque el precio real de un video patrocinado depende de muchos factores que un cálculo automático no puede capturar del todo."
+        "tipo": "infografia",
+        "archivo": "precio-video-patrocinado-tiktok.webp",
+        "alt": "Cálculo del precio estimado de un video patrocinado en TikTok según seguidores y engagement",
+        "ancho": 800,
+        "alto": 867,
+        "titulo": "¿Cómo se calcula el precio de un video patrocinado en TikTok?"
       },
       {
-        "title": "¿Por qué el precio es un rango y no un número exacto?",
-        "body": "No existe una fórmula oficial o universal para fijar el precio de un contenido patrocinado: cada marca, agencia y creador negocia según su propio criterio, el histórico de resultados de campañas anteriores, la exclusividad del contrato, los derechos de uso del contenido (si la marca puede reutilizarlo en sus propios anuncios), y la relación entre ambas partes. Por eso esta calculadora ofrece un rango orientativo basado en referencias comunes del mercado, útil como punto de partida, no como precio definitivo."
+        "tipo": "escenarios",
+        "titulo": "¿Cuánto cobra un creador de TikTok según su tamaño?",
+        "intro": "Video dedicado, tarifa estándar y 5 % de engagement:",
+        "items": [
+          {
+            "titulo": "Nano: 10.000 seguidores",
+            "situacion": "Comunidad pequeña y cercana, ideal para marcas locales.",
+            "resultado": "US$ 200–325"
+          },
+          {
+            "titulo": "Micro: 50.000 seguidores",
+            "situacion": "Nicho definido con buena respuesta.",
+            "resultado": "US$ 1.000–1.625"
+          },
+          {
+            "titulo": "Medio: 250.000 seguidores",
+            "situacion": "Alcance amplio; las marcas piden más métricas.",
+            "resultado": "US$ 5.000–8.125"
+          }
+        ]
+      },
+      {
+        "tipo": "checklist",
+        "titulo": "¿Qué incluir en una propuesta de colaboración?",
+        "items": [
+          "Número de videos, duración y fechas de publicación.",
+          "Si la marca puede reutilizar el video en anuncios y durante cuánto tiempo (derechos de uso).",
+          "Si hay exclusividad: no trabajar con la competencia durante un periodo.",
+          "Número de revisiones incluidas antes de publicar.",
+          "Métricas que entregarás después: alcance, reproducciones e interacciones."
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo calculo mi engagement antes de poner precio?",
+        "parrafos": [
+          "Suma likes, comentarios y compartidos de tus últimos videos y divide entre tus seguidores, o mejor entre las reproducciones. La lógica es la misma que en la [calculadora de engagement de Instagram](/calculadora-engagement-instagram). Para ideas de contenido para tus historias, el [generador de ideas para historias](/ideas-para-historias)."
+        ]
       }
     ],
     "faqs": [
@@ -9818,26 +10558,93 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Calcula todos los datos de una subred IPv4 a partir de una dirección IP y su prefijo CIDR (máscara de subred): dirección de red, dirección de broadcast, máscara en formato decimal, rango de hosts utilizables y el total de direcciones disponibles.",
-    "howToUse": [
-      "Introduce una dirección IP (formato IPv4, ej: 192.168.1.10)",
-      "Introduce el prefijo CIDR (por ejemplo, 24 para una máscara /24)",
-      "Consulta todos los datos de la subred al instante"
-    ],
-    "benefits": [
-      "Calcula dirección de red, broadcast, máscara y rango de hosts en un solo paso",
-      "Admite cualquier prefijo CIDR de /0 a /32",
-      "Muestra el total de direcciones y los hosts realmente utilizables",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe una dirección IPv4 y su prefijo CIDR y obtén la máscara, la dirección de red, el broadcast, el rango de hosts y cuántos equipos caben en la subred.",
+    "bloques": [
       {
-        "title": "¿Qué es la notación CIDR?",
-        "body": "La notación CIDR (Classless Inter-Domain Routing) expresa la máscara de subred como un número después de una barra diagonal, indicando cuántos bits de la dirección IP corresponden a la red (por ejemplo, /24 equivale a la máscara 255.255.255.0). Cuantos más bits tenga el prefijo, más pequeña es la subred y menos hosts admite; cuantos menos bits, más grande es la subred."
+        "tipo": "infografia",
+        "archivo": "subred-ip-red-host-broadcast.webp",
+        "alt": "División de una dirección IP en bits de red y de host con máscara, red, broadcast y hosts",
+        "ancho": 800,
+        "alto": 797,
+        "titulo": "¿Cómo se divide una IP en parte de red y parte de host?"
       },
       {
-        "title": "¿Por qué el total de direcciones no coincide con los hosts utilizables?",
-        "body": "En cada subred, la primera dirección (dirección de red) y la última (dirección de broadcast) están reservadas y no pueden asignarse a un dispositivo, por lo que los hosts utilizables son siempre dos menos que el total de direcciones de la subred (excepto en subredes /31 y /32, usadas para casos especiales como enlaces punto a punto)."
+        "tipo": "tabla",
+        "titulo": "¿Cuántos hosts caben en cada máscara de subred?",
+        "cabeceras": [
+          "CIDR",
+          "Máscara",
+          "Hosts utilizables",
+          "Uso típico"
+        ],
+        "filas": [
+          [
+            "/30",
+            "255.255.255.252",
+            "2",
+            "Enlace entre dos routers"
+          ],
+          [
+            "/29",
+            "255.255.255.248",
+            "6",
+            "Pequeño bloque de IP públicas"
+          ],
+          [
+            "/27",
+            "255.255.255.224",
+            "30",
+            "Departamento o planta"
+          ],
+          [
+            "/26",
+            "255.255.255.192",
+            "62",
+            "Red de una oficina pequeña"
+          ],
+          [
+            "/24",
+            "255.255.255.0",
+            "254",
+            "Red doméstica típica"
+          ],
+          [
+            "/16",
+            "255.255.0.0",
+            "65.534",
+            "Red de una empresa grande"
+          ]
+        ],
+        "destacar": 4
+      },
+      {
+        "tipo": "glosario",
+        "titulo": "¿Qué son la máscara, el gateway y la IP privada?",
+        "items": [
+          [
+            "Máscara de subred",
+            "Indica qué parte de la IP identifica la red y qué parte al equipo."
+          ],
+          [
+            "Gateway",
+            "La puerta de salida de la red, normalmente el router. Suele ser la primera IP utilizable."
+          ],
+          [
+            "IP privada",
+            "Las de los rangos 10.0.0.0/8, 172.16.0.0/12 y 192.168.0.0/16, que solo funcionan dentro de una red local."
+          ],
+          [
+            "Broadcast",
+            "La última dirección de la subred; lo que se envía a ella llega a todos los equipos."
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo practicar subnetting para un examen de redes?",
+        "parrafos": [
+          "Calcula a mano y compara con la herramienta. Aprende las potencias de 2 hasta 256 y la conversión a binario: el [convertidor binario](/convertidor-binario) muestra cada octeto en bits. Para máscaras fuera de lo común, empieza siempre por cuántos hosts necesitas y redondea a la potencia de 2 siguiente."
+        ]
       }
     ],
     "faqs": [
@@ -9879,25 +10686,64 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Resuelve problemas de regla de tres (proporcionalidad), tanto directa como inversa. Introduce los tres valores conocidos y obtén el cuarto valor (la incógnita X) al instante.",
-    "howToUse": [
-      "Elige si la relación es directa (a más A, más B) o inversa (a más A, menos B)",
-      "Introduce los valores A, B y C",
-      "El valor de X se calcula al instante"
-    ],
-    "benefits": [
-      "Resuelve tanto regla de tres directa como inversa",
-      "Explica la diferencia entre ambos tipos para no confundirlos",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe tres valores y obtén el cuarto con la regla de tres directa o inversa. Útil para recetas, precios, velocidades, mezclas y cualquier problema de proporciones.",
+    "bloques": [
       {
-        "title": "¿Cómo se resuelve una regla de tres directa?",
-        "body": "En una regla de tres directa, dos magnitudes son proporcionales: si A corresponde a B, y quieres saber qué corresponde a C, se calcula X = (B × C) ÷ A. Por ejemplo, si 2 kg de manzanas cuestan 10 pesos, 5 kg costarán (10×5)÷2 = 25 pesos."
+        "tipo": "infografia",
+        "archivo": "regla-de-tres-directa-inversa.webp",
+        "alt": "Ejemplos de regla de tres directa e inversa resueltos paso a paso",
+        "ancho": 800,
+        "alto": 759,
+        "titulo": "¿Qué ejemplos resueltos hay de regla de tres directa e inversa?"
       },
       {
-        "title": "¿Cómo se resuelve una regla de tres inversa?",
-        "body": "En una regla de tres inversa, cuando una magnitud aumenta, la otra disminuye en la misma proporción. Se calcula X = (A × B) ÷ C. Por ejemplo, si 4 obreros terminan una obra en 6 días, 8 obreros (el doble) la terminarán en (4×6)÷8 = 3 días (la mitad de tiempo)."
+        "tipo": "escenarios",
+        "titulo": "¿Para qué se usa la regla de tres en el día a día?",
+        "items": [
+          {
+            "titulo": "Receta",
+            "situacion": "La receta es para 4 personas con 300 g de arroz. ¿Cuánto para 6?",
+            "resultado": "450 g",
+            "detalle": "directa: 6 × 300 ÷ 4"
+          },
+          {
+            "titulo": "Viaje",
+            "situacion": "A 80 km/h tardas 3 horas. ¿Y a 120 km/h?",
+            "resultado": "2 h",
+            "detalle": "inversa: 80 × 3 ÷ 120"
+          },
+          {
+            "titulo": "Pintura",
+            "situacion": "2 litros cubren 24 m². ¿Cuántos litros para 60 m²?",
+            "resultado": "5 L",
+            "detalle": "directa: 60 × 2 ÷ 24"
+          }
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "¿Cuándo no se puede usar la regla de tres?",
+        "items": [
+          {
+            "mito": "Si 1 pintor tarda 6 horas, 6 pintores tardan 36.",
+            "realidad": "Es inversa: más pintores, menos tiempo. Tardarían 1 hora."
+          },
+          {
+            "mito": "Si un niño mide 1 m a los 5 años, a los 20 medirá 4 m.",
+            "realidad": "El crecimiento no es proporcional: la regla de tres solo vale si las magnitudes crecen al mismo ritmo."
+          },
+          {
+            "mito": "Un descuento del 20 % y otro del 30 % suman un 50 %.",
+            "realidad": "Los porcentajes sucesivos no se suman: el total es un 44 %. Calcúlalo con la [calculadora de porcentajes](/calculadora-porcentaje)."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué es una regla de tres compuesta?",
+        "parrafos": [
+          "La que tiene más de dos magnitudes, como obreros, horas al día y días de trabajo. Se resuelve por partes, viendo si cada magnitud es directa o inversa respecto a la incógnita. Para medidas de recetas, ayuda tener a mano las [medidas de cocina](/medidas-de-cocina); y para planos y mapas, la [calculadora de escalas](/calculadora-de-escalas)."
+        ]
       }
     ],
     "faqs": [
@@ -9939,25 +10785,71 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Calcula la pendiente de una recta a partir de las coordenadas de dos puntos, junto con la ecuación completa de la recta en la forma y = mx + b.",
-    "howToUse": [
-      "Introduce las coordenadas (x, y) del primer punto",
-      "Introduce las coordenadas (x, y) del segundo punto",
-      "La pendiente y la ecuación de la recta se calculan al instante"
-    ],
-    "benefits": [
-      "Calcula la pendiente y la ecuación completa de la recta en un solo paso",
-      "Detecta y avisa cuando la recta es vertical (pendiente indefinida)",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe las coordenadas de dos puntos y obtén la pendiente de la recta que los une y su ecuación en la forma y = mx + b, con los pasos del cálculo.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula la pendiente entre dos puntos?",
-        "body": "La pendiente (m) de una recta que pasa por los puntos (x₁, y₁) y (x₂, y₂) se calcula como m = (y₂ − y₁) ÷ (x₂ − x₁), es decir, el cambio en y dividido entre el cambio en x. Una pendiente positiva indica que la recta sube de izquierda a derecha, una negativa indica que baja, y una pendiente de cero indica una recta horizontal."
+        "tipo": "infografia",
+        "archivo": "pendiente-recta-dos-puntos.webp",
+        "alt": "Gráfica de la pendiente de una recta entre los puntos 1,2 y 4,8 con su ecuación",
+        "ancho": 800,
+        "alto": 788,
+        "titulo": "¿Cómo se calcula la pendiente entre dos puntos?"
       },
       {
-        "title": "¿Qué significa que la pendiente sea indefinida?",
-        "body": "Cuando los dos puntos tienen la misma coordenada x (x₁ = x₂), la recta que los une es vertical, y su pendiente es indefinida (matemáticamente, implicaría dividir entre cero). Una recta vertical no puede expresarse en la forma y = mx + b; se describe simplemente como x = un valor constante."
+        "tipo": "escenarios",
+        "titulo": "¿Qué significa la pendiente en la vida real?",
+        "items": [
+          {
+            "titulo": "Rampa",
+            "situacion": "Una rampa sube 1 m en 12 m de recorrido: la pendiente máxima habitual para sillas de ruedas.",
+            "resultado": "8,3 %"
+          },
+          {
+            "titulo": "Carretera",
+            "situacion": "Una señal de «pendiente 10 %» indica 10 m de subida por cada 100 m.",
+            "resultado": "m = 0,10"
+          },
+          {
+            "titulo": "Tarifa",
+            "situacion": "Un taxi cobra una bajada de bandera más 2 € por km: la pendiente es el precio por km.",
+            "resultado": "m = 2"
+          }
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se halla la ecuación de una recta con pendiente negativa?",
+        "datos": [
+          [
+            "Punto 1",
+            "(−1, 5)"
+          ],
+          [
+            "Punto 2",
+            "(3, −3)"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Calcula la pendiente.",
+            "operacion": "m = (−3 − 5) ÷ (3 − (−1)) = −8 ÷ 4 = −2"
+          },
+          {
+            "texto": "Despeja b con uno de los puntos.",
+            "operacion": "b = 5 − (−2)·(−1) = 3"
+          }
+        ],
+        "resultado": [
+          "Ecuación",
+          "y = −2x + 3"
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo se relacionan la pendiente y el ángulo de una recta?",
+        "parrafos": [
+          "La pendiente es la tangente del ángulo que forma la recta con el eje horizontal: m = tan(α). Una pendiente de 1 corresponde a 45°. Calcula el ángulo con la función arctan de la [calculadora científica](/calculadora-cientifica), y si trabajas con triángulos rectángulos, con la [calculadora de Pitágoras](/calculadora-pitagoras)."
+        ]
       }
     ],
     "faqs": [
@@ -9999,27 +10891,87 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "Calcula límites, derivadas en un punto e integrales definidas de forma numérica (aproximada), a partir de cualquier función que escribas usando x como variable. Admite operaciones básicas, potencias, y funciones como sin(x), cos(x), tan(x), sqrt(x), ln(x) y exp(x).",
-    "howToUse": [
-      "Elige qué quieres calcular: límite, derivada en un punto, o integral definida",
-      "Escribe tu función usando x como variable (ej: x^2, sin(x), sqrt(x))",
-      "Introduce el punto o el intervalo correspondiente",
-      "El resultado numérico se calcula al instante"
-    ],
-    "benefits": [
-      "Calcula límites, derivadas e integrales en una sola herramienta",
-      "Admite funciones trigonométricas, raíces, logaritmos y exponenciales",
-      "Detecta cuando un límite lateral no coincide claramente",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe una función de x y calcula su límite en un punto, su derivada en un punto o su integral definida entre dos valores. El cálculo es numérico: da un valor muy aproximado, no la fórmula simbólica.",
+    "bloques": [
       {
-        "title": "¿Qué significa que el cálculo sea \"numérico\" y no \"simbólico\"?",
-        "body": "Un cálculo simbólico te daría la fórmula exacta de la derivada o la integral (por ejemplo, la derivada de x² es 2x). Un cálculo numérico, en cambio, evalúa el resultado como un número concreto en un punto o intervalo específico, usando aproximaciones matemáticas (diferencias finitas para derivadas, la regla de Simpson para integrales). Esta calculadora es numérica: te da el valor en un punto, no la fórmula general."
+        "tipo": "infografia",
+        "archivo": "derivada-integral-x-cuadrado.webp",
+        "alt": "Derivada de x al cuadrado en x igual a 3 y área bajo la curva entre 0 y 2",
+        "ancho": 800,
+        "alto": 830,
+        "titulo": "¿Qué diferencia hay entre una derivada y una integral?"
       },
       {
-        "title": "¿Cómo se aproximan las derivadas e integrales numéricamente?",
-        "body": "La derivada en un punto se aproxima calculando la función en dos puntos muy cercanos al punto de interés y midiendo la pendiente entre ellos (diferencias centrales). La integral definida se aproxima con la regla de Simpson, que divide el intervalo en muchos segmentos pequeños y ajusta una parábola a cada tramo, sumando sus áreas. Ambos métodos son extremadamente precisos para funciones continuas y bien comportadas."
+        "tipo": "tabla",
+        "titulo": "¿Cómo se escriben las funciones en la calculadora?",
+        "cabeceras": [
+          "Quieres",
+          "Escribe",
+          "Ejemplo"
+        ],
+        "filas": [
+          [
+            "Potencia",
+            "^",
+            "x^3"
+          ],
+          [
+            "Raíz cuadrada",
+            "sqrt( )",
+            "sqrt(x+1)"
+          ],
+          [
+            "Seno, coseno",
+            "sin( ), cos( )",
+            "sin(x)*x"
+          ],
+          [
+            "Logaritmo natural",
+            "ln( )",
+            "ln(x)"
+          ],
+          [
+            "Exponencial",
+            "exp( )",
+            "exp(-x^2)"
+          ],
+          [
+            "Multiplicación",
+            "*",
+            "3*x"
+          ]
+        ]
+      },
+      {
+        "tipo": "comparacion",
+        "titulo": "¿Qué diferencia hay entre cálculo numérico y simbólico?",
+        "columnas": [
+          {
+            "titulo": "Numérico (esta calculadora)",
+            "tono": "azul",
+            "items": [
+              "Da un número: f′(3) ≈ 6.",
+              "Funciona con casi cualquier función, aunque no tenga fórmula sencilla.",
+              "Ideal para comprobar resultados."
+            ]
+          },
+          {
+            "titulo": "Simbólico",
+            "tono": "gris",
+            "items": [
+              "Da la fórmula: la derivada de x² es 2x.",
+              "Es lo que se pide en los exámenes.",
+              "Requiere aplicar las reglas de derivación e integración."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo usar la calculadora para comprobar los ejercicios?",
+        "parrafos": [
+          "Resuelve la derivada a mano, evalúa tu fórmula en un punto y compara con el valor numérico de la calculadora: si coinciden, vas bien. Con las integrales, haz lo mismo con la regla de Barrow. Para graficar el resultado de una recta tangente, usa la [calculadora de pendiente](/calculadora-de-pendiente); para operaciones sueltas, la [calculadora científica](/calculadora-cientifica)."
+        ]
       }
     ],
     "faqs": [
