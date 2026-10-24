@@ -538,5 +538,125 @@
     "alt": "Derivada de x al cuadrado en x igual a 3 y área bajo la curva entre 0 y 2",
     "ancho": 800,
     "alto": 830
+  },
+  "calculo-colesterol-ldl-friedewald": {
+    "archivo": "calculo-colesterol-ldl-friedewald.webp",
+    "alt": "Cálculo del colesterol LDL con la fórmula de Friedewald y rangos de LDL óptimo, límite y alto",
+    "ancho": 800,
+    "alto": 779
+  },
+  "indice-pafi-formula-rangos": {
+    "archivo": "indice-pafi-formula-rangos.webp",
+    "alt": "Fórmula del índice PaFi y rangos de alteración de la oxigenación",
+    "ancho": 800,
+    "alto": 844
+  },
+  "actividades-indice-barthel": {
+    "archivo": "actividades-indice-barthel.webp",
+    "alt": "Las diez actividades del Índice de Barthel con su puntuación y los grados de dependencia",
+    "ancho": 800,
+    "alto": 893
+  },
+  "conceptos-liquidacion-laboral-colombia": {
+    "archivo": "conceptos-liquidacion-laboral-colombia.webp",
+    "alt": "Conceptos de la liquidación laboral en Colombia: cesantías, intereses, prima y vacaciones",
+    "ancho": 800,
+    "alto": 883
+  },
+  "aportes-salud-pension-colombia": {
+    "archivo": "aportes-salud-pension-colombia.webp",
+    "alt": "Aportes de salud y pensión en Colombia para empleados e independientes",
+    "ancho": 800,
+    "alto": 831
+  },
+  "rendimiento-cdt-colombia": {
+    "archivo": "rendimiento-cdt-colombia.webp",
+    "alt": "Rendimiento de un CDT de 10 millones de pesos al 10 por ciento según el plazo",
+    "ancho": 800,
+    "alto": 798
+  },
+  "calculo-prima-vacacional-mexico": {
+    "archivo": "calculo-prima-vacacional-mexico.webp",
+    "alt": "Cálculo de la prima vacacional del 25 por ciento con un ejemplo y la exención de ISR",
+    "ancho": 800,
+    "alto": 791
+  },
+  "tabla-vacaciones-antiguedad-lft": {
+    "archivo": "tabla-vacaciones-antiguedad-lft.webp",
+    "alt": "Tabla de días de vacaciones por años de antigüedad según la Ley Federal del Trabajo",
+    "ancho": 800,
+    "alto": 891
+  },
+  "reparto-ptu-trabajadores": {
+    "archivo": "reparto-ptu-trabajadores.webp",
+    "alt": "Cómo se reparte la PTU: 10 por ciento de la utilidad, mitad por días y mitad por salario",
+    "ancho": 800,
+    "alto": 847
+  },
+  "factor-integracion-sdi-2026": {
+    "archivo": "factor-integracion-sdi-2026.webp",
+    "alt": "Cálculo del factor de integración y del salario diario integrado mínimo en 2026",
+    "ancho": 800,
+    "alto": 857
+  },
+  "cat-vs-tasa-de-interes": {
+    "archivo": "cat-vs-tasa-de-interes.webp",
+    "alt": "Comparación entre tasa de interés y CAT de un préstamo con y sin comisión de apertura",
+    "ancho": 800,
+    "alto": 821
+  },
+  "sueldo-bruto-neto-mexico": {
+    "archivo": "sueldo-bruto-neto-mexico.webp",
+    "alt": "Descuentos de ISR e IMSS de un sueldo de 20 mil pesos y sueldo neto resultante",
+    "ancho": 800,
+    "alto": 700
+  },
+  "descuentos-dobles-precio-final": {
+    "archivo": "descuentos-dobles-precio-final.webp",
+    "alt": "Cómo se calcula un descuento doble del 30 y 10 por ciento sobre un precio",
+    "ancho": 800,
+    "alto": 683
+  },
+  "ahorro-mensual-meta-50000": {
+    "archivo": "ahorro-mensual-meta-50000.webp",
+    "alt": "Cuánto ahorrar al mes para reunir 50 mil pesos en 6, 12 o 24 meses",
+    "ancho": 800,
+    "alto": 784
+  },
+  "roi-margen-markup-ejemplo": {
+    "archivo": "roi-margen-markup-ejemplo.webp",
+    "alt": "Fórmula del ROI y diferencia entre margen y markup con un ejemplo",
+    "ancho": 800,
+    "alto": 775
+  },
+  "nota-necesaria-examen-final": {
+    "archivo": "nota-necesaria-examen-final.webp",
+    "alt": "Cálculo de la nota necesaria en el examen final para aprobar y escalas de calificación por país",
+    "ancho": 800,
+    "alto": 780
+  },
+  "dias-festivos-mexico-2026": {
+    "archivo": "dias-festivos-mexico-2026.webp",
+    "alt": "Días de descanso obligatorio en México en 2026 según la Ley Federal del Trabajo",
+    "ancho": 800,
+    "alto": 850
+  },
+  "fecha-dentro-de-90-dias": {
+    "archivo": "fecha-dentro-de-90-dias.webp",
+    "alt": "Fechas resultantes de sumar 30, 60, 90 y 180 días, 6 meses y 1 año a una fecha",
+    "ancho": 800,
+    "alto": 769
+  },
+  "estructura-iban-validacion": {
+    "archivo": "estructura-iban-validacion.webp",
+    "alt": "Estructura de un IBAN español y cómo se valida con el módulo 97",
+    "ancho": 800,
+    "alto": 787
+  },
+  "dias-fertiles-ciclo-28-dias": {
+    "archivo": "dias-fertiles-ciclo-28-dias.webp",
+    "alt": "Calendario de un ciclo de 28 días con la regla, la ventana fértil y el día de ovulación",
+    "ancho": 800,
+    "alto": 835
   }
 }

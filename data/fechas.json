@@ -542,122 +542,122 @@
     },
     "calculadora-ldl": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "20f59915c6d8",
+      "actualizado": "2026-10-24",
+      "contenido": "3d8c7d2d596a",
       "componente": "f42a7f144ef5"
     },
     "calculadora-pafi": {
       "creado": "2026-09-06",
-      "actualizado": "2026-09-25",
-      "contenido": "38bee8309d22",
+      "actualizado": "2026-10-24",
+      "contenido": "7511299f8b46",
       "componente": "8c0cb92a86b2"
     },
     "indice-de-barthel": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "34f883c05d40",
+      "actualizado": "2026-10-24",
+      "contenido": "cb843dc0f13f",
       "componente": "e19049d100a0"
     },
     "calculadora-liquidacion-laboral-colombia": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "29b9af4ea91d",
+      "actualizado": "2026-10-24",
+      "contenido": "37a877823aee",
       "componente": "aa25586b78cd"
     },
     "calculadora-seguridad-social-colombia": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "2cc74db538f5",
+      "actualizado": "2026-10-24",
+      "contenido": "db4cfe3e7bf5",
       "componente": "33c8e9e19f6d"
     },
     "calculadora-cdt": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-04",
-      "contenido": "8622c1bcfa92",
+      "actualizado": "2026-10-24",
+      "contenido": "278098884bc5",
       "componente": "8248fafafe5c"
     },
     "calcular-prima-vacacional": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "731a6750ea9f",
+      "actualizado": "2026-10-24",
+      "contenido": "07bfdda68364",
       "componente": "92a5eaacae9d"
     },
     "calcular-vacaciones": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "5ed674671d4a",
+      "actualizado": "2026-10-24",
+      "contenido": "6615c7f62da2",
       "componente": "8ef5b00530cb"
     },
     "calcular-ptu": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "1a1bf85d9d90",
+      "actualizado": "2026-10-24",
+      "contenido": "cd8ce22c44ce",
       "componente": "4799ee0dfbce"
     },
     "calcular-salario-diario-integrado": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "b31706fa2067",
+      "actualizado": "2026-10-24",
+      "contenido": "9ebd69fbb6e8",
       "componente": "715b876774f7"
     },
     "calculadora-cat": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "ff588dd544e1",
+      "actualizado": "2026-10-24",
+      "contenido": "c8682afb6b3e",
       "componente": "b9587d358f6a"
     },
     "calculadora-nomina": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "6bc4bad00dfe",
+      "actualizado": "2026-10-24",
+      "contenido": "4fb2122e1170",
       "componente": "666396820f0e"
     },
     "calcular-descuento": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "60db91374e3e",
+      "actualizado": "2026-10-24",
+      "contenido": "fd0efb3607c1",
       "componente": "21e29c80fc3a"
     },
     "calculadora-ahorro": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "0937f75e2ec0",
+      "actualizado": "2026-10-24",
+      "contenido": "b5d5c0f027aa",
       "componente": "11e6bb519b3b"
     },
     "calculadora-roi": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "d112b366a417",
+      "actualizado": "2026-10-24",
+      "contenido": "ef7c667d7a24",
       "componente": "2ceaae0f4a99"
     },
     "calculadora-nota-necesaria": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "c6eb53e5315c",
+      "actualizado": "2026-10-24",
+      "contenido": "4b81d10d6fc8",
       "componente": "f2d3521250bf"
     },
     "calculadora-dias-habiles": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "0e0b4420f1b4",
+      "actualizado": "2026-10-24",
+      "contenido": "971d02df62cb",
       "componente": "b02214e6f7d8"
     },
     "calcular-fecha-futura": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "447ef55da73d",
+      "actualizado": "2026-10-24",
+      "contenido": "234f60b6d39f",
       "componente": "82b75eee98c0"
     },
     "validador-iban": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "b5ae48f81a19",
+      "actualizado": "2026-10-24",
+      "contenido": "b6e8e4066841",
       "componente": "50382d31fcd8"
     },
     "calculadora-ovulacion": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "61b47ede46ee",
+      "actualizado": "2026-10-24",
+      "contenido": "40db2b005642",
       "componente": "388f7e5e535f"
     },
     "calculadora-tmb": {

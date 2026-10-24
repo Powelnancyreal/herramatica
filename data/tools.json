@@ -11013,27 +11013,64 @@
     "webApp": true,
     "appCategory": "HealthApplication",
     "intro": "Calcula tu colesterol LDL (\"colesterol malo\") a partir de los valores de tu perfil lipídico: colesterol total, colesterol HDL y triglicéridos, usando la fórmula de Friedewald, el método más usado en laboratorios clínicos cuando no se mide el LDL directamente.",
-    "howToUse": [
-      "Introduce tu colesterol total (mg/dL)",
-      "Introduce tu colesterol HDL (mg/dL)",
-      "Introduce tus triglicéridos (mg/dL)",
-      "Tu LDL estimado y su categoría se calculan al instante"
-    ],
-    "benefits": [
-      "Usa la fórmula de Friedewald, el estándar en laboratorios clínicos",
-      "Clasifica el resultado según las categorías de referencia habituales",
-      "Advierte cuando la fórmula no es aplicable (triglicéridos muy altos)",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe tu colesterol total, tu HDL y tus triglicéridos (en mg/dL) y obtén tu colesterol LDL con la fórmula de Friedewald. Es la misma estimación que hacen muchos laboratorios cuando no miden el LDL directamente.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula el LDL con la fórmula de Friedewald?",
-        "body": "La fórmula es: LDL = Colesterol total − HDL − (Triglicéridos ÷ 5), con todos los valores en mg/dL. Esta fórmula estima el LDL sin necesidad de medirlo directamente, ya que se basa en la relación conocida entre los triglicéridos y el colesterol VLDL (que se aproxima como Triglicéridos÷5)."
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "Esta calculadora sirve para entender tu análisis, no para diagnosticar. Comenta siempre los resultados con tu médico, que valorará tu riesgo cardiovascular completo."
       },
       {
-        "title": "¿Por qué la fórmula no funciona con triglicéridos muy altos?",
-        "body": "La fórmula de Friedewald asume una relación fija entre los triglicéridos y el colesterol VLDL que deja de ser válida cuando los triglicéridos superan los 400 mg/dL, produciendo estimaciones de LDL poco fiables. En esos casos, se requiere una medición directa de LDL en el laboratorio, en lugar de esta fórmula estimada."
+        "tipo": "infografia",
+        "archivo": "calculo-colesterol-ldl-friedewald.webp",
+        "alt": "Cálculo del colesterol LDL con la fórmula de Friedewald y rangos de LDL óptimo, límite y alto",
+        "ancho": 800,
+        "alto": 779,
+        "titulo": "¿Cómo se calcula el LDL a partir del perfil lipídico?"
+      },
+      {
+        "tipo": "glosario",
+        "titulo": "¿Qué significa cada valor del perfil lipídico?",
+        "items": [
+          [
+            "Colesterol total",
+            "La suma de todo el colesterol de la sangre: LDL, HDL y una parte asociada a los triglicéridos."
+          ],
+          [
+            "LDL",
+            "El «colesterol malo»: el que se deposita en las arterias. Es el principal objetivo del tratamiento."
+          ],
+          [
+            "HDL",
+            "El «colesterol bueno»: ayuda a retirar el colesterol de las arterias. Cuanto más alto, mejor."
+          ],
+          [
+            "Triglicéridos",
+            "Grasas que suben con el azúcar, el alcohol y las comidas copiosas. Por eso se miden en ayunas."
+          ],
+          [
+            "Colesterol no-HDL",
+            "Colesterol total menos HDL. Útil cuando los triglicéridos están altos."
+          ]
+        ]
+      },
+      {
+        "tipo": "checklist",
+        "titulo": "¿Qué hábitos ayudan a bajar el LDL?",
+        "items": [
+          "Cambiar grasas saturadas (embutidos, mantequilla, bollería) por aceite de oliva, frutos secos y pescado.",
+          "Comer más fibra soluble: avena, legumbres, frutas y verduras.",
+          "Hacer al menos 150 minutos de ejercicio moderado a la semana.",
+          "Dejar de fumar y moderar el alcohol.",
+          "Si tu médico te receta un tratamiento, no lo abandones aunque los valores mejoren."
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otras calculadoras de salud pueden servirme?",
+        "parrafos": [
+          "El peso influye en el colesterol: revisa tu [IMC](/calcular-imc) y tu [peso ideal](/calculadora-peso-ideal). Para ajustar tu alimentación, calcula las [calorías que necesitas](/calculadora-calorias)."
+        ]
       }
     ],
     "faqs": [
@@ -11075,25 +11112,78 @@
     "webApp": true,
     "appCategory": "HealthApplication",
     "intro": "Calcula el índice de oxigenación PaFi (relación PaO₂/FiO₂), un indicador ampliamente usado en medicina para evaluar la función pulmonar y el intercambio de gases, especialmente en pacientes con insuficiencia respiratoria o bajo ventilación mecánica.",
-    "howToUse": [
-      "Introduce el valor de PaO₂ de la gasometría arterial (en mmHg)",
-      "Introduce la FiO₂ administrada (en %), o elige una de las opciones comunes",
-      "El índice PaFi y su interpretación general se muestran al instante"
-    ],
-    "benefits": [
-      "Calcula el índice PaFi al instante a partir de dos valores simples",
-      "Incluye botones de acceso rápido para dispositivos comunes de oxigenoterapia",
-      "Muestra una interpretación general orientativa del resultado",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el índice PaFi (PaO₂/FiO₂) con la presión arterial de oxígeno de la gasometría y la fracción de oxígeno inspirado. Herramienta de apoyo para profesionales sanitarios en la valoración de la oxigenación.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula el índice PaFi?",
-        "body": "El índice PaFi se calcula dividiendo la presión parcial de oxígeno en sangre arterial (PaO₂, obtenida de una gasometría arterial) entre la fracción inspirada de oxígeno (FiO₂, expresada como decimal): PaFi = PaO₂ ÷ FiO₂. Por ejemplo, con una PaO₂ de 90 mmHg y una FiO₂ del 40% (0.4), el índice PaFi es 90 ÷ 0.4 = 225."
+        "tipo": "infografia",
+        "archivo": "indice-pafi-formula-rangos.webp",
+        "alt": "Fórmula del índice PaFi y rangos de alteración de la oxigenación",
+        "ancho": 800,
+        "alto": 844,
+        "titulo": "¿Cómo se calcula e interpreta el índice PaFi?"
       },
       {
-        "title": "¿Para qué se usa el índice PaFi?",
-        "body": "El índice PaFi es uno de los criterios usados en la definición de Berlín del Síndrome de Dificultad Respiratoria Aguda (SDRA), donde valores más bajos indican una alteración más severa del intercambio de gases. Sin embargo, el diagnóstico de SDRA requiere además otros criterios clínicos y radiológicos, no solo el valor de PaFi de forma aislada."
+        "tipo": "tabla",
+        "titulo": "¿Qué FiO₂ aporta cada dispositivo de oxígeno?",
+        "intro": "Valores aproximados, útiles cuando el paciente no está con ventilación mecánica. La FiO₂ real varía con la respiración del paciente.",
+        "cabeceras": [
+          "Dispositivo",
+          "Flujo",
+          "FiO₂ aproximada"
+        ],
+        "filas": [
+          [
+            "Aire ambiente",
+            "—",
+            "0,21"
+          ],
+          [
+            "Cánula nasal",
+            "1 a 6 L/min",
+            "0,24 a 0,44 (≈ +0,04 por litro)"
+          ],
+          [
+            "Mascarilla simple",
+            "5 a 10 L/min",
+            "0,35 a 0,60"
+          ],
+          [
+            "Mascarilla con reservorio",
+            "10 a 15 L/min",
+            "0,60 a 0,90"
+          ]
+        ]
+      },
+      {
+        "tipo": "comparacion",
+        "titulo": "¿Qué diferencia hay entre PaFi y SaFi?",
+        "columnas": [
+          {
+            "titulo": "PaFi",
+            "tono": "azul",
+            "items": [
+              "Usa la PaO₂ de una gasometría arterial.",
+              "Es el estándar de referencia para clasificar el SDRA.",
+              "Requiere una punción arterial."
+            ]
+          },
+          {
+            "titulo": "SaFi",
+            "tono": "verde",
+            "items": [
+              "Usa la saturación del pulsioxímetro (SpO₂).",
+              "No invasiva y continua.",
+              "Menos precisa con saturaciones por encima del 97 %."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Por qué hay que mirar la PaFi junto con el resto de datos?",
+        "parrafos": [
+          "Una misma PaFi puede tener causas distintas: neumonía, edema pulmonar, embolia o atelectasias. Para clasificar un SDRA con los criterios de Berlín hace falta además una presión positiva al final de la espiración (PEEP) de al menos 5 cmH₂O, infiltrados bilaterales en la imagen y que el cuadro no se explique solo por insuficiencia cardíaca. Para otras escalas clínicas, consulta el [Índice de Barthel](/indice-de-barthel)."
+        ]
       }
     ],
     "faqs": [
@@ -11135,25 +11225,63 @@
     "webApp": true,
     "appCategory": "HealthApplication",
     "intro": "El Índice de Barthel es una escala ampliamente usada en medicina y rehabilitación para medir el grado de independencia de una persona en 10 actividades básicas de la vida diaria, como comer, vestirse, bañarse o caminar. Responde cada ítem según la situación real de la persona evaluada para obtener la puntuación total y su interpretación.",
-    "howToUse": [
-      "Responde cada uno de los 10 ítems según el nivel de independencia real de la persona",
-      "La puntuación total se actualiza automáticamente mientras respondes",
-      "Consulta la interpretación general una vez completados todos los ítems"
-    ],
-    "benefits": [
-      "Cubre los 10 ítems estándar del Índice de Barthel",
-      "Suma automáticamente la puntuación total sobre 100",
-      "Muestra la interpretación general del nivel de dependencia",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Valora la independencia de una persona en 10 actividades básicas de la vida diaria y obtén su puntuación de 0 a 100 y el grado de dependencia. Se usa en geriatría, rehabilitación y trabajo social.",
+    "bloques": [
       {
-        "title": "¿Qué mide el Índice de Barthel?",
-        "body": "El Índice de Barthel evalúa 10 actividades básicas de la vida diaria: comer, bañarse, vestirse, arreglarse, control de heces, control de orina, uso del retrete, traslado cama-sillón, deambulación, y subir/bajar escaleras. Cada actividad se puntúa según el nivel de ayuda que la persona necesita, y la suma total (de 0 a 100) refleja su grado de independencia funcional."
+        "tipo": "infografia",
+        "archivo": "actividades-indice-barthel.webp",
+        "alt": "Las diez actividades del Índice de Barthel con su puntuación y los grados de dependencia",
+        "ancho": 800,
+        "alto": 893,
+        "titulo": "¿Qué actividades evalúa el Índice de Barthel?"
       },
       {
-        "title": "¿Cómo se interpreta la puntuación total?",
-        "body": "Una puntuación de 100 indica independencia total en las actividades evaluadas. Puntuaciones menores reflejan distintos grados de dependencia: leve, moderada, severa o total, según los puntos de corte más usados. Es importante recordar que el Índice de Barthel evalúa solo actividades físicas básicas, no funciones cognitivas ni actividades instrumentales más complejas (como manejar dinero o usar el teléfono)."
+        "tipo": "pasos",
+        "titulo": "¿Cómo aplicar el Índice de Barthel correctamente?",
+        "pasos": [
+          {
+            "titulo": "Valora lo que la persona hace, no lo que podría hacer",
+            "texto": "Se puntúa el desempeño real de los últimos días, preguntando a la persona, a su familia o a quien la cuida."
+          },
+          {
+            "titulo": "Si necesita supervisión, no es independiente",
+            "texto": "Que alguien tenga que estar presente ya cuenta como ayuda."
+          },
+          {
+            "titulo": "Usa la información más fiable",
+            "texto": "La observación directa es mejor que la entrevista, pero ambas son válidas."
+          },
+          {
+            "titulo": "Repite la valoración con el tiempo",
+            "texto": "El valor de la escala está en comparar: tras un ingreso, una caída o durante la rehabilitación."
+          }
+        ]
+      },
+      {
+        "tipo": "escenarios",
+        "titulo": "¿Para qué se usa la puntuación de Barthel?",
+        "items": [
+          {
+            "titulo": "Tras un ictus",
+            "situacion": "Medir la evolución durante la rehabilitación y fijar objetivos realistas.",
+            "resultado": "Seguimiento"
+          },
+          {
+            "titulo": "Valoración geriátrica",
+            "situacion": "Detectar pérdida de autonomía en personas mayores antes de que sea grave.",
+            "resultado": "Prevención"
+          },
+          {
+            "titulo": "Trámites de dependencia",
+            "situacion": "Aportar información sobre la autonomía de la persona en informes sociales y sanitarios.",
+            "resultado": "Informes"
+          }
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "El Índice de Barthel no evalúa memoria, orientación ni actividades instrumentales como manejar dinero o usar el teléfono. Para eso se usan otras escalas, como la de Lawton y Brody."
       }
     ],
     "faqs": [
@@ -11195,34 +11323,76 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula los principales componentes de tu liquidación laboral en Colombia: cesantías con sus intereses, prima de servicios, y compensación en dinero por vacaciones. Introduce tu salario y las fechas correspondientes para obtener cada valor según la normativa laboral colombiana.",
-    "howToUse": [
-      "Elige el concepto que quieres calcular: Cesantías, Prima de Servicios, o Vacaciones",
-      "Introduce tu salario mensual y las fechas o días correspondientes",
-      "El resultado se calcula al instante con el desglose completo"
-    ],
-    "benefits": [
-      "Calcula cesantías, intereses, prima de servicios y vacaciones en una sola herramienta",
-      "Cálculo proporcional automático si trabajaste solo una parte del periodo",
-      "Incluye el auxilio de transporte en la base de cesantías, si aplica",
-      "Resultado instantáneo mientras completas los datos",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu liquidación laboral en Colombia: cesantías con sus intereses, prima de servicios y vacaciones no disfrutadas, con tu salario, el auxilio de transporte y las fechas trabajadas. SMMLV 2026: $1.750.905.",
+    "bloques": [
       {
-        "title": "¿Cómo se calculan las cesantías en Colombia?",
-        "body": "Las cesantías equivalen a un mes de salario por cada año trabajado, calculadas con la fórmula: (Salario + auxilio de transporte, si aplica) × días trabajados en el año ÷ 360. Se consignan anualmente en un fondo de cesantías antes del 14 de febrero, y generan además un interés del 12% anual, calculado proporcionalmente sobre el tiempo trabajado."
+        "tipo": "infografia",
+        "archivo": "conceptos-liquidacion-laboral-colombia.webp",
+        "alt": "Conceptos de la liquidación laboral en Colombia: cesantías, intereses, prima y vacaciones",
+        "ancho": 800,
+        "alto": 883,
+        "titulo": "¿Cuánto suma cada concepto de la liquidación en un año?"
       },
       {
-        "title": "¿Qué es la prima de servicios y cómo se calcula?",
-        "body": "La prima de servicios es una prestación equivalente a un mes de salario al año, pagada en dos cuotas: antes del 30 de junio y antes del 20 de diciembre, cada una calculada sobre el semestre correspondiente. La fórmula es: Salario × días trabajados en el semestre ÷ 360. Si se trabajó el semestre completo, la prima equivale a medio salario mensual."
+        "tipo": "tabla",
+        "titulo": "¿Cuándo se paga cada prestación social en Colombia?",
+        "cabeceras": [
+          "Prestación",
+          "Fecha de pago",
+          "A quién"
+        ],
+        "filas": [
+          [
+            "Prima de servicios (1.er semestre)",
+            "Hasta el 30 de junio",
+            "Al trabajador"
+          ],
+          [
+            "Prima de servicios (2.º semestre)",
+            "Hasta el 20 de diciembre",
+            "Al trabajador"
+          ],
+          [
+            "Cesantías",
+            "Hasta el 14 de febrero",
+            "Al fondo de cesantías"
+          ],
+          [
+            "Intereses de cesantías",
+            "Hasta el 31 de enero",
+            "Al trabajador"
+          ],
+          [
+            "Liquidación final",
+            "Al terminar el contrato",
+            "Al trabajador"
+          ]
+        ]
       },
       {
-        "title": "Cómo calcular la liquidación paso a paso",
-        "body": "La liquidación laboral suma cuatro prestaciones. Las cesantías son el salario mensual por los días trabajados dividido entre 360. Los intereses sobre cesantías son el 12% anual: cesantías × días × 0.12 ÷ 360. La prima de servicios equivale a un mes de salario por año, y se calcula igual que las cesantías por cada semestre. Las vacaciones son 15 días hábiles por año: salario × días ÷ 720. Si ganas hasta dos salarios mínimos, el auxilio de transporte se suma al salario para cesantías, intereses y prima, pero no para vacaciones. Cada prestación tiene su propia calculadora: [cesantías](/calcular-cesantias), [prima de servicios](/prima-de-servicios) y [vacaciones](/vacaciones-colombia)."
+        "tipo": "mitos",
+        "titulo": "¿Qué hay de cierto sobre la liquidación en Colombia?",
+        "items": [
+          {
+            "mito": "Si renuncio no me pagan liquidación.",
+            "realidad": "Sí te la pagan: cesantías, intereses, prima y vacaciones pendientes se deben siempre. Lo que no hay al renunciar es indemnización."
+          },
+          {
+            "mito": "El auxilio de transporte no cuenta para las prestaciones.",
+            "realidad": "Sí cuenta para cesantías y prima. No se incluye para las vacaciones."
+          },
+          {
+            "mito": "Las vacaciones se pueden pagar siempre en dinero.",
+            "realidad": "Solo al terminar el contrato o, durante él, con acuerdo y hasta la mitad de los días."
+          }
+        ]
       },
       {
-        "title": "Ejemplo de liquidación con cifras de 2026",
-        "body": "Con un salario de $2.000.000 y el auxilio de transporte de 2026, de $249.095, la base es $2.249.095. Por 180 días trabajados, las cesantías son $2.249.095 × 180 ÷ 360 = $1.124.548; los intereses, $1.124.548 × 180 × 0.12 ÷ 360 = $67.473; la prima del semestre, $1.124.548; y las vacaciones, $2.000.000 × 180 ÷ 720 = $500.000. La liquidación total es de unos $2.816.569, sin contar salarios pendientes ni indemnización por despido sin justa causa."
+        "tipo": "texto",
+        "titulo": "¿Qué otras calculadoras laborales de Colombia hay?",
+        "parrafos": [
+          "Para cada prestación por separado tienes la [prima de servicios](/prima-de-servicios), las [cesantías](/calcular-cesantias) y sus [intereses](/intereses-cesantias), y las [vacaciones](/vacaciones-colombia). Para tus aportes mensuales, la [calculadora de seguridad social](/calculadora-seguridad-social-colombia)."
+        ]
       }
     ],
     "faqs": [
@@ -11267,26 +11437,91 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula tus aportes al sistema de seguridad social en Colombia (salud y pensión), tanto si trabajas como empleado dependiente como si trabajas de forma independiente por honorarios, cada uno con su propia base y porcentajes de aporte.",
-    "howToUse": [
-      "Elige tu situación: empleado dependiente o independiente por honorarios",
-      "Introduce tu salario mensual (dependiente) o tus ingresos por honorarios (independiente)",
-      "Consulta tus aportes a salud, pensión y tu ingreso neto al instante"
-    ],
-    "benefits": [
-      "Cubre tanto a empleados dependientes como a trabajadores independientes",
-      "Calcula automáticamente el IBC (Ingreso Base de Cotización) para independientes",
-      "Muestra el desglose de cada aporte por separado",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tus aportes de salud y pensión en Colombia. Como empleado pagas el 4 % y el 4 % de tu salario; como independiente, el 12,5 % y el 16 % sobre un IBC del 40 % de tus ingresos.",
+    "bloques": [
       {
-        "title": "¿Cuánto aporta un empleado dependiente en Colombia?",
-        "body": "Un empleado dependiente aporta el 4% de su salario a salud y el 4% a pensión (el empleador aporta el resto: 8.5% a salud y 12% a pensión), sumando un 8% de descuento sobre el salario bruto del trabajador."
+        "tipo": "infografia",
+        "archivo": "aportes-salud-pension-colombia.webp",
+        "alt": "Aportes de salud y pensión en Colombia para empleados e independientes",
+        "ancho": 800,
+        "alto": 831,
+        "titulo": "¿Cuánto se paga de salud y pensión como empleado o independiente?"
       },
       {
-        "title": "¿Cómo se calcula el aporte de un independiente por honorarios?",
-        "body": "Para los trabajadores independientes, el Ingreso Base de Cotización (IBC) se calcula sobre el 40% de los ingresos mensuales, y sobre esa base se aplican los porcentajes completos de salud (12.5%) y pensión (16%), ya que el independiente asume la totalidad del aporte al no existir un empleador que cubra una parte."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto aporta el empleado y cuánto la empresa?",
+        "cabeceras": [
+          "Concepto",
+          "Empleado",
+          "Empleador"
+        ],
+        "filas": [
+          [
+            "Salud",
+            "4 %",
+            "8,5 % (exento en muchos casos hasta 10 SMMLV)"
+          ],
+          [
+            "Pensión",
+            "4 %",
+            "12 %"
+          ],
+          [
+            "Fondo de Solidaridad Pensional",
+            "1 % a 2 % desde 4 SMMLV",
+            "—"
+          ],
+          [
+            "ARL",
+            "—",
+            "Según el riesgo de la actividad"
+          ],
+          [
+            "Caja de compensación",
+            "—",
+            "4 %"
+          ]
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto paga un independiente que gana el salario mínimo?",
+        "intro": "El IBC nunca puede ser inferior a un salario mínimo, aunque el 40 % de tus ingresos sea menor.",
+        "datos": [
+          [
+            "Ingresos mensuales",
+            "$2.000.000"
+          ],
+          [
+            "40 % de los ingresos",
+            "$800.000"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "El 40 % queda por debajo del mínimo, así que el IBC sube a 1 SMMLV.",
+            "operacion": "IBC = $1.750.905"
+          },
+          {
+            "texto": "Salud al 12,5 %.",
+            "operacion": "$1.750.905 × 12,5 % = $218.863"
+          },
+          {
+            "texto": "Pensión al 16 %.",
+            "operacion": "$1.750.905 × 16 % = $280.145"
+          }
+        ],
+        "resultado": [
+          "Total al mes",
+          "$499.008"
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otras cuentas conviene hacer si eres independiente?",
+        "parrafos": [
+          "Además de salud y pensión, revisa si tu actividad te obliga a cotizar a riesgos laborales (ARL) y cuánto te retienen de impuesto: calcula la [retención en la fuente](/retencion-en-la-fuente). Si combinas honorarios con un contrato laboral, cada ingreso cotiza por separado; y si terminas un contrato, calcula tu [liquidación laboral](/calculadora-liquidacion-laboral-colombia)."
+        ]
       }
     ],
     "faqs": [
@@ -11327,26 +11562,68 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula cuánto rendirá tu CDT (Certificado de Depósito a Término) en Colombia, a partir del monto invertido, la Tasa Efectiva Anual (TEA) que te ofrece la entidad financiera, y el plazo del certificado en días.",
-    "howToUse": [
-      "Introduce el monto que vas a invertir en el CDT",
-      "Introduce la TEA que te ofrece la entidad financiera",
-      "Elige el plazo del CDT en días",
-      "Consulta el monto final y el interés ganado al instante"
-    ],
-    "benefits": [
-      "Calcula el rendimiento exacto usando la TEA (Tasa Efectiva Anual), la referencia estándar en Colombia",
-      "Admite cualquier plazo, no solo los múltiplos exactos de un año",
-      "Resultado instantáneo mientras completas los datos",
-      "Gratis, sin registro y calculado directamente en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe el monto, la tasa efectiva anual (TEA) y el plazo en días para saber cuánto rendirá tu CDT y cuánto recibirás al vencimiento. El cálculo usa la TEA, que es como los bancos colombianos anuncian sus tasas.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula el rendimiento de un CDT?",
-        "body": "El rendimiento se calcula capitalizando la Tasa Efectiva Anual (TEA) según la proporción del año que dura el CDT: Monto final = Capital × (1 + TEA)^(días ÷ 365). Por ejemplo, con $5,000,000 a una TEA del 11% durante 180 días, el monto final es aproximadamente $5,264,063, generando un interés de $264,063."
+        "tipo": "infografia",
+        "archivo": "rendimiento-cdt-colombia.webp",
+        "alt": "Rendimiento de un CDT de 10 millones de pesos al 10 por ciento según el plazo",
+        "ancho": 800,
+        "alto": 798,
+        "titulo": "¿Cuánto rinde un CDT de 10 millones?"
       },
       {
-        "title": "¿Por qué se usa la TEA en lugar de una tasa nominal?",
-        "body": "La TEA (Tasa Efectiva Anual) ya refleja el efecto de la capitalización de intereses a lo largo del año, por lo que es la forma más precisa y comparable de expresar el rendimiento real de un CDT entre distintas entidades financieras, a diferencia de una tasa nominal que podría no reflejar la capitalización real aplicada."
+        "tipo": "glosario",
+        "titulo": "¿Qué significan TEA, retención y renovación automática?",
+        "items": [
+          [
+            "TEA",
+            "Tasa efectiva anual: lo que gana tu dinero en un año, con los intereses ya capitalizados."
+          ],
+          [
+            "Retención en la fuente",
+            "Un 4 % de los rendimientos que el banco descuenta y paga a la DIAN como anticipo de tu impuesto de renta."
+          ],
+          [
+            "Renovación automática",
+            "Si no avisas, el banco renueva el CDT al vencer, a la tasa de ese momento."
+          ],
+          [
+            "Seguro de depósitos",
+            "Fogafín asegura los depósitos en entidades inscritas hasta un tope por persona y entidad."
+          ]
+        ]
+      },
+      {
+        "tipo": "comparacion",
+        "titulo": "¿Qué ventajas tiene cada plazo de CDT?",
+        "columnas": [
+          {
+            "titulo": "Plazo corto (90–180 días)",
+            "tono": "azul",
+            "items": [
+              "Recuperas antes el dinero.",
+              "Puedes renovar si las tasas suben.",
+              "Suele pagar una tasa algo menor."
+            ]
+          },
+          {
+            "titulo": "Plazo largo (360 días o más)",
+            "tono": "verde",
+            "items": [
+              "Asegura la tasa más tiempo.",
+              "Normalmente con tasa más alta.",
+              "El dinero queda inmovilizado: no se puede retirar antes."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo comparar un CDT con otras inversiones?",
+        "parrafos": [
+          "Compara siempre la TEA neta de retención con la inflación esperada. Para ver cómo crece un ahorro con aportes mensuales, usa la [calculadora de interés compuesto](/calculadora-interes-compuesto); y si mueves dinero entre cuentas, recuerda el [4 por mil](/calculadora-4x1000)."
+        ]
       }
     ],
     "faqs": [
@@ -11386,40 +11663,77 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "La prima vacacional es el pago adicional que la Ley Federal del Trabajo obliga a entregarte cuando disfrutas tus vacaciones: como mínimo el 25% del salario que corresponde a esos días (artículo 80). Esta calculadora obtiene tus días de vacaciones directamente de tu antigüedad con la tabla vigente desde la reforma de “vacaciones dignas” de 2023, calcula la prima bruta, separa la parte exenta de ISR (15 UMA) de la gravable y estima el impuesto real sumándolo a tu salario ordinario. Así sabes cuánto recibirás en tu recibo de nómina, no solo el monto bruto.",
-    "howToUse": [
-      "Escribe tu salario mensual bruto; la calculadora obtiene tu salario diario dividiéndolo entre 30",
-      "Indica tus años de antigüedad cumplidos: los días de vacaciones se rellenan solos según la LFT (12 días el primer año, 14 el segundo, etc.)",
-      "Si tu empresa te da más días o una prima superior al 25%, ajusta esos campos",
-      "Pulsa «Calcular prima vacacional» para ver la prima bruta, la parte exenta, el ISR estimado y el neto"
-    ],
-    "benefits": [
-      "Usa la tabla de vacaciones de la reforma de 2023, no la tabla antigua de 6 días que todavía aparece en muchas webs",
-      "Separa la parte exenta de ISR (15 UMA en 2026) de la parte gravable",
-      "Estima el ISR real sumando la parte gravable a tu salario, como hace la nómina",
-      "Distingue el pago de los días de vacaciones (tu sueldo normal) de la prima (el extra)",
-      "Admite prestaciones superiores a la ley: más días o un porcentaje mayor al 25%",
-      "Gratis, sin registro y calculado en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu prima vacacional en México: como mínimo el 25 % del salario que cobras durante tus días de vacaciones. Indica tu salario y tus días (12 el primer año desde 2023) y verás también la parte exenta de ISR.",
+    "bloques": [
       {
-        "title": "¿Qué es la prima vacacional y quién tiene derecho?",
-        "body": "Es una prestación que busca que el trabajador tenga dinero extra para disfrutar su descanso. El artículo 80 de la Ley Federal del Trabajo establece que todo trabajador tiene derecho a una prima no menor del 25% sobre los salarios que le correspondan durante su periodo de vacaciones. Aplica a cualquier trabajador con relación laboral, sea de planta, eventual o por temporada, y el porcentaje puede ser mayor si así lo establece el contrato individual o colectivo. No es un bono discrecional: es obligatoria desde el primer año cumplido de servicio."
+        "tipo": "infografia",
+        "archivo": "calculo-prima-vacacional-mexico.webp",
+        "alt": "Cálculo de la prima vacacional del 25 por ciento con un ejemplo y la exención de ISR",
+        "ancho": 800,
+        "alto": 791,
+        "titulo": "¿Cómo se calcula la prima vacacional paso a paso?"
       },
       {
-        "title": "Fórmula y ejemplo de cálculo",
-        "body": "La fórmula es: prima vacacional = salario diario × días de vacaciones × porcentaje de prima. Por ejemplo, con un salario mensual de $15,000 el salario diario es $500. En tu primer año te corresponden 12 días de vacaciones, que equivalen a $6,000 de salario; la prima del 25% sobre esa cantidad es de $1,500. Esos $1,500 son un pago adicional a tu sueldo: durante tus vacaciones sigues cobrando tu salario normal y, además, recibes la prima."
+        "tipo": "tabla",
+        "titulo": "¿Cuánta prima vacacional me toca según mi antigüedad?",
+        "intro": "Con un salario diario de $500 y la prima mínima del 25 %:",
+        "cabeceras": [
+          "Antigüedad",
+          "Días de vacaciones",
+          "Prima vacacional"
+        ],
+        "filas": [
+          [
+            "1 año",
+            "12",
+            "$1,500"
+          ],
+          [
+            "2 años",
+            "14",
+            "$1,750"
+          ],
+          [
+            "3 años",
+            "16",
+            "$2,000"
+          ],
+          [
+            "5 años",
+            "20",
+            "$2,500"
+          ],
+          [
+            "6 a 10 años",
+            "22",
+            "$2,750"
+          ]
+        ]
       },
       {
-        "title": "Cuántos días de vacaciones te corresponden desde 2023",
-        "body": "La reforma publicada en el Diario Oficial el 27 de diciembre de 2022 duplicó los días mínimos. El artículo 76 de la LFT establece 12 días al cumplir el primer año, 14 el segundo, 16 el tercero, 18 el cuarto y 20 el quinto. A partir del sexto año se suman 2 días por cada 5 años de servicio: 22 días del año 6 al 10, 24 del 11 al 15, 26 del 16 al 20, y así sucesivamente. Como la prima se calcula sobre estos días, la reforma también aumentó el monto de la prima vacacional."
+        "tipo": "mitos",
+        "titulo": "¿Qué hay de cierto sobre la prima vacacional?",
+        "items": [
+          {
+            "mito": "El 25 % se calcula sobre el sueldo mensual.",
+            "realidad": "Se calcula sobre el salario de los días de vacaciones: salario diario × días × 25 %."
+          },
+          {
+            "mito": "Si no salgo de vacaciones, no hay prima.",
+            "realidad": "La prima se paga al disfrutar las vacaciones; si terminas la relación laboral, se incluye en el finiquito la proporcional."
+          },
+          {
+            "mito": "La prima vacacional paga ISR completa.",
+            "realidad": "Está exenta hasta 15 UMA al año ($1,759.65 en 2026); solo el excedente paga ISR."
+          }
+        ]
       },
       {
-        "title": "Prima vacacional e ISR: parte exenta y parte gravable",
-        "body": "De acuerdo con el artículo 93, fracción XIV, de la Ley del ISR, la prima vacacional está exenta hasta el equivalente a 15 veces la UMA diaria en el año calendario. Con la UMA de 2026 ($117.31) la exención es de $1,759.65. Lo que exceda esa cantidad se suma a tus ingresos del periodo y paga ISR según la tarifa del SAT. Por eso, en salarios bajos o medios la prima suele llegar completa, mientras que en salarios altos una parte se retiene como impuesto."
-      },
-      {
-        "title": "Guía: cómo se calcula la prima vacacional",
-        "body": "Si quieres hacer la cuenta a mano, en nuestra guía de [cómo se calcula la prima vacacional](/blog/como-calcular-prima-vacacional) tienes la fórmula, la parte exenta de ISR en 2026 y ejemplos con distintos salarios y antigüedades."
+        "tipo": "texto",
+        "titulo": "¿Qué otras prestaciones se calculan con el salario diario?",
+        "parrafos": [
+          "El [aguinaldo](/calcular-aguinaldo) (mínimo 15 días), el [salario diario integrado](/calcular-salario-diario-integrado) que usa el IMSS y el [finiquito](/calculadora-finiquito-mexico) cuando dejas un empleo. Te lo explicamos en la guía [cómo calcular la prima vacacional](/blog/como-calcular-prima-vacacional)."
+        ]
       }
     ],
     "faqs": [
@@ -11473,40 +11787,70 @@
     "webApp": true,
     "appCategory": "BusinessApplication",
     "intro": "Desde 2023, la Ley Federal del Trabajo garantiza en México un mínimo de 12 días de vacaciones pagadas al cumplir tu primer año de trabajo, y los días aumentan con la antigüedad. Esta calculadora toma tu fecha de ingreso y te dice exactamente cuántos días te corresponden en el periodo actual, cuántos tendrás al cumplir tu siguiente aniversario y cuántos días proporcionales llevas acumulados en el año en curso, que es lo que deben pagarte en tu finiquito si dejas la empresa. Si añades tu salario, también calcula cuánto valen esos días en dinero.",
-    "howToUse": [
-      "Introduce la fecha en que empezaste a trabajar en la empresa",
-      "Deja la fecha de cálculo en hoy, o cámbiala por tu último día si vas a salir de la empresa",
-      "Opcionalmente, escribe tu salario mensual para ver el valor en pesos de tus vacaciones",
-      "Pulsa «Calcular mis vacaciones» y revisa tus días, tu antigüedad y la tabla resaltada"
-    ],
-    "benefits": [
-      "Aplica la tabla vigente de la reforma de «vacaciones dignas» (12 a 32 días)",
-      "Cuenta tu antigüedad exacta con tu fecha de ingreso, sin redondeos",
-      "Calcula las vacaciones proporcionales que se pagan en el finiquito",
-      "Convierte tus días de vacaciones a pesos si indicas tu salario",
-      "Muestra la tabla completa con tu tramo de antigüedad resaltado",
-      "Gratis, sin registro y sin enviar tus datos a ningún servidor"
-    ],
-    "contentSections": [
+    "resumen": "Calcula cuántos días de vacaciones te corresponden en México según tu antigüedad, con la tabla vigente desde 2023: 12 días el primer año, 2 más cada año hasta el quinto y 2 más cada cinco años después.",
+    "bloques": [
       {
-        "title": "Tabla de vacaciones por antigüedad según la LFT",
-        "body": "El artículo 76 de la Ley Federal del Trabajo, reformado en diciembre de 2022 y vigente desde el 1 de enero de 2023, establece: 1 año, 12 días; 2 años, 14 días; 3 años, 16 días; 4 años, 18 días; 5 años, 20 días. Después del quinto año, las vacaciones aumentan 2 días por cada 5 años de servicio: de 6 a 10 años, 22 días; de 11 a 15, 24 días; de 16 a 20, 26 días; de 21 a 25, 28 días; de 26 a 30, 30 días; y de 31 a 35, 32 días. Son días mínimos: tu empresa puede darte más, pero nunca menos."
+        "tipo": "infografia",
+        "archivo": "tabla-vacaciones-antiguedad-lft.webp",
+        "alt": "Tabla de días de vacaciones por años de antigüedad según la Ley Federal del Trabajo",
+        "ancho": 800,
+        "alto": 891,
+        "titulo": "¿Cuántos días de vacaciones me tocan según mis años trabajados?"
       },
       {
-        "title": "¿Cómo se toman las vacaciones?",
-        "body": "Las vacaciones deben concederse dentro de los seis meses siguientes al cumplimiento de cada año de servicio (artículo 81 LFT). Desde la reforma, el trabajador tiene derecho a disfrutar al menos 12 días continuos, y puede distribuir el resto como acuerde con su empleador. La empresa debe entregarte anualmente una constancia con tu antigüedad y el periodo de vacaciones que te corresponde. Las vacaciones no pueden cambiarse por dinero mientras trabajes en la empresa."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuántas vacaciones proporcionales me pagan si renuncio?",
+        "intro": "Si dejas el empleo antes de cumplir otro año, te pagan la parte proporcional de los días que estabas generando.",
+        "datos": [
+          [
+            "Antigüedad",
+            "2 años y 4 meses"
+          ],
+          [
+            "Salario diario",
+            "$450"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "En el tercer año te corresponden 16 días.",
+            "operacion": "16 días"
+          },
+          {
+            "texto": "Llevas 4 de los 12 meses de ese año.",
+            "operacion": "16 × 4 ÷ 12 = 5,33 días"
+          },
+          {
+            "texto": "Multiplica por tu salario diario.",
+            "operacion": "5,33 × $450 = $2,400"
+          },
+          {
+            "texto": "Súmale la prima vacacional del 25 % sobre esa cantidad.",
+            "operacion": "$2,400 × 25 % = $600"
+          }
+        ],
+        "resultado": [
+          "Vacaciones y prima proporcionales",
+          "$3,000"
+        ]
       },
       {
-        "title": "Vacaciones proporcionales al salir de la empresa",
-        "body": "Si la relación laboral termina antes de que cumplas un año completo de servicio, o entre un aniversario y el siguiente, tienes derecho a una remuneración proporcional al tiempo trabajado (artículo 79 LFT). Esta calculadora la obtiene con la fórmula: días que te corresponderán en tu siguiente aniversario × días transcurridos desde tu último aniversario ÷ 365. Si además tienes vacaciones completas sin disfrutar, deben pagártelas también en el finiquito, junto con su prima vacacional."
+        "tipo": "checklist",
+        "titulo": "¿Qué derechos tengo sobre mis vacaciones?",
+        "items": [
+          "Disfrutar al menos 12 días seguidos si así lo pides.",
+          "Recibir la prima vacacional de al menos el 25 % del salario de esos días.",
+          "Tomar las vacaciones dentro de los 6 meses siguientes a cumplir cada año de servicio.",
+          "Que no te las cambien por dinero mientras sigas trabajando en la empresa.",
+          "Que te paguen las proporcionales en el finiquito si dejas el empleo."
+        ]
       },
       {
-        "title": "Ejemplo práctico",
-        "body": "Si ingresaste el 15 de marzo de 2023 y calculas al 30 de septiembre de 2026, llevas 3 años cumplidos, así que en este periodo te corresponden 16 días de vacaciones. Además, desde tu último aniversario (15 de marzo de 2026) han pasado 199 días, por lo que llevas acumulados unos 9.8 días proporcionales de los 18 que tendrás al cumplir 4 años. Si dejaras la empresa ese día, deberían pagarte las vacaciones pendientes más esos días proporcionales."
-      },
-      {
-        "title": "Guías sobre vacaciones",
-        "body": "Consulta la [tabla completa de días de vacaciones por año](/blog/dias-de-vacaciones-por-ano) hasta los 40 años de antigüedad, tus derechos en [vacaciones por ley en México](/blog/vacaciones-por-ley) y la [tabla de vacaciones 2026](/blog/tabla-de-vacaciones-2026) con los días de descanso obligatorio del año."
+        "tipo": "texto",
+        "titulo": "¿Dónde leer más sobre las vacaciones en México?",
+        "parrafos": [
+          "Tenemos la [tabla de vacaciones 2026](/blog/tabla-de-vacaciones-2026), una guía de [vacaciones por ley](/blog/vacaciones-por-ley) y otra sobre [cuántos días de vacaciones tocan por año](/blog/dias-de-vacaciones-por-ano). Para el dinero extra, calcula tu [prima vacacional](/calcular-prima-vacacional)."
+        ]
       }
     ],
     "faqs": [
@@ -11560,36 +11904,88 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "La Participación de los Trabajadores en las Utilidades (PTU) es el derecho de los trabajadores en México a recibir el 10% de las ganancias que declara su empresa. Esta calculadora reparte la PTU exactamente como indica la Ley Federal del Trabajo: la mitad en proporción a los días trabajados y la otra mitad en proporción al salario de cada trabajador. Además, aplica el tope introducido por la reforma de subcontratación de 2021, que limita la PTU al mayor entre 3 meses de salario y el promedio de lo recibido en los últimos 3 años, y separa la parte exenta de ISR.",
-    "howToUse": [
-      "Elige si conoces la PTU total a repartir o la renta gravable de la empresa (se reparte el 10%)",
-      "Introduce los días trabajados y los salarios de toda la plantilla con derecho a PTU; suelen aparecer en el proyecto de reparto que la empresa debe mostrar",
-      "Escribe tus días trabajados en el año, tu salario devengado anual y tu salario mensual actual",
-      "Si ya recibiste PTU en años anteriores, añade el promedio de los últimos 3 años y pulsa «Calcular mi PTU»"
-    ],
-    "benefits": [
-      "Aplica la fórmula oficial de la LFT: 50% por días y 50% por salario",
-      "Incluye el tope de la reforma de 2021 y te avisa si tu PTU quedó limitada",
-      "Separa la parte exenta de ISR (15 UMA en 2026) de la gravable",
-      "Muestra los factores por día y por peso de salario para comparar con la lista de tu empresa",
-      "Acepta la PTU total o la renta gravable de la empresa",
-      "Gratis, sin registro y calculado en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Estima tu PTU (reparto de utilidades) a partir de lo que reparte tu empresa, tus días trabajados y tu salario, con el tope vigente desde 2021: el mayor entre 3 meses de salario y el promedio de tu PTU de los 3 últimos años.",
+    "bloques": [
       {
-        "title": "¿Qué es la PTU y cuándo se paga?",
-        "body": "La PTU está prevista en el artículo 123 de la Constitución y en los artículos 117 a 131 de la Ley Federal del Trabajo. Las empresas deben repartir el 10% de su renta gravable, es decir, de la utilidad fiscal que declaran ante el SAT. Las personas morales deben pagarla a más tardar el 30 de mayo, y las personas físicas con actividad empresarial, a más tardar el 29 de junio, dentro de los 60 días siguientes a la fecha límite de su declaración anual. Si la empresa no tuvo utilidades, no hay PTU que repartir."
+        "tipo": "infografia",
+        "archivo": "reparto-ptu-trabajadores.webp",
+        "alt": "Cómo se reparte la PTU: 10 por ciento de la utilidad, mitad por días y mitad por salario",
+        "ancho": 800,
+        "alto": 847,
+        "titulo": "¿Cómo se reparte la PTU entre los trabajadores?"
       },
       {
-        "title": "Cómo se reparte: días trabajados y salario",
-        "body": "El artículo 123 de la LFT divide la PTU total en dos partes iguales. La primera se reparte entre todos los trabajadores en proporción a los días que cada uno trabajó en el año, sin importar su sueldo. La segunda se reparte en proporción a los salarios devengados, entendiendo por salario solo la cantidad por cuota diaria, sin horas extra ni gratificaciones (artículo 124). Por eso, quien trabajó todo el año recibe más que quien entró a mitad de año, y quien gana más recibe una parte mayor de la segunda mitad."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto me toca de PTU con un ejemplo?",
+        "intro": "Una empresa reparte $400,000. La mitad se divide por días y la mitad por salarios.",
+        "datos": [
+          [
+            "Días de todos los trabajadores",
+            "5,000"
+          ],
+          [
+            "Salarios de todos en el año",
+            "$2,000,000"
+          ],
+          [
+            "Tus días",
+            "365"
+          ],
+          [
+            "Tu salario en el año",
+            "$120,000"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Parte por días: $200,000 entre todos los días trabajados, por tus días.",
+            "operacion": "200,000 ÷ 5,000 × 365 = $14,600"
+          },
+          {
+            "texto": "Parte por salario: $200,000 entre todos los salarios, por tu salario.",
+            "operacion": "200,000 ÷ 2,000,000 × 120,000 = $12,000"
+          },
+          {
+            "texto": "Compara con el tope: 3 meses de tu salario son $30,000.",
+            "operacion": "$26,600 < $30,000, no se recorta"
+          }
+        ],
+        "resultado": [
+          "Tu PTU",
+          "$26,600"
+        ]
       },
       {
-        "title": "El tope de la PTU desde la reforma de 2021",
-        "body": "La reforma en materia de subcontratación añadió la fracción VIII al artículo 127 de la LFT: el monto de PTU de cada trabajador no puede exceder de tres meses de su salario o del promedio de la participación recibida en los últimos tres años, aplicándose el monto que resulte más favorable al trabajador. Por ejemplo, si ganas $10,000 al mes, tu tope es $30,000, salvo que en los últimos tres años hayas recibido en promedio más que eso, en cuyo caso el tope sería ese promedio."
+        "tipo": "comparacion",
+        "titulo": "¿Quién tiene derecho a PTU y quién no?",
+        "columnas": [
+          {
+            "titulo": "Sí reciben",
+            "tono": "verde",
+            "items": [
+              "Trabajadores de planta, aunque hayan renunciado durante el año.",
+              "Eventuales con al menos 60 días trabajados.",
+              "Sindicalizados y de confianza, con el tope que fija la ley."
+            ]
+          },
+          {
+            "titulo": "No reciben",
+            "tono": "gris",
+            "items": [
+              "Directores, administradores y gerentes generales.",
+              "Socios y accionistas.",
+              "Trabajadoras y trabajadores del hogar.",
+              "Trabajadores de empresas de nueva creación en su primer año, entre otras excepciones."
+            ]
+          }
+        ]
       },
       {
-        "title": "Quiénes no tienen derecho a PTU",
-        "body": "No participan en el reparto los directores, administradores y gerentes generales de la empresa; los trabajadores eventuales que hayan laborado menos de 60 días en el año; y los trabajadores del hogar. Los trabajadores de confianza sí participan, pero si su salario es mayor que el del trabajador sindicalizado o de planta mejor pagado, se toma como su salario para el reparto ese mismo salario aumentado en un 20% (artículo 127, fracción II). Las incapacidades por riesgo de trabajo y maternidad se cuentan como días trabajados."
+        "tipo": "texto",
+        "titulo": "¿Cómo calcular el neto de tu PTU?",
+        "parrafos": [
+          "Está exenta hasta 15 UMA ($1,759.65 en 2026); el resto se suma a tus ingresos del mes y paga ISR. Calcula la retención de tu sueldo con la [calculadora de ISR](/calculadora-isr) o tu neto completo con la [calculadora de nómina](/calculadora-nomina)."
+        ]
       }
     ],
     "faqs": [
@@ -11643,40 +12039,81 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El salario diario integrado (SDI) es tu salario diario más la parte proporcional de las prestaciones que recibes, como el aguinaldo y la prima vacacional. Es la base con la que el IMSS calcula tus cuotas y tus futuras pensiones, y con la que se calculan las indemnizaciones por despido injustificado. Esta calculadora obtiene tu factor de integración a partir de tu antigüedad (con la tabla de vacaciones vigente desde 2023), tus días de aguinaldo y tu porcentaje de prima vacacional, y aplica el tope de 25 UMA del salario base de cotización del IMSS.",
-    "howToUse": [
-      "Elige si vas a introducir tu salario mensual o tu salario diario, y escríbelo",
-      "Indica tus años de antigüedad: determinan tus días de vacaciones y, con ello, el factor de integración",
-      "Ajusta tus días de aguinaldo y tu prima vacacional si son superiores al mínimo legal (15 días y 25%)",
-      "Añade otras prestaciones fijas diarias si las tienes y pulsa «Calcular salario diario integrado»"
-    ],
-    "benefits": [
-      "Calcula el factor de integración con la tabla de vacaciones de la reforma de 2023",
-      "Admite prestaciones superiores a la ley (más aguinaldo o prima vacacional)",
-      "Aplica el tope de 25 UMA del salario base de cotización del IMSS",
-      "Muestra cómo cambia tu factor en cada año de antigüedad",
-      "Útil para trabajadores, contadores y áreas de recursos humanos",
-      "Gratis, sin registro y calculado en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu salario diario integrado (SDI): tu salario diario más la parte proporcional de aguinaldo y prima vacacional. En 2026 el factor mínimo es 1.0493, con 15 días de aguinaldo y 12 de vacaciones al 25 %.",
+    "bloques": [
       {
-        "title": "¿Qué es el salario diario integrado?",
-        "body": "El artículo 84 de la Ley Federal del Trabajo establece que el salario se integra con los pagos en efectivo por cuota diaria, gratificaciones, percepciones, habitación, primas, comisiones, prestaciones en especie y cualquier otra cantidad o prestación que se entregue al trabajador por su trabajo. El artículo 27 de la Ley del Seguro Social usa un concepto equivalente para el salario base de cotización. En la práctica, el SDI reparte a lo largo del año las prestaciones que cobras en momentos puntuales, como el aguinaldo en diciembre o la prima al salir de vacaciones."
+        "tipo": "infografia",
+        "archivo": "factor-integracion-sdi-2026.webp",
+        "alt": "Cálculo del factor de integración y del salario diario integrado mínimo en 2026",
+        "ancho": 800,
+        "alto": 857,
+        "titulo": "¿Cómo se calcula el factor de integración del SDI?"
       },
       {
-        "title": "Fórmula del factor de integración",
-        "body": "Factor de integración = 1 + (días de aguinaldo ÷ 365) + (días de vacaciones × % de prima vacacional ÷ 365). Con las prestaciones mínimas de ley en el primer año (15 días de aguinaldo, 12 días de vacaciones y 25% de prima) el factor es 1 + 15/365 + (12 × 0.25)/365 = 1.0493. Después se multiplica por el salario diario: SDI = salario diario × factor. Por ejemplo, un salario diario de $500 da un SDI de $524.66 en el primer año de antigüedad."
+        "tipo": "tabla",
+        "titulo": "¿Cómo cambia el factor de integración con la antigüedad?",
+        "intro": "Con 15 días de aguinaldo y prima vacacional del 25 %:",
+        "cabeceras": [
+          "Antigüedad",
+          "Días de vacaciones",
+          "Factor de integración"
+        ],
+        "filas": [
+          [
+            "1 año",
+            "12",
+            "1.0493"
+          ],
+          [
+            "2 años",
+            "14",
+            "1.0507"
+          ],
+          [
+            "3 años",
+            "16",
+            "1.0521"
+          ],
+          [
+            "5 años",
+            "20",
+            "1.0548"
+          ],
+          [
+            "6 a 10 años",
+            "22",
+            "1.0562"
+          ]
+        ]
       },
       {
-        "title": "¿Para qué sirve el SDI?",
-        "body": "El SDI, con los ajustes de la Ley del Seguro Social, es la base con la que el IMSS calcula las cuotas obrero-patronales, las incapacidades pagadas, las aportaciones al Infonavit y a tu cuenta de retiro, y, en el futuro, el monto de tu pensión. En materia laboral, las indemnizaciones por despido injustificado (tres meses de salario y, en su caso, 20 días por año de servicio) se calculan con el salario integrado (artículo 89 LFT), por lo que conocer tu SDI te ayuda a revisar una liquidación. La prima de antigüedad es una excepción: se calcula con un salario topado al doble del salario mínimo."
+        "tipo": "glosario",
+        "titulo": "¿Qué diferencia hay entre salario diario, SDI y SBC?",
+        "items": [
+          [
+            "Salario diario",
+            "Tu sueldo mensual dividido entre 30 (o el que fija tu contrato)."
+          ],
+          [
+            "SDI",
+            "El salario diario más las prestaciones en proporción diaria: aguinaldo, prima vacacional y otras."
+          ],
+          [
+            "SBC",
+            "Salario base de cotización: el SDI que se reporta al IMSS, con sus topes y exclusiones."
+          ],
+          [
+            "Tope",
+            "El SBC no puede superar 25 UMA diarias ni ser inferior al salario mínimo."
+          ]
+        ]
       },
       {
-        "title": "Tope de cotización: 25 UMA",
-        "body": "El salario base de cotización al IMSS tiene un límite superior de 25 veces la UMA diaria (artículo 28 de la Ley del Seguro Social). Con la UMA de 2026 ($117.31), el tope es de $2,932.75 diarios. Si tu SDI supera esa cantidad, el IMSS cotiza con el tope. El límite inferior es el salario mínimo vigente. Recuerda que el tope aplica a la cotización al IMSS, no al cálculo de indemnizaciones laborales, que se rigen por reglas propias."
-      },
-      {
-        "title": "Guía: qué es el salario diario integrado",
-        "body": "En [qué es el salario diario integrado y cómo se calcula](/blog/salario-diario-integrado) te explicamos qué conceptos se integran, cuáles no y la tabla del factor de integración 2026 por antigüedad."
+        "tipo": "texto",
+        "titulo": "¿Para qué necesito conocer mi SDI?",
+        "parrafos": [
+          "Con él se calculan tus [cuotas del IMSS](/calcular-cuota-imss), el crédito Infonavit, la [indemnización del finiquito](/calculadora-finiquito-mexico) y la pensión. Si piensas en tu retiro, la [Modalidad 40](/pension-imss-modalidad-40) se basa en el salario con el que cotizas. Más detalle en la guía [qué es el salario diario integrado](/blog/salario-diario-integrado)."
+        ]
       }
     ],
     "faqs": [
@@ -11730,36 +12167,66 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El CAT, o Costo Anual Total, es el indicador que el Banco de México obliga a publicar en todos los créditos para que puedas compararlos: resume en un solo porcentaje anual el costo real de un préstamo, incluyendo intereses y comisiones, no solo la tasa de interés anunciada. Esta calculadora obtiene el CAT de un crédito a partir del monto que te prestan, las comisiones por apertura y los pagos que harás, con la misma lógica de la metodología de Banxico: la tasa que iguala lo que realmente recibes con el valor presente de lo que pagas.",
-    "howToUse": [
-      "Elige si conoces el pago periódico del crédito o solo la tasa de interés anual",
-      "Escribe el monto del crédito, la periodicidad de pago y el número de pagos",
-      "Añade la comisión por apertura, en porcentaje o en pesos, si el crédito la cobra",
-      "Pulsa «Calcular CAT» para ver el CAT, el costo total del crédito y la tasa efectiva"
-    ],
-    "benefits": [
-      "Calcula el CAT sin IVA con la lógica de la metodología de Banxico",
-      "Incluye la comisión por apertura, que la tasa de interés no refleja",
-      "Funciona con pagos mensuales, quincenales, catorcenales o semanales",
-      "Muestra cuánto pagas de más en pesos, no solo en porcentaje",
-      "Permite comparar dos ofertas del mismo plazo en segundos",
-      "Gratis, sin registro y sin compartir tus datos"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el CAT (Costo Anual Total) de un crédito con el monto, el pago periódico, el número de pagos y las comisiones. Así puedes comparar préstamos en igualdad de condiciones, como exige el Banco de México.",
+    "bloques": [
       {
-        "title": "¿Qué es el CAT y en qué se diferencia de la tasa de interés?",
-        "body": "La tasa de interés solo mide cuánto cobra el banco por prestarte el dinero. El CAT, regulado por el Banco de México en la Circular 21/2009, incorpora además las comisiones y otros cargos del crédito y los expresa como una tasa anual compuesta. Por eso un crédito con una tasa de interés más baja puede tener un CAT más alto si cobra una comisión por apertura elevada. El CAT se informa siempre sin IVA y con fines informativos y de comparación."
+        "tipo": "infografia",
+        "archivo": "cat-vs-tasa-de-interes.webp",
+        "alt": "Comparación entre tasa de interés y CAT de un préstamo con y sin comisión de apertura",
+        "ancho": 800,
+        "alto": 821,
+        "titulo": "¿Cuánto sube el CAT con una comisión de apertura?"
       },
       {
-        "title": "Cómo se calcula el CAT",
-        "body": "Se busca la tasa por periodo (i) con la que el valor presente de todos tus pagos es igual al dinero que realmente recibes, es decir, el monto del crédito menos las comisiones cobradas al inicio. Después esa tasa se anualiza de forma compuesta: CAT = (1 + i)^n − 1, donde n es el número de periodos de pago en un año (12 si pagas mensualmente, 24 si es quincenal). No existe una fórmula directa para despejar i, por lo que se resuelve numéricamente, como hace esta calculadora."
+        "tipo": "escenarios",
+        "titulo": "¿Qué crédito es más barato si tienen la misma tasa?",
+        "intro": "Tres ofertas de $50,000 a 24 meses con la misma tasa del 30 % anual:",
+        "items": [
+          {
+            "titulo": "Banco A",
+            "situacion": "Sin comisión por apertura.",
+            "resultado": "CAT 34,5 %",
+            "detalle": "el más barato"
+          },
+          {
+            "titulo": "Banco B",
+            "situacion": "Comisión por apertura de $1,500 (3 %).",
+            "resultado": "CAT 38,9 %",
+            "detalle": "$1,500 más de costo total"
+          },
+          {
+            "titulo": "Tu comparación",
+            "situacion": "Escribe aquí las condiciones de tus ofertas y compara el CAT de cada una.",
+            "resultado": "Tú decides"
+          }
+        ]
       },
       {
-        "title": "Ejemplo: mismo crédito con y sin comisión",
-        "body": "Un préstamo de $100,000 a 12 meses con una tasa del 24% anual tiene un pago mensual de $9,455.96. Sin comisiones, su CAT es de 26.82%, más alto que la tasa porque los intereses se capitalizan mes a mes. Si el banco cobra además una comisión por apertura del 2% ($2,000), recibes $98,000 pero pagas lo mismo, y el CAT sube a 31.84%. Por eso conviene comparar créditos por su CAT y no solo por su tasa."
+        "tipo": "checklist",
+        "titulo": "¿Cómo comparar créditos correctamente con el CAT?",
+        "items": [
+          "Compara siempre créditos del mismo monto y el mismo plazo.",
+          "Pide la tabla de amortización y el CAT por escrito antes de firmar.",
+          "Revisa si hay seguros obligatorios y si están incluidos en el CAT.",
+          "Pregunta si hay penalización por pago anticipado.",
+          "Fíjate en el pago mensual: un CAT bajo a un plazo muy largo puede salir caro en total."
+        ]
       },
       {
-        "title": "Consejos para comparar créditos con el CAT",
-        "body": "Compara siempre créditos del mismo monto y plazo, porque el CAT de un crédito corto puede ser más sensible a las comisiones. Revisa si el pago incluye seguros obligatorios, ya que forman parte del costo. Un CAT más bajo significa un crédito más barato, pero también mira el pago total en pesos: esta calculadora te muestra cuánto pagarás de más en total. Si el CAT de una oferta es mucho mayor que el promedio del mercado, pide el desglose de comisiones antes de firmar."
+        "tipo": "texto",
+        "titulo": "¿Cómo saber cuánto pagaré cada mes?",
+        "parrafos": [
+          "El CAT dice cuánto cuesta el crédito; el pago mensual lo calculas con la [calculadora de préstamos](/calculadora-prestamo) y su desglose mes a mes con la [tabla de amortización](/tabla-de-amortizacion). Para un coche, el [simulador de crédito automotriz](/simulador-credito-automotriz)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Banco de México: Costo Anual Total (CAT)",
+            "url": "https://www.banxico.org.mx"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -11813,36 +12280,92 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "¿Cuánto recibirás realmente en tu cuenta de tu sueldo bruto? Esta calculadora de nómina estima tu sueldo neto en México restando las dos retenciones que se aplican a casi todos los trabajadores: el ISR, con la tarifa y el subsidio para el empleo de 2026, y las cuotas obreras del IMSS, calculadas sobre tu salario base de cotización con el factor de integración que corresponde a tu antigüedad. Puedes ver el resultado por semana, quincena o mes, con el desglose de cada concepto del IMSS para que entiendas tu recibo de nómina.",
-    "howToUse": [
-      "Escribe tu salario mensual bruto, el que aparece en tu contrato",
-      "Elige tu periodo de pago: semanal, quincenal o mensual",
-      "Indica tus años de antigüedad, que ajustan tu salario base de cotización del IMSS",
-      "Pulsa «Calcular mi sueldo neto» para ver el ISR, el subsidio, cada cuota del IMSS y tu neto"
-    ],
-    "benefits": [
-      "Usa la tarifa de ISR y el subsidio para el empleo de 2026",
-      "Calcula las cinco cuotas obreras del IMSS por separado",
-      "Integra el salario base de cotización según tu antigüedad",
-      "Resultados por semana, quincena o mes",
-      "Te ayuda a revisar tu recibo de nómina y a negociar un sueldo en bruto",
-      "Gratis, sin registro y calculado en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe tu sueldo bruto y tu periodo de pago y obtén tu sueldo neto en México: se restan el ISR (con el subsidio al empleo si aplica) y las cuotas obreras del IMSS. Funciona para pagos semanales, quincenales y mensuales.",
+    "bloques": [
       {
-        "title": "Del sueldo bruto al neto: qué se descuenta",
-        "body": "Tu sueldo bruto es lo que pacta tu contrato; tu sueldo neto, lo que recibes. En la mayoría de los trabajadores formales, la diferencia se explica por dos retenciones obligatorias: el Impuesto Sobre la Renta, que tu patrón retiene y entera al SAT, y tu cuota obrera al IMSS, que financia tu seguro médico, tus incapacidades y tu ahorro para el retiro. Además pueden existir descuentos personales, como el crédito Infonavit, Fonacot, préstamos de la empresa o pensión alimenticia, que esta calculadora no incluye."
+        "tipo": "infografia",
+        "archivo": "sueldo-bruto-neto-mexico.webp",
+        "alt": "Descuentos de ISR e IMSS de un sueldo de 20 mil pesos y sueldo neto resultante",
+        "ancho": 800,
+        "alto": 700,
+        "titulo": "¿Cuánto me queda de un sueldo de $20,000?"
       },
       {
-        "title": "Cómo se calcula el ISR de la nómina",
-        "body": "El ISR se calcula con la tarifa progresiva del SAT: tu ingreso se ubica en un rango con un límite inferior, una cuota fija y un porcentaje sobre el excedente. A los ingresos bajos se les aplica el subsidio para el empleo, que en 2026 reduce el ISR de quienes ganan hasta el límite mensual establecido. Si ganas el salario mínimo, tu salario está exento de ISR. Esta calculadora convierte tu periodo de pago a su equivalente mensual para aplicar la tarifa y luego lo devuelve al periodo elegido."
+        "tipo": "tabla",
+        "titulo": "¿Cuál es el sueldo neto de los sueldos más comunes?",
+        "intro": "Sueldo mensual, factor de integración mínimo y tarifa de 2026:",
+        "cabeceras": [
+          "Bruto mensual",
+          "ISR",
+          "IMSS",
+          "Neto aproximado"
+        ],
+        "filas": [
+          [
+            "$10,000",
+            "$193",
+            "$249",
+            "$9,557"
+          ],
+          [
+            "$15,000",
+            "$1,403",
+            "$394",
+            "$13,203"
+          ],
+          [
+            "$20,000",
+            "$2,384",
+            "$540",
+            "$17,077"
+          ],
+          [
+            "$30,000",
+            "$4,520",
+            "$831",
+            "$24,650"
+          ],
+          [
+            "$50,000",
+            "$9,108",
+            "$1,413",
+            "$39,479"
+          ]
+        ],
+        "nota": "Con $10,000 se resta el subsidio al empleo. Cifras redondeadas; tu recibo puede variar por otras prestaciones."
       },
       {
-        "title": "Las cuotas obreras del IMSS",
-        "body": "Como trabajador pagas al IMSS: 0.25% por prestaciones en dinero, 0.375% por gastos médicos de pensionados, 0.625% por invalidez y vida y 1.125% por cesantía en edad avanzada y vejez, todo sobre tu salario base de cotización. Si tu salario base supera 3 UMA, pagas además 0.40% sobre el excedente por enfermedad y maternidad. En total, alrededor del 2.4% de tu salario base. Tu patrón paga una parte mucho mayor, y si ganas el salario mínimo, también absorbe tu cuota obrera (artículo 36 de la Ley del Seguro Social)."
+        "tipo": "glosario",
+        "titulo": "¿Qué significa cada concepto de mi recibo de nómina?",
+        "items": [
+          [
+            "Percepciones",
+            "Todo lo que te pagan: sueldo, horas extra, bonos, vales."
+          ],
+          [
+            "Deducciones",
+            "Lo que te descuentan: ISR, IMSS, Infonavit, préstamos, pensión alimenticia."
+          ],
+          [
+            "Subsidio al empleo",
+            "Una reducción del ISR para sueldos de hasta $11,492.66 al mes."
+          ],
+          [
+            "SBC",
+            "Salario base de cotización: la base sobre la que se calculan las cuotas del IMSS."
+          ],
+          [
+            "CFDI de nómina",
+            "El recibo electrónico que tu empresa timbra ante el SAT cada pago."
+          ]
+        ]
       },
       {
-        "title": "Por qué tu recibo puede ser diferente",
-        "body": "Tu nómina real puede variar por percepciones adicionales (horas extra, bonos, comisiones), por deducciones personales, por la forma en que tu empresa distribuye el ISR entre periodos o por un salario base de cotización con prestaciones superiores a la ley. Esta calculadora supone un salario fijo con prestaciones mínimas de ley. Si tu recibo muestra diferencias grandes, pide a recursos humanos el desglose de cada concepto o consulta tus datos en el portal del IMSS."
+        "tipo": "texto",
+        "titulo": "¿Qué calculadoras complementan la de nómina?",
+        "parrafos": [
+          "Para ver el ISR por separado, la [calculadora de ISR](/calculadora-isr); para el detalle de las cuotas, la [calculadora de cuotas IMSS](/calcular-cuota-imss); y para el subsidio, la [calculadora de subsidio al empleo](/calcular-subsidio-empleo). En diciembre, añade tu [aguinaldo](/calcular-aguinaldo)."
+        ]
       }
     ],
     "faqs": [
@@ -11896,36 +12419,75 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "¿Cuánto queda una prenda de $1,299 con 30% de descuento? ¿Y si además hay un 10% extra en caja? Esta calculadora de descuentos resuelve las tres preguntas que surgen al comprar: el precio final con descuento, el precio original a partir de lo que pagaste y el porcentaje real que te rebajaron. También calcula descuentos acumulados, que casi nunca se suman como parece: un 20% más un 10% no equivale a un 30%. Ideal para el Buen Fin, el Hot Sale, las rebajas de temporada o para revisar un ticket.",
-    "howToUse": [
-      "Elige qué quieres calcular: el precio con descuento, el precio original o el porcentaje rebajado",
-      "Escribe el precio original y el porcentaje de descuento, o usa los botones rápidos (10%, 20%, 50%…)",
-      "Si la oferta incluye un descuento adicional en caja, escríbelo en el segundo campo",
-      "El resultado aparece al instante con el precio final, lo que ahorras y el descuento efectivo"
-    ],
-    "benefits": [
-      "Tres cálculos en uno: precio final, precio original y porcentaje de descuento",
-      "Calcula correctamente los descuentos dobles o en cascada",
-      "Muestra el ahorro en pesos, no solo el porcentaje",
-      "Botones rápidos para los descuentos más comunes",
-      "Resultado instantáneo mientras escribes",
-      "Gratis, sin anuncios intrusivos ni registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el precio final con un descuento, encadena dos descuentos seguidos, averigua el precio original o qué porcentaje te descontaron. Ideal para el Buen Fin, Hot Sale, rebajas o Black Friday.",
+    "bloques": [
       {
-        "title": "Fórmula para calcular un descuento",
-        "body": "El precio con descuento se obtiene así: precio final = precio original × (1 − descuento ÷ 100). Por ejemplo, un producto de $1,299 con 30% de descuento cuesta 1,299 × 0.70 = $909.30, y te ahorras $389.70. Un truco para calcularlo de cabeza: el 10% de un precio se obtiene moviendo el punto decimal un lugar a la izquierda ($129.90), así que el 30% son tres veces esa cantidad."
+        "tipo": "infografia",
+        "archivo": "descuentos-dobles-precio-final.webp",
+        "alt": "Cómo se calcula un descuento doble del 30 y 10 por ciento sobre un precio",
+        "ancho": 800,
+        "alto": 683,
+        "titulo": "¿Cuánto me ahorro con un descuento doble?"
       },
       {
-        "title": "Descuentos dobles: por qué 20% + 10% no es 30%",
-        "body": "Cuando una tienda anuncia «20% de descuento más 10% adicional en caja», el segundo descuento se aplica sobre el precio ya rebajado, no sobre el original. Un artículo de $1,000 baja primero a $800 y luego el 10% de $800 son $80, así que pagas $720. El descuento real es del 28%, no del 30%. La fórmula general es: descuento efectivo = 1 − (1 − d1) × (1 − d2). Esta calculadora aplica los descuentos en ese orden y te muestra el porcentaje efectivo."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto es el descuento en los precios más habituales?",
+        "cabeceras": [
+          "Precio",
+          "10 %",
+          "20 %",
+          "30 %",
+          "50 %"
+        ],
+        "filas": [
+          [
+            "$299",
+            "$269.10",
+            "$239.20",
+            "$209.30",
+            "$149.50"
+          ],
+          [
+            "$499",
+            "$449.10",
+            "$399.20",
+            "$349.30",
+            "$249.50"
+          ],
+          [
+            "$999",
+            "$899.10",
+            "$799.20",
+            "$699.30",
+            "$499.50"
+          ],
+          [
+            "$1,499",
+            "$1,349.10",
+            "$1,199.20",
+            "$1,049.30",
+            "$749.50"
+          ]
+        ],
+        "nota": "Precio final ya con el descuento aplicado."
       },
       {
-        "title": "Cómo saber el precio original o el % que te descontaron",
-        "body": "Si solo conoces lo que pagaste y el porcentaje de descuento, el precio original se obtiene dividiendo: precio original = precio pagado ÷ (1 − descuento ÷ 100). Si pagaste $720 con un 20% de descuento, el precio original era $900. Y si conoces ambos precios, el porcentaje de descuento es (precio original − precio final) ÷ precio original × 100. Es útil para comprobar si una «súper oferta» realmente lo es."
+        "tipo": "checklist",
+        "titulo": "¿Cómo saber si una oferta es real?",
+        "items": [
+          "Guarda el precio del producto unas semanas antes de la temporada de rebajas.",
+          "Compara el precio final, no el porcentaje: un 50 % sobre un precio inflado puede costar más.",
+          "Revisa si el descuento es en tienda, en caja o con una tarjeta concreta.",
+          "Suma el envío y los meses sin intereses al precio real.",
+          "En México, Profeco publica comparativos y recibe quejas por ofertas engañosas."
+        ]
       },
       {
-        "title": "Consejos para aprovechar las rebajas",
-        "body": "Compara el precio de oferta con el precio habitual de semanas anteriores: la PROFECO recomienda revisar que el descuento sea real y conservar el ticket. En México, los precios exhibidos al consumidor deben incluir el IVA, así que el descuento suele aplicarse ya sobre el precio final. En compras con meses sin intereses, fíjate en el precio total a pagar y no solo en la mensualidad, y desconfía de descuentos muy altos en tiendas desconocidas."
+        "tipo": "texto",
+        "titulo": "¿Cómo calcular el precio con IVA después del descuento?",
+        "parrafos": [
+          "En las tiendas el precio de la etiqueta ya incluye IVA, así que el descuento se aplica sobre ese precio. Si eres negocio y necesitas el desglose, aplica el descuento al subtotal y luego suma el IVA con la [calculadora de IVA](/calcular-iva). Para otros cálculos de porcentajes, la [calculadora de porcentajes](/calculadora-porcentaje)."
+        ]
       }
     ],
     "faqs": [
@@ -11979,36 +12541,67 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Ahorrar es más fácil cuando tienes un número claro. Esta calculadora de ahorro responde las dos preguntas clave de cualquier meta, ya sea un fondo de emergencia, el enganche de un coche o un viaje: cuánto tiempo tardarás en reunir el dinero ahorrando una cantidad fija al mes, y cuánto necesitas ahorrar cada mes para lograrlo en un plazo concreto. Puedes incluir el rendimiento anual de tu cuenta o inversión para ver cuánto del resultado aportas tú y cuánto generan los intereses compuestos.",
-    "howToUse": [
-      "Elige si quieres saber cuánto tardarás o cuánto debes ahorrar al mes",
-      "Escribe tu meta de ahorro y lo que ya tienes ahorrado",
-      "Indica tu aportación mensual o el plazo en meses en el que quieres lograrlo",
-      "Añade el rendimiento anual si tu dinero está invertido y pulsa «Calcular»"
-    ],
-    "benefits": [
-      "Dos modos: plazo para llegar a la meta o aportación mensual necesaria",
-      "Incluye el efecto del interés compuesto mensual",
-      "Separa lo que aportas de tu bolsillo de lo que generan los rendimientos",
-      "Muestra el plazo en años y meses, fácil de entender",
-      "Sirve para cualquier moneda",
-      "Gratis y sin compartir tus datos financieros"
-    ],
-    "contentSections": [
+    "resumen": "Dime cuánto quieres ahorrar y en cuánto tiempo, y te digo cuánto apartar cada mes; o dime cuánto puedes ahorrar y te digo cuándo llegarás. Incluye el rendimiento de tu dinero con interés compuesto.",
+    "bloques": [
       {
-        "title": "Cómo se calcula el ahorro con interés compuesto",
-        "body": "La calculadora supone que depositas tu aportación al final de cada mes y que el saldo genera un rendimiento compuesto mensual, igual a la tasa anual dividida entre 12. Cada mes, el saldo crece así: saldo nuevo = saldo anterior × (1 + tasa mensual) + aportación. Para despejar cuánto ahorrar al mes se usa la fórmula del valor futuro de una anualidad: aportación = (meta − ahorro actual × (1 + i)^n) × i ÷ ((1 + i)^n − 1)."
+        "tipo": "infografia",
+        "archivo": "ahorro-mensual-meta-50000.webp",
+        "alt": "Cuánto ahorrar al mes para reunir 50 mil pesos en 6, 12 o 24 meses",
+        "ancho": 800,
+        "alto": 784,
+        "titulo": "¿Cuánto debo ahorrar al mes para juntar $50,000?"
       },
       {
-        "title": "Ejemplo: fondo de emergencia de $50,000",
-        "body": "Si ahorras $2,500 al mes sin rendimientos, tardarás 20 meses en reunir $50,000. Si ese dinero está en una cuenta que rinde un 10% anual, llegarás un mes antes, en 19 meses, y más de $3,700 del saldo final vendrán de los intereses. Al revés, si quieres reunir $50,000 en 12 meses empezando de cero, necesitas ahorrar unos $4,167 al mes sin rendimientos, o algo menos si tu dinero rinde."
+        "tipo": "escenarios",
+        "titulo": "¿Cuánto tardo en ahorrar para metas comunes?",
+        "intro": "Ahorrando $3,000 al mes, sin contar rendimientos:",
+        "items": [
+          {
+            "titulo": "Viaje",
+            "situacion": "Unas vacaciones de $25,000.",
+            "resultado": "9 meses",
+            "detalle": "8,33 meses, redondeado"
+          },
+          {
+            "titulo": "Fondo de emergencia",
+            "situacion": "Tres meses de gastos de $12,000: $36,000.",
+            "resultado": "12 meses"
+          },
+          {
+            "titulo": "Enganche de un coche",
+            "situacion": "Un enganche de $60,000.",
+            "resultado": "20 meses"
+          }
+        ]
       },
       {
-        "title": "La regla del fondo de emergencia",
-        "body": "Los asesores financieros suelen recomendar un fondo de emergencia equivalente a entre tres y seis meses de tus gastos fijos, guardado en un instrumento con liquidez inmediata. Una vez reunido, puedes destinar el ahorro adicional a metas de mediano plazo o a inversiones de mayor rendimiento. Automatizar el ahorro, por ejemplo con una transferencia programada el día de pago, es una de las formas más efectivas de cumplir la meta."
+        "tipo": "consejos",
+        "titulo": "¿Cómo ahorrar más sin darte cuenta?",
+        "items": [
+          {
+            "titulo": "Págate primero",
+            "texto": "Programa una transferencia el día de cobro. Lo que no ves en tu cuenta, no lo gastas."
+          },
+          {
+            "titulo": "Regla 50/30/20",
+            "texto": "50 % para necesidades, 30 % para gustos y 20 % para ahorro y deudas."
+          },
+          {
+            "titulo": "Controla tus gastos",
+            "texto": "Anota un mes completo de gastos con el [presupuesto mensual](/presupuesto-mensual): siempre aparece algo que recortar."
+          },
+          {
+            "titulo": "Paga primero lo caro",
+            "texto": "Si tienes deudas con intereses altos, pagarlas rinde más que ahorrar. Organízalas con el [plan de pago de deudas](/plan-pago-deudas)."
+          }
+        ]
       },
       {
-        "title": "Rendimientos, inflación e impuestos",
-        "body": "El rendimiento que indiques es nominal. Para saber si tu dinero realmente gana poder adquisitivo, compáralo con la inflación: si tu inversión rinde 10% y la inflación es de 4%, tu rendimiento real ronda el 6%. Además, en muchos instrumentos los intereses pagan impuestos o sufren retenciones. Para metas lejanas, considera ajustar la meta por la inflación esperada, porque $50,000 dentro de cinco años comprarán menos que hoy."
+        "tipo": "texto",
+        "titulo": "¿Dónde guardar el dinero mientras ahorras?",
+        "parrafos": [
+          "Para un fondo de emergencia, en un instrumento seguro y con liquidez: en México, CETES de corto plazo o cuentas de ahorro con rendimiento. Calcula lo que ganarías con la [calculadora de CETES](/calculadora-cetes), y para metas a largo plazo, la [calculadora de interés compuesto](/calculadora-interes-compuesto)."
+        ]
       }
     ],
     "faqs": [
@@ -12062,36 +12655,94 @@
     "webApp": true,
     "appCategory": "BusinessApplication",
     "intro": "Tanto si inviertes como si vendes productos o servicios, necesitas saber cuánto ganas de verdad. Esta calculadora reúne tres herramientas para emprendedores, freelancers y pequeños negocios: el ROI (retorno sobre la inversión) de un proyecto o una campaña, incluido el ROI anualizado; el margen de ganancia y el markup de un producto a partir de su costo y su precio; y el precio de venta que debes cobrar para obtener el margen que buscas. También aclara la confusión más habitual del comercio: el margen y el markup no son lo mismo.",
-    "howToUse": [
-      "Elige la herramienta: ROI de una inversión, margen de ganancia o precio de venta",
-      "Para el ROI, escribe lo que invertiste y lo que obtuviste; añade los años para ver el ROI anualizado",
-      "Para el margen, escribe el costo y el precio de venta de tu producto",
-      "Para fijar precio, escribe tu costo y el margen deseado: el resultado aparece al instante"
-    ],
-    "benefits": [
-      "ROI total y ROI anualizado (tasa de crecimiento anual compuesta)",
-      "Margen y markup calculados a la vez, con su diferencia explicada",
-      "Precio de venta a partir del margen deseado",
-      "Útil para campañas de publicidad, inventario, servicios y proyectos",
-      "Resultados instantáneos mientras escribes",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el retorno de una inversión (ROI), el margen y el markup de lo que vendes, y el precio que necesitas para lograr el margen que buscas. Para emprendedores, tiendas online y freelancers.",
+    "bloques": [
       {
-        "title": "¿Qué es el ROI y cómo se calcula?",
-        "body": "El ROI (return on investment) mide qué porcentaje ganaste o perdiste respecto a lo que invertiste: ROI = (valor final − inversión) ÷ inversión × 100. Si invertiste $10,000 en una campaña que generó $13,500 de ganancia bruta, el ROI es del 35%. Un ROI negativo indica pérdida. Para comparar inversiones de distinta duración, conviene anualizarlo: ROI anualizado = (valor final ÷ inversión)^(1 ÷ años) − 1, conocido como CAGR."
+        "tipo": "infografia",
+        "archivo": "roi-margen-markup-ejemplo.webp",
+        "alt": "Fórmula del ROI y diferencia entre margen y markup con un ejemplo",
+        "ancho": 800,
+        "alto": 775,
+        "titulo": "¿Cómo se calculan el ROI, el margen y el markup con un ejemplo?"
       },
       {
-        "title": "Margen de ganancia vs markup",
-        "body": "El margen se calcula sobre el precio de venta: margen = (precio − costo) ÷ precio. El markup se calcula sobre el costo: markup = (precio − costo) ÷ costo. Un producto que cuesta $350 y se vende en $500 tiene una ganancia de $150, un margen del 30% y un markup del 42.9%. Confundirlos es un error frecuente: si quieres ganar un 30% de margen y solo sumas un 30% al costo, en realidad obtienes un margen del 23%."
+        "tipo": "tabla",
+        "titulo": "¿Qué markup necesito para lograr cada margen?",
+        "cabeceras": [
+          "Margen deseado",
+          "Markup necesario",
+          "Precio si el costo es $100"
+        ],
+        "filas": [
+          [
+            "20 %",
+            "25 %",
+            "$125"
+          ],
+          [
+            "30 %",
+            "42,9 %",
+            "$142.86"
+          ],
+          [
+            "40 %",
+            "66,7 %",
+            "$166.67"
+          ],
+          [
+            "50 %",
+            "100 %",
+            "$200"
+          ],
+          [
+            "60 %",
+            "150 %",
+            "$250"
+          ]
+        ]
       },
       {
-        "title": "Cómo fijar el precio de venta para un margen deseado",
-        "body": "Para obtener un margen determinado, divide el costo entre (1 − margen): precio = costo ÷ (1 − margen). Con un costo de $350 y un margen deseado del 30%, el precio debe ser $500. Incluye en el costo todo lo necesario para vender: materia prima, envío, comisiones de la plataforma o de la pasarela de pago y empaque. Si facturas con IVA, calcula primero el precio sin IVA y súmalo después."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo calcular el ROI de una campaña de anuncios?",
+        "datos": [
+          [
+            "Gasto en anuncios",
+            "$8,000"
+          ],
+          [
+            "Ventas atribuidas",
+            "$40,000"
+          ],
+          [
+            "Costo de esos productos",
+            "$24,000"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Calcula la ganancia bruta de las ventas.",
+            "operacion": "40,000 − 24,000 = $16,000"
+          },
+          {
+            "texto": "Resta el gasto en anuncios.",
+            "operacion": "16,000 − 8,000 = $8,000"
+          },
+          {
+            "texto": "Divide entre la inversión publicitaria.",
+            "operacion": "8,000 ÷ 8,000 = 100 %"
+          }
+        ],
+        "resultado": [
+          "ROI de la campaña",
+          "100 %"
+        ]
       },
       {
-        "title": "¿Qué es un buen ROI o un buen margen?",
-        "body": "Depende del sector y del riesgo. Los productos de alta rotación, como los abarrotes, operan con márgenes bajos, mientras que el software, la consultoría o los productos artesanales suelen tener márgenes altos. En inversiones, compara el ROI anualizado con alternativas de menor riesgo: si una inversión arriesgada rinde lo mismo que un instrumento de renta fija, quizá no compense. Considera siempre los costos ocultos y el tiempo invertido."
+        "tipo": "texto",
+        "titulo": "¿Por qué un ROI alto no siempre es una buena inversión?",
+        "parrafos": [
+          "El ROI no dice cuánto tiempo tardaste ni cuánto riesgo asumiste: un 30 % en cinco años es menos que un 10 % cada año. Para comparar inversiones de distinto plazo, anualiza el resultado o usa la [calculadora de interés compuesto](/calculadora-interes-compuesto). Si vendes con IVA, calcula el precio final con la [calculadora de IVA](/calcular-iva)."
+        ]
       }
     ],
     "faqs": [
@@ -12145,36 +12796,66 @@
     "webApp": true,
     "appCategory": "EducationalApplication",
     "intro": "¿Qué calificación necesitas en el examen final para pasar la materia? Esta calculadora lo resuelve a partir de las notas que ya tienes y del porcentaje que vale cada evaluación. Añade tus exámenes parciales, tareas o proyectos con su peso, indica la nota final que quieres conseguir y verás al instante qué necesitas en lo que falta, o si ya tienes la materia asegurada. Funciona con las escalas de calificación de México y España (0 a 10), Perú (0 a 20), Colombia (0 a 5), Chile (1 a 7) y la escala de 0 a 100.",
-    "howToUse": [
-      "Elige la escala de calificación que usa tu escuela o universidad",
-      "Escribe la nota final que quieres obtener; por defecto aparece la nota de aprobado habitual",
-      "Añade cada evaluación que ya tienes con su calificación y su porcentaje en la nota final",
-      "El resultado muestra la nota que necesitas en el porcentaje restante, al instante"
-    ],
-    "benefits": [
-      "Admite tantas evaluaciones como necesites, con pesos diferentes",
-      "Cinco escalas de calificación de países hispanohablantes",
-      "Te avisa si la nota objetivo ya no es alcanzable o si ya está asegurada",
-      "Muestra tu promedio actual y tu nota final mínima y máxima posibles",
-      "Útil para parciales, finales, semestres y cursos en línea",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Escribe las notas que ya tienes y lo que vale cada evaluación, y descubre qué nota necesitas en el examen final para aprobar o para llegar a la nota que quieres. Sirve para cualquier escala: 1 a 7, 0 a 10 o 0 a 20.",
+    "bloques": [
       {
-        "title": "Cómo se calcula la nota necesaria",
-        "body": "Tu nota final es un promedio ponderado: cada evaluación se multiplica por su peso y se suman todas. Si ya conoces las notas de una parte del curso, la nota que necesitas en el resto es: nota necesaria = (nota objetivo × 100 − suma de nota × peso de lo ya evaluado) ÷ porcentaje restante. Por ejemplo, si sacaste 5 en un parcial que vale 30% y 7 en otro que vale 30%, llevas 3.6 puntos de 6 posibles; para terminar con un 6 necesitas 6 en el examen final del 40% restante."
+        "tipo": "infografia",
+        "archivo": "nota-necesaria-examen-final.webp",
+        "alt": "Cálculo de la nota necesaria en el examen final para aprobar y escalas de calificación por país",
+        "ancho": 800,
+        "alto": 780,
+        "titulo": "¿Cómo se calcula la nota que necesito en el examen final?"
       },
       {
-        "title": "Escalas de calificación por país",
-        "body": "En México, España y Argentina se usa habitualmente la escala de 0 a 10, con el aprobado en 6 en México y en 5 en España (y en 4 o 6 en Argentina, según la institución). En Perú se califica de 0 a 20 y se aprueba con 11. En Colombia es común la escala de 0 a 5 con aprobado en 3. En Chile se usa de 1 a 7, con el 4 como nota de aprobación. Revisa el reglamento de tu escuela, porque la nota mínima puede variar, y ajusta el campo de nota objetivo."
+        "tipo": "escenarios",
+        "titulo": "¿Qué nota necesito según cuánto vale el final?",
+        "intro": "Llevas un 5,0 de promedio (escala de 0 a 10) y quieres terminar con un 6,0:",
+        "items": [
+          {
+            "titulo": "El final vale 30 %",
+            "situacion": "Pesa poco, así que hay que sacar mucho para subir un punto.",
+            "resultado": "8,3"
+          },
+          {
+            "titulo": "El final vale 40 %",
+            "situacion": "La situación más habitual en muchas universidades.",
+            "resultado": "7,5"
+          },
+          {
+            "titulo": "El final vale 50 %",
+            "situacion": "Medio curso se decide en un solo examen.",
+            "resultado": "7,0"
+          }
+        ]
       },
       {
-        "title": "Consejos para usar bien la calculadora",
-        "body": "Comprueba en el programa de la materia cuánto vale exactamente cada evaluación, porque un error en los porcentajes cambia mucho el resultado. Si tu profesor redondea las notas o exige una nota mínima en el examen final para aprobar, tenlo en cuenta aparte: la calculadora hace el cálculo exacto sin redondeos. Si el resultado dice que tu objetivo no es alcanzable, pregunta si hay exámenes de recuperación, extraordinarios o trabajos para subir la calificación."
+        "tipo": "consejos",
+        "titulo": "¿Cómo preparar el examen final si necesito una nota alta?",
+        "items": [
+          {
+            "titulo": "Prioriza por peso",
+            "texto": "Dedica más horas a los temas que más puntos dan en el examen."
+          },
+          {
+            "titulo": "Practica con exámenes anteriores",
+            "texto": "El formato importa casi tanto como el contenido."
+          },
+          {
+            "titulo": "Pregunta los criterios",
+            "texto": "Muchos profesores dicen cómo puntúan: aprovéchalo."
+          },
+          {
+            "titulo": "Reparte el tiempo",
+            "texto": "Organiza las semanas previas con el [calculador de horarios](/calculador-de-horarios)."
+          }
+        ]
       },
       {
-        "title": "Ejemplo con escala del 1 al 7 (Chile)",
-        "body": "Supón que tienes un 3.8 en una prueba que vale 25% y un 4.5 en otra del 25%, y te queda un examen del 50%. Llevas 3.8 × 25 + 4.5 × 25 = 207.5 puntos ponderados. Para aprobar con un 4.0 necesitas (4.0 × 100 − 207.5) ÷ 50 = 3.85 en el examen. Con la calculadora solo eliges la escala de 1 a 7, escribes las dos notas con sus pesos y ves el resultado."
+        "tipo": "texto",
+        "titulo": "¿Qué otras calculadoras de notas hay?",
+        "parrafos": [
+          "Para el promedio con todas tus evaluaciones, la [calculadora de notas](/calculadora-de-notas); para el promedio de la carrera ponderado por créditos, la [calculadora de promedio ponderado](/calculadora-promedio-ponderado). En Chile, para el puntaje de admisión universitaria, la [calculadora de puntaje PAES](/puntaje-paes)."
+        ]
       }
     ],
     "faqs": [
@@ -12228,36 +12909,73 @@
     "webApp": true,
     "appCategory": "BusinessApplication",
     "intro": "Los plazos legales, bancarios, de entrega o de pago suelen contarse en días hábiles, no en días naturales. Esta calculadora cuenta los días hábiles entre dos fechas o te dice qué fecha será al sumar un número de días hábiles, descontando sábados, domingos y los días de descanso obligatorio de México que marca la Ley Federal del Trabajo, calculados automáticamente para cualquier año. También puedes considerar el sábado como día laborable y añadir tus propios días inhábiles, como las vacaciones de tu empresa o los días de asueto de un tribunal.",
-    "howToUse": [
-      "Elige si quieres contar los días hábiles entre dos fechas o sumar días hábiles a una fecha",
-      "Escribe la fecha de inicio y la fecha final, o el número de días hábiles a sumar",
-      "Elige si se descuentan los festivos oficiales de México o solo los fines de semana",
-      "Si lo necesitas, marca el sábado como hábil y añade días inhábiles extra separados por comas"
-    ],
-    "benefits": [
-      "Incluye los días de descanso obligatorio de la LFT para cualquier año",
-      "Calcula correctamente los festivos que se recorren al lunes",
-      "Cuenta días hábiles entre fechas o suma y resta días hábiles",
-      "Permite considerar el sábado como día laborable",
-      "Admite días inhábiles personalizados",
-      "Funciona igual que las funciones DIAS.LAB y DIA.LAB de Excel"
-    ],
-    "contentSections": [
+    "resumen": "Cuenta los días hábiles entre dos fechas o calcula qué fecha será dentro de N días hábiles, descontando fines de semana y los días de descanso obligatorio de México. Puedes añadir festivos propios y contar los sábados.",
+    "bloques": [
       {
-        "title": "¿Qué es un día hábil?",
-        "body": "En general, un día hábil es un día en que se labora normalmente: de lunes a viernes, excluyendo los días festivos. Sin embargo, la definición exacta depende del contexto. En materia laboral, los días de descanso obligatorio están fijados por el artículo 74 de la LFT; en los trámites ante autoridades, cada ley o dependencia publica sus días inhábiles; y los bancos siguen el calendario de la Comisión Nacional Bancaria y de Valores. Por eso esta calculadora te permite añadir días inhábiles adicionales."
+        "tipo": "infografia",
+        "archivo": "dias-festivos-mexico-2026.webp",
+        "alt": "Días de descanso obligatorio en México en 2026 según la Ley Federal del Trabajo",
+        "ancho": 800,
+        "alto": 850,
+        "titulo": "¿Qué días festivos no cuentan como hábiles en México en 2026?"
       },
       {
-        "title": "Días de descanso obligatorio en México",
-        "body": "El artículo 74 de la Ley Federal del Trabajo establece como días de descanso obligatorio: el 1 de enero; el primer lunes de febrero, por el 5 de febrero; el tercer lunes de marzo, por el 21 de marzo; el 1 de mayo; el 16 de septiembre; el tercer lunes de noviembre, por el 20 de noviembre; el 1 de octubre de cada seis años, cuando corresponde a la transmisión del Poder Ejecutivo Federal (2024, 2030…); el 25 de diciembre; y el día que determinen las leyes electorales en caso de elecciones ordinarias. En 2026, los lunes festivos son el 2 de febrero, el 16 de marzo y el 16 de noviembre."
+        "tipo": "ejemplo",
+        "titulo": "¿Qué fecha vence un plazo de 15 días hábiles?",
+        "intro": "Te notifican el lunes 9 de noviembre de 2026 y el plazo empieza a contar al día siguiente, de lunes a viernes:",
+        "pasos": [
+          {
+            "texto": "Del martes 10 al viernes 13 de noviembre.",
+            "operacion": "4 días hábiles"
+          },
+          {
+            "texto": "Del 16 al 20: el lunes 16 es festivo (Revolución Mexicana).",
+            "operacion": "4 días hábiles · total 8"
+          },
+          {
+            "texto": "Del 23 al 27 de noviembre.",
+            "operacion": "5 días hábiles · total 13"
+          },
+          {
+            "texto": "Lunes 30 de noviembre y martes 1 de diciembre.",
+            "operacion": "2 días hábiles · total 15"
+          }
+        ],
+        "resultado": [
+          "Vencimiento",
+          "1 de diciembre de 2026"
+        ]
       },
       {
-        "title": "Cómo cuenta esta calculadora",
-        "body": "Al contar días hábiles entre dos fechas, se incluyen ambas fechas si son hábiles, igual que la función DIAS.LAB (NETWORKDAYS) de Excel. Al sumar días hábiles, la fecha de inicio no cuenta: el primer día hábil sumado es el siguiente día laborable, igual que la función DIA.LAB (WORKDAY). Por ejemplo, 1 día hábil después del viernes 13 de noviembre de 2026 es el martes 17, porque el lunes 16 es festivo."
+        "tipo": "comparacion",
+        "titulo": "¿Es lo mismo día hábil que día laborable?",
+        "columnas": [
+          {
+            "titulo": "Día hábil",
+            "tono": "azul",
+            "items": [
+              "Concepto de los plazos legales, administrativos y bancarios.",
+              "Normalmente de lunes a viernes, sin festivos.",
+              "Cada ley o institución puede fijar sus propios días inhábiles."
+            ]
+          },
+          {
+            "titulo": "Día laborable",
+            "tono": "verde",
+            "items": [
+              "Los días que trabajas según tu contrato.",
+              "Puede incluir sábados o domingos.",
+              "Para contar días naturales, usa la [calculadora de días](/calculadora-dias)."
+            ]
+          }
+        ]
       },
       {
-        "title": "Plazos legales y días inhábiles",
-        "body": "Muchos plazos legales empiezan a contar al día hábil siguiente a la notificación y no incluyen los días inhábiles del órgano que lleva el trámite, como las vacaciones de los tribunales o los días que suspende labores una dependencia. Si calculas un plazo legal, consulta el calendario oficial de la autoridad correspondiente, añade sus días inhábiles en el campo de festivos adicionales y, ante cualquier duda, confirma el cómputo con un abogado, ya que un error de un día puede hacer que se pierda un derecho."
+        "tipo": "texto",
+        "titulo": "¿Cómo contar plazos de días naturales?",
+        "parrafos": [
+          "Si el plazo se cuenta en días naturales, todos los días suman, incluidos fines de semana y festivos. Para eso usa la [calculadora de fecha futura](/calcular-fecha-futura). Y si quieres calcular a cuánto queda una fecha señalada, tienes la cuenta regresiva de [días para Navidad](/dias-para-navidad)."
+        ]
       }
     ],
     "faqs": [
@@ -12310,36 +13028,76 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "¿Qué fecha será dentro de 90 días? ¿Qué día cae una fecha a seis meses de hoy? Esta calculadora suma o resta días, semanas, meses o años a cualquier fecha y te dice la fecha resultante con su día de la semana, el número de día del año y la semana ISO. Es útil para calcular vencimientos de pagos, plazos de garantía, fechas de entrega, periodos de prueba o cuándo se cumple un plazo contado en días naturales. Maneja correctamente los meses de distinta duración y los años bisiestos.",
-    "howToUse": [
-      "Elige la fecha de partida; por defecto es hoy",
-      "Elige si quieres sumar o restar tiempo",
-      "Escribe la cantidad y la unidad: días, semanas, meses o años",
-      "Usa los atajos (+30, +60, +90 días…) para los plazos más comunes; el resultado aparece al instante"
-    ],
-    "benefits": [
-      "Suma y resta días, semanas, meses o años",
-      "Muestra el día de la semana de la fecha resultante",
-      "Ajusta correctamente los fines de mes y los años bisiestos",
-      "Incluye el día del año y el número de semana ISO",
-      "Atajos para los plazos más habituales",
-      "Gratis, instantáneo y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Suma o resta días, semanas, meses o años a cualquier fecha y obtén la fecha resultante con su día de la semana. Útil para plazos, vencimientos, garantías, embarazos o recordatorios.",
+    "bloques": [
       {
-        "title": "Sumar días frente a sumar meses",
-        "body": "Sumar días es exacto: 90 días después del 30 de septiembre de 2026 es el 29 de diciembre de 2026. Sumar meses es distinto, porque los meses no tienen la misma duración. Un plazo de «3 meses» desde el 30 de septiembre termina el 30 de diciembre, mientras que «90 días» termina el 29. En contratos y trámites fíjate bien en si el plazo se expresa en días o en meses, porque el resultado puede diferir en uno o dos días."
+        "tipo": "infografia",
+        "archivo": "fecha-dentro-de-90-dias.webp",
+        "alt": "Fechas resultantes de sumar 30, 60, 90 y 180 días, 6 meses y 1 año a una fecha",
+        "ancho": 800,
+        "alto": 769,
+        "titulo": "¿Qué día de la semana cae una fecha dentro de varios meses?"
       },
       {
-        "title": "¿Qué pasa con el 31 de enero más un mes?",
-        "body": "Cuando el mes de destino no tiene el día de partida, la calculadora usa el último día de ese mes: 31 de enero más un mes es el 28 de febrero, o el 29 en un año bisiesto; 31 de marzo menos un mes es el 28 de febrero. Es el mismo criterio que usan la mayoría de hojas de cálculo y lenguajes de programación, y la calculadora te avisa cuando se aplica este ajuste."
+        "tipo": "tabla",
+        "titulo": "¿Qué plazos habituales se cuentan en días?",
+        "cabeceras": [
+          "Plazo",
+          "Días",
+          "Ejemplo"
+        ],
+        "filas": [
+          [
+            "Periodo de prueba (muchos contratos)",
+            "30 a 90",
+            "Contratos laborales"
+          ],
+          [
+            "Pago de la tarjeta de crédito tras el corte",
+            "unos 20",
+            "Fecha límite de pago"
+          ],
+          [
+            "Pago a proveedores",
+            "30, 60 o 90",
+            "Facturas comerciales"
+          ],
+          [
+            "Validez de una cotización",
+            "15 o 30",
+            "Presupuestos"
+          ],
+          [
+            "Embarazo desde la última regla",
+            "280",
+            "Fecha probable de parto"
+          ]
+        ]
       },
       {
-        "title": "Días naturales y días hábiles",
-        "body": "Esta herramienta cuenta días naturales, es decir, todos los días del calendario, incluidos fines de semana y festivos. Si tu plazo se cuenta en días hábiles, como muchos plazos legales, bancarios o administrativos, usa nuestra calculadora de días hábiles, que descuenta sábados, domingos y los días festivos oficiales de México."
+        "tipo": "mitos",
+        "titulo": "¿Qué errores se cometen al calcular fechas?",
+        "items": [
+          {
+            "mito": "Tres meses son 90 días.",
+            "realidad": "Depende de los meses: de enero a abril son 90 días (91 en bisiesto), pero de julio a octubre son 92."
+          },
+          {
+            "mito": "Un año son siempre 365 días.",
+            "realidad": "Los bisiestos tienen 366. Sumar un año a un 29 de febrero da el 28 de febrero del año siguiente."
+          },
+          {
+            "mito": "El día de inicio no cuenta nunca.",
+            "realidad": "Depende de la norma. La calculadora suma desde el día siguiente; si tu plazo incluye el primer día, resta uno."
+          }
+        ]
       },
       {
-        "title": "Plazos habituales en días",
-        "body": "Algunos plazos que suelen expresarse en días: los 30, 60 o 90 días de crédito que se dan a clientes; el periodo de prueba laboral de hasta 30 días (o 180 para puestos de dirección) que permite la LFT; los plazos de garantía y devolución de productos; o las semanas de embarazo. Para cualquiera de ellos, basta con indicar la fecha de inicio y el número de días para saber exactamente cuándo vence."
+        "tipo": "texto",
+        "titulo": "¿Cómo contar solo días hábiles o días entre dos fechas?",
+        "parrafos": [
+          "Si tu plazo es en días hábiles, usa la [calculadora de días hábiles](/calculadora-dias-habiles). Para saber cuántos días hay entre dos fechas, la [calculadora de días](/calculadora-dias); y para la fecha probable de parto, la [calculadora de embarazo](/calculadora-embarazo)."
+        ]
       }
     ],
     "faqs": [
@@ -12392,36 +13150,64 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Un solo dígito mal escrito en un IBAN puede hacer que una transferencia se rechace o se retrase varios días. Este validador de IBAN comprueba al instante si un número de cuenta internacional es correcto: verifica la longitud que corresponde a cada país, calcula los dígitos de control con el algoritmo módulo 97 de la norma ISO 13616 y, en las cuentas españolas, comprueba además los dígitos de control nacionales e identifica la entidad bancaria. Todo el proceso ocurre en tu navegador: el número de cuenta no se envía a ningún servidor.",
-    "howToUse": [
-      "Pega o escribe el IBAN, con o sin espacios",
-      "El resultado aparece al instante: válido o no válido, con el motivo del error",
-      "Revisa el desglose: país, dígitos de control, entidad, oficina y número de cuenta",
-      "Si es válido, copia el IBAN formateado en grupos de cuatro caracteres"
-    ],
-    "benefits": [
-      "Verifica la suma de control módulo 97 de la norma ISO 13616",
-      "Comprueba la longitud oficial de más de 80 países",
-      "En España, valida los dígitos de control de la cuenta e identifica el banco",
-      "Explica exactamente qué está mal cuando el IBAN no es válido",
-      "Formatea el IBAN para copiarlo sin errores",
-      "Privado: la validación se hace en tu dispositivo"
-    ],
-    "contentSections": [
+    "resumen": "Comprueba si un IBAN está bien escrito antes de hacer una transferencia: valida la longitud del país y los dígitos de control con el algoritmo módulo 97, y en las cuentas españolas, también los dígitos de control nacionales.",
+    "bloques": [
       {
-        "title": "¿Qué es el IBAN y cómo se compone?",
-        "body": "El IBAN (International Bank Account Number) identifica una cuenta bancaria de forma única a nivel internacional. Está formado por un código de país de dos letras, dos dígitos de control y el número de cuenta nacional, llamado BBAN. En España tiene 24 caracteres: ES, dos dígitos de control, cuatro dígitos de entidad, cuatro de oficina, dos dígitos de control nacionales y diez del número de cuenta. Se usa en todas las transferencias SEPA dentro de la zona euro y en muchos otros países."
+        "tipo": "infografia",
+        "archivo": "estructura-iban-validacion.webp",
+        "alt": "Estructura de un IBAN español y cómo se valida con el módulo 97",
+        "ancho": 800,
+        "alto": 787,
+        "titulo": "¿Qué significa cada parte de un IBAN español?"
       },
       {
-        "title": "Cómo se verifican los dígitos de control",
-        "body": "El algoritmo es el mismo en todos los países: se mueven los cuatro primeros caracteres al final, se sustituye cada letra por un número (A = 10, B = 11… Z = 35) y se calcula el resto de dividir el número resultante entre 97. Si el resto es 1, el IBAN es válido. Este método detecta todos los errores de un solo carácter y la gran mayoría de las transposiciones de dos caracteres, que son los errores más frecuentes al copiar un número de cuenta."
+        "tipo": "checklist",
+        "titulo": "¿Qué errores son típicos al copiar un IBAN?",
+        "items": [
+          "Que empiece por el código del país en mayúsculas: ES, MX no existe, DE, FR…",
+          "Que tenga la longitud correcta: 24 caracteres en España.",
+          "Que no hayas confundido la letra O con el cero o la I con el uno.",
+          "Que no falte ni sobre ningún dígito al copiarlo del banco.",
+          "Los espacios no importan: puedes escribirlo con o sin ellos."
+        ]
       },
       {
-        "title": "Validación adicional de cuentas españolas",
-        "body": "Las cuentas españolas conservan el antiguo Código Cuenta Cliente (CCC), que tiene sus propios dos dígitos de control. El primero se calcula sobre la entidad y la oficina, y el segundo sobre el número de cuenta, con pesos 1, 2, 4, 8, 5, 10, 9, 7, 3 y 6 y módulo 11. El validador comprueba ambos y reconoce las entidades más habituales, como Banco Santander (0049), BBVA (0182), CaixaBank (2100), Banco Sabadell (0081), Bankinter (0128) o ING (1465)."
+        "tipo": "comparacion",
+        "titulo": "¿IBAN, SWIFT o CLABE: cuál te piden en cada transferencia?",
+        "columnas": [
+          {
+            "titulo": "IBAN",
+            "tono": "azul",
+            "items": [
+              "Identifica una cuenta concreta.",
+              "Se usa en Europa y en más de 80 países.",
+              "En España, 24 caracteres."
+            ]
+          },
+          {
+            "titulo": "SWIFT o BIC",
+            "tono": "verde",
+            "items": [
+              "Identifica al banco, no a la cuenta.",
+              "Se pide junto al IBAN en transferencias internacionales.",
+              "De 8 a 11 caracteres."
+            ]
+          },
+          {
+            "titulo": "CLABE",
+            "tono": "ambar",
+            "items": [
+              "El equivalente mexicano para transferencias SPEI.",
+              "18 dígitos con su propio dígito de control.",
+              "México no usa IBAN."
+            ]
+          }
+        ]
       },
       {
-        "title": "¿Usan IBAN los países de Latinoamérica?",
-        "body": "La mayoría de los países de Latinoamérica no usan IBAN: México usa la CLABE interbancaria de 18 dígitos, Argentina el CBU y Colombia o Perú números de cuenta nacionales. Sí lo usan Brasil, Costa Rica, República Dominicana, Guatemala y El Salvador. Si recibes dinero desde Europa en una cuenta de un país sin IBAN, el banco emisor te pedirá normalmente el código SWIFT/BIC de tu banco junto con tu número de cuenta."
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "La validación se hace en tu navegador: el IBAN que escribes no se envía a ningún servidor. Aun así, un IBAN válido no garantiza que la cuenta exista ni a quién pertenece."
       }
     ],
     "faqs": [
@@ -12475,36 +13261,75 @@
     "webApp": true,
     "appCategory": "HealthApplication",
     "intro": "Conocer tu ventana fértil te ayuda a planificar un embarazo y a entender mejor tu ciclo menstrual. Esta calculadora de ovulación estima tu día de ovulación, tus días fértiles y la fecha de tu próxima regla a partir del primer día de tu última menstruación y la duración de tu ciclo, y te muestra los próximos tres ciclos. A diferencia de las calculadoras que asumen siempre un ciclo de 28 días, aquí puedes indicar la duración real de tu ciclo y, si la conoces, la de tu fase lútea, para una estimación más ajustada a ti.",
-    "howToUse": [
-      "Indica el primer día de tu última regla (el primer día de sangrado)",
-      "Escribe la duración habitual de tu ciclo: los días desde el inicio de una regla hasta el inicio de la siguiente",
-      "Si conoces la duración de tu fase lútea, ajústala; si no, deja 14 días",
-      "Revisa tu próxima ovulación, tus días fértiles y el calendario de los próximos 3 ciclos"
-    ],
-    "benefits": [
-      "Admite ciclos de 21 a 45 días, no solo de 28",
-      "Permite ajustar la fase lútea para mayor precisión",
-      "Muestra la ventana fértil completa y la fecha de ovulación",
-      "Calcula los próximos 3 ciclos de una vez",
-      "Privada: tus datos no salen de tu dispositivo",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Escribe la fecha de tu última regla y la duración de tu ciclo para estimar tu día de ovulación, tu ventana fértil y la fecha de tu próxima regla en los tres próximos ciclos.",
+    "bloques": [
       {
-        "title": "¿Cómo se calcula el día de ovulación?",
-        "body": "La ovulación ocurre cuando el ovario libera un óvulo, normalmente unos 14 días antes del inicio de la siguiente menstruación. Ese tramo final del ciclo, la fase lútea, es bastante estable en cada mujer y suele durar entre 12 y 16 días, mientras que la primera parte del ciclo es la que más varía. Por eso la calculadora estima la ovulación como: día de ovulación = inicio de la regla + duración del ciclo − duración de la fase lútea. En un ciclo de 28 días, la ovulación se espera el día 14; en uno de 35 días, alrededor del día 21."
+        "tipo": "aviso",
+        "tono": "rojo",
+        "titulo": "No es un método anticonceptivo",
+        "texto": "Los cálculos por calendario no son fiables para evitar un embarazo: la ovulación puede adelantarse o retrasarse aunque tus ciclos sean regulares."
       },
       {
-        "title": "¿Qué son los días fértiles?",
-        "body": "Los días fértiles son los días del ciclo en los que una relación sexual puede dar lugar a un embarazo. Los espermatozoides pueden sobrevivir hasta unos 5 días en el aparato reproductor femenino, y el óvulo es fecundable durante unas 12 a 24 horas tras la ovulación. Por eso la ventana fértil abarca aproximadamente los 5 días anteriores a la ovulación, el propio día de ovulación y el día siguiente. Las probabilidades de embarazo son mayores en los dos o tres días previos a la ovulación."
+        "tipo": "infografia",
+        "archivo": "dias-fertiles-ciclo-28-dias.webp",
+        "alt": "Calendario de un ciclo de 28 días con la regla, la ventana fértil y el día de ovulación",
+        "ancho": 800,
+        "alto": 835,
+        "titulo": "¿Cuáles son mis días fértiles si mi ciclo es de 28 días?"
       },
       {
-        "title": "Señales que confirman la ovulación",
-        "body": "Además del calendario, el cuerpo da pistas. El moco cervical se vuelve más abundante, transparente y elástico, parecido a la clara de huevo, en los días fértiles. La temperatura basal, medida al despertar, sube unas décimas de grado después de la ovulación. Las pruebas de ovulación que se venden en farmacias detectan el aumento de la hormona luteinizante (LH), que ocurre entre 24 y 36 horas antes de ovular. Combinar estas señales con la calculadora mejora mucho la precisión."
+        "tipo": "tabla",
+        "titulo": "¿Qué día ovulo según la duración de mi ciclo?",
+        "intro": "Con una fase lútea de 14 días, contando como día 1 el primer día de la regla:",
+        "cabeceras": [
+          "Ciclo",
+          "Ovulación aproximada",
+          "Ventana fértil"
+        ],
+        "filas": [
+          [
+            "24 días",
+            "Día 11",
+            "Días 6 a 12"
+          ],
+          [
+            "26 días",
+            "Día 13",
+            "Días 8 a 14"
+          ],
+          [
+            "28 días",
+            "Día 15",
+            "Días 10 a 16"
+          ],
+          [
+            "30 días",
+            "Día 17",
+            "Días 12 a 18"
+          ],
+          [
+            "32 días",
+            "Día 19",
+            "Días 14 a 20"
+          ]
+        ]
       },
       {
-        "title": "Limitaciones: no es un método anticonceptivo",
-        "body": "Esta calculadora da una estimación basada en ciclos regulares. El estrés, las enfermedades, los viajes, la lactancia, el síndrome de ovario poliquístico o dejar la píldora anticonceptiva pueden adelantar, retrasar o impedir la ovulación. Por eso los métodos basados en el calendario tienen una tasa de fallo elevada y no deben usarse para evitar un embarazo. Si tus ciclos son muy irregulares o llevas más de un año buscando un embarazo sin éxito (seis meses si tienes más de 35 años), consulta con tu ginecólogo."
+        "tipo": "checklist",
+        "titulo": "¿Qué señales del cuerpo confirman la ovulación?",
+        "items": [
+          "Flujo cervical transparente y elástico, como clara de huevo, en los días previos.",
+          "Una subida de unas décimas en la temperatura basal después de ovular.",
+          "Un test de ovulación positivo (detecta la hormona LH) entre 24 y 36 horas antes.",
+          "Algunas personas notan una molestia leve en un lado del bajo vientre."
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué hacer si ya hay retraso en la regla?",
+        "parrafos": [
+          "Haz una prueba de embarazo a partir del primer día de retraso. Si es positiva, calcula tus semanas con la [calculadora de embarazo](/calculadora-embarazo). Si tus ciclos son muy irregulares o llevas más de un año buscando embarazo, consulta con tu ginecólogo."
+        ]
       }
     ],
     "faqs": [
