@@ -782,122 +782,122 @@
     },
     "calcular-cuota-imss": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "eb362e591fa7",
+      "actualizado": "2026-10-25",
+      "contenido": "d942a421bd47",
       "componente": "bca4afd82c98"
     },
     "salarios-minimos-2026": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "b0638c97dd2c",
+      "actualizado": "2026-10-25",
+      "contenido": "7b9f95eb7bbb",
       "componente": "9ba5d2aa1966"
     },
     "pension-imss-modalidad-40": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "6dff5f3dc0eb",
+      "actualizado": "2026-10-25",
+      "contenido": "091095cb6334",
       "componente": "8befb6719ccf"
     },
     "semanas-cotizadas-imss": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "8c994ec7b668",
+      "actualizado": "2026-10-25",
+      "contenido": "13bb066ef00a",
       "componente": "d87a7926a116"
     },
     "calcular-horas-extras": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "a9aa9a38bb0f",
+      "actualizado": "2026-10-25",
+      "contenido": "b3e5d82d6a24",
       "componente": "21310cbe1cd8"
     },
     "comparador-afore": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "cbfc8c60290c",
+      "actualizado": "2026-10-25",
+      "contenido": "1eeb7c20fbbd",
       "componente": "e11a7d6cec1a"
     },
     "calcular-isr-aguinaldo": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "0ab36f54e4b5",
+      "actualizado": "2026-10-25",
+      "contenido": "3e1ee4d8ca62",
       "componente": "d29e0896713f"
     },
     "dolar-a-peso-mexicano": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "0ea1026f2a89",
+      "actualizado": "2026-10-25",
+      "contenido": "61bc50b5e8e5",
       "componente": "8b4d2aa510c6"
     },
     "tabla-de-amortizacion": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "fb543b0a8995",
+      "actualizado": "2026-10-25",
+      "contenido": "edeb3352c30d",
       "componente": "1e84d18db8c7"
     },
     "calculadora-cetes": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "234980f101c2",
+      "actualizado": "2026-10-25",
+      "contenido": "c21b5766fce9",
       "componente": "74a88968fcc2"
     },
     "simulador-credito-automotriz": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "f6b0678dd17c",
+      "actualizado": "2026-10-25",
+      "contenido": "960663d9a674",
       "componente": "20ac16272a01"
     },
     "calculadora-interes-simple": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "6cd0bea371d7",
+      "actualizado": "2026-10-25",
+      "contenido": "06f3a5b1f4b5",
       "componente": "521b298e94b4"
     },
     "presupuesto-mensual": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "9772b0a57c27",
+      "actualizado": "2026-10-25",
+      "contenido": "4df5db79b957",
       "componente": "c14b261786e0"
     },
     "plan-pago-deudas": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "00becf895b80",
+      "actualizado": "2026-10-25",
+      "contenido": "3be16763c26e",
       "componente": "de68b0e51b26"
     },
     "calculadora-comision-ventas": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "2b67948695b1",
+      "actualizado": "2026-10-25",
+      "contenido": "e9aa56e623b0",
       "componente": "0fe0d0c5f871"
     },
     "comparador-precios": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "8e0f5c7394ca",
+      "actualizado": "2026-10-25",
+      "contenido": "82a99ddffc69",
       "componente": "005b112f3c18"
     },
     "libras-a-kilos": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "9b203c886e06",
+      "actualizado": "2026-10-25",
+      "contenido": "4da403c8751c",
       "componente": "c1cd78fbbd02"
     },
     "fahrenheit-a-celsius": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "977b3e33a99f",
+      "actualizado": "2026-10-25",
+      "contenido": "70ac63c71ca0",
       "componente": "1327bb47e0b1"
     },
     "onzas-a-gramos": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "5a5d7078323a",
+      "actualizado": "2026-10-25",
+      "contenido": "b5a2598c23e8",
       "componente": "c99a540867ea"
     },
     "tazas-a-ml": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "f3998dc576ef",
+      "actualizado": "2026-10-25",
+      "contenido": "b332206ebc8f",
       "componente": "6072779f1b3c"
     },
     "millas-a-kilometros": {

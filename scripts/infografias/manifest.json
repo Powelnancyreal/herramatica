@@ -778,5 +778,125 @@
     "alt": "Cómo reduce el subsidio al empleo el ISR de un sueldo de 10 mil pesos en 2026",
     "ancho": 800,
     "alto": 689
+  },
+  "cuotas-imss-patron-trabajador": {
+    "archivo": "cuotas-imss-patron-trabajador.webp",
+    "alt": "Reparto de las cuotas del IMSS entre patrón y trabajador para un salario de 500 pesos diarios",
+    "ancho": 800,
+    "alto": 831
+  },
+  "salario-minimo-2026-mexico": {
+    "archivo": "salario-minimo-2026-mexico.webp",
+    "alt": "Salario mínimo 2026 en México por día, semana y mes en la zona general y la frontera norte",
+    "ancho": 800,
+    "alto": 821
+  },
+  "costo-modalidad-40-2026": {
+    "archivo": "costo-modalidad-40-2026.webp",
+    "alt": "Costo mensual de la Modalidad 40 del IMSS en 2026 y por qué aumenta la pensión de la Ley 73",
+    "ancho": 800,
+    "alto": 776
+  },
+  "semanas-cotizadas-ley-97": {
+    "archivo": "semanas-cotizadas-ley-97.webp",
+    "alt": "Semanas cotizadas necesarias para pensionarse por la Ley 97 de 2026 a 2031",
+    "ancho": 800,
+    "alto": 808
+  },
+  "pago-horas-extra-lft": {
+    "archivo": "pago-horas-extra-lft.webp",
+    "alt": "Cómo se pagan las horas extra dobles y triples según la Ley Federal del Trabajo con un ejemplo",
+    "ancho": 800,
+    "alto": 764
+  },
+  "rendimiento-afore-retiro": {
+    "archivo": "rendimiento-afore-retiro.webp",
+    "alt": "Saldo para el retiro con aportaciones de 1,500 pesos al mes según el rendimiento de la AFORE",
+    "ancho": 800,
+    "alto": 811
+  },
+  "isr-aguinaldo-exento-gravado": {
+    "archivo": "isr-aguinaldo-exento-gravado.webp",
+    "alt": "Parte exenta y gravada del aguinaldo y cálculo del ISR con los artículos 96 y 174",
+    "ancho": 800,
+    "alto": 746
+  },
+  "tipos-de-cambio-dolar-mexico": {
+    "archivo": "tipos-de-cambio-dolar-mexico.webp",
+    "alt": "Diferencia entre tipo de cambio FIX, de referencia y de compra y venta en ventanilla",
+    "ancho": 800,
+    "alto": 933
+  },
+  "sistemas-amortizacion-comparados": {
+    "archivo": "sistemas-amortizacion-comparados.webp",
+    "alt": "Comparación de los sistemas de amortización francés, alemán y americano para un préstamo de 100 mil pesos",
+    "ancho": 800,
+    "alto": 763
+  },
+  "ganancia-cetes-28-dias": {
+    "archivo": "ganancia-cetes-28-dias.webp",
+    "alt": "Cálculo de la ganancia de 10 mil pesos en CETES a 28 días paso a paso",
+    "ancho": 800,
+    "alto": 855
+  },
+  "costo-total-credito-automotriz": {
+    "archivo": "costo-total-credito-automotriz.webp",
+    "alt": "Desglose del costo total de un auto a crédito: enganche, crédito, intereses e IVA",
+    "ancho": 800,
+    "alto": 853
+  },
+  "formula-interes-simple-ejemplo": {
+    "archivo": "formula-interes-simple-ejemplo.webp",
+    "alt": "Fórmula del interés simple con un ejemplo y comparación con el interés compuesto",
+    "ancho": 800,
+    "alto": 830
+  },
+  "regla-50-30-20-presupuesto": {
+    "archivo": "regla-50-30-20-presupuesto.webp",
+    "alt": "Reparto de un sueldo de 15 mil pesos con la regla 50/30/20",
+    "ancho": 800,
+    "alto": 751
+  },
+  "metodo-avalancha-bola-de-nieve": {
+    "archivo": "metodo-avalancha-bola-de-nieve.webp",
+    "alt": "Comparación de los métodos avalancha y bola de nieve para pagar tres deudas",
+    "ancho": 800,
+    "alto": 835
+  },
+  "comision-ventas-por-tramos": {
+    "archivo": "comision-ventas-por-tramos.webp",
+    "alt": "Cálculo de una comisión por ventas por tramos frente a una comisión fija",
+    "ancho": 800,
+    "alto": 657
+  },
+  "precio-por-kilo-comparado": {
+    "archivo": "precio-por-kilo-comparado.webp",
+    "alt": "Comparación del precio por kilo de tres presentaciones de un producto",
+    "ancho": 800,
+    "alto": 813
+  },
+  "tabla-libras-a-kilos-gimnasio": {
+    "archivo": "tabla-libras-a-kilos-gimnasio.webp",
+    "alt": "Tabla de libras a kilos y peso en kilos de los discos de gimnasio",
+    "ancho": 800,
+    "alto": 760
+  },
+  "temperaturas-horno-fahrenheit-celsius": {
+    "archivo": "temperaturas-horno-fahrenheit-celsius.webp",
+    "alt": "Temperaturas del horno en grados Fahrenheit y su equivalencia en Celsius",
+    "ancho": 800,
+    "alto": 827
+  },
+  "tipos-de-onza-gramos": {
+    "archivo": "tipos-de-onza-gramos.webp",
+    "alt": "Diferencia entre onza de peso, onza troy y onza líquida en gramos y mililitros",
+    "ancho": 800,
+    "alto": 868
+  },
+  "tazas-a-ml-y-gramos": {
+    "archivo": "tazas-a-ml-y-gramos.webp",
+    "alt": "Mililitros de la taza estadounidense, métrica y británica y gramos por taza de cada ingrediente",
+    "ancho": 800,
+    "alto": 807
   }
 }

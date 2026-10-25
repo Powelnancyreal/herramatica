@@ -15816,36 +15816,86 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Cada trabajador registrado en el IMSS genera cuotas que se reparten entre el patrón y el propio trabajador. Esta calculadora desglosa las cuotas de 2026 por rama de seguro: enfermedad y maternidad, invalidez y vida, riesgos de trabajo, guarderías, retiro, cesantía y vejez, además de la aportación al Infonavit. Puedes partir del salario mensual o del salario base de cotización (SBC). Incluye la tasa de cesantía y vejez patronal que corresponde a 2026 según la reforma de pensiones, que sube cada año hasta 2030.",
-    "howToUse": [
-      "Elige si conoces el salario mensual o directamente el salario base de cotización diario",
-      "Si partes del salario, indica la antigüedad para integrar el aguinaldo y la prima vacacional de ley",
-      "Selecciona el periodo (mensual, bimestral, quincenal o semanal) y la clase de riesgo de trabajo de la empresa",
-      "Pulsa «Calcular cuotas IMSS» y revisa la tabla con lo que paga el patrón y lo que se descuenta al trabajador"
-    ],
-    "benefits": [
-      "Desglose completo por rama con las tasas de la Ley del Seguro Social",
-      "Cesantía y vejez patronal según el rango salarial en UMA de la tabla 2026",
-      "Integra el SBC automáticamente con las prestaciones mínimas de ley",
-      "Aplica el tope de 25 UMA y la regla del salario mínimo del artículo 36",
-      "Incluye la aportación patronal del 5% al Infonavit",
-      "Útil para presupuestar el costo real de contratar a una persona"
-    ],
-    "contentSections": [
+    "resumen": "Calcula las cuotas obrero-patronales del IMSS de 2026 a partir del salario base de cotización: cuánto paga el patrón, cuánto se descuenta al trabajador y en qué ramo de seguro va cada peso, incluida la cesantía y vejez que sube cada año.",
+    "bloques": [
       {
-        "title": "Las ramas de seguro y quién las paga",
-        "body": "La Ley del Seguro Social divide las cuotas en ramas. Enfermedad y maternidad tiene una cuota fija patronal del 20.40% de la UMA por día y, sobre el excedente de tres UMA, un 1.10% patronal y un 0.40% obrero. Las prestaciones en dinero cuestan 0.70% al patrón y 0.25% al trabajador, y los gastos médicos de pensionados 1.05% y 0.375%. Invalidez y vida suma 1.75% patronal y 0.625% obrero. Guarderías (1%) y riesgos de trabajo los paga solo el patrón. En la parte de pensiones, el retiro es 2% patronal, cesantía y vejez 1.125% obrero más la tasa patronal variable, y el Infonavit un 5% a cargo del patrón."
+        "tipo": "infografia",
+        "archivo": "cuotas-imss-patron-trabajador.webp",
+        "alt": "Reparto de las cuotas del IMSS entre patrón y trabajador para un salario de 500 pesos diarios",
+        "ancho": 800,
+        "alto": 831,
+        "titulo": "¿Cómo se reparten las cuotas del IMSS entre patrón y trabajador?"
       },
       {
-        "title": "La cesantía y vejez patronal sube cada año hasta 2030",
-        "body": "La reforma de pensiones publicada en diciembre de 2020 aumenta gradualmente la aportación patronal de cesantía y vejez entre 2023 y 2030 para mejorar las pensiones de la Ley 97. La tasa depende del salario del trabajador medido en veces la UMA. En 2026 va del 3.15% para quien gana un salario mínimo hasta el 7.513% para salarios de más de 4 UMA. En 2030 el rango más alto llegará al 11.875%. Por eso el costo patronal de un mismo sueldo es distinto cada año."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto se paga de IMSS al mes según el salario?",
+        "intro": "Prima de riesgo de trabajo de clase I. Cifras mensuales de 2026 (30.4 días):",
+        "cabeceras": [
+          "Salario base diario",
+          "Patrón",
+          "Trabajador",
+          "Total"
+        ],
+        "filas": [
+          [
+            "$315.04 (mínimo)",
+            "$2,410",
+            "$0",
+            "$2,410"
+          ],
+          [
+            "$500.00",
+            "$3,750",
+            "$379",
+            "$4,129"
+          ],
+          [
+            "$1,000.00",
+            "$6,889",
+            "$801",
+            "$7,690"
+          ],
+          [
+            "$2,932.75 (tope 25 UMA)",
+            "$19,026",
+            "$2,431",
+            "$21,458"
+          ]
+        ],
+        "nota": "Con salario mínimo, la cuota obrera la paga el patrón. Incluye retiro, cesantía y vejez e Infonavit."
       },
       {
-        "title": "Salario base de cotización y tope de 25 UMA",
-        "body": "Las cuotas no se calculan sobre el sueldo nominal sino sobre el salario base de cotización, que integra las prestaciones: aguinaldo, prima vacacional y otras percepciones fijas. Con las prestaciones mínimas de ley, el factor de integración de un trabajador con un año de antigüedad es de 1.0493. El SBC tiene un tope de 25 UMA diarias ($2,932.75 en 2026); por encima de esa cifra ya no se pagan más cuotas. La prima de riesgo de trabajo depende de la siniestralidad de la empresa: las nuevas usan la prima media de su clase, de 0.54355% en la clase I a 7.58875% en la clase V."
+        "tipo": "glosario",
+        "titulo": "¿Qué significan SBC, UMA y prima de riesgo?",
+        "items": [
+          [
+            "SBC",
+            "Salario base de cotización: el salario diario integrado que el patrón reporta al IMSS, con sus topes."
+          ],
+          [
+            "UMA",
+            "Unidad de Medida y Actualización: $117.31 diarios en 2026. Varias cuotas y el tope de 25 UMA se miden con ella."
+          ],
+          [
+            "Prima de riesgo",
+            "El porcentaje del seguro de riesgos de trabajo. Depende de la actividad de la empresa y de su siniestralidad."
+          ],
+          [
+            "Cesantía y vejez",
+            "Seguro para el retiro. La parte del patrón aumenta cada año hasta 2030 por la reforma de pensiones."
+          ],
+          [
+            "SUA",
+            "El sistema con el que las empresas calculan y pagan las cuotas cada mes."
+          ]
+        ]
       },
       {
-        "title": "Cuándo se pagan las cuotas",
-        "body": "Las cuotas de enfermedad y maternidad, invalidez y vida, riesgos de trabajo y guarderías se pagan mensualmente, a más tardar el día 17 del mes siguiente. Las de retiro, cesantía y vejez e Infonavit se pagan por bimestre, también el día 17 del mes siguiente al bimestre. El patrón retiene la parte obrera del salario del trabajador y entera el total. Si un trabajador gana el salario mínimo, el patrón debe cubrir también la cuota obrera, según el artículo 36 de la ley."
+        "tipo": "texto",
+        "titulo": "¿Cómo calculo mi salario base de cotización?",
+        "parrafos": [
+          "Multiplica tu salario diario por el factor de integración (1.0493 como mínimo en 2026) con la [calculadora de SDI](/calcular-salario-diario-integrado). Para ver cuánto te queda de sueldo con ISR e IMSS, usa la [calculadora de nómina](/calculadora-nomina)."
+        ]
       }
     ],
     "faqs": [
@@ -15899,36 +15949,105 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El salario mínimo es la cantidad más baja que un patrón puede pagar por una jornada de trabajo en México. Para 2026, la Comisión Nacional de los Salarios Mínimos (CONASAMI) lo fijó en $315.04 diarios para la mayor parte del país y en $440.87 para la Zona Libre de la Frontera Norte. En esta página tienes los montos diario, semanal, quincenal, mensual y anual de cada zona. También un comparador para saber si tu sueldo cumple el mínimo y la tabla histórica desde 2019.",
-    "howToUse": [
-      "Elige tu zona salarial: zona general o Zona Libre de la Frontera Norte",
-      "Consulta el salario mínimo diario y sus equivalentes semanal, quincenal, mensual y anual",
-      "Escribe tu sueldo y su periodicidad para saber si cumple con el mínimo de tu zona",
-      "Revisa la tabla histórica para ver cuánto ha subido el salario mínimo cada año"
-    ],
-    "benefits": [
-      "Montos oficiales 2026 de la CONASAMI para ambas zonas",
-      "Equivalencias mensuales con 30.4 días, el criterio del IMSS y el SAT",
-      "Comparador para saber si tu sueldo está por debajo del mínimo",
-      "Historial de 2019 a 2026 con el porcentaje de aumento anual",
-      "Diferencia clara entre salario mínimo y UMA",
-      "Datos actualizados y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "El salario mínimo en México en 2026 es de $315.04 diarios en la zona general y de $440.87 en la zona libre de la frontera norte: $9,577.22 y $13,402.45 al mes, respectivamente. Aquí tienes las cifras por día, semana, quincena y mes.",
+    "bloques": [
       {
-        "title": "Salario mínimo 2026: zona general y frontera norte",
-        "body": "Desde el 1 de enero de 2026 el salario mínimo general es de $315.04 diarios, un aumento del 13% frente a los $278.80 de 2025. En la Zona Libre de la Frontera Norte, que comprende los municipios fronterizos con Estados Unidos que señala el decreto de la zona, el mínimo es de $440.87 diarios, un 5% más que en 2025. Multiplicado por 30.4 días, el promedio mensual que usan el IMSS y el SAT, el mínimo mensual es de $9,577.22 en la zona general y de $13,402.45 en la frontera."
+        "tipo": "infografia",
+        "archivo": "salario-minimo-2026-mexico.webp",
+        "alt": "Salario mínimo 2026 en México por día, semana y mes en la zona general y la frontera norte",
+        "ancho": 800,
+        "alto": 821,
+        "titulo": "¿Cómo se compara el salario mínimo general con el de la frontera norte?"
       },
       {
-        "title": "Salario mínimo no es lo mismo que UMA",
-        "body": "Hasta 2016 el salario mínimo servía también como referencia para multas, topes fiscales y créditos. Esa función pasó a la Unidad de Medida y Actualización (UMA), que se ajusta con la inflación y en 2026 vale $117.31 diarios. Separarlos permitió que el salario mínimo suba por encima de la inflación sin encarecer automáticamente las multas y los créditos. Por eso los topes de exención de ISR y de cuotas del IMSS se expresan en UMA, mientras que el salario mínimo solo marca el pago más bajo permitido."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto es el salario mínimo por quincena y por año?",
+        "cabeceras": [
+          "Periodo",
+          "Zona general",
+          "Frontera norte"
+        ],
+        "filas": [
+          [
+            "Día",
+            "$315.04",
+            "$440.87"
+          ],
+          [
+            "Semana (7 días)",
+            "$2,205.28",
+            "$3,086.09"
+          ],
+          [
+            "Quincena (15 días)",
+            "$4,725.60",
+            "$6,613.05"
+          ],
+          [
+            "Mes (30.4 días)",
+            "$9,577.22",
+            "$13,402.45"
+          ],
+          [
+            "Año (365 días)",
+            "$114,989.60",
+            "$160,917.55"
+          ]
+        ]
       },
       {
-        "title": "Derechos de quien gana el salario mínimo",
-        "body": "El salario mínimo tiene protecciones especiales. No puede ser objeto de descuentos, salvo en los casos que marca la Ley Federal del Trabajo, como las pensiones alimenticias. Quien percibe el mínimo no paga ISR: el patrón no debe retenerle impuesto, según el artículo 96 de la ley del ISR. Tampoco paga cuota obrera del IMSS, porque la cubre el patrón. Si trabajas una jornada completa y te pagan menos del mínimo de tu zona, puedes acudir a la PROFEDET, que asesora gratuitamente."
+        "tipo": "tabla",
+        "titulo": "¿Cómo ha subido el salario mínimo en los últimos años?",
+        "cabeceras": [
+          "Año",
+          "Zona general (diario)",
+          "Frontera norte (diario)"
+        ],
+        "filas": [
+          [
+            "2019",
+            "$102.68",
+            "$176.72"
+          ],
+          [
+            "2020",
+            "$123.22",
+            "$185.56"
+          ],
+          [
+            "2026",
+            "$315.04",
+            "$440.87"
+          ]
+        ],
+        "nota": "En siete años, el salario mínimo general se ha multiplicado por más de tres."
       },
       {
-        "title": "Cómo se decide el aumento cada año",
-        "body": "La CONASAMI, formada por representantes de trabajadores, patrones y gobierno, analiza cada diciembre la inflación, el costo de la canasta básica y el comportamiento del empleo, y publica en el Diario Oficial los montos del año siguiente. Desde 2019 los aumentos han sido altos para recuperar el poder adquisitivo: el mínimo general pasó de $102.68 en 2019 a $315.04 en 2026, más del triple en siete años."
+        "tipo": "checklist",
+        "titulo": "¿Qué derechos tiene quien gana el salario mínimo?",
+        "items": [
+          "No se le retiene ISR por su salario.",
+          "El patrón paga también su cuota obrera del IMSS.",
+          "Tiene aguinaldo, vacaciones, prima vacacional y PTU como cualquier trabajador.",
+          "Sus horas extra dobles están exentas de ISR.",
+          "El salario mínimo no se puede embargar, salvo por pensión alimenticia."
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué prestaciones puedo calcular con el salario mínimo?",
+        "parrafos": [
+          "Con tu salario diario calcula tu [aguinaldo](/calcular-aguinaldo), tus [vacaciones](/calcular-vacaciones) y tu [prima vacacional](/calcular-prima-vacacional). Si cambias de trabajo, el [finiquito](/calculadora-finiquito-mexico)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Comisión Nacional de los Salarios Mínimos (CONASAMI)",
+            "url": "https://www.gob.mx/conasami"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -15982,40 +16101,56 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "La Modalidad 40, o continuación voluntaria en el régimen obligatorio, permite a quienes empezaron a cotizar antes del 1 de julio de 1997 seguir aportando al IMSS por su cuenta con un salario más alto. Esto sube el promedio salarial de las últimas 250 semanas, que es la base de la pensión de la Ley 73. Este simulador compara tu pensión con y sin Modalidad 40. Calcula el pago mensual con la cuota de 2026 y te dice en cuántos meses de pensión recuperarías la inversión.",
-    "howToUse": [
-      "Escribe tus semanas cotizadas actuales y tu salario diario promedio de las últimas 250 semanas; ambos datos vienen en tu constancia de semanas cotizadas",
-      "Indica el salario diario con el que cotizarías en Modalidad 40 (máximo 25 UMA) y cuántos meses lo harías",
-      "Elige la edad a la que te pensionarías y tus beneficiarios: cónyuge e hijos",
-      "Pulsa «Simular pensión con Modalidad 40» y compara ambas pensiones, el costo total y el tiempo de recuperación"
-    ],
-    "benefits": [
-      "Aplica la tabla de cuantía básica e incrementos del artículo 167 de la Ley 73",
-      "Incluye asignaciones familiares, factor de edad por cesantía e incremento del 11%",
-      "Calcula el pago mensual con la tasa de Modalidad 40 de 2026",
-      "Recalcula el promedio de 250 semanas según los meses que cotices",
-      "Muestra el tiempo de recuperación de la inversión en meses de pensión",
-      "Gratis y sin compartir tus datos"
-    ],
-    "contentSections": [
+    "resumen": "Simula cuánto subiría tu pensión de la Ley 73 si te inscribes en la Modalidad 40, cuánto pagarías al mes (14.438 % del salario registrado en 2026) y en cuánto tiempo recuperas la inversión.",
+    "bloques": [
       {
-        "title": "Requisitos para entrar a la Modalidad 40",
-        "body": "Para inscribirte debes haber cotizado al IMSS antes del 1 de julio de 1997, para tener derecho a pensionarte por la Ley 73. También debes tener al menos 52 semanas cotizadas en los últimos cinco años y solicitar la inscripción dentro de los cinco años siguientes a tu baja del régimen obligatorio. El trámite se hace en la subdelegación del IMSS que te corresponde, y el pago es mensual, a más tardar el día 17 del mes siguiente. Si dejas de pagar, no pierdes lo aportado, pero esos meses no cuentan."
+        "tipo": "infografia",
+        "archivo": "costo-modalidad-40-2026.webp",
+        "alt": "Costo mensual de la Modalidad 40 del IMSS en 2026 y por qué aumenta la pensión de la Ley 73",
+        "ancho": 800,
+        "alto": 776,
+        "titulo": "¿Por qué la Modalidad 40 aumenta tanto la pensión de la Ley 73?"
       },
       {
-        "title": "Cómo se calcula la pensión de la Ley 73",
-        "body": "La pensión se basa en el salario diario promedio de las últimas 250 semanas cotizadas. Ese salario se expresa en veces el salario mínimo para ubicarlo en la tabla del artículo 167, que da una cuantía básica y un incremento anual por cada año cotizado después de las primeras 500 semanas. A la suma se añaden las asignaciones familiares (15% por cónyuge y 10% por hijo) o, si no hay beneficiarios, una ayuda asistencial del 15%. Por cesantía se recibe el 75% a los 60 años y el 100% a los 65. Después se aplica un incremento del 11%, y la pensión nunca puede ser menor que un salario mínimo."
+        "tipo": "checklist",
+        "titulo": "¿Cumples los requisitos para entrar a la Modalidad 40?",
+        "items": [
+          "Empezaste a cotizar al IMSS antes del 1 de julio de 1997 (régimen de la Ley 73).",
+          "Tienes al menos 52 semanas cotizadas en los últimos 5 años.",
+          "Te inscribes dentro de los 5 años siguientes a tu última baja.",
+          "No tienes un patrón que te cotice al mismo tiempo.",
+          "Puedes pagar la cuota mensual sin interrupciones durante el periodo que elijas."
+        ]
       },
       {
-        "title": "Por qué la Modalidad 40 puede subir tanto la pensión",
-        "body": "Como solo cuentan las últimas 250 semanas, cotizar cinco años (260 semanas) en Modalidad 40 con el tope de 25 UMA reemplaza todo tu promedio por un salario alto. Alguien con un promedio de $500 diarios puede pasar a un promedio de $2,932.75 diarios, lo que puede multiplicar varias veces su pensión. A cambio, en 2026 la cuota es del 14.438% del salario registrado, unos $12,872 al mes con el salario tope. La tasa sube cada año por la reforma de pensiones, así que empezar antes sale más barato."
+        "tipo": "mitos",
+        "titulo": "¿Qué hay de cierto sobre la Modalidad 40?",
+        "items": [
+          {
+            "mito": "Sirve igual para todos los trabajadores.",
+            "realidad": "Tiene sentido sobre todo para la Ley 73, donde la pensión depende del salario promedio. En la Ley 97 depende del saldo de la AFORE."
+          },
+          {
+            "mito": "Siempre se recupera la inversión.",
+            "realidad": "Depende de cuántos años cobres la pensión. Con pocos años de vida esperada o semanas insuficientes, puede no compensar."
+          },
+          {
+            "mito": "Puedo registrar el salario que quiera sin límite.",
+            "realidad": "El tope es de 25 UMA diarias ($2,932.75 en 2026)."
+          }
+        ]
       },
       {
-        "title": "Precauciones antes de invertir",
-        "body": "Este simulador es una estimación: la resolución final la emite el IMSS y puede variar por semanas no reconocidas, periodos sin cotizar o errores en tu historial. Revisa tu constancia de semanas cotizadas y corrige cualquier inconsistencia antes de empezar. Ha habido criterios judiciales distintos sobre el tope salarial aplicable al calcular estas pensiones, así que confirma tu caso con el IMSS o con un asesor independiente. Desconfía de gestores que cobran por inscribirte: el trámite es gratuito."
+        "tipo": "texto",
+        "titulo": "¿Qué otras herramientas sirven para planear la pensión del IMSS?",
+        "parrafos": [
+          "Comprueba cuántas semanas tienes con la [calculadora de semanas cotizadas](/semanas-cotizadas-imss), y si cotizas por la Ley 97, compara tu AFORE con el [comparador de AFORE](/comparador-afore). Los pensionados también tienen aguinaldo: te lo explicamos en [aguinaldo de pensionados](/blog/aguinaldo-pensionados-imss)."
+        ]
       },
       {
-        "title": "Aguinaldo de los pensionados",
-        "body": "Cuando te pensiones con la Ley 73 recibirás además un aguinaldo anual de un mes de pensión. Te explicamos cómo se calcula y cuándo se paga en [aguinaldo para pensionados del IMSS](/blog/aguinaldo-pensionados-imss)."
+        "tipo": "aviso",
+        "tono": "ambar",
+        "texto": "Antes de pagar la Modalidad 40, pide una proyección en tu subdelegación del IMSS. Es una decisión de muchos miles de pesos y conviene confirmarla con tus datos oficiales."
       }
     ],
     "faqs": [
@@ -16069,36 +16204,68 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Las semanas cotizadas son el requisito principal para pensionarte por el IMSS. Esta calculadora las estima a partir de las fechas de alta y baja de cada uno de tus empleos. Si dos trabajos se enciman, cuenta esos días una sola vez, igual que hace el IMSS. Después compara el total con las semanas que exige tu régimen: 500 si empezaste a cotizar antes de julio de 1997 (Ley 73) o las que marca la tabla de la reforma de pensiones para la Ley 97 en el año en que piensas retirarte.",
-    "howToUse": [
-      "Añade cada empleo con su fecha de alta y de baja en el IMSS; marca «Sigo trabajando» en tu empleo actual",
-      "Elige tu régimen: Ley 73 si cotizabas antes del 1 de julio de 1997, Ley 97 si empezaste después",
-      "Si eres de la Ley 97, indica el año en que planeas pensionarte",
-      "Pulsa «Calcular semanas cotizadas» para ver el total, las semanas que faltan y la fecha estimada para completarlas"
-    ],
-    "benefits": [
-      "Suma varios empleos y descuenta automáticamente los periodos traslapados",
-      "Aplica las semanas requeridas por la Ley 73 y la tabla gradual de la Ley 97",
-      "Calcula cuándo completarías las semanas si sigues cotizando",
-      "Útil para detectar huecos antes de pedir tu constancia oficial",
-      "Tus fechas no se envían a ningún servidor",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tus semanas cotizadas al IMSS a partir de las fechas de alta y baja de cada empleo, y compáralas con las que necesitas para pensionarte: 875 en 2026 por la Ley 97, subiendo 25 cada año hasta 1,000 en 2031.",
+    "bloques": [
       {
-        "title": "Cuántas semanas necesitas para pensionarte en 2026",
-        "body": "Depende de cuándo empezaste a cotizar. En la Ley 73, para quienes cotizaban antes del 1 de julio de 1997, se necesitan 500 semanas, y la pensión se calcula con el salario promedio de las últimas 250. En la Ley 97, la reforma de 2020 bajó el requisito de 1,250 a 750 semanas en 2021 y lo sube 25 semanas cada año hasta llegar a 1,000 en 2031. En 2026 se exigen 875 semanas. En ambos regímenes la edad mínima es de 60 años por cesantía y de 65 por vejez."
+        "tipo": "infografia",
+        "archivo": "semanas-cotizadas-ley-97.webp",
+        "alt": "Semanas cotizadas necesarias para pensionarse por la Ley 97 de 2026 a 2031",
+        "ancho": 800,
+        "alto": 808,
+        "titulo": "¿Cómo sube el requisito de semanas de 2026 a 2031?"
       },
       {
-        "title": "Cómo se cuentan las semanas",
-        "body": "Una semana cotizada equivale a siete días en los que tu patrón te tuvo dado de alta y pagó cuotas. La calculadora cuenta los días entre la fecha de alta y la de baja de cada empleo, los divide entre siete y redondea hacia abajo. Si trabajaste para dos patrones al mismo tiempo, esos días no se suman dos veces: el IMSS solo reconoce una semana por cada semana de calendario. Las incapacidades pagadas por el IMSS sí cuentan como cotizadas, pero las faltas injustificadas y los periodos sin alta no."
+        "tipo": "pasos",
+        "titulo": "¿Cómo descargar tu constancia de semanas cotizadas?",
+        "pasos": [
+          {
+            "titulo": "Ten tu CURP y un correo",
+            "texto": "Es lo único que necesitas; si no recuerdas la CURP, compruébala con la [calculadora de CURP](/calcular-curp)."
+          },
+          {
+            "titulo": "Entra al portal del IMSS",
+            "texto": "En la sección de semanas cotizadas, escribe tu CURP, tu NSS y tu correo."
+          },
+          {
+            "titulo": "Abre el enlace del correo",
+            "texto": "Recibirás un enlace para descargar el PDF con tus semanas y tu historial de patrones."
+          },
+          {
+            "titulo": "Compara con esta calculadora",
+            "texto": "Si hay diferencias, revisa empleos que no aparezcan: puede que un patrón no te diera de alta."
+          }
+        ]
       },
       {
-        "title": "Cómo obtener tu constancia oficial",
-        "body": "La constancia de semanas cotizadas es gratuita. Puedes descargarla en el portal de servicios digitales del IMSS con tu CURP, tu Número de Seguridad Social y un correo electrónico, al que llega un enlace con el documento en PDF. Ahí aparecen el total de semanas reconocidas, tus últimos patrones y tu salario base de cotización. Si ves periodos faltantes, puedes solicitar la corrección en tu Unidad de Medicina Familiar o en la subdelegación, presentando recibos de nómina u otras pruebas del empleo."
+        "tipo": "comparacion",
+        "titulo": "¿Qué diferencia hay entre la Ley 73 y la Ley 97?",
+        "columnas": [
+          {
+            "titulo": "Ley 73",
+            "tono": "azul",
+            "items": [
+              "Empezaste a cotizar antes del 1 de julio de 1997.",
+              "500 semanas como mínimo.",
+              "La pensión depende del salario promedio de las últimas 250 semanas."
+            ]
+          },
+          {
+            "titulo": "Ley 97",
+            "tono": "verde",
+            "items": [
+              "Empezaste a cotizar después de esa fecha.",
+              "875 semanas en 2026, 1,000 en 2031.",
+              "La pensión depende del saldo de tu AFORE."
+            ]
+          }
+        ]
       },
       {
-        "title": "Si dejaste de cotizar",
-        "body": "En la Ley 73 conservas tus derechos durante un periodo igual a la cuarta parte del tiempo que cotizaste, y nunca menos de 12 meses. Si vuelves a cotizar después de ese plazo, tus semanas anteriores se reconocen según las reglas de reingreso de la ley. En la Ley 97 las semanas no caducan, porque tus aportaciones están en tu cuenta individual de la AFORE. En ambos casos, si te faltan semanas, puedes seguir cotizando de forma voluntaria con la Modalidad 40."
+        "tipo": "texto",
+        "titulo": "¿Qué puedo hacer para llegar a las semanas que me faltan?",
+        "parrafos": [
+          "Volver a un empleo formal, inscribirte en la continuación voluntaria (la [Modalidad 40](/pension-imss-modalidad-40) para la Ley 73) o, si no llegas, retirar el saldo de tu AFORE en una sola exhibición. Para proyectar cuánto tendrás en tu cuenta, usa el [comparador de AFORE](/comparador-afore)."
+        ]
       }
     ],
     "faqs": [
@@ -16152,36 +16319,78 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Si trabajas más allá de tu jornada, la Ley Federal del Trabajo obliga a tu patrón a pagarte ese tiempo extra con un recargo. Las primeras nueve horas extra de la semana se pagan al doble y las que las superan, al triple. Esta calculadora obtiene el valor de tu hora según tu tipo de jornada: diurna, mixta o nocturna. Con eso calcula cuánto te deben por las horas extra de la semana y separa la parte exenta de ISR de la gravada.",
-    "howToUse": [
-      "Escribe tu sueldo y elige si es mensual, semanal o diario",
-      "Selecciona tu tipo de jornada: diurna (8 horas), mixta (7.5) o nocturna (7)",
-      "Indica cuántas horas extra trabajaste en la semana",
-      "Pulsa «Calcular pago de horas extra» para ver el desglose de horas dobles, triples y el tratamiento fiscal"
-    ],
-    "benefits": [
-      "Aplica los artículos 67 y 68 de la LFT: dobles hasta 9 horas y triples después",
-      "Calcula el valor de la hora según la duración legal de tu jornada",
-      "Separa la parte exenta de ISR con el tope de 5 UMA por semana",
-      "Considera la exención total para quien gana el salario mínimo",
-      "Te avisa cuando superas el límite legal de horas extra",
-      "Gratis, sin registro y al instante"
-    ],
-    "contentSections": [
+    "resumen": "Calcula cuánto te deben pagar por horas extra en México: las primeras 9 de la semana al doble y las siguientes al triple. También te dice qué parte está exenta de ISR.",
+    "bloques": [
       {
-        "title": "Qué dice la ley sobre las horas extra",
-        "body": "El artículo 66 de la Ley Federal del Trabajo permite prolongar la jornada por circunstancias extraordinarias, pero nunca más de tres horas diarias ni más de tres veces por semana, es decir, un máximo de nueve horas extra semanales. El artículo 67 establece que esas horas se pagan con un 100% más del salario de las horas normales (al doble). Si el patrón te pide trabajar más de nueve horas extra en una semana, el artículo 68 obliga a pagar el excedente con un 200% más (al triple), aunque exceder el límite sigue siendo una infracción."
+        "tipo": "infografia",
+        "archivo": "pago-horas-extra-lft.webp",
+        "alt": "Cómo se pagan las horas extra dobles y triples según la Ley Federal del Trabajo con un ejemplo",
+        "ancho": 800,
+        "alto": 764,
+        "titulo": "¿Cómo se pagan las horas extra dobles y triples?"
       },
       {
-        "title": "Cómo se calcula el valor de tu hora",
-        "body": "Primero se obtiene el salario diario: si cobras por mes, se divide entre 30. Luego se divide entre las horas de tu jornada legal: 8 horas en la diurna (entre las 6:00 y las 20:00), 7 en la nocturna (entre las 20:00 y las 6:00) y 7.5 en la mixta, que combina ambos horarios. Por ejemplo, con un sueldo de $12,000 al mes y jornada diurna, el salario diario es $400 y la hora vale $50. Una hora extra doble se paga a $100 y una triple a $150."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto vale una hora extra según mi sueldo?",
+        "intro": "Con una jornada de 8 horas:",
+        "cabeceras": [
+          "Sueldo mensual",
+          "Valor de la hora",
+          "Hora doble",
+          "Hora triple"
+        ],
+        "filas": [
+          [
+            "$9,577.22 (mínimo)",
+            "$39.38",
+            "$78.76",
+            "$118.14"
+          ],
+          [
+            "$12,000",
+            "$49.34",
+            "$98.68",
+            "$148.03"
+          ],
+          [
+            "$15,000",
+            "$61.68",
+            "$123.36",
+            "$185.03"
+          ],
+          [
+            "$20,000",
+            "$82.24",
+            "$164.47",
+            "$246.71"
+          ]
+        ],
+        "nota": "Valor de la hora = sueldo mensual ÷ 30.4 ÷ 8."
       },
       {
-        "title": "Cuánto ISR pagan las horas extra",
-        "body": "El artículo 93, fracción I, de la Ley del ISR exenta parte del pago. Si ganas el salario mínimo, las horas extra dentro del límite legal están exentas por completo. Si ganas más, está exento el 50% del pago de las horas dobles, sin exceder cinco veces la UMA por cada semana de servicios ($586.55 en 2026). Las horas triples y la parte que rebasa esos límites se suman a tu ingreso gravable. Por eso tu recibo puede mostrar una parte exenta y otra gravada del mismo concepto."
+        "tipo": "pasos",
+        "titulo": "¿Qué hacer si no me pagan las horas extra?",
+        "pasos": [
+          {
+            "titulo": "Lleva tu propio registro",
+            "texto": "Anota cada día la hora de entrada y salida y guarda mensajes en los que te pidan quedarte."
+          },
+          {
+            "titulo": "Pídelo por escrito",
+            "texto": "Solicita el pago a recursos humanos con tu registro adjunto."
+          },
+          {
+            "titulo": "Acude a la PROFEDET",
+            "texto": "Te asesora gratis y puede representarte en la conciliación laboral."
+          }
+        ]
       },
       {
-        "title": "Qué hacer si no te pagan las horas extra",
-        "body": "Guarda evidencia de tu horario: registros del checador, correos enviados fuera de horario o mensajes de tu jefe pidiéndote quedarte. Primero puedes reclamar a Recursos Humanos. Si no lo resuelven, la Procuraduría Federal de la Defensa del Trabajo (PROFEDET) te asesora y representa de forma gratuita, y también puedes acudir al Centro de Conciliación Laboral de tu entidad. El derecho a reclamar prestaciones prescribe en un año, según el artículo 516 de la LFT."
+        "tipo": "texto",
+        "titulo": "¿Cómo calcular cuántas horas trabajé de más?",
+        "parrafos": [
+          "Suma tus horas reales de la semana con la [calculadora de horas](/calculadora-horas) y réstales tu jornada semanal. Para ver cómo afectan las horas extra a tu sueldo neto, usa la [calculadora de nómina](/calculadora-nomina)."
+        ]
       }
     ],
     "faqs": [
@@ -16235,36 +16444,73 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Dos AFORE pueden parecer iguales hoy y dejarte cientos de miles de pesos de diferencia al retirarte. Todas cobran comisiones parecidas, pero sus rendimientos no lo son. Este comparador proyecta tu saldo al retiro en varias AFORE a la vez usando su rendimiento neto. Calcula tus aportaciones obligatorias con las tasas de 2026 de la reforma de pensiones y puedes sumar ahorro voluntario para ver su efecto. El resultado te muestra, en pesos, cuánto cuesta elegir mal.",
-    "howToUse": [
-      "Escribe tu saldo actual en la AFORE, tu salario mensual, tu edad y la edad a la que piensas retirarte",
-      "Añade, si quieres, un ahorro voluntario mensual",
-      "Escribe el nombre de cada AFORE que quieras comparar y su Indicador de Rendimiento Neto (IRN), publicado por la CONSAR",
-      "Pulsa «Comparar AFORE» para ver el saldo estimado en cada una, ordenado de mayor a menor"
-    ],
-    "benefits": [
-      "Compara hasta 10 AFORE en una sola simulación",
-      "Calcula las aportaciones obligatorias con la tabla patronal de 2026",
-      "Muestra la diferencia en pesos entre la mejor y las demás",
-      "Permite incluir ahorro voluntario y ver cómo cambia tu saldo",
-      "Usa rendimientos reales para ver el resultado en pesos de hoy",
-      "Gratis, sin registro y sin compartir datos"
-    ],
-    "contentSections": [
+    "resumen": "Compara cuánto tendrías al retirarte en distintas AFORE según su rendimiento neto, tu saldo actual, tu salario y tu ahorro voluntario. Dos puntos de rendimiento pueden significar cientos de miles de pesos de diferencia.",
+    "bloques": [
       {
-        "title": "Qué es el rendimiento neto y por qué importa",
-        "body": "El Indicador de Rendimiento Neto (IRN) mide lo que una AFORE ha ganado para sus ahorradores ya descontada la comisión. La CONSAR lo publica cada mes para cada SIEFORE generacional, el fondo que te corresponde según tu año de nacimiento. Como las comisiones están topadas por la autoridad y son muy parecidas entre administradoras, el rendimiento neto es lo que más diferencia a una AFORE de otra. Una diferencia de un punto porcentual al año, sostenida durante 30 años, puede cambiar tu saldo final en más de un 25%."
+        "tipo": "infografia",
+        "archivo": "rendimiento-afore-retiro.webp",
+        "alt": "Saldo para el retiro con aportaciones de 1,500 pesos al mes según el rendimiento de la AFORE",
+        "ancho": 800,
+        "alto": 811,
+        "titulo": "¿Cuánto cambia el ahorro para el retiro según el rendimiento?"
       },
       {
-        "title": "Cuánto se aporta a tu cuenta en 2026",
-        "body": "Antes de la reforma de 2020 la aportación obligatoria era del 6.5% del salario. Con la reforma, la parte patronal de cesantía y vejez sube cada año de 2023 a 2030, y el total llegará a alrededor del 15% para la mayoría de los trabajadores. En 2026 tu cuenta recibe el 2% de retiro que paga el patrón, el 1.125% de cesantía y vejez que pagas tú y una tasa patronal de cesantía y vejez que va del 3.15% al 7.513% según tu salario. Quienes ganan hasta cuatro UMA también reciben una cuota social del gobierno, que este simulador no incluye."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto se aporta a tu AFORE cada mes en 2026?",
+        "intro": "Porcentajes del salario base de cotización:",
+        "cabeceras": [
+          "Concepto",
+          "Quién lo paga",
+          "Porcentaje"
+        ],
+        "filas": [
+          [
+            "Retiro",
+            "Patrón",
+            "2 %"
+          ],
+          [
+            "Cesantía y vejez",
+            "Patrón",
+            "De 3.15 % a 7.51 %, según el salario"
+          ],
+          [
+            "Cesantía y vejez",
+            "Trabajador",
+            "1.125 %"
+          ],
+          [
+            "Cuota social",
+            "Gobierno",
+            "Para salarios bajos"
+          ]
+        ],
+        "nota": "La cuota patronal de cesantía y vejez sube cada año hasta 2030."
       },
       {
-        "title": "Cómo cambiarte de AFORE",
-        "body": "El cambio, llamado traspaso, es gratuito. Puedes solicitarlo desde la app AFORE Móvil o directamente con la AFORE a la que quieres cambiarte, con tu CURP, una identificación oficial y un comprobante de domicilio. Por regla general, puedes cambiarte una vez cada 12 meses. Tu dinero se transfiere completo y conservas tus semanas y tu historial. Desconfía de agentes que te ofrecen regalos o dinero a cambio de firmar un traspaso: está prohibido."
+        "tipo": "pasos",
+        "titulo": "¿Cómo cambiarse de AFORE paso a paso?",
+        "pasos": [
+          {
+            "titulo": "Compara el rendimiento neto",
+            "texto": "Consulta el indicador de rendimiento neto (IRN) de tu SIEFORE generacional en la CONSAR."
+          },
+          {
+            "titulo": "Pide el traspaso en la nueva AFORE",
+            "texto": "Desde su app o en sus oficinas, con tu CURP, identificación y comprobante de domicilio."
+          },
+          {
+            "titulo": "Confirma el traspaso",
+            "texto": "Recibirás un folio; el cambio tarda unas semanas. Solo puedes cambiarte una vez al año, salvo que vayas a una AFORE con mejor rendimiento."
+          }
+        ]
       },
       {
-        "title": "Limitaciones de la simulación",
-        "body": "La proyección supone que el rendimiento se mantiene constante y que tu salario crece solo con la inflación, porque usa rendimientos reales. En la práctica los rendimientos varían cada año y los de corto plazo pueden ser negativos en épocas de volatilidad. Tampoco considera los aumentos de aportación patronal de 2027 a 2030 ni la cuota social, así que el saldo real puede ser mayor. Úsala para comparar opciones, no como una promesa de lo que recibirás."
+        "tipo": "texto",
+        "titulo": "¿Qué ventajas tiene el ahorro voluntario frente a otras inversiones?",
+        "parrafos": [
+          "Rinde con el mismo interés compuesto que tu cuenta obligatoria, algunas aportaciones son deducibles de impuestos y obliga a no tocar el dinero. A cambio, tiene menos liquidez que unos CETES. Calcula el efecto de aportar más con la [calculadora de interés compuesto](/calculadora-interes-compuesto) y, si cotizas por la Ley 73, revisa también la [Modalidad 40](/pension-imss-modalidad-40)."
+        ]
       }
     ],
     "faqs": [
@@ -16318,40 +16564,89 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Tu aguinaldo tiene una parte libre de impuestos y otra que paga ISR, y la retención varía según el método que use tu patrón. Esta calculadora aplica la exención de 30 UMA vigente en 2026. Calcula el ISR de la parte gravada con los dos métodos legales: el del artículo 96 de la Ley del ISR y el del artículo 174 de su reglamento. Así sabes cuánto te retendrán y cuánto recibirás en tu cuenta.",
-    "howToUse": [
-      "Escribe tu sueldo mensual bruto",
-      "Indica tu aguinaldo en días (mínimo 15 por ley) o escribe el monto exacto que te pagarán",
-      "Pulsa «Calcular ISR del aguinaldo»",
-      "Compara el ISR de ambos métodos y revisa tu aguinaldo neto estimado"
-    ],
-    "benefits": [
-      "Aplica la exención de 30 UMA de 2026 ($3,519.30)",
-      "Calcula el ISR con el artículo 96 de la LISR y con el 174 del RLISR",
-      "Muestra la tasa efectiva del método del reglamento",
-      "Acepta el aguinaldo en días o en monto",
-      "Te dice qué método conviene más en tu caso",
-      "Gratis, sin registro y en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula cuánto ISR te retienen del aguinaldo en 2026: los primeros $3,519.30 (30 UMA) están exentos y el resto paga ISR por el método del artículo 96 de la LISR o el del artículo 174 del reglamento. Verás los dos y cuál te conviene.",
+    "bloques": [
       {
-        "title": "Cuánto del aguinaldo está exento de ISR",
-        "body": "El artículo 93, fracción XIV, de la Ley del ISR exenta las gratificaciones anuales hasta por el equivalente a 30 veces la UMA diaria. Con la UMA de 2026 ($117.31), la exención es de $3,519.30. Si tu aguinaldo es menor o igual a esa cantidad, no pagas ISR por él. Si es mayor, solo el excedente es gravable. Por ejemplo, con un aguinaldo de $10,000, la parte exenta es de $3,519.30 y la gravada de $6,480.70."
+        "tipo": "infografia",
+        "archivo": "isr-aguinaldo-exento-gravado.webp",
+        "alt": "Parte exenta y gravada del aguinaldo y cálculo del ISR con los artículos 96 y 174",
+        "ancho": 800,
+        "alto": 746,
+        "titulo": "¿Cuánto ISR paga mi aguinaldo con cada método?"
       },
       {
-        "title": "Método del artículo 96: sumar al sueldo del mes",
-        "body": "La forma más sencilla es sumar la parte gravada del aguinaldo al sueldo del mes en que se paga y calcular el ISR con la tarifa mensual. El impuesto del aguinaldo es la diferencia entre el ISR de ese mes con aguinaldo y el ISR que tendrías sin él. Como el total del mes sube de golpe, este método puede llevar el aguinaldo a un tramo más alto de la tarifa y retener más de lo necesario."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto aguinaldo neto recibo según mi sueldo?",
+        "intro": "Aguinaldo de 15 días con cada método de retención:",
+        "cabeceras": [
+          "Sueldo mensual",
+          "Aguinaldo bruto",
+          "Parte gravada",
+          "ISR art. 96",
+          "ISR art. 174"
+        ],
+        "filas": [
+          [
+            "$9,577.22",
+            "$4,725.60",
+            "$1,206.30",
+            "$131",
+            "$131"
+          ],
+          [
+            "$15,000",
+            "$7,401.32",
+            "$3,882.02",
+            "$742",
+            "$696"
+          ],
+          [
+            "$20,000",
+            "$9,868.42",
+            "$6,349.12",
+            "$1,356",
+            "$1,356"
+          ],
+          [
+            "$30,000",
+            "$14,802.63",
+            "$11,283.33",
+            "$2,538",
+            "$2,410"
+          ]
+        ],
+        "nota": "Quien gana el salario mínimo no paga ISR por su sueldo, pero sí por la parte del aguinaldo que supera las 30 UMA."
       },
       {
-        "title": "Método del artículo 174 del reglamento",
-        "body": "El reglamento permite un cálculo alternativo que suele retener menos cuando el aguinaldo es alto. La parte gravada se divide entre 365 y se multiplica por 30.4 para obtener su equivalente mensual. Ese monto se suma al sueldo del mes y se calcula el ISR. La diferencia entre ese ISR y el del sueldo solo se divide entre el aguinaldo mensualizado para obtener una tasa. Finalmente, esa tasa se aplica a toda la parte gravada. El patrón puede elegir cualquiera de los dos métodos."
+        "tipo": "comparacion",
+        "titulo": "¿En qué se diferencian el método del artículo 96 y el del 174?",
+        "columnas": [
+          {
+            "titulo": "Artículo 96 LISR",
+            "tono": "azul",
+            "items": [
+              "El que aplican por defecto la mayoría de las nóminas.",
+              "Suma todo el aguinaldo gravado al sueldo de diciembre.",
+              "Puede subirte de renglón y retener más."
+            ]
+          },
+          {
+            "titulo": "Artículo 174 RLISR",
+            "tono": "verde",
+            "items": [
+              "Opcional para el patrón.",
+              "Usa una tasa efectiva calculada con la parte mensual del aguinaldo.",
+              "Suele retener menos cuando el aguinaldo es grande."
+            ]
+          }
+        ]
       },
       {
-        "title": "Ejemplo con un sueldo de $20,000",
-        "body": "Con un sueldo mensual de $20,000 y 15 días de aguinaldo, el aguinaldo bruto es de $10,000 y la parte gravada de $6,480.70. Como el sueldo y el aguinaldo quedan en el mismo tramo de la tarifa, ambos métodos dan una retención de alrededor de $1,384, con un aguinaldo neto de unos $8,616. Cuando el aguinaldo empuja el ingreso del mes a un tramo superior, el método del reglamento puede dar una retención claramente menor. En la declaración anual se ajusta el impuesto y, si te retuvieron de más, puedes recibir un saldo a favor."
-      },
-      {
-        "title": "Guía: aguinaldo exento de impuestos",
-        "body": "Para entender de dónde sale la parte exenta y comparar con años anteriores, lee [aguinaldo exento de impuestos: cuánto está libre del ISR](/blog/aguinaldo-exento-impuestos), con la tabla 2024-2026 y un ejemplo de retención con los dos métodos."
+        "tipo": "texto",
+        "titulo": "¿Dónde aprender más sobre el aguinaldo?",
+        "parrafos": [
+          "Calcula tu aguinaldo bruto con la [calculadora de aguinaldo](/calcular-aguinaldo) y lee la guía [aguinaldo exento de impuestos](/blog/aguinaldo-exento-impuestos). Si te pagan en diciembre también la PTU o un bono, considera el total con la [calculadora de ISR](/calculadora-isr)."
+        ]
       }
     ],
     "faqs": [
@@ -16405,36 +16700,75 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "¿Cuántos pesos son 100 dólares hoy? Este convertidor usa el tipo de cambio de referencia del día para pasar de dólares estadounidenses (USD) a pesos mexicanos (MXN) y al revés. Además de la conversión, muestra una gráfica con el comportamiento del dólar durante el último mes y una tabla rápida con las cantidades más buscadas. También puedes añadir el margen que cobra tu banco o casa de cambio para saber cuánto recibirás en realidad.",
-    "howToUse": [
-      "Escribe la cantidad de dólares que quieres convertir; pulsa ⇄ para convertir de pesos a dólares",
-      "Revisa el resultado con el tipo de cambio de referencia y la fecha de actualización",
-      "Si vas a cambiar en ventanilla, escribe el margen de tu banco o casa de cambio para ver el monto real",
-      "Consulta la gráfica y la tabla para ver cómo se ha movido el dólar en el último mes"
-    ],
-    "benefits": [
-      "Tipo de cambio de referencia actualizado cada día hábil",
-      "Conversión en ambos sentidos: dólares a pesos y pesos a dólares",
-      "Gráfica del último mes con mínimo, máximo y variación",
-      "Calcula el efecto del margen de compra y venta de bancos y casas de cambio",
-      "Permite usar un tipo de cambio personalizado",
-      "Tabla rápida de equivalencias para compras y remesas"
-    ],
-    "contentSections": [
+    "resumen": "Convierte dólares estadounidenses a pesos mexicanos y al revés con el tipo de cambio de referencia del día, o con el tipo que te ofrezca tu banco. Incluye la evolución reciente del dólar.",
+    "bloques": [
       {
-        "title": "Tipo de cambio de referencia, FIX y el de ventanilla",
-        "body": "Hay varios tipos de cambio del dólar en México. El de referencia internacional, que usa esta herramienta, lo publican los bancos centrales cada día hábil y refleja el mercado mayorista. El tipo de cambio FIX lo determina el Banco de México alrededor del mediodía y sirve para pagar en pesos obligaciones contratadas en dólares dentro del país. El de ventanilla es el que te ofrecen bancos y casas de cambio: siempre te venden el dólar más caro y te lo compran más barato que el de referencia. Esa diferencia es su ganancia."
+        "tipo": "infografia",
+        "archivo": "tipos-de-cambio-dolar-mexico.webp",
+        "alt": "Diferencia entre tipo de cambio FIX, de referencia y de compra y venta en ventanilla",
+        "ancho": 800,
+        "alto": 933,
+        "titulo": "¿Qué diferencia hay entre el tipo de cambio FIX, de referencia y de ventanilla?"
       },
       {
-        "title": "Cómo calcular cuánto recibirás realmente",
-        "body": "Si vas a vender dólares, la casa de cambio te pagará menos pesos por dólar que el tipo de referencia. Si vas a comprarlos, te cobrará más. El margen suele ir del 1% al 5% según el lugar: los aeropuertos y hoteles tienen los peores tipos de cambio, y las casas de cambio del centro de las ciudades y las apps financieras suelen tener los mejores. Escribe ese margen en la calculadora para comparar ofertas antes de cambiar tu dinero."
+        "tipo": "escenarios",
+        "titulo": "¿Cómo saber cuánto recibirás de verdad?",
+        "intro": "Si cambias 500 dólares con un tipo de referencia de $18.50 (ejemplo):",
+        "items": [
+          {
+            "titulo": "Referencia",
+            "situacion": "El valor del mercado interbancario, sin margen.",
+            "resultado": "$9,250"
+          },
+          {
+            "titulo": "Banco que compra a $17.90",
+            "situacion": "Un margen de $0.60 por dólar.",
+            "resultado": "$8,950"
+          },
+          {
+            "titulo": "Casa de cambio a $18.20",
+            "situacion": "Menos margen, pero revisa si cobra comisión aparte.",
+            "resultado": "$9,100"
+          }
+        ]
       },
       {
-        "title": "Qué mueve el precio del dólar",
-        "body": "El tipo de cambio peso-dólar depende de la diferencia entre las tasas de interés de Banxico y de la Reserva Federal, de la llegada de inversión extranjera y remesas, del precio del petróleo y del apetito por riesgo en los mercados internacionales. Cuando las tasas en México son altas, entran capitales que buscan rendimiento y el peso tiende a fortalecerse. Los anuncios económicos o políticos pueden provocar movimientos bruscos en pocas horas, por eso la gráfica del último mes ayuda a poner en contexto el precio de hoy."
+        "tipo": "consejos",
+        "titulo": "¿Cómo cambiar dólares sin perder dinero?",
+        "items": [
+          {
+            "titulo": "Compara lo que recibes",
+            "texto": "No la comisión ni el tipo «de compra»: el importe final en pesos."
+          },
+          {
+            "titulo": "Evita aeropuertos",
+            "texto": "Suelen tener los márgenes más altos."
+          },
+          {
+            "titulo": "Paga en pesos en México",
+            "texto": "Si una terminal te ofrece cobrarte en dólares, la conversión suele ser peor."
+          },
+          {
+            "titulo": "Transferencias internacionales",
+            "texto": "Revisa el tipo de cambio y las comisiones de cada servicio antes de enviar."
+          }
+        ]
       },
       {
-        "title": "Consejos para cambiar dólares",
-        "body": "Compara al menos tres opciones antes de cambiar cantidades grandes. Evita cambiar en el aeropuerto salvo por montos pequeños. Si pagas con tarjeta en el extranjero, elige siempre cobrar en la moneda local y no en pesos: el cargo en pesos que ofrece la terminal suele incluir un margen alto. Para recibir remesas, revisa el tipo de cambio y la comisión del servicio, porque una comisión baja puede esconder un tipo de cambio desfavorable."
+        "tipo": "texto",
+        "titulo": "¿Cómo convertir el peso mexicano a otras monedas?",
+        "parrafos": [
+          "Para euros, pesos colombianos u otras divisas, usa el [convertidor de moneda](/convertidor-moneda); para criptomonedas, el [conversor de criptomonedas](/conversor-criptomonedas). Si ahorras en pesos, compara con [CETES](/calculadora-cetes)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Banco de México: tipo de cambio FIX",
+            "url": "https://www.banxico.org.mx"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -16488,36 +16822,84 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Una tabla de amortización muestra, pago por pago, cuánto de tu cuota va a intereses, cuánto a capital y cuánto te queda por pagar. Con esta herramienta la generas para cualquier préstamo: personal, automotriz, hipotecario o de negocio. Puedes elegir entre los sistemas francés, alemán y americano. También puedes añadir abonos extra a capital para ver cuánto ahorras, incluir el IVA sobre intereses de los créditos de consumo en México y descargar la tabla en CSV para abrirla en Excel.",
-    "howToUse": [
-      "Escribe el monto del préstamo, la tasa de interés anual y el número de pagos",
-      "Elige la frecuencia de pago (mensual, quincenal, semanal…) y el sistema de amortización",
-      "Si quieres, añade un abono extra a capital en cada pago y marca la opción de IVA sobre intereses",
-      "Pulsa «Generar tabla de amortización» y descárgala en CSV o imprímela"
-    ],
-    "benefits": [
-      "Tres sistemas: francés (cuota fija), alemán (capital fijo) y americano",
-      "Seis frecuencias de pago, de semanal a anual",
-      "Simula abonos extra a capital y muestra los pagos que te ahorras",
-      "Opción de IVA del 16% sobre intereses para créditos de consumo",
-      "Exporta a CSV compatible con Excel y Google Sheets, o imprime",
-      "Sin registro y sin enviar tus datos a ningún servidor"
-    ],
-    "contentSections": [
+    "resumen": "Genera la tabla de amortización de un préstamo pago por pago, con el sistema francés, alemán o americano, el IVA sobre intereses de México y abonos extra a capital. Descárgala para abrirla en Excel.",
+    "bloques": [
       {
-        "title": "Sistema francés: la cuota fija de siempre",
-        "body": "Es el sistema de la mayoría de préstamos personales, automotrices e hipotecarios. Pagas la misma cantidad en cada periodo, calculada con la fórmula C = P·i / (1 − (1 + i)^−n), donde P es el monto, i la tasa del periodo y n el número de pagos. Al principio casi toda la cuota se va en intereses, porque el saldo es alto, y con el tiempo la parte de capital crece. Por ejemplo, $100,000 al 12% anual en 12 meses dan una cuota de $8,884.88. El primer mes pagas $1,000 de interés y $7,884.88 de capital."
+        "tipo": "infografia",
+        "archivo": "sistemas-amortizacion-comparados.webp",
+        "alt": "Comparación de los sistemas de amortización francés, alemán y americano para un préstamo de 100 mil pesos",
+        "ancho": 800,
+        "alto": 763,
+        "titulo": "¿Qué sistema de amortización cobra menos intereses?"
       },
       {
-        "title": "Sistemas alemán y americano",
-        "body": "En el sistema alemán amortizas la misma cantidad de capital en cada pago (monto ÷ número de pagos), y el interés se calcula sobre un saldo que baja cada vez. Por eso las primeras cuotas son más altas y las últimas más bajas, y el total de intereses es menor que en el francés. En el sistema americano solo pagas intereses durante el plazo y devuelves todo el capital en el último pago. Se usa en bonos y algunos créditos empresariales, y es el que más intereses genera."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se calcula la primera fila de la tabla de amortización?",
+        "datos": [
+          [
+            "Préstamo",
+            "$100,000"
+          ],
+          [
+            "Tasa",
+            "18 % anual"
+          ],
+          [
+            "Plazo",
+            "12 meses"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Interés del mes: saldo por la tasa mensual.",
+            "operacion": "100,000 × 1.5 % = $1,500"
+          },
+          {
+            "texto": "Abono a capital: la cuota menos el interés.",
+            "operacion": "9,168.00 − 1,500 = $7,668.00"
+          },
+          {
+            "texto": "Nuevo saldo: el anterior menos el abono a capital.",
+            "operacion": "100,000 − 7,668.00 = $92,332.00"
+          }
+        ],
+        "resultado": [
+          "Saldo tras el primer pago",
+          "$92,332.00"
+        ]
       },
       {
-        "title": "Cuánto ahorras con abonos a capital",
-        "body": "Cada peso que abonas a capital deja de generar intereses en todos los periodos siguientes. Con el campo de abono extra puedes ver el efecto: en el ejemplo de $100,000 al 12% a 12 meses, abonar $2,000 extra cada mes reduce el plazo a 10 pagos y los intereses de $6,618 a unos $5,431. Antes de hacer abonos, confirma con tu banco que se apliquen a capital y no a pagos adelantados, y pregunta si prefieres reducir el plazo o la cuota."
+        "tipo": "glosario",
+        "titulo": "¿Qué significa cada columna de la tabla?",
+        "items": [
+          [
+            "Pago o cuota",
+            "Lo que pagas en cada periodo."
+          ],
+          [
+            "Interés",
+            "La parte del pago que se queda el banco: saldo pendiente × tasa del periodo."
+          ],
+          [
+            "Capital",
+            "La parte que reduce tu deuda."
+          ],
+          [
+            "IVA",
+            "En México, 16 % sobre los intereses de créditos personales y de auto."
+          ],
+          [
+            "Saldo",
+            "Lo que aún debes después de ese pago."
+          ]
+        ]
       },
       {
-        "title": "IVA sobre intereses en México",
-        "body": "En los créditos de consumo, como los automotrices, personales y tarjetas de crédito, los intereses causan IVA del 16%. Los créditos hipotecarios para vivienda están exentos. Al activar la opción, la tabla suma el IVA a la parte de intereses de cada pago, igual que en el estado de cuenta de tu banco. El CAT que publican los bancos se calcula sin IVA, así que el costo real que pagas es algo mayor."
+        "tipo": "texto",
+        "titulo": "¿Qué otras calculadoras de crédito hay?",
+        "parrafos": [
+          "Para un cálculo rápido de la mensualidad, la [calculadora de préstamos](/calculadora-prestamo); para comparar créditos con comisiones, la [calculadora de CAT](/calculadora-cat); y para un auto, el [simulador de crédito automotriz](/simulador-credito-automotriz)."
+        ]
       }
     ],
     "faqs": [
@@ -16571,36 +16953,81 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Los CETES son la inversión más popular de México para empezar a ahorrar: los emite el gobierno federal, puedes comprarlos desde $100 en Cetesdirecto y no cobran comisiones. Esta calculadora reproduce cómo funcionan en realidad. Los títulos valen $10 al vencimiento y se compran con descuento, solo se adquieren títulos completos y se retiene ISR. Puedes simular una sola inversión o varias reinversiones seguidas para ver cuánto tendrías en un año.",
-    "howToUse": [
-      "Escribe cuánto quieres invertir (mínimo $100) y elige el plazo: 28, 91, 182 o 364 días",
-      "Escribe la tasa anual de la última subasta, que publican Cetesdirecto y Banxico cada semana",
-      "Indica cuántos periodos quieres reinvertir; por ejemplo, 13 periodos de 28 días equivalen a casi un año",
-      "Revisa o ajusta la tasa de retención de ISR y pulsa «Calcular rendimiento de CETES»"
-    ],
-    "benefits": [
-      "Calcula el precio exacto por título con la fórmula de descuento",
-      "Muestra cuántos títulos compras y el remanente que no se invierte",
-      "Simula la reinversión automática de capital e intereses",
-      "Descuenta la retención de ISR sobre el capital invertido",
-      "Calcula el rendimiento anual neto aproximado",
-      "Funciona con cualquier tasa, sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula cuánto ganas invirtiendo en CETES a 28, 91, 182 o 364 días: títulos que compras, ganancia, retención de ISR y lo que recibes al vencer, con o sin reinversión. Desde $100 en Cetesdirecto.",
+    "bloques": [
       {
-        "title": "Cómo funcionan los CETES",
-        "body": "CETES significa Certificados de la Tesorería de la Federación. Son títulos de deuda del gobierno con un valor nominal de $10 que se pagan al vencimiento. No generan intereses mes a mes: los compras por menos de $10 y la diferencia es tu ganancia. El precio se calcula con la tasa de descuento de la subasta semanal: precio = 10 ÷ (1 + tasa × días ÷ 360). Con una tasa del 7% a 28 días, cada título cuesta unos $9.9459, y al vencer recibes $10 por cada uno."
+        "tipo": "infografia",
+        "archivo": "ganancia-cetes-28-dias.webp",
+        "alt": "Cálculo de la ganancia de 10 mil pesos en CETES a 28 días paso a paso",
+        "ancho": 800,
+        "alto": 855,
+        "titulo": "¿Cuánto gano con CETES a 28 días paso a paso?"
       },
       {
-        "title": "Por qué siempre queda un remanente",
-        "body": "Solo se pueden comprar títulos completos. Si inviertes $10,000 y cada título cuesta $9.9459, compras 1,005 títulos por $9,995.63 y los $4.37 restantes quedan sin invertir en tu cuenta. En Cetesdirecto ese remanente se queda en tu saldo y se reinvierte en el siguiente periodo si tienes activada la reinversión automática. Con montos pequeños el efecto es mínimo, pero conviene conocerlo para entender por qué tu ganancia no coincide al centavo con una simple regla de tres."
+        "tipo": "comparacion",
+        "titulo": "¿CETES a 28 días o a un año?",
+        "columnas": [
+          {
+            "titulo": "Plazos cortos (28 y 91 días)",
+            "tono": "azul",
+            "items": [
+              "Tu dinero queda disponible antes.",
+              "Puedes aprovechar si las tasas suben.",
+              "Ideal para el fondo de emergencia."
+            ]
+          },
+          {
+            "titulo": "Plazos largos (182 y 364 días)",
+            "tono": "verde",
+            "items": [
+              "Aseguras la tasa más tiempo.",
+              "Te protegen si las tasas bajan.",
+              "Para dinero que no vas a necesitar pronto."
+            ]
+          }
+        ]
       },
       {
-        "title": "Impuestos: la retención de ISR",
-        "body": "Los intereses de los CETES pagan ISR. El intermediario retiene cada año un porcentaje sobre el capital invertido, no sobre la ganancia, con la tasa que fija la Ley de Ingresos de la Federación. La retención es proporcional a los días invertidos. En la declaración anual se calcula el interés real (la ganancia menos la inflación) y la retención se acredita contra el impuesto final. Si tus únicos intereses son de CETES y no rebasan los límites aplicables, esa retención puede considerarse pago definitivo."
+        "tipo": "glosario",
+        "titulo": "¿Qué significan valor nominal, descuento y remanente?",
+        "items": [
+          [
+            "Valor nominal",
+            "Cada CETE vale $10 al vencer."
+          ],
+          [
+            "Precio de descuento",
+            "Lo pagas un poco por debajo de $10; la diferencia es tu ganancia."
+          ],
+          [
+            "Remanente",
+            "Lo que sobra porque solo se compran títulos enteros. Se queda en tu cuenta para la siguiente compra."
+          ],
+          [
+            "Reinversión",
+            "Comprar nuevos CETES al vencer los anteriores, para sumar interés compuesto."
+          ],
+          [
+            "Retención",
+            "El ISR que se descuenta automáticamente sobre lo invertido."
+          ]
+        ]
       },
       {
-        "title": "Plazos y estrategia",
-        "body": "Los plazos más comunes son 28, 91, 182 y 364 días. Los plazos largos suelen ofrecer una tasa algo mayor, pero tu dinero queda comprometido hasta el vencimiento; puedes venderlo antes, aunque podrías recibir un precio distinto. Una estrategia frecuente es invertir a 28 días con reinversión automática si quieres flexibilidad, o escalonar plazos para tener dinero disponible cada mes. Los CETES tienen el respaldo del gobierno federal, por eso se consideran la inversión de menor riesgo en pesos."
+        "tipo": "texto",
+        "titulo": "¿Cómo comparar CETES con otras inversiones?",
+        "parrafos": [
+          "Compara siempre la tasa con la inflación: si la supera, tu dinero gana poder de compra. Para metas de ahorro, la [calculadora de ahorro](/calculadora-ahorro); para inversiones largas con aportaciones, la [calculadora de interés compuesto](/calculadora-interes-compuesto); y para tu retiro, el [comparador de AFORE](/comparador-afore)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Cetesdirecto",
+            "url": "https://www.cetesdirecto.com"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -16653,36 +17080,65 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Antes de firmar un crédito para comprar auto, conviene saber cuánto pagarás en realidad. Este simulador calcula la mensualidad a partir del precio, el enganche, la tasa y el plazo. Incluye lo que suele olvidarse: el IVA del 16% sobre los intereses, la comisión por apertura, el seguro y el CAT. Al final muestra el costo total del auto y cuánto pagas de más frente a comprarlo de contado, para comparar ofertas de agencias y bancos.",
-    "howToUse": [
-      "Escribe el precio del auto y el porcentaje de enganche que darás",
-      "Elige el plazo en meses y escribe la tasa de interés anual sin IVA que te ofrecen",
-      "Añade la comisión por apertura y, si lo pagarás en parcialidades, el costo anual del seguro",
-      "Pulsa «Simular crédito automotriz» y compara la mensualidad, el CAT y el costo total"
-    ],
-    "benefits": [
-      "Mensualidad con IVA sobre intereses, como la cobran en México",
-      "Calcula el pago inicial total: enganche más comisión por apertura",
-      "Estima el CAT con la metodología de Banxico",
-      "Suma el seguro del auto a la mensualidad si lo financias",
-      "Muestra el costo total y lo que pagas por encima del precio de contado",
-      "Plazos de 12 a 72 meses para comparar escenarios"
-    ],
-    "contentSections": [
+    "resumen": "Simula tu crédito de auto: con el precio, el enganche, la tasa y el plazo obtienes la mensualidad, los intereses, el IVA sobre intereses y lo que pagarás en total por el coche.",
+    "bloques": [
       {
-        "title": "Qué incluye la mensualidad de un crédito de auto",
-        "body": "La mensualidad tiene tres partes: el abono a capital, el interés sobre el saldo y el IVA del 16% sobre ese interés, porque en México los intereses de créditos de consumo causan IVA. Muchas financieras suman además el seguro del auto, el seguro de vida del acreditado y, a veces, un GPS o accesorios. Por eso la mensualidad que te dicen en la agencia puede ser mayor que la de una calculadora básica. Pide siempre la tabla de amortización y el desglose de cada concepto."
+        "tipo": "infografia",
+        "archivo": "costo-total-credito-automotriz.webp",
+        "alt": "Desglose del costo total de un auto a crédito: enganche, crédito, intereses e IVA",
+        "ancho": 800,
+        "alto": 853,
+        "titulo": "¿Cuánto pagas en total por un auto a crédito?"
       },
       {
-        "title": "Cuánto enganche dar y qué plazo elegir",
-        "body": "Un enganche mayor reduce el monto financiado, los intereses y, a menudo, la tasa que te ofrecen. Muchas financieras piden entre el 10% y el 35% del precio. En cuanto al plazo, alargarlo baja la mensualidad pero aumenta mucho el costo total: pasar de 36 a 72 meses puede casi duplicar los intereses. Además, un auto pierde valor rápido, y con plazos largos es fácil deber más de lo que vale el vehículo durante los primeros años."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto cambia la mensualidad según el plazo?",
+        "intro": "Crédito de $280,000 al 14 % anual con IVA sobre intereses (primera mensualidad):",
+        "cabeceras": [
+          "Plazo",
+          "Primera mensualidad",
+          "Intereses + IVA totales"
+        ],
+        "filas": [
+          [
+            "24 meses",
+            "$13,966",
+            "$49,470"
+          ],
+          [
+            "36 meses",
+            "$10,092",
+            "$74,832"
+          ],
+          [
+            "48 meses",
+            "$8,174",
+            "$101,231"
+          ],
+          [
+            "60 meses",
+            "$7,038",
+            "$128,652"
+          ]
+        ]
       },
       {
-        "title": "El CAT: la cifra para comparar créditos",
-        "body": "El Costo Anual Total (CAT) reúne en un solo porcentaje la tasa de interés, las comisiones y otros costos del crédito, sin incluir el IVA. Los bancos y financieras están obligados a informarlo en su publicidad y contratos. Dos créditos con la misma tasa pueden tener CAT distintos si uno cobra una comisión por apertura más alta. Para comparar ofertas, fíjate en el CAT y en el costo total, no solo en la mensualidad."
+        "tipo": "checklist",
+        "titulo": "¿Qué revisar antes de firmar un crédito automotriz?",
+        "items": [
+          "El CAT, no solo la tasa: compara ofertas del mismo plazo con la [calculadora de CAT](/calculadora-cat).",
+          "Si el seguro del auto va incluido o lo pagas aparte, y si puedes elegir aseguradora.",
+          "La comisión por apertura y si se paga al contado o se financia.",
+          "Si puedes hacer pagos anticipados sin penalización.",
+          "Que la mensualidad no supere el 20 % de tus ingresos netos."
+        ]
       },
       {
-        "title": "Cómo conseguir un mejor crédito",
-        "body": "Revisa tu historial en el Buró de Crédito antes de solicitar: un buen historial te da acceso a mejores tasas. Pide cotizaciones a la financiera de la marca, a tu banco y a otros bancos, y compáralas con este simulador. Pregunta si puedes hacer pagos anticipados a capital sin penalización y si puedes contratar el seguro por tu cuenta. En temporadas de promociones, algunas marcas ofrecen tasas preferenciales o meses sin intereses que conviene aprovechar."
+        "tipo": "texto",
+        "titulo": "¿Cuánto te ahorras si compras el auto de contado?",
+        "parrafos": [
+          "Si puedes esperar, ahorrar los intereses de un crédito a 48 meses equivale a pagar casi un tercio más por el coche. Calcula en cuánto tiempo juntarías el dinero con la [calculadora de ahorro](/calculadora-ahorro). Y para ver mes a mes cuánto va a capital, la [tabla de amortización](/tabla-de-amortizacion)."
+        ]
       }
     ],
     "faqs": [
@@ -16736,36 +17192,77 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "El interés simple es la forma más básica de calcular intereses: se aplican siempre sobre el capital inicial, sin reinvertir las ganancias. Esta calculadora resuelve la fórmula I = C × r × t en cualquier dirección. Calcula el interés generado, el capital que necesitas, la tasa que te están cobrando o el tiempo que tardas en ganar cierta cantidad. Acepta el tiempo en años, meses o días, con año comercial o natural, y muestra el monto final y la fórmula con tus datos.",
-    "howToUse": [
-      "Elige qué quieres calcular: interés, capital, tasa o tiempo",
-      "Escribe los tres datos que conoces; la tasa siempre es anual",
-      "Si el tiempo está en días, elige entre año comercial (360 días) y natural (365)",
-      "Pulsa «Calcular» y revisa el resultado, el monto final y la explicación"
-    ],
-    "benefits": [
-      "Despeja cualquiera de las cuatro variables de la fórmula",
-      "Tiempo en años, meses o días",
-      "Año comercial de 360 días o natural de 365",
-      "Muestra el interés que se genera por año",
-      "Ideal para tareas de matemáticas financieras",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el interés simple, el monto final, el capital, la tasa o el tiempo a partir de los otros datos, con año natural de 365 días o comercial de 360. Ideal para préstamos entre particulares, pagarés y ejercicios de clase.",
+    "bloques": [
       {
-        "title": "La fórmula del interés simple",
-        "body": "La fórmula es I = C × r × t, donde I es el interés, C el capital inicial, r la tasa de interés anual expresada en decimal y t el tiempo en años. El monto final es M = C + I, o sea M = C × (1 + r × t). Por ejemplo, $10,000 al 8% anual durante 18 meses generan I = 10,000 × 0.08 × 1.5 = $1,200, y el monto final es de $11,200. Si el tiempo está en meses, se divide entre 12; si está en días, entre 360 o 365."
+        "tipo": "infografia",
+        "archivo": "formula-interes-simple-ejemplo.webp",
+        "alt": "Fórmula del interés simple con un ejemplo y comparación con el interés compuesto",
+        "ancho": 800,
+        "alto": 830,
+        "titulo": "¿Cuánto interés genera un préstamo de $10,000 en 6 meses?"
       },
       {
-        "title": "Cómo despejar capital, tasa o tiempo",
-        "body": "A partir de la misma fórmula se obtienen las otras variables. El capital es C = I ÷ (r × t): para ganar $1,200 en 18 meses al 8%, necesitas invertir $10,000. La tasa es r = I ÷ (C × t): si $10,000 generaron $1,200 en año y medio, la tasa fue del 8% anual. El tiempo es t = I ÷ (C × r): con $10,000 al 8%, tardas 1.5 años en ganar $1,200. La calculadora hace estos despejes automáticamente."
+        "tipo": "tabla",
+        "titulo": "¿Cómo despejar cada dato de la fórmula del interés simple?",
+        "cabeceras": [
+          "Quieres saber",
+          "Fórmula"
+        ],
+        "filas": [
+          [
+            "Interés",
+            "I = C × r × t"
+          ],
+          [
+            "Monto final",
+            "M = C × (1 + r × t)"
+          ],
+          [
+            "Capital",
+            "C = I ÷ (r × t)"
+          ],
+          [
+            "Tasa",
+            "r = I ÷ (C × t)"
+          ],
+          [
+            "Tiempo",
+            "t = I ÷ (C × r)"
+          ]
+        ],
+        "nota": "La tasa y el tiempo deben estar en la misma unidad: tasa anual con tiempo en años."
       },
       {
-        "title": "Año comercial y año natural",
-        "body": "Cuando el plazo está en días, hay dos convenciones. El año comercial considera 360 días, meses de 30, y es el que usan muchos bancos, los CETES y los libros de matemáticas financieras. El año natural usa 365 días. Con el año comercial, el interés resulta ligeramente mayor para el mismo número de días. Revisa qué convención indica tu contrato o tu ejercicio escolar."
+        "tipo": "comparacion",
+        "titulo": "¿Año comercial o año natural?",
+        "columnas": [
+          {
+            "titulo": "Año comercial (360 días)",
+            "tono": "azul",
+            "items": [
+              "Usado por bancos y en muchos pagarés.",
+              "Da un interés algo mayor para el acreedor.",
+              "Cada mes cuenta como 30 días."
+            ]
+          },
+          {
+            "titulo": "Año natural (365 días)",
+            "tono": "verde",
+            "items": [
+              "Cuenta los días reales del calendario.",
+              "Más justo para el deudor.",
+              "Habitual en ejercicios escolares."
+            ]
+          }
+        ]
       },
       {
-        "title": "Interés simple frente a interés compuesto",
-        "body": "En el interés compuesto, los intereses de cada periodo se suman al capital y generan nuevos intereses. En el simple, no. Por eso, a plazos cortos la diferencia es pequeña, pero a plazos largos el compuesto crece mucho más rápido. El interés simple se usa en préstamos de corto plazo, pagarés, descuentos de documentos y algunos cálculos de moratorios. Para inversiones de largo plazo, usa nuestra calculadora de interés compuesto."
+        "tipo": "texto",
+        "titulo": "¿Cuándo se usa el interés compuesto en lugar del simple?",
+        "parrafos": [
+          "En ahorros, inversiones y la mayoría de créditos bancarios, donde los intereses generan nuevos intereses. Para esos casos usa la [calculadora de interés compuesto](/calculadora-interes-compuesto) o la [calculadora de préstamos](/calculadora-prestamo). Para porcentajes sueltos, la [calculadora de porcentajes](/calculadora-porcentaje)."
+        ]
       }
     ],
     "faqs": [
@@ -16819,36 +17316,65 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Saber a dónde se va tu dinero es el primer paso para ahorrar. Este planificador te ayuda a armar tu presupuesto mensual en pocos minutos. Escribe tu ingreso neto, anota tus gastos y clasifícalos en necesidades, gustos o ahorro. La herramienta calcula cuánto te sobra o te falta y compara tu distribución con la regla 50/30/20. Tus datos se guardan solo en tu navegador para que puedas volver a consultarlos y actualizarlos cada mes.",
-    "howToUse": [
-      "Escribe tu ingreso mensual neto, lo que realmente te depositan",
-      "Anota el monto de cada gasto de la lista; cambia, borra o añade conceptos según tu vida",
-      "Clasifica cada gasto como necesidad, gusto, o ahorro y deudas",
-      "Revisa la barra y los porcentajes para ver si tu presupuesto se acerca a la regla 50/30/20"
-    ],
-    "benefits": [
-      "Lista de gastos editable con conceptos comunes ya sugeridos",
-      "Calcula al instante cuánto te sobra o te falta",
-      "Compara tu distribución con la regla 50/30/20",
-      "Resalta en rojo las categorías que se pasan de la meta",
-      "Guarda tu presupuesto en el navegador, sin cuentas ni registro",
-      "Funciona en celular y computadora"
-    ],
-    "contentSections": [
+    "resumen": "Arma tu presupuesto mensual en minutos: escribe tu ingreso y tus gastos por categoría y compáralos con la regla 50/30/20. Tus datos se guardan solo en tu navegador para que los retomes cuando vuelvas.",
+    "bloques": [
       {
-        "title": "La regla 50/30/20",
-        "body": "La popularizaron la senadora estadounidense Elizabeth Warren y su hija Amelia Warren Tyagi en el libro «All Your Worth». Propone dividir el ingreso neto en tres partes: 50% para necesidades (vivienda, comida, servicios, transporte, salud y pagos mínimos de deudas), 30% para gustos (salidas, suscripciones, ropa que no es indispensable, viajes) y al menos 20% para ahorro, inversión y pagos extra a deudas. No es una ley, sino una guía: si vives en una ciudad cara, tus necesidades pueden superar el 50%, y entonces conviene recortar de los gustos."
+        "tipo": "infografia",
+        "archivo": "regla-50-30-20-presupuesto.webp",
+        "alt": "Reparto de un sueldo de 15 mil pesos con la regla 50/30/20",
+        "ancho": 800,
+        "alto": 751,
+        "titulo": "¿Cómo se reparte el sueldo con la regla 50/30/20?"
       },
       {
-        "title": "Cómo armar un presupuesto realista",
-        "body": "Empieza por revisar tus estados de cuenta de los últimos dos o tres meses: ahí están tus gastos reales, no los que crees tener. Separa los gastos fijos, que cambian poco, de los variables. Incluye los gastos anuales divididos entre 12, como seguros, predial, tenencia o inscripciones escolares, para que no te tomen por sorpresa. Luego asigna una cantidad a cada categoría y revisa al final del mes cuánto gastaste realmente."
+        "tipo": "pasos",
+        "titulo": "¿Cómo hacer un presupuesto mensual que sí se cumpla?",
+        "pasos": [
+          {
+            "titulo": "Parte de tu ingreso neto",
+            "texto": "Lo que llega a tu cuenta, no el bruto. Si es variable, usa el mes más bajo de los últimos seis."
+          },
+          {
+            "titulo": "Anota primero lo fijo",
+            "texto": "Renta, servicios, transporte, deudas: lo que pagas sí o sí."
+          },
+          {
+            "titulo": "Reserva el ahorro antes de gastar",
+            "texto": "Trátalo como un gasto fijo más, el día de cobro."
+          },
+          {
+            "titulo": "Revisa a fin de mes",
+            "texto": "Compara lo previsto con lo real y ajusta la categoría que se desvió."
+          }
+        ]
       },
       {
-        "title": "Primero el fondo de emergencia",
-        "body": "Antes de invertir, conviene construir un fondo de emergencia de entre tres y seis meses de gastos esenciales, guardado en un instrumento seguro y con liquidez, como una cuenta de ahorro o CETES a corto plazo. Este fondo evita que un imprevisto, como perder el empleo o una reparación urgente, te obligue a usar la tarjeta de crédito. Una vez que lo tengas, puedes destinar tu 20% de ahorro a metas de mediano plazo y al retiro."
+        "tipo": "escenarios",
+        "titulo": "¿Qué hacer si no te alcanza con la regla 50/30/20?",
+        "items": [
+          {
+            "titulo": "La renta es muy alta",
+            "situacion": "Las necesidades pasan del 60 %: recorta gustos al 20 % y mantén al menos un 10 % de ahorro.",
+            "resultado": "60/20/20 o 65/25/10"
+          },
+          {
+            "titulo": "Tienes deudas caras",
+            "situacion": "Destina el 20 % a pagarlas con un [plan de pago de deudas](/plan-pago-deudas) antes de invertir.",
+            "resultado": "Deuda primero"
+          },
+          {
+            "titulo": "Ingreso variable",
+            "situacion": "Presupuesta con el mes más bajo y ahorra todo lo que entre por encima.",
+            "resultado": "Mes base"
+          }
+        ]
       },
       {
-        "title": "Qué hacer si te falta dinero",
-        "body": "Si tus gastos superan tu ingreso, revisa primero la categoría de gustos: suscripciones que no usas, comidas fuera o compras impulsivas. Después busca ahorros en necesidades: cambiar de plan de celular, comparar el seguro del auto o reducir el consumo de luz y gas. Si tienes deudas caras, prioriza pagarlas: los intereses de una tarjeta de crédito suelen superar cualquier rendimiento que obtengas ahorrando. Nuestro plan para pagar deudas te ayuda a elegir el orden."
+        "tipo": "texto",
+        "titulo": "¿Cuánto ahorro necesito para emergencias?",
+        "parrafos": [
+          "Entre 3 y 6 meses de tus gastos fijos. Calcula cuánto apartar al mes con la [calculadora de ahorro](/calculadora-ahorro) y guárdalo en algo seguro y disponible, como [CETES](/calculadora-cetes) a corto plazo."
+        ]
       }
     ],
     "faqs": [
@@ -16902,36 +17428,51 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Si tienes varias deudas, el orden en que las pagas cambia cuánto tardas en liquidarlas y cuánto pagas de intereses. Este planificador compara los dos métodos más usados. El método avalancha paga primero la deuda con la tasa más alta; el método bola de nieve, la de menor saldo. Escribe tus deudas y cuánto puedes pagar al mes. Verás en cuántos meses quedarás libre, el total de intereses de cada método y cuánto ahorras frente a pagar solo los mínimos.",
-    "howToUse": [
-      "Añade cada deuda con su saldo actual, su tasa de interés anual y su pago mínimo mensual",
-      "Escribe el total que puedes destinar cada mes a pagar deudas; debe cubrir al menos la suma de los mínimos",
-      "Pulsa «Crear mi plan para pagar deudas»",
-      "Compara ambos métodos y sigue el orden de liquidación del que prefieras"
-    ],
-    "benefits": [
-      "Compara avalancha y bola de nieve lado a lado",
-      "Calcula los meses para quedar libre de deudas y los intereses totales",
-      "Muestra en qué mes liquidas cada deuda",
-      "Compara con el escenario de pagar solo los mínimos",
-      "Considera que cada deuda liquidada libera su pago para la siguiente",
-      "Privado: tus datos no salen de tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe tus deudas con su saldo, tasa y pago mínimo, y cuánto puedes pagar al mes: el planificador compara el método avalancha (primero la tasa más alta) y el de bola de nieve (primero el saldo más pequeño), con la fecha en que quedarás libre y los intereses de cada uno.",
+    "bloques": [
       {
-        "title": "Método avalancha: el que menos intereses cobra",
-        "body": "En el método avalancha pagas el mínimo en todas tus deudas y todo el dinero extra lo destinas a la que tiene la tasa de interés más alta. Cuando la liquidas, sumas su pago al de la siguiente con mayor tasa, y así sucesivamente. Matemáticamente es el método que menos intereses genera, porque ataca primero la deuda más cara. En México suele significar empezar por las tarjetas de crédito departamentales o bancarias, cuyas tasas anuales pueden superar el 60%."
+        "tipo": "infografia",
+        "archivo": "metodo-avalancha-bola-de-nieve.webp",
+        "alt": "Comparación de los métodos avalancha y bola de nieve para pagar tres deudas",
+        "ancho": 800,
+        "alto": 835,
+        "titulo": "¿Qué método de pago de deudas ahorra más intereses?"
       },
       {
-        "title": "Método bola de nieve: motivación con victorias rápidas",
-        "body": "En la bola de nieve, que popularizó el asesor financiero Dave Ramsey, el dinero extra va a la deuda con el saldo más pequeño, sin importar su tasa. Liquidar una deuda en pocos meses da una sensación de avance que ayuda a no rendirse, y el pago liberado crece como una bola de nieve al pasar a la siguiente deuda. Suele costar algo más de intereses que la avalancha, pero muchas personas lo terminan con más éxito por la motivación."
+        "tipo": "mitos",
+        "titulo": "¿Qué errores se cometen al pagar deudas?",
+        "items": [
+          {
+            "mito": "Pagar el mínimo de la tarjeta es suficiente.",
+            "realidad": "Con el mínimo, la mayor parte del pago se va a intereses y una deuda pequeña puede tardar años en desaparecer."
+          },
+          {
+            "mito": "Hay que repartir el dinero extra entre todas las deudas.",
+            "realidad": "Concentrarlo en una sola, mientras pagas el mínimo de las demás, las liquida antes."
+          },
+          {
+            "mito": "Consolidar deudas siempre conviene.",
+            "realidad": "Solo si la nueva tasa (y su CAT) es menor y no vuelves a usar las tarjetas liberadas."
+          }
+        ]
       },
       {
-        "title": "El problema de pagar solo el mínimo",
-        "body": "El pago mínimo de una tarjeta de crédito está diseñado para cubrir sobre todo los intereses y una parte muy pequeña del capital. Pagando solo el mínimo, una deuda de tarjeta puede tardar años en liquidarse y costar varias veces el monto original. Los bancos en México deben mostrar en el estado de cuenta cuánto tardarías en pagar con el mínimo; esta calculadora hace el mismo ejercicio con todas tus deudas juntas."
+        "tipo": "checklist",
+        "titulo": "¿Qué hacer para salir de deudas más rápido?",
+        "items": [
+          "Deja de usar las tarjetas mientras pagas: congélalas o quítalas del móvil.",
+          "Pide a tu banco una reestructura si no puedes cubrir los mínimos.",
+          "Destina aguinaldo, PTU o bonos completos a la deuda más cara.",
+          "Revisa tu buró de crédito y corrige errores.",
+          "Arma un fondo de emergencia pequeño para no volver a endeudarte por imprevistos."
+        ]
       },
       {
-        "title": "Consejos para salir de deudas",
-        "body": "Deja de usar las tarjetas mientras pagas. Negocia con tu banco una reducción de tasa o un plan de pagos si estás atrasado. Evalúa si te conviene una consolidación de deudas con un crédito personal de tasa menor, pero solo si no vuelves a endeudar las tarjetas. Destina a deudas cualquier ingreso extra, como el aguinaldo o la PTU. Y desconfía de empresas que prometen borrarte del Buró de Crédito: el historial se actualiza al pagar."
+        "tipo": "texto",
+        "titulo": "¿Cómo encaja el pago de deudas en mi presupuesto?",
+        "parrafos": [
+          "Dentro de la regla 50/30/20, el pago mínimo va en necesidades y lo extra, en el 20 % de ahorro. Organízalo con el [presupuesto mensual](/presupuesto-mensual), y si piensas consolidar, compara el costo real con la [calculadora de CAT](/calculadora-cat)."
+        ]
       }
     ],
     "faqs": [
@@ -16985,36 +17526,64 @@
     "webApp": true,
     "appCategory": "BusinessApplication",
     "intro": "Si trabajas en ventas, parte de tu ingreso depende de cuánto vendes. Esta calculadora obtiene tu comisión con los esquemas más comunes: un porcentaje fijo sobre la venta, comisiones escalonadas por tramos y un bono por alcanzar una meta. Suma tu sueldo base y muestra tu comisión efectiva. Sirve tanto a vendedores que quieren verificar su pago como a empresas que diseñan un plan de compensación.",
-    "howToUse": [
-      "Elige el esquema: porcentaje fijo, por tramos o con meta y bono",
-      "Escribe el monto de tus ventas del periodo y, si tienes, tu sueldo base",
-      "Configura el porcentaje, los tramos o la meta y el bono según tu plan",
-      "Pulsa «Calcular comisión» para ver el desglose y tu ingreso total"
-    ],
-    "benefits": [
-      "Tres esquemas de comisión en una sola herramienta",
-      "Tramos escalonados configurables, como hacen muchas empresas",
-      "Meta de ventas con bono y avance en porcentaje",
-      "Suma el sueldo base para ver el ingreso total del periodo",
-      "Muestra la comisión efectiva sobre las ventas",
-      "Útil para vendedores, gerentes y dueños de negocio"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu comisión por ventas con un porcentaje fijo, por tramos o con meta y bono. Escribe tus ventas del periodo y obtén la comisión y tu ingreso total.",
+    "bloques": [
       {
-        "title": "Comisión fija y comisión por tramos",
-        "body": "En el esquema fijo se aplica el mismo porcentaje a toda la venta: con ventas de $120,000 y una comisión del 5%, ganas $6,000. En el esquema por tramos, cada porcentaje se aplica solo a la parte de la venta dentro de su rango, como en las tarifas de impuestos. Por ejemplo, 3% hasta $50,000, 5% de $50,000 a $100,000 y 7% después. Con $120,000 de ventas ganarías $1,500 + $2,500 + $1,400 = $5,400. Los tramos premian a quien vende más sin disparar el costo para la empresa en ventas pequeñas."
+        "tipo": "infografia",
+        "archivo": "comision-ventas-por-tramos.webp",
+        "alt": "Cálculo de una comisión por ventas por tramos frente a una comisión fija",
+        "ancho": 800,
+        "alto": 657,
+        "titulo": "¿Cuánto se gana con comisión por tramos o fija?"
       },
       {
-        "title": "Metas y bonos",
-        "body": "Muchos planes añaden un bono fijo al alcanzar una meta de ventas del periodo. La calculadora muestra tu avance en porcentaje y cuánto te falta vender para el bono. Un buen diseño de metas debe ser alcanzable con esfuerzo: si casi nadie las cumple, desmotivan, y si todos las superan sin esfuerzo, el bono pierde sentido. Conviene revisarlas cada trimestre con datos reales del equipo."
+        "tipo": "tabla",
+        "titulo": "¿Qué porcentaje de comisión es habitual en cada sector?",
+        "intro": "Rangos orientativos; cada empresa fija los suyos.",
+        "cabeceras": [
+          "Sector",
+          "Comisión habitual"
+        ],
+        "filas": [
+          [
+            "Bienes raíces",
+            "3 % a 6 % del precio de venta"
+          ],
+          [
+            "Seguros",
+            "10 % a 30 % de la prima del primer año"
+          ],
+          [
+            "Autos",
+            "Monto fijo por unidad o 1 % a 3 %"
+          ],
+          [
+            "Software y servicios B2B",
+            "5 % a 15 % del contrato"
+          ],
+          [
+            "Venta en tienda",
+            "1 % a 5 % de lo vendido"
+          ]
+        ]
       },
       {
-        "title": "Las comisiones y la ley laboral en México",
-        "body": "Si eres trabajador de una empresa, tus comisiones forman parte de tu salario, según los artículos 285 a 291 de la Ley Federal del Trabajo sobre agentes de comercio. Por eso deben considerarse para calcular prestaciones como el aguinaldo, las vacaciones o una indemnización, generalmente con el promedio de lo percibido. También pagan ISR como ingreso por salarios y se integran al salario base de cotización del IMSS. Si trabajas de forma independiente, las comisiones se facturan como ingresos por honorarios o actividad empresarial."
+        "tipo": "checklist",
+        "titulo": "¿Qué debe decir tu esquema de comisiones por escrito?",
+        "items": [
+          "Sobre qué se calcula: venta facturada, cobrada o margen.",
+          "Los tramos, porcentajes y metas, con fechas de cierre.",
+          "Cuándo se pagan y en qué recibo.",
+          "Qué pasa si el cliente cancela o no paga.",
+          "Si hay tope de comisión o bonos adicionales."
+        ]
       },
       {
-        "title": "Cómo aumentar tu comisión efectiva",
-        "body": "Tu comisión efectiva es el porcentaje real que ganas sobre lo vendido. En esquemas por tramos, sube a medida que vendes más, porque una mayor parte de tus ventas cae en los tramos altos. Usa la calculadora para ver cuánto más ganarías al alcanzar el siguiente tramo o la meta: a veces una venta adicional pequeña desbloquea un bono que vale mucho más que su comisión."
+        "tipo": "texto",
+        "titulo": "¿Cómo calcular el ingreso neto con comisiones?",
+        "parrafos": [
+          "Las comisiones se suman al sueldo y pagan ISR e IMSS como él: calcula tu neto con la [calculadora de nómina](/calculadora-nomina). Si vendes por tu cuenta, revisa tu margen con la [calculadora de ROI y margen](/calculadora-roi)."
+        ]
       }
     ],
     "faqs": [
@@ -17068,36 +17637,65 @@
     "webApp": true,
     "appCategory": "LifestyleApplication",
     "intro": "¿Conviene más el paquete grande o dos chicos? ¿La promoción de tres latas es realmente una oferta? Este comparador responde en segundos. Escribe el precio y el contenido de cada presentación y calcula el precio por kilo, por litro o por pieza de cada una. Después marca cuál conviene más y cuánto más caras son las demás. Funciona con gramos, kilos, onzas, libras, mililitros, litros y piezas.",
-    "howToUse": [
-      "Escribe el nombre o la marca de cada producto que quieres comparar",
-      "Anota el precio, el contenido y la unidad (g, kg, ml, L, oz, lb o piezas)",
-      "Si la oferta incluye varios paquetes, como «3 latas de 400 g», escribe la cantidad en «unid.»",
-      "Mira qué producto aparece marcado como «Conviene más» y cuánto más caros son los otros"
-    ],
-    "benefits": [
-      "Calcula el precio por kilo, litro o pieza al instante",
-      "Compara todas las presentaciones y marcas que quieras",
-      "Convierte onzas y libras de productos importados",
-      "Maneja paquetes y promociones de varias unidades",
-      "Te avisa si mezclas peso con volumen o piezas",
-      "Ideal para usar en el celular mientras haces el súper"
-    ],
-    "contentSections": [
+    "resumen": "Escribe el precio y el tamaño de varios productos (en gramos, kilos, mililitros, litros, onzas, libras o piezas) y descubre cuál sale más barato por kilo, por litro o por pieza, incluidas las promociones 3×2 o 2×1.",
+    "bloques": [
       {
-        "title": "Por qué comparar el precio por unidad",
-        "body": "El precio en la etiqueta no dice cuál producto es más barato: dice cuánto pagas por ese paquete. Para comparar presentaciones distintas hay que llevarlas a la misma unidad. Un detergente de 900 g a $54 cuesta $60 por kilo, mientras que uno de 3 kg a $165 cuesta $55 por kilo. El grande conviene, aunque cueste más en caja. Muchos supermercados muestran el precio por kilo o litro en letra pequeña, pero no siempre, y no para las promociones."
+        "tipo": "infografia",
+        "archivo": "precio-por-kilo-comparado.webp",
+        "alt": "Comparación del precio por kilo de tres presentaciones de un producto",
+        "ancho": 800,
+        "alto": 813,
+        "titulo": "¿Cuál presentación sale más barata por kilo?"
       },
       {
-        "title": "Cuidado con las promociones",
-        "body": "Las ofertas del tipo 3x2, «lleva 2 y el segundo a mitad de precio» o los paquetes con regalo no siempre son la opción más barata. A veces la presentación familiar sin promoción sale mejor por kilo. Otras veces el paquete promocional es de un tamaño menor que el normal. Para una promoción, escribe el precio total que pagarás y el contenido total que te llevas, y compáralo con las demás opciones."
+        "tipo": "escenarios",
+        "titulo": "¿Cuándo no conviene comprar el tamaño grande?",
+        "items": [
+          {
+            "titulo": "Productos que caducan",
+            "situacion": "Lácteos, pan o verduras: si tiras una parte, el precio real por kilo sube.",
+            "resultado": "Compra lo justo"
+          },
+          {
+            "titulo": "Ofertas del tamaño chico",
+            "situacion": "Una promoción en el envase pequeño puede bajar su precio por kilo por debajo del grande.",
+            "resultado": "Compara siempre"
+          },
+          {
+            "titulo": "Presupuesto ajustado",
+            "situacion": "Pagar más hoy por un ahorro unitario puede descuadrar el mes.",
+            "resultado": "Prioriza el flujo"
+          }
+        ]
       },
       {
-        "title": "Cuándo el tamaño grande no conviene",
-        "body": "Un precio por kilo menor solo es un ahorro si consumes el producto antes de que caduque o se eche a perder. En perecederos como lácteos, pan o fruta, comprar de más puede terminar en desperdicio. También importa el espacio para guardarlo y el dinero que inmovilizas. La calculadora te da el dato objetivo, y tú decides según tu consumo."
+        "tipo": "consejos",
+        "titulo": "¿Cómo comparar precios en el súper sin calculadora?",
+        "items": [
+          {
+            "titulo": "Mira el precio unitario",
+            "texto": "Muchas etiquetas ya muestran el precio por kilo o litro en letra pequeña."
+          },
+          {
+            "titulo": "Misma unidad",
+            "texto": "Pasa todo a kilos o litros: 750 g son 0,75 kg."
+          },
+          {
+            "titulo": "Promociones",
+            "texto": "En un 3×2 divide el precio total entre las tres unidades."
+          },
+          {
+            "titulo": "Unidades de EE. UU.",
+            "texto": "Pasa onzas y libras con [onzas a gramos](/onzas-a-gramos) y [libras a kilos](/libras-a-kilos)."
+          }
+        ]
       },
       {
-        "title": "Unidades de productos importados",
-        "body": "Algunos productos importados indican el contenido en onzas (oz) o libras (lb). Una onza de peso equivale a 28.35 gramos y una libra a 453.59 gramos. La calculadora hace la conversión automáticamente. En líquidos, ten en cuenta que la onza líquida es una medida de volumen distinta de la onza de peso; para bebidas, usa el contenido en mililitros que suele venir también en la etiqueta."
+        "tipo": "texto",
+        "titulo": "¿Qué otras herramientas ayudan a gastar menos?",
+        "parrafos": [
+          "Para saber cuánto te ahorras en rebajas, la [calculadora de descuentos](/calcular-descuento); para controlar el gasto del mes, el [presupuesto mensual](/presupuesto-mensual)."
+        ]
       }
     ],
     "faqs": [
@@ -17151,36 +17749,66 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "La libra es la unidad de peso de Estados Unidos, y aparece en básculas de gimnasio, etiquetas de productos importados, recetas en inglés y reportes médicos. Este convertidor pasa libras a kilogramos con el factor exacto internacional y muestra también el resultado en gramos y onzas. Incluye una tabla con los pesos más consultados y la conversión inversa de kilos a libras con un solo clic.",
-    "howToUse": [
-      "Escribe el peso en libras (lb)",
-      "Lee el resultado en kilogramos, con su equivalencia en gramos y onzas",
-      "Pulsa ⇄ si quieres convertir de kilos a libras",
-      "Consulta la tabla para pesos corporales y cantidades frecuentes"
-    ],
-    "benefits": [
-      "Factor exacto: 1 libra = 0.45359237 kg",
-      "Conversión en ambos sentidos con un clic",
-      "Muestra el resultado en gramos y en onzas",
-      "Tabla de 1 a 250 libras para consultas rápidas",
-      "Útil para gimnasio, dietas, envíos y recetas",
-      "Funciona en el celular, sin anuncios invasivos"
-    ],
-    "contentSections": [
+    "resumen": "Convierte libras a kilos (1 lb = 0,4536 kg) y kilos a libras, también con libras y onzas. Útil para la báscula, el gimnasio, recetas en inglés y productos importados.",
+    "bloques": [
       {
-        "title": "Cuántos kilos es una libra",
-        "body": "Una libra equivale exactamente a 0.45359237 kilogramos. Ese valor se fijó en 1959 mediante un acuerdo internacional entre Estados Unidos, Reino Unido y otros países, para que la libra tuviera la misma definición en todos ellos. Para convertir libras a kilos se multiplica por 0.45359237; en la práctica basta con 0.4536. Por ejemplo, 150 libras son 150 × 0.4536 = 68.04 kg."
+        "tipo": "infografia",
+        "archivo": "tabla-libras-a-kilos-gimnasio.webp",
+        "alt": "Tabla de libras a kilos y peso en kilos de los discos de gimnasio",
+        "ancho": 800,
+        "alto": 760,
+        "titulo": "¿Qué equivalencias de libras a kilos conviene tener a mano?"
       },
       {
-        "title": "Cómo convertir libras a kilos de cabeza",
-        "body": "Un truco rápido es dividir las libras entre 2 y restar un 10% del resultado. Con 150 lb: 150 ÷ 2 = 75, y 75 − 7.5 = 67.5 kg, muy cerca del valor exacto de 68.04. Otra forma es multiplicar por 0.45: 150 × 0.45 = 67.5. Para la operación inversa, de kilos a libras, multiplica por 2.2: 70 kg son unas 154 lb. Estos atajos sirven en el gimnasio o en una tienda; para envíos, medicinas o datos médicos, usa el valor exacto de la calculadora."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuántos kilos pesa un bebé de 6 libras y 8 onzas?",
+        "pasos": [
+          {
+            "texto": "Convierte las onzas en fracción de libra: hay 16 onzas en una libra.",
+            "operacion": "8 ÷ 16 = 0,5 lb"
+          },
+          {
+            "texto": "Súmalo a las libras.",
+            "operacion": "6 + 0,5 = 6,5 lb"
+          },
+          {
+            "texto": "Multiplica por 0,4536.",
+            "operacion": "6,5 × 0,4536 = 2,95 kg"
+          }
+        ],
+        "resultado": [
+          "6 lb 8 oz",
+          "2,95 kg"
+        ]
       },
       {
-        "title": "Libras en el gimnasio y en la báscula",
-        "body": "Muchas pesas, discos y máquinas de gimnasio están marcados en libras. Un disco de 45 lb pesa 20.4 kg, y una barra olímpica estándar de 45 lb, también unos 20.4 kg. En básculas de baño importadas es común que la pantalla muestre libras por defecto; casi todas tienen un botón o interruptor para cambiar a kilogramos. Si sigues un plan de entrenamiento en inglés, convierte los pesos antes de empezar."
+        "tipo": "consejos",
+        "titulo": "¿Dónde aparecen las libras en el día a día?",
+        "items": [
+          {
+            "titulo": "Peso de bebés",
+            "texto": "En hospitales de EE. UU. el peso al nacer se da en libras y onzas."
+          },
+          {
+            "titulo": "Gimnasio",
+            "texto": "Mancuernas y discos: un disco olímpico de 45 lb pesa 20,4 kg."
+          },
+          {
+            "titulo": "Recetas en inglés",
+            "texto": "La mantequilla y la carne se miden en libras; las tazas, con [tazas a ml](/tazas-a-ml)."
+          },
+          {
+            "titulo": "Equipaje",
+            "texto": "Las aerolíneas de EE. UU. limitan a 50 lb (22,7 kg) por maleta."
+          }
+        ]
       },
       {
-        "title": "La libra y la onza",
-        "body": "Una libra se divide en 16 onzas, y cada onza pesa 28.35 gramos. Por eso la calculadora muestra el resultado también en libras y onzas cuando conviertes de kilos, como en «3 lb 8.3 oz», formato habitual en el peso de recién nacidos y en paquetería de Estados Unidos. No confundas la onza de peso con la onza líquida, que mide volumen."
+        "tipo": "texto",
+        "titulo": "¿Qué es un stone y cuántos kilos pesa?",
+        "parrafos": [
+          "Un stone son 14 libras, es decir, 6,35 kg. En Reino Unido e Irlanda el peso corporal se dice a menudo en stones y libras: «11 stone 4» son 158 libras, unos 71,7 kg. La libra en sí es la misma en todos los países desde 1959 (0,45359237 kg). Para el camino inverso usa [kilos a libras](/kilos-a-libras)."
+        ]
       }
     ],
     "faqs": [
@@ -17234,36 +17862,76 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Si ves una receta con el horno a 350 °F, un pronóstico de Estados Unidos o un termómetro importado, necesitas pasar de grados Fahrenheit a Celsius. Este convertidor lo hace al instante con la fórmula exacta y te dice qué representa esa temperatura: clima, fiebre, agua hirviendo u horno. Incluye una tabla con las conversiones más útiles para cocina y salud.",
-    "howToUse": [
-      "Escribe la temperatura en grados Fahrenheit (°F); acepta números negativos y decimales",
-      "Lee el resultado en grados Celsius y la referencia de qué significa esa temperatura",
-      "Pulsa ⇄ para convertir de Celsius a Fahrenheit",
-      "Revisa la tabla para temperaturas de horno y corporales"
-    ],
-    "benefits": [
-      "Fórmula exacta: °C = (°F − 32) × 5/9",
-      "Interpreta el resultado: clima, fiebre, agua hirviendo u horno",
-      "Tabla con temperaturas de cocina y salud",
-      "Acepta temperaturas bajo cero y decimales",
-      "Conversión inversa con un clic",
-      "Truco mental para calcular sin calculadora"
-    ],
-    "contentSections": [
+    "resumen": "Convierte grados Fahrenheit a Celsius (y Kelvin): resta 32 y divide entre 1,8. Incluye las temperaturas de horno de las recetas estadounidenses y las de fiebre.",
+    "bloques": [
       {
-        "title": "La fórmula de Fahrenheit a Celsius",
-        "body": "Para convertir de Fahrenheit a Celsius se resta 32 y se multiplica por 5/9: °C = (°F − 32) × 5/9. Se resta 32 porque el agua se congela a 32 °F y a 0 °C. Se multiplica por 5/9 porque entre el punto de congelación y el de ebullición del agua hay 180 grados Fahrenheit y solo 100 Celsius. Por ejemplo, 350 °F son (350 − 32) × 5/9 = 176.7 °C, la temperatura moderada de horno para pasteles."
+        "tipo": "infografia",
+        "archivo": "temperaturas-horno-fahrenheit-celsius.webp",
+        "alt": "Temperaturas del horno en grados Fahrenheit y su equivalencia en Celsius",
+        "ancho": 800,
+        "alto": 827,
+        "titulo": "¿A cuántos grados Celsius equivale cada temperatura de horno?"
       },
       {
-        "title": "Temperaturas de horno en Fahrenheit",
-        "body": "Las recetas estadounidenses expresan el horno en Fahrenheit. Las equivalencias más usadas son: 300 °F ≈ 150 °C (horno bajo), 325 °F ≈ 163 °C, 350 °F ≈ 177 °C (moderado, pasteles y galletas), 375 °F ≈ 190 °C, 400 °F ≈ 204 °C (alto, verduras asadas) y 450 °F ≈ 232 °C (muy alto, pizza). Muchas recetas redondean 350 °F a 180 °C, una diferencia que no afecta el resultado en casa."
+        "tipo": "tabla",
+        "titulo": "¿Cuándo hay fiebre en grados Fahrenheit?",
+        "cabeceras": [
+          "°F",
+          "°C",
+          "Significado"
+        ],
+        "filas": [
+          [
+            "97,7 – 99,5",
+            "36,5 – 37,5",
+            "Normal"
+          ],
+          [
+            "99,5 – 100,4",
+            "37,5 – 38",
+            "Febrícula"
+          ],
+          [
+            "100,4 – 102,2",
+            "38 – 39",
+            "Fiebre"
+          ],
+          [
+            "más de 102,2",
+            "más de 39",
+            "Fiebre alta"
+          ]
+        ],
+        "nota": "Ante fiebre alta, en bebés o si dura más de tres días, consulta con un profesional sanitario."
       },
       {
-        "title": "Temperatura corporal y fiebre",
-        "body": "La temperatura corporal normal de un adulto ronda los 98.6 °F, es decir, 37 °C, aunque varía entre 36 y 37.4 °C según la persona y la hora. En general se considera fiebre a partir de 100.4 °F (38 °C). Si tu termómetro marca Fahrenheit y tienes dudas, convierte la lectura y consulta a un médico ante fiebre alta, persistente o en bebés."
+        "tipo": "texto",
+        "titulo": "¿Cómo ajustar el horno si es de convección?",
+        "parrafos": [
+          "Las recetas en Fahrenheit suelen pensarse para horno convencional. Si el tuyo tiene ventilador, baja unos 15 a 20 °C la temperatura convertida o acorta el tiempo. Para el resto de medidas de la receta usa [tazas a ml](/tazas-a-ml) y [onzas a gramos](/onzas-a-gramos); para pasar Celsius a Fahrenheit, el conversor de [Celsius a Fahrenheit](/celsius-a-fahrenheit)."
+        ]
       },
       {
-        "title": "Truco para calcular de cabeza",
-        "body": "Resta 30 a los grados Fahrenheit y divide entre 2. Con 80 °F: (80 − 30) ÷ 2 = 25 °C, cerca del valor exacto de 26.7 °C. El truco funciona bien para temperaturas de clima y se desvía con valores extremos, así que para cocina o salud conviene la fórmula exacta. Un dato curioso: a −40 ambas escalas coinciden, porque −40 °F son exactamente −40 °C."
+        "tipo": "consejos",
+        "titulo": "¿Qué temperaturas en Fahrenheit conviene memorizar?",
+        "items": [
+          {
+            "titulo": "32 °F",
+            "texto": "0 °C: el agua se congela."
+          },
+          {
+            "titulo": "68 a 72 °F",
+            "texto": "20 a 22 °C: temperatura cómoda en casa."
+          },
+          {
+            "titulo": "98,6 °F",
+            "texto": "37 °C: temperatura corporal."
+          },
+          {
+            "titulo": "−40 °F",
+            "texto": "−40 °C: el único punto donde coinciden las dos escalas."
+          }
+        ]
       }
     ],
     "faqs": [
@@ -17317,36 +17985,80 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "La palabra onza se usa para tres medidas distintas. Está la onza de peso de alimentos y paquetes, la onza troy de los metales preciosos y la onza líquida, que mide volumen. Confundirlas puede arruinar una receta o hacerte pagar de más por una moneda de oro. Este convertidor te deja elegir el tipo de onza y pasa a gramos o mililitros con el valor exacto. Incluye también la conversión inversa y una tabla con las cantidades más usadas.",
-    "howToUse": [
-      "Elige el tipo de onza: de peso (alimentos), troy (oro y plata) o líquida (bebidas)",
-      "Escribe la cantidad de onzas",
-      "Lee el resultado en gramos o mililitros",
-      "Pulsa ⇄ para convertir de gramos a onzas"
-    ],
-    "benefits": [
-      "Tres tipos de onza con sus factores exactos",
-      "Onza troy para cotizar oro, plata y monedas",
-      "Onza líquida estadounidense a mililitros",
-      "Conversión inversa de gramos a onzas",
-      "Tabla de 0.5 a 32 onzas",
-      "Rápido, gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Convierte onzas a gramos y gramos a onzas, eligiendo la onza que necesitas: la de peso (28,35 g), la troy de los metales preciosos (31,10 g) o la onza líquida de volumen (29,57 ml).",
+    "bloques": [
       {
-        "title": "Onza de peso: 28.35 gramos",
-        "body": "La onza avoirdupois, abreviada oz, es la que aparece en alimentos, paquetería y recetas de Estados Unidos. Equivale exactamente a 28.349523125 gramos, y 16 onzas forman una libra. Por ejemplo, un filete de 8 oz pesa unos 227 g y una bolsa de 12 oz de café, unos 340 g. Para una conversión rápida, multiplica las onzas por 28 o por 30 si solo necesitas una idea aproximada."
+        "tipo": "infografia",
+        "archivo": "tipos-de-onza-gramos.webp",
+        "alt": "Diferencia entre onza de peso, onza troy y onza líquida en gramos y mililitros",
+        "ancho": 800,
+        "alto": 868,
+        "titulo": "¿Qué diferencia hay entre onza de peso, troy y líquida?"
       },
       {
-        "title": "Onza troy: la del oro y la plata",
-        "body": "Los metales preciosos se cotizan en onzas troy, que pesan 31.1034768 gramos, casi un 10% más que la onza común. Cuando ves el precio internacional del oro «por onza», se refiere a la onza troy. Monedas de inversión como el Centenario o la Libertad de plata se describen con esta unidad: la onza Libertad de plata contiene una onza troy de plata pura. Para calcular el valor de tu metal, usa siempre esta opción."
+        "tipo": "tabla",
+        "titulo": "¿Cuántos gramos son las onzas más habituales?",
+        "cabeceras": [
+          "Onzas",
+          "Gramos (peso)",
+          "Mililitros (líquida)"
+        ],
+        "filas": [
+          [
+            "1 oz",
+            "28,35 g",
+            "29,57 ml"
+          ],
+          [
+            "4 oz",
+            "113,4 g",
+            "118,3 ml"
+          ],
+          [
+            "8 oz",
+            "226,8 g",
+            "236,6 ml"
+          ],
+          [
+            "12 oz",
+            "340,2 g",
+            "354,9 ml"
+          ],
+          [
+            "16 oz",
+            "453,6 g",
+            "473,2 ml"
+          ]
+        ],
+        "nota": "Una lata de refresco de 12 oz líquidas son unos 355 ml."
       },
       {
-        "title": "Onza líquida: mide volumen, no peso",
-        "body": "La onza líquida (fl oz) de Estados Unidos equivale a 29.57 mililitros. Aparece en botellas de bebidas, biberones y recetas de coctelería. Una lata de 12 fl oz contiene 355 ml. En agua, una onza líquida pesa casi lo mismo que una onza de peso, pero en aceite, miel o harina el peso cambia mucho. Por eso, si una receta mide un líquido en onzas líquidas, conviértelo a mililitros, no a gramos."
+        "tipo": "escenarios",
+        "titulo": "¿Qué onza se usa en cada caso?",
+        "items": [
+          {
+            "titulo": "Un filete de 8 oz",
+            "situacion": "Peso de alimentos: onza avoirdupois.",
+            "resultado": "227 g"
+          },
+          {
+            "titulo": "Una onza de oro",
+            "situacion": "Metales preciosos: onza troy.",
+            "resultado": "31,10 g"
+          },
+          {
+            "titulo": "Un biberón de 6 oz",
+            "situacion": "Líquidos: onza líquida.",
+            "resultado": "177 ml"
+          }
+        ]
       },
       {
-        "title": "Onzas en recetas y en la cocina",
-        "body": "En recetas en inglés, los ingredientes secos suelen indicarse en onzas de peso y los líquidos en onzas líquidas o en tazas. Una báscula de cocina en gramos es la forma más precisa de seguirlas: convierte cada ingrediente con esta herramienta y pésalo. Si solo tienes tazas medidoras, consulta nuestro convertidor de tazas a mililitros."
+        "tipo": "texto",
+        "titulo": "¿Cómo convertir otras medidas de recetas?",
+        "parrafos": [
+          "Para tazas y cucharadas, usa [tazas a ml](/tazas-a-ml) y las [medidas de cocina](/medidas-de-cocina); para libras, [libras a kilos](/libras-a-kilos)."
+        ]
       }
     ],
     "faqs": [
@@ -17400,36 +18112,76 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Las recetas miden con tazas, pero no todas las tazas son iguales. La taza estadounidense tiene 236.6 ml, la métrica 250 ml y la británica 284 ml. Este convertidor pasa tazas a mililitros según el tipo de taza de tu receta y muestra también cucharadas y cucharaditas. Además incluye una tabla con los gramos que pesa una taza de ingredientes comunes, como harina, azúcar, mantequilla o arroz, para quien prefiere usar báscula.",
-    "howToUse": [
-      "Elige el tipo de taza que usa tu receta; si es estadounidense o no lo dice, usa la de 236.6 ml",
-      "Escribe cuántas tazas indica la receta; acepta fracciones como 0.5 o 0.25",
-      "Lee el resultado en mililitros, cucharadas y cucharaditas",
-      "Consulta la tabla de gramos por taza para ingredientes secos"
-    ],
-    "benefits": [
-      "Cuatro tipos de taza: estadounidense, métrica, legal y británica",
-      "Muestra equivalencias en cucharadas y cucharaditas",
-      "Tabla de gramos por taza para 12 ingredientes comunes",
-      "Acepta fracciones: 1/4, 1/3, 1/2, 2/3 y 3/4 de taza",
-      "Conversión inversa de mililitros a tazas",
-      "Pensado para usarse en el celular mientras cocinas"
-    ],
-    "contentSections": [
+    "resumen": "Convierte tazas a mililitros con la taza estadounidense (236,6 ml), la métrica (250 ml) o la británica (284 ml), y pásalas a gramos según el ingrediente: harina, azúcar, arroz, mantequilla, miel y más.",
+    "bloques": [
       {
-        "title": "¿Cuántos mililitros tiene una taza?",
-        "body": "Depende del país de la receta. La taza estadounidense, la más común en recetas en inglés y en las tazas medidoras que se venden en México, tiene 236.6 ml. La taza métrica, usada en Australia, Canadá y muchas recetas en español, tiene 250 ml. La FDA usa una taza de 240 ml en las etiquetas nutricionales. La taza imperial británica, de recetas antiguas del Reino Unido, tiene 284 ml. Para la mayoría de recetas caseras, la diferencia entre 236.6 y 250 ml no cambia el resultado."
+        "tipo": "infografia",
+        "archivo": "tazas-a-ml-y-gramos.webp",
+        "alt": "Mililitros de la taza estadounidense, métrica y británica y gramos por taza de cada ingrediente",
+        "ancho": 800,
+        "alto": 807,
+        "titulo": "¿Qué tamaños de taza existen y cuánto pesa cada ingrediente?"
       },
       {
-        "title": "Gramos por taza: por qué cambia según el ingrediente",
-        "body": "Una taza mide volumen, no peso. Una taza de agua pesa unos 237 g, pero una de harina pesa alrededor de 125 g porque tiene aire entre sus partículas, y una de miel pesa unos 340 g porque es más densa. Por eso la tabla muestra valores distintos para cada ingrediente. La forma de llenar la taza también importa: la harina cernida pesa menos que la compactada. En repostería, pesar con báscula da resultados más consistentes."
+        "tipo": "tabla",
+        "titulo": "¿Qué equivalencias en ml tienen ¾, ⅓ y ¼ de taza?",
+        "cabeceras": [
+          "Medida",
+          "Taza de EE. UU.",
+          "Taza métrica"
+        ],
+        "filas": [
+          [
+            "1 taza",
+            "236,6 ml",
+            "250 ml"
+          ],
+          [
+            "¾ taza",
+            "177,4 ml",
+            "187,5 ml"
+          ],
+          [
+            "½ taza",
+            "118,3 ml",
+            "125 ml"
+          ],
+          [
+            "⅓ taza",
+            "78,9 ml",
+            "83,3 ml"
+          ],
+          [
+            "¼ taza",
+            "59,1 ml",
+            "62,5 ml"
+          ]
+        ]
       },
       {
-        "title": "Tazas, cucharadas y cucharaditas",
-        "body": "En el sistema estadounidense, una taza tiene 16 cucharadas y una cucharada tiene 3 cucharaditas. Una cucharada mide 14.8 ml y una cucharadita, 4.9 ml; en la práctica se redondean a 15 y 5 ml. Así, 1/4 de taza son 4 cucharadas y 1/3 de taza son 5 cucharadas más 1 cucharadita. Estas equivalencias son útiles cuando no tienes la taza medidora del tamaño que pide la receta."
+        "tipo": "pasos",
+        "titulo": "¿Cómo medir harina con taza para que la receta salga bien?",
+        "pasos": [
+          {
+            "titulo": "Remueve la harina",
+            "texto": "En el paquete se compacta; suéltala con una cuchara."
+          },
+          {
+            "titulo": "Échala con cuchara",
+            "texto": "No hundas la taza en la bolsa: meterías hasta un 20 % más."
+          },
+          {
+            "titulo": "Enrasa con un cuchillo",
+            "texto": "Pasa el lomo del cuchillo por el borde para quitar lo que sobra."
+          }
+        ]
       },
       {
-        "title": "Consejos para medir con tazas",
-        "body": "Para ingredientes secos, llena la taza con una cuchara y enrasa con el borde de un cuchillo, sin golpearla ni presionar. El azúcar morena es la excepción: la receta suele pedirla compactada. Para líquidos, usa una taza medidora transparente con marcas, apóyala en una superficie plana y lee a la altura de los ojos. Y no uses tazas de café o de té como medida: su tamaño varía mucho."
+        "tipo": "texto",
+        "titulo": "¿Por qué una taza de harina no pesa lo mismo que una de azúcar?",
+        "parrafos": [
+          "Porque la taza mide volumen y cada ingrediente tiene una densidad distinta: una taza de harina pesa unos 125 g y una de miel, 340 g. Por eso las recetas de repostería precisas usan gramos. Para cucharadas y cucharaditas usa las [medidas de cocina](/medidas-de-cocina), y para el horno, [Fahrenheit a Celsius](/fahrenheit-a-celsius)."
+        ]
       }
     ],
     "faqs": [
