@@ -1258,5 +1258,125 @@
     "alt": "Fechas de liquidación, intereses y consignación de las cesantías en Colombia",
     "ancho": 800,
     "alto": 857
+  },
+  "intereses-cesantias-por-dias": {
+    "archivo": "intereses-cesantias-por-dias.webp",
+    "alt": "Fórmula y tabla de intereses de cesantías según los días trabajados en el año",
+    "ancho": 800,
+    "alto": 755
+  },
+  "depuracion-retencion-fuente": {
+    "archivo": "depuracion-retencion-fuente.webp",
+    "alt": "Paso a paso de la depuración de la retención en la fuente de un salario de diez millones de pesos",
+    "ancho": 800,
+    "alto": 768
+  },
+  "vacaciones-colombia-dias-habiles": {
+    "archivo": "vacaciones-colombia-dias-habiles.webp",
+    "alt": "Calendario de 15 días hábiles de vacaciones en Colombia y fórmula de pago",
+    "ancho": 800,
+    "alto": 683
+  },
+  "calculo-renta-quinta-categoria": {
+    "archivo": "calculo-renta-quinta-categoria.webp",
+    "alt": "Cálculo de la renta de quinta categoría en Perú con un sueldo de 5.000 soles y los tramos del impuesto",
+    "ancho": 800,
+    "alto": 800
+  },
+  "valor-uit-historico-2026": {
+    "archivo": "valor-uit-historico-2026.webp",
+    "alt": "Evolución del valor de la UIT de 2017 a 2026 y sus usos en soles",
+    "ancho": 800,
+    "alto": 767
+  },
+  "vacaciones-truncas-peru": {
+    "archivo": "vacaciones-truncas-peru.webp",
+    "alt": "Cálculo de vacaciones truncas en Perú por meses y días trabajados",
+    "ancho": 800,
+    "alto": 679
+  },
+  "diferencias-afp-onp": {
+    "archivo": "diferencias-afp-onp.webp",
+    "alt": "Diferencias entre AFP y ONP en Perú y pensión de la ONP según años de aporte",
+    "ancho": 800,
+    "alto": 766
+  },
+  "calculo-decimo-tercer-sueldo": {
+    "archivo": "calculo-decimo-tercer-sueldo.webp",
+    "alt": "Suma de lo ganado de diciembre a noviembre para calcular el décimo tercer sueldo en Ecuador",
+    "ancho": 800,
+    "alto": 773
+  },
+  "decimo-cuarto-regiones-ecuador": {
+    "archivo": "decimo-cuarto-regiones-ecuador.webp",
+    "alt": "Periodos y fechas de pago del décimo cuarto sueldo en la Sierra y la Costa, con ejemplos proporcionales",
+    "ancho": 800,
+    "alto": 671
+  },
+  "fondos-de-reserva-ecuador": {
+    "archivo": "fondos-de-reserva-ecuador.webp",
+    "alt": "Fondos de reserva del 8,33 % en Ecuador y las dos formas de cobrarlos",
+    "ancho": 800,
+    "alto": 685
+  },
+  "calculo-impuesto-renta-ecuador": {
+    "archivo": "calculo-impuesto-renta-ecuador.webp",
+    "alt": "Ejemplo de cálculo del impuesto a la renta en Ecuador con aporte al IESS, tabla y rebaja por gastos personales",
+    "ancho": 800,
+    "alto": 789
+  },
+  "semestres-aguinaldo-uruguay": {
+    "archivo": "semestres-aguinaldo-uruguay.webp",
+    "alt": "Semestres y fechas de cobro del aguinaldo en Uruguay con fórmula y ejemplos",
+    "ancho": 800,
+    "alto": 678
+  },
+  "franjas-irpf-uruguay-2026": {
+    "archivo": "franjas-irpf-uruguay-2026.webp",
+    "alt": "Franjas del IRPF uruguayo en BPC y ejemplo con un sueldo nominal de 80.000 pesos",
+    "ancho": 800,
+    "alto": 745
+  },
+  "pasos-amigo-invisible": {
+    "archivo": "pasos-amigo-invisible.webp",
+    "alt": "Cuatro pasos para organizar un amigo invisible en línea con exclusiones y enlaces individuales",
+    "ancho": 800,
+    "alto": 814
+  },
+  "cuenta-regresiva-navidad": {
+    "archivo": "cuenta-regresiva-navidad.webp",
+    "alt": "Días que faltan para Navidad desde distintas fechas y otras cuentas regresivas",
+    "ancho": 800,
+    "alto": 800
+  },
+  "reparto-presupuesto-boda": {
+    "archivo": "reparto-presupuesto-boda.webp",
+    "alt": "Reparto típico del presupuesto de una boda por partidas en porcentaje",
+    "ancho": 800,
+    "alto": 713
+  },
+  "ajustes-comprimir-imagen": {
+    "archivo": "ajustes-comprimir-imagen.webp",
+    "alt": "Qué hace cada ajuste al comprimir una imagen: formato, calidad y ancho máximo",
+    "ancho": 800,
+    "alto": 751
+  },
+  "tamanos-imagen-redes-sociales": {
+    "archivo": "tamanos-imagen-redes-sociales.webp",
+    "alt": "Proporciones y tamaños en píxeles de imágenes para Instagram, YouTube, Facebook y X",
+    "ancho": 800,
+    "alto": 772
+  },
+  "tamanos-favicon-html": {
+    "archivo": "tamanos-favicon-html.webp",
+    "alt": "Tamaños de favicon de 16 a 512 píxeles y código HTML para insertarlos",
+    "ancho": 800,
+    "alto": 627
+  },
+  "excusas-creibles-absurdas": {
+    "archivo": "excusas-creibles-absurdas.webp",
+    "alt": "Ejemplos de excusas creíbles y absurdas para llegar tarde y para no hacer la tarea",
+    "ancho": 800,
+    "alto": 750
   }
 }

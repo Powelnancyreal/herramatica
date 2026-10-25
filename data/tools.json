@@ -25507,36 +25507,57 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Además de consignar tus cesantías en el fondo, tu empleador en Colombia debe pagarte directamente un interés del 12% anual sobre ellas. Esta calculadora obtiene ese valor a partir de tu salario o de las cesantías ya liquidadas, en proporción a los días trabajados. Úsala para verificar el pago de enero o el valor que debe aparecer en tu liquidación al terminar el contrato.",
-    "howToUse": [
-      "Escribe tu salario mensual, o las cesantías del periodo si ya las conoces",
-      "Revisa las fechas del periodo; por defecto es el año en curso",
-      "Elige la opción del auxilio de transporte",
-      "Pulsa «Calcular intereses de cesantías»"
-    ],
-    "benefits": [
-      "Tasa legal del 12% anual",
-      "Proporcional a los días trabajados",
-      "Acepta el valor de las cesantías ya liquidadas",
-      "Calcula las cesantías si no las conoces",
-      "Muestra la tasa proporcional aplicada",
-      "Valores de 2026"
-    ],
-    "contentSections": [
+    "resumen": "Calcula los intereses sobre cesantías en Colombia: el 12 % anual sobre el saldo de cesantías, proporcional a los días trabajados. Puedes partir de tu salario o del saldo que ya tienes liquidado.",
+    "bloques": [
       {
-        "title": "La fórmula",
-        "body": "Los intereses se calculan con: cesantías × días trabajados × 12% ÷ 360. Si trabajaste todo el año, el interés es el 12% de las cesantías. Si trabajaste 180 días, la tasa proporcional es el 6% de las cesantías de ese periodo. Por ejemplo, con cesantías de $1.000.000 por 180 días, los intereses son $60.000."
+        "tipo": "infografia",
+        "archivo": "intereses-cesantias-por-dias.webp",
+        "alt": "Fórmula y tabla de intereses de cesantías según los días trabajados en el año",
+        "ancho": 800,
+        "alto": 755,
+        "titulo": "¿Cuánto cambian los intereses según los días trabajados?"
       },
       {
-        "title": "Plazo de pago y sanción",
-        "body": "La Ley 52 de 1975 obliga al empleador a pagar los intereses directamente al trabajador, a más tardar el 31 de enero de cada año, sobre las cesantías causadas al 31 de diciembre anterior. Si el contrato termina antes, se pagan en la liquidación final. Si el empleador no los paga a tiempo, debe pagar una suma adicional igual a los intereses como sanción, es decir, el doble."
+        "tipo": "escenarios",
+        "titulo": "¿Hay casos en que los intereses se liquidan distinto?",
+        "items": [
+          {
+            "titulo": "Terminación del contrato",
+            "situacion": "Se liquidan junto con las cesantías en el pago final, sin esperar a enero.",
+            "resultado": "Con la liquidación"
+          },
+          {
+            "titulo": "Salario integral",
+            "situacion": "Quien gana salario integral ya recibe las prestaciones incluidas en el sueldo: no hay cesantías ni intereses aparte.",
+            "resultado": "No aplica"
+          }
+        ]
       },
       {
-        "title": "Diferencia con los rendimientos del fondo",
-        "body": "Los intereses a las cesantías que paga el empleador son distintos de los rendimientos que generan las cesantías una vez consignadas en el fondo. El fondo invierte el dinero y los rendimientos se suman al saldo, pero pueden variar e incluso ser negativos en algunos periodos. Los intereses del 12% son un pago fijo del empleador que recibes en efectivo."
+        "tipo": "checklist",
+        "titulo": "¿Qué revisar en el desprendible de pago de enero?",
+        "items": [
+          "Que la base incluya el auxilio de transporte, si lo recibes.",
+          "Que los días coincidan con lo que trabajaste en el año.",
+          "Que la tasa aplicada sea el 12 % anual proporcional.",
+          "Que los intereses no aparezcan consignados en el fondo: van a tu bolsillo."
+        ]
       },
       {
-        "title": "Quiénes tienen derecho",
-        "body": "Todos los trabajadores con contrato laboral que tienen derecho a cesantías, incluidos los del servicio doméstico y los trabajadores de tiempo parcial en proporción. No aplica a trabajadores con salario integral ni a contratistas por prestación de servicios. Los intereses son un derecho irrenunciable."
+        "tipo": "texto",
+        "titulo": "¿Qué otras prestaciones se calculan en Colombia?",
+        "parrafos": [
+          "Las [cesantías](/calcular-cesantias) sobre las que se calculan los intereses, la [prima de servicios](/prima-de-servicios) y las [vacaciones](/vacaciones-colombia). Al terminar un contrato, usa la [calculadora de liquidación laboral](/calculadora-liquidacion-laboral-colombia)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Ministerio del Trabajo de Colombia",
+            "url": "https://www.mintrabajo.gov.co"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -25589,36 +25610,104 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Si ganas un salario alto en Colombia, tu empleador debe retenerte cada mes una parte como anticipo del impuesto de renta: la retención en la fuente. Esta calculadora aplica el procedimiento 1 con la tabla del artículo 383 del Estatuto Tributario y la UVT de 2026. Descuenta los aportes obligatorios a salud, pensión y al Fondo de Solidaridad Pensional, las deducciones por dependientes, medicina prepagada e intereses de vivienda, y la renta exenta del 25% con sus límites.",
-    "howToUse": [
-      "Escribe tu ingreso laboral del mes: salario, horas extra, bonificaciones y comisiones",
-      "Agrega, si tienes, medicina prepagada, intereses de vivienda y aportes voluntarios",
-      "Marca si tienes dependientes económicos",
-      "Pulsa «Calcular retención en la fuente» y revisa la depuración paso a paso"
-    ],
-    "benefits": [
-      "Tabla del artículo 383 del Estatuto Tributario",
-      "UVT de 2026: $52.374",
-      "Aportes obligatorios y Fondo de Solidaridad Pensional",
-      "Deducciones y renta exenta del 25% con sus topes",
-      "Límite global del 40% y 1.340 UVT anuales",
-      "Redondeo a miles como en la nómina"
-    ],
-    "contentSections": [
+    "resumen": "Calcula la retención en la fuente mensual de un salario en Colombia con el procedimiento 1: resta aportes a pensión, salud y fondo de solidaridad, aplica deducciones y la renta exenta del 25 % con sus límites, y lleva la base a UVT en la tabla del artículo 383.",
+    "bloques": [
       {
-        "title": "Cómo se depura la base",
-        "body": "Se parte del ingreso laboral del mes. Primero se restan los ingresos no constitutivos de renta: aportes obligatorios a pensión (4%), a salud (4%) y al Fondo de Solidaridad Pensional (1% a 2% para quienes ganan 4 o más salarios mínimos). Luego las deducciones: dependientes (10% del ingreso, máximo 32 UVT al mes), medicina prepagada (máximo 16 UVT) e intereses de crédito de vivienda (máximo 100 UVT). Después las rentas exentas, como los aportes voluntarios a pensión o a cuentas AFC y el 25% del resto, con tope de 790 UVT al año."
+        "tipo": "infografia",
+        "archivo": "depuracion-retencion-fuente.webp",
+        "alt": "Paso a paso de la depuración de la retención en la fuente de un salario de diez millones de pesos",
+        "ancho": 800,
+        "alto": 768,
+        "titulo": "¿Cómo se pasa del salario a la base de retención?"
       },
       {
-        "title": "El límite del 40%",
-        "body": "Desde la reforma tributaria de 2022, la suma de deducciones y rentas exentas no puede superar el 40% del ingreso neto (ingreso menos aportes obligatorios) ni 1.340 UVT al año, es decir, unas 111,67 UVT al mes. Por eso, con ingresos altos, algunos beneficios dejan de reducir la retención. La calculadora aplica este límite automáticamente."
+        "tipo": "tabla",
+        "titulo": "¿Qué tarifa marginal aplica en cada rango de UVT?",
+        "cabeceras": [
+          "Base gravable mensual",
+          "Tarifa marginal",
+          "Más"
+        ],
+        "filas": [
+          [
+            "Hasta 95 UVT",
+            "0 %",
+            "—"
+          ],
+          [
+            "95 a 150 UVT",
+            "19 %",
+            "—"
+          ],
+          [
+            "150 a 360 UVT",
+            "28 %",
+            "10 UVT"
+          ],
+          [
+            "360 a 640 UVT",
+            "33 %",
+            "69 UVT"
+          ],
+          [
+            "640 a 945 UVT",
+            "35 %",
+            "162 UVT"
+          ],
+          [
+            "945 a 2.300 UVT",
+            "37 %",
+            "268 UVT"
+          ],
+          [
+            "Más de 2.300 UVT",
+            "39 %",
+            "770 UVT"
+          ]
+        ],
+        "nota": "UVT de 2026: $ 52.374. La tarifa se aplica solo sobre la parte de la base que supera el inicio del rango."
       },
       {
-        "title": "La tabla del artículo 383",
-        "body": "La base gravable se convierte a UVT. Hasta 95 UVT no hay retención. Entre 95 y 150 UVT, el 19% sobre el exceso de 95; entre 150 y 360 UVT, el 28% sobre el exceso de 150 más 10 UVT; entre 360 y 640, el 33% más 69 UVT; entre 640 y 945, el 35% más 162 UVT; entre 945 y 2.300, el 37% más 268 UVT; y por encima de 2.300 UVT, el 39% más 770 UVT. Con la UVT de 2026, la retención empieza con bases gravables de unos $4,98 millones."
+        "tipo": "glosario",
+        "titulo": "¿Qué deducciones bajan la retención?",
+        "items": [
+          [
+            "Dependientes",
+            "Hasta el 10 % del ingreso, con tope de 32 UVT al mes."
+          ],
+          [
+            "Medicina prepagada",
+            "Hasta 16 UVT al mes."
+          ],
+          [
+            "Intereses de vivienda",
+            "Los de un crédito para tu casa, hasta 100 UVT al mes."
+          ],
+          [
+            "Aportes voluntarios",
+            "A pensión voluntaria o cuentas AFC, como renta exenta con sus límites."
+          ],
+          [
+            "Renta exenta del 25 %",
+            "Sobre lo que queda después de lo anterior, hasta 790 UVT al año."
+          ]
+        ]
       },
       {
-        "title": "Retención y declaración de renta",
-        "body": "La retención es un anticipo, no el impuesto definitivo. Al presentar la declaración de renta del año, se calcula el impuesto real con todos tus ingresos y beneficios, y se restan las retenciones que te practicaron. Si te retuvieron de más, tendrás un saldo a favor que puedes pedir en devolución. En la declaración anual existen beneficios adicionales, como la deducción por dependientes de 72 UVT."
+        "tipo": "texto",
+        "titulo": "¿Qué otros cálculos hay para la nómina en Colombia?",
+        "parrafos": [
+          "Los aportes de empleado y empleador con la [calculadora de seguridad social](/calculadora-seguridad-social-colombia), el impuesto de los movimientos bancarios con la [calculadora del 4x1000](/calculadora-4x1000) y la [liquidación laboral](/calculadora-liquidacion-laboral-colombia) al terminar un contrato."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "DIAN: Dirección de Impuestos y Aduanas Nacionales",
+            "url": "https://www.dian.gov.co"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -25671,36 +25760,74 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "En Colombia, cada trabajador tiene derecho a 15 días hábiles de vacaciones remuneradas por cada año de servicio. Esta calculadora obtiene cuántos días de vacaciones has causado desde tu fecha de ingreso, cuántos te quedan pendientes y cuánto vale cada día. También calcula la compensación en dinero que corresponde si terminas el contrato sin haberlas disfrutado, con la fórmula de salario por días trabajados entre 720.",
-    "howToUse": [
-      "Escribe tu salario mensual, sin el auxilio de transporte",
-      "Ingresa tu fecha de ingreso y la fecha de corte o de retiro",
-      "Escribe los días de vacaciones que ya disfrutaste",
-      "Marca si tienes salario integral y pulsa «Calcular vacaciones»"
-    ],
-    "benefits": [
-      "15 días hábiles por año según el artículo 186 del CST",
-      "Días causados y pendientes",
-      "Valor de un día de vacaciones",
-      "Compensación en dinero al terminar el contrato",
-      "Opción para salario integral (70% factor salarial)",
-      "Calendario laboral de 360 días"
-    ],
-    "contentSections": [
+    "resumen": "Calcula los días de vacaciones causados en Colombia según el tiempo trabajado (15 días hábiles por año) y cuánto te pagan por ellos, ya sea que las disfrutes o que te las compensen en dinero.",
+    "bloques": [
       {
-        "title": "Cuántos días de vacaciones tengo",
-        "body": "El artículo 186 del Código Sustantivo del Trabajo otorga 15 días hábiles consecutivos de vacaciones remuneradas por cada año de servicio. Los días hábiles excluyen domingos y festivos, y en muchas empresas también los sábados si no se trabajan. Si trabajaste parte del año, causas vacaciones en proporción: 15 × días trabajados ÷ 360. Por ejemplo, con 240 días trabajados has causado 10 días de vacaciones."
+        "tipo": "infografia",
+        "archivo": "vacaciones-colombia-dias-habiles.webp",
+        "alt": "Calendario de 15 días hábiles de vacaciones en Colombia y fórmula de pago",
+        "ancho": 800,
+        "alto": 683,
+        "titulo": "¿Cuánto descanso son 15 días hábiles?"
       },
       {
-        "title": "Cuánto se paga",
-        "body": "Durante las vacaciones recibes el salario ordinario que devengas el día en que empiezan. Si tu salario es variable, se toma el promedio de lo devengado en el último año. Para calcularlo, se divide el salario mensual entre 30 y se multiplica por los días de vacaciones. El auxilio de transporte no se incluye, porque durante las vacaciones no te desplazas al trabajo, y las horas extra tampoco forman parte de la base."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto se paga por las vacaciones de 8 meses trabajados?",
+        "datos": [
+          [
+            "Tiempo trabajado",
+            "240 días"
+          ],
+          [
+            "Salario",
+            "$ 3.000.000"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Días causados: 15 por cada 360 trabajados.",
+            "operacion": "240 × 15 ÷ 360 = 10 días hábiles"
+          },
+          {
+            "texto": "Valor de cada día de vacaciones.",
+            "operacion": "3.000.000 ÷ 30 = $ 100.000"
+          },
+          {
+            "texto": "Valor de las vacaciones causadas.",
+            "operacion": "10 × 100.000 = $ 1.000.000"
+          }
+        ]
       },
       {
-        "title": "Compensación en dinero",
-        "body": "Las vacaciones deben disfrutarse, pero la ley permite compensar en dinero hasta la mitad de ellas durante el contrato si el trabajador lo solicita por escrito. Cuando el contrato termina sin que se hayan disfrutado, se compensan todas en la liquidación con la fórmula salario × días trabajados ÷ 720. Se pueden acumular hasta dos periodos de vacaciones, o hasta cuatro en casos especiales como trabajadores técnicos o de confianza."
+        "tipo": "comparacion",
+        "titulo": "¿Qué diferencia hay entre disfrutar las vacaciones y compensarlas?",
+        "columnas": [
+          {
+            "titulo": "Disfrutarlas",
+            "tono": "verde",
+            "items": [
+              "Descansas los días hábiles causados.",
+              "Se pagan con el salario ordinario, sin horas extra.",
+              "Es la regla general."
+            ]
+          },
+          {
+            "titulo": "Compensarlas en dinero",
+            "tono": "ambar",
+            "items": [
+              "Al terminar el contrato, siempre.",
+              "Durante el contrato, solo hasta la mitad y por acuerdo escrito.",
+              "Se pagan con el último salario."
+            ]
+          }
+        ]
       },
       {
-        "title": "Salario integral",
-        "body": "Los trabajadores con salario integral tienen derecho a vacaciones igual que los demás. Para liquidarlas se toma el 70% del salario integral, que es la parte considerada factor salarial, porque el 30% restante corresponde al factor prestacional. Marca la opción de salario integral para aplicar este ajuste."
+        "tipo": "texto",
+        "titulo": "¿Qué otras prestaciones conviene calcular?",
+        "parrafos": [
+          "La [prima de servicios](/prima-de-servicios), las [cesantías](/calcular-cesantias) y sus [intereses](/intereses-cesantias). Para planear el descanso, cuenta los días hábiles con la [calculadora de días hábiles](/calculadora-dias-habiles)."
+        ]
       }
     ],
     "faqs": [
@@ -25753,36 +25880,80 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Si trabajas en planilla en Perú, tu empleador te retiene cada mes el impuesto a la renta de quinta categoría. Esta calculadora proyecta tu renta anual con las remuneraciones, las gratificaciones de julio y diciembre y la bonificación extraordinaria. Resta la deducción de 7 UIT y aplica la escala progresiva del 8% al 30% con la UIT de 2026, de S/ 5,500. Te muestra el impuesto anual, la retención mensual promedio y tu tasa efectiva.",
-    "howToUse": [
-      "Escribe tu remuneración mensual bruta y los meses de remuneración en el año",
-      "Marca si recibes gratificaciones y si estás afiliado a una EPS",
-      "Añade otros ingresos del año, como bonos o utilidades",
-      "Opcional: escribe tus gastos deducibles adicionales y pulsa «Calcular renta de quinta categoría»"
-    ],
-    "benefits": [
-      "UIT de 2026: S/ 5,500",
-      "Deducción de 7 UIT y adicional de hasta 3 UIT",
-      "Escala progresiva completa del 8% al 30%",
-      "Incluye gratificaciones y bonificación extraordinaria",
-      "Desglose del impuesto por tramo",
-      "Retención mensual promedio y tasa efectiva"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el impuesto a la renta de quinta categoría en Perú y la retención mensual de tu sueldo: suma remuneraciones, gratificaciones y bonificación extraordinaria, resta las 7 UIT y aplica los tramos del 8 % al 30 %.",
+    "bloques": [
       {
-        "title": "Cómo se calcula el impuesto",
-        "body": "Se proyecta la renta bruta anual: remuneraciones de los 12 meses, gratificaciones de julio y diciembre, la bonificación extraordinaria que las acompaña y otros ingresos como bonos o utilidades. A esa cifra se le resta la deducción fija de 7 UIT (S/ 38,500 en 2026). Sobre la renta neta resultante se aplica la escala progresiva: 8% hasta 5 UIT, 14% de 5 a 20 UIT, 17% de 20 a 35 UIT, 20% de 35 a 45 UIT y 30% por encima de 45 UIT."
+        "tipo": "infografia",
+        "archivo": "calculo-renta-quinta-categoria.webp",
+        "alt": "Cálculo de la renta de quinta categoría en Perú con un sueldo de 5.000 soles y los tramos del impuesto",
+        "ancho": 800,
+        "alto": 800,
+        "titulo": "¿Cómo se calcula la retención de quinta con un sueldo de S/ 5,000?"
       },
       {
-        "title": "Ejemplo con S/ 5,000 al mes",
-        "body": "Con una remuneración de S/ 5,000, la renta bruta anual es de S/ 60,000 de sueldos más S/ 10,000 de gratificaciones y S/ 900 de bonificación extraordinaria: S/ 70,900. Tras restar S/ 38,500, la renta neta es de S/ 32,400. Los primeros S/ 27,500 (5 UIT) pagan el 8%, S/ 2,200, y los S/ 4,900 restantes el 14%, S/ 686. El impuesto anual es de S/ 2,886, unos S/ 240.50 al mes en promedio."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto se retiene al mes según el sueldo?",
+        "intro": "Con 12 sueldos, 2 gratificaciones y la bonificación del 9 %, sin deducciones adicionales:",
+        "cabeceras": [
+          "Sueldo mensual",
+          "Renta neta anual",
+          "Impuesto anual",
+          "Retención mensual"
+        ],
+        "filas": [
+          [
+            "S/ 3,000",
+            "S/ 4,040",
+            "S/ 323.20",
+            "S/ 26.93"
+          ],
+          [
+            "S/ 5,000",
+            "S/ 32,400",
+            "S/ 2,886.00",
+            "S/ 240.50"
+          ],
+          [
+            "S/ 10,000",
+            "S/ 103,300",
+            "S/ 12,812.00",
+            "S/ 1,067.67"
+          ]
+        ]
       },
       {
-        "title": "La retención mensual",
-        "body": "El empleador no divide simplemente el impuesto anual entre 12. Según el artículo 40 del reglamento, en enero divide el impuesto proyectado entre 12; en abril recalcula restando lo retenido y divide entre 9; en mayo, entre 8; y así sucesivamente, ajustando cuando cambian tus ingresos. Por eso la retención puede variar de un mes a otro, sobre todo en los meses de gratificación."
+        "tipo": "consejos",
+        "titulo": "¿Cómo pagar menos impuesto de quinta de forma legal?",
+        "items": [
+          {
+            "titulo": "Pide boleta o recibo electrónico",
+            "texto": "Arriendos, honorarios médicos y de profesionales, restaurantes y hoteles permiten deducir hasta 3 UIT adicionales."
+          },
+          {
+            "titulo": "Paga con medios bancarios",
+            "texto": "Para que el gasto cuente, debe pagarse con tarjeta, transferencia o similar."
+          },
+          {
+            "titulo": "Revisa tu declaración en marzo",
+            "texto": "Si te retuvieron de más, puedes pedir la devolución a SUNAT."
+          }
+        ]
       },
       {
-        "title": "Deducción adicional de 3 UIT",
-        "body": "Además de las 7 UIT, puedes deducir hasta 3 UIT (S/ 16,500 en 2026) por ciertos gastos pagados con medios electrónicos y sustentados con comprobantes: alquiler de vivienda, intereses de créditos hipotecarios para primera vivienda, honorarios de médicos y odontólogos, servicios de profesionales independientes, consumos en restaurantes y hoteles, y aportes a EsSalud de trabajadores del hogar. Esta deducción se aplica en la declaración anual y puede generar una devolución."
+        "tipo": "texto",
+        "titulo": "¿Qué otras calculadoras laborales hay para Perú?",
+        "parrafos": [
+          "La [gratificación](/calcular-gratificacion-peru), la [CTS](/calculadora-cts-peru), las [vacaciones](/vacaciones-peru) y la comparación de [AFP y ONP](/afp-vs-onp). Para pasar UIT a soles, usa el conversor de [UIT a soles](/uit-a-soles)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "SUNAT: renta de quinta categoría",
+            "url": "https://www.sunat.gob.pe"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -25836,36 +26007,90 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "La Unidad Impositiva Tributaria (UIT) es el valor de referencia que usa Perú para impuestos, multas, deducciones, topes y requisitos administrativos. En 2026 vale S/ 5,500. Este conversor pasa cualquier cantidad de UIT a soles, o de soles a UIT, con el valor del año que elijas desde 2017. Incluye la tabla histórica con el aumento de cada año y los montos en UIT que más se consultan.",
-    "howToUse": [
-      "Elige el año de la UIT; por defecto, 2026",
-      "Escribe la cantidad de UIT, o pulsa ⇄ para convertir soles a UIT",
-      "Lee el resultado al instante",
-      "Consulta la tabla histórica y las referencias frecuentes"
-    ],
-    "benefits": [
-      "UIT de 2026: S/ 5,500",
-      "Valores históricos desde 2017",
-      "Conversión en ambos sentidos",
-      "Porcentaje de aumento de cada año",
-      "Referencias para renta y multas",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Convierte UIT a soles y soles a UIT con el valor de 2026 (S/ 5,500) o el de años anteriores desde 2017. Útil para multas, tasas, límites de impuestos y trámites que se expresan en UIT.",
+    "bloques": [
       {
-        "title": "Qué es la UIT",
-        "body": "La Unidad Impositiva Tributaria es un valor en soles que el Ministerio de Economía y Finanzas fija cada año mediante decreto supremo. Se usa para determinar bases imponibles, deducciones, límites de afectación, multas y otros aspectos tributarios, además de montos en normas laborales y administrativas. Para 2026, el Decreto Supremo N.º 301-2025-EF la fijó en S/ 5,500, un 2.8% más que los S/ 5,350 de 2025."
+        "tipo": "infografia",
+        "archivo": "valor-uit-historico-2026.webp",
+        "alt": "Evolución del valor de la UIT de 2017 a 2026 y sus usos en soles",
+        "ancho": 800,
+        "alto": 767,
+        "titulo": "¿Cómo ha cambiado el valor de la UIT desde 2017?"
       },
       {
-        "title": "Para qué se usa",
-        "body": "En el impuesto a la renta de trabajo se deducen 7 UIT al año y hasta 3 UIT adicionales por gastos, y la escala progresiva se expresa en tramos de UIT. Las multas de SUNAT y de muchas entidades se calculan como un porcentaje de la UIT. También sirve de referencia para los límites de los regímenes tributarios de pequeñas empresas, los topes de ciertos beneficios y los montos de algunas tasas administrativas."
+        "tipo": "tabla",
+        "titulo": "¿Cuántos soles son las cantidades de UIT más usadas en 2026?",
+        "cabeceras": [
+          "UIT",
+          "Soles"
+        ],
+        "filas": [
+          [
+            "0.5",
+            "S/ 2,750"
+          ],
+          [
+            "1",
+            "S/ 5,500"
+          ],
+          [
+            "3",
+            "S/ 16,500"
+          ],
+          [
+            "5",
+            "S/ 27,500"
+          ],
+          [
+            "7",
+            "S/ 38,500"
+          ],
+          [
+            "20",
+            "S/ 110,000"
+          ],
+          [
+            "45",
+            "S/ 247,500"
+          ]
+        ]
       },
       {
-        "title": "Qué UIT usar",
-        "body": "Se usa la UIT vigente en el momento en que ocurre el hecho: para el impuesto a la renta de un ejercicio, la UIT de ese año; para una multa tributaria, generalmente la UIT vigente cuando se cometió la infracción. Por eso el conversor permite elegir el año. Si revisas un cálculo de años anteriores, selecciona la UIT correspondiente."
+        "tipo": "escenarios",
+        "titulo": "¿En qué trámites aparece la UIT?",
+        "items": [
+          {
+            "titulo": "Impuesto a la renta",
+            "situacion": "Los primeros 7 UIT de rentas de trabajo están exentos y los tramos se miden en UIT.",
+            "resultado": "Tributos"
+          },
+          {
+            "titulo": "Multas",
+            "situacion": "Muchas sanciones administrativas y de tránsito se fijan como un porcentaje de la UIT.",
+            "resultado": "Sanciones"
+          },
+          {
+            "titulo": "Registros públicos",
+            "situacion": "Los derechos de calificación de SUNARP se calculan como porcentaje de la UIT.",
+            "resultado": "Trámites"
+          }
+        ]
       },
       {
-        "title": "Evolución de la UIT",
-        "body": "La UIT sube cada año de forma parecida a la inflación. Pasó de S/ 4,050 en 2017 a S/ 5,500 en 2026. Como muchas deducciones y tramos del impuesto están en UIT, su aumento reduce ligeramente el impuesto para quien mantiene el mismo sueldo."
+        "tipo": "texto",
+        "titulo": "¿Qué calculadoras peruanas usan la UIT?",
+        "parrafos": [
+          "La [calculadora de renta de quinta categoría](/renta-quinta-categoria), que resta 7 UIT, y la [calculadora de derechos registrales](/calculadora-registral) de SUNARP. Para el impuesto del IGV, usa la [calculadora de IGV](/calculadora-de-igv)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "SUNAT",
+            "url": "https://www.sunat.gob.pe"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -25919,36 +26144,59 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "En Perú, los trabajadores en planilla tienen derecho a 30 días calendario de vacaciones pagadas por cada año completo de trabajo. Esta calculadora obtiene el monto de las vacaciones truncas que te corresponden al terminar el contrato sin completar un año de récord. También calcula el pago por vacaciones no gozadas a tiempo, con la indemnización vacacional del Decreto Legislativo 713. Incluye la asignación familiar en la remuneración computable.",
-    "howToUse": [
-      "Elige si quieres calcular vacaciones truncas o vacaciones no gozadas",
-      "Escribe tu remuneración mensual",
-      "Para truncas, indica los meses y días trabajados desde tu último récord; para no gozadas, los periodos vencidos",
-      "Marca si recibes asignación familiar y pulsa «Calcular vacaciones»"
-    ],
-    "benefits": [
-      "Vacaciones truncas por meses y días",
-      "Indemnización vacacional por no goce a tiempo",
-      "Incluye la asignación familiar",
-      "Basada en el Decreto Legislativo 713",
-      "Resultado detallado por concepto",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tus vacaciones en Perú: la remuneración vacacional por 30 días de descanso o las vacaciones truncas si cesas antes de cumplir el año, proporcionales a los meses y días trabajados, con la asignación familiar si la recibes.",
+    "bloques": [
       {
-        "title": "El derecho a vacaciones",
-        "body": "El Decreto Legislativo 713 otorga 30 días calendario de descanso remunerado por cada año completo de servicios, siempre que se cumpla el récord vacacional: haber trabajado al menos 260 días en el año si la jornada es de seis días a la semana, o 210 días si es de cinco. La remuneración vacacional es la misma que el trabajador percibiría si estuviera trabajando y debe pagarse antes de empezar el descanso."
+        "tipo": "infografia",
+        "archivo": "vacaciones-truncas-peru.webp",
+        "alt": "Cálculo de vacaciones truncas en Perú por meses y días trabajados",
+        "ancho": 800,
+        "alto": 679,
+        "titulo": "¿Qué te pagan si cesas a los 7 meses y 10 días?"
       },
       {
-        "title": "Vacaciones truncas",
-        "body": "Cuando el contrato termina antes de completar un año de servicios desde el último récord, el trabajador tiene derecho a vacaciones truncas: un dozavo de la remuneración computable por cada mes completo y un treintavo de dozavo por cada día. Por ejemplo, con una remuneración de S/ 2,500 y 8 meses trabajados, las vacaciones truncas son 2,500 ÷ 12 × 8 = S/ 1,666.67. Se requiere al menos un mes de servicios."
+        "tipo": "checklist",
+        "titulo": "¿Qué hace falta para ganar el derecho a vacaciones?",
+        "items": [
+          "Cumplir un año completo de servicios con el mismo empleador.",
+          "Tener el récord vacacional: 260 días efectivos si trabajas 6 días por semana.",
+          "O 210 días efectivos si trabajas 5 días por semana.",
+          "Cuentan como trabajados el descanso médico de hasta 60 días, la licencia por maternidad y las vacaciones anteriores."
+        ]
       },
       {
-        "title": "Triple remuneración por no goce",
-        "body": "Si el trabajador no disfruta sus vacaciones dentro del año siguiente a aquel en que adquirió el derecho, recibe una triple remuneración: una por el trabajo realizado, otra por el descanso vacacional generado y una tercera como indemnización. La primera ya se pagó con el sueldo normal, así que la calculadora muestra la remuneración vacacional y la indemnización que se deben."
+        "tipo": "mitos",
+        "titulo": "¿Qué se cree de las vacaciones en Perú y no es así?",
+        "items": [
+          {
+            "mito": "Las vacaciones se pueden vender completas.",
+            "realidad": "Solo se pueden vender hasta 15 días, por acuerdo escrito con el empleador."
+          },
+          {
+            "mito": "Si cesas antes del año, pierdes las vacaciones.",
+            "realidad": "Te pagan las vacaciones truncas, proporcionales al tiempo trabajado."
+          },
+          {
+            "mito": "Las vacaciones se toman en días hábiles.",
+            "realidad": "Son 30 días calendario: los fines de semana y feriados dentro del periodo cuentan."
+          }
+        ]
       },
       {
-        "title": "Fraccionamiento y asignación familiar",
-        "body": "Desde el Decreto Legislativo 1405 de 2018, las vacaciones pueden fraccionarse: 15 días en periodos de al menos 7 y 8 días, y el resto en periodos más cortos, incluso de un día. La asignación familiar, que reciben quienes tienen hijos menores o estudiando, equivale al 10% de la remuneración mínima vital y forma parte de la remuneración computable. Con la RMV de S/ 1,230 vigente desde octubre de 2026, la asignación es de S/ 123."
+        "tipo": "texto",
+        "titulo": "¿Qué más calcular al dejar un trabajo en Perú?",
+        "parrafos": [
+          "La [CTS](/calculadora-cts-peru) pendiente, la [gratificación](/calcular-gratificacion-peru) trunca y la retención de la [renta de quinta](/renta-quinta-categoria) en tu último pago."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Ministerio de Trabajo y Promoción del Empleo (MTPE)",
+            "url": "https://www.gob.pe/mtpe"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -26000,36 +26248,77 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Al empezar a trabajar en Perú hay que elegir entre el Sistema Privado de Pensiones, con las AFP, y el Sistema Nacional de Pensiones, administrado por la ONP. Son sistemas muy distintos: en la AFP ahorras en una cuenta propia y tu pensión depende de lo acumulado; en la ONP aportas a un fondo común y recibes una pensión con mínimos y máximos legales. Este comparador proyecta tu pensión en ambos con tu sueldo, tu edad y tus años de aporte.",
-    "howToUse": [
-      "Escribe tu remuneración mensual y tu edad",
-      "Indica los años que ya aportaste y, si estás en una AFP, tu saldo actual",
-      "Ajusta la rentabilidad esperada del fondo y la comisión de tu AFP",
-      "Pulsa «Comparar AFP y ONP» y revisa ambas pensiones"
-    ],
-    "benefits": [
-      "Compara AFP y ONP con tus datos",
-      "Aplica los montos de la Ley 32123",
-      "Proyecta tu fondo AFP a los 65 años",
-      "Muestra el descuento mensual de cada sistema",
-      "Rentabilidad y comisión editables",
-      "Explica ventajas y riesgos de cada opción"
-    ],
-    "contentSections": [
+    "resumen": "Compara cuánto te descuentan y qué pensión podrías recibir en la ONP y en una AFP en Perú según tu sueldo, tus años de aporte y la rentabilidad esperada, con las pensiones mínima, proporcionales y máxima de la Ley 32123.",
+    "bloques": [
       {
-        "title": "Cómo funciona la ONP",
-        "body": "En el Sistema Nacional de Pensiones aportas el 13% de tu remuneración a un fondo común que paga las pensiones actuales. A cambio, recibes una pensión vitalicia al jubilarte. Según la Ley 32123 de modernización del sistema previsional, la pensión mínima es de S/ 600 con al menos 20 años de aportes y la máxima de S/ 1,000. Quienes aportaron entre 10 y 14 años reciben una pensión proporcional de S/ 300, y entre 15 y 19 años, de S/ 400. El fondo no es heredable, pero existen pensiones de viudez y orfandad."
+        "tipo": "infografia",
+        "archivo": "diferencias-afp-onp.webp",
+        "alt": "Diferencias entre AFP y ONP en Perú y pensión de la ONP según años de aporte",
+        "ancho": 800,
+        "alto": 766,
+        "titulo": "¿En qué se diferencian el sistema público y el privado?"
       },
       {
-        "title": "Cómo funciona la AFP",
-        "body": "En el Sistema Privado aportas el 10% de tu remuneración a una cuenta individual, más una prima de seguro de invalidez y sobrevivencia y la comisión de la AFP. El dinero se invierte y genera rentabilidad. Al jubilarte, tu pensión depende del saldo acumulado: puedes recibirla como renta vitalicia, retiro programado u otras modalidades. Si falleces, el saldo pasa a tus beneficiarios o herederos. La Ley 32123 también creó una pensión mínima para afiliados de AFP que cumplan ciertos requisitos."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto se descuenta al mes con un sueldo de S/ 3,000?",
+        "datos": [
+          [
+            "Sueldo",
+            "S/ 3,000"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "En la ONP: 13 % del sueldo.",
+            "operacion": "3,000 × 13 % = S/ 390"
+          },
+          {
+            "texto": "En una AFP: 10 % a tu cuenta, más comisión y prima de seguro, que varían por administradora.",
+            "operacion": "3,000 × 10 % = S/ 300 + comisión + seguro"
+          }
+        ]
       },
       {
-        "title": "¿Cuál conviene?",
-        "body": "La ONP puede convenir a quienes tienen sueldos bajos y completarán 20 años de aportes, porque la pensión mínima de S/ 600 puede superar lo que acumularían en una AFP. La AFP suele convenir a quienes tienen sueldos medios y altos, empiezan jóvenes o quieren que su ahorro sea heredable, porque la pensión ONP tiene un tope de S/ 1,000. Quien no llegará a 10 años de aportes corre el riesgo de no recibir pensión en la ONP."
+        "tipo": "escenarios",
+        "titulo": "¿Qué sistema suele convenir según tu situación?",
+        "items": [
+          {
+            "titulo": "Pocos años de aporte",
+            "situacion": "En la ONP, con menos de 10 años no hay pensión; en la AFP, el saldo siempre es tuyo.",
+            "resultado": "AFP"
+          },
+          {
+            "titulo": "Sueldo bajo y carrera larga",
+            "situacion": "La pensión mínima de la ONP (S/ 600 con 20 años) puede superar lo que daría un fondo pequeño.",
+            "resultado": "ONP"
+          },
+          {
+            "titulo": "Quieres dejar herencia",
+            "situacion": "El saldo de la AFP pasa a tus beneficiarios; el aporte a la ONP no.",
+            "resultado": "AFP"
+          }
+        ]
       },
       {
-        "title": "Limitaciones de la comparación",
-        "body": "La pensión AFP se estima repartiendo el fondo en 20 años, sin considerar la rentabilidad durante la jubilación ni las tablas de mortalidad que usan las aseguradoras para las rentas vitalicias. La pensión ONP con 20 o más años se aproxima como un porcentaje de tu remuneración, dentro de los límites legales, porque el cálculo oficial depende de tu historial de aportes. Las cifras están en soles de hoy. Pide tu simulación oficial en la ONP y en tu AFP antes de decidir."
+        "tipo": "aviso",
+        "tono": "ambar",
+        "texto": "Es una comparación orientativa. Antes de cambiar de sistema, pide tu simulación oficial a la ONP y a tu AFP."
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué más conviene calcular sobre tu sueldo en Perú?",
+        "parrafos": [
+          "La [renta de quinta categoría](/renta-quinta-categoria) que te retienen, la [CTS](/calculadora-cts-peru) y la [gratificación](/calcular-gratificacion-peru). Para proyectar ahorros propios, la [calculadora de interés compuesto](/calculadora-interes-compuesto)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Oficina de Normalización Previsional (ONP)",
+            "url": "https://www.gob.pe/onp"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -26081,36 +26370,81 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El décimo tercer sueldo, o bono navideño, es un beneficio que todo trabajador en relación de dependencia en Ecuador recibe cada diciembre. Esta calculadora obtiene su valor a partir de tu remuneración mensual y los meses trabajados, o de lo que ganaste cada mes si tus ingresos varían. Muestra el monto anual que se paga hasta el 24 de diciembre y su equivalente si lo cobras mensualizado en tu rol de pagos.",
-    "howToUse": [
-      "Elige si tu sueldo es fijo o si tus ingresos varían cada mes",
-      "Escribe tu remuneración mensual y los meses trabajados en el periodo, o lo que ganaste mes a mes",
-      "Marca si lo cobras mensualizado",
-      "Pulsa «Calcular décimo tercer sueldo»"
-    ],
-    "benefits": [
-      "Cálculo con sueldo fijo o ingresos variables",
-      "Periodo legal del 1 de diciembre al 30 de noviembre",
-      "Valor anual y mensualizado",
-      "Incluye horas extra y comisiones",
-      "Basado en el artículo 111 del Código del Trabajo",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el décimo tercer sueldo en Ecuador: la doceava parte de todo lo que ganaste entre el 1 de diciembre y el 30 de noviembre, mes por mes o con un sueldo fijo, y cuánto sería si lo cobras mensualizado.",
+    "bloques": [
       {
-        "title": "Qué es y cómo se calcula",
-        "body": "El artículo 111 del Código del Trabajo establece que los trabajadores tienen derecho a una remuneración equivalente a la doceava parte de las remuneraciones que hayan percibido durante el año calendario. El periodo de cálculo va del 1 de diciembre del año anterior al 30 de noviembre del año en curso. Se suman todos los ingresos del periodo, incluidos sueldo, horas extra, comisiones y otros pagos habituales, y se dividen entre 12. Con un sueldo fijo de $800 durante todo el periodo, el décimo tercero es de $800."
+        "tipo": "infografia",
+        "archivo": "calculo-decimo-tercer-sueldo.webp",
+        "alt": "Suma de lo ganado de diciembre a noviembre para calcular el décimo tercer sueldo en Ecuador",
+        "ancho": 800,
+        "alto": 773,
+        "titulo": "¿Cómo se suma lo ganado en el año para el décimo tercero?"
       },
       {
-        "title": "Fecha de pago",
-        "body": "Si lo recibes acumulado, el empleador debe pagarlo hasta el 24 de diciembre. Si trabajaste solo parte del periodo, recibes la parte proporcional. Al terminar la relación laboral antes de esa fecha, el valor proporcional se incluye en la liquidación o acta de finiquito."
+        "tipo": "tabla",
+        "titulo": "¿Qué ingresos entran en el décimo tercero y cuáles no?",
+        "cabeceras": [
+          "Entra",
+          "No entra"
+        ],
+        "filas": [
+          [
+            "Sueldo",
+            "Décimo cuarto"
+          ],
+          [
+            "Horas extra y suplementarias",
+            "Fondos de reserva"
+          ],
+          [
+            "Comisiones",
+            "Viáticos"
+          ],
+          [
+            "Bonos que se pagan por el trabajo",
+            "Participación de utilidades"
+          ]
+        ]
       },
       {
-        "title": "Mensualizado o acumulado",
-        "body": "Desde 2016, los trabajadores pueden elegir recibir el décimo tercero cada mes, como una doceava parte adicional a su sueldo, o acumulado en diciembre. La solicitud se hace por escrito al empleador y se registra en el sistema del Ministerio del Trabajo. Si no presentas la solicitud, se paga de forma mensual o acumulada según las reglas vigentes para tu caso; revisa tu rol de pagos."
+        "tipo": "comparacion",
+        "titulo": "¿Conviene cobrarlo acumulado o mensualizado?",
+        "columnas": [
+          {
+            "titulo": "Acumulado en diciembre",
+            "tono": "verde",
+            "items": [
+              "Llega un pago grande antes del 24 de diciembre.",
+              "Útil para gastos de fin de año o ahorro.",
+              "Es la opción por defecto."
+            ]
+          },
+          {
+            "titulo": "Mensualizado",
+            "tono": "azul",
+            "items": [
+              "Recibes la doceava parte cada mes.",
+              "Aumenta tu ingreso mensual.",
+              "Hay que pedirlo por escrito al empleador."
+            ]
+          }
+        ]
       },
       {
-        "title": "Aportes e impuestos",
-        "body": "El décimo tercer sueldo no se considera para el cálculo de aportes al IESS ni está sujeto al impuesto a la renta. Tampoco se toma en cuenta para calcular las indemnizaciones por despido. Si tu empleador no lo paga a tiempo, puedes presentar una denuncia en el Ministerio del Trabajo, que puede imponer multas."
+        "tipo": "texto",
+        "titulo": "¿Qué otros beneficios se calculan en Ecuador?",
+        "parrafos": [
+          "El [décimo cuarto sueldo](/decimo-cuarto-sueldo), los [fondos de reserva](/fondos-de-reserva) y el [impuesto a la renta](/impuesto-renta-ecuador). Recuerda que el décimo tercero no paga impuesto a la renta ni aportes al IESS."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Ministerio del Trabajo del Ecuador",
+            "url": "https://www.trabajo.gob.ec"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -26160,36 +26494,77 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El décimo cuarto sueldo, o bono escolar, es un salario básico unificado que reciben todos los trabajadores en relación de dependencia en Ecuador, sin importar cuánto ganen. Esta calculadora obtiene su valor con el SBU de 2026, de $482, en proporción a los días que trabajaste en el periodo y a tu jornada. Indica también la fecha límite de pago según tu región: Sierra y Amazonía, o Costa y Galápagos.",
-    "howToUse": [
-      "Elige tu región: Sierra y Amazonía, o Costa y Galápagos",
-      "Escribe los días trabajados en el periodo (360 si fue el año completo)",
-      "Indica tus horas semanales si trabajas a tiempo parcial",
-      "Pulsa «Calcular décimo cuarto sueldo»"
-    ],
-    "benefits": [
-      "SBU de 2026: $482",
-      "Proporcional a los días trabajados",
-      "Ajuste por jornada parcial",
-      "Periodos y fechas de pago por región",
-      "Valor mensualizado",
-      "Basado en el artículo 113 del Código del Trabajo"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el décimo cuarto sueldo en Ecuador: un salario básico unificado al año ($482 en 2026), proporcional a los días trabajados y a tu jornada, con las fechas de pago de la Sierra y Amazonía y de la Costa y Galápagos.",
+    "bloques": [
       {
-        "title": "Qué es el décimo cuarto sueldo",
-        "body": "El artículo 113 del Código del Trabajo otorga a los trabajadores una bonificación anual equivalente a un salario básico unificado vigente a la fecha de pago. A diferencia del décimo tercero, no depende del sueldo de cada persona: todos reciben lo mismo si trabajaron el año completo a tiempo completo. En 2026 el salario básico unificado es de $482, así que el décimo cuarto completo es de $482."
+        "tipo": "infografia",
+        "archivo": "decimo-cuarto-regiones-ecuador.webp",
+        "alt": "Periodos y fechas de pago del décimo cuarto sueldo en la Sierra y la Costa, con ejemplos proporcionales",
+        "ancho": 800,
+        "alto": 671,
+        "titulo": "¿Qué periodo y fecha de pago tiene cada región?"
       },
       {
-        "title": "Periodos y fechas por región",
-        "body": "En la Sierra y la Amazonía, el periodo de cálculo va del 1 de agosto al 31 de julio y el pago debe hacerse hasta el 15 de agosto, coincidiendo con el inicio del año escolar. En la Costa y Galápagos, el periodo va del 1 de marzo al último día de febrero y el pago se hace hasta el 15 de marzo. La región la determina el lugar donde trabajas."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto recibe quien entró a trabajar en enero en la Sierra?",
+        "datos": [
+          [
+            "Periodo",
+            "1 de agosto de 2025 al 31 de julio de 2026"
+          ],
+          [
+            "Días trabajados",
+            "210 (de enero a julio)"
+          ],
+          [
+            "Jornada",
+            "40 horas"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Proporción por días.",
+            "operacion": "482 × 210 ÷ 360 = $281,17"
+          },
+          {
+            "texto": "Con jornada completa no hay más ajuste.",
+            "operacion": "281,17 × 40 ÷ 40 = $281,17"
+          }
+        ]
       },
       {
-        "title": "Cálculo proporcional",
-        "body": "Si no trabajaste todo el periodo, recibes una parte proporcional: SBU × días trabajados ÷ 360. Con 180 días trabajados, el décimo cuarto es de $241. Si trabajas a tiempo parcial, el valor también es proporcional a tu jornada: con 20 horas semanales, la mitad. Al terminar la relación laboral, el proporcional se incluye en la liquidación."
+        "tipo": "mitos",
+        "titulo": "¿Qué se confunde sobre el décimo cuarto?",
+        "items": [
+          {
+            "mito": "Se calcula sobre lo que ganas.",
+            "realidad": "Es siempre un salario básico unificado, ganes lo que ganes."
+          },
+          {
+            "mito": "Se paga a todos en la misma fecha.",
+            "realidad": "Depende de la región: agosto en la Sierra y Amazonía, marzo en la Costa y Galápagos."
+          },
+          {
+            "mito": "Si trabajas medio tiempo, no te toca.",
+            "realidad": "Te toca en proporción a tus horas semanales."
+          }
+        ]
       },
       {
-        "title": "Mensualizado, aportes e impuestos",
-        "body": "Igual que el décimo tercero, el décimo cuarto puede cobrarse cada mes (SBU ÷ 12, unos $40,17 en 2026) si lo solicitas por escrito, o acumulado en la fecha de pago de tu región. No se considera para aportes al IESS ni para el impuesto a la renta."
+        "tipo": "texto",
+        "titulo": "¿Qué otros beneficios de ley conviene revisar?",
+        "parrafos": [
+          "El [décimo tercer sueldo](/decimo-tercer-sueldo) de diciembre y los [fondos de reserva](/fondos-de-reserva) desde el segundo año. Para saber si pagarás impuesto en el año, usa la [calculadora de impuesto a la renta](/impuesto-renta-ecuador)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Ministerio del Trabajo del Ecuador",
+            "url": "https://www.trabajo.gob.ec"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -26239,36 +26614,83 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Los fondos de reserva son un beneficio que el empleador paga en Ecuador a partir del segundo año de trabajo: el 8.33% de la remuneración mensual, que equivale a un sueldo al año. Esta calculadora obtiene el valor mensual y anual de tus fondos de reserva y te avisa si todavía no tienes derecho. Puedes cobrarlos cada mes con tu sueldo o acumularlos en el IESS.",
-    "howToUse": [
-      "Escribe tu remuneración mensual aportada al IESS",
-      "Opcional: ingresa tu fecha de ingreso para saber si ya tienes derecho",
-      "Indica los meses con derecho en el año",
-      "Pulsa «Calcular fondos de reserva»"
-    ],
-    "benefits": [
-      "Tasa legal del 8.33% de la remuneración",
-      "Valor mensual y anual",
-      "Verifica si ya cumpliste el primer año",
-      "Explica el cobro mensual o la acumulación en el IESS",
-      "Gratis y sin registro",
-      "Resultado al instante"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tus fondos de reserva en Ecuador: el 8,33 % de tu remuneración mensual a partir del segundo año con el mismo empleador, con lo que recibirías al mes y al año, cobrándolos en el rol o acumulándolos en el IESS.",
+    "bloques": [
       {
-        "title": "Qué son los fondos de reserva",
-        "body": "El artículo 196 del Código del Trabajo establece que todo trabajador que preste servicios por más de un año a un mismo empleador tiene derecho a que este le pague un mes de sueldo por cada año completo posterior al primero. En la práctica, el empleador paga cada mes el 8.33% de la remuneración aportada al IESS, que es la doceava parte, a partir del mes 13 de trabajo."
+        "tipo": "infografia",
+        "archivo": "fondos-de-reserva-ecuador.webp",
+        "alt": "Fondos de reserva del 8,33 % en Ecuador y las dos formas de cobrarlos",
+        "ancho": 800,
+        "alto": 685,
+        "titulo": "¿Qué ganas si dejas los fondos en el IESS en vez de cobrarlos?"
       },
       {
-        "title": "Cobro mensual o acumulado",
-        "body": "Desde 2009, el trabajador puede elegir recibir los fondos de reserva directamente en su rol de pagos cada mes o que el empleador los deposite en el IESS, donde se acumulan y generan intereses. Los fondos acumulados en el IESS pueden retirarse cada tres años, al quedar cesante, al jubilarse o usarse como garantía para préstamos quirografarios e hipotecarios. La elección se hace en el portal del IESS."
+        "tipo": "tabla",
+        "titulo": "¿Qué recibes al mes y al año con distintos sueldos?",
+        "cabeceras": [
+          "Sueldo mensual",
+          "Fondos al mes",
+          "Fondos al año"
+        ],
+        "filas": [
+          [
+            "$482 (SBU 2026)",
+            "$40,15",
+            "$481,81"
+          ],
+          [
+            "$800",
+            "$66,64",
+            "$799,68"
+          ],
+          [
+            "$1.200",
+            "$99,96",
+            "$1.199,52"
+          ],
+          [
+            "$2.000",
+            "$166,60",
+            "$1.999,20"
+          ]
+        ]
       },
       {
-        "title": "Cómo se calculan",
-        "body": "La fórmula es: remuneración mensual aportada × 8.33%. Con un sueldo de $900, los fondos de reserva son $74,97 al mes y $899,64 al año. La base incluye todo lo que aporta al IESS, como horas extra y comisiones, pero no el décimo tercero ni el décimo cuarto. Si tus ingresos varían, el valor cambia cada mes."
+        "tipo": "escenarios",
+        "titulo": "¿Para qué sirven los fondos que dejas en el IESS?",
+        "items": [
+          {
+            "titulo": "36 aportes mensuales",
+            "situacion": "Con al menos tres años de aportes puedes pedir el retiro de lo acumulado en el portal del IESS.",
+            "resultado": "Retiro"
+          },
+          {
+            "titulo": "Jubilación",
+            "situacion": "Lo acumulado se entrega al jubilarte.",
+            "resultado": "Al jubilarte"
+          },
+          {
+            "titulo": "Préstamo del BIESS",
+            "situacion": "Sirven de garantía para créditos quirografarios e hipotecarios.",
+            "resultado": "Garantía"
+          }
+        ]
       },
       {
-        "title": "Impuestos y reclamos",
-        "body": "Los fondos de reserva no pagan aportes al IESS ni impuesto a la renta. Si el empleador no los paga o no los deposita, genera intereses y multas, y puedes presentar un reclamo en el IESS o una denuncia en el Ministerio del Trabajo. Puedes consultar tus aportes y fondos acumulados en línea con tu cédula."
+        "tipo": "texto",
+        "titulo": "¿Qué otros beneficios se pagan en Ecuador?",
+        "parrafos": [
+          "El [décimo tercer sueldo](/decimo-tercer-sueldo) y el [décimo cuarto](/decimo-cuarto-sueldo). Los fondos de reserva no pagan aportes ni impuesto a la renta, como confirma la [calculadora de impuesto a la renta](/impuesto-renta-ecuador)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Instituto Ecuatoriano de Seguridad Social (IESS)",
+            "url": "https://www.iess.gob.ec"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -26318,36 +26740,109 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Los trabajadores en Ecuador cuyos ingresos superan la fracción básica pagan impuesto a la renta, que el empleador retiene cada mes. Esta calculadora aplica la tabla progresiva del SRI para 2026, con una fracción básica exenta de $12.208. Resta el aporte personal al IESS y aplica la rebaja por gastos personales: el 18% de tus gastos, con un tope según tus cargas familiares. Así obtienes el impuesto anual y la retención mensual aproximada.",
-    "howToUse": [
-      "Escribe tus ingresos gravados mensuales o anuales, sin décimos ni fondos de reserva",
-      "Escribe el total de gastos personales que proyectas en el año",
-      "Elige el número de cargas familiares",
-      "Marca si eres trabajador en relación de dependencia y pulsa «Calcular impuesto a la renta»"
-    ],
-    "benefits": [
-      "Tabla 2026 del SRI con diez tramos",
-      "Resta el aporte personal al IESS (9.45%)",
-      "Rebaja del 18% por gastos personales",
-      "Tope según cargas familiares (7 a 20 canastas)",
-      "Retención mensual aproximada",
-      "Tasa efectiva sobre tus ingresos"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el impuesto a la renta de personas naturales en Ecuador con la tabla de 2026: resta el aporte personal al IESS, aplica el tramo que te corresponde y descuenta la rebaja por gastos personales según tus cargas familiares.",
+    "bloques": [
       {
-        "title": "La tabla de 2026",
-        "body": "El SRI publicó la tabla del impuesto a la renta para 2026 en la Resolución NAC-DGERCGC25-00000043. La fracción básica exenta es de $12.208. A partir de ahí, las tasas marginales son del 5% hasta $15.549, 10% hasta $20.188, 12% hasta $26.700, 15% hasta $35.136, 20% hasta $46.575, 25% hasta $62.005, 30% hasta $82.679, 35% hasta $109.956 y 37% por encima. Cada tramo tiene un impuesto sobre la fracción básica que se suma al porcentaje del excedente."
+        "tipo": "infografia",
+        "archivo": "calculo-impuesto-renta-ecuador.webp",
+        "alt": "Ejemplo de cálculo del impuesto a la renta en Ecuador con aporte al IESS, tabla y rebaja por gastos personales",
+        "ancho": 800,
+        "alto": 789,
+        "titulo": "¿Cómo se calcula el impuesto con un sueldo de $2.500?"
       },
       {
-        "title": "Cómo se calcula la base imponible",
-        "body": "Para un trabajador en relación de dependencia, la base imponible son los ingresos gravados del año menos el aporte personal al IESS, del 9.45%. El décimo tercero, el décimo cuarto y los fondos de reserva no se suman, porque están exentos. Por ejemplo, con $30.000 de ingresos anuales, el aporte al IESS es de $2.835 y la base imponible, $27.165, que cae en el tramo del 15%: $1.412 más el 15% de $465, es decir, $1.481,75."
+        "tipo": "tabla",
+        "titulo": "¿Cuántas canastas básicas se reconocen por cada carga familiar?",
+        "intro": "La rebaja es el 18 % de los gastos, con un tope en canastas familiares básicas ($821,80 cada una):",
+        "cabeceras": [
+          "Cargas familiares",
+          "Tope de gastos",
+          "Rebaja máxima"
+        ],
+        "filas": [
+          [
+            "0",
+            "7 canastas: $5.752,60",
+            "$1.035,47"
+          ],
+          [
+            "1",
+            "9 canastas: $7.396,20",
+            "$1.331,32"
+          ],
+          [
+            "2",
+            "11 canastas: $9.039,80",
+            "$1.627,16"
+          ],
+          [
+            "3",
+            "14 canastas: $11.505,20",
+            "$2.070,94"
+          ],
+          [
+            "4",
+            "17 canastas: $13.970,60",
+            "$2.514,71"
+          ],
+          [
+            "5 o más",
+            "20 canastas: $16.436,00",
+            "$2.958,48"
+          ]
+        ]
       },
       {
-        "title": "Rebaja por gastos personales",
-        "body": "Desde la reforma de 2023, los gastos personales ya no se deducen de la base, sino que generan una rebaja del impuesto: el 18% del menor valor entre tus gastos personales y un tope en canastas familiares básicas. En 2026 se usa la canasta de enero, de $821,80. El tope es de 7 canastas sin cargas familiares, 9 con una carga, 11 con dos, 14 con tres, 17 con cuatro y 20 con cinco o más. Sin cargas, la rebaja máxima es de $1.035,47."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto cambia el impuesto si el mismo sueldo tiene dos cargas familiares?",
+        "datos": [
+          [
+            "Sueldo",
+            "$2.500 al mes"
+          ],
+          [
+            "Cargas familiares",
+            "2"
+          ],
+          [
+            "Gastos personales con factura",
+            "$9.000 al año"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "El impuesto de la tabla no cambia: depende solo de la base.",
+            "operacion": "Base $27.165,00 → impuesto $1.481,75"
+          },
+          {
+            "texto": "Con 2 cargas, el tope de gastos sube a 11 canastas.",
+            "operacion": "11 × 821,80 = $9.039,80"
+          },
+          {
+            "texto": "La rebaja es el 18 % de los gastos, sin pasar del impuesto.",
+            "operacion": "18 % × 9.000 = $1.620 → se limita a $1.481,75"
+          },
+          {
+            "texto": "Impuesto a pagar en el año.",
+            "operacion": "$0,00"
+          }
+        ]
       },
       {
-        "title": "Proyección y retención",
-        "body": "Al inicio del año, el trabajador entrega a su empleador la proyección de gastos personales, para que la retención mensual considere la rebaja. El empleador divide el impuesto proyectado entre los meses del año y lo retiene en el rol de pagos. Si tus ingresos o gastos cambian, puedes actualizar la proyección. En la declaración anual se liquida el impuesto definitivo."
+        "tipo": "texto",
+        "titulo": "¿Qué otros cálculos laborales hay para Ecuador?",
+        "parrafos": [
+          "El [décimo tercer sueldo](/decimo-tercer-sueldo), el [décimo cuarto](/decimo-cuarto-sueldo) y los [fondos de reserva](/fondos-de-reserva), que no pagan impuesto a la renta."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Servicio de Rentas Internas (SRI)",
+            "url": "https://www.sri.gob.ec"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -26397,36 +26892,52 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "En Uruguay, el aguinaldo o sueldo anual complementario se paga en dos cuotas: una en junio y otra en diciembre. Cada una equivale a la doceava parte de lo que ganaste en el semestre anterior. Esta calculadora obtiene el aguinaldo nominal con tu sueldo fijo o con lo que cobraste mes a mes. Descuenta los aportes jubilatorios y al Fondo de Reconversión Laboral para mostrarte el líquido estimado.",
-    "howToUse": [
-      "Elegí el aguinaldo de junio o de diciembre",
-      "Elegí si tu sueldo es fijo o si querés escribir lo cobrado mes a mes",
-      "Escribí tu sueldo nominal y los meses trabajados, o el nominal de cada mes",
-      "Tocá «Calcular aguinaldo» para ver el nominal y el líquido"
-    ],
-    "benefits": [
-      "Aguinaldo de junio y de diciembre",
-      "Cálculo con sueldo fijo o variable",
-      "Descuento de aporte jubilatorio y FRL",
-      "Aguinaldo nominal y líquido",
-      "Basado en la Ley 12.840",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el aguinaldo en Uruguay de junio o de diciembre: la doceava parte de lo ganado en el semestre, con sueldo fijo o mes a mes, más el líquido aproximado después de los aportes.",
+    "bloques": [
       {
-        "title": "Cómo se calcula el aguinaldo",
-        "body": "La Ley 12.840 establece que el aguinaldo es la doceava parte del total de remuneraciones percibidas en los doce meses anteriores, y la normativa posterior dispuso su pago en dos cuotas semestrales. La de junio corresponde a lo ganado entre el 1 de diciembre y el 31 de mayo, y la de diciembre a lo ganado entre el 1 de junio y el 30 de noviembre. Se suman todas las partidas salariales del semestre, incluidas horas extra y comisiones, y se divide entre 12."
+        "tipo": "infografia",
+        "archivo": "semestres-aguinaldo-uruguay.webp",
+        "alt": "Semestres y fechas de cobro del aguinaldo en Uruguay con fórmula y ejemplos",
+        "ancho": 800,
+        "alto": 678,
+        "titulo": "¿Qué meses entran en el aguinaldo de junio y en el de diciembre?"
       },
       {
-        "title": "Fechas de pago",
-        "body": "La primera cuota debe pagarse antes del 30 de junio y la segunda antes del 24 de diciembre. Si la relación laboral termina antes, el aguinaldo proporcional se paga con la liquidación final. Con un sueldo fijo de $45.000 durante todo el semestre, cada cuota de aguinaldo es de $22.500 nominales."
+        "tipo": "escenarios",
+        "titulo": "¿Cómo se calcula el aguinaldo en situaciones especiales?",
+        "items": [
+          {
+            "titulo": "Sueldo variable",
+            "situacion": "Suma lo nominal de cada mes del semestre, con horas extra y comisiones, y divide entre 12.",
+            "resultado": "Mes a mes"
+          },
+          {
+            "titulo": "Egreso antes de fin de semestre",
+            "situacion": "Se cobra el aguinaldo proporcional junto con la liquidación final.",
+            "resultado": "Proporcional"
+          },
+          {
+            "titulo": "Medio horario",
+            "situacion": "La fórmula es la misma: la doceava parte de lo que realmente cobraste en el semestre.",
+            "resultado": "Misma fórmula"
+          }
+        ]
       },
       {
-        "title": "Descuentos del aguinaldo",
-        "body": "Sobre el aguinaldo se descuentan el aporte jubilatorio al BPS (15%) y el aporte al Fondo de Reconversión Laboral (0,1%). No se descuenta FONASA. En cuanto al IRPF, los trabajadores con sueldos superiores a 10 BPC tienen un incremento del 6% en la base mensual del impuesto para ir anticipando el IRPF del aguinaldo y del salario vacacional, por lo que normalmente no se retiene IRPF adicional al cobrarlo."
+        "tipo": "texto",
+        "titulo": "¿Qué otros cálculos hay para Uruguay?",
+        "parrafos": [
+          "El [IRPF](/irpf-uruguay) que se retiene de tu sueldo, con la base aumentada un 6 % para cubrir el aguinaldo. Para comparar con otros sueldos de la región, usa el [convertidor de monedas](/convertidor-moneda)."
+        ]
       },
       {
-        "title": "Quiénes tienen derecho",
-        "body": "Todos los trabajadores de la actividad privada en relación de dependencia, incluidos los rurales y los del servicio doméstico, y también los funcionarios públicos. Los trabajadores zafrales y los jornaleros cobran en proporción a lo ganado. Si no te pagan el aguinaldo a tiempo, podés reclamar ante la Inspección General del Trabajo del MTSS."
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Ministerio de Trabajo y Seguridad Social (MTSS)",
+            "url": "https://www.gub.uy/ministerio-trabajo-seguridad-social"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -26476,36 +26987,80 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El Impuesto a la Renta de las Personas Físicas (IRPF) de Uruguay se calcula con franjas expresadas en BPC, la Base de Prestaciones y Contribuciones, que en 2026 vale $6.864. Esta calculadora estima la retención mensual de IRPF sobre tu sueldo nominal y aplica el incremento del 6% de la base cuando corresponde. Descuenta el crédito por deducciones, que incluye aportes al BPS, FONASA, FRL y los hijos a cargo, y muestra tu sueldo líquido estimado.",
-    "howToUse": [
-      "Escribí tu sueldo nominal mensual",
-      "Elegí tu aporte a FONASA según tu situación familiar",
-      "Indicá cuántos hijos tenés a cargo y, si pagás, el Fondo de Solidaridad",
-      "Tocá «Calcular IRPF» para ver el impuesto, las deducciones y el líquido"
-    ],
-    "benefits": [
-      "BPC de 2026: $6.864",
-      "Ocho franjas del 0% al 36%",
-      "Incremento del 6% para sueldos mayores a 10 BPC",
-      "Crédito por deducciones al 14% u 8%",
-      "Deducción por hijos y por hijos con discapacidad",
-      "Sueldo líquido estimado"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el IRPF mensual de un sueldo en Uruguay con las franjas en BPC de 2026, la base aumentada un 6 % cuando corresponde y las deducciones por aportes, FONASA e hijos, y estima tu sueldo líquido.",
+    "bloques": [
       {
-        "title": "Las franjas del IRPF en 2026",
-        "body": "El IRPF sobre rentas del trabajo es progresivo por franjas mensuales en BPC. Con la BPC de $6.864, hasta 7 BPC ($48.048) no se paga; de 7 a 10 BPC, 10%; de 10 a 15 BPC, 15%; de 15 a 30 BPC, 24%; de 30 a 50 BPC, 25%; de 50 a 75 BPC, 27%; de 75 a 115 BPC, 31%; y más de 115 BPC ($789.360), 36%. Cada tasa se aplica solo a la parte del ingreso dentro de su franja."
+        "tipo": "infografia",
+        "archivo": "franjas-irpf-uruguay-2026.webp",
+        "alt": "Franjas del IRPF uruguayo en BPC y ejemplo con un sueldo nominal de 80.000 pesos",
+        "ancho": 800,
+        "alto": 745,
+        "titulo": "¿Cómo se aplican las franjas del IRPF a un sueldo?"
       },
       {
-        "title": "El incremento del 6%",
-        "body": "Si tu sueldo nominal supera 10 BPC, el empleador incrementa la base imponible un 6% antes de aplicar las franjas. Así se va reteniendo durante el año el IRPF correspondiente al aguinaldo y al salario vacacional, que de otro modo generarían una deuda en la liquidación anual. Por eso, con sueldos altos, la base del cálculo es mayor que tu nominal."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto IRPF se paga con distintos sueldos nominales?",
+        "intro": "Sin hijos, FONASA del 4,5 % y BPC de $ 6.864:",
+        "cabeceras": [
+          "Sueldo nominal",
+          "IRPF del mes",
+          "Líquido aproximado"
+        ],
+        "filas": [
+          [
+            "$ 45.000",
+            "$ 0",
+            "$ 36.180"
+          ],
+          [
+            "$ 80.000",
+            "$ 2.288",
+            "$ 62.032"
+          ],
+          [
+            "$ 150.000",
+            "$ 18.305",
+            "$ 102.295"
+          ]
+        ]
       },
       {
-        "title": "Deducciones y crédito",
-        "body": "El impuesto calculado con las franjas se reduce con un crédito por deducciones. Se suman los aportes jubilatorios al BPS (15%), el aporte a FONASA, el Fondo de Reconversión Laboral (0,1%), el Fondo de Solidaridad y la deducción por hijos: 20 BPC al año por cada hijo menor a cargo ($11.440 por mes) y 40 BPC por cada hijo con discapacidad. A esa suma se le aplica el 14% si tus ingresos nominales no superan 15 BPC por mes, o el 8% si los superan."
+        "tipo": "glosario",
+        "titulo": "¿Qué significan los términos del cálculo del IRPF?",
+        "items": [
+          [
+            "BPC",
+            "Base de Prestaciones y Contribuciones: $ 6.864 en 2026. Las franjas y deducciones se miden en BPC."
+          ],
+          [
+            "Franja",
+            "Tramo del sueldo con su propio porcentaje: solo pagas ese porcentaje sobre la parte que cae en él."
+          ],
+          [
+            "Incremento del 6 %",
+            "Si el nominal supera 10 BPC, la base se aumenta para adelantar el IRPF del aguinaldo y el salario vacacional."
+          ],
+          [
+            "Deducciones",
+            "Aportes jubilatorios, FONASA, FRL e hijos a cargo. Restan el 14 % de su monto (8 % en sueldos altos)."
+          ]
+        ]
       },
       {
-        "title": "Ejemplo",
-        "body": "Con un nominal de $120.000, la base con el 6% es de $127.200. El impuesto por franjas es de $13.024,80. Las deducciones por aportes al BPS, FONASA (4,5%) y FRL suman $23.520, y como el sueldo supera 15 BPC, el crédito es del 8%: $1.881,60. El IRPF mensual resulta de unos $11.143, y el sueldo líquido, de unos $85.337. Al final del año se hace una liquidación anual que puede generar devolución o saldo a pagar."
+        "tipo": "texto",
+        "titulo": "¿Qué más calcular sobre tu sueldo en Uruguay?",
+        "parrafos": [
+          "El [aguinaldo](/aguinaldo-uruguay) de junio y diciembre. Si comparas ofertas en distintos países, el [convertidor de monedas](/convertidor-moneda) te da la equivalencia."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Dirección General Impositiva (DGI)",
+            "url": "https://www.gub.uy/direccion-general-impositiva"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -26555,36 +27110,71 @@
     "webApp": true,
     "appCategory": "EntertainmentApplication",
     "intro": "Organizar el amigo invisible, o amigo secreto, ya no requiere papelitos ni reunir a todos. Escribe los nombres de los participantes, añade las parejas que no deben regalarse entre sí y haz el sorteo. Cada persona recibe un enlace privado para abrir desde su celular y ver solo a quién le regala, así ni siquiera el organizador conoce el resultado. El sorteo garantiza que nadie se regale a sí mismo.",
-    "howToUse": [
-      "Escribe los nombres de los participantes, uno por línea",
-      "Añade exclusiones si hay parejas que no deben regalarse, por ejemplo «Ana - Luis»",
-      "Escribe el presupuesto y la fecha del intercambio, y pulsa «Hacer el sorteo»",
-      "Envía a cada persona su enlace por WhatsApp o cópialo para mandarlo por otro medio"
-    ],
-    "benefits": [
-      "Nadie se regala a sí mismo",
-      "Exclusiones para parejas o familiares",
-      "Enlace secreto individual para cada participante",
-      "Envío directo por WhatsApp",
-      "El organizador también puede jugar sin conocer el resultado",
-      "Sin registro ni datos guardados en servidores"
-    ],
-    "contentSections": [
+    "resumen": "Organiza un amigo invisible o intercambio de regalos en línea: escribe los participantes, marca quién no debe regalarse entre sí, añade presupuesto y fecha, y reparte un enlace distinto a cada persona para que solo vea a quién le regala.",
+    "bloques": [
       {
-        "title": "Cómo funciona el sorteo",
-        "body": "La herramienta mezcla a los participantes al azar con el generador criptográfico del navegador y forma una sola cadena: cada persona regala a la siguiente y la última a la primera. Así nadie se regala a sí mismo y tampoco se forman parejas que se regalen mutuamente, lo que hace el juego más divertido. Si hay exclusiones, repite el sorteo automáticamente hasta encontrar una combinación que las respete."
+        "tipo": "infografia",
+        "archivo": "pasos-amigo-invisible.webp",
+        "alt": "Cuatro pasos para organizar un amigo invisible en línea con exclusiones y enlaces individuales",
+        "ancho": 800,
+        "alto": 814,
+        "titulo": "¿Cómo se organiza el sorteo paso a paso?"
       },
       {
-        "title": "Enlaces secretos",
-        "body": "Cada participante recibe un enlace que contiene, codificado, su nombre y el de la persona a la que regala, además del presupuesto y la fecha. Al abrirlo ve un mensaje de bienvenida y pulsa un botón para descubrir a su amigo invisible. El resultado no se guarda en ningún servidor: está solo dentro del enlace. Por eso, si el organizador no abre los enlaces de los demás, nadie conoce el resultado completo. Si vuelves a sortear, envía los enlaces nuevos."
+        "tipo": "consejos",
+        "titulo": "¿Cómo lograr que el intercambio salga bien?",
+        "items": [
+          {
+            "titulo": "Fija un presupuesto claro",
+            "texto": "Un monto máximo evita regalos muy dispares y momentos incómodos."
+          },
+          {
+            "titulo": "Pide una lista de deseos",
+            "texto": "Tres ideas de regalo por persona ayudan a acertar."
+          },
+          {
+            "titulo": "Manda los enlaces en privado",
+            "texto": "Por mensaje individual, nunca en el chat del grupo."
+          },
+          {
+            "titulo": "Pon fecha y lugar desde el principio",
+            "texto": "Así todos saben cuánto tiempo tienen para comprar."
+          }
+        ]
       },
       {
-        "title": "Consejos para organizarlo",
-        "body": "Fija un presupuesto claro para que los regalos sean parecidos, por ejemplo entre 300 y 500 pesos o 20 y 30 euros. Acuerda una fecha y un lugar para el intercambio, o hazlo por videollamada si el grupo está lejos. Una lista de deseos compartida ayuda a acertar. Para las empresas, el amigo invisible es una buena dinámica de fin de año; en ese caso, evita regalos personales que puedan incomodar."
+        "tipo": "tabla",
+        "titulo": "¿Qué presupuesto se suele fijar según el grupo?",
+        "cabeceras": [
+          "Grupo",
+          "Rango que suele usarse en México"
+        ],
+        "filas": [
+          [
+            "Compañeros de trabajo",
+            "$300 a $500"
+          ],
+          [
+            "Amigos",
+            "$300 a $800"
+          ],
+          [
+            "Familia",
+            "$500 a $1,000"
+          ],
+          [
+            "Salón de clases",
+            "$100 a $300"
+          ]
+        ],
+        "nota": "Orientativo: lo importante es que todo el grupo esté de acuerdo."
       },
       {
-        "title": "Amigo invisible, amigo secreto o intercambio",
-        "body": "El juego tiene muchos nombres según el país: amigo invisible en España, amigo secreto en México, Colombia, Chile y Argentina, y también intercambio de regalos. En algunos lugares se juega a lo largo de varios días con pequeños regalos anónimos antes de revelar quién es el amigo secreto. La herramienta sirve para cualquier variante."
+        "tipo": "texto",
+        "titulo": "¿Qué otras herramientas sirven para las fiestas?",
+        "parrafos": [
+          "Cuenta los [días que faltan para Navidad](/dias-para-navidad), haz un [sorteo online](/sorteo-online) para la rifa de la posada y organiza juegos con la [tómbola de bingo](/tombola-online) o [verdad o reto](/verdad-o-reto)."
+        ]
       }
     ],
     "faqs": [
@@ -26638,36 +27228,54 @@
     "webApp": true,
     "appCategory": "LifestyleApplication",
     "intro": "¿Cuántos días faltan para Navidad? Esta cuenta regresiva te lo dice en vivo, con días, horas, minutos y segundos hasta el 25 de diciembre. Además funciona para otras fechas del año que muchos esperan: Nochebuena, Año Nuevo, Día de Reyes, San Valentín, Halloween y Día de Muertos. También puedes crear una cuenta regresiva para cualquier fecha propia, como un cumpleaños, un viaje o una boda.",
-    "howToUse": [
-      "Abre la página: la cuenta regresiva para Navidad empieza sola",
-      "Elige otra celebración tocando su botón",
-      "Para una fecha personal, pulsa «Otra fecha» y selecciónala en el calendario",
-      "Deja la página abierta para ver la cuenta en tiempo real"
-    ],
-    "benefits": [
-      "Cuenta regresiva en vivo al segundo",
-      "Siete celebraciones populares",
-      "Cuenta regresiva para cualquier fecha",
-      "Pasa automáticamente al año siguiente",
-      "Usa la hora de tu dispositivo",
-      "Funciona en celular y computadora"
-    ],
-    "contentSections": [
+    "resumen": "Cuenta regresiva para Navidad con los días, horas, minutos y segundos que faltan para el 25 de diciembre, y para otras fechas como Nochebuena, Año Nuevo, Reyes, San Valentín, Halloween o Día de Muertos.",
+    "bloques": [
       {
-        "title": "Cómo se calcula",
-        "body": "La herramienta toma la fecha y hora de tu dispositivo y calcula el tiempo que falta hasta la medianoche del día elegido. Si la celebración de este año ya pasó, cuenta hasta la del año siguiente. Por eso el resultado depende de tu zona horaria: en México y en España la Navidad llega en momentos distintos. Los días que se muestran son días completos; los restantes, en horas, minutos y segundos."
+        "tipo": "infografia",
+        "archivo": "cuenta-regresiva-navidad.webp",
+        "alt": "Días que faltan para Navidad desde distintas fechas y otras cuentas regresivas",
+        "ancho": 800,
+        "alto": 800,
+        "titulo": "¿Cuánto se acorta la espera mes a mes hasta el 25 de diciembre?"
       },
       {
-        "title": "Fechas de las fiestas de fin de año",
-        "body": "La Nochebuena se celebra la noche del 24 de diciembre y la Navidad el 25. En muchos países de habla hispana, las fiestas se extienden hasta el Día de Reyes, el 6 de enero, cuando los niños reciben regalos de los Reyes Magos y se comparte la rosca o el roscón. En México, las posadas se celebran del 16 al 24 de diciembre. El Año Nuevo, el 1 de enero, se recibe en muchos lugares con doce uvas, una por cada campanada."
+        "tipo": "checklist",
+        "titulo": "¿Qué conviene tener listo antes de Navidad?",
+        "items": [
+          "Presupuesto de regalos y cena, con un tope por persona.",
+          "Lista de regalos comprados y pendientes.",
+          "Sorteo del intercambio de regalos, al menos tres semanas antes.",
+          "Compras de envío, antes de mediados de diciembre.",
+          "Menú y lista del súper de la cena del 24."
+        ]
       },
       {
-        "title": "Organiza con tiempo",
-        "body": "Saber cuántos días faltan ayuda a planificar compras, viajes y presupuestos. Con más de un mes de anticipación puedes organizar el amigo invisible del trabajo o de la familia, comparar precios de regalos y reservar vuelos más baratos. Nuestra herramienta de amigo invisible y el presupuesto mensual te ayudan a que las fiestas no desordenen tus finanzas."
+        "tipo": "escenarios",
+        "titulo": "¿Para qué otras fechas sirve la cuenta regresiva?",
+        "items": [
+          {
+            "titulo": "Año Nuevo",
+            "situacion": "Del 25 de diciembre al 1 de enero quedan 7 días.",
+            "resultado": "7 días"
+          },
+          {
+            "titulo": "Día de Reyes",
+            "situacion": "Cinco días después de Año Nuevo, el 6 de enero.",
+            "resultado": "6 ene"
+          },
+          {
+            "titulo": "Tu cumpleaños",
+            "situacion": "Para cualquier fecha propia, usa la calculadora de días entre fechas.",
+            "resultado": "Personal"
+          }
+        ]
       },
       {
-        "title": "Otras cuentas regresivas",
-        "body": "Además de Navidad, puedes seguir la cuenta regresiva para San Valentín el 14 de febrero, Halloween el 31 de octubre y el Día de Muertos el 2 de noviembre, una de las celebraciones más importantes de México. Con «Otra fecha» puedes contar los días hasta tus vacaciones, un examen, un concierto o el nacimiento de un bebé."
+        "tipo": "texto",
+        "titulo": "¿Qué herramientas ayudan a preparar las fiestas?",
+        "parrafos": [
+          "Organiza el [amigo invisible](/amigo-invisible), calcula días entre dos fechas con la [calculadora de días](/calculadora-dias) y lleva el control de lo que gastas con el [presupuesto mensual](/presupuesto-mensual)."
+        ]
       }
     ],
     "faqs": [
@@ -26720,36 +27328,66 @@
     "webApp": true,
     "appCategory": "LifestyleApplication",
     "intro": "¿Cuánto cuesta una boda? Depende del número de invitados, la ciudad y las prioridades de cada pareja, pero siempre ayuda empezar con un plan. Esta calculadora reparte tu presupuesto total entre las partidas habituales con porcentajes orientativos que puedes ajustar: banquete, lugar, fotografía, vestido, música, decoración, anillos y más. También calcula el costo por invitado y lo que corresponde al banquete por persona.",
-    "howToUse": [
-      "Escribe el presupuesto total de la boda",
-      "Escribe el número de invitados",
-      "Ajusta los porcentajes de cada partida según tus prioridades",
-      "Revisa cuánto puedes gastar en cada proveedor y el costo por invitado"
-    ],
-    "benefits": [
-      "Once partidas típicas de una boda",
-      "Porcentajes editables",
-      "Costo total por invitado",
-      "Presupuesto del banquete por persona",
-      "Aviso si los porcentajes no suman 100%",
-      "Funciona con cualquier moneda"
-    ],
-    "contentSections": [
+    "resumen": "Reparte el presupuesto de tu boda entre banquete, lugar, fotografía, vestido, música, decoración, anillos y demás partidas, con porcentajes orientativos que puedes cambiar, y calcula el costo por invitado.",
+    "bloques": [
       {
-        "title": "Cómo se reparte el presupuesto de una boda",
-        "body": "Como referencia, el banquete y las bebidas suelen llevarse alrededor del 40% del presupuesto; el lugar de la celebración, un 10% a 15%; la fotografía y el video, alrededor del 10%; el vestido, el traje y la belleza, un 8%; la música y el entretenimiento, un 7%; las flores y la decoración, otro 7%; y los anillos, las invitaciones, la ceremonia y el transporte, el resto. Conviene reservar un 4% o 5% para imprevistos. Cada pareja ajusta según lo que más le importa."
+        "tipo": "infografia",
+        "archivo": "reparto-presupuesto-boda.webp",
+        "alt": "Reparto típico del presupuesto de una boda por partidas en porcentaje",
+        "ancho": 800,
+        "alto": 713,
+        "titulo": "¿Cómo se reparte el dinero de una boda?"
       },
       {
-        "title": "El número de invitados lo cambia todo",
-        "body": "El banquete, las bebidas, las invitaciones, los recuerdos y a veces el lugar dependen directamente de cuántas personas asisten. Pasar de 150 a 100 invitados puede reducir el costo total entre un 25% y un 30%. Por eso, antes de contratar proveedores, conviene definir la lista de invitados y calcular cuánto puedes pagar por persona en el banquete."
+        "tipo": "pasos",
+        "titulo": "¿Cómo armar el presupuesto de la boda desde cero?",
+        "pasos": [
+          {
+            "titulo": "Decide la cifra total",
+            "texto": "Lo que pueden pagar sin endeudarse, más lo que aporte la familia."
+          },
+          {
+            "titulo": "Haz la lista de invitados",
+            "texto": "Es lo que más mueve el costo: el banquete se paga por persona."
+          },
+          {
+            "titulo": "Elige tus tres prioridades",
+            "texto": "Por ejemplo, comida, fotos y música: ahí va más dinero; en el resto, recorta."
+          },
+          {
+            "titulo": "Reserva para imprevistos",
+            "texto": "Al menos un 4 o 5 % para propinas, horas extra y cambios de última hora."
+          }
+        ]
       },
       {
-        "title": "Consejos para ahorrar",
-        "body": "Casarse fuera de temporada alta o en un día entre semana suele abaratar el lugar y algunos proveedores. Pide varias cotizaciones y compara lo que incluye cada una, como mobiliario, meseros o horas de servicio. Prioriza las dos o tres cosas que más te importan y recorta en las demás. Y firma contratos con todos los proveedores, con fechas, pagos y condiciones de cancelación claras."
+        "tipo": "consejos",
+        "titulo": "¿Dónde se puede ahorrar sin que se note?",
+        "items": [
+          {
+            "titulo": "Fecha fuera de temporada",
+            "texto": "Los viernes, domingos o meses con menos bodas suelen tener mejores precios."
+          },
+          {
+            "titulo": "Invitaciones digitales",
+            "texto": "Ahorran impresión y envío."
+          },
+          {
+            "titulo": "Flores de temporada",
+            "texto": "Cuestan menos y lucen igual."
+          },
+          {
+            "titulo": "Un solo lugar",
+            "texto": "Ceremonia y fiesta en el mismo sitio ahorran transporte y decoración."
+          }
+        ]
       },
       {
-        "title": "Llevar el control",
-        "body": "Una vez que contrates proveedores, anota el costo real de cada partida y compáralo con lo presupuestado. Si una partida se pasa, ajusta otra para compensar. Nuestra calculadora de presupuesto mensual y el plan de ahorro te pueden ayudar a reunir el dinero con tiempo, sin endeudarte con tarjetas de crédito."
+        "tipo": "texto",
+        "titulo": "¿Cómo ahorrar para la boda?",
+        "parrafos": [
+          "Calcula cuánto apartar cada mes con la [calculadora de ahorro](/calculadora-ahorro) y lleva el control de pagos con el [presupuesto mensual](/presupuesto-mensual). Si les dan dinero en efectivo, divídanlo con la [calculadora de porcentajes](/calculadora-porcentaje)."
+        ]
       }
     ],
     "faqs": [
@@ -26803,36 +27441,76 @@
     "webApp": true,
     "appCategory": "MultimediaApplication",
     "intro": "Las imágenes pesadas hacen lentas las páginas web, llenan el celular y a veces no se pueden enviar por correo o subir a un formulario. Este compresor reduce el peso de hasta 20 imágenes a la vez directamente en tu navegador, sin subirlas a ningún servidor. Elige la calidad, convierte a WebP o JPG y limita el ancho máximo. Verás cuánto pesa cada imagen antes y después y cuánto espacio ahorras en total.",
-    "howToUse": [
-      "Arrastra hasta 20 imágenes o elígelas desde tu equipo",
-      "Ajusta la calidad con el deslizador; 70% a 80% suele ser un buen equilibrio",
-      "Elige el formato de salida y el ancho máximo",
-      "Pulsa «Comprimir imágenes» y descarga cada resultado"
-    ],
-    "benefits": [
-      "Procesamiento local: tus fotos no se suben",
-      "Compresión de hasta 20 imágenes a la vez",
-      "Salida en WebP o JPG",
-      "Redimensiona a un ancho máximo",
-      "Muestra el ahorro por imagen y total",
-      "Gratis y sin marcas de agua"
-    ],
-    "contentSections": [
+    "resumen": "Comprime fotos JPG, PNG y WebP en tu navegador, varias a la vez: elige el formato de salida (WebP o JPG), la calidad y el ancho máximo, y descarga las imágenes más ligeras sin subirlas a ningún servidor.",
+    "bloques": [
       {
-        "title": "Cómo reduce el peso",
-        "body": "La compresión combina dos técnicas. La primera es bajar la calidad de codificación: los formatos JPG y WebP descartan detalles que el ojo apenas percibe, y cuanto menor es la calidad, más pequeño es el archivo. La segunda es reducir las dimensiones: una foto de celular de 4.000 píxeles de ancho es mucho más grande de lo que necesita una página web, que rara vez muestra imágenes de más de 1.920 píxeles. Juntas, pueden reducir el peso entre un 60% y un 90%."
+        "tipo": "infografia",
+        "archivo": "ajustes-comprimir-imagen.webp",
+        "alt": "Qué hace cada ajuste al comprimir una imagen: formato, calidad y ancho máximo",
+        "ancho": 800,
+        "alto": 751,
+        "titulo": "¿Qué hace cada ajuste de compresión?"
       },
       {
-        "title": "¿WebP o JPG?",
-        "body": "WebP es un formato moderno que, con la misma calidad visual, suele pesar un 25% a 35% menos que JPG, y además admite transparencia. Todos los navegadores actuales lo soportan, así que es la mejor opción para páginas web. JPG sigue siendo el más compatible con programas antiguos, algunos formularios y correos. Si necesitas conservar la transparencia de un PNG, usa WebP: el JPG la reemplaza por un fondo blanco."
+        "tipo": "tabla",
+        "titulo": "¿Qué ajustes usar según para qué sea la imagen?",
+        "cabeceras": [
+          "Uso",
+          "Formato",
+          "Calidad",
+          "Ancho máximo"
+        ],
+        "filas": [
+          [
+            "Página web o blog",
+            "WebP",
+            "70–80",
+            "1600–1920 px"
+          ],
+          [
+            "Tienda en línea",
+            "WebP",
+            "80",
+            "1200–1600 px"
+          ],
+          [
+            "Enviar por correo",
+            "JPG",
+            "75",
+            "1600 px"
+          ],
+          [
+            "Archivo o impresión",
+            "JPG",
+            "90 o más",
+            "Original"
+          ]
+        ]
       },
       {
-        "title": "Qué calidad elegir",
-        "body": "Para fotos en la web, una calidad del 70% al 80% ofrece archivos ligeros con diferencias casi imperceptibles. Para imprimir o archivar, usa 85% o más. Por debajo del 50% empiezan a verse bloques y halos, sobre todo en textos y bordes nítidos. Si una imagen resulta más grande que la original, es porque ya estaba muy comprimida: baja la calidad o conserva el archivo original."
+        "tipo": "mitos",
+        "titulo": "¿Qué se cree sobre la compresión de imágenes?",
+        "items": [
+          {
+            "mito": "Comprimir siempre arruina la foto.",
+            "realidad": "Con calidad de 70 a 80, la diferencia es casi imposible de ver en pantalla."
+          },
+          {
+            "mito": "El PNG es siempre mejor.",
+            "realidad": "Para fotos, el PNG pesa varias veces más que un WebP o JPG con aspecto parecido."
+          },
+          {
+            "mito": "Comprimir dos veces ahorra el doble.",
+            "realidad": "Cada pasada pierde calidad y ahorra cada vez menos: comprime desde el original."
+          }
+        ]
       },
       {
-        "title": "Privacidad",
-        "body": "Muchos compresores en línea suben tus fotos a sus servidores. Este funciona completamente en tu navegador con la tecnología Canvas, así que las imágenes no salen de tu dispositivo. Ten en cuenta que al recodificar la imagen se eliminan los metadatos EXIF, como la ubicación GPS y el modelo de cámara, lo que también protege tu privacidad al compartirlas."
+        "tipo": "texto",
+        "titulo": "¿Qué otras herramientas sirven para preparar imágenes?",
+        "parrafos": [
+          "Ajusta las medidas exactas con el [redimensionador](/redimensionar-imagen), cambia de formato con el [convertidor de imágenes](/convertidor-imagenes) y junta varias fotos en un documento con [imágenes a PDF](/imagenes-a-pdf)."
+        ]
       }
     ],
     "faqs": [
@@ -26886,36 +27564,92 @@
     "webApp": true,
     "appCategory": "MultimediaApplication",
     "intro": "Cada red social pide un tamaño distinto de imagen, y subir una foto con la proporción equivocada hace que se recorte mal o se vea borrosa. Este redimensionador ajusta tus imágenes a los tamaños más usados de Instagram, Facebook, YouTube, X, LinkedIn y WhatsApp, o a cualquier medida en píxeles. Elige si recortar el sobrante, ajustar con bordes o estirar, y descarga el resultado en JPG, PNG o WebP. Todo ocurre en tu navegador.",
-    "howToUse": [
-      "Elige la imagen que quieres redimensionar",
-      "Selecciona un tamaño predefinido o escribe el ancho y el alto en píxeles",
-      "Si la proporción no coincide, elige recortar, ajustar con bordes o estirar",
-      "Elige el formato y pulsa «Redimensionar imagen» para descargarla"
-    ],
-    "benefits": [
-      "Diez tamaños predefinidos para redes sociales",
-      "Medidas personalizadas manteniendo la proporción",
-      "Tres modos: recortar, ajustar con bordes o estirar",
-      "Color de bordes personalizable",
-      "Salida en JPG, PNG o WebP",
-      "Sin subir tus imágenes a ningún servidor"
-    ],
-    "contentSections": [
+    "resumen": "Cambia el tamaño de una imagen en píxeles o con las medidas listas para Instagram, TikTok, Facebook, YouTube, X, LinkedIn y WhatsApp. Elige recortar, ajustar con franjas o estirar, y descárgala en JPG, PNG o WebP.",
+    "bloques": [
       {
-        "title": "Tamaños recomendados para redes sociales",
-        "body": "Instagram usa 1.080 × 1.080 píxeles para publicaciones cuadradas, 1.080 × 1.350 para verticales en formato 4:5 y 1.080 × 1.920 para historias y reels, igual que TikTok. Para Facebook, una imagen de enlace o publicación funciona bien a 1.200 × 630. Las miniaturas de YouTube son de 1.280 × 720, el encabezado de X de 1.500 × 500 y la portada de LinkedIn de 1.584 × 396. Las plataformas cambian sus recomendaciones de vez en cuando, pero estas medidas siguen siendo seguras."
+        "tipo": "infografia",
+        "archivo": "tamanos-imagen-redes-sociales.webp",
+        "alt": "Proporciones y tamaños en píxeles de imágenes para Instagram, YouTube, Facebook y X",
+        "ancho": 800,
+        "alto": 772,
+        "titulo": "¿Qué proporción tiene cada formato de redes sociales?"
       },
       {
-        "title": "Recortar, ajustar o estirar",
-        "body": "Cuando la proporción de tu imagen no coincide con la del destino, hay tres opciones. Recortar llena todo el espacio y elimina lo que sobra por los lados o arriba y abajo, manteniendo el centro. Ajustar muestra la imagen completa y rellena el espacio sobrante con bordes del color que elijas. Estirar ocupa todo el espacio pero deforma la imagen, así que rara vez es la mejor opción. Para fotos de personas, recortar suele verse mejor; para logotipos o capturas, ajustar."
+        "tipo": "comparacion",
+        "titulo": "¿Recortar o ajustar con franjas al cambiar la proporción?",
+        "columnas": [
+          {
+            "titulo": "Recortar",
+            "tono": "azul",
+            "items": [
+              "Llena todo el formato.",
+              "Se pierde parte de los bordes.",
+              "Ideal para fotos con el sujeto en el centro."
+            ]
+          },
+          {
+            "titulo": "Ajustar con franjas",
+            "tono": "verde",
+            "items": [
+              "Se ve la imagen completa.",
+              "Quedan franjas del color que elijas.",
+              "Ideal para capturas, carteles o logotipos."
+            ]
+          }
+        ]
       },
       {
-        "title": "Mantener la calidad",
-        "body": "Reducir una imagen casi nunca pierde calidad visible, pero ampliarla sí: si una imagen pequeña se agranda, se ve borrosa porque no hay más detalle que mostrar. Siempre que puedas, parte de la imagen original de mayor tamaño. Para fotos, JPG o WebP generan archivos ligeros; para gráficos con texto o transparencia, PNG o WebP conservan mejor los bordes."
+        "tipo": "tabla",
+        "titulo": "¿Qué medidas usar en cada red social?",
+        "cabeceras": [
+          "Formato",
+          "Píxeles",
+          "Proporción"
+        ],
+        "filas": [
+          [
+            "Publicación cuadrada de Instagram",
+            "1080 × 1080",
+            "1:1"
+          ],
+          [
+            "Publicación vertical de Instagram",
+            "1080 × 1350",
+            "4:5"
+          ],
+          [
+            "Historia o reel",
+            "1080 × 1920",
+            "9:16"
+          ],
+          [
+            "Miniatura de YouTube",
+            "1280 × 720",
+            "16:9"
+          ],
+          [
+            "Portada de Facebook",
+            "820 × 312",
+            "≈ 2,6:1"
+          ],
+          [
+            "Portada de LinkedIn",
+            "1584 × 396",
+            "4:1"
+          ],
+          [
+            "Foto de perfil de WhatsApp",
+            "500 × 500",
+            "1:1"
+          ]
+        ]
       },
       {
-        "title": "Privacidad",
-        "body": "La imagen se procesa en tu navegador con la tecnología Canvas y no se sube a ningún servidor. Al generar la nueva imagen se eliminan los metadatos EXIF, como la ubicación donde se tomó la foto. Si además necesitas reducir el peso del archivo, usa nuestro compresor de imágenes."
+        "tipo": "texto",
+        "titulo": "¿Qué hacer después de redimensionar?",
+        "parrafos": [
+          "Reduce el peso con el [compresor de imágenes](/comprimir-imagen) antes de subirla, o conviértela a otro formato con el [convertidor de imágenes](/convertidor-imagenes). Para el ícono de una web, usa el [generador de favicon](/generador-favicon)."
+        ]
       }
     ],
     "faqs": [
@@ -26969,36 +27703,62 @@
     "webApp": true,
     "appCategory": "DeveloperApplication",
     "intro": "El favicon es el pequeño icono que identifica tu sitio en las pestañas del navegador, los marcadores, los resultados de búsqueda de Google y la pantalla de inicio del celular. Este generador crea todos los tamaños necesarios a partir de tu logo: el archivo favicon.ico con 16, 32 y 48 píxeles, los PNG para Android y el apple-touch-icon para iPhone. Además te da el código HTML para tu sitio y el manifiesto web. Todo se genera en tu navegador.",
-    "howToUse": [
-      "Sube tu logo, idealmente cuadrado y de al menos 512 píxeles",
-      "Elige fondo transparente o de color, el margen interior y el redondeo de esquinas",
-      "Pulsa «Generar favicons»",
-      "Descarga el favicon.ico y los PNG, y copia el código HTML y el manifiesto"
-    ],
-    "benefits": [
-      "favicon.ico con tres tamaños en un solo archivo",
-      "PNG de 16, 32, 48, 180, 192 y 512 píxeles",
-      "Icono para iPhone y Android",
-      "Fondo, margen y esquinas personalizables",
-      "Código HTML y site.webmanifest listos",
-      "Sin subir tu logo a ningún servidor"
-    ],
-    "contentSections": [
+    "resumen": "Crea el favicon de tu web a partir de tu logo o de cualquier imagen: genera favicon.ico con 16, 32 y 48 px, los PNG para navegadores, iPhone y Android, el archivo site.webmanifest y el código HTML para pegar en tu página.",
+    "bloques": [
       {
-        "title": "Qué tamaños necesita un sitio web",
-        "body": "Los navegadores usan un icono de 16 × 16 píxeles en las pestañas y de 32 × 32 en pantallas de alta densidad. Google recomienda un favicon de al menos 48 × 48 píxeles, o un múltiplo, para mostrarlo en los resultados de búsqueda. Los iPhone y iPad usan un apple-touch-icon de 180 × 180 al añadir tu sitio a la pantalla de inicio, y Android y las aplicaciones web progresivas usan iconos de 192 y 512 píxeles definidos en el manifiesto."
+        "tipo": "infografia",
+        "archivo": "tamanos-favicon-html.webp",
+        "alt": "Tamaños de favicon de 16 a 512 píxeles y código HTML para insertarlos",
+        "ancho": 800,
+        "alto": 627,
+        "titulo": "¿Qué tamaños de favicon genera y cómo se insertan?"
       },
       {
-        "title": "El formato ICO",
-        "body": "El archivo favicon.ico es un contenedor que puede guardar varias imágenes de distintos tamaños. Los navegadores lo buscan automáticamente en la raíz del sitio, incluso sin etiqueta HTML, así que conviene tenerlo. Este generador crea un ICO con las versiones de 16, 32 y 48 píxeles en formato PNG, compatible con todos los navegadores modernos y con Windows."
+        "tipo": "pasos",
+        "titulo": "¿Cómo instalar el favicon en tu sitio?",
+        "pasos": [
+          {
+            "titulo": "Descarga todos los archivos",
+            "texto": "El .ico, los PNG y el site.webmanifest."
+          },
+          {
+            "titulo": "Súbelos a la raíz del sitio",
+            "texto": "La misma carpeta donde está la página de inicio, para que respondan en /favicon.ico."
+          },
+          {
+            "titulo": "Pega el código HTML",
+            "texto": "Dentro de la etiqueta <head> de todas las páginas o de tu plantilla."
+          },
+          {
+            "titulo": "Fuerza la recarga",
+            "texto": "Los navegadores guardan el favicon en caché: prueba en una ventana privada."
+          }
+        ]
       },
       {
-        "title": "Cómo instalarlo",
-        "body": "Sube todos los archivos a la carpeta raíz de tu sitio web, donde está la página de inicio. Después pega el código HTML dentro de la etiqueta head de tus páginas y crea el archivo site.webmanifest con el contenido generado, cambiando el nombre por el de tu sitio. En WordPress puedes subir el icono desde Apariencia, Personalizar, Identidad del sitio. Los navegadores guardan el favicon en caché, así que puede tardar en actualizarse."
+        "tipo": "consejos",
+        "titulo": "¿Cómo diseñar un favicon que se reconozca?",
+        "items": [
+          {
+            "titulo": "Una sola forma o letra",
+            "texto": "A 16 px, un logo con texto se vuelve una mancha."
+          },
+          {
+            "titulo": "Mucho contraste",
+            "texto": "Debe verse tanto en pestañas claras como en el modo oscuro."
+          },
+          {
+            "titulo": "Imagen cuadrada",
+            "texto": "Si tu logo es alargado, usa solo el símbolo o la inicial."
+          }
+        ]
       },
       {
-        "title": "Consejos de diseño",
-        "body": "A 16 píxeles caben muy pocos detalles, así que usa un símbolo simple o la inicial de tu marca en lugar del logo completo con texto. Asegúrate de que tenga buen contraste tanto sobre pestañas claras como oscuras. El margen interior evita que el icono se vea apretado y el fondo de color con esquinas redondeadas da un aspecto de aplicación en la pantalla de inicio del celular."
+        "tipo": "texto",
+        "titulo": "¿Qué más necesita la identidad visual de tu web?",
+        "parrafos": [
+          "Elige los colores con el [generador de paletas](/generador-paleta-colores), afina el tono exacto con el [selector de color](/selector-de-color) y prepara las imágenes con el [redimensionador](/redimensionar-imagen)."
+        ]
       }
     ],
     "faqs": [
@@ -27052,36 +27812,61 @@
     "webApp": true,
     "appCategory": "EntertainmentApplication",
     "intro": "¿Necesitas una excusa? Este generador tiene decenas para las situaciones de siempre: llegar tarde al trabajo, no hacer la tarea, cancelar una cita, no ir a una fiesta o saltarte el gimnasio. Elige entre excusas creíbles, para salir del paso con naturalidad, o absurdas, para hacer reír a tus amigos. Cópiala con un clic o envíala directamente por WhatsApp.",
-    "howToUse": [
-      "Elige la situación: trabajo, escuela, cita, fiesta o gimnasio",
-      "Elige el tono: creíble o absurda",
-      "Pulsa «Dame otra excusa» hasta encontrar la ideal",
-      "Cópiala o envíala por WhatsApp"
-    ],
-    "benefits": [
-      "Cinco situaciones cotidianas",
-      "Excusas creíbles y absurdas",
-      "Nunca repite la misma dos veces seguidas",
-      "Copia o comparte por WhatsApp",
-      "Ideal para memes, redes y bromas",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Genera excusas creíbles o absurdas para cinco situaciones: llegar tarde al trabajo, no hacer la tarea, cancelar una cita, no ir a una fiesta o saltarte el gimnasio. Cópiala o mándala por WhatsApp con un clic.",
+    "bloques": [
       {
-        "title": "Excusas creíbles",
-        "body": "Las excusas creíbles se basan en situaciones que le pasan a cualquiera: tráfico por un accidente, una alarma que no sonó, una falla del transporte o un compromiso familiar. Funcionan mejor cuando son breves y sin demasiados detalles, porque las historias muy elaboradas levantan sospechas. Aun así, si faltas o llegas tarde con frecuencia, ninguna excusa sustituye una conversación sincera con tu jefe, tu profesor o tus amigos."
+        "tipo": "infografia",
+        "archivo": "excusas-creibles-absurdas.webp",
+        "alt": "Ejemplos de excusas creíbles y absurdas para llegar tarde y para no hacer la tarea",
+        "ancho": 800,
+        "alto": 750,
+        "titulo": "¿Cómo suena la misma situación en tono serio y en tono absurdo?"
       },
       {
-        "title": "Excusas absurdas",
-        "body": "Las absurdas están pensadas para reír: un pato con diez patitos que detuvo el tráfico, un gato que escondió las llaves o una planta que necesita compañía. Son perfectas para grupos de amigos, memes, publicaciones en redes sociales o para romper el hielo cuando todos saben que simplemente se te olvidó. El humor bien usado desactiva el enojo mejor que cualquier justificación."
+        "tipo": "mitos",
+        "titulo": "¿Qué hace que una excusa funcione?",
+        "items": [
+          {
+            "mito": "Cuantos más detalles, más creíble.",
+            "realidad": "Demasiados detalles suenan ensayados. Una explicación breve convence más."
+          },
+          {
+            "mito": "Una buena excusa sirve siempre.",
+            "realidad": "Repetir la misma excusa la desgasta: a la segunda vez, ya nadie la cree."
+          },
+          {
+            "mito": "Disculparse es lo mismo que excusarse.",
+            "realidad": "Una disculpa con solución («mañana lo entrego a primera hora») suele funcionar mejor."
+          }
+        ]
       },
       {
-        "title": "Cuándo no usar una excusa",
-        "body": "En situaciones importantes, como un examen, una entrevista de trabajo o un compromiso con consecuencias, lo mejor es la honestidad: explicar lo ocurrido, pedir disculpas y proponer una solución. Inventar una emergencia médica o familiar puede traer problemas si se descubre. Usa este generador para divertirte y para situaciones sin importancia."
+        "tipo": "escenarios",
+        "titulo": "¿Cuándo usar el tono absurdo?",
+        "items": [
+          {
+            "titulo": "Con amigos",
+            "situacion": "Para cancelar un plan con humor y que nadie se lo tome a mal.",
+            "resultado": "Absurda"
+          },
+          {
+            "titulo": "En el trabajo",
+            "situacion": "Mejor una explicación real y corta, y avisar con tiempo.",
+            "resultado": "Creíble"
+          },
+          {
+            "titulo": "Para un meme o una historia",
+            "situacion": "Las absurdas funcionan como chiste en redes.",
+            "resultado": "Absurda"
+          }
+        ]
       },
       {
-        "title": "Ideas para usarlo",
-        "body": "Comparte una excusa absurda en el grupo de la familia cuando llegues tarde a la comida del domingo, úsala como tema de conversación en una reunión o como reto: cada persona del grupo genera una excusa y la tiene que defender con total seriedad. También sirve a escritores y guionistas que buscan situaciones cómicas para sus personajes."
+        "tipo": "texto",
+        "titulo": "¿Qué otros generadores divertidos hay?",
+        "parrafos": [
+          "Crea apodos con el [generador de apodos](/generador-apodos), juega a [verdad o reto](/verdad-o-reto) o deja que el azar decida con la [ruleta aleatoria](/ruleta-aleatoria-online)."
+        ]
       }
     ],
     "faqs": [
