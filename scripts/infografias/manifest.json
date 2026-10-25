@@ -1018,5 +1018,125 @@
     "alt": "Seis armonías de color generadas desde un mismo azul y prueba de contraste de texto",
     "ancho": 800,
     "alto": 868
+  },
+  "color-en-cinco-formatos": {
+    "archivo": "color-en-cinco-formatos.webp",
+    "alt": "Un mismo color azul expresado en HEX, RGB, HSL, HSV y CMYK con su escala de tonos y contraste",
+    "ancho": 800,
+    "alto": 840
+  },
+  "conversion-hex-a-rgb-pares": {
+    "archivo": "conversion-hex-a-rgb-pares.webp",
+    "alt": "Conversión de un código HEX a RGB par por par con aritmética hexadecimal",
+    "ancho": 800,
+    "alto": 760
+  },
+  "anatomia-imagen-base64": {
+    "archivo": "anatomia-imagen-base64.webp",
+    "alt": "Partes de una data URI en Base64 y por qué el texto ocupa un tercio más que la imagen",
+    "ancho": 800,
+    "alto": 785
+  },
+  "origen-nombres-bebe": {
+    "archivo": "origen-nombres-bebe.webp",
+    "alt": "Origen de los nombres para bebé del generador: latín, hebreo, griego, germánico y náhuatl",
+    "ancho": 800,
+    "alto": 789
+  },
+  "hipocoristicos-apodos-espanol": {
+    "archivo": "hipocoristicos-apodos-espanol.webp",
+    "alt": "Apodos tradicionales en español como Pepe, Paco o Lupe y formas de crear apodos nuevos",
+    "ancho": 800,
+    "alto": 809
+  },
+  "pasos-registrar-nombre-empresa": {
+    "archivo": "pasos-registrar-nombre-empresa.webp",
+    "alt": "Seis pasos para pasar de un nombre de empresa generado a un nombre y marca registrados en México",
+    "ancho": 800,
+    "alto": 826
+  },
+  "reglas-piedra-papel-tijera-lagarto-spock": {
+    "archivo": "reglas-piedra-papel-tijera-lagarto-spock.webp",
+    "alt": "Diagrama de quién gana a quién en piedra, papel, tijera, lagarto, Spock",
+    "ancho": 800,
+    "alto": 813
+  },
+  "modos-reparto-equipos": {
+    "archivo": "modos-reparto-equipos.webp",
+    "alt": "Reparto de 14 personas en equipos según el número de equipos o el tamaño de cada equipo",
+    "ancho": 800,
+    "alto": 682
+  },
+  "carton-bingo-75-bolas": {
+    "archivo": "carton-bingo-75-bolas.webp",
+    "alt": "Cartón de bingo de 75 bolas con los rangos de cada letra B-I-N-G-O y la casilla libre",
+    "ancho": 800,
+    "alto": 720
+  },
+  "cartas-verdad-o-reto": {
+    "archivo": "cartas-verdad-o-reto.webp",
+    "alt": "Cartas de verdad o reto de ejemplo y número de cartas por nivel familiar, amigos y pareja",
+    "ancho": 800,
+    "alto": 666
+  },
+  "formula-idea-para-historia": {
+    "archivo": "formula-idea-para-historia.webp",
+    "alt": "Una idea para una historia construida con protagonista, lugar, conflicto y giro, y los seis géneros disponibles",
+    "ancho": 800,
+    "alto": 851
+  },
+  "tipos-de-hashtag-piramide": {
+    "archivo": "tipos-de-hashtag-piramide.webp",
+    "alt": "Pirámide de hashtags masivos, temáticos, de nicho y locales con una mezcla recomendada",
+    "ancho": 800,
+    "alto": 830
+  },
+  "partes-bio-instagram": {
+    "archivo": "partes-bio-instagram.webp",
+    "alt": "Maqueta de una bio de Instagram con sus partes: nombre, qué haces, ubicación, prueba social, llamada a la acción y enlace",
+    "ancho": 800,
+    "alto": 765
+  },
+  "ejemplo-firma-correo-profesional": {
+    "archivo": "ejemplo-firma-correo-profesional.webp",
+    "alt": "Ejemplo de firma de correo electrónico profesional con foto, datos de contacto y redes",
+    "ancho": 800,
+    "alto": 814
+  },
+  "formulas-eslogan-ejemplos": {
+    "archivo": "formulas-eslogan-ejemplos.webp",
+    "alt": "Cinco tipos de eslogan con ejemplos para una cafetería ficticia",
+    "ancho": 800,
+    "alto": 766
+  },
+  "parametros-utm-explicados": {
+    "archivo": "parametros-utm-explicados.webp",
+    "alt": "Un enlace con parámetros UTM coloreados y qué significa cada parámetro",
+    "ancho": 800,
+    "alto": 812
+  },
+  "chuleta-markdown-html": {
+    "archivo": "chuleta-markdown-html.webp",
+    "alt": "Tabla de sintaxis Markdown con su resultado y la etiqueta HTML que genera",
+    "ancho": 800,
+    "alto": 778
+  },
+  "calculo-paro-2026-tramos": {
+    "archivo": "calculo-paro-2026-tramos.webp",
+    "alt": "Ejemplo de prestación por desempleo con los porcentajes del 70 y 60 %, límites de 2026 y duración según días cotizados",
+    "ancho": 800,
+    "alto": 816
+  },
+  "cuota-autonomos-tramos-2026": {
+    "archivo": "cuota-autonomos-tramos-2026.webp",
+    "alt": "Cuota mínima mensual de autónomos en 2026 para cada tramo de rendimientos netos",
+    "ancho": 800,
+    "alto": 876
+  },
+  "plusvalia-municipal-metodos": {
+    "archivo": "plusvalia-municipal-metodos.webp",
+    "alt": "Comparación del método objetivo y el método real de la plusvalía municipal y coeficientes máximos por años",
+    "ancho": 800,
+    "alto": 887
   }
 }

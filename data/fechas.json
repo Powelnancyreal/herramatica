@@ -1022,122 +1022,122 @@
     },
     "selector-de-color": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "a4c90b602371",
+      "actualizado": "2026-10-25",
+      "contenido": "9b19d074ece5",
       "componente": "21405e78425b"
     },
     "conversor-hex-rgb": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "25dc86dc9fad",
+      "actualizado": "2026-10-25",
+      "contenido": "aea13a7dfc8e",
       "componente": "96d2a983ea81"
     },
     "imagen-a-base64": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "7ae1191d8529",
+      "actualizado": "2026-10-25",
+      "contenido": "3b10a9fb36ca",
       "componente": "c28c2b0697d9"
     },
     "generador-nombres-bebe": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "fe558156799c",
+      "actualizado": "2026-10-25",
+      "contenido": "f7611cb8b9ad",
       "componente": "53db2bfe90be"
     },
     "generador-apodos": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "0f9540b7dc85",
+      "actualizado": "2026-10-25",
+      "contenido": "9069d8b81187",
       "componente": "cb1f25b82113"
     },
     "generador-nombres-empresa": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "453efdc5f387",
+      "actualizado": "2026-10-25",
+      "contenido": "3e8c0cbb70e4",
       "componente": "b33001ff46e5"
     },
     "piedra-papel-tijera": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "0a12d63f9d52",
+      "actualizado": "2026-10-25",
+      "contenido": "bc3b7654279a",
       "componente": "f844d07148bd"
     },
     "generador-equipos": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "b32c3a2d3251",
+      "actualizado": "2026-10-25",
+      "contenido": "cbaf09423c08",
       "componente": "29a630a70e1e"
     },
     "tombola-online": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "890d66864efe",
+      "actualizado": "2026-10-25",
+      "contenido": "c67a7f14e7d9",
       "componente": "37b8fa0dc0e6"
     },
     "verdad-o-reto": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "64dd87499733",
+      "actualizado": "2026-10-25",
+      "contenido": "6e9976951c72",
       "componente": "3fa2d8360348"
     },
     "ideas-para-historias": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "cd95aa934a9b",
+      "actualizado": "2026-10-25",
+      "contenido": "975c8a9b0777",
       "componente": "6e0277682819"
     },
     "generador-hashtags": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "b4d83c1cf5b4",
+      "actualizado": "2026-10-25",
+      "contenido": "c6b4241219e1",
       "componente": "bcf3cc516c34"
     },
     "generador-bio-instagram": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "4bfeca28f04f",
+      "actualizado": "2026-10-25",
+      "contenido": "92a76c427ded",
       "componente": "5f640d550807"
     },
     "generador-firma-email": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "c32dff664136",
+      "actualizado": "2026-10-25",
+      "contenido": "8b1c223349b6",
       "componente": "c2e8909bbec5"
     },
     "generador-esloganes": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "9bf5a223c979",
+      "actualizado": "2026-10-25",
+      "contenido": "f48d55812049",
       "componente": "8abec8ce7aee"
     },
     "generador-utm": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "6dccbe17d031",
+      "actualizado": "2026-10-25",
+      "contenido": "20b8e6d48ea7",
       "componente": "5703eb80f783"
     },
     "markdown-a-html": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "590723c66870",
+      "actualizado": "2026-10-25",
+      "contenido": "491428152310",
       "componente": "95aea8000cbc"
     },
     "calcular-paro": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "bbe40728e495",
+      "actualizado": "2026-10-25",
+      "contenido": "83f552637d58",
       "componente": "b1c1d649c3f5"
     },
     "cuota-autonomo": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "cc03c1ee5cf8",
+      "actualizado": "2026-10-25",
+      "contenido": "6905f336c618",
       "componente": "85496ba8ab12"
     },
     "calcular-plusvalia": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "636512a79fee",
+      "actualizado": "2026-10-25",
+      "contenido": "e805c3f30b97",
       "componente": "c75939dee71a"
     },
     "nota-de-corte": {
