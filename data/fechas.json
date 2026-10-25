@@ -1142,122 +1142,122 @@
     },
     "nota-de-corte": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "1d5b08c7f093",
+      "actualizado": "2026-10-25",
+      "contenido": "3b40d0e115d1",
       "componente": "39ae09a96993"
     },
     "calculadora-factura-luz": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "bbb6baa5610c",
+      "actualizado": "2026-10-25",
+      "contenido": "99e8e4c60527",
       "componente": "08c139bf55d4"
     },
     "jubilacion-espana": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "bba3a617a8b0",
+      "actualizado": "2026-10-25",
+      "contenido": "b9d3ff09369a",
       "componente": "bd36d44df8a9"
     },
     "impuesto-sucesiones": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "54b9aa5d2626",
+      "actualizado": "2026-10-25",
+      "contenido": "77b65fadbe8b",
       "componente": "bbcc949b7d7f"
     },
     "cuanto-cuesta-reformar": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "836f4a7747a7",
+      "actualizado": "2026-10-25",
+      "contenido": "620a693b84e2",
       "componente": "4ca2ca109478"
     },
     "huella-de-carbono": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "5fcd8c3966ce",
+      "actualizado": "2026-10-25",
+      "contenido": "e49dda80b997",
       "componente": "bf2569eb757f"
     },
     "dolar-blue": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "d2dffeba2652",
+      "actualizado": "2026-10-25",
+      "contenido": "0a48b36c02db",
       "componente": "7cb62ab7f15e"
     },
     "monotributo": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "fa4dad3b37b0",
+      "actualizado": "2026-10-25",
+      "contenido": "7eaab5458bce",
       "componente": "a33a86d597c0"
     },
     "calculadora-inflacion": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "6a6ce3ed587f",
+      "actualizado": "2026-10-25",
+      "contenido": "518f46da1347",
       "componente": "33d9063c274f"
     },
     "preaviso-laboral": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "91b23347d052",
+      "actualizado": "2026-10-25",
+      "contenido": "28bc0702229c",
       "componente": "7a86a67e17d7"
     },
     "sueldo-liquido-chile": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "c7adc90fd25f",
+      "actualizado": "2026-10-25",
+      "contenido": "5cc15a423493",
       "componente": "3677e47c76ef"
     },
     "finiquito-chile": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "b2c8c9c65e60",
+      "actualizado": "2026-10-25",
+      "contenido": "4f4c9b038eb1",
       "componente": "bf7acf146f8a"
     },
     "uf-a-pesos": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "3344a6d81e81",
+      "actualizado": "2026-10-25",
+      "contenido": "74402d157c97",
       "componente": "c74d11509e74"
     },
     "utm-a-pesos": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "2d7f60437ea0",
+      "actualizado": "2026-10-25",
+      "contenido": "5ae03a7f168f",
       "componente": "1e58d8d5c210"
     },
     "dividendo-hipotecario": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "4f1f51cb5cb8",
+      "actualizado": "2026-10-25",
+      "contenido": "c32d1618183d",
       "componente": "0fc1372b91c9"
     },
     "gratificacion-chile": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "f3a15cd3f406",
+      "actualizado": "2026-10-25",
+      "contenido": "62c5ab9074eb",
       "componente": "b275d4bb63bd"
     },
     "cotizacion-afp": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "90a0e0952aab",
+      "actualizado": "2026-10-25",
+      "contenido": "1d0910dbbd5d",
       "componente": "943b72bd2af4"
     },
     "puntaje-paes": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "53de774101cd",
+      "actualizado": "2026-10-25",
+      "contenido": "e2e195a20b19",
       "componente": "cf0a0ecd3bb8"
     },
     "prima-de-servicios": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "bed24faf2a59",
+      "actualizado": "2026-10-25",
+      "contenido": "e2e54361c7a6",
       "componente": "97b27251213e"
     },
     "calcular-cesantias": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "c5329e862509",
+      "actualizado": "2026-10-25",
+      "contenido": "c3441e0d1005",
       "componente": "e8334230b176"
     },
     "intereses-cesantias": {

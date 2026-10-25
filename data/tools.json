@@ -23118,36 +23118,53 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "Para entrar en una carrera universitaria en España no basta con aprobar la PAU, la prueba conocida hasta hace poco como EBAU o EvAU: tu nota de admisión debe superar la nota de corte del grado. Esta calculadora obtiene tu nota de acceso, sobre 10, combinando la media de Bachillerato y la fase general. Después suma las dos mejores materias de la fase de admisión según sus ponderaciones, hasta un máximo de 14. Escribe la nota de corte de tu carrera para saber si la superas.",
-    "howToUse": [
-      "Escribe tu nota media de Bachillerato y tu nota de la fase general de la PAU",
-      "Añade las materias de la fase de admisión con su nota y su ponderación para el grado que te interesa",
-      "Escribe, si quieres, la nota de corte de la carrera",
-      "Lee tu nota de admisión sobre 14 y si alcanzas el corte"
-    ],
-    "benefits": [
-      "Calcula la nota de acceso con la fórmula oficial 60/40",
-      "Suma solo las dos mejores ponderaciones aprobadas",
-      "Admite ponderaciones de 0,1, 0,15 y 0,2",
-      "Compara tu nota con la de corte de la carrera",
-      "Resultado al instante mientras escribes",
-      "Válida para la PAU de todas las comunidades"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu nota de acceso a la universidad (sobre 10) y tu nota de admisión (sobre 14) con la media de Bachillerato, la fase general de la PAU y las dos mejores asignaturas de la fase específica con su ponderación.",
+    "bloques": [
       {
-        "title": "Nota de acceso: sobre 10",
-        "body": "La nota de acceso a la universidad se calcula con la fórmula 0,6 × nota media de Bachillerato + 0,4 × nota de la fase general de la PAU. Para aprobar necesitas al menos un 4 en la fase general y una nota de acceso de 5 o más. Por ejemplo, con un 8 de media de Bachillerato y un 7 en la fase general, la nota de acceso es 0,6 × 8 + 0,4 × 7 = 7,6."
+        "tipo": "infografia",
+        "archivo": "formula-nota-pau-acceso-admision.webp",
+        "alt": "Fórmula de la nota de acceso y de admisión de la PAU con un ejemplo resuelto",
+        "ancho": 800,
+        "alto": 723,
+        "titulo": "¿Cómo se combinan Bachillerato, fase general y específicas?"
       },
       {
-        "title": "Nota de admisión: hasta 14",
-        "body": "Para subir la nota se pueden hacer exámenes de materias de modalidad en la fase de admisión (o usar las de la fase general si ponderan). Cada universidad asigna a cada materia una ponderación de 0,1 o 0,2 según su relación con el grado; algunas usan también 0,15. De las materias con nota de 5 o más, se suman las dos que den más puntos, multiplicando nota por ponderación. Así, un 9 que pondera 0,2 suma 1,8 puntos. Como el máximo por materia es 2 puntos, la nota de admisión llega a 14."
+        "tipo": "escenarios",
+        "titulo": "¿Cuánto puede subir la nota con la fase específica?",
+        "items": [
+          {
+            "titulo": "Sin específicas",
+            "situacion": "Bachillerato 8 y fase general 7: te quedas en la nota de acceso.",
+            "resultado": "7,6"
+          },
+          {
+            "titulo": "Dos específicas al 0,1",
+            "situacion": "Con un 9 y un 8 en asignaturas que ponderan poco.",
+            "resultado": "9,3"
+          },
+          {
+            "titulo": "Dos específicas al 0,2",
+            "situacion": "Las mismas notas en asignaturas que ponderan al máximo para tu grado.",
+            "resultado": "11,0"
+          }
+        ]
       },
       {
-        "title": "Qué es la nota de corte",
-        "body": "La nota de corte es la nota de admisión del último estudiante que obtuvo plaza en un grado el año anterior. No es un requisito fijo, sino el resultado de la oferta de plazas y la demanda: si muchos estudiantes con notas altas piden la misma carrera, el corte sube. Por eso sirve como referencia orientativa. Las universidades publican las notas de corte definitivas tras cada proceso de admisión, normalmente en julio."
+        "tipo": "checklist",
+        "titulo": "¿Qué revisar antes de elegir las asignaturas específicas?",
+        "items": [
+          "Las ponderaciones de cada universidad para el grado que quieres: cambian de una a otra.",
+          "Que la asignatura pondere 0,2 en todas las opciones que te interesan.",
+          "Que puedas sacar al menos un 5: por debajo no suma nada.",
+          "La nota de corte del curso anterior, para saber cuánto te falta."
+        ]
       },
       {
-        "title": "Consejos para mejorar tu nota",
-        "body": "Consulta las tablas de ponderaciones de las universidades a las que quieres ir antes de elegir las materias de la fase de admisión: una materia que pondera 0,2 vale el doble que una de 0,1. Las notas de la fase de admisión son válidas para los dos cursos siguientes, así que puedes volver a presentarte para subir nota. Y recuerda que puedes solicitar plaza en varias universidades y comunidades a la vez."
+        "tipo": "texto",
+        "titulo": "¿Qué otras calculadoras sirven para las notas?",
+        "parrafos": [
+          "Saca la media de Bachillerato con la [calculadora de promedio](/calculadora-promedio) o la [ponderada](/calculadora-promedio-ponderado), y si te falta un examen, mira cuánto necesitas con la [calculadora de nota necesaria](/calculadora-nota-necesaria)."
+        ]
       }
     ],
     "faqs": [
@@ -23200,36 +23217,79 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "La factura de la luz tiene varios conceptos que no siempre se entienden: potencia, energía, impuesto eléctrico, contador e IVA. Esta calculadora reconstruye tu factura paso a paso a partir de tu potencia contratada, tu consumo y los precios de tu contrato. Así puedes comprobar si la factura es correcta, comparar ofertas de distintas comercializadoras o ver cuánto ahorrarías bajando la potencia. Funciona con precio único o con los tres periodos de la tarifa 2.0TD.",
-    "howToUse": [
-      "Escribe los días de facturación, la potencia contratada en kW y su precio en €/kW y día",
-      "Elige precio único o por periodos y escribe tu consumo en kWh y el precio de la energía",
-      "Ajusta el alquiler del contador y, si lo tienes, el bono social",
-      "Pulsa «Calcular factura de la luz» para ver el desglose y el precio medio por kWh"
-    ],
-    "benefits": [
-      "Desglosa todos los conceptos de la factura",
-      "Admite precio único o los tres periodos de la tarifa 2.0TD",
-      "Aplica el impuesto eléctrico del 5,11% y el IVA del 21%",
-      "Incluye el descuento del bono social",
-      "Calcula el precio medio real por kWh",
-      "Útil para comparar ofertas de comercializadoras"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu factura de la luz en España a partir de la potencia contratada, los días y los kWh consumidos, con precio único o por periodos (punta, llano y valle). Suma el impuesto eléctrico, el alquiler del contador, el descuento del bono social y el IVA del 21 %.",
+    "bloques": [
       {
-        "title": "Término de potencia y término de energía",
-        "body": "Pagas dos cosas principales. El término de potencia es un importe fijo por la capacidad que tienes contratada, aunque no consumas: kW contratados × días × precio por kW y día. El término de energía depende de lo que consumes: kWh × precio por kWh. En la tarifa de acceso 2.0TD, la de casi todos los hogares, la energía tiene tres periodos con precios distintos: punta (más cara), llano y valle (más barata, por la noche y los fines de semana), y la potencia puede tener dos precios, punta y valle."
+        "tipo": "infografia",
+        "archivo": "desglose-factura-luz-espana.webp",
+        "alt": "Desglose de una factura de la luz de 30 días: potencia, energía, impuesto eléctrico, alquiler del contador e IVA",
+        "ancho": 800,
+        "alto": 801,
+        "titulo": "¿Qué parte de la factura de la luz es potencia, energía e impuestos?"
       },
       {
-        "title": "Impuestos y alquiler del contador",
-        "body": "Sobre la suma de potencia y energía se aplica el impuesto especial sobre la electricidad, del 5,11269632% en su tipo general. Después se suma el alquiler del contador, que para un contador digital doméstico ronda los 0,81 € al mes, y sobre todo el conjunto se aplica el IVA, que en 2026 es del 21%. Por eso el precio real que pagas por cada kWh es bastante mayor que el precio de la energía de tu contrato."
+        "tipo": "tabla",
+        "titulo": "¿A qué horas es más barata la luz con discriminación horaria?",
+        "cabeceras": [
+          "Periodo",
+          "Horario de lunes a viernes",
+          "Precio"
+        ],
+        "filas": [
+          [
+            "Punta (P1)",
+            "10:00–14:00 y 18:00–22:00",
+            "El más caro"
+          ],
+          [
+            "Llano (P2)",
+            "8:00–10:00, 14:00–18:00 y 22:00–24:00",
+            "Intermedio"
+          ],
+          [
+            "Valle (P3)",
+            "0:00–8:00, y fines de semana y festivos todo el día",
+            "El más barato"
+          ]
+        ]
       },
       {
-        "title": "Cómo ahorrar en la factura",
-        "body": "Revisa si tu potencia contratada es mayor de la que necesitas: bajar de 4,6 a 3,45 kW ahorra una parte fija todos los meses, aunque debes evitar que salte el interruptor. Desplaza los consumos grandes, como la lavadora o el lavavajillas, a las horas valle si tu tarifa distingue periodos. Compara la tarifa regulada PVPC con las ofertas de precio fijo del mercado libre usando esta calculadora con los mismos consumos."
+        "tipo": "consejos",
+        "titulo": "¿Cómo bajar la factura de la luz sin pasar frío?",
+        "items": [
+          {
+            "titulo": "Revisa la potencia",
+            "texto": "Si nunca salta el diferencial, quizá puedas bajar un escalón y ahorrar cada mes."
+          },
+          {
+            "titulo": "Mueve consumos al valle",
+            "texto": "Lavadora, lavavajillas y carga del coche, por la noche o el fin de semana."
+          },
+          {
+            "titulo": "Compara ofertas",
+            "texto": "Con tu consumo anual en la mano, el comparador de la CNMC muestra el precio real de cada tarifa."
+          },
+          {
+            "titulo": "Comprueba el bono social",
+            "texto": "Si cumples los requisitos de renta o de situación familiar, tienes un descuento sobre la factura."
+          }
+        ]
       },
       {
-        "title": "El bono social",
-        "body": "Los consumidores vulnerables con tarifa PVPC pueden solicitar el bono social, que descuenta un 35% de la factura, o un 50% si son vulnerables severos. El descuento se aplica a un consumo anual máximo que depende de la composición del hogar. Se solicita a una comercializadora de referencia acreditando requisitos de renta o situaciones como familia numerosa o pensión mínima. La calculadora aplica el descuento a todo el consumo como simplificación."
+        "tipo": "texto",
+        "titulo": "¿Cuánto consume cada aparato de casa?",
+        "parrafos": [
+          "Multiplica la potencia del aparato por las horas de uso: un radiador de 2.000 W encendido 4 horas son 8 kWh. Para pasar unidades, usa el [convertidor de unidades](/convertidor-unidades), y para medir el impacto ambiental de tu consumo, la [calculadora de huella de carbono](/huella-de-carbono)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "CNMC: comparador de ofertas de energía",
+            "url": "https://comparador.cnmc.gob.es"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -23282,36 +23342,77 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "La edad de jubilación en España no es la misma para todos: depende del año en que te jubiles y de los años que hayas cotizado. En 2026 puedes jubilarte a los 65 años si has cotizado 38 años y 3 meses, o a los 66 años y 10 meses si has cotizado menos. Esta calculadora aplica el calendario de la reforma de 2011 a tu fecha de nacimiento y a tu vida laboral para decirte tu fecha exacta de jubilación ordinaria. También calcula desde cuándo podrías jubilarte de forma anticipada.",
-    "howToUse": [
-      "Escribe tu fecha de nacimiento",
-      "Indica los años y meses que has cotizado hasta hoy, según tu informe de vida laboral",
-      "Marca si seguirás cotizando hasta la jubilación",
-      "Pulsa «¿Cuándo me puedo jubilar?» para ver tu fecha ordinaria y las anticipadas"
-    ],
-    "benefits": [
-      "Aplica el calendario progresivo de la Ley 27/2011",
-      "Tiene en cuenta los años que cotizarás hasta jubilarte",
-      "Calcula la jubilación anticipada voluntaria e involuntaria",
-      "Te avisa si no llegas a los 15 años de cotización mínima",
-      "Resultado con fecha exacta",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula a qué edad te puedes jubilar en España según tu año de nacimiento y los años cotizados: la edad ordinaria de 2026 es de 66 años y 10 meses, o 65 años si has cotizado al menos 38 años y 3 meses.",
+    "bloques": [
       {
-        "title": "La edad ordinaria de jubilación en 2026",
-        "body": "La reforma de 2011 fue retrasando la edad de jubilación de forma gradual desde 2013 hasta 2027. En 2026, quienes acrediten 38 años y 3 meses cotizados pueden jubilarse a los 65 años; el resto, a los 66 años y 10 meses. A partir de 2027 la edad ordinaria será de 67 años, o de 65 si se han cotizado al menos 38 años y 6 meses. Como la edad depende del año en que la alcanzas, la calculadora revisa mes a mes cuándo cumples el requisito."
+        "tipo": "infografia",
+        "archivo": "edad-jubilacion-espana-2024-2027.webp",
+        "alt": "Edad ordinaria de jubilación en España de 2024 a 2027 y cotización necesaria para jubilarse a los 65",
+        "ancho": 800,
+        "alto": 734,
+        "titulo": "¿Cómo cambia la edad de jubilación entre 2024 y 2027?"
       },
       {
-        "title": "Jubilación anticipada",
-        "body": "La jubilación anticipada voluntaria permite adelantar el retiro hasta dos años respecto a tu edad ordinaria si has cotizado al menos 35 años, pero la pensión se reduce con coeficientes que dependen de los meses de adelanto y de tu carrera de cotización. La involuntaria, para quienes pierden el empleo por causas ajenas a su voluntad, permite adelantarla hasta cuatro años con al menos 33 años cotizados y estar inscrito como demandante de empleo. Existen además jubilaciones anticipadas por actividades penosas o por discapacidad."
+        "tipo": "comparacion",
+        "titulo": "¿Qué diferencia hay entre jubilación anticipada voluntaria e involuntaria?",
+        "columnas": [
+          {
+            "titulo": "Voluntaria",
+            "tono": "azul",
+            "items": [
+              "Hasta 2 años antes de la edad ordinaria.",
+              "Requiere 35 años cotizados.",
+              "Coeficientes reductores mayores por cada mes que adelantas."
+            ]
+          },
+          {
+            "titulo": "Involuntaria",
+            "tono": "verde",
+            "items": [
+              "Hasta 4 años antes, tras un despido no voluntario.",
+              "Requiere 33 años cotizados y estar inscrito como demandante de empleo.",
+              "Reducciones menores que en la voluntaria."
+            ]
+          }
+        ]
       },
       {
-        "title": "Jubilación demorada y parcial",
-        "body": "Si sigues trabajando después de tu edad ordinaria, por cada año completo de demora recibes un 4% más de pensión, o bien un pago único, o una combinación de ambos. También existe la jubilación parcial, que permite reducir la jornada y cobrar parte de la pensión, y la jubilación activa, que permite compatibilizar pensión y trabajo en ciertos casos."
+        "tipo": "glosario",
+        "titulo": "¿Qué significan los términos de la jubilación?",
+        "items": [
+          [
+            "Edad ordinaria",
+            "La edad a la que te jubilas sin penalización. Sube cada año hasta llegar a 67 en 2027."
+          ],
+          [
+            "Periodo mínimo",
+            "15 años cotizados, dos de ellos dentro de los 15 anteriores a la jubilación."
+          ],
+          [
+            "Base reguladora",
+            "La media de tus bases de cotización de los últimos años con la que se calcula la pensión."
+          ],
+          [
+            "Jubilación demorada",
+            "Seguir trabajando después de la edad ordinaria: suma un 4 % por cada año extra o un pago único."
+          ]
+        ]
       },
       {
-        "title": "Requisitos para cobrar pensión",
-        "body": "Para cobrar la pensión contributiva de jubilación necesitas al menos 15 años cotizados, de los cuales dos deben estar dentro de los 15 años anteriores a la jubilación. Con 15 años cobras el 50% de tu base reguladora, y el porcentaje aumenta hasta el 100% con 36 años y 6 meses cotizados en 2026. Para estimar el importe de tu pensión, usa nuestro cálculo de pensión de jubilación; para el dato oficial, el simulador de la Seguridad Social con tu certificado digital o Cl@ve."
+        "tipo": "texto",
+        "titulo": "¿Qué más conviene calcular antes de jubilarte?",
+        "parrafos": [
+          "Cuánto has ahorrado y cuánto te rendirá con la [calculadora de interés compuesto](/calculadora-interes-compuesto), y si cobras paro antes de jubilarte, la [calculadora de paro](/calcular-paro). También puedes ver la [calculadora de pensión de jubilación](/calculo-pension-jubilacion)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Seguridad Social: pensión de jubilación",
+            "url": "https://www.seg-social.es"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -23362,36 +23463,99 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Heredar en España implica pagar el impuesto sobre sucesiones, pero la cantidad varía muchísimo según el parentesco y la comunidad autónoma. Un hijo puede pagar casi nada en Madrid o Andalucía y una cantidad importante en otras comunidades. Esta calculadora aplica la normativa estatal paso a paso: reducción por parentesco, escala del 7,65% al 34% y coeficiente multiplicador según tu patrimonio previo. Encima suma la bonificación de las principales comunidades para cónyuges, hijos y padres.",
-    "howToUse": [
-      "Escribe el valor neto de tu parte de la herencia, ya descontadas deudas y gastos deducibles",
-      "Elige tu parentesco con el fallecido y, si eres menor de 21, tu edad",
-      "Añade tu patrimonio previo y otras reducciones, como la de vivienda habitual, si aplican",
-      "Selecciona la comunidad autónoma y pulsa «Calcular impuesto de sucesiones»"
-    ],
-    "benefits": [
-      "Escala estatal completa de la Ley 29/1987",
-      "Reducciones por parentesco de los cuatro grupos",
-      "Coeficiente multiplicador según patrimonio preexistente",
-      "Bonificaciones de referencia de las principales comunidades",
-      "Muestra el tipo efectivo sobre lo heredado",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el impuesto de sucesiones con la normativa estatal: aplica la reducción por parentesco, la escala progresiva del 7,65 % al 34 % y el coeficiente por patrimonio previo, y añade la bonificación de tu comunidad autónoma para estimar lo que pagarás.",
+    "bloques": [
       {
-        "title": "Cómo se calcula el impuesto",
-        "body": "Se parte del valor de lo que recibe cada heredero, restando deudas del fallecido y gastos como el entierro. A esa cantidad se aplican reducciones: por parentesco, por vivienda habitual, por seguros de vida o por empresa familiar, entre otras. La base liquidable resultante se somete a una escala progresiva que va del 7,65% al 34%. La cuota íntegra se multiplica por un coeficiente que depende del parentesco y del patrimonio previo del heredero. Por último, se restan las bonificaciones autonómicas."
+        "tipo": "infografia",
+        "archivo": "escala-impuesto-sucesiones.webp",
+        "alt": "Escala estatal del impuesto de sucesiones y ejemplo de un hijo que hereda 200.000 euros",
+        "ancho": 800,
+        "alto": 873,
+        "titulo": "¿Cómo funciona la escala estatal del impuesto de sucesiones?"
       },
       {
-        "title": "Los grupos de parentesco",
-        "body": "El grupo I incluye a hijos y descendientes menores de 21 años, con una reducción estatal de 15.956,87 € más 3.990,72 € por cada año menos de 21, hasta 47.858,59 €. El grupo II, a hijos de 21 años o más, cónyuge, padres y abuelos, con 15.956,87 €. El grupo III, a hermanos, sobrinos, tíos y parientes por afinidad como suegros, con 7.993,46 €. El grupo IV, a primos y personas sin parentesco, sin reducción. Además, los grupos III y IV tienen coeficientes multiplicadores más altos."
+        "tipo": "tabla",
+        "titulo": "¿Qué grupo de parentesco te corresponde?",
+        "cabeceras": [
+          "Grupo",
+          "Quién",
+          "Reducción estatal"
+        ],
+        "filas": [
+          [
+            "I",
+            "Hijos y descendientes menores de 21 años",
+            "15.956,87 € + 3.990,72 € por año hasta 21 (máx. 47.858,59 €)"
+          ],
+          [
+            "II",
+            "Hijos de 21 o más, cónyuge, padres y abuelos",
+            "15.956,87 €"
+          ],
+          [
+            "III",
+            "Hermanos, sobrinos, tíos y suegros",
+            "7.993,46 €"
+          ],
+          [
+            "IV",
+            "Primos y sin parentesco",
+            "0 €"
+          ]
+        ]
       },
       {
-        "title": "Grandes diferencias entre comunidades",
-        "body": "Las comunidades autónomas pueden fijar sus propias reducciones, escalas y bonificaciones. En 2026, Madrid, Andalucía, Región de Murcia, Comunitat Valenciana, Castilla y León, Extremadura y La Rioja bonifican el 99% de la cuota para los grupos I y II; Canarias, el 99,9%; y Cantabria e Illes Balears, el 100%. En otras, como Asturias, Aragón o Cataluña, se aplican reducciones o escalas propias y el impuesto puede ser considerable. País Vasco y Navarra tienen un régimen foral distinto. Algunas bonificaciones exigen requisitos adicionales."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto paga un sobrino que hereda 100.000 €?",
+        "datos": [
+          [
+            "Herencia",
+            "100.000 €"
+          ],
+          [
+            "Parentesco",
+            "Grupo III"
+          ],
+          [
+            "Patrimonio previo",
+            "Menos de 402.678 €"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Resta la reducción del grupo III.",
+            "operacion": "100.000 − 7.993,46 = 92.006,54 €"
+          },
+          {
+            "texto": "Aplica la escala estatal.",
+            "operacion": "Cuota íntegra: 11.124,41 €"
+          },
+          {
+            "texto": "Multiplica por el coeficiente del grupo III.",
+            "operacion": "11.124,41 × 1,5882 = 17.667,79 €"
+          }
+        ]
       },
       {
-        "title": "Plazos y consejos",
-        "body": "El impuesto debe presentarse en los seis meses siguientes al fallecimiento, prorrogables otros seis si se solicita en los cinco primeros. Si no hay liquidez para pagarlo, se puede pedir aplazamiento o fraccionamiento. Además del impuesto de sucesiones, heredar un inmueble urbano implica la plusvalía municipal. Si la herencia puede generar más cargas que beneficios, existe la opción de aceptarla a beneficio de inventario o renunciar a ella."
+        "tipo": "aviso",
+        "tono": "ambar",
+        "texto": "Cada comunidad autónoma tiene sus propias reducciones y bonificaciones, que pueden bajar mucho el impuesto. El resultado sin bonificación es una referencia: confírmalo con la normativa de tu comunidad o con un asesor."
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otros pagos hay al heredar una vivienda?",
+        "parrafos": [
+          "La plusvalía municipal, que puedes estimar con la [calculadora de plusvalía](/calcular-plusvalia). Si después vendes la casa, la ganancia tributa en el IRPF: calcúlalo con la [calculadora de IRPF](/calculadora-irpf)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Agencia Tributaria: impuesto sobre sucesiones y donaciones",
+            "url": "https://sede.agenciatributaria.gob.es"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -23445,36 +23609,62 @@
     "webApp": true,
     "appCategory": "LifestyleApplication",
     "intro": "Reformar una vivienda es una de las inversiones más grandes que hace una familia, y los presupuestos pueden variar muchísimo. Esta calculadora te da un rango orientativo a partir de la superficie, el tipo de reforma y la calidad de los materiales. Suma cocina y baños si no están incluidos y añade el IVA y la licencia de obras. Úsala para saber qué presupuesto necesitas antes de pedir ofertas y para detectar precios fuera de mercado.",
-    "howToUse": [
-      "Escribe la superficie de la vivienda en m²",
-      "Elige el tipo de reforma y la calidad de los materiales",
-      "En reformas parciales, marca si incluyes la cocina y cuántos baños",
-      "Ajusta el IVA y el porcentaje de licencia e ICIO y pulsa «Calcular presupuesto de reforma»"
-    ],
-    "benefits": [
-      "Cuatro niveles de reforma, del lavado de cara a la integral premium",
-      "Ajuste por calidad de materiales",
-      "Suma cocina y baños en reformas parciales",
-      "Aplica IVA reducido del 10% o general del 21%",
-      "Incluye la licencia de obras y el ICIO",
-      "Muestra el rango total y el precio por m²"
-    ],
-    "contentSections": [
+    "resumen": "Estima el presupuesto de una reforma en España según los metros cuadrados, el tipo de obra (lavado de cara, parcial, integral o premium) y la calidad de los acabados, con cocina y baños aparte, IVA y licencia municipal.",
+    "bloques": [
       {
-        "title": "Precios orientativos por m²",
-        "body": "Un lavado de cara, con pintura, cambio de suelos y pequeños arreglos, suele costar entre 150 y 300 € por m² sin IVA. Una reforma parcial que incluya suelos, carpintería e instalación eléctrica ronda los 350 a 600 €/m². Una reforma integral, que renueva instalaciones, distribución, cocina y baños, se mueve entre 600 y 1.000 €/m², y con acabados de alta gama puede superar los 1.500 €/m². Una cocina completa aparte cuesta entre 6.000 y 14.000 €, y un baño entre 4.000 y 9.000 €."
+        "tipo": "infografia",
+        "archivo": "precio-reforma-metro-cuadrado.webp",
+        "alt": "Rangos de precio por metro cuadrado según el tipo de reforma y ejemplo para un piso de 60 m²",
+        "ancho": 800,
+        "alto": 784,
+        "titulo": "¿Cuánto cuesta el metro cuadrado según el tipo de reforma?"
       },
       {
-        "title": "IVA reducido del 10%",
-        "body": "Las obras de renovación y reparación de viviendas particulares pueden llevar el IVA reducido del 10% si el destinatario es una persona física que no actúa como empresario, la vivienda se usa como residencia, la construcción tiene al menos dos años de antigüedad y el coste de los materiales que aporta el contratista no supera el 40% del total. Si no se cumplen estas condiciones, se aplica el 21%."
+        "tipo": "pasos",
+        "titulo": "¿Cómo pedir presupuestos de reforma comparables?",
+        "pasos": [
+          {
+            "titulo": "Escribe una lista de trabajos",
+            "texto": "Qué se tira, qué se cambia y qué calidades quieres, igual para todas las empresas."
+          },
+          {
+            "titulo": "Pide al menos tres presupuestos",
+            "texto": "Desglosados por partidas, con materiales y mano de obra separados."
+          },
+          {
+            "titulo": "Compara partida por partida",
+            "texto": "Un presupuesto mucho más barato suele dejar fuera algo."
+          },
+          {
+            "titulo": "Fija plazos y pagos por avance",
+            "texto": "Por escrito, con una parte final que se paga al terminar y revisar."
+          }
+        ]
       },
       {
-        "title": "Licencias e impuestos municipales",
-        "body": "Las obras que afectan a la estructura, las instalaciones o la distribución requieren licencia de obras o, en muchos municipios, una declaración responsable. Además, se paga el Impuesto sobre Construcciones, Instalaciones y Obras (ICIO), con un tipo de hasta el 4% del presupuesto de ejecución, más la tasa de la licencia. La calculadora suma un porcentaje ajustable para estos conceptos."
+        "tipo": "mitos",
+        "titulo": "¿Qué errores encarecen una reforma?",
+        "items": [
+          {
+            "mito": "El presupuesto inicial es el precio final.",
+            "realidad": "Reserva entre un 10 y un 15 % para imprevistos: tuberías viejas o cables que aparecen al abrir paredes."
+          },
+          {
+            "mito": "Cambiar de idea durante la obra sale gratis.",
+            "realidad": "Cada cambio a mitad de obra suma horas y materiales."
+          },
+          {
+            "mito": "La licencia la tramita siempre la empresa.",
+            "realidad": "Depende del contrato: confirma quién la pide y quién la paga."
+          }
+        ]
       },
       {
-        "title": "Cómo evitar sorpresas",
-        "body": "Pide al menos tres presupuestos detallados por partidas, con marcas y modelos de los materiales, y compáralos entre sí. Firma un contrato con plazos, forma de pago escalonada y garantía. Reserva entre un 10% y un 15% para imprevistos, sobre todo en edificios antiguos, donde al abrir paredes pueden aparecer instalaciones que hay que renovar. Si la reforma es integral, valora contratar a un arquitecto o aparejador que dirija la obra."
+        "tipo": "texto",
+        "titulo": "¿Cómo calcular materiales y financiación?",
+        "parrafos": [
+          "Mide superficies con la [calculadora de área](/calculadora-area). Si vas a pedir un préstamo para la obra, compara cuotas en la [calculadora de préstamos](/calculadora-prestamo), y si es una compra con reforma, la [calculadora de hipoteca](/calcular-hipoteca)."
+        ]
       }
     ],
     "faqs": [
@@ -23526,36 +23716,67 @@
     "webApp": true,
     "appCategory": "LifestyleApplication",
     "intro": "¿Cuántas toneladas de CO₂ emites al año con tu forma de vida? Esta calculadora estima tu huella de carbono personal a partir de hábitos concretos: la electricidad y el gas de tu casa, los kilómetros en coche y en transporte público, las horas de vuelo, tu tipo de alimentación y tu nivel de compras. El resultado se desglosa por categorías para que veas qué parte pesa más y dónde un cambio tendría más impacto.",
-    "howToUse": [
-      "Escribe cuántas personas viven en tu hogar y el consumo de electricidad y gas",
-      "Indica los kilómetros semanales en coche y en transporte público, y el consumo de tu coche",
-      "Añade las horas de vuelo al año",
-      "Elige tu tipo de alimentación y de consumo, y pulsa «Calcular mi huella de carbono»"
-    ],
-    "benefits": [
-      "Seis categorías de emisiones con desglose visual",
-      "Reparte las emisiones del hogar entre sus habitantes",
-      "Factor de emisión de la red eléctrica ajustable a tu país",
-      "Datos de alimentación basados en un estudio científico",
-      "Compara tu resultado con el objetivo climático",
-      "Sin registro y sin guardar tus datos"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu huella de carbono anual sumando la electricidad, el gas, el coche, el transporte público, los vuelos, la dieta y el consumo. Te da el resultado en toneladas de CO₂ por persona y te muestra qué parte pesa más.",
+    "bloques": [
       {
-        "title": "Qué es la huella de carbono",
-        "body": "Es la suma de los gases de efecto invernadero que se emiten por tus actividades, expresada en toneladas de CO₂ equivalente (CO₂e). Incluye el dióxido de carbono de quemar combustibles y otros gases como el metano de la ganadería, convertidos a su efecto equivalente. Las emisiones por persona varían mucho entre países y estilos de vida: en muchos países de Europa y Latinoamérica rondan entre 2 y 8 toneladas al año, y en otros superan las 15."
+        "tipo": "infografia",
+        "archivo": "huella-carbono-dieta-factores.webp",
+        "alt": "Toneladas de CO2 al año según la dieta y factores de emisión de combustibles y vuelos",
+        "ancho": 800,
+        "alto": 883,
+        "titulo": "¿Cuánto CO₂ suman la dieta, el coche y los vuelos?"
       },
       {
-        "title": "Cómo se calcula",
-        "body": "Cada actividad se multiplica por un factor de emisión. Un litro de gasolina emite unos 2,31 kg de CO₂ al quemarse, y uno de diésel unos 2,68 kg. La electricidad depende de cómo se genera en tu país: una red con mucha energía renovable emite pocos gramos por kWh, y una basada en carbón o gas, mucho más; por eso el factor es editable. Para los vuelos se usa una media de unos 90 kg por pasajero y hora de vuelo, y para la dieta, los resultados de Scarborough y colaboradores (2014), que compararon las emisiones diarias de distintas dietas."
+        "tipo": "tabla",
+        "titulo": "¿Qué cambios reducen más la huella de carbono?",
+        "cabeceras": [
+          "Cambio",
+          "Ahorro aproximado al año"
+        ],
+        "filas": [
+          [
+            "Pasar de mucha carne a carne moderada",
+            "0,57 t"
+          ],
+          [
+            "Pasar de mucha carne a dieta vegetariana",
+            "1,23 t"
+          ],
+          [
+            "Evitar un vuelo de ida y vuelta de 4 horas",
+            "≈ 0,7 t"
+          ],
+          [
+            "Dejar de hacer 100 km semanales en un coche de gasolina (6,5 L/100 km)",
+            "≈ 0,78 t"
+          ]
+        ],
+        "nota": "Calculado con los factores de la propia calculadora."
       },
       {
-        "title": "Qué cambios reducen más tu huella",
-        "body": "Los vuelos pesan mucho: un viaje transatlántico de ida y vuelta puede superar una tonelada. Cambiar el coche por transporte público, bicicleta o un vehículo eficiente en los trayectos diarios reduce tus emisiones de forma constante. En alimentación, pasar de una dieta con mucha carne roja a una con poca carne puede ahorrar alrededor de 0,9 toneladas al año. En casa, la electricidad de origen renovable, el aislamiento y los electrodomésticos eficientes reducen tanto las emisiones como la factura."
+        "tipo": "consejos",
+        "titulo": "¿Por dónde empezar a reducir tu huella?",
+        "items": [
+          {
+            "titulo": "Mira tu partida más grande",
+            "texto": "La calculadora te muestra qué pesa más: empieza por ahí."
+          },
+          {
+            "titulo": "Transporte primero",
+            "texto": "Para muchas personas, el coche y los vuelos suman más que todo lo demás."
+          },
+          {
+            "titulo": "Compra menos y mejor",
+            "texto": "Alargar la vida del móvil o la ropa evita las emisiones de fabricarlos."
+          }
+        ]
       },
       {
-        "title": "El objetivo de 2 toneladas",
-        "body": "Para limitar el calentamiento global a 1,5 °C, las emisiones globales deberían caer hasta el cero neto a mediados de siglo. Distintos análisis estiman que eso implica bajar hacia unas 2 toneladas por persona y año alrededor de 2050. Compara tu resultado con esa cifra y con el promedio de tu país. Recuerda que esta calculadora es una estimación: no incluye las emisiones de los servicios públicos ni de tu trabajo, y los factores reales dependen de cada producto."
+        "tipo": "texto",
+        "titulo": "¿Qué otras calculadoras ayudan a ahorrar energía?",
+        "parrafos": [
+          "Revisa tu [factura de la luz](/calculadora-factura-luz) y el [gasto en gasolina](/calcular-gasolina) de tus trayectos: lo que ahorras en euros suele ir de la mano con lo que ahorras en CO₂."
+        ]
       }
     ],
     "faqs": [
@@ -23605,36 +23826,69 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "En Argentina conviven varios tipos de cambio y cada uno sirve para algo distinto. Este conversor muestra al instante la cotización del dólar blue, oficial, MEP, contado con liqui, mayorista, cripto y tarjeta. Te deja convertir dólares a pesos, o pesos a dólares, con el precio correcto según si vendés o comprás. También calcula la brecha entre el dólar blue y el oficial para que entiendas cuánto se separan los mercados.",
-    "howToUse": [
-      "Elegí el tipo de dólar tocando su tarjeta: blue, oficial, MEP, CCL, cripto u otro",
-      "Escribí la cantidad de dólares que querés vender, o tocá ⇄ para calcular cuántos dólares comprás con tus pesos",
-      "Mirá el resultado con el precio de compra (si vendés) o de venta (si comprás)",
-      "Si tenés otra cotización, escribila en «Cotización personalizada»"
-    ],
-    "benefits": [
-      "Siete cotizaciones del dólar en una sola pantalla",
-      "Usa el precio de compra o de venta según la operación",
-      "Calcula la brecha entre el blue y el oficial",
-      "Muestra la hora de la última actualización",
-      "Permite usar una cotización propia",
-      "Funciona en el celular, sin registrarte"
-    ],
-    "contentSections": [
+    "resumen": "Consulta las cotizaciones del dólar en Argentina (oficial, blue, MEP, contado con liqui, mayorista, cripto y tarjeta) con su precio de compra y de venta, y convierte pesos a dólares o dólares a pesos con cada una.",
+    "bloques": [
       {
-        "title": "Qué es el dólar blue",
-        "body": "El dólar blue es el que se compra y vende en el mercado informal, por fuera de bancos y casas de cambio autorizadas, en las llamadas cuevas o arbolitos. Su precio surge de la oferta y la demanda y suele moverse por encima del oficial cuando hay restricciones para comprar divisas. Las cotizaciones que se publican son orientativas, porque cada operación informal puede tener un precio algo distinto según la zona y el monto."
+        "tipo": "infografia",
+        "archivo": "tipos-dolar-argentina.webp",
+        "alt": "Tipos de dólar en Argentina: oficial, blue, MEP, contado con liqui, mayorista, tarjeta y cripto, y fórmula de la brecha",
+        "ancho": 800,
+        "alto": 805,
+        "titulo": "¿Qué diferencia hay entre los tipos de dólar en Argentina?"
       },
       {
-        "title": "Los otros tipos de dólar",
-        "body": "El dólar oficial es el que ofrecen los bancos a sus clientes. El mayorista es el que usan bancos y empresas en el mercado de cambios y fija el Banco Central. El dólar MEP, o dólar bolsa, se obtiene comprando y vendiendo bonos en pesos y en dólares dentro del país, de forma legal. El contado con liquidación (CCL) es similar, pero los dólares quedan en una cuenta del exterior. El dólar tarjeta es el que se aplica a los consumos en moneda extranjera con impuestos y percepciones, y el cripto se opera con monedas estables en plataformas digitales."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuántos dólares recibes por $1.000.000 según el tipo de cambio?",
+        "datos": [
+          [
+            "Monto",
+            "$1.000.000"
+          ],
+          [
+            "Cotizaciones de ejemplo",
+            "oficial $1.250 · blue $1.500"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Al oficial, dividiendo por el precio de venta.",
+            "operacion": "1.000.000 ÷ 1.250 = US$ 800"
+          },
+          {
+            "texto": "Al blue, con el mismo cálculo.",
+            "operacion": "1.000.000 ÷ 1.500 = US$ 666,67"
+          },
+          {
+            "texto": "La diferencia es la brecha cambiaria.",
+            "operacion": "1.500 ÷ 1.250 − 1 = 20 %"
+          }
+        ]
       },
       {
-        "title": "Compra y venta: cuál usar",
-        "body": "Cada cotización tiene dos precios. El de compra es lo que te pagan si vendés tus dólares; el de venta, lo que pagás si los comprás. La diferencia entre ambos es la ganancia de quien opera. Por eso, si vendés 100 dólares, multiplicá por el precio de compra, y si querés saber cuántos dólares comprás con tus pesos, dividí por el precio de venta. El conversor lo hace automáticamente según la dirección que elijas."
+        "tipo": "checklist",
+        "titulo": "¿Qué tener en cuenta antes de comprar dólares?",
+        "items": [
+          "Mira el precio de venta: es el que pagas tú.",
+          "Compara el MEP con el blue: por vía legal a veces la diferencia es pequeña.",
+          "Para pagos con tarjeta en el exterior, se aplica el dólar tarjeta, más caro que el oficial.",
+          "En el mercado informal no tienes ningún respaldo si te dan billetes falsos."
+        ]
       },
       {
-        "title": "La brecha cambiaria",
-        "body": "La brecha es la diferencia porcentual entre el dólar blue y el oficial. Una brecha alta indica que muchas personas buscan dólares por fuera del mercado oficial, generalmente por restricciones o por expectativas de devaluación. Cuando las restricciones se levantan y el mercado se unifica, la brecha tiende a achicarse. Seguir su evolución ayuda a entender el contexto económico, pero no permite predecir el precio futuro."
+        "tipo": "texto",
+        "titulo": "¿Cómo proteger tus pesos de la inflación?",
+        "parrafos": [
+          "Compara lo que pierdes con la [calculadora de inflación](/calculadora-inflacion) y lo que ganarías con un [plazo fijo](/calculadora-plazo-fijo). Para otras monedas, usa el [convertidor de monedas](/convertidor-moneda)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "DolarApi: cotizaciones del dólar en Argentina",
+            "url": "https://dolarapi.com"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -23688,36 +23942,68 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Cada seis meses, quienes están en el Monotributo deben revisar si siguen en la misma categoría. Esta calculadora aplica la escala de ARCA vigente desde el 1 de agosto de 2026 para decirte en qué categoría te corresponde estar, de la A a la K, según tus ingresos brutos de los últimos 12 meses. También considera la superficie afectada, la energía consumida y los alquileres. Te muestra la cuota mensual desglosada en impuesto integrado, aporte jubilatorio y obra social, según si prestás servicios o vendés bienes.",
-    "howToUse": [
-      "Elegí tu actividad: servicios o venta de cosas muebles",
-      "Escribí tus ingresos brutos facturados en los últimos 12 meses",
-      "Si tenés local, agregá la superficie, la energía eléctrica consumida al año y los alquileres",
-      "Tocá «Calcular mi categoría» para ver la categoría y la cuota"
-    ],
-    "benefits": [
-      "Escala oficial vigente desde agosto de 2026",
-      "Evalúa los cuatro parámetros de la recategorización",
-      "Cuota diferenciada para servicios y venta de bienes",
-      "Desglose de impuesto integrado, SIPA y obra social",
-      "Avisa si quedás excluido del régimen",
-      "Tabla completa de categorías A a K"
-    ],
-    "contentSections": [
+    "resumen": "Descubre en qué categoría del Monotributo te corresponde estar según tu facturación anual, la superficie de tu local, la energía y los alquileres, y cuánto pagarás cada mes por impuesto integrado, aporte jubilatorio y obra social, con las escalas de agosto de 2026.",
+    "bloques": [
       {
-        "title": "Cómo se determina la categoría",
-        "body": "La categoría depende del parámetro que te ubique más arriba. Se consideran los ingresos brutos devengados en los últimos 12 meses, la superficie afectada a la actividad, la energía eléctrica consumida en ese período y los alquileres devengados. Por ejemplo, si por ingresos estarías en la categoría C pero tu local tiene 70 m², te corresponde la D, porque la C admite hasta 60 m². La superficie y la energía no se aplican a quienes no tienen local, como muchos prestadores de servicios."
+        "tipo": "infografia",
+        "archivo": "categorias-monotributo-2026.webp",
+        "alt": "Categorías del Monotributo de la A a la K con su tope de facturación anual y la cuota mensual para servicios",
+        "ancho": 800,
+        "alto": 837,
+        "titulo": "¿Cómo crece la cuota mensual de la categoría A a la K?"
       },
       {
-        "title": "Escala vigente desde agosto de 2026",
-        "body": "ARCA actualiza los topes en febrero y agosto según la inflación. Desde el 1 de agosto de 2026, la categoría A llega hasta $12.009.410,45 de ingresos anuales, con una cuota de $49.527,18, y la categoría K, la más alta, hasta $126.610.838,75, con una cuota de $1.614.446,04 para servicios y $702.103,24 para venta de bienes. Quienes venden bienes no pueden superar un precio unitario de $716.840,77."
+        "tipo": "tabla",
+        "titulo": "¿Qué incluye la cuota mensual de la categoría A?",
+        "cabeceras": [
+          "Componente",
+          "Servicios"
+        ],
+        "filas": [
+          [
+            "Impuesto integrado",
+            "$5.585,77"
+          ],
+          [
+            "Aporte jubilatorio (SIPA)",
+            "$18.246,86"
+          ],
+          [
+            "Obra social",
+            "$25.694,55"
+          ],
+          [
+            "Total mensual",
+            "$49.527,18"
+          ]
+        ]
       },
       {
-        "title": "Qué incluye la cuota",
-        "body": "La cuota mensual tiene tres componentes. El impuesto integrado reemplaza al IVA y a Ganancias. El aporte al SIPA es la cotización jubilatoria. El aporte a la obra social da cobertura médica al titular y puede ampliarse al grupo familiar pagando un adicional por cada integrante. Los trabajadores en relación de dependencia y los jubilados no pagan el aporte jubilatorio ni la obra social del Monotributo, solo el impuesto integrado."
+        "tipo": "checklist",
+        "titulo": "¿Qué parámetros definen tu categoría además de lo que facturas?",
+        "items": [
+          "Los ingresos brutos de los últimos 12 meses.",
+          "La superficie del local donde trabajas.",
+          "La energía eléctrica consumida en el año.",
+          "Los alquileres que pagas por el local.",
+          "Si vendes cosas, el precio unitario máximo de lo que vendes."
+        ]
       },
       {
-        "title": "La recategorización semestral",
-        "body": "En enero y julio, cada monotributista debe revisar sus parámetros de los últimos 12 meses y, si corresponde, recategorizarse desde la web de ARCA. Si no cambiaste de categoría, no tenés que hacer nada. Si superás los topes de la categoría K, o incumplís otros requisitos, quedás excluido y debés pasar al Régimen General, donde se paga IVA y Ganancias por separado."
+        "tipo": "texto",
+        "titulo": "¿Qué calculadoras ayudan a un monotributista?",
+        "parrafos": [
+          "Mide cómo la inflación afecta tus precios con la [calculadora de inflación](/calculadora-inflacion) y calcula descuentos o recargos con la [calculadora de porcentajes](/calculadora-porcentaje). Si cobras en dólares, revisa el [dólar blue y el MEP](/dolar-blue)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "ARCA: Monotributo",
+            "url": "https://www.arca.gob.ar"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -23770,36 +24056,72 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Sumar los porcentajes de inflación de cada mes da un resultado incorrecto: la inflación se acumula multiplicando. Esta calculadora obtiene la inflación acumulada a partir de las tasas mensuales o anuales que escribas y la tasa promedio por periodo. Actualiza cualquier monto a valores de hoy y te dice si un aumento de sueldo o un rendimiento le ganó a la inflación. Sirve para cualquier país: solo necesitás las tasas oficiales del índice de precios.",
-    "howToUse": [
-      "Elegí si vas a escribir las tasas de cada periodo o una tasa constante",
-      "Escribí las tasas de inflación en porcentaje, por ejemplo las mensuales del IPC",
-      "Opcional: escribí un monto para actualizar y el aumento de sueldo del mismo periodo",
-      "Tocá «Calcular inflación acumulada» para ver el resultado"
-    ],
-    "benefits": [
-      "Calcula la inflación acumulada compuesta correctamente",
-      "Acepta tasas distintas para cada mes o una tasa constante",
-      "Anualiza la inflación mensual",
-      "Actualiza montos y muestra la pérdida de poder adquisitivo",
-      "Compara tu aumento de sueldo con la inflación",
-      "Sirve para cualquier país y moneda"
-    ],
-    "contentSections": [
+    "resumen": "Calcula la inflación acumulada de varios meses, con tasas distintas o una tasa constante, su equivalente anual, cuánto valen hoy tus pesos de antes y si tu aumento de sueldo le ganó a la inflación.",
+    "bloques": [
       {
-        "title": "Cómo se calcula la inflación acumulada",
-        "body": "Cada tasa se convierte en un factor (1 + tasa ÷ 100) y los factores se multiplican. Con inflaciones mensuales del 3% y el 3%, el factor es 1,03 × 1,03 = 1,0609, es decir, 6,09% acumulado y no 6%. Con tasas altas la diferencia es enorme: doce meses al 10% no dan 120%, sino 213,8%. La inflación promedio por periodo es la media geométrica, y la anualizada muestra cuánto sería en un año si se mantuviera ese ritmo."
+        "tipo": "infografia",
+        "archivo": "inflacion-acumulada-vs-suma.webp",
+        "alt": "Gráfica que muestra por qué la inflación mensual se acumula y no se suma, con equivalencias anuales",
+        "ancho": 800,
+        "alto": 671,
+        "titulo": "¿Por qué la inflación mensual se acumula y no se suma?"
       },
       {
-        "title": "Actualizar montos por inflación",
-        "body": "Para saber cuánto vale hoy un monto del pasado, se multiplica por el factor acumulado. Si algo costaba $100.000 y la inflación acumulada fue del 50%, hoy cuesta $150.000. Al revés, para saber cuánto compran hoy $100.000 en valores del pasado, se divide por el factor: $66.667. Es el cálculo que se usa para actualizar alquileres, deudas o precios de referencia."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto vale hoy un sueldo que no se actualizó en un año?",
+        "datos": [
+          [
+            "Sueldo",
+            "$1.000.000"
+          ],
+          [
+            "Inflación",
+            "2 % mensual durante 12 meses"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Inflación acumulada del año.",
+            "operacion": "1,02¹² − 1 = 26,82 %"
+          },
+          {
+            "texto": "Poder de compra del mismo sueldo.",
+            "operacion": "1.000.000 ÷ 1,2682 = $788.493"
+          },
+          {
+            "texto": "Aumento necesario para no perder.",
+            "operacion": "$268.242 más, un 26,82 %"
+          }
+        ]
       },
       {
-        "title": "¿Tu sueldo le ganó a la inflación?",
-        "body": "Un aumento solo mejora tu poder de compra si supera la inflación del mismo periodo. La variación real se calcula como (1 + aumento) ÷ (1 + inflación) − 1. Con un aumento del 20% y una inflación del 25%, la variación real es −4%: aunque cobres más pesos, podés comprar menos. La calculadora hace esta cuenta si escribís tu aumento."
+        "tipo": "glosario",
+        "titulo": "¿Qué significan los términos que usa la calculadora?",
+        "items": [
+          [
+            "Inflación mensual",
+            "Cuánto subieron los precios de un mes al siguiente."
+          ],
+          [
+            "Inflación acumulada",
+            "La suba total de varios meses, multiplicando cada tasa sobre la anterior."
+          ],
+          [
+            "Inflación interanual",
+            "Compara un mes con el mismo mes del año anterior."
+          ],
+          [
+            "Poder adquisitivo",
+            "Cuántas cosas puedes comprar con el mismo dinero."
+          ]
+        ]
       },
       {
-        "title": "Dónde encontrar las tasas oficiales",
-        "body": "En Argentina, el Índice de Precios al Consumidor (IPC) lo publica mensualmente el INDEC. En México, el INPC, el INEGI; en España, el IPC, el INE; en Chile, el IPC, el INE de Chile; y en Colombia, el IPC, el DANE. Usá siempre el mismo índice para todo el periodo y fijate si la tasa publicada es mensual, interanual o acumulada en el año."
+        "tipo": "texto",
+        "titulo": "¿Qué otras calculadoras sirven en épocas de inflación?",
+        "parrafos": [
+          "Actualiza contratos con la [calculadora de alquileres](/calculadora-alquiler-argentina) y compara rendimientos con la [calculadora de plazo fijo](/calculadora-plazo-fijo). Para calcular aumentos sueltos, la [calculadora de porcentajes](/calculadora-porcentaje)."
+        ]
       }
     ],
     "faqs": [
@@ -23849,36 +24171,70 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Si te despiden sin aviso previo en Argentina, el empleador debe pagarte una indemnización sustitutiva del preaviso. Además, si el despido no ocurre el último día del mes, corresponde la integración del mes de despido. Esta calculadora aplica los artículos 231, 232 y 233 de la Ley de Contrato de Trabajo: determina el plazo según tu antigüedad, calcula ambos conceptos y suma el aguinaldo proporcional que se genera sobre ellos.",
-    "howToUse": [
-      "Escribí tu mejor remuneración mensual, normal y habitual",
-      "Ingresá la fecha de inicio de la relación laboral y la fecha del despido",
-      "Marcá si estabas en período de prueba o si te dieron y trabajaste el preaviso",
-      "Tocá «Calcular preaviso» para ver el total y el desglose"
-    ],
-    "benefits": [
-      "Plazo de preaviso automático según tu antigüedad",
-      "Calcula la integración del mes de despido día por día",
-      "Suma el SAC sobre preaviso e integración",
-      "Considera el período de prueba",
-      "Basado en los artículos 231 a 233 de la LCT",
-      "Gratis y sin registrarte"
-    ],
-    "contentSections": [
+    "resumen": "Calcula la indemnización sustitutiva del preaviso en Argentina, la integración del mes de despido y el SAC sobre ambos conceptos, según tu sueldo, tu antigüedad y la fecha del despido, como establecen los artículos 231 a 233 de la Ley de Contrato de Trabajo.",
+    "bloques": [
       {
-        "title": "Plazos del preaviso",
-        "body": "El artículo 231 de la Ley de Contrato de Trabajo establece que el contrato no puede disolverse sin aviso previo. Cuando despide el empleador, el plazo es de 15 días si el trabajador está en período de prueba, de 1 mes si la antigüedad no supera los 5 años y de 2 meses si es mayor. Cuando renuncia el trabajador, debe preavisar con 15 días. El preaviso corre desde el día siguiente a su notificación por escrito."
+        "tipo": "infografia",
+        "archivo": "liquidacion-preaviso-argentina.webp",
+        "alt": "Ejemplo de liquidación por despido sin preaviso en Argentina con integración del mes y SAC",
+        "ancho": 800,
+        "alto": 875,
+        "titulo": "¿Qué conceptos cobras si te despiden sin preaviso?"
       },
       {
-        "title": "Indemnización sustitutiva e integración",
-        "body": "Si el empleador no otorga el preaviso, debe pagar una indemnización equivalente a la remuneración que el trabajador habría cobrado durante ese plazo (artículo 232). Además, cuando el despido sin preaviso ocurre en un día que no es el último del mes, el artículo 233 obliga a pagar los salarios de los días que faltan hasta fin de mes: es la integración del mes de despido. Por ejemplo, un despido el 10 de un mes de 30 días suma 20 días de integración."
+        "tipo": "escenarios",
+        "titulo": "¿Cómo cambia el plazo de aviso entre período de prueba, antigüedad y renuncia?",
+        "items": [
+          {
+            "titulo": "En período de prueba",
+            "situacion": "Los primeros 6 meses de contrato.",
+            "resultado": "15 días"
+          },
+          {
+            "titulo": "Hasta 5 años de antigüedad",
+            "situacion": "Pasado el período de prueba.",
+            "resultado": "1 mes"
+          },
+          {
+            "titulo": "Más de 5 años",
+            "situacion": "Desde el primer día del sexto año.",
+            "resultado": "2 meses"
+          },
+          {
+            "titulo": "Si renuncias",
+            "situacion": "Tú debes avisar al empleador con 15 días de anticipación.",
+            "resultado": "15 días"
+          }
+        ]
       },
       {
-        "title": "El aguinaldo sobre el preaviso",
-        "body": "La indemnización sustitutiva del preaviso y la integración del mes de despido tienen naturaleza salarial a estos efectos, por lo que generan sueldo anual complementario (SAC) proporcional: una doceava parte de su monto. La calculadora lo suma al total. Estos conceptos se agregan a la indemnización por antigüedad del artículo 245, las vacaciones no gozadas y el SAC proporcional del semestre, que se calculan por separado."
+        "tipo": "glosario",
+        "titulo": "¿Qué significa cada concepto de la liquidación?",
+        "items": [
+          [
+            "Preaviso",
+            "El aviso anticipado del despido. Si no se da, se paga con la indemnización sustitutiva."
+          ],
+          [
+            "Integración del mes",
+            "Los días que faltan hasta fin de mes cuando el despido no cae el último día."
+          ],
+          [
+            "SAC",
+            "Sueldo anual complementario o aguinaldo: se suma 1/12 sobre el preaviso y la integración."
+          ],
+          [
+            "Indemnización por antigüedad",
+            "Un mes de sueldo por año trabajado, aparte del preaviso (artículo 245)."
+          ]
+        ]
       },
       {
-        "title": "Cuando el preaviso se trabaja",
-        "body": "Si el empleador te notifica el despido con el plazo correspondiente y seguís trabajando durante el preaviso, no hay indemnización sustitutiva ni integración, porque cobrás tu sueldo normal. Durante ese tiempo tenés derecho a una licencia de dos horas diarias, sin reducción de salario, para buscar otro empleo (artículo 237), que podés acumular en jornadas completas."
+        "tipo": "texto",
+        "titulo": "¿Qué otras cuentas hacer si te despiden?",
+        "parrafos": [
+          "Calcula la indemnización por antigüedad con la [calculadora de indemnización por despido](/calcular-indemnizacion-despido) y el aguinaldo proporcional con la [calculadora de SAC](/calcular-sac-argentina). Si te ofrecen un nuevo trabajo, compara el neto con la [calculadora de sueldo neto](/calculadora-sueldo-neto-argentina)."
+        ]
       }
     ],
     "faqs": [
@@ -23931,36 +24287,84 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "¿Cuánto recibirás realmente de tu sueldo bruto? En Chile, a la remuneración imponible se le descuentan la cotización de la AFP con su comisión, la salud en Fonasa o Isapre, el seguro de cesantía y el impuesto único de segunda categoría. Esta calculadora aplica los topes imponibles de 2026 y el valor del día de la UF y la UTM, e incluye la gratificación legal si la recibes mes a mes. Así ves tu sueldo líquido y el detalle de cada descuento.",
-    "howToUse": [
-      "Escribe tu sueldo base bruto y otros haberes imponibles, como bonos u horas extra",
-      "Añade los haberes no imponibles, como colación y movilización",
-      "Elige tu AFP, tu sistema de salud y tu tipo de contrato",
-      "Marca si recibes gratificación mensual y pulsa «Calcular sueldo líquido»"
-    ],
-    "benefits": [
-      "Comisiones de las siete AFP",
-      "Fonasa o Isapre con plan en UF",
-      "Seguro de cesantía según tipo de contrato",
-      "Impuesto único con la tabla del SII en UTM",
-      "UF y UTM del día cargadas automáticamente",
-      "Topes imponibles de 2026: 90 UF y 135,2 UF"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu sueldo líquido en Chile a partir del bruto: descuenta la cotización de tu AFP con su comisión, el 7 % de salud (Fonasa o Isapre), el seguro de cesantía y el impuesto único de segunda categoría, con los topes en UF y la UTM del mes.",
+    "bloques": [
       {
-        "title": "Descuentos de la liquidación de sueldo",
-        "body": "Sobre la remuneración imponible se descuenta el 10% para la cuenta individual de la AFP más la comisión de tu administradora, que va del 0,46% al 1,45%. La salud es el 7% en Fonasa; en Isapre pagas el valor de tu plan, con un mínimo del 7%. Con contrato indefinido pagas además el 0,6% del seguro de cesantía. Todo esto se calcula con un tope imponible: en 2026 es de 90 UF para AFP y salud y de 135,2 UF para el seguro de cesantía."
+        "tipo": "infografia",
+        "archivo": "sueldo-bruto-a-liquido-chile.webp",
+        "alt": "Descuentos de AFP, salud y seguro de cesantía desde un sueldo bruto de un millón de pesos chilenos",
+        "ancho": 800,
+        "alto": 686,
+        "titulo": "¿Qué descuentos se restan del sueldo bruto en Chile?"
       },
       {
-        "title": "El impuesto único de segunda categoría",
-        "body": "Después de descontar las cotizaciones previsionales, lo que queda es la renta tributable. Si es menor a 13,5 UTM, no pagas impuesto. Por encima, se aplica una tabla progresiva con tasas del 4% al 40% y una cantidad a rebajar en cada tramo, publicada mensualmente por el SII en pesos. Solo el 7% legal de salud rebaja la base del impuesto; el adicional voluntario de una Isapre no lo hace."
+        "tipo": "tabla",
+        "titulo": "¿Qué porcentaje descuenta cada concepto de la liquidación?",
+        "cabeceras": [
+          "Descuento",
+          "Porcentaje",
+          "Sobre qué"
+        ],
+        "filas": [
+          [
+            "AFP",
+            "10 % + comisión (0,46 % a 1,45 %)",
+            "Imponible, con tope de 90 UF"
+          ],
+          [
+            "Salud",
+            "7 % (o el plan de Isapre, si es mayor)",
+            "Imponible, con tope de 90 UF"
+          ],
+          [
+            "Seguro de cesantía",
+            "0,6 % con contrato indefinido; 0 % a plazo fijo",
+            "Imponible, con tope de 135,2 UF"
+          ],
+          [
+            "Impuesto único",
+            "De 0 % a 40 % según el tramo",
+            "Imponible menos AFP, 7 % de salud y cesantía"
+          ]
+        ]
       },
       {
-        "title": "Gratificación legal",
-        "body": "La mayoría de las empresas paga la gratificación con la modalidad del artículo 50 del Código del Trabajo: el 25% de la remuneración mensual, con un tope anual de 4,75 ingresos mínimos mensuales. Con el ingreso mínimo de $553.553 vigente desde mayo de 2026, el tope mensual es de unos $219.115. La gratificación es imponible, así que aumenta tanto tu sueldo bruto como tus cotizaciones."
+        "tipo": "glosario",
+        "titulo": "¿Qué diferencia hay entre haberes imponibles y no imponibles?",
+        "items": [
+          [
+            "Imponible",
+            "Sueldo base, gratificación, horas extra, comisiones y bonos: pagan cotizaciones e impuesto."
+          ],
+          [
+            "No imponible",
+            "Colación, movilización y viáticos razonables: se suman al líquido sin descuentos."
+          ],
+          [
+            "Base tributable",
+            "El imponible menos las cotizaciones obligatorias: sobre ella se calcula el impuesto único."
+          ],
+          [
+            "Tope imponible",
+            "Por encima de 90 UF, el sueldo ya no paga más AFP ni salud."
+          ]
+        ]
       },
       {
-        "title": "Lo que paga el empleador",
-        "body": "Además de tu sueldo, el empleador paga el seguro de invalidez y sobrevivencia, su parte del seguro de cesantía, el seguro de accidentes del trabajo y la cotización adicional que introdujo la reforma de pensiones de 2025, que sube gradualmente. Ninguno de estos montos se descuenta de tu sueldo líquido, pero sí forman parte del costo total de tu contratación."
+        "tipo": "texto",
+        "titulo": "¿Qué otros cálculos laborales hay para Chile?",
+        "parrafos": [
+          "La [gratificación](/gratificacion-chile) que se suma al imponible, el [finiquito](/finiquito-chile) si terminas un contrato y la comparación de comisiones con la [calculadora de cotización AFP](/cotizacion-afp). Para pasar montos en UF, usa el conversor de [UF a pesos](/uf-a-pesos)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Servicio de Impuestos Internos (SII)",
+            "url": "https://www.sii.cl"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -24011,36 +24415,84 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Al terminar un contrato de trabajo en Chile, el empleador debe pagar un finiquito con los montos que correspondan según la causal de término. Esta calculadora estima la indemnización por años de servicio y la sustitutiva del aviso previo. También calcula el feriado proporcional por las vacaciones no tomadas y los recargos legales si el despido es declarado injustificado. Aplica los topes del Código del Trabajo: 11 años de servicio y 90 UF de remuneración mensual.",
-    "howToUse": [
-      "Escribe tu última remuneración mensual, incluida la gratificación y los haberes fijos",
-      "Elige la causal de término de tu contrato",
-      "Ingresa la fecha de inicio y de término, y los días de vacaciones pendientes de años anteriores",
-      "Indica si te avisaron con 30 días y pulsa «Calcular finiquito»"
-    ],
-    "benefits": [
-      "Seis causales de término del Código del Trabajo",
-      "Indemnización con tope de 11 años y 90 UF",
-      "Indemnización sustitutiva del aviso previo",
-      "Feriado proporcional y vacaciones pendientes",
-      "Recargos del artículo 168 por despido injustificado",
-      "UF del día cargada automáticamente"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu finiquito en Chile según la causal de término: indemnización por años de servicio, indemnización sustitutiva del aviso previo, recargo por despido injustificado y feriado proporcional, con el tope de 90 UF y el máximo de 11 años.",
+    "bloques": [
       {
-        "title": "Qué incluye el finiquito según la causal",
-        "body": "Si te despiden por necesidades de la empresa (artículo 161), te corresponden 30 días de la última remuneración por cada año de servicio y fracción superior a seis meses, siempre que hayas trabajado al menos un año, más un mes de aviso previo si no te avisaron con 30 días de anticipación. Si renuncias, llegas a un mutuo acuerdo o termina un plazo fijo, no hay indemnización por años de servicio, pero sí se pagan las vacaciones proporcionales y pendientes, además de las remuneraciones adeudadas."
+        "tipo": "infografia",
+        "archivo": "ejemplo-finiquito-chile.webp",
+        "alt": "Ejemplo de finiquito en Chile por necesidades de la empresa con indemnización, aviso y feriado proporcional",
+        "ancho": 800,
+        "alto": 747,
+        "titulo": "¿Cómo se suma un finiquito por necesidades de la empresa?"
       },
       {
-        "title": "Topes de la indemnización",
-        "body": "Para contratos iniciados después del 14 de agosto de 1981, la indemnización por años de servicio tiene un tope de 330 días de remuneración, es decir, 11 años. Además, la remuneración mensual que se considera no puede superar 90 UF. Con una UF de unos $41.000, el tope mensual ronda los $3,7 millones. Si el contrato colectivo o individual pactó una indemnización mayor, se paga la más favorable."
+        "tipo": "tabla",
+        "titulo": "¿Qué pagos incluye el finiquito según la causal?",
+        "cabeceras": [
+          "Causal",
+          "Años de servicio",
+          "Aviso previo",
+          "Feriado"
+        ],
+        "filas": [
+          [
+            "Necesidades de la empresa",
+            "Sí",
+            "Sí, si no avisaron con 30 días",
+            "Sí"
+          ],
+          [
+            "Desahucio",
+            "Sí",
+            "Sí, si no avisaron con 30 días",
+            "Sí"
+          ],
+          [
+            "Renuncia voluntaria",
+            "No",
+            "No",
+            "Sí"
+          ],
+          [
+            "Mutuo acuerdo",
+            "Solo si se pacta",
+            "No",
+            "Sí"
+          ],
+          [
+            "Vencimiento del plazo",
+            "No",
+            "No",
+            "Sí"
+          ]
+        ]
       },
       {
-        "title": "El feriado proporcional",
-        "body": "Cada trabajador genera 15 días hábiles de vacaciones por año, es decir, 1,25 días hábiles por mes. Al terminar el contrato, se pagan los días no tomados de años anteriores y la parte proporcional del año en curso. Como el pago se hace en días corridos, sumando sábados, domingos y festivos que caerían dentro del periodo de vacaciones, el monto suele ser mayor que la simple multiplicación de días hábiles. La calculadora lo aproxima con un factor de 7/5."
+        "tipo": "checklist",
+        "titulo": "¿Qué revisar antes de firmar el finiquito?",
+        "items": [
+          "Que la causal escrita sea la real: de ella depende la indemnización.",
+          "Que estén pagadas las cotizaciones de todos los meses trabajados.",
+          "Que el feriado pendiente incluya los días de años anteriores.",
+          "Que el sueldo base del cálculo incluya los haberes fijos del último mes.",
+          "Si no estás de acuerdo, escribe «con reserva de derechos» antes de firmar."
+        ]
       },
       {
-        "title": "Despido injustificado y recargos",
-        "body": "Si un tribunal declara que el despido fue injustificado, indebido o improcedente, la indemnización por años de servicio se incrementa: un 30% si se invocó necesidades de la empresa sin fundamento, un 50% si se invocó otra causal sin fundamento o no se invocó ninguna, un 80% si se aplicó una causal del artículo 160 improcedente y hasta un 100% si esa causal se aplicó sin motivo plausible. El finiquito debe firmarse ante un ministro de fe, como un notario o un inspector del trabajo."
+        "tipo": "texto",
+        "titulo": "¿Qué hacer después del finiquito?",
+        "parrafos": [
+          "Calcula tu nuevo sueldo con la [calculadora de sueldo líquido](/sueldo-liquido-chile) y convierte los montos en UF con el conversor de [UF a pesos](/uf-a-pesos). Si vas a cobrar el seguro de cesantía, consulta en la AFC."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Dirección del Trabajo de Chile",
+            "url": "https://www.dt.gob.cl"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -24091,36 +24543,76 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "La Unidad de Fomento (UF) es la unidad de cuenta reajustable que se usa en Chile para arriendos, créditos hipotecarios, seguros, planes de Isapre y contratos de largo plazo. Su valor en pesos cambia cada día según la inflación. Este conversor carga automáticamente el valor de la UF de hoy y te permite pasar de UF a pesos o de pesos a UF, con una tabla de equivalencias. También puedes escribir el valor de la UF de otra fecha.",
-    "howToUse": [
-      "Revisa el valor de la UF del día, que se carga automáticamente",
-      "Escribe la cantidad de UF que quieres convertir; pulsa ⇄ para convertir de pesos a UF",
-      "Si necesitas otra fecha, escribe el valor de la UF de ese día",
-      "Consulta la tabla para montos frecuentes"
-    ],
-    "benefits": [
-      "Valor de la UF actualizado cada día",
-      "Conversión de UF a pesos y de pesos a UF",
-      "Tabla de 0,5 a 3.000 UF",
-      "Permite usar el valor de otra fecha",
-      "Ejemplos para arriendos y créditos",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Convierte UF a pesos chilenos y pesos a UF con el valor del día, que la herramienta consulta al abrirla. Incluye una tabla de equivalencias para arriendos, dividendos y planes de Isapre.",
+    "bloques": [
       {
-        "title": "Qué es la UF",
-        "body": "La Unidad de Fomento se creó en 1967 para mantener el valor real de los préstamos y contratos frente a la inflación. Su valor lo calcula el Banco Central de Chile a partir de la variación del índice de precios al consumidor del mes anterior, y se distribuye día a día entre el 10 de un mes y el 9 del siguiente. Así, un arriendo o un dividendo fijado en UF mantiene su poder de compra, aunque en pesos suba mes a mes."
+        "tipo": "infografia",
+        "archivo": "reajuste-diario-uf.webp",
+        "alt": "Cómo se reajusta la UF día a día según el IPC del mes anterior y para qué se usa",
+        "ancho": 800,
+        "alto": 774,
+        "titulo": "¿Cómo se reajusta el valor de la UF cada día?"
       },
       {
-        "title": "Para qué se usa",
-        "body": "La mayoría de los créditos hipotecarios en Chile se pactan en UF, al igual que muchos arriendos, los planes de salud de las Isapres, los seguros y el valor de las propiedades en venta. También se usan UF para fijar el tope imponible de las cotizaciones previsionales y los topes de indemnizaciones. Por eso conviene saber convertir: un departamento de 3.500 UF, un arriendo de 15 UF o un tope de 90 UF."
+        "tipo": "escenarios",
+        "titulo": "¿Para qué se usa la UF en la vida diaria?",
+        "items": [
+          {
+            "titulo": "Arriendo pactado en UF",
+            "situacion": "Un arriendo de 15 UF se paga cada mes con la UF del día de pago, así que sube con la inflación.",
+            "resultado": "Arriendo"
+          },
+          {
+            "titulo": "Crédito hipotecario",
+            "situacion": "La deuda y el dividendo están en UF: en pesos suben con el IPC.",
+            "resultado": "Dividendo"
+          },
+          {
+            "titulo": "Plan de Isapre",
+            "situacion": "El precio del plan se fija en UF y se cobra en pesos cada mes.",
+            "resultado": "Salud"
+          }
+        ]
       },
       {
-        "title": "UF, UTM e IPC",
-        "body": "La UF se reajusta diariamente según el IPC, mientras que la Unidad Tributaria Mensual (UTM) tiene un valor fijo durante cada mes y se usa para impuestos y multas. El IPC es el índice de precios que mide la inflación y sirve de base para ambas. Si tu contrato está en UF, tu pago en pesos subirá aproximadamente al ritmo de la inflación."
+        "tipo": "comparacion",
+        "titulo": "¿Qué diferencia hay entre la UF y la UTM?",
+        "columnas": [
+          {
+            "titulo": "UF",
+            "tono": "azul",
+            "items": [
+              "Cambia todos los días.",
+              "Se reajusta con el IPC del mes anterior.",
+              "Se usa en créditos, arriendos, seguros y topes imponibles."
+            ]
+          },
+          {
+            "titulo": "UTM",
+            "tono": "verde",
+            "items": [
+              "Cambia una vez al mes.",
+              "También sigue al IPC.",
+              "Se usa en impuestos, multas y patentes."
+            ]
+          }
+        ]
       },
       {
-        "title": "Cómo calcular un valor en UF",
-        "body": "Para pasar de UF a pesos, multiplica la cantidad de UF por el valor de la UF del día en que se hace el pago. Para pasar de pesos a UF, divide el monto en pesos entre el valor de la UF. Por ejemplo, si la UF vale $41.000, un arriendo de 15 UF equivale a $615.000. El mes siguiente, si la UF sube a $41.100, el arriendo en pesos será de $616.500."
+        "tipo": "texto",
+        "titulo": "¿Qué otras herramientas usan la UF?",
+        "parrafos": [
+          "La [calculadora de dividendo hipotecario](/dividendo-hipotecario), que trabaja en UF; la de [sueldo líquido](/sueldo-liquido-chile), que aplica el tope de 90 UF, y el conversor de [UTM a pesos](/utm-a-pesos)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Banco Central de Chile",
+            "url": "https://www.bcentral.cl"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -24174,36 +24666,81 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "La Unidad Tributaria Mensual (UTM) es la unidad que usa Chile para expresar impuestos, multas, derechos municipales y tramos tributarios. Su valor en pesos se fija cada mes. Este conversor carga el valor vigente de la UTM y te permite pasar de UTM a pesos o de pesos a UTM. Incluye una tabla con las cantidades más usadas y el equivalente de la UTA, la unidad tributaria anual.",
-    "howToUse": [
-      "Revisa el valor de la UTM del mes, que se carga automáticamente",
-      "Escribe la cantidad de UTM; pulsa ⇄ para convertir de pesos a UTM",
-      "Si necesitas el valor de otro mes, escríbelo en el campo personalizado",
-      "Consulta la tabla de equivalencias y los ejemplos"
-    ],
-    "benefits": [
-      "Valor de la UTM vigente cargado automáticamente",
-      "Conversión en ambos sentidos",
-      "Equivalencia con la UTA (12 UTM)",
-      "Referencia del tramo exento del impuesto único",
-      "Tabla de 0,5 a 100 UTM",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Convierte UTM a pesos chilenos y pesos a UTM con el valor del mes, y calcula la UTA. Útil para multas, patentes, impuestos y para saber en qué tramo del impuesto único cae tu sueldo.",
+    "bloques": [
       {
-        "title": "Qué es la UTM",
-        "body": "La Unidad Tributaria Mensual es una unidad de cuenta que se reajusta cada mes según la variación del IPC. La publica el Servicio de Impuestos Internos y se mantiene fija durante todo el mes. Permite que las multas, los impuestos y los tramos tributarios definidos por ley mantengan su valor real sin necesidad de modificar la ley cada vez que hay inflación."
+        "tipo": "infografia",
+        "archivo": "tramos-impuesto-utm-chile.webp",
+        "alt": "Tramos del impuesto único de segunda categoría en UTM y usos de la UTM y la UTA",
+        "ancho": 800,
+        "alto": 713,
+        "titulo": "¿Cuáles son los tramos del impuesto único medidos en UTM?"
       },
       {
-        "title": "Para qué se usa",
-        "body": "Las multas de tránsito, las infracciones tributarias, los derechos municipales y muchos trámites se expresan en UTM. También los tramos del impuesto único de segunda categoría, que pagan los trabajadores dependientes: la renta tributable de hasta 13,5 UTM al mes está exenta. La Unidad Tributaria Anual (UTA) equivale a 12 UTM del último mes del año y se usa para el impuesto global complementario y otros cálculos anuales."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo saber en qué tramo del impuesto cae un sueldo?",
+        "datos": [
+          [
+            "Base tributable",
+            "imponible menos AFP, salud y cesantía"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Divide la base tributable por la UTM del mes.",
+            "operacion": "base ÷ UTM = UTM mensuales"
+          },
+          {
+            "texto": "Busca el tramo: hasta 13,5 UTM no se paga impuesto.",
+            "operacion": "13,5 a 30 UTM → 4 %; 30 a 50 → 8 %…"
+          },
+          {
+            "texto": "Multiplica por el factor y resta la cantidad a rebajar del tramo.",
+            "operacion": "impuesto = UTM × factor − rebaja"
+          }
+        ]
       },
       {
-        "title": "UTM y UF: diferencias",
-        "body": "Ambas se ajustan por inflación, pero de forma distinta. La UF cambia cada día y se usa sobre todo en créditos, arriendos y contratos privados. La UTM cambia una vez al mes y se usa en el ámbito tributario y administrativo. Una multa de 1 UTM cuesta lo mismo durante todo el mes, mientras que un arriendo de 15 UF cambia de valor en pesos cada día."
+        "tipo": "tabla",
+        "titulo": "¿Qué rango tiene cada tipo de infracción de tránsito?",
+        "cabeceras": [
+          "Gravedad",
+          "Rango"
+        ],
+        "filas": [
+          [
+            "Leve",
+            "0,2 a 0,5 UTM"
+          ],
+          [
+            "Menos grave",
+            "0,5 a 1 UTM"
+          ],
+          [
+            "Grave",
+            "1 a 1,5 UTM"
+          ],
+          [
+            "Gravísima",
+            "1,5 a 3 UTM"
+          ]
+        ]
       },
       {
-        "title": "Ejemplos de conversión",
-        "body": "Para convertir UTM a pesos, multiplica por el valor de la UTM del mes. Si la UTM vale $69.000, una multa de 1,5 UTM equivale a $103.500 y el límite exento del impuesto único, 13,5 UTM, a $931.500 de renta tributable mensual. Para convertir pesos a UTM, divide el monto entre el valor de la UTM."
+        "tipo": "texto",
+        "titulo": "¿Qué calculadoras chilenas usan la UTM?",
+        "parrafos": [
+          "La [calculadora de sueldo líquido](/sueldo-liquido-chile) aplica los tramos del impuesto único con la UTM del mes. Para valores diarios, usa el conversor de [UF a pesos](/uf-a-pesos)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Servicio de Impuestos Internos (SII)",
+            "url": "https://www.sii.cl"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -24257,36 +24794,63 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Antes de comprar una vivienda en Chile, conviene saber cuánto pagarás de dividendo cada mes. Este simulador calcula el dividendo de un crédito hipotecario en UF, con el valor de la propiedad, el pie, la tasa y el plazo. Suma los seguros obligatorios de desgravamen e incendio y convierte el resultado a pesos con la UF del día. Además estima la renta líquida mínima que suelen exigir los bancos y el total de intereses que pagarás.",
-    "howToUse": [
-      "Escribe el valor de la propiedad en UF y el porcentaje de pie",
-      "Ingresa la tasa de interés anual y elige el plazo del crédito",
-      "Ajusta los seguros de desgravamen e incendio con los valores de tu cotización",
-      "Opcional: escribe tu renta líquida y pulsa «Calcular dividendo»"
-    ],
-    "benefits": [
-      "Dividendo en UF y en pesos con la UF de hoy",
-      "Incluye seguros de desgravamen e incendio",
-      "Plazos de 8 a 30 años",
-      "Intereses totales del crédito",
-      "Renta líquida mínima sugerida",
-      "Evalúa si tu renta alcanza"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el dividendo mensual de un crédito hipotecario en Chile a partir del valor de la propiedad en UF, el pie, la tasa y el plazo, con los seguros de desgravamen e incendio y sismo, y comprueba si tu renta alcanza.",
+    "bloques": [
       {
-        "title": "Cómo se calcula el dividendo",
-        "body": "Los créditos hipotecarios en Chile se pactan en UF con una tasa fija o mixta y cuotas iguales en UF (sistema francés). La cuota se calcula con la fórmula C = P × i ÷ (1 − (1 + i)^−n), donde P es el monto del crédito, i la tasa mensual y n el número de meses. Al dividendo se suman los seguros obligatorios: el de desgravamen, que paga la deuda si el deudor fallece, y el de incendio y sismo, que protege la propiedad."
+        "tipo": "infografia",
+        "archivo": "dividendo-segun-plazo-uf.webp",
+        "alt": "Dividendo mensual e intereses totales en UF de un crédito hipotecario a 15, 20, 25 y 30 años",
+        "ancho": 800,
+        "alto": 747,
+        "titulo": "¿Cómo cambian el dividendo y los intereses según el plazo?"
       },
       {
-        "title": "El pie y el monto financiado",
-        "body": "Los bancos suelen financiar hasta el 80% del valor de tasación de la vivienda, y hasta el 90% en algunos casos o programas. La diferencia es el pie, que debes pagar con ahorro propio. Un pie mayor reduce el monto del crédito, el dividendo y, a menudo, la tasa. También hay que considerar gastos operacionales como tasación, estudio de títulos, notaría, inscripción en el Conservador de Bienes Raíces e impuesto de timbres y estampillas."
+        "tipo": "checklist",
+        "titulo": "¿Qué comparar entre ofertas de crédito hipotecario?",
+        "items": [
+          "El CAE (carga anual equivalente), no solo la tasa: incluye gastos y seguros.",
+          "El costo total del crédito en UF al final del plazo.",
+          "Si la tasa es fija o mixta, y cuándo cambia.",
+          "El precio de los seguros: puedes contratarlos fuera del banco.",
+          "Las condiciones de prepago y su comisión."
+        ]
       },
       {
-        "title": "¿Cuánta renta necesito?",
-        "body": "Como regla general, los bancos piden que el dividendo no supere entre el 25% y el 30% de la renta líquida del solicitante o del grupo familiar. Con un dividendo de $700.000, necesitarías una renta de unos $2,8 millones. También evalúan la estabilidad laboral, la antigüedad y el historial de deudas. La calculadora usa el criterio del 25% como referencia."
+        "tipo": "escenarios",
+        "titulo": "¿Cuánta renta piden los bancos para un dividendo?",
+        "items": [
+          {
+            "titulo": "Regla habitual",
+            "situacion": "El dividendo no debería superar el 25 % de la renta líquida del hogar.",
+            "resultado": "Renta × 4"
+          },
+          {
+            "titulo": "Dividendo de 18 UF",
+            "situacion": "Con la UF cerca de 40.000 pesos, son unos 720.000 pesos al mes.",
+            "resultado": "≈ $2,9 M de renta"
+          },
+          {
+            "titulo": "Complementar renta",
+            "situacion": "Muchos bancos permiten sumar la renta de la pareja o de un familiar.",
+            "resultado": "Codeudor"
+          }
+        ]
       },
       {
-        "title": "Compara el CAE",
-        "body": "Para comparar créditos entre bancos, fíjate en la carga anual equivalente (CAE), que incluye la tasa de interés, los seguros y los gastos asociados. Dos créditos con la misma tasa pueden tener un CAE distinto. Revisa también si el crédito permite prepagos sin comisión excesiva y si la tasa es fija durante todo el plazo o mixta."
+        "tipo": "texto",
+        "titulo": "¿Qué más calcular antes de pedir el crédito?",
+        "parrafos": [
+          "Tu renta real con la [calculadora de sueldo líquido](/sueldo-liquido-chile) y el valor de la UF de hoy con el conversor de [UF a pesos](/uf-a-pesos). Para ver mes a mes cuánto va a capital, usa la [tabla de amortización](/tabla-de-amortizacion)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Comisión para el Mercado Financiero (CMF)",
+            "url": "https://www.cmfchile.cl"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -24338,36 +24902,76 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "La gratificación legal es una participación en las utilidades de la empresa que los empleadores chilenos deben pagar a sus trabajadores. Tiene dos modalidades: repartir el 30% de las utilidades líquidas (artículo 47) o pagar el 25% de lo devengado por el trabajador con un tope de 4,75 ingresos mínimos mensuales al año (artículo 50). Esta calculadora aplica ambas con el ingreso mínimo vigente en 2026 y te muestra la gratificación mensual y anual.",
-    "howToUse": [
-      "Elige la modalidad de pago: 25% con tope (art. 50) o 30% de utilidades (art. 47)",
-      "Escribe tu remuneración mensual y los meses trabajados en el año",
-      "En la modalidad del art. 50, revisa el ingreso mínimo mensual vigente",
-      "En la del art. 47, escribe la utilidad líquida y el total de remuneraciones de la empresa"
-    ],
-    "benefits": [
-      "Las dos modalidades legales de gratificación",
-      "Tope con el ingreso mínimo de mayo de 2026",
-      "Gratificación mensual y anual proporcional",
-      "Te dice si tu 25% supera el tope",
-      "Basada en los artículos 47 y 50 del Código del Trabajo",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula la gratificación legal en Chile con el sistema más usado (artículo 50): el 25 % de tu sueldo mensual con un tope anual de 4,75 ingresos mínimos, y descubre si tu sueldo ya está en el tope.",
+    "bloques": [
       {
-        "title": "Modalidad del artículo 50: 25% con tope",
-        "body": "Es la más usada. El empleador paga el 25% de lo devengado por el trabajador en el año por concepto de remuneraciones, con un tope anual de 4,75 ingresos mínimos mensuales (IMM). Con el IMM de $553.553, vigente desde mayo de 2026, el tope anual es de $2.629.377, unos $219.115 al mes. Si el 25% de tu sueldo mensual supera esa cifra, recibes el tope; si es menor, el 25% completo. Muchas empresas la pagan mes a mes como anticipo."
+        "tipo": "infografia",
+        "archivo": "tope-gratificacion-chile.webp",
+        "alt": "Gratificación del 25 % del sueldo y su tope mensual con dos sueldos de ejemplo",
+        "ancho": 800,
+        "alto": 638,
+        "titulo": "¿Desde qué sueldo la gratificación llega a su tope?"
       },
       {
-        "title": "Modalidad del artículo 47: 30% de utilidades",
-        "body": "Las empresas que obtienen utilidades líquidas pueden repartir entre sus trabajadores el 30% de ellas, en proporción a lo que ganó cada uno durante el año. En esta modalidad no hay tope, pero el pago depende de que existan utilidades y suele liquidarse una vez al año, después del balance. Por eso la mayoría de los empleadores prefiere la del artículo 50, que da certeza del monto."
+        "tipo": "comparacion",
+        "titulo": "¿Qué diferencia hay entre la gratificación del artículo 47 y la del 50?",
+        "columnas": [
+          {
+            "titulo": "Artículo 47",
+            "tono": "gris",
+            "items": [
+              "La empresa reparte el 30 % de su utilidad líquida.",
+              "Se divide en proporción a lo que gana cada trabajador.",
+              "Depende de que haya utilidades."
+            ]
+          },
+          {
+            "titulo": "Artículo 50",
+            "tono": "azul",
+            "items": [
+              "El 25 % de lo devengado en el año, con tope.",
+              "Tope anual de 4,75 ingresos mínimos.",
+              "La mayoría la paga cada mes, junto al sueldo."
+            ]
+          }
+        ]
       },
       {
-        "title": "Quiénes tienen derecho",
-        "body": "Deben pagar gratificación las empresas con fines de lucro que llevan libros de contabilidad y obtienen utilidades o, en la práctica, las que optan por la modalidad del artículo 50 aunque no tengan utilidades. Los trabajadores que no completaron el año reciben la parte proporcional a los meses trabajados. La gratificación es remuneración imponible: paga AFP, salud, seguro de cesantía e impuesto."
+        "tipo": "cifras",
+        "items": [
+          [
+            "$553.553",
+            "ingreso mínimo mensual desde mayo de 2026"
+          ],
+          [
+            "$2.629.377",
+            "tope anual (4,75 IMM)"
+          ],
+          [
+            "$219.115",
+            "tope mensual"
+          ],
+          [
+            "$876.459",
+            "sueldo a partir del que se llega al tope"
+          ]
+        ]
       },
       {
-        "title": "El ingreso mínimo en 2026",
-        "body": "El ingreso mínimo mensual para trabajadores de 18 a 65 años subió a $553.553 desde mayo de 2026. Como el tope de la gratificación depende del IMM, cada alza del mínimo aumenta también el tope. Si tu empleador paga un anticipo mensual, debe ajustarlo cuando cambia el ingreso mínimo."
+        "tipo": "texto",
+        "titulo": "¿Cómo afecta la gratificación al sueldo líquido?",
+        "parrafos": [
+          "Es imponible: paga AFP, salud y puede subir el impuesto único. Calcula el efecto completo con la [calculadora de sueldo líquido](/sueldo-liquido-chile), y si terminas el contrato, revisa el [finiquito](/finiquito-chile)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Dirección del Trabajo de Chile",
+            "url": "https://www.dt.gob.cl"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -24418,36 +25022,77 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Cada mes, el 10% de tu remuneración imponible va a tu cuenta individual en la AFP, y además pagas una comisión que varía según la administradora. Esta calculadora muestra cuánto te descuentan en cada una de las siete AFP con tu sueldo. Aplica el tope imponible de 2026 y ordena las AFP de la más barata a la más cara, con la diferencia anual en pesos. Así puedes ver cuánto ahorrarías cambiándote.",
-    "howToUse": [
-      "Escribe tu remuneración imponible mensual",
-      "Pulsa «Calcular cotización AFP»",
-      "Compara el descuento mensual y anual en cada AFP",
-      "Revisa la diferencia entre la AFP más barata y la más cara"
-    ],
-    "benefits": [
-      "Compara las siete AFP en una sola tabla",
-      "Aplica el tope imponible de 90 UF de 2026",
-      "Separa el 10% obligatorio de la comisión",
-      "Muestra el costo mensual y anual",
-      "Ordena de menor a mayor comisión",
-      "UF del día cargada automáticamente"
-    ],
-    "contentSections": [
+    "resumen": "Calcula cuánto te descuentan de AFP cada mes, separando el 10 % obligatorio que va a tu cuenta de la comisión de la administradora, y compara las siete AFP para ver cuánto ahorrarías al año cambiándote a la más barata.",
+    "bloques": [
       {
-        "title": "Cómo se compone la cotización",
-        "body": "La cotización obligatoria es el 10% de la remuneración imponible y se deposita íntegra en tu cuenta de capitalización individual: ese dinero es tuyo y financia tu pensión. Aparte, la AFP cobra una comisión por administrar tus fondos, que se descuenta de tu sueldo y no de tu cuenta. En 2026 las comisiones van del 0,46% de AFP Uno al 1,45% de Provida. El total descontado es, por tanto, entre el 10,46% y el 11,45% de tu remuneración imponible."
+        "tipo": "infografia",
+        "archivo": "comisiones-afp-2026.webp",
+        "alt": "Comisión de cada AFP en 2026 y su costo mensual sobre un millón de pesos imponibles",
+        "ancho": 800,
+        "alto": 789,
+        "titulo": "¿Cuánto cobra cada AFP de comisión en 2026?"
       },
       {
-        "title": "El tope imponible",
-        "body": "Las cotizaciones se calculan sobre la remuneración imponible con un tope mensual. En 2026 el tope para AFP, salud y accidentes del trabajo es de 90 UF. Si ganas más que eso, cotizas solo sobre 90 UF. Puedes ahorrar más de forma voluntaria con el ahorro previsional voluntario (APV), que tiene beneficios tributarios."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto se ahorra en 20 años al pasar de la comisión más alta a la más baja?",
+        "datos": [
+          [
+            "Sueldo imponible",
+            "$1.000.000"
+          ],
+          [
+            "Comisiones",
+            "1,45 % frente a 0,46 %"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Diferencia mensual.",
+            "operacion": "1.000.000 × (1,45 % − 0,46 %) = $9.900"
+          },
+          {
+            "texto": "Diferencia anual.",
+            "operacion": "9.900 × 12 = $118.800"
+          },
+          {
+            "texto": "En 20 años, sin contar reajustes ni rentabilidad.",
+            "operacion": "118.800 × 20 = $2.376.000"
+          }
+        ]
       },
       {
-        "title": "¿Todas las AFP invierten igual?",
-        "body": "Todas ofrecen los mismos cinco multifondos, del A (más riesgoso) al E (más conservador), pero cada una gestiona sus inversiones de forma distinta, así que la rentabilidad varía. Por eso conviene mirar tanto la comisión como la rentabilidad histórica de tu tipo de fondo. Una diferencia de comisión de un punto porcentual sobre tu sueldo equivale a cientos de miles de pesos al año con un sueldo medio."
+        "tipo": "mitos",
+        "titulo": "¿Qué se cree de las AFP y no es así?",
+        "items": [
+          {
+            "mito": "La comisión se descuenta de los ahorros.",
+            "realidad": "Se cobra aparte, sobre el sueldo: el 10 % entra completo a tu cuenta."
+          },
+          {
+            "mito": "La AFP más barata siempre rinde menos.",
+            "realidad": "Los fondos son parecidos entre administradoras; la rentabilidad depende sobre todo del tipo de fondo (A a E)."
+          },
+          {
+            "mito": "Cambiarse de AFP es complicado.",
+            "realidad": "Se hace en línea en pocos minutos y no tiene costo."
+          }
+        ]
       },
       {
-        "title": "La reforma de pensiones",
-        "body": "La reforma aprobada en 2025 creó una cotización adicional de cargo del empleador que empezó en agosto de 2025 y aumenta gradualmente durante los próximos años, repartida entre la cuenta individual y un seguro social. Esa cotización no se descuenta de tu sueldo. El empleador también paga el seguro de invalidez y sobrevivencia (SIS). Cambiarse de AFP es gratuito y se hace en línea."
+        "tipo": "texto",
+        "titulo": "¿Cómo ver el efecto en tu sueldo?",
+        "parrafos": [
+          "La [calculadora de sueldo líquido](/sueldo-liquido-chile) aplica la comisión de tu AFP junto con salud, cesantía e impuesto. Para proyectar ahorros a largo plazo, usa la [calculadora de interés compuesto](/calculadora-interes-compuesto)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Superintendencia de Pensiones de Chile",
+            "url": "https://www.spensiones.cl"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -24498,36 +25143,75 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "Para postular a la universidad en Chile, tu puntaje de postulación se calcula combinando tus notas de enseñanza media (NEM), tu ranking y los puntajes de las pruebas PAES. Cada factor pesa lo que decida la carrera. Esta calculadora obtiene tu puntaje ponderado con las ponderaciones que tú escribas y lo compara con el puntaje de corte de la carrera. También aproxima tu NEM a partir de tu promedio de notas.",
-    "howToUse": [
-      "Si no conoces tu puntaje NEM, escribe tu promedio de notas para obtener una aproximación",
-      "Escribe tus puntajes de NEM, ranking y de cada prueba PAES",
-      "Copia las ponderaciones de la carrera a la que postulas; deben sumar 100%",
-      "Opcional: escribe el puntaje de corte para ver si lo superas"
-    ],
-    "benefits": [
-      "Todos los factores de selección de la PAES",
-      "Ponderaciones editables para cualquier carrera",
-      "Escala de 100 a 1.000 desde la Admisión 2023",
-      "NEM aproximado desde el promedio de notas",
-      "Comparación con el puntaje de corte",
-      "Resultado al instante"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu puntaje ponderado para postular a la universidad en Chile con tus puntajes de NEM, ranking y pruebas PAES (Competencia Lectora, Matemática 1 y 2, y Ciencias o Historia) y las ponderaciones de la carrera que te interesa.",
+    "bloques": [
       {
-        "title": "Los factores de selección",
-        "body": "El puntaje de postulación combina el NEM, que es tu promedio de notas de enseñanza media convertido a puntaje; el ranking, que mide tu posición relativa en tu establecimiento; y las pruebas PAES: Competencia Lectora, Competencia Matemática 1 (M1), obligatorias, y las electivas de Ciencias, Historia y Ciencias Sociales, y Competencia Matemática 2 (M2). Desde el Proceso de Admisión 2023, todos los factores se expresan en una escala de 100 a 1.000 puntos."
+        "tipo": "infografia",
+        "archivo": "puntaje-ponderado-paes-ejemplo.webp",
+        "alt": "Cálculo de un puntaje ponderado PAES con NEM, ranking y pruebas",
+        "ancho": 800,
+        "alto": 851,
+        "titulo": "¿Qué peso tiene cada prueba en un ejemplo resuelto?"
       },
       {
-        "title": "Cómo se calcula el puntaje ponderado",
-        "body": "Cada factor se multiplica por su ponderación y se suman los resultados. Si una carrera pondera 20% NEM, 20% ranking, 10% lectora, 35% M1 y 15% ciencias, con puntajes de 800, 850, 700, 750 y 680, el puntaje es 0,20 × 800 + 0,20 × 850 + 0,10 × 700 + 0,35 × 750 + 0,15 × 680 = 764,5. Las ponderaciones las fija cada universidad para cada carrera y deben sumar 100%."
+        "tipo": "glosario",
+        "titulo": "¿Qué significa cada factor del puntaje de postulación?",
+        "items": [
+          [
+            "NEM",
+            "Notas de Enseñanza Media: tu promedio de 1.º a 4.º medio convertido a puntaje."
+          ],
+          [
+            "Ranking",
+            "Compara tus notas con las de los estudiantes de tu colegio en años anteriores; nunca es menor que el NEM."
+          ],
+          [
+            "Competencia Lectora",
+            "Prueba obligatoria de comprensión de textos."
+          ],
+          [
+            "M1 y M2",
+            "Matemática 1 es obligatoria; Matemática 2 la piden algunas carreras científicas."
+          ],
+          [
+            "Electiva",
+            "Ciencias o Historia y Ciencias Sociales, según lo que pida la carrera."
+          ]
+        ]
       },
       {
-        "title": "NEM y ranking",
-        "body": "El NEM se obtiene a partir de tu promedio de notas con tablas oficiales del DEMRE, que dependen del tipo de enseñanza. Como referencia, un promedio de 4,0 equivale a unos 100 puntos y un 7,0 a 1.000; la calculadora usa una conversión lineal aproximada. El ranking compara tu promedio con el de las generaciones anteriores de tu colegio: si estás por encima del promedio histórico, tu ranking es mayor que tu NEM; si no, es igual a tu NEM."
+        "tipo": "consejos",
+        "titulo": "¿Cómo usar la calculadora para decidir dónde postular?",
+        "items": [
+          {
+            "titulo": "Calcula varias carreras",
+            "texto": "Las mismas notas dan puntajes distintos según las ponderaciones."
+          },
+          {
+            "titulo": "Compara con el último matriculado",
+            "texto": "El puntaje de corte del año pasado es una buena referencia."
+          },
+          {
+            "titulo": "Fíjate en la prueba con más peso",
+            "texto": "Si repites la PAES, prioriza la que más pondera en tu carrera."
+          }
+        ]
       },
       {
-        "title": "Puntaje de corte y postulación",
-        "body": "El puntaje de corte es el puntaje del último seleccionado en una carrera en el proceso anterior. Es una referencia, no un requisito: cambia cada año según las vacantes y los postulantes. Algunas carreras exigen además un puntaje mínimo de postulación o un mínimo en ciertas pruebas. Revisa siempre la oferta académica oficial del proceso en que postulas."
+        "tipo": "texto",
+        "titulo": "¿Qué otras calculadoras sirven para las notas?",
+        "parrafos": [
+          "Saca tu promedio de notas con la [calculadora de promedio](/calculadora-promedio) o el [promedio ponderado](/calculadora-promedio-ponderado), y si te falta una evaluación, calcula [la nota que necesitas](/calculadora-nota-necesaria)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "DEMRE, Universidad de Chile",
+            "url": "https://demre.cl"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -24580,36 +25264,72 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "La prima de servicios es una prestación social que todo empleador en Colombia debe pagar a sus trabajadores: un mes de salario por año, dividido en dos pagos. Esta calculadora obtiene tu prima del semestre según tu salario, los pagos variables y los días trabajados. Incluye automáticamente el auxilio de transporte si ganas hasta dos salarios mínimos. Usa los valores de 2026: salario mínimo de $1.750.905 y auxilio de transporte de $249.095.",
-    "howToUse": [
-      "Escribe tu salario mensual y, si tienes, el promedio de pagos variables del semestre",
-      "Revisa las fechas del periodo: primer semestre (enero a junio) o segundo (julio a diciembre)",
-      "Elige si recibes auxilio de transporte o deja la opción automática",
-      "Pulsa «Calcular prima de servicios»"
-    ],
-    "benefits": [
-      "Fórmula oficial: base × días ÷ 360",
-      "Incluye el auxilio de transporte cuando corresponde",
-      "Admite salario variable con promedio del periodo",
-      "Calcula días con el calendario laboral de 360 días",
-      "Valores de salario mínimo y auxilio 2026",
-      "Sirve para el pago de junio y el de diciembre"
-    ],
-    "contentSections": [
+    "resumen": "Calcula la prima de servicios en Colombia del semestre según tu salario y los días trabajados: equivale a 15 días de salario por semestre completo y se paga a más tardar el 30 de junio y el 20 de diciembre.",
+    "bloques": [
       {
-        "title": "Qué dice la ley",
-        "body": "El artículo 306 del Código Sustantivo del Trabajo, modificado por la Ley 1788 de 2016, establece que el empleador debe pagar a sus trabajadores una prima de servicios equivalente a 30 días de salario por año, en dos pagos: la mitad a más tardar el 30 de junio y la otra mitad a más tardar los primeros 20 días de diciembre. Tienen derecho todos los trabajadores con contrato laboral, incluidos los del servicio doméstico, sin importar el tiempo trabajado: se paga en proporción."
+        "tipo": "infografia",
+        "archivo": "calendario-prima-de-servicios.webp",
+        "alt": "Fechas de pago de la prima de servicios en Colombia, fórmula y dos ejemplos",
+        "ancho": 800,
+        "alto": 759,
+        "titulo": "¿Qué fórmula usa la prima y cuánto se cobra con medio semestre?"
       },
       {
-        "title": "Cómo se calcula",
-        "body": "La fórmula es: (salario mensual + auxilio de transporte) × días trabajados en el semestre ÷ 360. Si trabajaste todo el semestre (180 días) con un salario de $2.500.000 y recibes auxilio de transporte, la prima es (2.500.000 + 249.095) × 180 ÷ 360 = $1.374.548. Si tu salario es variable, se usa el promedio de lo devengado en el semestre. Las horas extra, recargos y comisiones habituales forman parte de la base."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto es la prima según los días trabajados en el semestre?",
+        "intro": "Con un salario base de $2.000.000 (mínimo de 2026 más auxilio de transporte):",
+        "cabeceras": [
+          "Días trabajados",
+          "Prima"
+        ],
+        "filas": [
+          [
+            "30 (un mes)",
+            "$166.667"
+          ],
+          [
+            "60",
+            "$333.333"
+          ],
+          [
+            "90",
+            "$500.000"
+          ],
+          [
+            "120",
+            "$666.667"
+          ],
+          [
+            "180 (semestre completo)",
+            "$1.000.000"
+          ]
+        ]
       },
       {
-        "title": "El auxilio de transporte en la prima",
-        "body": "Aunque el auxilio de transporte no es salario, para efectos de la prima y las cesantías se incluye en la base de liquidación, según el artículo 7 de la Ley 1 de 1963. Solo lo reciben quienes ganan hasta dos salarios mínimos mensuales: en 2026, hasta $3.501.810. Quienes ganan más no tienen auxilio y su prima se calcula solo con el salario."
+        "tipo": "checklist",
+        "titulo": "¿Qué entra en el salario base de la prima?",
+        "items": [
+          "El salario mensual, o el promedio del semestre si es variable.",
+          "El auxilio de transporte, si lo recibes.",
+          "Horas extra, recargos y comisiones habituales.",
+          "No entran los viáticos ocasionales ni lo que se pacte expresamente como no salarial."
+        ]
       },
       {
-        "title": "Quiénes no tienen prima",
-        "body": "No reciben prima de servicios los contratistas por prestación de servicios, porque no tienen contrato laboral, ni los trabajadores con salario integral, cuyo salario ya incluye las prestaciones sociales. Los aprendices del SENA en etapa lectiva tampoco la reciben. Si tu empleador no paga la prima a tiempo, puedes reclamar ante el Ministerio del Trabajo."
+        "tipo": "texto",
+        "titulo": "¿Qué otras prestaciones sociales se calculan en Colombia?",
+        "parrafos": [
+          "Las [cesantías](/calcular-cesantias) y sus [intereses](/intereses-cesantias), las [vacaciones](/vacaciones-colombia) y, al terminar el contrato, la [liquidación laboral](/calculadora-liquidacion-laboral-colombia)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Ministerio del Trabajo de Colombia",
+            "url": "https://www.mintrabajo.gov.co"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -24662,36 +25382,79 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Las cesantías son un ahorro obligatorio que el empleador hace a favor del trabajador en Colombia para protegerlo si queda cesante. Equivalen a un mes de salario por cada año trabajado. Esta calculadora obtiene el valor de tus cesantías y de los intereses del 12% anual según tu salario, los pagos variables y los días trabajados. Incluye el auxilio de transporte cuando corresponde, con los valores de 2026.",
-    "howToUse": [
-      "Escribe tu salario mensual y, si tienes, el promedio de pagos variables",
-      "Revisa las fechas del periodo; por defecto es el año en curso",
-      "Elige si recibes auxilio de transporte o deja la opción automática",
-      "Pulsa «Calcular cesantías» para ver las cesantías y sus intereses"
-    ],
-    "benefits": [
-      "Fórmula oficial del artículo 249 del CST",
-      "Calcula también los intereses del 12%",
-      "Incluye el auxilio de transporte si ganas hasta 2 salarios mínimos",
-      "Periodo con calendario laboral de 360 días",
-      "Valores 2026 de salario mínimo y auxilio",
-      "Útil para la consignación anual y la liquidación"
-    ],
-    "contentSections": [
+    "resumen": "Calcula las cesantías del año en Colombia y sus intereses del 12 % según tu salario y los días trabajados: un mes de salario por año completo, que el empleador consigna al fondo a más tardar el 14 de febrero.",
+    "bloques": [
       {
-        "title": "Cómo se calculan las cesantías",
-        "body": "La fórmula es: (salario mensual + auxilio de transporte) × días trabajados ÷ 360. Con un salario de $2.500.000, auxilio de transporte y el año completo (360 días), las cesantías son $2.749.095. Si el salario cambió en los últimos tres meses, se usa el promedio del año; si es variable, el promedio de lo devengado. Los trabajadores con salario integral no reciben cesantías, porque su salario ya las incluye."
+        "tipo": "infografia",
+        "archivo": "calendario-cesantias-colombia.webp",
+        "alt": "Fechas de liquidación, intereses y consignación de las cesantías en Colombia",
+        "ancho": 800,
+        "alto": 857,
+        "titulo": "¿Qué fechas tienen la liquidación, los intereses y la consignación?"
       },
       {
-        "title": "Consignación al fondo de cesantías",
-        "body": "Cada año, el empleador liquida las cesantías causadas hasta el 31 de diciembre y debe consignarlas en el fondo de cesantías elegido por el trabajador a más tardar el 14 de febrero del año siguiente. Si no lo hace, debe pagar una sanción de un día de salario por cada día de retraso. Los trabajadores del régimen tradicional anterior a 1990 tienen reglas distintas, con retroactividad."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto son las cesantías si entraste a trabajar el 1 de julio?",
+        "datos": [
+          [
+            "Salario base",
+            "$2.000.000"
+          ],
+          [
+            "Días trabajados en el año",
+            "180"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Cesantías proporcionales.",
+            "operacion": "2.000.000 × 180 ÷ 360 = $1.000.000"
+          },
+          {
+            "texto": "Intereses: 12 % anual, proporcional a los días.",
+            "operacion": "1.000.000 × 180 × 12 % ÷ 360 = $60.000"
+          }
+        ]
       },
       {
-        "title": "Los intereses sobre las cesantías",
-        "body": "Además de consignar las cesantías, el empleador debe pagar directamente al trabajador un interés del 12% anual sobre el saldo, a más tardar el 31 de enero, o al terminar el contrato. Con cesantías de $2.749.095 por un año completo, los intereses son $329.891. Si el periodo es menor, se paga en proporción: 12% × días trabajados ÷ 360."
+        "tipo": "comparacion",
+        "titulo": "¿En qué se diferencian las cesantías de sus intereses?",
+        "columnas": [
+          {
+            "titulo": "Cesantías",
+            "tono": "azul",
+            "items": [
+              "Un mes de salario por año.",
+              "Van al fondo de cesantías.",
+              "Solo se retiran para vivienda, estudios o al terminar el contrato."
+            ]
+          },
+          {
+            "titulo": "Intereses",
+            "tono": "verde",
+            "items": [
+              "12 % anual sobre las cesantías.",
+              "Se pagan directo al trabajador.",
+              "A más tardar el 31 de enero."
+            ]
+          }
+        ]
       },
       {
-        "title": "¿Para qué se pueden retirar?",
-        "body": "Las cesantías pueden retirarse al terminar el contrato de trabajo, para comprar, construir, mejorar o liberar de hipoteca una vivienda, para pagar educación superior propia, del cónyuge o de los hijos, y en otros casos que prevé la ley. Retirarlas para vivienda o educación requiere presentar los soportes al fondo."
+        "tipo": "texto",
+        "titulo": "¿Qué otras prestaciones conviene revisar?",
+        "parrafos": [
+          "Calcula los intereses de un año con la herramienta de [intereses sobre cesantías](/intereses-cesantias), la [prima de servicios](/prima-de-servicios) del semestre y, si te retiras, tu [liquidación laboral](/calculadora-liquidacion-laboral-colombia)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Ministerio del Trabajo de Colombia",
+            "url": "https://www.mintrabajo.gov.co"
+          }
+        ]
       }
     ],
     "faqs": [

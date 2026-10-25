@@ -1138,5 +1138,125 @@
     "alt": "Comparación del método objetivo y el método real de la plusvalía municipal y coeficientes máximos por años",
     "ancho": 800,
     "alto": 887
+  },
+  "formula-nota-pau-acceso-admision": {
+    "archivo": "formula-nota-pau-acceso-admision.webp",
+    "alt": "Fórmula de la nota de acceso y de admisión de la PAU con un ejemplo resuelto",
+    "ancho": 800,
+    "alto": 723
+  },
+  "desglose-factura-luz-espana": {
+    "archivo": "desglose-factura-luz-espana.webp",
+    "alt": "Desglose de una factura de la luz de 30 días: potencia, energía, impuesto eléctrico, alquiler del contador e IVA",
+    "ancho": 800,
+    "alto": 801
+  },
+  "edad-jubilacion-espana-2024-2027": {
+    "archivo": "edad-jubilacion-espana-2024-2027.webp",
+    "alt": "Edad ordinaria de jubilación en España de 2024 a 2027 y cotización necesaria para jubilarse a los 65",
+    "ancho": 800,
+    "alto": 734
+  },
+  "escala-impuesto-sucesiones": {
+    "archivo": "escala-impuesto-sucesiones.webp",
+    "alt": "Escala estatal del impuesto de sucesiones y ejemplo de un hijo que hereda 200.000 euros",
+    "ancho": 800,
+    "alto": 873
+  },
+  "precio-reforma-metro-cuadrado": {
+    "archivo": "precio-reforma-metro-cuadrado.webp",
+    "alt": "Rangos de precio por metro cuadrado según el tipo de reforma y ejemplo para un piso de 60 m²",
+    "ancho": 800,
+    "alto": 784
+  },
+  "huella-carbono-dieta-factores": {
+    "archivo": "huella-carbono-dieta-factores.webp",
+    "alt": "Toneladas de CO2 al año según la dieta y factores de emisión de combustibles y vuelos",
+    "ancho": 800,
+    "alto": 883
+  },
+  "tipos-dolar-argentina": {
+    "archivo": "tipos-dolar-argentina.webp",
+    "alt": "Tipos de dólar en Argentina: oficial, blue, MEP, contado con liqui, mayorista, tarjeta y cripto, y fórmula de la brecha",
+    "ancho": 800,
+    "alto": 805
+  },
+  "categorias-monotributo-2026": {
+    "archivo": "categorias-monotributo-2026.webp",
+    "alt": "Categorías del Monotributo de la A a la K con su tope de facturación anual y la cuota mensual para servicios",
+    "ancho": 800,
+    "alto": 837
+  },
+  "inflacion-acumulada-vs-suma": {
+    "archivo": "inflacion-acumulada-vs-suma.webp",
+    "alt": "Gráfica que muestra por qué la inflación mensual se acumula y no se suma, con equivalencias anuales",
+    "ancho": 800,
+    "alto": 671
+  },
+  "liquidacion-preaviso-argentina": {
+    "archivo": "liquidacion-preaviso-argentina.webp",
+    "alt": "Ejemplo de liquidación por despido sin preaviso en Argentina con integración del mes y SAC",
+    "ancho": 800,
+    "alto": 875
+  },
+  "sueldo-bruto-a-liquido-chile": {
+    "archivo": "sueldo-bruto-a-liquido-chile.webp",
+    "alt": "Descuentos de AFP, salud y seguro de cesantía desde un sueldo bruto de un millón de pesos chilenos",
+    "ancho": 800,
+    "alto": 686
+  },
+  "ejemplo-finiquito-chile": {
+    "archivo": "ejemplo-finiquito-chile.webp",
+    "alt": "Ejemplo de finiquito en Chile por necesidades de la empresa con indemnización, aviso y feriado proporcional",
+    "ancho": 800,
+    "alto": 747
+  },
+  "reajuste-diario-uf": {
+    "archivo": "reajuste-diario-uf.webp",
+    "alt": "Cómo se reajusta la UF día a día según el IPC del mes anterior y para qué se usa",
+    "ancho": 800,
+    "alto": 774
+  },
+  "tramos-impuesto-utm-chile": {
+    "archivo": "tramos-impuesto-utm-chile.webp",
+    "alt": "Tramos del impuesto único de segunda categoría en UTM y usos de la UTM y la UTA",
+    "ancho": 800,
+    "alto": 713
+  },
+  "dividendo-segun-plazo-uf": {
+    "archivo": "dividendo-segun-plazo-uf.webp",
+    "alt": "Dividendo mensual e intereses totales en UF de un crédito hipotecario a 15, 20, 25 y 30 años",
+    "ancho": 800,
+    "alto": 747
+  },
+  "tope-gratificacion-chile": {
+    "archivo": "tope-gratificacion-chile.webp",
+    "alt": "Gratificación del 25 % del sueldo y su tope mensual con dos sueldos de ejemplo",
+    "ancho": 800,
+    "alto": 638
+  },
+  "comisiones-afp-2026": {
+    "archivo": "comisiones-afp-2026.webp",
+    "alt": "Comisión de cada AFP en 2026 y su costo mensual sobre un millón de pesos imponibles",
+    "ancho": 800,
+    "alto": 789
+  },
+  "puntaje-ponderado-paes-ejemplo": {
+    "archivo": "puntaje-ponderado-paes-ejemplo.webp",
+    "alt": "Cálculo de un puntaje ponderado PAES con NEM, ranking y pruebas",
+    "ancho": 800,
+    "alto": 851
+  },
+  "calendario-prima-de-servicios": {
+    "archivo": "calendario-prima-de-servicios.webp",
+    "alt": "Fechas de pago de la prima de servicios en Colombia, fórmula y dos ejemplos",
+    "ancho": 800,
+    "alto": 759
+  },
+  "calendario-cesantias-colombia": {
+    "archivo": "calendario-cesantias-colombia.webp",
+    "alt": "Fechas de liquidación, intereses y consignación de las cesantías en Colombia",
+    "ancho": 800,
+    "alto": 857
   }
 }
