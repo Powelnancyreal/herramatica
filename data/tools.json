@@ -13383,36 +13383,88 @@
     "webApp": true,
     "appCategory": "HealthApplication",
     "intro": "Tu tasa metabólica basal (TMB) es la cantidad de calorías que tu cuerpo gasta en reposo solo para mantenerse vivo: respirar, bombear sangre, regular la temperatura y mantener tus órganos funcionando. Es la base de cualquier plan de alimentación para bajar, mantener o subir de peso. Esta calculadora obtiene tu TMB con las tres fórmulas más usadas por nutriólogos, Mifflin-St Jeor, Harris-Benedict revisada y Katch-McArdle, para que puedas compararlas, y la multiplica por tu nivel de actividad para estimar las calorías que gastas realmente cada día.",
-    "howToUse": [
-      "Elige tu sexo biológico e introduce tu edad, tu peso en kilos y tu estatura en centímetros",
-      "Si conoces tu porcentaje de grasa corporal, escríbelo para activar la fórmula Katch-McArdle",
-      "Compara el resultado de las distintas fórmulas",
-      "Revisa la tabla de gasto calórico total según tu nivel de actividad física"
-    ],
-    "benefits": [
-      "Tres fórmulas científicas en un solo cálculo",
-      "Katch-McArdle opcional si conoces tu % de grasa",
-      "Gasto calórico total para 5 niveles de actividad",
-      "Resultado instantáneo mientras escribes",
-      "Útil para planes de pérdida de grasa o de ganancia muscular",
-      "Gratis, privada y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu tasa metabólica basal (las calorías que gastas en reposo) con tres fórmulas: Mifflin-St Jeor, Harris-Benedict y Katch-McArdle si conoces tu porcentaje de grasa. Además verás tu gasto diario según tu actividad.",
+    "bloques": [
       {
-        "title": "Las fórmulas de la tasa metabólica basal",
-        "body": "La ecuación de Mifflin-St Jeor (1990) es la que la Academia de Nutrición y Dietética de EE. UU. considera más precisa para la mayoría de los adultos: hombres, 10 × peso + 6.25 × altura − 5 × edad + 5; mujeres, la misma operación − 161. La de Harris-Benedict, revisada por Roza y Shizgal en 1984, es la más antigua y tiende a dar valores ligeramente mayores. La de Katch-McArdle usa la masa magra: 370 + 21.6 × masa libre de grasa en kg, por lo que es más exacta en personas musculosas o con mucha grasa, siempre que el porcentaje de grasa sea fiable."
+        "tipo": "infografia",
+        "archivo": "formulas-metabolismo-basal-comparadas.webp",
+        "alt": "Comparación de las fórmulas de metabolismo basal Mifflin-St Jeor, Harris-Benedict y Katch-McArdle",
+        "ancho": 800,
+        "alto": 772,
+        "titulo": "¿Cuánto cambia el metabolismo basal según la fórmula?"
       },
       {
-        "title": "Ejemplo de cálculo",
-        "body": "Un hombre de 30 años, 70 kg y 175 cm tiene una TMB de 1,649 kcal al día con Mifflin-St Jeor (700 + 1,093.75 − 150 + 5) y de unas 1,696 kcal con Harris-Benedict. Si tiene un 15% de grasa, su TMB con Katch-McArdle es de 1,655 kcal. Con una actividad moderada (factor 1.55) gastaría unas 2,556 kcal diarias. Las diferencias entre fórmulas suelen ser pequeñas, del orden de 50 a 100 kcal."
+        "tipo": "tabla",
+        "titulo": "¿Qué fórmula de metabolismo basal usar en cada caso?",
+        "cabeceras": [
+          "Fórmula",
+          "Datos que pide",
+          "Cuándo usarla"
+        ],
+        "filas": [
+          [
+            "Mifflin-St Jeor",
+            "Sexo, edad, peso y altura",
+            "La opción general para adultos sanos"
+          ],
+          [
+            "Harris-Benedict revisada",
+            "Sexo, edad, peso y altura",
+            "Para comparar con estudios y tablas antiguas"
+          ],
+          [
+            "Katch-McArdle",
+            "Peso y % de grasa corporal",
+            "Si conoces tu grasa: más precisa en personas muy musculosas"
+          ]
+        ]
       },
       {
-        "title": "De la TMB al gasto calórico total",
-        "body": "La TMB no incluye el movimiento ni la digestión. Para estimar tus calorías diarias totales se multiplica por un factor de actividad: 1.2 si eres sedentario, 1.375 con ejercicio ligero de 1 a 3 días por semana, 1.55 con ejercicio moderado de 3 a 5 días, 1.725 con ejercicio intenso de 6 a 7 días y 1.9 si tienes un trabajo físico o entrenas dos veces al día. Para bajar de peso de forma sostenible, suele recomendarse un déficit moderado de entre 300 y 500 kcal respecto a ese gasto."
+        "tipo": "glosario",
+        "titulo": "¿Qué significan TMB, gasto diario y efecto térmico?",
+        "items": [
+          [
+            "TMB",
+            "La energía que tu cuerpo gasta en reposo absoluto: respirar, latir, mantener la temperatura. Supone en torno al 60–70 % del gasto diario."
+          ],
+          [
+            "Gasto diario total",
+            "La TMB multiplicada por un factor de actividad, de 1,2 (sedentario) a 1,9 (muy activo)."
+          ],
+          [
+            "Efecto térmico",
+            "La energía que gastas al digerir. Las proteínas son las que más gasto generan."
+          ],
+          [
+            "Masa magra",
+            "Todo lo que no es grasa: músculo, huesos y órganos. Es lo que más eleva la TMB."
+          ]
+        ]
       },
       {
-        "title": "Qué hace variar tu metabolismo",
-        "body": "La TMB depende sobre todo de tu masa magra: el músculo consume más energía en reposo que la grasa, por eso los hombres y las personas musculosas suelen tener una TMB mayor. También disminuye con la edad, varía con las hormonas tiroideas y puede bajar tras dietas muy restrictivas. Las fórmulas son estimaciones poblacionales con un margen de error de alrededor del 10%; para una medición exacta se usa la calorimetría indirecta en consulta."
+        "tipo": "mitos",
+        "titulo": "¿Qué es cierto sobre acelerar el metabolismo?",
+        "items": [
+          {
+            "mito": "Comer cada 3 horas acelera el metabolismo.",
+            "realidad": "El gasto de digerir depende de cuánto comes, no de cuántas veces. Repartirlo en más comidas no cambia el total."
+          },
+          {
+            "mito": "Comer muy poco hace adelgazar más rápido.",
+            "realidad": "Dietas muy por debajo de tu gasto reducen músculo y hacen que el cuerpo ahorre energía. Un déficit moderado es más sostenible."
+          },
+          {
+            "mito": "El metabolismo se desploma a partir de los 40.",
+            "realidad": "Baja poco a poco, sobre todo por la pérdida de músculo. El entrenamiento de fuerza ayuda a mantenerlo."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo usar la TMB para planificar la dieta?",
+        "parrafos": [
+          "Multiplica tu TMB por tu factor de actividad y ajusta según tu objetivo: la [calculadora de calorías](/calculadora-calorias) hace las dos cosas. Si conoces tu porcentaje de grasa, mídelo con la [calculadora de grasa corporal](/calculadora-grasa-corporal) para usar Katch-McArdle, y revisa tu [peso ideal](/calculadora-peso-ideal)."
+        ]
       }
     ],
     "faqs": [
@@ -13466,36 +13518,99 @@
     "webApp": true,
     "appCategory": "HealthApplication",
     "intro": "El porcentaje de grasa corporal dice mucho más de tu salud y tu forma física que el peso o el IMC, porque distingue la grasa del músculo. Esta calculadora lo estima con el método de la Marina de Estados Unidos, que solo necesita una cinta métrica y tu estatura, y lo compara con la estimación a partir del IMC. Además calcula cuántos kilos de tu peso son grasa y cuántos masa magra, y te indica en qué rango te encuentras según las categorías del American Council on Exercise, desde grasa esencial hasta obesidad.",
-    "howToUse": [
-      "Elige tu sexo biológico y escribe tu estatura en centímetros",
-      "Mide con una cinta métrica tu cuello y tu cintura (y tu cadera si eres mujer) y escribe las medidas en cm",
-      "Opcionalmente, añade tu peso para ver tu masa grasa y magra, y tu edad para la estimación por IMC",
-      "Revisa tu porcentaje de grasa y tu categoría"
-    ],
-    "benefits": [
-      "Método de la Marina de EE. UU., validado y fácil de hacer en casa",
-      "Estimación alternativa por IMC para comparar",
-      "Calcula masa grasa y masa magra en kilos",
-      "Clasificación según los rangos del American Council on Exercise",
-      "Instrucciones de medición para hombres y mujeres",
-      "Gratis, privada y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Estima tu porcentaje de grasa corporal con una cinta métrica y el método de la Marina de Estados Unidos: cuello, cintura, altura y, en mujeres, cadera. Te dice en qué rango estás y cuánta masa magra tienes.",
+    "bloques": [
       {
-        "title": "Cómo tomar las medidas correctamente",
-        "body": "Usa una cinta métrica flexible, sin apretar la piel, y mide por la mañana antes de comer. El cuello se mide justo debajo de la nuez o laringe. En los hombres, la cintura se mide horizontalmente a la altura del ombligo; en las mujeres, en la parte más estrecha del abdomen. La cadera, que solo se usa en mujeres, se mide en la parte más ancha de los glúteos. Toma cada medida dos o tres veces y usa el promedio: un error de un centímetro puede cambiar el resultado en más de un punto porcentual."
+        "tipo": "infografia",
+        "archivo": "medidas-y-rangos-grasa-corporal.webp",
+        "alt": "Dónde medir cuello, cintura y cadera y rangos saludables de grasa corporal en hombres y mujeres",
+        "ancho": 800,
+        "alto": 851,
+        "titulo": "¿En qué puntos del cuerpo se toman las medidas de grasa?"
       },
       {
-        "title": "El método de la Marina de Estados Unidos",
-        "body": "Fue desarrollado por Hodgdon y Beckett para el ejército estadounidense y estima la densidad corporal a partir de circunferencias. En hombres usa la diferencia entre cintura y cuello, y la estatura; en mujeres suma también la cadera. Comparado con métodos de referencia como la absorciometría DEXA, suele tener un margen de error de 3 a 4 puntos porcentuales, suficiente para seguir tu progreso en el tiempo si siempre mides igual. La estimación por IMC (fórmula de Deurenberg) es menos precisa porque no distingue músculo de grasa."
+        "tipo": "pasos",
+        "titulo": "¿Cómo tomar las medidas para que el resultado sea fiable?",
+        "pasos": [
+          {
+            "titulo": "Cuello",
+            "texto": "Justo debajo de la nuez, con la cinta ligeramente inclinada hacia delante."
+          },
+          {
+            "titulo": "Cintura",
+            "texto": "Hombres, a la altura del ombligo; mujeres, en la parte más estrecha. Sin meter tripa, al final de una espiración normal."
+          },
+          {
+            "titulo": "Cadera (mujeres)",
+            "texto": "En la parte más ancha de los glúteos."
+          },
+          {
+            "titulo": "Repite y promedia",
+            "texto": "Toma cada medida dos veces y usa la media. Mide siempre a la misma hora."
+          }
+        ]
       },
       {
-        "title": "Rangos saludables de grasa corporal",
-        "body": "Según el American Council on Exercise, en hombres: grasa esencial, 2 a 5%; atletas, 6 a 13%; forma física, 14 a 17%; promedio, 18 a 24%; obesidad, 25% o más. En mujeres, que necesitan más grasa esencial por razones hormonales y reproductivas: grasa esencial, 10 a 13%; atletas, 14 a 20%; forma física, 21 a 24%; promedio, 25 a 31%; obesidad, 32% o más. Estar por debajo del rango esencial durante mucho tiempo también es perjudicial para la salud."
+        "tipo": "comparacion",
+        "titulo": "¿Qué es mejor para seguir tu progreso, el IMC o la grasa corporal?",
+        "columnas": [
+          {
+            "titulo": "IMC",
+            "tono": "gris",
+            "items": [
+              "Solo usa peso y altura.",
+              "No distingue músculo de grasa.",
+              "Útil para estudios de población."
+            ]
+          },
+          {
+            "titulo": "% de grasa",
+            "tono": "verde",
+            "items": [
+              "Separa grasa de masa magra.",
+              "Muestra si pierdes grasa aunque el peso no cambie.",
+              "Mejor para quien entrena fuerza."
+            ]
+          }
+        ]
       },
       {
-        "title": "Grasa corporal frente a IMC",
-        "body": "El IMC solo relaciona peso y estatura, por lo que una persona muy musculosa puede aparecer con sobrepeso y una persona con poco músculo y bastante grasa puede tener un IMC normal. El porcentaje de grasa y la circunferencia de cintura reflejan mejor el riesgo cardiometabólico, especialmente la grasa abdominal. Lo ideal es usar varias medidas juntas y fijarse en su evolución, no en una sola cifra."
+        "tipo": "tabla",
+        "titulo": "¿Qué tan preciso es cada método para medir la grasa?",
+        "cabeceras": [
+          "Método",
+          "Precisión",
+          "Accesibilidad"
+        ],
+        "filas": [
+          [
+            "Cinta métrica (Marina de EE. UU.)",
+            "Aproximada (±3–4 puntos)",
+            "En casa, gratis"
+          ],
+          [
+            "Báscula de bioimpedancia",
+            "Variable: depende de la hidratación",
+            "En casa"
+          ],
+          [
+            "Plicómetro (pliegues)",
+            "Buena si lo usa un profesional",
+            "Gimnasio o consulta"
+          ],
+          [
+            "DEXA",
+            "La referencia",
+            "Centro médico"
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué hacer con tu porcentaje de grasa?",
+        "parrafos": [
+          "Úsalo para afinar tu metabolismo con la fórmula de Katch-McArdle en la [calculadora de TMB](/calculadora-tmb) y para ajustar tus [calorías diarias](/calculadora-calorias). Si quieres un indicador rápido de peso, el [IMC](/calcular-imc) sigue siendo útil como primer filtro."
+        ]
       }
     ],
     "faqs": [
@@ -13549,36 +13664,88 @@
     "webApp": true,
     "appCategory": "HealthApplication",
     "intro": "¿Cuánta agua necesitas realmente? Los famosos «8 vasos al día» son solo una aproximación: la cantidad adecuada depende de tu peso, de cuánto te mueves, del clima en el que vives y de situaciones como el embarazo o la lactancia. Esta calculadora estima tu necesidad diaria de líquidos con una base de 35 mililitros por kilo de peso y le suma lo que pierdes con el ejercicio y el calor, y los aumentos recomendados por la Autoridad Europea de Seguridad Alimentaria (EFSA) para el embarazo y la lactancia. El resultado aparece en litros y en vasos de 250 ml.",
-    "howToUse": [
-      "Escribe tu peso en kilogramos",
-      "Indica cuántos minutos de ejercicio haces al día",
-      "Marca si vives en un clima cálido o hace calor, y si estás embarazada o en lactancia",
-      "Revisa los litros recomendados, su equivalencia en vasos y el desglose"
-    ],
-    "benefits": [
-      "Cálculo personalizado por peso, no una cifra genérica",
-      "Suma el agua perdida con el ejercicio y el calor",
-      "Incluye los aumentos recomendados en embarazo y lactancia",
-      "Resultado en litros y en vasos de 250 ml",
-      "Desglose de cada componente del cálculo",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula cuánta agua necesitas al día según tu peso (35 ml por kilo), el ejercicio, el calor y si estás embarazada o en lactancia. El resultado sale en mililitros y en vasos de 250 ml.",
+    "bloques": [
       {
-        "title": "Cómo se calcula tu consumo de agua",
-        "body": "La calculadora parte de una estimación habitual en nutrición: entre 30 y 35 mililitros de líquido por kilo de peso corporal al día; usamos 35 ml. Una persona de 70 kg necesitaría así unos 2.45 litros. A eso se añaden unos 600 ml por cada hora de ejercicio para reponer el sudor, 500 ml adicionales en climas cálidos, 300 ml durante el embarazo y 700 ml durante la lactancia, siguiendo las recomendaciones de la EFSA. Es una guía orientativa para adultos sanos."
+        "tipo": "infografia",
+        "archivo": "agua-diaria-segun-peso.webp",
+        "alt": "Cálculo del agua diaria para una persona de 70 kg con ejercicio y calor, en vasos de 250 ml",
+        "ancho": 800,
+        "alto": 851,
+        "titulo": "¿Cuánta agua debo beber según mi peso?"
       },
       {
-        "title": "Qué dicen las recomendaciones oficiales",
-        "body": "La Autoridad Europea de Seguridad Alimentaria establece como ingesta adecuada total de agua 2.0 litros al día para las mujeres y 2.5 litros para los hombres adultos, en condiciones moderadas de temperatura y actividad. Esa cifra incluye el agua de todas las bebidas y de los alimentos, que aportan aproximadamente un 20% del total. Frutas y verduras como la sandía, el pepino o la naranja tienen más de un 85% de agua."
+        "tipo": "tabla",
+        "titulo": "¿Cuánta agua al día según el peso?",
+        "intro": "Necesidad base sin ejercicio ni calor (35 ml por kilo):",
+        "cabeceras": [
+          "Peso",
+          "Agua al día",
+          "Vasos de 250 ml"
+        ],
+        "filas": [
+          [
+            "50 kg",
+            "1,75 L",
+            "7"
+          ],
+          [
+            "60 kg",
+            "2,10 L",
+            "8–9"
+          ],
+          [
+            "70 kg",
+            "2,45 L",
+            "10"
+          ],
+          [
+            "80 kg",
+            "2,80 L",
+            "11"
+          ],
+          [
+            "90 kg",
+            "3,15 L",
+            "12–13"
+          ]
+        ]
       },
       {
-        "title": "Señales de que necesitas más agua",
-        "body": "El indicador más práctico es el color de la orina: un amarillo pálido suele indicar buena hidratación, mientras que un amarillo oscuro sugiere que necesitas beber más. Otros signos de deshidratación son la sed intensa, la boca seca, el cansancio, el dolor de cabeza y los mareos. Los adultos mayores tienen menos sensación de sed, por lo que conviene que beban de forma regular aunque no tengan sed. En ejercicios largos o con mucho calor, además de agua, puede ser necesario reponer electrolitos."
+        "tipo": "checklist",
+        "titulo": "¿Qué hábitos ayudan a beber suficiente agua?",
+        "items": [
+          "Lleva una botella reutilizable y rellénala a horas fijas: al llegar al trabajo, a mediodía y por la tarde.",
+          "Bebe un vaso con cada comida y otro al levantarte.",
+          "Si haces ejercicio, bebe antes, durante y después, no solo al terminar.",
+          "En días de calor, añade unos 500 ml más.",
+          "Si el agua sola te cuesta, alterna con infusiones, agua con fruta o caldos."
+        ]
       },
       {
-        "title": "¿Se puede beber demasiada agua?",
-        "body": "Sí, aunque es poco frecuente en personas sanas. Beber cantidades muy grandes en poco tiempo puede diluir el sodio en la sangre, una condición llamada hiponatremia. Además, las personas con insuficiencia renal, insuficiencia cardiaca o algunas enfermedades hepáticas pueden necesitar limitar los líquidos por indicación médica. Si tienes alguna de estas condiciones, sigue siempre la recomendación de tu médico por encima de esta calculadora."
+        "tipo": "mitos",
+        "titulo": "¿Qué es mito y qué es verdad sobre el agua?",
+        "items": [
+          {
+            "mito": "Hay que beber 8 vasos al día, sí o sí.",
+            "realidad": "Es una aproximación. Las necesidades dependen del peso, la actividad y el clima, y la comida también aporta agua."
+          },
+          {
+            "mito": "El café y el té deshidratan.",
+            "realidad": "En cantidades habituales hidratan casi como el agua. El efecto diurético de la cafeína es pequeño."
+          },
+          {
+            "mito": "Cuanta más agua, mejor.",
+            "realidad": "Beber litros en poco tiempo puede bajar el sodio en sangre. Reparte la bebida a lo largo del día."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otros cálculos de salud diaria puedo hacer?",
+        "parrafos": [
+          "Para tu energía diaria, la [calculadora de calorías](/calculadora-calorias); para el descanso, la [calculadora de ciclos de sueño](/calculadora-ciclos-sueno). Si entrenas para una carrera, ajusta el ritmo con la [calculadora de ritmo](/calcular-ritmo) y bebe más los días de tiradas largas."
+        ]
       }
     ],
     "faqs": [
@@ -13632,36 +13799,87 @@
     "webApp": true,
     "appCategory": "DeveloperApplication",
     "intro": "Este formateador JSON convierte un JSON comprimido o desordenado en un texto legible con sangría, lo minifica para ocupar menos espacio y, sobre todo, lo valida. Cuando el JSON tiene un error, no te muestra un mensaje críptico: te indica la línea y la columna exactas, señala el carácter con una flecha y explica el problema en español, como una coma sobrante, una clave sin comillas dobles o una cadena sin cerrar. Todo se procesa en tu navegador, así que puedes usarlo con datos sensibles, respuestas de APIs o archivos de configuración sin enviarlos a ningún servidor.",
-    "howToUse": [
-      "Pega tu JSON en el cuadro de entrada, o pulsa «Cargar ejemplo» para probar",
-      "Elige la sangría (2 espacios, 4 espacios o tabulador) y si quieres ordenar las claves alfabéticamente",
-      "Pulsa «Formatear y validar» para embellecerlo, o «Minificar» para compactarlo en una línea",
-      "Si hay un error, corrígelo en la línea y columna indicadas; si es válido, cópialo con un clic"
-    ],
-    "benefits": [
-      "Localiza los errores con línea, columna y una flecha sobre el carácter",
-      "Explica cada error en español y cómo corregirlo",
-      "Embellece con 2, 4 espacios o tabuladores, o minifica",
-      "Ordena las claves de los objetos alfabéticamente",
-      "Muestra el tamaño del resultado en bytes",
-      "100% privado: el JSON no sale de tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Pega un JSON y obtén al instante una versión legible con sangría, una versión minificada o el error exacto, con línea y columna, si no es válido. Todo se procesa en tu navegador.",
+    "bloques": [
       {
-        "title": "¿Qué es JSON?",
-        "body": "JSON (JavaScript Object Notation) es el formato de texto más usado para intercambiar datos entre aplicaciones, APIs web y archivos de configuración. Se compone de objetos entre llaves con pares «clave»: valor, arreglos entre corchetes, textos entre comillas dobles, números, true, false y null. Aunque proviene de JavaScript, lo leen y escriben prácticamente todos los lenguajes de programación. Su especificación está definida en el estándar ECMA-404 y en el RFC 8259."
+        "tipo": "infografia",
+        "archivo": "json-formateado-errores-comunes.webp",
+        "alt": "JSON minificado frente a formateado y los errores de sintaxis más comunes",
+        "ancho": 800,
+        "alto": 860,
+        "titulo": "¿Cuáles son los errores más comunes en un JSON?"
       },
       {
-        "title": "Los errores de JSON más comunes",
-        "body": "La mayoría de los errores se deben a costumbres de JavaScript que JSON no permite. Las comas finales, como en {\"a\": 1,}, no son válidas. Las claves y los textos deben ir siempre entre comillas dobles; las comillas simples no se aceptan. Tampoco se permiten comentarios, valores como undefined o NaN, ni números con ceros a la izquierda como 007. Los saltos de línea dentro de un texto deben escribirse como \\n. El validador detecta todos estos casos y te dice exactamente dónde están."
+        "tipo": "tabla",
+        "titulo": "¿Qué tipos de datos admite JSON?",
+        "cabeceras": [
+          "Tipo",
+          "Ejemplo",
+          "Nota"
+        ],
+        "filas": [
+          [
+            "Texto",
+            "\"Ana\"",
+            "Siempre con comillas dobles"
+          ],
+          [
+            "Número",
+            "31 · 3.14 · -2",
+            "Sin comillas, con punto decimal"
+          ],
+          [
+            "Booleano",
+            "true · false",
+            "En minúsculas"
+          ],
+          [
+            "Nulo",
+            "null",
+            "En minúsculas"
+          ],
+          [
+            "Lista",
+            "[\"a\", \"b\"]",
+            "Entre corchetes"
+          ],
+          [
+            "Objeto",
+            "{\"clave\": \"valor\"}",
+            "Las claves siempre con comillas dobles"
+          ]
+        ]
       },
       {
-        "title": "Formatear o minificar: cuándo usar cada uno",
-        "body": "El JSON formateado, con sangría y saltos de línea, es ideal para leerlo, depurar una respuesta de una API, revisar un archivo de configuración o compartirlo en documentación. El JSON minificado elimina todos los espacios innecesarios y ocupa menos bytes, lo que conviene para enviarlo por la red o guardarlo en una base de datos. Ambos representan exactamente los mismos datos. Ordenar las claves alfabéticamente ayuda a comparar dos JSON o a revisar cambios en un control de versiones."
+        "tipo": "comparacion",
+        "titulo": "¿Cuándo formatear y cuándo minificar un JSON?",
+        "columnas": [
+          {
+            "titulo": "Formatear",
+            "tono": "azul",
+            "items": [
+              "Para leerlo, revisarlo o depurar una respuesta de API.",
+              "Para guardarlo en un repositorio y ver cambios línea a línea.",
+              "Para documentación."
+            ]
+          },
+          {
+            "titulo": "Minificar",
+            "tono": "verde",
+            "items": [
+              "Para enviarlo por la red o guardarlo en una base de datos.",
+              "Ocupa menos al quitar espacios y saltos de línea.",
+              "Para incrustarlo en una URL o en un atributo HTML."
+            ]
+          }
+        ]
       },
       {
-        "title": "Privacidad: tu JSON no sale de tu navegador",
-        "body": "Muchos formateadores online envían tu texto a un servidor para procesarlo, lo cual es un riesgo cuando pegas respuestas de APIs con tokens, datos de clientes o configuraciones internas. Esta herramienta funciona completamente en tu navegador con JavaScript: puedes desconectarte de internet después de cargar la página y seguirá funcionando. No guardamos ni registramos nada de lo que pegas."
+        "tipo": "texto",
+        "titulo": "¿Qué otras herramientas sirven para trabajar con JSON?",
+        "parrafos": [
+          "Para pasar una hoja de cálculo a JSON, usa el [conversor de CSV a JSON](/conversor-csv-json); para leer el contenido de un token, el [decodificador JWT](/decodificador-jwt); y para buscar patrones en el texto, el [probador de regex](/probador-regex)."
+        ]
       }
     ],
     "faqs": [
@@ -13715,36 +13933,72 @@
     "webApp": true,
     "appCategory": "DeveloperApplication",
     "intro": "Base64 es la forma estándar de representar datos binarios, como imágenes o archivos, usando solo caracteres de texto. Este codificador convierte cualquier texto a Base64 y lo decodifica de vuelta, con soporte completo de UTF-8, así que las tildes, la ñ y los emojis funcionan correctamente, algo que falla en muchas herramientas. También genera Base64 seguro para URL y convierte archivos e imágenes en data URI listos para incrustar en HTML o CSS. Todo ocurre en tu navegador: ni tus textos ni tus archivos se suben a ningún servidor.",
-    "howToUse": [
-      "Elige «Codificar texto», «Decodificar» o «Archivo a Base64»",
-      "Escribe o pega el texto; el resultado aparece al instante",
-      "Para URLs o tokens, activa la opción de Base64 seguro para URL",
-      "Para archivos, selecciona el archivo y copia el data URI generado"
-    ],
-    "benefits": [
-      "Soporte completo de UTF-8: acentos, ñ y emojis",
-      "Base64 estándar y variante segura para URL",
-      "Convierte imágenes y archivos a data URI con vista previa",
-      "Detecta caracteres inválidos al decodificar",
-      "Resultado instantáneo y botón de copiar",
-      "Privado: nada se sube a internet"
-    ],
-    "contentSections": [
+    "resumen": "Codifica texto o archivos a Base64 y decodifica Base64 a texto, con soporte completo para tildes, ñ y emojis (UTF-8) y opción de Base64 seguro para URL. Nada se sube a ningún servidor.",
+    "bloques": [
       {
-        "title": "¿Qué es Base64 y para qué sirve?",
-        "body": "Base64 es un sistema de codificación definido en el RFC 4648 que representa cualquier dato binario usando 64 caracteres seguros: las letras A-Z y a-z, los dígitos 0-9 y los símbolos + y /, con = como relleno. Se usa para enviar archivos adjuntos por correo, incrustar imágenes pequeñas en HTML o CSS, transportar datos binarios en JSON o XML, y en los tokens de autenticación como JWT o la cabecera Basic Auth. Base64 no es un método de cifrado: cualquiera puede decodificarlo."
+        "tipo": "infografia",
+        "archivo": "como-funciona-base64.webp",
+        "alt": "Cómo se convierte la palabra Hola a Base64 paso a paso con bytes y grupos de 6 bits",
+        "ancho": 800,
+        "alto": 716,
+        "titulo": "¿Cómo funciona la codificación Base64 paso a paso?"
       },
       {
-        "title": "Cómo funciona la codificación",
-        "body": "Base64 toma los datos de 3 en 3 bytes (24 bits) y los divide en 4 grupos de 6 bits; cada grupo se convierte en uno de los 64 caracteres. Por eso el resultado ocupa aproximadamente un 33% más que el original. Si los datos no son múltiplo de 3 bytes, se añaden uno o dos signos = al final. Por ejemplo, el texto «Hola» se codifica como SG9sYQ==. Antes de codificar, el texto se convierte a bytes con UTF-8, que es lo que permite representar correctamente los caracteres del español."
+        "tipo": "escenarios",
+        "titulo": "¿Para qué se usa Base64 en la práctica?",
+        "items": [
+          {
+            "titulo": "Adjuntos de correo",
+            "situacion": "Los correos solo transportan texto: los archivos adjuntos viajan codificados en Base64.",
+            "resultado": "Email"
+          },
+          {
+            "titulo": "Imágenes en HTML o CSS",
+            "situacion": "Una imagen pequeña puede ir dentro del código como data URI, sin pedir un archivo aparte.",
+            "resultado": "data:image"
+          },
+          {
+            "titulo": "Tokens y APIs",
+            "situacion": "Los JWT y la autenticación básica HTTP codifican sus datos en Base64.",
+            "resultado": "Auth"
+          }
+        ]
       },
       {
-        "title": "Base64 seguro para URL",
-        "body": "Los caracteres + y / tienen un significado especial en las URL y en los nombres de archivo. La variante Base64url, también definida en el RFC 4648, los sustituye por - y _ y suele omitir el relleno =. Es la que se usa en los tokens JWT y en parámetros de URL. Este decodificador acepta ambas variantes automáticamente, así que puedes pegar un fragmento de un JWT y ver su contenido."
+        "tipo": "comparacion",
+        "titulo": "¿Qué diferencia hay entre Base64 normal y Base64 para URL?",
+        "columnas": [
+          {
+            "titulo": "Base64 estándar",
+            "tono": "azul",
+            "items": [
+              "Usa los caracteres + y /.",
+              "Termina con = de relleno.",
+              "Para correos, archivos y datos en general."
+            ]
+          },
+          {
+            "titulo": "Base64 URL",
+            "tono": "verde",
+            "items": [
+              "Cambia + por - y / por _.",
+              "Normalmente sin =.",
+              "Para URL, nombres de archivo y tokens JWT."
+            ]
+          }
+        ]
       },
       {
-        "title": "Imágenes en Base64: data URI",
-        "body": "Un data URI incrusta un archivo directamente en el código con el formato data:tipo/mime;base64,datos. Es útil para iconos pequeños, imágenes en correos HTML o para evitar una petición extra al servidor. Sin embargo, para imágenes grandes no conviene, porque aumenta el tamaño un 33% y el navegador no puede guardarlas en caché por separado. Esta herramienta genera el data URI de cualquier archivo de hasta 10 MB y muestra una vista previa si es una imagen."
+        "tipo": "aviso",
+        "tono": "ambar",
+        "texto": "Base64 no protege nada: cualquiera puede decodificarlo en un segundo. Nunca lo uses para «ocultar» contraseñas o datos personales."
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo convertir una imagen a Base64?",
+        "parrafos": [
+          "Usa [imagen a Base64](/imagen-a-base64), que genera el data URI listo para pegar. Para comprobar la integridad de un archivo, en cambio, necesitas un hash: el [generador de hash](/generador-hash)."
+        ]
       }
     ],
     "faqs": [
@@ -13798,36 +14052,75 @@
     "webApp": true,
     "appCategory": "DeveloperApplication",
     "intro": "Un UUID (identificador único universal) es un código de 128 bits que se usa para identificar registros, archivos, usuarios o transacciones sin necesidad de una autoridad central que asigne números. Este generador crea UUID versión 4, completamente aleatorios, y UUID versión 7, que incluyen una marca de tiempo y se ordenan cronológicamente, ideales como claves primarias en bases de datos. Puedes generar hasta 1000 a la vez, en mayúsculas o sin guiones, y copiarlos con un clic. Se generan con el generador criptográfico de tu navegador.",
-    "howToUse": [
-      "Elige la versión: v4 para identificadores aleatorios o v7 para identificadores ordenados por tiempo",
-      "Indica cuántos UUID necesitas (hasta 1000)",
-      "Activa las opciones de mayúsculas o sin guiones si tu sistema lo requiere",
-      "Pulsa «Copiar todos» para llevarlos a tu código, hoja de cálculo o base de datos"
-    ],
-    "benefits": [
-      "UUID v4 y v7 según el estándar RFC 9562",
-      "Hasta 1000 UUID en una sola generación",
-      "Formato en mayúsculas o sin guiones",
-      "Generador criptográficamente seguro (crypto.getRandomValues)",
-      "Copia todos con un clic",
-      "Gratis y sin límites de uso"
-    ],
-    "contentSections": [
+    "resumen": "Genera UUID versión 4 (aleatorios) o versión 7 (ordenados por fecha), uno o cientos a la vez, en minúsculas o mayúsculas y con o sin guiones. Se crean con el generador criptográfico de tu navegador.",
+    "bloques": [
       {
-        "title": "¿Qué es un UUID?",
-        "body": "Un UUID, también llamado GUID en entornos Microsoft, es un número de 128 bits que se representa como 32 dígitos hexadecimales en cinco grupos separados por guiones: 8-4-4-4-12, por ejemplo 550e8400-e29b-41d4-a716-446655440000. Su formato está definido en el RFC 9562, que en 2024 sustituyó al RFC 4122. Su gran ventaja es que cualquier sistema puede generar identificadores de forma independiente con una probabilidad prácticamente nula de que se repitan."
+        "tipo": "infografia",
+        "archivo": "anatomia-uuid-v4-v7.webp",
+        "alt": "Partes de un UUID v4 aleatorio y de un UUID v7 ordenado por tiempo",
+        "ancho": 800,
+        "alto": 763,
+        "titulo": "¿Cómo se lee un UUID v4 y un UUID v7?"
       },
       {
-        "title": "UUID v4 frente a UUID v7",
-        "body": "El UUID v4 tiene 122 bits aleatorios y es el más usado en general. El UUID v7, introducido en el RFC 9562, dedica sus primeros 48 bits a la marca de tiempo en milisegundos y el resto a bits aleatorios, por lo que los UUID generados más tarde se ordenan después. Esto los hace mucho más eficientes como claves primarias en bases de datos como PostgreSQL o MySQL, porque se insertan en orden en los índices, a diferencia del v4, cuyo orden aleatorio fragmenta los índices."
+        "tipo": "tabla",
+        "titulo": "¿En qué formatos se puede escribir un UUID?",
+        "intro": "El generador ofrece los tres primeros; el formato con llaves es el que usa Windows y basta con añadirlas.",
+        "cabeceras": [
+          "Formato",
+          "Ejemplo",
+          "Dónde se usa"
+        ],
+        "filas": [
+          [
+            "Estándar",
+            "3f2b8c1e-9d4a-4e7c-b1a2-5d6e7f8a9b0c",
+            "Casi todas las bases de datos y APIs"
+          ],
+          [
+            "Mayúsculas",
+            "3F2B8C1E-9D4A-4E7C-B1A2-5D6E7F8A9B0C",
+            "Algunos sistemas de Windows"
+          ],
+          [
+            "Sin guiones",
+            "3f2b8c1e9d4a4e7cb1a25d6e7f8a9b0c",
+            "Columnas de 32 caracteres"
+          ],
+          [
+            "Con llaves (GUID)",
+            "{3f2b8c1e-9d4a-4e7c-b1a2-5d6e7f8a9b0c}",
+            "Registro de Windows y .NET"
+          ]
+        ]
       },
       {
-        "title": "¿Pueden repetirse dos UUID?",
-        "body": "En teoría sí, en la práctica no. Un UUID v4 tiene 2^122 combinaciones posibles, unos 5.3 × 10^36. Para tener un 50% de probabilidad de una sola colisión habría que generar alrededor de 2.7 × 10^18 UUID, es decir, mil millones por segundo durante unos 85 años. Eso sí, la garantía depende de usar un buen generador aleatorio: esta herramienta usa crypto.getRandomValues, el generador criptográfico del navegador, y no Math.random."
+        "tipo": "escenarios",
+        "titulo": "¿Qué UUID conviene para claves, tokens y nombres de archivo?",
+        "items": [
+          {
+            "titulo": "Clave primaria",
+            "situacion": "Tablas que crecen mucho: el orden temporal hace que los índices se llenen mejor.",
+            "resultado": "v7"
+          },
+          {
+            "titulo": "Token o enlace secreto",
+            "situacion": "No debe revelar cuándo se creó.",
+            "resultado": "v4"
+          },
+          {
+            "titulo": "Nombre de archivo",
+            "situacion": "Evitar choques al subir archivos con el mismo nombre.",
+            "resultado": "v4 o v7"
+          }
+        ]
       },
       {
-        "title": "Formatos y usos habituales",
-        "body": "Los UUID se escriben normalmente en minúsculas con guiones, pero muchos sistemas aceptan mayúsculas o la forma compacta sin guiones de 32 caracteres. Se usan como claves primarias de bases de datos, identificadores de sesión, nombres de archivos subidos, identificadores de pedidos o eventos, y en sistemas distribuidos donde varios servidores crean registros a la vez. No los uses como contraseñas o tokens secretos si no has verificado cómo se generan."
+        "tipo": "texto",
+        "titulo": "¿Es seguro usar un UUID como contraseña o token?",
+        "parrafos": [
+          "Un UUID v4 tiene 122 bits aleatorios, suficiente para que no se adivine. Pero no es una contraseña: para eso usa el [generador de contraseñas](/generador-contrasenas). Si necesitas verificar que un archivo no cambió, usa un [hash](/generador-hash)."
+        ]
       }
     ],
     "faqs": [
@@ -13881,36 +14174,86 @@
     "webApp": true,
     "appCategory": "DeveloperApplication",
     "intro": "Escribir una expresión regular a ciegas es la receta para errores sutiles. Este probador de regex te muestra en tiempo real qué partes de tu texto coinciden con el patrón, resaltándolas en colores, y te lista cada coincidencia con sus grupos de captura. También puedes probar reemplazos con referencias como $1 o $<nombre> y activar las banderas g, i, m, s y u con un clic. Incluye patrones de ejemplo para correos, teléfonos de México, fechas y RFC, y te protege de los patrones que podrían congelar tu navegador.",
-    "howToUse": [
-      "Escribe tu expresión regular o elige uno de los ejemplos",
-      "Activa las banderas que necesites: g (todas), i (sin distinguir mayúsculas), m (multilínea), s o u",
-      "Pega el texto de prueba: las coincidencias se resaltan mientras escribes",
-      "Opcionalmente, activa el reemplazo y usa $1, $2 o $<nombre> para ver el resultado"
-    ],
-    "benefits": [
-      "Resaltado de coincidencias en tiempo real",
-      "Tabla con los grupos de captura de cada coincidencia",
-      "Vista previa de reemplazos con referencias a grupos",
-      "Protección contra el backtracking catastrófico",
-      "Ejemplos listos para correo, teléfono, fecha y RFC",
-      "Usa el mismo motor de JavaScript de tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Escribe una expresión regular y un texto de prueba y ve en tiempo real las coincidencias resaltadas, los grupos capturados y el resultado de un reemplazo. Usa la sintaxis de JavaScript, compatible con la mayoría de lenguajes.",
+    "bloques": [
       {
-        "title": "¿Qué es una expresión regular?",
-        "body": "Una expresión regular, o regex, es un patrón que describe un conjunto de textos. Se usa para buscar, validar, extraer y reemplazar texto: comprobar que un correo tiene el formato correcto, encontrar todos los números de teléfono de un documento o cambiar el formato de las fechas. Casi todos los lenguajes de programación y editores de código las admiten. Este probador usa el motor de JavaScript (ECMAScript), el mismo de tu navegador y de Node.js."
+        "tipo": "infografia",
+        "archivo": "chuleta-expresiones-regulares.webp",
+        "alt": "Chuleta de expresiones regulares con los símbolos más usados y ejemplos",
+        "ancho": 800,
+        "alto": 810,
+        "titulo": "¿Qué significan los símbolos de una expresión regular?"
       },
       {
-        "title": "Símbolos básicos que conviene conocer",
-        "body": "El punto . coincide con cualquier carácter; \\d con un dígito; \\w con una letra, dígito o guion bajo; y \\s con un espacio. Los corchetes definen un conjunto, como [aeiou]. Los cuantificadores indican repeticiones: * (cero o más), + (una o más), ? (opcional) y {2,4} (entre dos y cuatro). ^ y $ marcan el inicio y el final. Los paréntesis crean grupos de captura, que puedes reutilizar en el reemplazo con $1, $2 o, si les das nombre con (?<nombre>…), con $<nombre>."
+        "tipo": "tabla",
+        "titulo": "¿Qué expresiones regulares se usan más a menudo?",
+        "cabeceras": [
+          "Para",
+          "Expresión"
+        ],
+        "filas": [
+          [
+            "Código postal de 5 cifras",
+            "^\\d{5}$"
+          ],
+          [
+            "Teléfono de 10 cifras",
+            "^\\d{10}$"
+          ],
+          [
+            "Fecha dd/mm/aaaa",
+            "^\\d{2}/\\d{2}/\\d{4}$"
+          ],
+          [
+            "Palabra con tildes",
+            "[a-záéíóúüñ]+ (bandera i)"
+          ],
+          [
+            "Espacios repetidos",
+            "\\s{2,}"
+          ],
+          [
+            "Hashtags",
+            "#[\\wáéíóúñ]+"
+          ]
+        ],
+        "nota": "Comprueban el formato, no que el dato exista: una fecha 31/02/2026 pasaría la expresión."
       },
       {
-        "title": "Banderas o modificadores",
-        "body": "La bandera g busca todas las coincidencias en lugar de solo la primera. La i ignora la diferencia entre mayúsculas y minúsculas. La m hace que ^ y $ funcionen al inicio y al final de cada línea. La s permite que el punto también coincida con los saltos de línea. La u activa el modo Unicode completo, necesario para manejar correctamente emojis y propiedades de caracteres como \\p{L}, que incluye letras con tilde y la ñ."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo pasar fechas de dd/mm/aaaa a aaaa-mm-dd con regex?",
+        "intro": "Pasar fechas de dd/mm/aaaa a aaaa-mm-dd en todo un texto.",
+        "datos": [
+          [
+            "Texto",
+            "24/10/2026"
+          ],
+          [
+            "Bandera",
+            "g"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Captura día, mes y año en tres grupos.",
+            "operacion": "(\\d{2})/(\\d{2})/(\\d{4})"
+          },
+          {
+            "texto": "En el reemplazo, usa los grupos en otro orden.",
+            "operacion": "$3-$2-$1"
+          }
+        ],
+        "resultado": [
+          "Resultado",
+          "2026-10-24"
+        ]
       },
       {
-        "title": "Backtracking catastrófico: por qué tu regex puede congelarse",
-        "body": "Algunos patrones con cuantificadores anidados, como (a+)+b o (\\w*)*$, pueden tardar un tiempo exponencial en fallar sobre ciertos textos, un problema llamado backtracking catastrófico que ha causado caídas en servicios reales. Este probador ejecuta tu expresión en un proceso separado (Web Worker) y la detiene si tarda más de 1.5 segundos, avisándote en lugar de bloquear la página. Si te ocurre, evita anidar cuantificadores y usa clases de caracteres más específicas."
+        "tipo": "texto",
+        "titulo": "¿Qué hacer si la expresión regular se congela?",
+        "parrafos": [
+          "Suele ser por cuantificadores anidados como (a+)+ sobre textos largos: el motor prueba millones de combinaciones. Haz los patrones más concretos, evita grupos repetidos dentro de grupos repetidos y prueba primero con textos cortos. Para limpiar o transformar texto sin regex, prueba el [convertidor de mayúsculas](/convertidor-mayusculas-minusculas) o el [contador de palabras](/contador-palabras)."
+        ]
       }
     ],
     "faqs": [
@@ -13964,36 +14307,73 @@
     "webApp": true,
     "appCategory": "DeveloperApplication",
     "intro": "Un hash es la huella digital de un texto o un archivo: cualquier cambio, por mínimo que sea, produce un hash completamente distinto. Este generador calcula a la vez los hash MD5, SHA-1, SHA-256, SHA-384 y SHA-512 de un texto o de un archivo de hasta 200 MB, y te permite pegar el hash que publica un sitio de descarga para comprobar al instante si tu archivo es idéntico al original. Todo el cálculo se hace en tu navegador, por lo que tus archivos nunca se suben a internet.",
-    "howToUse": [
-      "Elige si vas a calcular el hash de un texto o de un archivo",
-      "Escribe el texto o selecciona el archivo: los cinco hash se calculan automáticamente",
-      "Copia el hash del algoritmo que necesites, en minúsculas o mayúsculas",
-      "Para verificar una descarga, pega el hash publicado y comprueba si coincide"
-    ],
-    "benefits": [
-      "Cinco algoritmos a la vez: MD5, SHA-1, SHA-256, SHA-384 y SHA-512",
-      "Hash de textos (UTF-8) y de archivos de hasta 200 MB",
-      "Verificación automática contra un hash publicado",
-      "Indica qué algoritmos siguen siendo seguros",
-      "Tus archivos no se suben: el cálculo es local",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el hash MD5, SHA-1, SHA-256, SHA-384 y SHA-512 de un texto o de un archivo, a la vez y en tu navegador. Sirve para verificar descargas, comparar archivos y detectar cambios.",
+    "bloques": [
       {
-        "title": "¿Qué es una función hash?",
-        "body": "Una función hash criptográfica transforma cualquier cantidad de datos en una cadena de longitud fija. Tiene tres propiedades clave: el mismo contenido siempre produce el mismo hash; un cambio mínimo, incluso de un solo bit, produce un hash totalmente diferente; y no es posible reconstruir el contenido original a partir del hash. Por eso se usa para verificar la integridad de archivos, detectar duplicados, firmar documentos digitalmente y almacenar contraseñas de forma segura."
+        "tipo": "infografia",
+        "archivo": "hash-sha256-efecto-avalancha.webp",
+        "alt": "Hash SHA-256 de hola y Hola y longitud de MD5, SHA-1, SHA-256 y SHA-512",
+        "ancho": 800,
+        "alto": 845,
+        "titulo": "¿Por qué un hash cambia por completo con una sola letra?"
       },
       {
-        "title": "MD5, SHA-1 y SHA-256: cuál usar",
-        "body": "MD5 (128 bits) y SHA-1 (160 bits) se consideran rotos para usos de seguridad: se han demostrado colisiones, es decir, dos contenidos distintos con el mismo hash; en el caso de SHA-1, públicamente en 2017. Siguen siendo útiles para detectar errores accidentales o verificar descargas antiguas. Para cualquier uso actual, lo recomendado es la familia SHA-2: SHA-256 es el estándar más extendido, usado en certificados TLS, Git y Bitcoin, mientras que SHA-384 y SHA-512 ofrecen salidas más largas."
+        "tipo": "pasos",
+        "titulo": "¿Cómo comprobar que un archivo descargado no está alterado?",
+        "pasos": [
+          {
+            "titulo": "Copia el hash oficial",
+            "texto": "La web de descarga suele publicar un SHA-256 junto al archivo."
+          },
+          {
+            "titulo": "Carga el archivo aquí",
+            "texto": "Se procesa en tu navegador, sin subirse a ningún servidor."
+          },
+          {
+            "titulo": "Compara los dos hashes",
+            "texto": "Si coinciden letra a letra, el archivo es idéntico al publicado. Si no, descárgalo de nuevo."
+          }
+        ]
       },
       {
-        "title": "Cómo verificar la integridad de una descarga",
-        "body": "Muchos proyectos de software publican el hash SHA-256 de sus archivos junto al enlace de descarga. Para comprobar que tu archivo no se dañó ni fue modificado, selecciónalo en la pestaña «Archivo», pega el hash publicado en el campo de verificación y la herramienta te dirá si coincide y con qué algoritmo. Si no coincide, vuelve a descargar el archivo desde la fuente oficial y no lo ejecutes."
+        "tipo": "comparacion",
+        "titulo": "¿Qué diferencia hay entre hash, cifrado y codificación?",
+        "columnas": [
+          {
+            "titulo": "Hash",
+            "tono": "azul",
+            "items": [
+              "Un solo sentido: no se puede revertir.",
+              "Siempre la misma longitud.",
+              "Para verificar integridad."
+            ]
+          },
+          {
+            "titulo": "Cifrado",
+            "tono": "verde",
+            "items": [
+              "Se revierte con una clave.",
+              "Protege la confidencialidad.",
+              "Ejemplo: AES, el candado de HTTPS."
+            ]
+          },
+          {
+            "titulo": "Codificación",
+            "tono": "ambar",
+            "items": [
+              "Se revierte sin clave.",
+              "Solo cambia el formato.",
+              "Ejemplo: [Base64](/codificador-base64)."
+            ]
+          }
+        ]
       },
       {
-        "title": "Hashes y contraseñas",
-        "body": "Nunca guardes contraseñas con un hash simple como MD5 o SHA-256: al ser funciones rápidas, un atacante puede probar miles de millones de combinaciones por segundo. Para contraseñas se usan algoritmos lentos y con sal diseñados para ello, como Argon2, bcrypt o scrypt. Esta herramienta sirve para verificar integridad y para aprender, no para proteger contraseñas en producción."
+        "tipo": "texto",
+        "titulo": "¿Por qué no se deben guardar contraseñas con SHA-256?",
+        "parrafos": [
+          "Porque es demasiado rápido: un atacante puede probar miles de millones de contraseñas por segundo. Para contraseñas se usan algoritmos lentos y con sal, como bcrypt, scrypt o Argon2. Para crear contraseñas robustas usa el [generador de contraseñas](/generador-contrasenas); para identificadores únicos, el [generador de UUID](/generador-uuid)."
+        ]
       }
     ],
     "faqs": [
@@ -14047,36 +14427,70 @@
     "webApp": true,
     "appCategory": "DesignApplication",
     "intro": "El Lorem Ipsum es el texto de relleno más usado en diseño gráfico, desarrollo web y maquetación desde hace décadas. Este generador crea la cantidad exacta que necesitas, por párrafos, oraciones o palabras, empezando si quieres por el clásico «Lorem ipsum dolor sit amet», y puede envolver cada párrafo en etiquetas HTML <p> para pegarlo directamente en tu código. Es perfecto para maquetas, prototipos en Figma, plantillas de WordPress o para probar cómo se ve un diseño con contenido real antes de tener los textos definitivos.",
-    "howToUse": [
-      "Elige si quieres generar párrafos, oraciones o palabras",
-      "Indica la cantidad que necesitas",
-      "Decide si empieza con «Lorem ipsum dolor sit amet» y si quieres las etiquetas HTML <p>",
-      "Copia el texto con un clic, o pulsa «Generar otro texto» para obtener una variante"
-    ],
-    "benefits": [
-      "Genera por párrafos, oraciones o palabras",
-      "Opción de empezar con la frase clásica",
-      "Salida en texto plano o con etiquetas <p>",
-      "Contador de palabras y caracteres del resultado",
-      "Texto distinto en cada generación",
-      "Gratis y sin límites"
-    ],
-    "contentSections": [
+    "resumen": "Genera la cantidad exacta de texto de relleno que necesitas, en párrafos, frases o palabras, empezando o no por «Lorem ipsum dolor sit amet», y cópialo como texto o con etiquetas HTML.",
+    "bloques": [
       {
-        "title": "¿De dónde viene el Lorem Ipsum?",
-        "body": "Aunque parece latín sin sentido, el Lorem Ipsum procede de un texto real: «De finibus bonorum et malorum», un tratado de ética escrito por Cicerón en el año 45 antes de Cristo. El fragmento original dice «Neque porro quisquam est qui dolorem ipsum quia dolor sit amet…». En algún momento, probablemente en el siglo XVI, un impresor tomó el texto, lo recortó y lo desordenó para crear un muestrario tipográfico. Se popularizó en los años sesenta con las hojas de transferencia Letraset y después con los programas de autoedición."
+        "tipo": "infografia",
+        "archivo": "origen-lorem-ipsum.webp",
+        "alt": "Origen del Lorem Ipsum en Cicerón y cuánto texto de relleno usar según el elemento",
+        "ancho": 800,
+        "alto": 809,
+        "titulo": "¿De dónde viene el Lorem Ipsum?"
       },
       {
-        "title": "¿Por qué usar texto de relleno?",
-        "body": "Cuando revisas un diseño con textos reales, la atención se va al contenido y no a la composición. El Lorem Ipsum tiene una distribución de letras y longitudes de palabra parecida a la de un idioma real, pero sin significado, lo que permite evaluar la tipografía, el espaciado, la jerarquía visual y cómo se comporta el diseño con textos largos o cortos. También evita que un borrador con textos provisionales se confunda con la versión final."
+        "tipo": "consejos",
+        "titulo": "¿Cuándo es mejor no usar Lorem Ipsum?",
+        "items": [
+          {
+            "titulo": "Si el texto real ya existe",
+            "texto": "Diseña con él: los títulos reales son más largos o más cortos de lo que parece."
+          },
+          {
+            "titulo": "En pruebas con usuarios",
+            "texto": "El texto falso distrae y no deja evaluar si la página se entiende."
+          },
+          {
+            "titulo": "En botones y menús",
+            "texto": "Usa las palabras reales («Comprar», «Ver precios»): su longitud cambia el diseño."
+          },
+          {
+            "titulo": "Al publicar",
+            "texto": "Una página con Lorem Ipsum parece inacabada y no aporta nada a los buscadores."
+          }
+        ]
       },
       {
-        "title": "Cuánto texto necesitas",
-        "body": "Como referencia, un párrafo de este generador tiene entre 4 y 7 oraciones, unas 40 a 100 palabras. Un artículo de blog suele tener entre 600 y 1,500 palabras; una descripción de producto, entre 50 y 200; y una tarjeta o extracto, entre 20 y 40 palabras. Generar la cantidad aproximada del contenido final te ayuda a detectar a tiempo problemas de diseño, como textos que se desbordan o columnas demasiado anchas."
+        "tipo": "texto",
+        "titulo": "¿Por qué no usar un texto en español como relleno?",
+        "parrafos": [
+          "Puedes usar cualquier texto en español de dominio público, pero tiene un inconveniente: el lector se pone a leerlo. Por eso el Lorem Ipsum sigue siendo el estándar: parece texto, pero no distrae. Para medir cuánto ocupa tu texto real, usa el [contador de palabras](/contador-palabras) o el [contador de caracteres](/contador-caracteres)."
+        ]
       },
       {
-        "title": "Buenas prácticas con el Lorem Ipsum",
-        "body": "Sustituye el texto de relleno por contenido real antes de publicar: un sitio con Lorem Ipsum parece inacabado y perjudica la experiencia de los usuarios y el posicionamiento en buscadores, que lo consideran contenido de poco valor. En etapas avanzadas del diseño es mejor usar borradores del contenido real, porque la longitud y el tono de los textos verdaderos pueden cambiar mucho la composición. Para interfaces en español, recuerda que los textos en español suelen ser más largos que en inglés."
+        "tipo": "tabla",
+        "titulo": "¿Cuántas palabras tiene cada formato de texto?",
+        "cabeceras": [
+          "Formato",
+          "Palabras aproximadas"
+        ],
+        "filas": [
+          [
+            "Una frase",
+            "10 a 20"
+          ],
+          [
+            "Un párrafo",
+            "50 a 100"
+          ],
+          [
+            "Una página A4",
+            "400 a 500"
+          ],
+          [
+            "Un artículo de blog",
+            "1.000 a 2.000"
+          ]
+        ]
       }
     ],
     "faqs": [
@@ -14130,36 +14544,74 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Un correo mal escrito significa un cliente que nunca recibe su confirmación o una campaña que rebota. Este validador de email revisa que la dirección tenga un formato correcto, detecta los errores de escritura más comunes en dominios populares (como gmial.com, hotmial.com o gmail.con) y te sugiere la corrección, avisa si el dominio es de correo temporal y consulta el DNS para comprobar si el dominio realmente puede recibir correo. Puedes validar un solo correo o una lista de hasta 200 a la vez.",
-    "howToUse": [
-      "Elige si quieres validar un solo correo o una lista",
-      "Escribe el correo, o pega la lista con un correo por línea",
-      "Pulsa «Validar» para revisar la sintaxis y consultar los servidores de correo del dominio",
-      "Revisa cada resultado: los errores, las sugerencias de corrección y el estado del dominio"
-    ],
-    "benefits": [
-      "Revisa la sintaxis con reglas del estándar de correo",
-      "Sugiere correcciones para errores típicos de escritura",
-      "Comprueba si el dominio tiene servidores de correo (registro MX)",
-      "Detecta dominios de correo temporal o desechable",
-      "Validación en lote de hasta 200 correos",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Comprueba si una dirección de correo tiene un formato correcto, si el dominio puede recibir correo (registros MX) y si tiene errores típicos como «gmial.com». Funciona con una dirección o con una lista de hasta 200.",
+    "bloques": [
       {
-        "title": "Qué comprueba este validador",
-        "body": "Primero revisa la sintaxis: que haya una sola @, que la parte del usuario tenga como máximo 64 caracteres y solo caracteres permitidos, sin puntos al inicio, al final o seguidos, y que el dominio tenga una extensión válida. Después compara el dominio con los proveedores más populares para detectar errores de una o dos letras. Por último, consulta el DNS público de Cloudflare para saber si el dominio tiene registros MX, que son los servidores encargados de recibir el correo."
+        "tipo": "infografia",
+        "archivo": "que-comprueba-validador-email.webp",
+        "alt": "Partes de una dirección de correo y qué comprueba un validador de email",
+        "ancho": 800,
+        "alto": 807,
+        "titulo": "¿Qué comprueba un validador de correo electrónico?"
       },
       {
-        "title": "¿Qué es un registro MX?",
-        "body": "Los registros MX (mail exchanger) indican a qué servidores se debe entregar el correo de un dominio. Si un dominio no tiene registros MX, lo más probable es que no pueda recibir correos, aunque tenga una página web. Si el dominio ni siquiera existe, cualquier correo enviado a él rebotará. Esta comprobación elimina muchos errores, como dominios inventados o empresas que ya cerraron su correo."
+        "tipo": "tabla",
+        "titulo": "¿Qué direcciones de correo son válidas y cuáles no?",
+        "cabeceras": [
+          "Dirección",
+          "¿Válida?",
+          "Por qué"
+        ],
+        "filas": [
+          [
+            "ana.lopez@empresa.com",
+            "Sí",
+            "Formato estándar"
+          ],
+          [
+            "ana+boletin@gmail.com",
+            "Sí",
+            "El + crea un alias que llega al mismo buzón"
+          ],
+          [
+            "ana lopez@empresa.com",
+            "No",
+            "Los espacios no están permitidos"
+          ],
+          [
+            "ana@@empresa.com",
+            "No",
+            "Solo puede haber una @"
+          ],
+          [
+            "ana@empresa",
+            "No",
+            "Falta la extensión del dominio"
+          ],
+          [
+            "ana@gmial.com",
+            "Formato sí, pero sospechosa",
+            "Probable error al escribir gmail.com"
+          ]
+        ]
       },
       {
-        "title": "Lo que ningún validador web puede comprobar",
-        "body": "Una dirección puede tener un formato perfecto y un dominio que recibe correo, y aun así no existir: por ejemplo, un buzón con una letra de más en un dominio válido. Para confirmar que un buzón concreto existe habría que conectarse al servidor de correo, algo que los navegadores no permiten y que muchos servidores bloquean para evitar el spam. La única prueba definitiva es enviar un correo de confirmación con un enlace, el conocido doble opt-in."
+        "tipo": "checklist",
+        "titulo": "¿Cómo mantener limpia una lista de correos?",
+        "items": [
+          "Valida las direcciones al recogerlas, no meses después.",
+          "Usa doble confirmación: un correo con enlace para verificar la suscripción.",
+          "Elimina los correos que rebotan de forma permanente.",
+          "Evita direcciones de correos desechables en formularios importantes.",
+          "Revisa la lista cada pocos meses y quita a quien no abre nada."
+        ]
       },
       {
-        "title": "Por qué validar correos mejora tus envíos",
-        "body": "Enviar correos a direcciones inexistentes aumenta tu tasa de rebote, y los proveedores como Gmail y Outlook la usan para decidir si tus mensajes van a la bandeja de entrada o a spam. Limpiar tu lista antes de una campaña, corregir errores de escritura en los formularios de registro y evitar los dominios desechables te ayuda a proteger la reputación de tu dominio y a llegar a más clientes reales."
+        "tipo": "texto",
+        "titulo": "¿Qué otras herramientas ayudan con el correo electrónico?",
+        "parrafos": [
+          "Para una firma profesional, el [generador de firma de email](/generador-firma-email); para medir tus campañas, añade parámetros con el [generador de UTM](/generador-utm). Si necesitas buscar correos dentro de un texto largo, el [probador de regex](/probador-regex) te ayuda."
+        ]
       }
     ],
     "faqs": [
@@ -14213,36 +14665,65 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Muchos textos tienen un límite de caracteres: el título de una página para Google, la meta descripción, una publicación en X, la biografía de Instagram o un SMS. Este contador de caracteres cuenta en tiempo real los caracteres con y sin espacios, las palabras, las líneas, los párrafos y los bytes, y te muestra con barras de progreso cuánto te queda en cada plataforma. Además calcula cuántos SMS ocupará tu mensaje y te avisa de qué letras con tilde reducen el límite de 160 a 70 caracteres, un detalle que casi ningún contador tiene en cuenta.",
-    "howToUse": [
-      "Escribe o pega tu texto en el cuadro",
-      "Mira los contadores de caracteres, palabras, líneas, párrafos y bytes, que se actualizan al instante",
-      "Revisa las barras de límites para ver si tu texto cabe en cada plataforma",
-      "Consulta el apartado de SMS para saber cuántos mensajes ocupará y qué caracteres lo encarecen"
-    ],
-    "benefits": [
-      "Caracteres con y sin espacios, palabras, líneas, párrafos y bytes",
-      "Límites de SEO, X, Instagram, YouTube y LinkedIn con barras de progreso",
-      "Cálculo de SMS con detección de la codificación GSM-7 o Unicode",
-      "Cuenta correctamente los emojis y las letras con tilde",
-      "Actualización en tiempo real mientras escribes",
-      "Gratis, sin registro y sin enviar tu texto"
-    ],
-    "contentSections": [
+    "resumen": "Cuenta caracteres con y sin espacios, palabras, líneas y bytes mientras escribes, y compara tu texto con los límites de Google, X, Instagram o un SMS. Detecta también si tu SMS pasará a Unicode por las tildes.",
+    "bloques": [
       {
-        "title": "Límites de caracteres más importantes",
-        "body": "Google suele mostrar unos 60 caracteres del título de una página y entre 150 y 160 de la meta descripción, aunque el corte real depende del ancho en píxeles. En X (antes Twitter) las cuentas normales pueden publicar 280 caracteres. En Instagram, la biografía admite 150 caracteres y el pie de foto 2,200. Los títulos de YouTube tienen un máximo de 100 caracteres y las publicaciones de LinkedIn 3,000. Mantenerte dentro de estos límites evita que tu texto se corte en el peor lugar."
+        "tipo": "infografia",
+        "archivo": "limite-caracteres-sms.webp",
+        "alt": "Límite de caracteres de un SMS: 160 con el alfabeto GSM y 70 con tildes o emojis, y otros límites",
+        "ancho": 800,
+        "alto": 789,
+        "titulo": "¿Por qué un SMS admite 160 caracteres o solo 70?"
       },
       {
-        "title": "SMS: por qué las tildes cuentan doble",
-        "body": "Los SMS usan por defecto el alfabeto GSM-7, que permite 160 caracteres por mensaje. Ese alfabeto incluye la ñ, la é, la ü, la ¿ y la ¡, pero no la á, la í, la ó ni la ú. Si tu mensaje contiene una sola de esas letras o un emoji, todo el SMS pasa a codificarse en Unicode (UCS-2) y el límite baja a 70 caracteres. Además, los mensajes largos se dividen en partes de 153 caracteres en GSM-7 o de 67 en Unicode. Esta herramienta lo calcula por ti."
+        "tipo": "escenarios",
+        "titulo": "¿Cómo ajustar un texto que se pasa del límite?",
+        "items": [
+          {
+            "titulo": "Título para Google",
+            "situacion": "«Calculadora de aguinaldo 2026 gratis online para México con ISR» tiene 64 caracteres. Quita «online» y «gratis».",
+            "resultado": "≤ 60"
+          },
+          {
+            "titulo": "Bio de Instagram",
+            "situacion": "Cambia frases por símbolos o saltos de línea y deja un solo enlace.",
+            "resultado": "≤ 150"
+          },
+          {
+            "titulo": "SMS de aviso",
+            "situacion": "Quita tildes y emojis si el mensaje no es personal: vuelves a tener 160.",
+            "resultado": "≤ 160"
+          }
+        ]
       },
       {
-        "title": "Caracteres, palabras y bytes",
-        "body": "El contador de caracteres cuenta lo que ves en pantalla: un emoji o una letra con tilde es un solo carácter, aunque internamente ocupe más. Los bytes, en cambio, miden cuánto espacio ocupa el texto en codificación UTF-8: una letra sin tilde ocupa 1 byte, una letra con tilde o la ñ ocupan 2, y un emoji suele ocupar 4. Los bytes importan en bases de datos, en algunos formularios y en ciertas APIs que limitan el tamaño del texto."
+        "tipo": "glosario",
+        "titulo": "¿Qué diferencia hay entre caracteres, palabras y bytes?",
+        "items": [
+          [
+            "Caracteres",
+            "Cada letra, número, espacio o signo. Es lo que miden casi todas las redes sociales."
+          ],
+          [
+            "Caracteres sin espacios",
+            "La cifra que piden algunas traducciones y trabajos académicos."
+          ],
+          [
+            "Palabras",
+            "Bloques separados por espacios. Lo que cuentan los trabajos escolares."
+          ],
+          [
+            "Bytes",
+            "Lo que ocupa el texto en UTF-8: una letra sin tilde ocupa 1, la ñ o la á ocupan 2 y un emoji, 4."
+          ]
+        ]
       },
       {
-        "title": "Consejos para escribir títulos y descripciones",
-        "body": "Coloca la palabra clave principal al inicio del título y de la meta descripción, para que no se pierda si Google recorta el texto. Escribe descripciones que inviten a hacer clic, con un beneficio claro. En redes sociales, las primeras líneas son las que se ven antes del «ver más», así que pon ahí lo más importante. Y en SMS de marketing, evita las tildes innecesarias si quieres que tu mensaje quepa en un solo envío."
+        "tipo": "texto",
+        "titulo": "¿Cuándo usar el contador de palabras en lugar de este?",
+        "parrafos": [
+          "Si te piden una extensión en palabras o quieres el tiempo de lectura y las palabras más repetidas, usa el [contador de palabras](/contador-palabras). Para dar formato a los títulos, el [convertidor de mayúsculas y minúsculas](/convertidor-mayusculas-minusculas)."
+        ]
       }
     ],
     "faqs": [
@@ -14296,36 +14777,56 @@
     "webApp": true,
     "appCategory": "GameApplication",
     "intro": "Esta herramienta de sorteo online elige ganadores al azar de una lista de nombres de forma justa y transparente. Pega los participantes, uno por línea, indica cuántos ganadores y suplentes quieres y obtén el resultado en un segundo. Es ideal para sorteos y giveaways en Instagram, Facebook o TikTok, para elegir quién presenta en clase, repartir tareas en el trabajo, formar el orden de un torneo o hacer un intercambio de regalos. Usa el generador criptográfico de tu navegador, así que cada participante tiene exactamente la misma probabilidad de ganar.",
-    "howToUse": [
-      "Pega o escribe la lista de participantes, un nombre o usuario por línea",
-      "Indica cuántos ganadores y cuántos suplentes quieres sortear",
-      "Deja activada la opción de quitar duplicados para dar una sola oportunidad por persona",
-      "Pulsa «Realizar sorteo» y copia el resultado con la fecha y la hora para publicarlo"
-    ],
-    "benefits": [
-      "Sorteo justo con aleatoriedad criptográfica",
-      "Varios ganadores y suplentes en un solo sorteo",
-      "Quita duplicados automáticamente, sin importar mayúsculas",
-      "Resultado con fecha, hora y número de participantes para dar transparencia",
-      "Texto listo para copiar y publicar en redes sociales",
-      "Gratis, sin límite de participantes razonable y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Pega los participantes, uno por línea, elige cuántos ganadores y suplentes quieres y haz el sorteo. Los nombres se barajan con el generador criptográfico de tu navegador, así que cada persona tiene la misma probabilidad.",
+    "bloques": [
       {
-        "title": "¿Cómo garantiza el sorteo que sea justo?",
-        "body": "La herramienta baraja la lista completa de participantes con el algoritmo de Fisher-Yates, el método estándar para mezclar una lista de forma que todas las ordenaciones sean igual de probables, y toma los primeros de la lista como ganadores y los siguientes como suplentes. Los números aleatorios provienen de crypto.getRandomValues, el generador criptográficamente seguro del navegador, en lugar de Math.random, y se descartan los valores que introducirían sesgo. Así, cada participante tiene exactamente la misma probabilidad de ganar."
+        "tipo": "infografia",
+        "archivo": "como-funciona-sorteo-justo.webp",
+        "alt": "Cómo funciona un sorteo justo: lista de participantes barajada para elegir ganadores y suplentes",
+        "ancho": 800,
+        "alto": 743,
+        "titulo": "¿Cómo elige ganadores un sorteo justo?"
       },
       {
-        "title": "Cómo hacer un sorteo en Instagram o Facebook",
-        "body": "Define reglas claras antes de empezar: qué hay que hacer para participar (comentar, seguir la cuenta, etiquetar a amigos), la fecha de cierre y el número de ganadores. Al terminar, recopila los usuarios que cumplen los requisitos, pégalos aquí y realiza el sorteo. Para dar transparencia, graba la pantalla mientras sorteas o publica el resultado copiado, que incluye la fecha, la hora y el número de participantes. Si una persona comentó varias veces pero solo cuenta una participación, mantén activada la opción de quitar duplicados."
+        "tipo": "pasos",
+        "titulo": "¿Cómo hacer un sorteo de Instagram paso a paso?",
+        "pasos": [
+          {
+            "titulo": "Publica las bases",
+            "texto": "Requisitos, fecha de cierre, premio y cómo se anunciará el ganador."
+          },
+          {
+            "titulo": "Recoge los participantes",
+            "texto": "Copia los usuarios que cumplen los requisitos, uno por línea. Quita duplicados si cada persona solo participa una vez."
+          },
+          {
+            "titulo": "Sortea en directo o graba la pantalla",
+            "texto": "Pega la lista aquí, elige ganadores y suplentes y pulsa sortear."
+          },
+          {
+            "titulo": "Contacta al ganador",
+            "texto": "Dale un plazo para responder; si no lo hace, pasa al primer suplente."
+          }
+        ]
       },
       {
-        "title": "Ganadores y suplentes",
-        "body": "Es buena práctica sortear también suplentes. Si un ganador no responde en el plazo que indicaste en las bases, o no cumplía los requisitos, el premio pasa al primer suplente sin necesidad de repetir el sorteo, lo que evita sospechas de manipulación. Anuncia en las reglas cuánto tiempo tiene el ganador para reclamar su premio, por ejemplo 48 horas."
+        "tipo": "checklist",
+        "titulo": "¿Qué deben incluir las bases de un sorteo?",
+        "items": [
+          "Quién organiza el sorteo y cómo contactar con él.",
+          "Quién puede participar: edad mínima, país o requisitos.",
+          "Fechas de inicio y cierre y fecha del sorteo.",
+          "El premio exacto y si se puede cambiar por dinero.",
+          "Cómo se elige y se comunica el ganador, y qué pasa si no responde.",
+          "Que la red social no patrocina ni organiza el sorteo."
+        ]
       },
       {
-        "title": "Aspectos legales de los sorteos",
-        "body": "Los sorteos informales entre amigos, en clase o en el trabajo no suelen tener requisitos especiales. Sin embargo, cuando una empresa organiza un sorteo con premios como estrategia comercial, muchos países exigen autorización previa. En México, por ejemplo, los sorteos con fines promocionales pueden requerir un permiso de la Secretaría de Gobernación, a través de la Dirección General de Juegos y Sorteos. Además, las redes sociales tienen sus propias normas sobre promociones. Consulta la regulación de tu país antes de organizar un sorteo comercial."
+        "tipo": "texto",
+        "titulo": "¿Qué otras herramientas de azar puedo usar?",
+        "parrafos": [
+          "Para elegir entre pocas opciones de forma visual, la [ruleta aleatoria](/ruleta-aleatoria-online); para repartir a un grupo en equipos, el [generador de equipos](/generador-equipos); y para el intercambio de regalos, el [amigo invisible](/amigo-invisible)."
+        ]
       }
     ],
     "faqs": [
@@ -14379,36 +14880,61 @@
     "webApp": true,
     "appCategory": "GameApplication",
     "intro": "¿Necesitas un número al azar entre 1 y 100, una combinación para la lotería o lanzar unos dados sin tenerlos a mano? Este generador de números aleatorios crea uno o miles de números enteros entre el mínimo y el máximo que elijas, con la opción de que no se repitan y de ordenarlos. También incluye un lanzador de dados virtuales de 4, 6, 8, 10, 12, 20 y 100 caras, que suma el resultado automáticamente. Usa el generador criptográfico del navegador y un método sin sesgo, así que cada número tiene la misma probabilidad de salir.",
-    "howToUse": [
-      "Elige «Números aleatorios» o «Lanzar dados»",
-      "Para números, escribe el mínimo, el máximo y cuántos quieres; marca «Sin repetir» u «Ordenar» si lo necesitas",
-      "Para dados, elige cuántos dados lanzar y cuántas caras tiene cada uno",
-      "Pulsa «Generar» o «Lanzar» y copia el resultado"
-    ],
-    "benefits": [
-      "Números en cualquier rango, incluidos negativos",
-      "Opción sin repetir y opción ordenada",
-      "Hasta 10,000 números por generación",
-      "Dados de 4 a 100 caras con suma automática",
-      "Aleatoriedad criptográfica y sin sesgo de módulo",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Genera números al azar en el rango que quieras, con o sin repetir, o lanza hasta 20 dados de las caras que elijas. Usa el generador criptográfico del navegador, sin sesgos.",
+    "bloques": [
       {
-        "title": "¿Qué tan aleatorios son estos números?",
-        "body": "Los ordenadores no pueden generar azar puro, pero los generadores criptográficos se acercan tanto que se usan para crear claves de cifrado. Esta herramienta usa crypto.getRandomValues, el generador criptográfico de tu navegador, y aplica el método de rechazo para evitar el llamado sesgo de módulo: descarta los valores que harían que unos números salieran ligeramente más que otros. El resultado es que, en un rango de 1 a 6, cada número tiene exactamente una probabilidad de 1/6."
+        "tipo": "infografia",
+        "archivo": "probabilidad-dados-loteria.webp",
+        "alt": "Probabilidad de cada cara de un dado y número de combinaciones de una lotería de 6 números",
+        "ancho": 800,
+        "alto": 727,
+        "titulo": "¿Qué probabilidad tienen los dados y la lotería?"
       },
       {
-        "title": "Números sin repetir",
-        "body": "Con la opción «Sin repetir», ningún número aparece dos veces en el resultado, como al sacar bolas de una urna sin devolverlas. Es lo que necesitas para una rifa, para asignar números a participantes o para elegir preguntas de un examen. Obviamente, no puedes pedir más números únicos de los que existen en el rango: entre 1 y 10 solo hay 10 números distintos, y la herramienta te avisará si lo intentas."
+        "tipo": "escenarios",
+        "titulo": "¿Para qué sirve un generador de números aleatorios?",
+        "items": [
+          {
+            "titulo": "Juegos de rol",
+            "situacion": "Dados de 4, 6, 8, 10, 12 o 20 caras cuando no los tienes a mano.",
+            "resultado": "1d20"
+          },
+          {
+            "titulo": "Clase o rifa",
+            "situacion": "Un número entre 1 y el total de alumnos o de boletos vendidos.",
+            "resultado": "1–30"
+          },
+          {
+            "titulo": "Muestras y pruebas",
+            "situacion": "Elegir al azar qué registros revisar o datos de prueba sin repetir.",
+            "resultado": "Sin repetir"
+          }
+        ]
       },
       {
-        "title": "Dados virtuales para juegos de mesa y rol",
-        "body": "Los dados de 6 caras (d6) se usan en la mayoría de los juegos de mesa. Los juegos de rol como Dungeons & Dragons usan además dados de 4, 8, 10, 12 y 20 caras, y el d100 se usa para porcentajes. Con este lanzador puedes tirar hasta 20 dados a la vez y ver la suma. La probabilidad de cada suma no es uniforme: con dos dados de 6 caras, el 7 es el resultado más probable (1 de cada 6 tiradas), mientras que el 2 y el 12 solo salen 1 de cada 36."
+        "tipo": "glosario",
+        "titulo": "¿Qué diferencia hay entre números pseudoaleatorios y criptográficos?",
+        "items": [
+          [
+            "Pseudoaleatorio",
+            "Números que parecen al azar pero salen de una fórmula. Valen para juegos, no para seguridad."
+          ],
+          [
+            "Criptográfico",
+            "Generados con fuentes de azar del sistema operativo, imposibles de predecir. Los que usa esta herramienta."
+          ],
+          [
+            "Sin repetición",
+            "Cada número sale una sola vez, como al sacar bolas de una urna."
+          ]
+        ]
       },
       {
-        "title": "Usos habituales",
-        "body": "Además de juegos y rifas, los números aleatorios sirven para elegir una muestra aleatoria en una encuesta, asignar al azar grupos en un experimento, decidir el orden de turnos, practicar cálculo mental con números impredecibles o crear combinaciones para loterías. Ten en cuenta que ningún generador puede predecir ni mejorar las probabilidades de ganar un sorteo: todas las combinaciones de la lotería tienen la misma probabilidad."
+        "tipo": "texto",
+        "titulo": "¿Qué otras herramientas de azar hay?",
+        "parrafos": [
+          "Para decidir entre dos opciones, lanza una moneda con [cara o cruz](/cara-o-cruz); para sacar números uno a uno como en el bingo, la [tómbola online](/tombola-online); y para elegir ganadores de una lista de nombres, el [sorteo online](/sorteo-online)."
+        ]
       }
     ],
     "faqs": [
@@ -14462,36 +14988,55 @@
     "webApp": true,
     "appCategory": "GameApplication",
     "intro": "¿No te decides? Lanza una moneda. Esta moneda virtual te da un resultado al azar, 50% y 50%, con una animación en 3D y un historial de tus lanzamientos. Puedes elegir cómo se llama el juego en tu país: «cara o cruz» en España, «águila o sol» en México, «cara o sello» en Chile y Colombia, o «cara o ceca» en Argentina. Es perfecta para decidir quién saca en un partido, quién paga el café o qué película ver, y a diferencia de una moneda real, no se cae debajo del sofá.",
-    "howToUse": [
-      "Elige cómo se llaman las caras de la moneda en tu país",
-      "Pulsa la moneda o el botón «Lanzar moneda»",
-      "Espera a que termine la animación para ver el resultado",
-      "Revisa el historial y las estadísticas si lanzas varias veces"
-    ],
-    "benefits": [
-      "Resultado 50/50 con aleatoriedad criptográfica",
-      "Nombres para España, México, Chile, Colombia y Argentina",
-      "Animación de moneda en 3D",
-      "Historial y porcentaje de cada cara",
-      "Funciona en el móvil, sin instalar nada",
-      "Gratis y sin anuncios intrusivos"
-    ],
-    "contentSections": [
+    "resumen": "Lanza una moneda virtual con un resultado 50 % y 50 % y un historial de tus tiradas. En México, águila o sol; en Argentina, cara o ceca; en Chile, Colombia y Perú, cara o sello.",
+    "bloques": [
       {
-        "title": "Cómo se dice en cada país",
-        "body": "El juego de lanzar una moneda al aire tiene nombres distintos en cada país hispanohablante, según el diseño de sus monedas. En España se dice «cara o cruz», porque las antiguas monedas mostraban una cruz en el reverso. En México se dice «águila o sol», por el escudo nacional con el águila y el antiguo diseño con un sol. En Chile y Colombia se dice «cara o sello», y en Argentina y Uruguay, «cara o ceca», palabra que designaba el lugar donde se acuñaba la moneda."
+        "tipo": "infografia",
+        "archivo": "cara-o-cruz-probabilidades.webp",
+        "alt": "Probabilidades de cara o cruz, rachas seguidas y nombres del juego en cada país",
+        "ancho": 800,
+        "alto": 839,
+        "titulo": "¿Qué probabilidad hay de que salga lo mismo varias veces seguidas?"
       },
       {
-        "title": "¿Es realmente 50/50?",
-        "body": "En esta moneda virtual, sí: cada lanzamiento usa el generador criptográfico del navegador y ambas caras tienen exactamente un 50% de probabilidad. Curiosamente, las monedas reales no son perfectas: un estudio publicado en 2023 que analizó más de 350,000 lanzamientos encontró una ligera tendencia, de alrededor del 50.8%, a que la moneda caiga del mismo lado con el que empezó. La moneda virtual elimina ese pequeño sesgo."
+        "tipo": "mitos",
+        "titulo": "¿Qué es cierto sobre lanzar una moneda?",
+        "items": [
+          {
+            "mito": "Si salieron cinco caras, ahora toca cruz.",
+            "realidad": "Cada lanzamiento es independiente: sigue siendo 50 % y 50 %. Es la falacia del jugador."
+          },
+          {
+            "mito": "Una moneda real es siempre 50/50.",
+            "realidad": "Los estudios encuentran una ligera tendencia a caer del lado con el que empezó. La moneda virtual no tiene ese sesgo."
+          },
+          {
+            "mito": "Con 10 lanzamientos saldrán 5 y 5.",
+            "realidad": "Lo más probable, pero solo ocurre en torno al 25 % de las veces. El equilibrio aparece con muchos lanzamientos."
+          }
+        ]
       },
       {
-        "title": "La falacia del jugador",
-        "body": "Si han salido cinco caras seguidas, ¿es más probable que salga cruz? No. Cada lanzamiento es independiente y la moneda no tiene memoria: la probabilidad sigue siendo del 50%. Creer lo contrario se conoce como la falacia del jugador. Lo que sí ocurre es que, con muchos lanzamientos, el porcentaje de cada cara se acerca al 50%, como puedes comprobar en el historial: es la ley de los grandes números."
-      },
-      {
-        "title": "Usos de lanzar una moneda",
-        "body": "Además de resolver empates y pequeñas decisiones cotidianas, el volado se usa en el deporte: en el fútbol, el árbitro lanza una moneda para decidir qué equipo elige campo o saca, y en el críquet decide quién batea primero. Hay quien usa la moneda como truco para decidir: si al ver el resultado te sientes decepcionado, eso te revela lo que realmente querías elegir."
+        "tipo": "consejos",
+        "titulo": "¿En qué situaciones conviene lanzar una moneda?",
+        "items": [
+          {
+            "titulo": "Quién empieza",
+            "texto": "En deportes, juegos de mesa o turnos de una discusión."
+          },
+          {
+            "titulo": "Desempatar",
+            "texto": "Cuando dos opciones están igualadas y hay que decidir ya."
+          },
+          {
+            "titulo": "Conocer tu preferencia",
+            "texto": "Si al ver el resultado sientes decepción, ya sabes qué querías."
+          },
+          {
+            "titulo": "Más de dos opciones",
+            "texto": "Usa la [ruleta aleatoria](/ruleta-aleatoria-online) o los [números aleatorios](/generador-numeros-aleatorios)."
+          }
+        ]
       }
     ],
     "faqs": [
@@ -14545,36 +15090,67 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Este temporizador online te avisa con una alarma cuando termina el tiempo que elijas, sin instalar ninguna aplicación. Configura horas, minutos y segundos o usa los atajos de 1, 5, 10, 25 o 60 minutos, pausa y reanuda cuando quieras, y sigue el tiempo restante en el título de la pestaña aunque estés en otra ventana. Además incluye una cuenta regresiva a cualquier fecha y hora, para saber cuántos días, horas, minutos y segundos faltan para un cumpleaños, un viaje, un examen o el fin de año.",
-    "howToUse": [
-      "Escribe las horas, minutos y segundos, o elige un atajo como 5, 25 o 60 minutos",
-      "Pulsa «Iniciar»; puedes pausar, reanudar o reiniciar en cualquier momento",
-      "Cuando termine, sonará una alarma y la pantalla lo indicará",
-      "Para una cuenta regresiva, cambia a la pestaña «Cuenta regresiva a una fecha» y elige la fecha y hora"
-    ],
-    "benefits": [
-      "Alarma sonora al terminar",
-      "Tiempo restante visible en la pestaña del navegador",
-      "Sigue contando con precisión aunque cambies de pestaña",
-      "Atajos de tiempo para Pomodoro, cocina y ejercicio",
-      "Cuenta regresiva en días, horas, minutos y segundos",
-      "Gratis, sin instalar nada"
-    ],
-    "contentSections": [
+    "resumen": "Pon un temporizador con alarma en horas, minutos y segundos o con un tiempo predefinido de 1 a 60 minutos. Sigue contando bien aunque cambies de pestaña. Ideal para la técnica Pomodoro, la cocina o los exámenes.",
+    "bloques": [
       {
-        "title": "Un temporizador preciso aunque cambies de pestaña",
-        "body": "Muchos temporizadores web se retrasan cuando la pestaña no está visible, porque los navegadores ralentizan los procesos en segundo plano para ahorrar batería. Este temporizador no cuenta segundos uno a uno: guarda la hora exacta en la que debe terminar y calcula el tiempo restante a partir del reloj del sistema, así que se mantiene preciso aunque cambies de pestaña o minimices la ventana. Para oír la alarma, deja la pestaña abierta y el volumen activado."
+        "tipo": "infografia",
+        "archivo": "tecnica-pomodoro-temporizador.webp",
+        "alt": "Ciclo de la técnica Pomodoro con bloques de 25 minutos y pausas",
+        "ancho": 800,
+        "alto": 703,
+        "titulo": "¿Cómo funciona la técnica Pomodoro con un temporizador?"
       },
       {
-        "title": "La técnica Pomodoro",
-        "body": "La técnica Pomodoro, creada por Francesco Cirillo a finales de los años ochenta, consiste en trabajar concentrado durante 25 minutos, descansar 5 minutos y, tras cuatro bloques, tomar un descanso más largo de 15 a 30 minutos. Ayuda a combatir la procrastinación y a medir cuánto tiempo te llevan las tareas. Con el atajo de 25 minutos puedes empezar un pomodoro con un solo clic."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto tiempo poner para cada actividad?",
+        "cabeceras": [
+          "Actividad",
+          "Tiempo"
+        ],
+        "filas": [
+          [
+            "Huevo pasado por agua",
+            "3 minutos"
+          ],
+          [
+            "Huevo duro",
+            "10 a 12 minutos"
+          ],
+          [
+            "Pasta",
+            "8 a 12 minutos (mira el paquete)"
+          ],
+          [
+            "Bloque de estudio Pomodoro",
+            "25 minutos"
+          ],
+          [
+            "Plancha o descanso activo",
+            "5 minutos"
+          ],
+          [
+            "Siesta corta",
+            "20 minutos"
+          ]
+        ]
       },
       {
-        "title": "Otros usos del temporizador",
-        "body": "En la cocina, para controlar tiempos de cocción, como un huevo tibio de unos 6 minutos o una pasta de 8 a 12 minutos. En el ejercicio, para series, planchas o descansos entre repeticiones. En clase, para limitar el tiempo de una actividad o un examen. En reuniones y presentaciones, para respetar el tiempo de cada participante. Y con niños, para marcar el tiempo de pantalla o de juego de forma clara."
+        "tipo": "checklist",
+        "titulo": "¿Cómo usar el temporizador para estudiar sin distracciones?",
+        "items": [
+          "Antes de empezar, escribe en un papel la única tarea de ese bloque.",
+          "Pon el móvil boca abajo y en silencio, lejos de la mesa.",
+          "Usa bloques de 25 minutos al principio y alárgalos a 45 cuando te resulte fácil concentrarte.",
+          "En las pausas, levántate y aléjate de la pantalla.",
+          "Al final del día, cuenta cuántos bloques completaste: es una medida más honesta que las horas."
+        ]
       },
       {
-        "title": "Cuenta regresiva a una fecha",
-        "body": "La pestaña de cuenta regresiva calcula cuánto falta para una fecha y hora concretas, actualizándose cada segundo. Usa la zona horaria de tu dispositivo, así que si la fecha es un evento en otro país, conviértela antes a tu hora local con nuestro conversor de zona horaria. Cuando la fecha llega, la cuenta regresiva te lo indica."
+        "tipo": "texto",
+        "titulo": "¿Qué otras herramientas de tiempo hay?",
+        "parrafos": [
+          "Para medir cuánto tardas en algo, el [cronómetro online](/cronometro-online) con vueltas; para una cuenta atrás a una fecha, [días para Navidad](/dias-para-navidad) o la [calculadora de días](/calculadora-dias); y para organizar la semana, el [calculador de horarios](/calculador-de-horarios)."
+        ]
       }
     ],
     "faqs": [
@@ -14626,36 +15202,79 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "¿Cuántos pesos vale un bitcoin hoy? Este conversor de criptomonedas te da la respuesta con precios en tiempo real de CoinGecko, uno de los agregadores de precios de criptomonedas más usados. Convierte las diez criptomonedas más populares, como Bitcoin, Ethereum, Tether, BNB, Solana o XRP, a pesos mexicanos, dólares, euros, pesos argentinos, pesos chilenos o reales brasileños, y también al revés, para saber cuánta cripto compras con una cantidad de dinero. Además, te muestra la variación del precio en las últimas 24 horas.",
-    "howToUse": [
-      "Elige la criptomoneda y la moneda a la que quieres convertir",
-      "Escribe la cantidad; puedes usar decimales, como 0.005 BTC",
-      "Pulsa «Invertir» para convertir de dinero a criptomoneda",
-      "Pulsa «Actualizar» para obtener el precio más reciente"
-    ],
-    "benefits": [
-      "Precios en tiempo real con la hora de actualización",
-      "Diez criptomonedas principales y seis monedas",
-      "Conversión en ambos sentidos",
-      "Variación del precio en 24 horas",
-      "Admite fracciones de criptomoneda",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Convierte bitcoin, ethereum, USDT, solana y otras criptomonedas a pesos mexicanos, dólares, euros, pesos argentinos y más, con precios de CoinGecko. También puedes convertir en sentido contrario.",
+    "bloques": [
       {
-        "title": "¿De dónde salen los precios?",
-        "body": "Los precios provienen de la API pública de CoinGecko, que calcula un precio de referencia combinando las cotizaciones de cientos de casas de cambio de criptomonedas. Por eso el precio puede diferir ligeramente del que ves en tu exchange: cada plataforma tiene su propio precio de compra y de venta, y la diferencia entre ambos, llamada spread, más las comisiones, determinan lo que realmente pagas o recibes."
+        "tipo": "infografia",
+        "archivo": "bitcoin-satoshis-stablecoins.webp",
+        "alt": "Equivalencia entre bitcoin y satoshis y valor de las stablecoins USDT y USDC",
+        "ancho": 800,
+        "alto": 813,
+        "titulo": "¿Cuántos satoshis tiene un bitcoin?"
       },
       {
-        "title": "Satoshis y fracciones de bitcoin",
-        "body": "No hace falta comprar un bitcoin completo. Cada bitcoin se divide en 100 millones de unidades llamadas satoshis, por lo que puedes comprar, por ejemplo, 0.001 BTC. Lo mismo ocurre con Ethereum, cuya unidad mínima, el wei, es una trillonésima de ether. Este conversor admite cantidades con decimales y muestra hasta ocho decimales para las cantidades pequeñas."
+        "tipo": "tabla",
+        "titulo": "¿Qué criptomonedas incluye el conversor?",
+        "cabeceras": [
+          "Símbolo",
+          "Nombre",
+          "Qué es"
+        ],
+        "filas": [
+          [
+            "BTC",
+            "Bitcoin",
+            "La primera criptomoneda, con un máximo de 21 millones"
+          ],
+          [
+            "ETH",
+            "Ethereum",
+            "La red de contratos inteligentes más usada"
+          ],
+          [
+            "USDT y USDC",
+            "Tether y USD Coin",
+            "Stablecoins ligadas al dólar"
+          ],
+          [
+            "BNB",
+            "BNB",
+            "La moneda del ecosistema Binance"
+          ],
+          [
+            "SOL, XRP, ADA, TRX",
+            "Solana, XRP, Cardano, TRON",
+            "Otras redes populares"
+          ],
+          [
+            "DOGE",
+            "Dogecoin",
+            "Nacida como broma, muy volátil"
+          ]
+        ]
       },
       {
-        "title": "Stablecoins: USDT y USDC",
-        "body": "Tether (USDT) y USD Coin (USDC) son stablecoins, criptomonedas diseñadas para mantener un valor de aproximadamente un dólar estadounidense, respaldadas por reservas de sus emisores. Se usan mucho en Latinoamérica para protegerse de la inflación, enviar remesas o mover dinero entre exchanges. Aun así, su precio puede separarse ligeramente del dólar en momentos de tensión del mercado, y su respaldo depende de la empresa emisora."
+        "tipo": "checklist",
+        "titulo": "¿Qué tener en cuenta antes de comprar criptomonedas?",
+        "items": [
+          "Invierte solo lo que puedas perder: los precios pueden caer más de un 50 % en meses.",
+          "Usa exchanges regulados en tu país y activa la verificación en dos pasos.",
+          "Desconfía de quien promete rendimientos fijos o «garantizados».",
+          "Infórmate de cómo tributan las ganancias en tu país.",
+          "Nunca compartas tu frase de recuperación (semilla) con nadie."
+        ]
       },
       {
-        "title": "Riesgos de las criptomonedas",
-        "body": "Las criptomonedas son activos muy volátiles: su precio puede subir o bajar más de un 10% en un solo día. No están respaldadas por un banco central y, en muchos países, no cuentan con la protección de los depósitos bancarios. Antes de invertir, infórmate bien, invierte solo lo que estés dispuesto a perder, usa plataformas reguladas y reconocidas, y recuerda que las ganancias pueden estar sujetas a impuestos en tu país. Esta herramienta es informativa y no constituye una recomendación de inversión."
+        "tipo": "aviso",
+        "tono": "ambar",
+        "texto": "Esta herramienta solo convierte precios de referencia. No es asesoría financiera ni recomienda comprar ni vender ningún activo."
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo convertir monedas tradicionales?",
+        "parrafos": [
+          "Para dólares, euros y otras divisas usa el [convertidor de moneda](/convertidor-moneda); en Argentina, el [dólar blue](/dolar-blue); y para el peso mexicano frente al dólar con su evolución, [dólar a peso mexicano](/dolar-a-peso-mexicano)."
+        ]
       }
     ],
     "faqs": [
@@ -14709,36 +15328,85 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Organizar una reunión con alguien en otro país empieza por saber qué hora es allí. Este conversor de zona horaria traduce una fecha y hora de cualquier ciudad a la hora local de las ciudades que elijas, al mismo tiempo, teniendo en cuenta el horario de verano de cada país. Viene con las principales ciudades de habla hispana, como Ciudad de México, Madrid, Bogotá, Lima, Buenos Aires o Santiago, pero puedes añadir cualquiera de las más de 400 zonas horarias del mundo. Ideal para trabajo remoto, clases en línea, partidos y lanzamientos.",
-    "howToUse": [
-      "Elige la zona horaria de origen; por defecto se detecta la de tu dispositivo",
-      "Escribe la fecha y la hora que quieres convertir, o pulsa «Usar la hora actual»",
-      "Revisa la hora equivalente en cada ciudad de la lista, con su desfase respecto a UTC",
-      "Añade o quita ciudades según las personas con las que te coordinas"
-    ],
-    "benefits": [
-      "Convierte a varias ciudades a la vez",
-      "Tiene en cuenta el horario de verano de cada país",
-      "Detecta automáticamente tu zona horaria",
-      "Incluye todas las zonas horarias del mundo",
-      "Avisa de las horas que no existen por el cambio de horario",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Convierte una fecha y hora de una ciudad a la hora de otras al mismo tiempo, con el horario de verano de cada país ya tenido en cuenta. Ideal para reuniones entre México, Latinoamérica, España y Estados Unidos.",
+    "bloques": [
       {
-        "title": "Zonas horarias de México y Latinoamérica",
-        "body": "México eliminó el horario de verano en octubre de 2022 con la Ley de los Husos Horarios, por lo que la mayor parte del país, incluida la Ciudad de México, permanece todo el año en UTC−6. Quintana Roo, con Cancún, usa UTC−5. Los municipios de la frontera norte sí mantienen el horario de verano para coincidir con Estados Unidos. Colombia, Perú y Ecuador están en UTC−5 todo el año; Venezuela en UTC−4; Argentina en UTC−3. Chile continental sí cambia de horario: UTC−3 en verano y UTC−4 en invierno."
+        "tipo": "infografia",
+        "archivo": "diferencia-horaria-mexico-latam-espana.webp",
+        "alt": "Hora en Bogotá, Lima, Santiago, Buenos Aires y Madrid cuando son las 12 en Ciudad de México",
+        "ancho": 800,
+        "alto": 727,
+        "titulo": "¿Qué hora es en cada país cuando son las 12 en México?"
       },
       {
-        "title": "España y el horario de verano europeo",
-        "body": "La España peninsular y Baleares usan la hora central europea: UTC+1 en invierno y UTC+2 en verano, desde el último domingo de marzo hasta el último domingo de octubre. Las Islas Canarias van una hora menos: UTC+0 en invierno y UTC+1 en verano. Por eso, desde que México dejó de cambiar la hora, la diferencia entre la Ciudad de México y Madrid no es fija: es de 8 horas mientras España está en horario de verano y de 7 horas el resto del año."
+        "tipo": "tabla",
+        "titulo": "¿Qué zona horaria tiene cada país de habla hispana?",
+        "cabeceras": [
+          "País",
+          "Zona horaria",
+          "Horario de verano"
+        ],
+        "filas": [
+          [
+            "México (centro)",
+            "UTC−6",
+            "No, desde 2022"
+          ],
+          [
+            "Colombia, Perú, Ecuador",
+            "UTC−5",
+            "No"
+          ],
+          [
+            "Venezuela, Bolivia",
+            "UTC−4",
+            "No"
+          ],
+          [
+            "Chile (continental)",
+            "UTC−4",
+            "Sí: UTC−3 en verano austral"
+          ],
+          [
+            "Argentina, Uruguay",
+            "UTC−3",
+            "No"
+          ],
+          [
+            "España (península)",
+            "UTC+1",
+            "Sí: UTC+2 de marzo a octubre"
+          ]
+        ]
       },
       {
-        "title": "¿Qué es UTC?",
-        "body": "UTC, el Tiempo Universal Coordinado, es la referencia horaria mundial a partir de la cual se expresan todas las zonas horarias: UTC−6 significa seis horas menos que UTC. A diferencia de la hora local, UTC no cambia con el horario de verano, por eso se usa en aviación, informática y comunicaciones internacionales. Algunas zonas tienen desfases de media hora o de 45 minutos, como la India (UTC+5:30) o Nepal (UTC+5:45)."
+        "tipo": "consejos",
+        "titulo": "¿Cómo organizar una reunión entre varios países?",
+        "items": [
+          {
+            "titulo": "Busca la franja común",
+            "texto": "Entre México y España funcionan bien las 9:00–11:00 de México (16:00–19:00 en Madrid según la época)."
+          },
+          {
+            "titulo": "Escribe la zona horaria",
+            "texto": "«10:00 CDMX / 17:00 Madrid» evita confusiones en la invitación."
+          },
+          {
+            "titulo": "Cuidado con los cambios de hora",
+            "texto": "Durante unas semanas al año, la diferencia con España o Chile cambia una hora."
+          },
+          {
+            "titulo": "Usa UTC para lo técnico",
+            "texto": "Servidores y registros de sistemas trabajan en UTC: conviértelo antes de compartir."
+          }
+        ]
       },
       {
-        "title": "Consejos para reuniones internacionales",
-        "body": "Al proponer una reunión, indica siempre la hora con su zona o su desfase UTC, por ejemplo «10:00 hora de Ciudad de México (UTC−6)». Ten cuidado con las semanas del cambio de horario, porque Estados Unidos, Europa y Chile cambian en fechas distintas y la diferencia entre países puede variar durante unos días. Busca una franja que caiga dentro del horario laboral de todos y, si el equipo está muy repartido, rota los horarios incómodos."
+        "tipo": "texto",
+        "titulo": "¿Cómo calcular horas trabajadas en turnos de distintas zonas?",
+        "parrafos": [
+          "Pasa todas las horas a una misma zona y usa la [calculadora de horas](/calculadora-horas). Para formatos de 24 horas, la [hora militar](/hora-militar) explica la equivalencia con el formato a. m. / p. m."
+        ]
       }
     ],
     "faqs": [
@@ -14792,36 +15460,65 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte kilogramos a libras y libras a kilogramos en un instante. Escribe el peso y obtendrás el resultado exacto, además del desglose en libras y onzas, que es como se expresan muchos pesos en Estados Unidos, por ejemplo el de los bebés. Incluye una tabla con las equivalencias más buscadas, del 1 al 100. Es útil para seguir recetas o programas de ejercicio estadounidenses, revisar el peso de tu equipaje en una aerolínea, comprar en tiendas en línea extranjeras o entender el peso de un producto importado.",
-    "howToUse": [
-      "Escribe el peso en kilogramos",
-      "El resultado en libras aparece al instante, con su desglose en libras y onzas",
-      "Pulsa el botón ⇄ para convertir en sentido contrario, de libras a kilos",
-      "Consulta la tabla para ver las equivalencias más comunes"
-    ],
-    "benefits": [
-      "Conversión instantánea en ambos sentidos",
-      "Desglose en libras y onzas",
-      "Factor exacto de la definición internacional",
-      "Tabla de equivalencias de 1 a 100",
-      "Funciona con decimales",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Convierte kilos a libras (1 kg = 2,2046 lb) y libras a kilos (1 lb = 0,4536 kg), con el desglose en libras y onzas que usan las básculas de Estados Unidos.",
+    "bloques": [
       {
-        "title": "Fórmula para convertir kilos a libras",
-        "body": "Una libra equivale exactamente a 0.45359237 kilogramos, valor fijado por el acuerdo internacional de la yarda y la libra de 1959. Por tanto, un kilogramo son aproximadamente 2.20462 libras. Para convertir kilos a libras, multiplica por 2.20462: 70 kg son 154.32 lb. Para convertir libras a kilos, multiplica por 0.45359: 150 lb son 68.04 kg. Un cálculo mental aproximado: multiplica los kilos por 2 y súmale un 10%."
+        "tipo": "infografia",
+        "archivo": "tabla-kilos-a-libras.webp",
+        "alt": "Tabla de conversión de kilos a libras y límites de equipaje de 23 y 32 kg en libras",
+        "ancho": 800,
+        "alto": 771,
+        "titulo": "¿Qué equivalencia en libras tienen los pesos más comunes?"
       },
       {
-        "title": "Libras y onzas",
-        "body": "En el sistema imperial, una libra se divide en 16 onzas, y cada onza equivale a unos 28.35 gramos. Por eso un peso de 7.5 libras se expresa a menudo como 7 libras y 8 onzas. Es muy común en el peso de los recién nacidos en Estados Unidos y en las recetas de cocina. Esta calculadora te da el desglose automáticamente. Ojo: la onza de peso no es lo mismo que la onza líquida, que mide volumen."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo pasar 72,5 kg a libras y onzas?",
+        "pasos": [
+          {
+            "texto": "Multiplica los kilos por 2,2046.",
+            "operacion": "72,5 × 2,2046 = 159,83 lb"
+          },
+          {
+            "texto": "Separa la parte entera: son 159 libras.",
+            "operacion": "159 lb"
+          },
+          {
+            "texto": "Multiplica la parte decimal por 16 para obtener las onzas.",
+            "operacion": "0,83 × 16 = 13,3 oz"
+          }
+        ],
+        "resultado": [
+          "72,5 kg",
+          "159 lb 13 oz"
+        ]
       },
       {
-        "title": "¿Dónde se usan las libras?",
-        "body": "Estados Unidos usa la libra como unidad principal de peso en la vida cotidiana, y el Reino Unido la mantiene de forma informal para el peso corporal, junto con la stone, que equivale a 14 libras. En países hispanohablantes como México, se usa el kilogramo, pero la libra aparece en productos importados, en el boxeo, en algunos gimnasios y en la venta de ciertos alimentos en zonas cercanas a la frontera."
+        "tipo": "escenarios",
+        "titulo": "¿Dónde te vas a encontrar libras?",
+        "items": [
+          {
+            "titulo": "Gimnasio",
+            "situacion": "Muchas mancuernas y discos están en libras: un disco de 45 lb pesa 20,4 kg.",
+            "resultado": "45 lb"
+          },
+          {
+            "titulo": "Recetas y supermercado de EE. UU.",
+            "situacion": "La carne se vende por libra: 1 lb son 454 g.",
+            "resultado": "1 lb"
+          },
+          {
+            "titulo": "Bebés",
+            "situacion": "Un recién nacido de 7 lb 8 oz pesa unos 3,4 kg.",
+            "resultado": "7 lb 8 oz"
+          }
+        ]
       },
       {
-        "title": "Equipaje: kilos y libras en las aerolíneas",
-        "body": "Las aerolíneas de Estados Unidos suelen expresar el límite de equipaje facturado en libras: 50 lb equivalen a 22.68 kg y 70 lb a 31.75 kg. Las aerolíneas de Latinoamérica y Europa suelen usar 23 kg, que son 50.7 lb. Si tu vuelo combina aerolíneas, conviene revisar el límite en ambas unidades para no pagar exceso de equipaje."
+        "tipo": "texto",
+        "titulo": "¿Qué otros conversores de peso y medida hay?",
+        "parrafos": [
+          "Para pasar libras a kilos usa [libras a kilos](/libras-a-kilos); para onzas, [onzas a gramos](/onzas-a-gramos); y para unidades tradicionales, [arroba a kilos](/arroba-a-kilos). Si viajas a Estados Unidos, también te servirán los conversores de [tallas](/convertidor-tallas) y de [Celsius a Fahrenheit](/celsius-a-fahrenheit)."
+        ]
       }
     ],
     "faqs": [
@@ -14875,36 +15572,62 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "¿Tu talla 26 mexicana cuál es en Estados Unidos o en Europa? Este convertidor de tallas te da la equivalencia de zapatos entre México, Estados Unidos, Reino Unido y Europa, para hombre y mujer, y te permite encontrar tu talla a partir de la medida de tu pie en centímetros, el método más fiable. También incluye una tabla de equivalencias de tallas de ropa por letra, numeración europea y estadounidense, con el contorno de pecho aproximado. Es ideal para comprar en tiendas en línea de otros países sin equivocarte de talla.",
-    "howToUse": [
-      "Elige si buscas talla de zapatos o de ropa, y si es de hombre o de mujer",
-      "Para zapatos, elige el sistema de la talla que conoces y escribe tu talla",
-      "O mejor aún, mide tu pie en centímetros y escribe la medida para obtener tu talla en todos los sistemas",
-      "Revisa la tabla completa con tu talla resaltada"
-    ],
-    "benefits": [
-      "Tallas de zapatos de México, Estados Unidos, Reino Unido y Europa",
-      "Tablas separadas para hombre y mujer",
-      "Encuentra tu talla midiendo tu pie en centímetros",
-      "Equivalencias de tallas de ropa por letra",
-      "Útil para compras en línea internacionales",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Convierte tallas de zapato de hombre y mujer entre México, Estados Unidos, Reino Unido y Europa, y tallas de ropa entre países. La talla mexicana de zapato es la longitud del pie en centímetros.",
+    "bloques": [
       {
-        "title": "Cómo funciona la talla mexicana de zapatos",
-        "body": "La talla de calzado en México se basa en centímetros: corresponde aproximadamente a la longitud del pie, por lo que una talla 26 es para un pie de unos 26 cm. Por eso es la forma más sencilla de encontrar tu talla. La talla de Estados Unidos, en cambio, usa una escala propia que es distinta para hombre y para mujer, y la europea se basa en el «punto de París», que equivale a dos tercios de centímetro."
+        "tipo": "infografia",
+        "archivo": "equivalencias-tallas-zapato.webp",
+        "alt": "Tabla de equivalencias de tallas de zapato de hombre entre México, Estados Unidos, Reino Unido y Europa",
+        "ancho": 800,
+        "alto": 927,
+        "titulo": "¿Qué talla de zapato es la mía en Estados Unidos y en Europa?"
       },
       {
-        "title": "Cómo medir tu pie correctamente",
-        "body": "Mide tus pies por la tarde, cuando están un poco más hinchados, y con los calcetines que usarás. Coloca una hoja de papel en el suelo contra la pared, apoya el talón en la pared y marca en el papel la punta del dedo más largo. Mide la distancia en centímetros y repite con el otro pie: usa la medida del pie más grande. Escribe esa medida en el convertidor para obtener tu talla en todos los sistemas."
+        "tipo": "pasos",
+        "titulo": "¿Cómo medir el pie para saber tu talla?",
+        "pasos": [
+          {
+            "titulo": "Mide por la tarde",
+            "texto": "El pie se hincha a lo largo del día; por la tarde tiene su tamaño máximo."
+          },
+          {
+            "titulo": "Pisa una hoja de papel",
+            "texto": "Con el calcetín que usarás, apoya el talón contra la pared y marca el dedo más largo."
+          },
+          {
+            "titulo": "Mide en centímetros",
+            "texto": "Esa medida es tu talla mexicana. Mide los dos pies y usa el mayor."
+          },
+          {
+            "titulo": "Consulta la tabla",
+            "texto": "Escribe la medida en el convertidor para ver la talla de EE. UU., Reino Unido y Europa."
+          }
+        ]
       },
       {
-        "title": "Por qué las tallas cambian entre marcas",
-        "body": "No existe un estándar único de conversión: cada marca usa sus propias hormas y sus propias tablas, y una misma talla puede quedar diferente en una zapatilla deportiva y en un zapato de vestir. Las tablas de este convertidor siguen las equivalencias habituales de las principales marcas deportivas y sirven como referencia. Antes de comprar, revisa la guía de tallas de la marca concreta y, si estás entre dos tallas, elige la mayor, especialmente en calzado deportivo."
+        "tipo": "mitos",
+        "titulo": "¿Qué es cierto sobre las tallas de zapato?",
+        "items": [
+          {
+            "mito": "Una talla 7 es igual para hombre y mujer.",
+            "realidad": "En Estados Unidos, la talla de mujer es entre 1 y 1,5 números mayor que la de hombre para el mismo pie."
+          },
+          {
+            "mito": "Si es mi talla, me quedará bien en cualquier marca.",
+            "realidad": "Cada marca usa su propia horma: revisa su guía y las opiniones de otros compradores."
+          },
+          {
+            "mito": "Los zapatos ceden con el uso.",
+            "realidad": "Ceden a lo ancho en piel, pero casi nunca a lo largo. Si aprieta al dedo, elige media talla más."
+          }
+        ]
       },
       {
-        "title": "Tallas de ropa entre países",
-        "body": "Las tallas de ropa por letra (XS, S, M, L, XL) son las más usadas en México y Latinoamérica, pero su medida real varía mucho entre marcas y países. En Europa, la ropa de mujer suele numerarse del 34 al 44 y la de hombre del 44 al 54, mientras que Estados Unidos usa números pares para mujer y la medida de pecho en pulgadas para hombre. La referencia más fiable es el contorno de pecho, cintura o cadera en centímetros de la guía de cada tienda."
+        "tipo": "texto",
+        "titulo": "¿Qué otras conversiones sirven para comprar en el extranjero?",
+        "parrafos": [
+          "Para medidas en pulgadas, usa [centímetros a pulgadas](/cm-a-pulgadas); para tu peso en libras, [kilos a libras](/kilos-a-libras); y para el precio en tu moneda, el [convertidor de moneda](/convertidor-moneda)."
+        ]
       }
     ],
     "faqs": [
@@ -14958,36 +15681,88 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El subsidio para el empleo es un apoyo fiscal que reduce el ISR que te retienen si ganas poco. Desde mayo de 2024 ya no se calcula con una tabla por tramos: ahora es un monto fijo ligado a la UMA, y solo lo reciben los trabajadores cuyo ingreso mensual no supera un límite. Esta calculadora aplica las reglas vigentes en 2026. Te dice si tienes derecho, cuánto subsidio te corresponde en tu periodo de pago y cuánto ISR te retienen después de aplicarlo.",
-    "howToUse": [
-      "Escribe tu ingreso gravable del periodo: sueldo y percepciones que pagan ISR, sin la parte exenta de prestaciones como el aguinaldo o la prima vacacional",
-      "Elige tu periodo de pago: semanal, quincenal o mensual",
-      "Selecciona si el cálculo es para enero o para febrero a diciembre de 2026, porque el monto cambia en febrero",
-      "Pulsa «Calcular subsidio al empleo» y revisa el ISR antes y después del subsidio"
-    ],
-    "benefits": [
-      "Aplica el esquema de subsidio vigente en 2026, basado en un porcentaje de la UMA",
-      "Detecta automáticamente si superas el límite de $11,492.66 mensuales",
-      "Convierte el cálculo a pagos semanales y quincenales con la proporción de días",
-      "Muestra el ISR de la tarifa del artículo 96 antes y después del subsidio",
-      "Te avisa si ganas el salario mínimo, caso en el que no se retiene ISR",
-      "Gratis, sin registro y calculado en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula cuánto reduce el subsidio para el empleo tu ISR en 2026: $535.65 al mes de febrero a diciembre si tu ingreso mensual no pasa de $11,492.66. Ya no se paga en efectivo; solo baja tu retención.",
+    "bloques": [
       {
-        "title": "Cómo funciona el subsidio para el empleo en 2026",
-        "body": "Hasta abril de 2024, el subsidio se calculaba con una tabla de tramos: mientras más ganabas, menos subsidio recibías. El decreto publicado en el Diario Oficial de la Federación el 1 de mayo de 2024 cambió el sistema por un monto fijo equivalente a un porcentaje del valor mensual de la UMA. El porcentaje y el límite se actualizan cada año. Para 2026 el subsidio mensual es de $536.21 en enero (15.59% de la UMA mensual de 2025) y de $535.65 de febrero a diciembre (15.02% de la UMA mensual de 2026). Solo tienen derecho quienes perciben un ingreso mensual por salarios de hasta $11,492.66. Si ganas un peso más, pierdes el subsidio completo."
+        "tipo": "infografia",
+        "archivo": "subsidio-empleo-isr-2026.webp",
+        "alt": "Cómo reduce el subsidio al empleo el ISR de un sueldo de 10 mil pesos en 2026",
+        "ancho": 800,
+        "alto": 689,
+        "titulo": "¿Cómo reduce el subsidio al empleo el ISR de mi sueldo?"
       },
       {
-        "title": "El subsidio ya no se paga en efectivo",
-        "body": "Antes de la reforma, si el subsidio era mayor que tu ISR, la diferencia se te entregaba en efectivo en la nómina. Con el esquema actual eso ya no ocurre: el subsidio solo reduce el impuesto hasta dejarlo en cero. Por ejemplo, si tu ISR del mes es de $400 y el subsidio de $535.65, tu retención queda en $0 y los $135.65 restantes simplemente no se aplican. El patrón recupera el subsidio que te otorga acreditándolo contra el ISR que retiene al resto de sus trabajadores."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto ISR pago con subsidio según mi sueldo?",
+        "intro": "Sueldos mensuales de febrero a diciembre de 2026:",
+        "cabeceras": [
+          "Sueldo mensual",
+          "ISR antes del subsidio",
+          "Subsidio",
+          "ISR retenido"
+        ],
+        "filas": [
+          [
+            "$9,577.22 (salario mínimo)",
+            "$683.02",
+            "$535.65",
+            "$147.37"
+          ],
+          [
+            "$10,000.00",
+            "$729.02",
+            "$535.65",
+            "$193.37"
+          ],
+          [
+            "$11,000.00",
+            "$837.82",
+            "$535.65",
+            "$302.17"
+          ],
+          [
+            "$11,492.66",
+            "$891.42",
+            "$535.65",
+            "$355.77"
+          ],
+          [
+            "$12,000.00",
+            "$946.62",
+            "$0.00",
+            "$946.62"
+          ]
+        ],
+        "nota": "A partir de $11,492.66 el subsidio desaparece de golpe: ganar un poco más puede reducir tu sueldo neto."
       },
       {
-        "title": "Ejemplo con un sueldo de $10,000 al mes",
-        "body": "Con un ingreso gravable de $10,000 mensuales, la tarifa del artículo 96 de la Ley del ISR da un impuesto de $729.02. Como $10,000 es menor que el límite de $11,492.66, te corresponde el subsidio de $535.65 (febrero a diciembre). La retención final es $729.02 − $535.65 = $193.37 al mes. Si cobras por quincena, la calculadora reparte ambos montos en proporción a los 15 días del periodo frente a los 30.4 días promedio del mes."
+        "tipo": "comparacion",
+        "titulo": "¿Qué cambió en el subsidio al empleo desde 2024?",
+        "columnas": [
+          {
+            "titulo": "Antes",
+            "tono": "gris",
+            "items": [
+              "Una tabla con varios tramos según el ingreso.",
+              "Si el subsidio era mayor que el ISR, se pagaba la diferencia en efectivo."
+            ]
+          },
+          {
+            "titulo": "Ahora",
+            "tono": "verde",
+            "items": [
+              "Una cantidad fija para todos los que no superan el límite.",
+              "Solo reduce el ISR: nunca se paga la diferencia en efectivo."
+            ]
+          }
+        ]
       },
       {
-        "title": "Qué cuenta como ingreso para el límite",
-        "body": "El límite se compara con los ingresos por salarios y conceptos asimilados del mes que pagan impuesto. No se suman las partes exentas de prestaciones como el aguinaldo (hasta 30 UMA), la prima vacacional (hasta 15 UMA) o las horas extra exentas. Por eso conviene escribir en la calculadora tu ingreso gravable y no tu ingreso bruto total. Si en un mes recibes un bono o una comisión que te hace rebasar el límite, ese mes no tendrás subsidio."
+        "tipo": "texto",
+        "titulo": "¿Cómo saber mi sueldo neto con el subsidio incluido?",
+        "parrafos": [
+          "Usa la [calculadora de nómina](/calculadora-nomina), que aplica el ISR, el subsidio y las cuotas del IMSS. Para ver solo el impuesto, la [calculadora de ISR](/calculadora-isr); y si estás en el salario mínimo, consulta los [salarios mínimos 2026](/salarios-minimos-2026)."
+        ]
       }
     ],
     "faqs": [

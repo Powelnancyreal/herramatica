@@ -662,122 +662,122 @@
     },
     "calculadora-tmb": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "593d2fd6e85f",
+      "actualizado": "2026-10-25",
+      "contenido": "f6815f05913d",
       "componente": "8b28a2e7519c"
     },
     "calculadora-grasa-corporal": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "017009e1a999",
+      "actualizado": "2026-10-25",
+      "contenido": "7281a0ab5f50",
       "componente": "36760295477e"
     },
     "calculadora-agua-diaria": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "42e36abcf1d0",
+      "actualizado": "2026-10-25",
+      "contenido": "a428e3bee5a3",
       "componente": "04d667283cf2"
     },
     "formateador-json": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "42a72c9d80d8",
+      "actualizado": "2026-10-25",
+      "contenido": "d98483c390b2",
       "componente": "ea313a2e972c"
     },
     "codificador-base64": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "f94774250d28",
+      "actualizado": "2026-10-25",
+      "contenido": "2d764d062166",
       "componente": "a63838e26672"
     },
     "generador-uuid": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "6b13cd3818d2",
+      "actualizado": "2026-10-25",
+      "contenido": "3653ed9d6ea8",
       "componente": "cf139b6a88fd"
     },
     "probador-regex": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "3e0b49dc3e6a",
+      "actualizado": "2026-10-25",
+      "contenido": "db68b4885c1d",
       "componente": "26ca91bb7612"
     },
     "generador-hash": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "4c2c0275919f",
+      "actualizado": "2026-10-25",
+      "contenido": "ca91d02d3756",
       "componente": "3f055554fdb4"
     },
     "generador-lorem-ipsum": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "edbfa3523233",
+      "actualizado": "2026-10-25",
+      "contenido": "e8129d32d34f",
       "componente": "e17c7e6666ef"
     },
     "validador-email": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "324eccd28f8a",
+      "actualizado": "2026-10-25",
+      "contenido": "dec8db035316",
       "componente": "225890071b39"
     },
     "contador-caracteres": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "a75f4be87101",
+      "actualizado": "2026-10-25",
+      "contenido": "430798025aa0",
       "componente": "a6dde783e349"
     },
     "sorteo-online": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "da98accf6327",
+      "actualizado": "2026-10-25",
+      "contenido": "d4b9a6e84552",
       "componente": "e9ebcebb672a"
     },
     "generador-numeros-aleatorios": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "1eaf5dd5a928",
+      "actualizado": "2026-10-25",
+      "contenido": "11d744cbff80",
       "componente": "92c558126219"
     },
     "cara-o-cruz": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "08deca7f0f37",
+      "actualizado": "2026-10-25",
+      "contenido": "4a68995d2fc5",
       "componente": "0028574fe837"
     },
     "temporizador-online": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "c877beef368f",
+      "actualizado": "2026-10-25",
+      "contenido": "63580781e785",
       "componente": "0362cf4ced37"
     },
     "conversor-criptomonedas": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "43b591979e0f",
+      "actualizado": "2026-10-25",
+      "contenido": "9a7890225c49",
       "componente": "055acec8d76d"
     },
     "conversor-zona-horaria": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "53ea2f43bc41",
+      "actualizado": "2026-10-25",
+      "contenido": "92a810223957",
       "componente": "ad3ea4940458"
     },
     "kilos-a-libras": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "ec8eb386b8d2",
+      "actualizado": "2026-10-25",
+      "contenido": "0adec9e11e99",
       "componente": "3d945c3c56da"
     },
     "convertidor-tallas": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "a1f45cd4806b",
+      "actualizado": "2026-10-25",
+      "contenido": "31d9d19e2818",
       "componente": "001d580546b7"
     },
     "calcular-subsidio-empleo": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "bc3f3544c65f",
+      "actualizado": "2026-10-25",
+      "contenido": "d12f5269afbe",
       "componente": "5ff99e32912c"
     },
     "calcular-cuota-imss": {

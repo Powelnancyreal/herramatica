@@ -658,5 +658,125 @@
     "alt": "Calendario de un ciclo de 28 días con la regla, la ventana fértil y el día de ovulación",
     "ancho": 800,
     "alto": 835
+  },
+  "formulas-metabolismo-basal-comparadas": {
+    "archivo": "formulas-metabolismo-basal-comparadas.webp",
+    "alt": "Comparación de las fórmulas de metabolismo basal Mifflin-St Jeor, Harris-Benedict y Katch-McArdle",
+    "ancho": 800,
+    "alto": 772
+  },
+  "medidas-y-rangos-grasa-corporal": {
+    "archivo": "medidas-y-rangos-grasa-corporal.webp",
+    "alt": "Dónde medir cuello, cintura y cadera y rangos saludables de grasa corporal en hombres y mujeres",
+    "ancho": 800,
+    "alto": 851
+  },
+  "agua-diaria-segun-peso": {
+    "archivo": "agua-diaria-segun-peso.webp",
+    "alt": "Cálculo del agua diaria para una persona de 70 kg con ejercicio y calor, en vasos de 250 ml",
+    "ancho": 800,
+    "alto": 851
+  },
+  "json-formateado-errores-comunes": {
+    "archivo": "json-formateado-errores-comunes.webp",
+    "alt": "JSON minificado frente a formateado y los errores de sintaxis más comunes",
+    "ancho": 800,
+    "alto": 860
+  },
+  "como-funciona-base64": {
+    "archivo": "como-funciona-base64.webp",
+    "alt": "Cómo se convierte la palabra Hola a Base64 paso a paso con bytes y grupos de 6 bits",
+    "ancho": 800,
+    "alto": 716
+  },
+  "anatomia-uuid-v4-v7": {
+    "archivo": "anatomia-uuid-v4-v7.webp",
+    "alt": "Partes de un UUID v4 aleatorio y de un UUID v7 ordenado por tiempo",
+    "ancho": 800,
+    "alto": 763
+  },
+  "chuleta-expresiones-regulares": {
+    "archivo": "chuleta-expresiones-regulares.webp",
+    "alt": "Chuleta de expresiones regulares con los símbolos más usados y ejemplos",
+    "ancho": 800,
+    "alto": 810
+  },
+  "hash-sha256-efecto-avalancha": {
+    "archivo": "hash-sha256-efecto-avalancha.webp",
+    "alt": "Hash SHA-256 de hola y Hola y longitud de MD5, SHA-1, SHA-256 y SHA-512",
+    "ancho": 800,
+    "alto": 845
+  },
+  "origen-lorem-ipsum": {
+    "archivo": "origen-lorem-ipsum.webp",
+    "alt": "Origen del Lorem Ipsum en Cicerón y cuánto texto de relleno usar según el elemento",
+    "ancho": 800,
+    "alto": 809
+  },
+  "que-comprueba-validador-email": {
+    "archivo": "que-comprueba-validador-email.webp",
+    "alt": "Partes de una dirección de correo y qué comprueba un validador de email",
+    "ancho": 800,
+    "alto": 807
+  },
+  "limite-caracteres-sms": {
+    "archivo": "limite-caracteres-sms.webp",
+    "alt": "Límite de caracteres de un SMS: 160 con el alfabeto GSM y 70 con tildes o emojis, y otros límites",
+    "ancho": 800,
+    "alto": 789
+  },
+  "como-funciona-sorteo-justo": {
+    "archivo": "como-funciona-sorteo-justo.webp",
+    "alt": "Cómo funciona un sorteo justo: lista de participantes barajada para elegir ganadores y suplentes",
+    "ancho": 800,
+    "alto": 743
+  },
+  "probabilidad-dados-loteria": {
+    "archivo": "probabilidad-dados-loteria.webp",
+    "alt": "Probabilidad de cada cara de un dado y número de combinaciones de una lotería de 6 números",
+    "ancho": 800,
+    "alto": 727
+  },
+  "cara-o-cruz-probabilidades": {
+    "archivo": "cara-o-cruz-probabilidades.webp",
+    "alt": "Probabilidades de cara o cruz, rachas seguidas y nombres del juego en cada país",
+    "ancho": 800,
+    "alto": 839
+  },
+  "tecnica-pomodoro-temporizador": {
+    "archivo": "tecnica-pomodoro-temporizador.webp",
+    "alt": "Ciclo de la técnica Pomodoro con bloques de 25 minutos y pausas",
+    "ancho": 800,
+    "alto": 703
+  },
+  "bitcoin-satoshis-stablecoins": {
+    "archivo": "bitcoin-satoshis-stablecoins.webp",
+    "alt": "Equivalencia entre bitcoin y satoshis y valor de las stablecoins USDT y USDC",
+    "ancho": 800,
+    "alto": 813
+  },
+  "diferencia-horaria-mexico-latam-espana": {
+    "archivo": "diferencia-horaria-mexico-latam-espana.webp",
+    "alt": "Hora en Bogotá, Lima, Santiago, Buenos Aires y Madrid cuando son las 12 en Ciudad de México",
+    "ancho": 800,
+    "alto": 727
+  },
+  "tabla-kilos-a-libras": {
+    "archivo": "tabla-kilos-a-libras.webp",
+    "alt": "Tabla de conversión de kilos a libras y límites de equipaje de 23 y 32 kg en libras",
+    "ancho": 800,
+    "alto": 771
+  },
+  "equivalencias-tallas-zapato": {
+    "archivo": "equivalencias-tallas-zapato.webp",
+    "alt": "Tabla de equivalencias de tallas de zapato de hombre entre México, Estados Unidos, Reino Unido y Europa",
+    "ancho": 800,
+    "alto": 927
+  },
+  "subsidio-empleo-isr-2026": {
+    "archivo": "subsidio-empleo-isr-2026.webp",
+    "alt": "Cómo reduce el subsidio al empleo el ISR de un sueldo de 10 mil pesos en 2026",
+    "ancho": 800,
+    "alto": 689
   }
 }
