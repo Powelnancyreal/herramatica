@@ -5,6 +5,7 @@ import FAQ from '@/components/FAQ'
 import RelatedTools from '@/components/RelatedTools'
 import TextoConEnlaces from '@/components/TextoConEnlaces'
 import BloquesHerramienta, { IndiceBloques } from '@/components/BloquesHerramienta'
+import NotaEditorial from '@/components/NotaEditorial'
 import { getToolImage as getToolIllustration } from '@/lib/toolImage'
 import fechas from '@/data/fechas.json'
 
@@ -74,7 +75,7 @@ const toolBottomImageAltOverrides = {
   'calculadora-cdt': 'Calculadora de CDT Colombia rendimiento tasa plazo fijo bancario',
 }
 
-export default function ToolLayout({ tool, children }) {
+export default function ToolLayout({ tool, categoria, children }) {
   const toolImage = getToolImage(tool.slug)
   const bottomImage = getToolIllustration(tool)
   const toolBottomImage = bottomImage?.src
@@ -95,8 +96,8 @@ export default function ToolLayout({ tool, children }) {
           </li>
           <li className="text-gray-300">/</li>
           <li>
-            <a href={`/${tool.category}`} className="hover:text-blue-600 capitalize transition-colors">
-              {tool.category}
+            <a href={`/${tool.category}`} className="hover:text-blue-600 transition-colors">
+              {categoria?.name || tool.category}
             </a>
           </li>
           <li className="text-gray-300">/</li>
@@ -125,6 +126,7 @@ export default function ToolLayout({ tool, children }) {
           <IndiceBloques tool={tool} />
           <BloquesHerramienta tool={tool} ilustracion={toolBottomImage ? { src: toolBottomImage, alt: toolBottomImageAlt } : null} />
           <div className="mt-12">
+            <NotaEditorial tool={tool} actualizado={actualizado} />
             <FAQ faqs={tool.faqs} />
             <RelatedTools relatedSlugs={tool.relatedTools} />
           </div>
@@ -219,6 +221,8 @@ export default function ToolLayout({ tool, children }) {
           <p className="text-gray-700 leading-relaxed"><TextoConEnlaces texto={section.body} origen={tool.slug} /></p>
         </section>
       ))}
+
+      <NotaEditorial tool={tool} actualizado={actualizado} />
 
       {/* FAQ */}
       <FAQ faqs={tool.faqs} />

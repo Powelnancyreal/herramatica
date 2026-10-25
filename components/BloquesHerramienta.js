@@ -145,7 +145,7 @@ function Infografia({ b }) {
         loading="lazy"
         className="w-full h-auto rounded-2xl border border-gray-200"
       />
-      {b.pie && <figcaption className="mt-2 text-sm text-gray-500">{b.pie}</figcaption>}
+      <figcaption className="mt-2 text-sm text-gray-500">{b.pie || `Infografía: ${b.alt.charAt(0).toLowerCase()}${b.alt.slice(1)}.`}</figcaption>
     </figure>
   )
 }
