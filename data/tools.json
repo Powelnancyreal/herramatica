@@ -27920,36 +27920,62 @@
     "webApp": true,
     "appCategory": "LifestyleApplication",
     "intro": "Comprar un anillo en línea o en otro país es fácil de equivocar: la talla 7 de México y Estados Unidos es la 54 en Europa y alrededor de la 14 en España. Este conversor pasa tu talla entre los sistemas más usados y también la calcula a partir de medidas reales: el diámetro interior de un anillo que te quede bien o el contorno de tu dedo en milímetros. Incluye una tabla de equivalencias completa.",
-    "howToUse": [
-      "Elige qué dato conoces: tu talla en algún sistema, el diámetro interior o el contorno del dedo",
-      "Escribe el valor",
-      "Lee tu talla en México y EE. UU., Europa, España y Reino Unido",
-      "Consulta la tabla para comparar tallas cercanas"
-    ],
-    "benefits": [
-      "Cinco sistemas de tallas",
-      "Calcula la talla desde el diámetro o el contorno",
-      "Tabla de equivalencias de la 3 a la 13",
-      "Tallas de EE. UU. con cuartos de talla",
-      "Consejos para medir tu dedo en casa",
-      "Útil para anillos de compromiso y alianzas"
-    ],
-    "contentSections": [
+    "resumen": "Convierte tallas de anillo entre México y EE. UU., Europa, España y Reino Unido, o descubre tu talla a partir del diámetro de un anillo o del contorno de tu dedo medido con un hilo.",
+    "bloques": [
       {
-        "title": "Los sistemas de tallas",
-        "body": "México usa la misma numeración que Estados Unidos y Canadá, del 3 al 13 con medios y cuartos de talla. En Europa, según la norma ISO 8653, la talla es la circunferencia interior del anillo en milímetros: la 54 mide 54 mm. En España se usa esa misma circunferencia menos 40, así que la 54 europea es la 14 española. El Reino Unido y Australia usan letras, de la A a la Z. Cada talla estadounidense aumenta el diámetro interior en unos 0,8 mm."
+        "tipo": "infografia",
+        "archivo": "equivalencias-tallas-anillo.webp",
+        "alt": "Tallas de anillo de la 5 a la 9 con su diámetro interior y equivalencias en Europa, España y Reino Unido",
+        "ancho": 800,
+        "alto": 722,
+        "titulo": "¿Qué medidas tienen las tallas de anillo más comunes?"
       },
       {
-        "title": "Cómo medir tu dedo en casa",
-        "body": "Rodea la base del dedo con un hilo o una tira de papel, sin apretar, y marca el punto donde se junta. Mide la longitud en milímetros con una regla: ese es el contorno. Escríbelo en el conversor. Mide al final del día, cuando los dedos están algo más hinchados, y asegúrate de que el anillo pueda pasar por el nudillo. Si tienes un anillo que te quede bien, mide su diámetro interior de lado a lado."
+        "tipo": "pasos",
+        "titulo": "¿Cómo medir la talla con un anillo que ya te queda bien?",
+        "pasos": [
+          {
+            "titulo": "Elige un anillo del mismo dedo",
+            "texto": "Las manos no son simétricas: mide uno que uses en la misma mano."
+          },
+          {
+            "titulo": "Mide el diámetro interior",
+            "texto": "Con una regla, de borde a borde por dentro, en el punto más ancho."
+          },
+          {
+            "titulo": "Escribe los milímetros",
+            "texto": "Elige «Diámetro interior» en la calculadora y obtendrás todas las tallas."
+          }
+        ]
       },
       {
-        "title": "Consejos para acertar",
-        "body": "Si estás entre dos tallas, elige la mayor, sobre todo en anillos anchos, que se sienten más ajustados. El frío reduce el tamaño de los dedos y el calor lo aumenta, así que evita medir recién salido de la ducha o con las manos frías. La mano dominante suele ser un poco más grande. Para un anillo sorpresa, puedes tomar prestado un anillo que la persona use en el mismo dedo y medir su diámetro."
+        "tipo": "consejos",
+        "titulo": "¿Cómo acertar con la talla de un anillo de regalo?",
+        "items": [
+          {
+            "titulo": "Mide por la tarde",
+            "texto": "Los dedos se hinchan con el calor y a lo largo del día."
+          },
+          {
+            "titulo": "Anillos anchos, media talla más",
+            "texto": "Una banda de más de 6 mm aprieta más que una fina."
+          },
+          {
+            "titulo": "Pide un amigo cómplice",
+            "texto": "Que mida discretamente un anillo que la persona ya use."
+          },
+          {
+            "titulo": "Pregunta por el ajuste",
+            "texto": "Muchas joyerías ajustan una o dos tallas sin costo."
+          }
+        ]
       },
       {
-        "title": "Tallas más comunes",
-        "body": "En mujeres, las tallas más frecuentes en México y Estados Unidos están entre la 5 y la 7; en hombres, entre la 8 y la 11. En Europa, eso equivale aproximadamente a la 49 a 54 y la 57 a 64. Las equivalencias pueden variar ligeramente entre joyerías y fabricantes, así que, si puedes, confirma con la guía de tallas de la tienda donde compras."
+        "tipo": "texto",
+        "titulo": "¿Qué otros conversores de tallas hay?",
+        "parrafos": [
+          "Para ropa y calzado usa el [convertidor de tallas](/convertidor-tallas), y para pasar centímetros a pulgadas, el conversor de [cm a pulgadas](/cm-a-pulgadas)."
+        ]
       }
     ],
     "faqs": [
@@ -28003,37 +28029,95 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Cuando dejas un trabajo en México, tu patrón debe pagarte un finiquito con todo lo que ya ganaste: los días de salario pendientes, la parte proporcional del aguinaldo, las vacaciones que no disfrutaste y su prima vacacional. Si el despido fue injustificado, además te corresponde una liquidación con indemnización. Esta calculadora aplica la Ley Federal del Trabajo vigente en 2026, incluida la tabla de vacaciones de la reforma de 2023, y te muestra cada concepto por separado para que puedas revisar el documento que te presente la empresa antes de firmarlo.",
-    "howToUse": [
-      "Escribe tu salario bruto y elige si es mensual, quincenal, semanal o diario",
-      "Indica tu fecha de ingreso y tu último día de trabajo",
-      "Elige el motivo de la salida: renuncia, despido injustificado o despido justificado",
-      "Añade los días de salario que te deban y las vacaciones de años anteriores que no tomaste",
-      "Ajusta los días de aguinaldo y el porcentaje de prima vacacional si tu contrato da más que la ley, y pulsa «Calcular finiquito»"
-    ],
-    "benefits": [
-      "Distingue finiquito (lo ya ganado) de liquidación (la indemnización por despido)",
-      "Usa la tabla de vacaciones vigente desde 2023: 12 días el primer año",
-      "Aplica la prima de antigüedad con el tope del doble del salario mínimo 2026",
-      "Calcula la indemnización con tu salario diario integrado",
-      "Indica qué parte está exenta de ISR según la UMA 2026",
-      "Gratis, sin registro y calculado en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu finiquito o liquidación en México según la Ley Federal del Trabajo: aguinaldo y vacaciones proporcionales, prima vacacional, salario pendiente y, si te despiden, prima de antigüedad e indemnización de tres meses, con la parte exenta de ISR.",
+    "bloques": [
       {
-        "title": "Qué es el finiquito y en qué se diferencia de la liquidación",
-        "body": "El finiquito es el pago de las prestaciones que ya generaste y que te corresponden siempre, sin importar si renuncias o te despiden: salario pendiente, aguinaldo proporcional (art. 87 de la LFT), vacaciones no disfrutadas (art. 79) y prima vacacional de al menos 25% (art. 80). La liquidación es otra cosa: es la indemnización que se suma al finiquito cuando el despido es injustificado, equivalente a tres meses de salario (art. 48), más la prima de antigüedad. Si renunciaste, solo recibes el finiquito, salvo que tengas 15 años o más de antigüedad, caso en el que también te toca la prima de antigüedad (art. 162). En nuestra guía sobre el [finiquito por renuncia](/blog/finiquito-por-renuncia) explicamos cada caso con detalle."
+        "tipo": "infografia",
+        "archivo": "finiquito-renuncia-vs-despido-mexico.webp",
+        "alt": "Comparación de finiquito por renuncia y por despido injustificado en México con el mismo salario y antigüedad",
+        "ancho": 800,
+        "alto": 730,
+        "titulo": "¿Qué conceptos se suman en cada forma de salida?"
       },
       {
-        "title": "Cómo se calcula el finiquito paso a paso",
-        "body": "Primero se obtiene tu salario diario dividiendo el sueldo mensual entre 30. El aguinaldo proporcional son 15 días multiplicados por los días que trabajaste en el año y divididos entre 365. Las vacaciones se calculan con los días que te tocarían al cumplir tu siguiente aniversario, en proporción al tiempo transcurrido desde el último; por ejemplo, en tu quinto año corresponden 20 días. La prima vacacional es el 25% del pago de esas vacaciones. Para la prima de antigüedad se toman 12 días por año trabajado, pero con un salario que no puede superar el doble del mínimo: en 2026, $630.08 diarios en la zona general. Puedes revisar por separado tu [aguinaldo](/calcular-aguinaldo) y tus [días de vacaciones](/calcular-vacaciones) con nuestras otras calculadoras."
+        "tipo": "tabla",
+        "titulo": "¿Qué pagos corresponden según el motivo de salida?",
+        "cabeceras": [
+          "Concepto",
+          "Renuncia",
+          "Despido justificado",
+          "Despido injustificado"
+        ],
+        "filas": [
+          [
+            "Aguinaldo, vacaciones y prima vacacional",
+            "Sí",
+            "Sí",
+            "Sí"
+          ],
+          [
+            "Salario pendiente",
+            "Sí",
+            "Sí",
+            "Sí"
+          ],
+          [
+            "Prima de antigüedad (12 días por año)",
+            "Solo con 15 años o más",
+            "Sí",
+            "Sí"
+          ],
+          [
+            "Indemnización de 3 meses",
+            "No",
+            "No",
+            "Sí"
+          ],
+          [
+            "20 días por año",
+            "No",
+            "No",
+            "Solo si procede (art. 50)"
+          ]
+        ]
       },
       {
-        "title": "Ejemplo de finiquito por renuncia con números reales",
-        "body": "Ana gana $15,000 al mes ($500 diarios), entró el 1 de marzo de 2022 y renuncia el 15 de octubre de 2026. Le deben 15 días de salario: $7,500. Trabajó 288 días de 2026, así que su aguinaldo proporcional es 15 × 288 ÷ 365 = 11.84 días, $5,917.81. Cumplió 4 años en marzo; en su quinto año le tocarían 20 días de vacaciones, y han pasado 228 días desde su aniversario: 20 × 228 ÷ 365 = 12.49 días, $6,246.58, con una prima vacacional de $1,561.64. Su finiquito bruto es de $21,226.03. Como renunció con menos de 15 años, no le corresponde prima de antigüedad."
+        "tipo": "glosario",
+        "titulo": "¿Qué diferencia hay entre finiquito y liquidación?",
+        "items": [
+          [
+            "Finiquito",
+            "Lo que se te debe por lo ya trabajado: salario, aguinaldo, vacaciones y prima vacacional. Se paga siempre."
+          ],
+          [
+            "Liquidación",
+            "El finiquito más las indemnizaciones por despido: prima de antigüedad y tres meses de salario."
+          ],
+          [
+            "Salario diario integrado",
+            "Salario diario más la parte proporcional de prestaciones. Se usa para la indemnización."
+          ],
+          [
+            "Prima de antigüedad",
+            "12 días por año, con salario topado al doble del mínimo."
+          ]
+        ]
       },
       {
-        "title": "Cuánto paga de ISR tu finiquito",
-        "body": "No todo el finiquito paga impuestos. El artículo 93 de la Ley del ISR exenta el aguinaldo hasta 30 UMA ($3,519.30 en 2026), la prima vacacional hasta 15 UMA ($1,759.65) y las indemnizaciones y la prima de antigüedad hasta 90 UMA por cada año de servicio. Lo que excede esos límites se grava, y el patrón debe retener el ISR. Por eso la calculadora muestra montos brutos e indica cuánto de cada concepto queda exento."
+        "tipo": "texto",
+        "titulo": "¿Qué más calcular al dejar un empleo en México?",
+        "parrafos": [
+          "Revisa tu [salario diario integrado](/calcular-salario-diario-integrado), el [aguinaldo](/calcular-aguinaldo) y las [vacaciones](/calcular-vacaciones) por separado, y el ISR de tu último pago con la [calculadora de ISR](/calculadora-isr). Para más contexto, lee la guía del [finiquito por renuncia](/blog/finiquito-por-renuncia)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Procuraduría Federal de la Defensa del Trabajo (PROFEDET)",
+            "url": "https://www.gob.mx/profedet"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -28083,31 +28167,61 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El 4x1000, o Gravamen a los Movimientos Financieros (GMF), es el impuesto que cobra tu banco por cada retiro, pago o transferencia que haces en Colombia: 4 pesos por cada 1,000. Esta calculadora te dice cuánto pagarás por un movimiento y cuánto saldrá en total de tu cuenta. Si tienes una cuenta marcada como exenta, aplica el cupo de 350 UVT al mes, que en 2026 equivale a $18,330,900, y te muestra cuánto cupo te queda.",
-    "howToUse": [
-      "Escribe el valor del retiro, pago o transferencia",
-      "Marca la casilla si la cuenta está registrada como exenta del 4x1000",
-      "Si es exenta, indica cuánto has retirado ya este mes desde esa cuenta",
-      "Pulsa «Calcular 4x1000» y revisa el impuesto y el total debitado"
-    ],
-    "benefits": [
-      "Aplica la tarifa oficial del 4 por mil del Estatuto Tributario",
-      "Calcula el cupo exento de 350 UVT con la UVT 2026",
-      "Te dice cuánto cupo exento te queda en el mes",
-      "Muestra el total que sale de tu cuenta, impuesto incluido",
-      "Gratis, sin registro y calculado en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el gravamen a los movimientos financieros (4x1000) de un retiro o transferencia en Colombia, con el cupo exento de 350 UVT al mes de la cuenta marcada como exenta y el total que se debita de tu cuenta.",
+    "bloques": [
       {
-        "title": "Qué es el 4x1000 y cuándo se cobra",
-        "body": "El Gravamen a los Movimientos Financieros está regulado en los artículos 871 y siguientes del Estatuto Tributario. Se cobra a una tarifa del 4 por mil (0.4%) sobre retiros en efectivo, transferencias, pagos con cheque y débitos de cuentas de ahorro y corrientes. El banco lo descuenta automáticamente y lo traslada a la DIAN. Las transferencias entre cuentas del mismo titular en la misma entidad suelen estar exentas, igual que otros casos del artículo 879."
+        "tipo": "infografia",
+        "archivo": "calculo-4x1000-cuenta-exenta.webp",
+        "alt": "Cálculo del 4x1000 en Colombia con la parte exenta de 350 UVT y ejemplos de retiros",
+        "ancho": 800,
+        "alto": 710,
+        "titulo": "¿Cuánto 4x1000 paga una transferencia grande desde la cuenta exenta?"
       },
       {
-        "title": "La cuenta exenta: 350 UVT al mes",
-        "body": "El artículo 879, numeral 1, exime del 4x1000 los retiros de una sola cuenta de ahorros o corriente por persona, hasta 350 UVT al mes. Con la UVT 2026 de $52,374, el cupo exento es de $18,330,900 mensuales. Debes pedirle a tu banco que marque la cuenta como exenta; si tienes varias cuentas, solo una puede tener el beneficio. Lo que retires por encima del cupo paga el 4x1000 normal."
+        "tipo": "checklist",
+        "titulo": "¿Cómo pagar menos 4x1000 de forma legal?",
+        "items": [
+          "Marca como exenta la cuenta donde recibes tu sueldo.",
+          "Concentra los retiros grandes en esa cuenta y dentro del mismo mes.",
+          "Mueve dinero entre tus propias cuentas del mismo banco cuando puedas: no paga el impuesto.",
+          "Recuerda que la mitad de lo pagado se puede deducir en la declaración de renta, con el certificado del banco."
+        ]
       },
       {
-        "title": "Ejemplo con números reales",
-        "body": "Si transfieres $2,000,000 desde una cuenta sin exención, el 4x1000 es $2,000,000 × 0.004 = $8,000, así que de tu cuenta salen $2,008,000. Si la cuenta es exenta y este mes ya retiraste $17,000,000, te quedan $1,330,900 de cupo: esa parte no paga y los $669,100 restantes pagan $2,676. Para otros cálculos de nómina en Colombia puedes usar la calculadora de [retención en la fuente](/retencion-en-la-fuente) o la de [liquidación laboral](/calculadora-liquidacion-laboral-colombia)."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto dinero hay que tener para que llegue el monto completo?",
+        "datos": [
+          [
+            "Transferencia",
+            "$ 5.000.000 desde una cuenta sin exención"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Impuesto: 4 por cada 1.000.",
+            "operacion": "5.000.000 × 0,004 = $ 20.000"
+          },
+          {
+            "texto": "Total que el banco debita.",
+            "operacion": "5.000.000 + 20.000 = $ 5.020.000"
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otros impuestos se calculan en Colombia?",
+        "parrafos": [
+          "La [retención en la fuente](/retencion-en-la-fuente) de tu salario y los aportes con la [calculadora de seguridad social](/calculadora-seguridad-social-colombia). Para ahorrar a plazo fijo, compara con la [calculadora de CDT](/calculadora-cdt)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "DIAN: Dirección de Impuestos y Aduanas Nacionales",
+            "url": "https://www.dian.gov.co"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -28153,32 +28267,70 @@
     "webApp": true,
     "appCategory": "EducationalApplication",
     "intro": "Con esta calculadora de notas sabes al instante cómo vas en una materia con la escala colombiana de 0.0 a 5.0. Escribe la nota de cada corte, parcial o taller con su porcentaje y obtén tu nota definitiva, o la nota que necesitas en lo que falta para pasar con 3.0. En la pestaña de créditos calculas el promedio ponderado del semestre, el que aparece en tu historial académico. Viene con la plantilla clásica de tres cortes (30%, 30% y 40%), y puedes adaptarla a cualquier materia.",
-    "howToUse": [
-      "Ajusta los cortes o evaluaciones y sus porcentajes según el programa de tu materia",
-      "Escribe las notas que ya tienes, de 0.0 a 5.0, y deja en blanco las que faltan",
-      "Lee tu nota definitiva o la nota mínima que necesitas para pasar",
-      "En «Promedio por créditos», escribe la definitiva y los créditos de cada materia"
-    ],
-    "benefits": [
-      "Escala colombiana de 0.0 a 5.0 con aprobación en 3.0",
-      "Plantilla de tres cortes: 30%, 30% y 40%",
-      "Calcula la nota que necesitas en el último corte",
-      "Promedio ponderado del semestre por créditos",
-      "Evaluaciones y porcentajes editables",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu nota definitiva en una escala de 0 a 5 con los porcentajes de cada corte, parcial o taller, descubre qué nota necesitas en lo que falta para aprobar con 3,0 y saca tu promedio del semestre ponderado por créditos.",
+    "bloques": [
       {
-        "title": "Cómo se calcula la nota definitiva",
-        "body": "En la mayoría de universidades y colegios de Colombia las notas van de 0.0 a 5.0 y se aprueba con 3.0. La nota definitiva de una materia es un promedio ponderado: multiplicas la nota de cada corte por su porcentaje y sumas los resultados. Con la plantilla de tres cortes de 30%, 30% y 40%, una materia con 3.5, 2.8 y 3.2 da 3.5 × 0.3 + 2.8 × 0.3 + 3.2 × 0.4 = 3.17. Muchas instituciones redondean la definitiva a una cifra decimal, así que quedaría en 3.2; el reglamento estudiantil de cada universidad define la regla exacta."
+        "tipo": "infografia",
+        "archivo": "nota-necesaria-tres-cortes.webp",
+        "alt": "Cálculo de la nota que se necesita en el tercer corte para aprobar con 3,0 en Colombia",
+        "ancho": 800,
+        "alto": 650,
+        "titulo": "¿Qué nota necesitas en el último corte?"
       },
       {
-        "title": "Cuánto necesito en el último corte para pasar",
-        "body": "Si sacaste 2.5 en el primer corte y 3.0 en el segundo, llevas 2.5 × 0.3 + 3.0 × 0.3 = 1.65 puntos. Para llegar a 3.0 te faltan 1.35 puntos, que en un corte del 40% equivalen a 1.35 ÷ 0.4 = 3.38. Necesitas al menos un 3.4 en el tercer corte para llegar a 3.0 sin depender del redondeo; si tu universidad redondea la definitiva a un decimal, con 3.3 llegarías a 2.97, que sube a 3.0. La calculadora usa este segundo criterio. Si la cuenta da más de 5.0, ya no es posible pasar la materia con ese corte. Si estudias en otro país, la calculadora de [nota necesaria](/calculadora-nota-necesaria) admite escalas de 0 a 10, de 0 a 20 y de 1 a 7."
+        "tipo": "tabla",
+        "titulo": "¿Cómo se reparten los porcentajes en las materias más comunes?",
+        "cabeceras": [
+          "Esquema",
+          "Distribución"
+        ],
+        "filas": [
+          [
+            "Tres cortes",
+            "30 %, 30 % y 40 %"
+          ],
+          [
+            "Tres cortes iguales",
+            "33,3 % cada uno"
+          ],
+          [
+            "Parciales y final",
+            "Parcial 1: 25 %, parcial 2: 25 %, final: 50 %"
+          ],
+          [
+            "Con seguimiento",
+            "Talleres 20 %, quices 20 %, parciales 30 %, final 30 %"
+          ]
+        ],
+        "nota": "Ejemplos habituales; el sílabo de cada materia manda."
       },
       {
-        "title": "Promedio ponderado del semestre",
-        "body": "El promedio del semestre pondera cada definitiva por los créditos de la materia: multiplica cada nota por sus créditos, suma los resultados y divide entre el total de créditos. Una materia de 4 créditos pesa el doble que una de 2. Ese promedio es el que suele usarse para becas, matrícula de honor o para mantener un crédito educativo. Para promedios sin créditos usa la [calculadora de promedio ponderado](/calculadora-promedio-ponderado)."
+        "tipo": "escenarios",
+        "titulo": "¿Qué hacer según cómo vas en el semestre?",
+        "items": [
+          {
+            "titulo": "Necesitas menos de 3,0",
+            "situacion": "Vas bien: asegura el último corte sin arriesgar.",
+            "resultado": "Tranquilo"
+          },
+          {
+            "titulo": "Necesitas entre 3,0 y 4,0",
+            "situacion": "Es alcanzable: prioriza esta materia en la recta final.",
+            "resultado": "Esfuerzo"
+          },
+          {
+            "titulo": "Necesitas más de 5,0",
+            "situacion": "Ya no se puede aprobar con las notas que faltan: habla con el profesor sobre opciones.",
+            "resultado": "Plan B"
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otras calculadoras de notas hay?",
+        "parrafos": [
+          "El [promedio ponderado](/calculadora-promedio-ponderado) para cualquier escala, la [nota necesaria](/calculadora-nota-necesaria) para otros sistemas y la [calculadora de promedio](/calculadora-promedio) para notas sin porcentajes."
+        ]
       }
     ],
     "faqs": [
@@ -28223,32 +28375,83 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Si trabajás bajo el convenio de Empleados de Comercio (CCT 130/75), esta calculadora te muestra cuánto vas a cobrar de bolsillo. Elegí tu categoría, cargá tus años de antigüedad y tus horas semanales, y obtené el bruto, cada descuento y el neto. Usa la escala de FAECyS vigente desde septiembre de 2026 y la suma no remunerativa de $120.000, y podés modificar los montos cuando salga una nueva paritaria. Es útil para controlar tu recibo o para estimar el sueldo de un puesto antes de aceptarlo.",
-    "howToUse": [
-      "Elegí tu categoría: el básico se completa solo con la escala vigente",
-      "Cargá tus años de antigüedad y las horas semanales que trabajás",
-      "Revisá la suma no remunerativa y marcá si cobrás presentismo",
-      "Si estás afiliado al sindicato, marcá la casilla y revisá el porcentaje; después tocá «Calcular sueldo»"
-    ],
-    "benefits": [
-      "Escala de las 21 categorías del CCT 130/75",
-      "Antigüedad del 1% por año y presentismo de 8,33%",
-      "Calcula jornadas parciales en proporción a 48 horas",
-      "Separa lo remunerativo de lo no remunerativo",
-      "Detalla cada descuento: jubilación, PAMI, obra social y FAECyS",
-      "Montos editables para cada nueva paritaria"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el sueldo de un empleado de comercio en Argentina (CCT 130/75) con la escala de septiembre de 2026: básico por categoría, antigüedad, presentismo y suma no remunerativa, con los descuentos de jubilación, PAMI, obra social y FAECyS.",
+    "bloques": [
       {
-        "title": "Cómo se arma el sueldo de un empleado de comercio",
-        "body": "El sueldo de comercio parte del básico de tu categoría para una jornada completa de 48 horas semanales. Sobre ese básico se suma un 1% por cada año de antigüedad y, si no tuviste más de una falta injustificada en el mes, el presentismo, que equivale a un doceavo (8,33%) de lo remunerativo. A eso se agrega la suma fija no remunerativa acordada en paritarias, que en septiembre de 2026 es de $120.000. Si trabajás menos horas, el básico y la suma fija se cobran en proporción."
+        "tipo": "infografia",
+        "archivo": "recibo-empleado-comercio-2026.webp",
+        "alt": "Recibo de sueldo de un vendedor B de comercio con haberes, descuentos y neto",
+        "ancho": 800,
+        "alto": 748,
+        "titulo": "¿Qué conceptos tiene el recibo de un vendedor B?"
       },
       {
-        "title": "Qué descuentos tiene el recibo",
-        "body": "Sobre lo remunerativo se descuenta un 11% de jubilación, un 3% de la Ley 19.032 (PAMI) y un 3% de obra social, es decir, un 17%. Sobre la suma no remunerativa no hay aportes jubilatorios, pero sí se descuenta el 3% de obra social (OSECAC). Además, el artículo 100 del convenio fija un aporte del 0,5% para FAECyS, y si estás afiliado se descuenta la cuota sindical. Para otros convenios o para calcular el neto de cualquier sueldo, usá la [calculadora de sueldo neto](/calculadora-sueldo-neto-argentina)."
+        "tipo": "glosario",
+        "titulo": "¿Qué significa cada línea del recibo de comercio?",
+        "items": [
+          [
+            "Básico",
+            "El sueldo de tu categoría para 48 horas semanales; si trabajas menos, es proporcional."
+          ],
+          [
+            "Antigüedad",
+            "1 % del básico por cada año en la empresa."
+          ],
+          [
+            "Presentismo",
+            "Un doceavo (8,33 %) de lo remunerativo, si no tienes faltas injustificadas."
+          ],
+          [
+            "Suma no remunerativa",
+            "Monto fijo del acuerdo paritario que no paga jubilación."
+          ],
+          [
+            "FAECyS",
+            "Aporte del 0,5 % a la federación de empleados de comercio."
+          ]
+        ]
       },
       {
-        "title": "Ejemplo con la escala de septiembre de 2026",
-        "body": "Una persona en la categoría Administrativo A, con jornada completa y 3 años de antigüedad, tiene un básico de $1.196.632. La antigüedad suma $35.898,96 y el presentismo $102.710,91, con lo que el total remunerativo es de $1.335.241,87. Con la suma no remunerativa de $120.000, el bruto llega a $1.455.241,87. Los descuentos suman $237.867,33, así que el neto estimado es de $1.217.374,55, sin cuota sindical. Para el medio aguinaldo de junio y diciembre podés usar la calculadora de [SAC](/calcular-sac-argentina)."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto es el básico de cada categoría en septiembre de 2026?",
+        "cabeceras": [
+          "Categoría",
+          "Básico"
+        ],
+        "filas": [
+          [
+            "Maestranza A",
+            "$1.183.900,00"
+          ],
+          [
+            "Administrativo A",
+            "$1.196.632,00"
+          ],
+          [
+            "Cajero A",
+            "$1.200.875,00"
+          ],
+          [
+            "Vendedor A",
+            "$1.200.875,00"
+          ],
+          [
+            "Vendedor B",
+            "$1.226.349,00"
+          ],
+          [
+            "Vendedor D",
+            "$1.253.514,00"
+          ]
+        ],
+        "nota": "Jornada completa. Los básicos se actualizan con cada paritaria."
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otros cálculos laborales hay para Argentina?",
+        "parrafos": [
+          "El [sueldo neto](/calculadora-sueldo-neto-argentina) de otros convenios, el [aguinaldo o SAC](/calcular-sac-argentina) y, si te despiden, la [indemnización](/calcular-indemnizacion-despido) y el [preaviso](/preaviso-laboral)."
+        ]
       }
     ],
     "faqs": [
@@ -28293,31 +28496,84 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Antes de inscribir una propiedad o una empresa en los Registros Públicos del Perú conviene saber cuánto vas a pagar. Esta calculadora registral estima los derechos de SUNARP para una compraventa de inmueble, una hipoteca o la constitución de una sociedad, separando el derecho de calificación, que se calcula con la UIT 2026 de S/ 5,500, y el derecho de inscripción, que depende del valor del acto. Las tasas vienen precargadas y puedes ajustarlas si el arancel cambia.",
-    "howToUse": [
-      "Elige el acto que vas a inscribir: compraventa, hipoteca, constitución de empresa u otro",
-      "Escribe el valor del acto en soles: precio de venta, monto de la hipoteca o capital social",
-      "Revisa las tasas precargadas y ajústalas si tu caso usa otras",
-      "Pulsa «Calcular derechos registrales» y revisa el desglose"
-    ],
-    "benefits": [
-      "Usa la UIT 2026 de S/ 5,500",
-      "Separa el derecho de calificación del de inscripción",
-      "Incluye compraventa, hipoteca y constitución de empresa",
-      "Tasas editables para cualquier otro acto",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula los derechos registrales de SUNARP para inscribir una compraventa, una hipoteca o la constitución de una empresa en Perú: el derecho de calificación (0.81 % de la UIT por acto) y el de inscripción según el valor del acto.",
+    "bloques": [
       {
-        "title": "Qué son los derechos registrales",
-        "body": "Son las tasas que cobra la Superintendencia Nacional de los Registros Públicos (SUNARP) por inscribir un acto en sus registros. Se pagan en dos partes: el derecho de calificación, un porcentaje de la Unidad Impositiva Tributaria que cubre la revisión del título por el registrador, y el derecho de inscripción, que se calcula como un tanto por mil del valor del acto. Para el arancel de 2026 se usa la UIT de S/ 5,500. Si necesitas convertir la UIT a soles para otros trámites, usa la calculadora de [UIT a soles](/uit-a-soles)."
+        "tipo": "infografia",
+        "archivo": "derechos-registrales-sunarp.webp",
+        "alt": "Derechos de calificación e inscripción de SUNARP para la compra de un departamento",
+        "ancho": 800,
+        "alto": 801,
+        "titulo": "¿Qué pagas en SUNARP al comprar un departamento de S/ 300,000?"
       },
       {
-        "title": "Ejemplo: inscribir una compraventa de S/ 250,000",
-        "body": "El derecho de calificación es el 0.81% de la UIT: S/ 5,500 × 0.81% = S/ 44.55. El derecho de inscripción es el 3 por mil del precio: S/ 250,000 × 3 ÷ 1,000 = S/ 750. En total pagarías unos S/ 794.55 a SUNARP. A eso se suman los gastos notariales de la escritura y, para el comprador, el impuesto de alcabala que cobra la municipalidad."
+        "tipo": "pasos",
+        "titulo": "¿Cuáles son los pasos para inscribir una compraventa?",
+        "pasos": [
+          {
+            "titulo": "Firma la escritura pública",
+            "texto": "Ante notario, con el pago del impuesto de alcabala si corresponde."
+          },
+          {
+            "titulo": "El notario presenta el título",
+            "texto": "Normalmente la notaría envía los documentos a SUNARP."
+          },
+          {
+            "titulo": "Paga los derechos registrales",
+            "texto": "Calificación al presentar e inscripción según el valor del inmueble."
+          },
+          {
+            "titulo": "Espera la calificación",
+            "texto": "El registrador revisa el título y, si todo está en orden, inscribe la propiedad a tu nombre."
+          }
+        ]
       },
       {
-        "title": "Por qué el monto es referencial",
-        "body": "El monto exacto lo liquida el registrador al calificar tu título, y puede pedir un mayor derecho si el acto incluye varias partidas o actos adicionales. Las tasas se fijan en el arancel de SUNARP y pueden cambiar por resolución, así que antes de pagar compáralas con la calculadora oficial de sunarp.gob.pe. Si el precio de tu inmueble está en dólares, conviértelo primero a soles con el [conversor de moneda](/convertidor-moneda)."
+        "tipo": "tabla",
+        "titulo": "¿Cómo crecen los derechos registrales con el precio del inmueble?",
+        "cabeceras": [
+          "Precio",
+          "Calificación",
+          "Inscripción",
+          "Total"
+        ],
+        "filas": [
+          [
+            "S/ 150,000",
+            "S/ 44.55",
+            "S/ 450.00",
+            "S/ 494.55"
+          ],
+          [
+            "S/ 300,000",
+            "S/ 44.55",
+            "S/ 900.00",
+            "S/ 944.55"
+          ],
+          [
+            "S/ 500,000",
+            "S/ 44.55",
+            "S/ 1,500.00",
+            "S/ 1,544.55"
+          ]
+        ],
+        "nota": "Compraventa con UIT de S/ 5,500. Valores referenciales."
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otros costos tiene comprar una vivienda en Perú?",
+        "parrafos": [
+          "El IGV si compras a una constructora, que puedes calcular con la [calculadora de IGV](/calculadora-de-igv), y la cuota del crédito con la [calculadora de hipoteca](/calcular-hipoteca). Para pasar montos en UIT, usa el conversor de [UIT a soles](/uit-a-soles)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "SUNARP: Superintendencia Nacional de los Registros Públicos",
+            "url": "https://www.gob.pe/sunarp"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -28363,32 +28619,71 @@
     "webApp": true,
     "appCategory": "EducationalApplication",
     "intro": "Esta calculadora UPAO te ayuda a saber cómo vas en cada curso de la Universidad Privada Antenor Orrego. Escribe las notas que ya tienes en tus evaluaciones de proceso, el parcial y el final, y verás tu nota final redondeada o la nota que necesitas en lo que falta para aprobar con 11. En la segunda pestaña calculas tu promedio ponderado del ciclo según los créditos de cada curso. Los porcentajes vienen con la plantilla más habitual, pero puedes cambiarlos según tu sílabo.",
-    "howToUse": [
-      "Revisa en tu sílabo los porcentajes de cada evaluación y ajústalos si son distintos",
-      "Escribe las notas que ya tienes, de 0 a 20, y deja en blanco las pendientes",
-      "Lee tu nota final o el promedio que necesitas en las evaluaciones que faltan",
-      "En «Promedio por créditos», escribe la nota final y los créditos de cada curso del ciclo"
-    ],
-    "benefits": [
-      "Plantilla habitual de la UPAO: EP1, EVP, EP2 y EVF",
-      "Te dice la nota mínima que necesitas para aprobar",
-      "Aplica el redondeo: 10.5 sube a 11",
-      "Calcula el promedio ponderado del ciclo por créditos",
-      "Porcentajes y evaluaciones editables para cualquier curso",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Calcula tu promedio en la UPAO con las evaluaciones de proceso, parcial y final y sus pesos, y descubre qué nota necesitas en lo que falta para aprobar con 11 en la escala de 0 a 20.",
+    "bloques": [
       {
-        "title": "Cómo se calcula la nota de un curso en la UPAO",
-        "body": "En la UPAO las notas van de 0 a 20 y la nota final de un curso es un promedio ponderado: cada evaluación se multiplica por su porcentaje y se suman los resultados. Una plantilla frecuente es EP1 (evaluación de proceso 1) 20%, EVP (evaluación parcial) 30%, EP2 (evaluación de proceso 2) 20% y EVF (evaluación final) 30%, pero cada docente fija los pesos en el sílabo, así que conviene revisarlo. La nota aprobatoria es 11 y las fracciones de 0.5 o más se redondean al entero superior: un 10.5 se convierte en 11 y apruebas; un 10.4 queda en 10."
+        "tipo": "infografia",
+        "archivo": "nota-final-upao-ejemplo.webp",
+        "alt": "Evaluaciones de la UPAO con sus pesos y cálculo de la nota necesaria en el examen final",
+        "ancho": 800,
+        "alto": 751,
+        "titulo": "¿Qué nota necesita en el final un alumno con 12, 9 y 11?"
       },
       {
-        "title": "Ejemplo con notas reales",
-        "body": "Supón que sacaste 12 en la EP1, 9 en el parcial y 13 en la EP2. Llevas 12 × 0.20 + 9 × 0.30 + 13 × 0.20 = 7.7 puntos, con el 70% del curso evaluado. Para llegar a 10.5 te faltan 2.8 puntos, que en un final que vale 30% equivalen a una nota de 2.8 ÷ 0.30 = 9.33. Con un 10 en la EVF terminarías con 10.7, que se redondea a 11. Si tu escala de referencia es la de otra universidad, prueba la calculadora de [nota necesaria](/calculadora-nota-necesaria), que admite varias escalas."
+        "tipo": "tabla",
+        "titulo": "¿Qué pasa con el redondeo en la escala vigesimal?",
+        "cabeceras": [
+          "Promedio sin redondear",
+          "Nota final",
+          "Resultado"
+        ],
+        "filas": [
+          [
+            "10.4",
+            "10",
+            "Desaprobado"
+          ],
+          [
+            "10.5",
+            "11",
+            "Aprobado"
+          ],
+          [
+            "13.5",
+            "14",
+            "Aprobado"
+          ],
+          [
+            "16.49",
+            "16",
+            "Aprobado"
+          ]
+        ]
       },
       {
-        "title": "Promedio ponderado por créditos",
-        "body": "El promedio ponderado del ciclo multiplica la nota final de cada curso por sus créditos, suma los resultados y los divide entre el total de créditos. Un curso de 5 créditos pesa más que uno de 2. Por ejemplo, con 14 en un curso de 4 créditos y 11 en uno de 3, tu promedio es (56 + 33) ÷ 7 = 12.71. Si quieres el promedio simple de varias notas, usa la [calculadora de promedio](/calculadora-promedio) o la de [promedio ponderado](/calculadora-promedio-ponderado)."
+        "tipo": "consejos",
+        "titulo": "¿Cómo aprovechar mejor las evaluaciones de proceso?",
+        "items": [
+          {
+            "titulo": "No las descuides",
+            "texto": "Juntas pesan tanto como el parcial y el final en la plantilla habitual."
+          },
+          {
+            "titulo": "Calcula después de cada nota",
+            "texto": "Así sabes desde temprano cuánto necesitas en el final."
+          },
+          {
+            "titulo": "Revisa el sílabo",
+            "texto": "Algunos cursos usan otros pesos: cámbialos en la calculadora."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otras calculadoras sirven para la universidad?",
+        "parrafos": [
+          "El [promedio ponderado](/calculadora-promedio-ponderado) por créditos del ciclo, la [nota necesaria](/calculadora-nota-necesaria) para otras escalas y la [regla de tres](/calculadora-regla-de-tres) para convertir notas entre escalas."
+        ]
       }
     ],
     "faqs": [
@@ -28433,32 +28728,78 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "¿Cuántos newtons son 10 libras? Si una ficha técnica, un dinamómetro o un ejercicio de física te da una fuerza en libras (lb o lbf) y la necesitas en newtons (N), este convertidor hace la cuenta exacta al instante. También funciona al revés, de newtons a libras, y en kilonewtons para cargas grandes. Debajo tienes la fórmula, una tabla de equivalencias y un ejemplo resuelto para que entiendas de dónde sale cada número.",
-    "howToUse": [
-      "Escribe la cantidad de libras-fuerza que quieres convertir",
-      "Lee el resultado en newtons; se actualiza mientras escribes",
-      "Pulsa ⇄ si quieres convertir de newtons a libras",
-      "Elige la opción de kilonewtons en el selector para cargas grandes"
-    ],
-    "benefits": [
-      "Usa el factor exacto: 1 lbf = 4.4482216152605 N",
-      "Convierte en los dos sentidos: lb en N y newtons a lbs",
-      "Incluye kilonewtons para grúas, anclajes y estructuras",
-      "Muestra también la masa equivalente en kilogramos",
-      "Tabla de equivalencias rápidas incluida",
-      "Gratis y sin registro"
-    ],
-    "contentSections": [
+    "resumen": "Convierte libras fuerza (lbf) a newtons (N) y newtons a libras fuerza, con kilonewtons y kilogramos fuerza. Útil para fichas técnicas, torques, cargas de cuerdas y ejercicios de física.",
+    "bloques": [
       {
-        "title": "Qué es una libra-fuerza y qué es un newton",
-        "body": "El newton (N) es la unidad de fuerza del Sistema Internacional: la fuerza necesaria para acelerar 1 kg a 1 m/s². La libra-fuerza (lbf), muy usada en Estados Unidos, es el peso de una libra de masa (0.45359237 kg) bajo la gravedad estándar de 9.80665 m/s². En el uso cotidiano se dice simplemente «libras», aunque en física conviene distinguir entre la libra de masa y la libra de fuerza. Si lo que tienes es una masa en libras y la quieres en kilos, usa nuestro convertidor de [libras a kilos](/libras-a-kilos)."
+        "tipo": "infografia",
+        "archivo": "libras-fuerza-a-newtons.webp",
+        "alt": "Equivalencias de libras fuerza a newtons y diferencia entre libra masa y libra fuerza",
+        "ancho": 800,
+        "alto": 824,
+        "titulo": "¿Qué tabla de equivalencias usar entre lbf y newtons?"
       },
       {
-        "title": "Fórmula para convertir lb en N",
-        "body": "Como 1 lbf = 0.45359237 kg × 9.80665 m/s², el factor exacto es 4.4482216152605. Para pasar de libras a newtons multiplica por 4.448; para pasar de newtons a libras divide entre 4.448 o multiplica por 0.2248. Por ejemplo, 1 N son 0.2248 lbf y 1 kN son unas 224.81 lbf. Si trabajas con otras magnitudes, el [convertidor de unidades](/convertidor-unidades) incluye longitud, peso, volumen y temperatura."
+        "tipo": "tabla",
+        "titulo": "¿Cómo se relacionan las unidades de fuerza más usadas?",
+        "cabeceras": [
+          "Unidad",
+          "En newtons"
+        ],
+        "filas": [
+          [
+            "1 libra fuerza (lbf)",
+            "4.448 N"
+          ],
+          [
+            "1 kilogramo fuerza (kgf)",
+            "9.807 N"
+          ],
+          [
+            "1 kilonewton (kN)",
+            "1,000 N"
+          ],
+          [
+            "1 dina",
+            "0.00001 N"
+          ]
+        ]
       },
       {
-        "title": "Ejemplo resuelto: 150 libras en newtons",
-        "body": "Una persona de 150 libras ejerce sobre el suelo una fuerza de 150 × 4.4482 = 667.23 N. Una llave de torque que marca 50 lbf de fuerza en el mango equivale a 222.41 N. Y un cable con una resistencia de 2,000 lbf soporta 8,896.44 N, es decir, 8.9 kN. En todos los casos basta multiplicar las libras por 4.4482."
+        "tipo": "escenarios",
+        "titulo": "¿Dónde aparecen libras fuerza en la vida real?",
+        "items": [
+          {
+            "titulo": "Arco de tiro",
+            "situacion": "Un arco de 40 lb necesita unos 178 N de fuerza para tensarse por completo.",
+            "resultado": "178 N"
+          },
+          {
+            "titulo": "Cuerda o eslinga",
+            "situacion": "Una carga de trabajo de 500 lb equivale a unos 2.2 kN.",
+            "resultado": "2.2 kN"
+          },
+          {
+            "titulo": "Torque de un auto",
+            "situacion": "En lb·ft: 100 lb·ft son unos 135.6 N·m.",
+            "resultado": "135.6 N·m"
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otros conversores de unidades hay?",
+        "parrafos": [
+          "Para masa, el conversor de [libras a kilos](/libras-a-kilos); para presión, el de [bar a PSI](/bar-a-psi), y para cualquier otra unidad, el [convertidor de unidades](/convertidor-unidades)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "NIST: Guía para el uso del Sistema Internacional (SP 811)",
+            "url": "https://www.nist.gov/pml/special-publication-811"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -28504,31 +28845,81 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Si sos docente en la Provincia de Buenos Aires, esta calculadora te ayuda a estimar tu sueldo como lo hacen las calculadoras gremiales de SUTEBA: elegís tu cargo, cargás tus años de antigüedad y obtenés el básico por índice, la bonificación por antigüedad, las bonificaciones de los códigos 438 y 455, la compensación provincial y los descuentos de IPS e IOMA. Viene con los valores de referencia de agosto de 2026, y cada monto se puede editar para ajustarlo a tu recibo o a un nuevo acuerdo paritario.",
-    "howToUse": [
-      "Elegí tu cargo: se completan el índice y las bonificaciones de referencia",
-      "Cargá tus años de antigüedad docente; el porcentaje se calcula solo",
-      "Compará el valor del índice y los códigos con tu recibo y corregilos si cambiaron",
-      "Tocá «Calcular sueldo docente» y revisá el desglose del bruto y el neto"
-    ],
-    "benefits": [
-      "Básico calculado por índice sobre el valor del cargo testigo",
-      "Tabla de antigüedad completa: de 21% a 125%",
-      "Incluye los códigos 438 y 455 y la compensación provincial",
-      "Descuenta IPS (16%) e IOMA (4,8%) sobre lo remunerativo",
-      "Todos los montos son editables para cada paritaria"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el sueldo docente en la Provincia de Buenos Aires con las referencias de agosto de 2026: básico por índice, bonificación por antigüedad, códigos 438 y 455, compensación provincial y descuentos de IPS e IOMA. No es la calculadora oficial del gremio.",
+    "bloques": [
       {
-        "title": "Cómo se calcula el sueldo docente en la Provincia de Buenos Aires",
-        "body": "El sueldo docente bonaerense parte del básico de tu cargo, que se obtiene multiplicando el índice del cargo por el valor del índice del cargo testigo. Sobre el básico se aplica la bonificación por antigüedad, que va del 21% en los primeros años al 125% a partir de los 24 años. Se suman las bonificaciones remunerativas de suma fija, como las de los códigos 438 y 455, y la compensación provincial que reemplazó al FONID, que no tiene descuentos. Sobre lo remunerativo se descuentan el 16% de aporte al IPS y el 4,8% de IOMA."
+        "tipo": "infografia",
+        "archivo": "sueldo-docente-provincia-buenos-aires.webp",
+        "alt": "Recibo de sueldo de un maestro de grado bonaerense con antigüedad, códigos, IPS e IOMA",
+        "ancho": 800,
+        "alto": 854,
+        "titulo": "¿Qué conceptos forman el recibo de un maestro de grado?"
       },
       {
-        "title": "Ejemplo: maestra de grado con 10 años de antigüedad",
-        "body": "Con los valores de referencia de agosto de 2026, el básico de un cargo de índice 1,1 es $349.693 × 1,1 = $384.662,30. Con 10 años le corresponde un 54% de antigüedad, $207.717,64. Sumando los códigos 438 ($278.750) y 455 ($141.881), el total remunerativo es de $1.013.010,94; con la compensación de $30.709, el bruto llega a $1.043.719,94. Los descuentos de IPS e IOMA suman $210.706,28, así que el neto estimado ronda $833.014. Tu recibo puede tener otros códigos que cambian el resultado. Si trabajás también en el sector privado, podés comparar con la calculadora de [empleados de comercio](/calculadora-empleados-de-comercio)."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto cambia el neto según los años de antigüedad?",
+        "intro": "Maestro/a de grado, jornada simple, referencias de agosto de 2026:",
+        "cabeceras": [
+          "Antigüedad",
+          "Bonificación",
+          "Neto aproximado"
+        ],
+        "filas": [
+          [
+            "0 años",
+            "21 %",
+            "$732.478,33"
+          ],
+          [
+            "5 años",
+            "33 %",
+            "$769.036,63"
+          ],
+          [
+            "10 años",
+            "54 %",
+            "$833.013,67"
+          ],
+          [
+            "20 años",
+            "105 %",
+            "$988.386,46"
+          ]
+        ]
       },
       {
-        "title": "Por qué tu recibo puede ser distinto",
-        "body": "Los montos cambian con cada acuerdo paritario y algunos conceptos dependen de tu situación: zona desfavorable, ruralidad, cargos jerárquicos, módulos u horas cátedra, o la cuota sindical si estás afiliado. Por eso la calculadora deja editar cada código. Para el medio aguinaldo de junio y diciembre podés usar la calculadora de [SAC](/calcular-sac-argentina)."
+        "tipo": "glosario",
+        "titulo": "¿Qué es cada concepto del recibo docente bonaerense?",
+        "items": [
+          [
+            "Índice",
+            "Multiplicador del cargo sobre el valor del cargo testigo: 1,1 para maestro de grado de jornada simple."
+          ],
+          [
+            "Código 438 y 455",
+            "Bonificaciones remunerativas fijadas en las paritarias."
+          ],
+          [
+            "Compensación provincial",
+            "Monto que reemplazó al FONID y a conectividad; no tiene descuentos."
+          ],
+          [
+            "IPS e IOMA",
+            "Aportes al Instituto de Previsión Social (16 %) y a la obra social provincial (4,8 %)."
+          ]
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "ambar",
+        "texto": "Los montos cambian con cada acuerdo paritario. La herramienta permite editarlos: compáralos siempre con tu recibo."
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otros cálculos sirven a docentes?",
+        "parrafos": [
+          "El [aguinaldo o SAC](/calcular-sac-argentina), la [calculadora de inflación](/calculadora-inflacion) para ver cuánto rinde tu sueldo y el [promedio ponderado](/calculadora-promedio-ponderado) para cerrar notas."
+        ]
       }
     ],
     "faqs": [
@@ -28573,31 +28964,65 @@
     "webApp": true,
     "appCategory": "GameApplication",
     "intro": "¿Qué pasa con la tabla si tu equipo gana el próximo partido? Con este simulador de la Liga 1 puedes cargar los resultados que imagines y ver al instante cómo cambia la tabla de posiciones del Torneo Clausura 2026. Parte de la tabla real tras la fecha 10, con los 18 equipos y los puntos descontados por sanción, y te muestra cuántos puestos sube o baja cada club con tus resultados.",
-    "howToUse": [
-      "Elige el equipo local y el visitante",
-      "Escribe los goles de cada uno y pulsa «Simular resultado»",
-      "Agrega todos los partidos que quieras; la tabla se recalcula sola",
-      "Quita un resultado con la × o pulsa «Reiniciar» para volver a la tabla real"
-    ],
-    "benefits": [
-      "Tabla real del Clausura 2026 como punto de partida",
-      "Recalcula puntos, diferencia de goles y posiciones al instante",
-      "Muestra cuántos puestos sube o baja cada equipo",
-      "Incluye los puntos descontados por sanción",
-      "Gratis, sin registro y en tu navegador"
-    ],
-    "contentSections": [
+    "resumen": "Simula los resultados del Torneo Clausura 2026 de la Liga 1 de Perú: escribe los marcadores de los partidos que faltan y mira cómo cambia la tabla de posiciones, ordenada por puntos, diferencia de goles y goles a favor.",
+    "bloques": [
       {
-        "title": "Cómo se ordena la tabla de la Liga 1",
-        "body": "En la Liga 1 cada victoria vale 3 puntos, el empate 1 y la derrota 0. Si dos equipos empatan en puntos, se ordenan por diferencia de goles y luego por goles a favor. Si el empate sigue, las bases del torneo miran el resultado entre ellos, el fair play y, como último recurso, un sorteo. El simulador aplica los tres primeros criterios, que resuelven casi todos los casos."
+        "tipo": "infografia",
+        "archivo": "desempate-tabla-liga-1.webp",
+        "alt": "Tabla del Clausura 2026 de la Liga 1 y criterios de desempate con tres equipos igualados en puntos",
+        "ancho": 800,
+        "alto": 826,
+        "titulo": "¿Cómo quedó la parte alta de la tabla tras la fecha 10?"
       },
       {
-        "title": "Formato de la Liga 1 2026",
-        "body": "La temporada tiene dos torneos, el Apertura y el Clausura, en los que los 18 equipos se enfrentan una vez, en 17 fechas. La suma de ambos forma la tabla acumulada, que define los cupos a la Copa Libertadores y la Copa Sudamericana y los descensos. Los ganadores del Apertura y del Clausura y los primeros de la tabla acumulada disputan los playoffs por el título. Si te gustan los sorteos y las predicciones, prueba también la [ruleta aleatoria](/ruleta-aleatoria-online) o el [generador de equipos](/generador-equipos)."
+        "tipo": "pasos",
+        "titulo": "¿Cómo usar el simulador para predecir la tabla?",
+        "pasos": [
+          {
+            "titulo": "Elige el partido",
+            "texto": "Selecciona el equipo local y el visitante."
+          },
+          {
+            "titulo": "Escribe el marcador",
+            "texto": "Los goles de cada uno; la tabla se recalcula al instante."
+          },
+          {
+            "titulo": "Agrega más resultados",
+            "texto": "Simula una fecha completa o todo lo que queda del torneo."
+          },
+          {
+            "titulo": "Compara escenarios",
+            "texto": "Cambia un resultado para ver qué necesita tu equipo."
+          }
+        ]
       },
       {
-        "title": "Ejemplo de simulación",
-        "body": "Tras la fecha 10, Deportivo Garcilaso lidera con 22 puntos y Universitario lo sigue con 20. Si simulas una victoria de Universitario por 2-0 y un empate de Garcilaso, ambos quedan con 23 puntos y el desempate se decide por diferencia de goles: Garcilaso llega con +12 y Universitario con +5, así que Garcilaso seguiría primero. Prueba tus propios resultados para ver qué necesita tu equipo."
+        "tipo": "cifras",
+        "items": [
+          [
+            "17",
+            "fechas tiene el Clausura 2026"
+          ],
+          [
+            "18",
+            "equipos"
+          ],
+          [
+            "3",
+            "puntos por victoria"
+          ],
+          [
+            "−5",
+            "puntos de sanción a UTC"
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otras herramientas sirven para el fútbol?",
+        "parrafos": [
+          "Forma equipos para una pichanga con el [generador de equipos](/generador-equipos), sortea quién saca con [cara o cruz](/cara-o-cruz) y organiza una polla con el [sorteo online](/sorteo-online)."
+        ]
       }
     ],
     "faqs": [

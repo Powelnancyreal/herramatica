@@ -1378,5 +1378,65 @@
     "alt": "Ejemplos de excusas creíbles y absurdas para llegar tarde y para no hacer la tarea",
     "ancho": 800,
     "alto": 750
+  },
+  "equivalencias-tallas-anillo": {
+    "archivo": "equivalencias-tallas-anillo.webp",
+    "alt": "Tallas de anillo de la 5 a la 9 con su diámetro interior y equivalencias en Europa, España y Reino Unido",
+    "ancho": 800,
+    "alto": 722
+  },
+  "finiquito-renuncia-vs-despido-mexico": {
+    "archivo": "finiquito-renuncia-vs-despido-mexico.webp",
+    "alt": "Comparación de finiquito por renuncia y por despido injustificado en México con el mismo salario y antigüedad",
+    "ancho": 800,
+    "alto": 730
+  },
+  "calculo-4x1000-cuenta-exenta": {
+    "archivo": "calculo-4x1000-cuenta-exenta.webp",
+    "alt": "Cálculo del 4x1000 en Colombia con la parte exenta de 350 UVT y ejemplos de retiros",
+    "ancho": 800,
+    "alto": 710
+  },
+  "nota-necesaria-tres-cortes": {
+    "archivo": "nota-necesaria-tres-cortes.webp",
+    "alt": "Cálculo de la nota que se necesita en el tercer corte para aprobar con 3,0 en Colombia",
+    "ancho": 800,
+    "alto": 650
+  },
+  "recibo-empleado-comercio-2026": {
+    "archivo": "recibo-empleado-comercio-2026.webp",
+    "alt": "Recibo de sueldo de un vendedor B de comercio con haberes, descuentos y neto",
+    "ancho": 800,
+    "alto": 748
+  },
+  "derechos-registrales-sunarp": {
+    "archivo": "derechos-registrales-sunarp.webp",
+    "alt": "Derechos de calificación e inscripción de SUNARP para la compra de un departamento",
+    "ancho": 800,
+    "alto": 801
+  },
+  "nota-final-upao-ejemplo": {
+    "archivo": "nota-final-upao-ejemplo.webp",
+    "alt": "Evaluaciones de la UPAO con sus pesos y cálculo de la nota necesaria en el examen final",
+    "ancho": 800,
+    "alto": 751
+  },
+  "libras-fuerza-a-newtons": {
+    "archivo": "libras-fuerza-a-newtons.webp",
+    "alt": "Equivalencias de libras fuerza a newtons y diferencia entre libra masa y libra fuerza",
+    "ancho": 800,
+    "alto": 824
+  },
+  "sueldo-docente-provincia-buenos-aires": {
+    "archivo": "sueldo-docente-provincia-buenos-aires.webp",
+    "alt": "Recibo de sueldo de un maestro de grado bonaerense con antigüedad, códigos, IPS e IOMA",
+    "ancho": 800,
+    "alto": 854
+  },
+  "desempate-tabla-liga-1": {
+    "archivo": "desempate-tabla-liga-1.webp",
+    "alt": "Tabla del Clausura 2026 de la Liga 1 y criterios de desempate con tres equipos igualados en puntos",
+    "ancho": 800,
+    "alto": 826
   }
 }
