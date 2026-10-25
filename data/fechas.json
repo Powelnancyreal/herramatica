@@ -902,122 +902,122 @@
     },
     "millas-a-kilometros": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "ccc326538586",
+      "actualizado": "2026-10-25",
+      "contenido": "c490125d5916",
       "componente": "78e3772afb80"
     },
     "pies-a-metros": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "b51ea7e4bdbd",
+      "actualizado": "2026-10-25",
+      "contenido": "359324b4638e",
       "componente": "9307b953efb9"
     },
     "litros-a-galones": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "f08fd31ddb7d",
+      "actualizado": "2026-10-25",
+      "contenido": "46ebed4f1ce5",
       "componente": "bf5d096e3dfe"
     },
     "validar-curp": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "a188a8768521",
+      "actualizado": "2026-10-25",
+      "contenido": "74334e411473",
       "componente": "9f0bd1e9e348"
     },
     "dividir-cuenta": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "35c85d5c0753",
+      "actualizado": "2026-10-25",
+      "contenido": "80d2c48ef7de",
       "componente": "dc0a2125d268"
     },
     "hora-militar": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "6b088a1610fb",
+      "actualizado": "2026-10-25",
+      "contenido": "fbfc32779116",
       "componente": "9c27df01d55a"
     },
     "calculadora-promedio": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "6d61b666f23f",
+      "actualizado": "2026-10-25",
+      "contenido": "78a4ded5b256",
       "componente": "c98bc8a71763"
     },
     "calculadora-fracciones": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "2429e8ac7e09",
+      "actualizado": "2026-10-25",
+      "contenido": "4a5c4c4cb6ff",
       "componente": "353e16488b81"
     },
     "calculadora-mcd-mcm": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "3172be2cf820",
+      "actualizado": "2026-10-25",
+      "contenido": "979a879870ec",
       "componente": "5bce0c90247e"
     },
     "calculadora-pitagoras": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "59277e34aca9",
+      "actualizado": "2026-10-25",
+      "contenido": "2afa8f4fdfce",
       "componente": "6e55e5a0b390"
     },
     "calculadora-factorial": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "173cad35021c",
+      "actualizado": "2026-10-25",
+      "contenido": "89f114fc9f75",
       "componente": "e06d728a3186"
     },
     "calculadora-desviacion-estandar": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "c45075e766b3",
+      "actualizado": "2026-10-25",
+      "contenido": "af801e3f70c6",
       "componente": "f2f0eb6b824d"
     },
     "tablas-de-multiplicar": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "49d0d6dd0e1c",
+      "actualizado": "2026-10-25",
+      "contenido": "58e3eb8141e4",
       "componente": "824c48943ac3"
     },
     "edad-de-mi-perro": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "6c23a4ed6fa2",
+      "actualizado": "2026-10-25",
+      "contenido": "cec92186573e",
       "componente": "e88e61f537ac"
     },
     "decodificador-jwt": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "a1bbd3b07caf",
+      "actualizado": "2026-10-25",
+      "contenido": "d6fcca50cbd6",
       "componente": "6eb5aaef8e49"
     },
     "conversor-csv-json": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "04afd2a61f3d",
+      "actualizado": "2026-10-25",
+      "contenido": "7cc6ca7d706c",
       "componente": "7fefa832f697"
     },
     "codificador-url": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "c8410b39b680",
+      "actualizado": "2026-10-25",
+      "contenido": "2cd2b30cc87c",
       "componente": "8f5a4215e79c"
     },
     "minificador-codigo": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-04",
-      "contenido": "4feb640d344a",
+      "actualizado": "2026-10-25",
+      "contenido": "0d3b76aa43db",
       "componente": "32f608d36387"
     },
     "generador-datos-prueba": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "ca33f99ae054",
+      "actualizado": "2026-10-25",
+      "contenido": "9efba64e1afe",
       "componente": "67b924113c0d"
     },
     "generador-paleta-colores": {
       "creado": "2026-09-30",
-      "actualizado": "2026-09-30",
-      "contenido": "b4e207233ba8",
+      "actualizado": "2026-10-25",
+      "contenido": "9df9f23f0a16",
       "componente": "4d199ab0f165"
     },
     "selector-de-color": {

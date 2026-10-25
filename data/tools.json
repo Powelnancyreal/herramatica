@@ -18235,36 +18235,101 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Estados Unidos y el Reino Unido miden las distancias y velocidades de carretera en millas, y en navegación y aviación se usa la milla náutica. Este convertidor pasa millas terrestres o náuticas a kilómetros con los factores exactos. Muestra también el resultado en metros y cuánto tardarías en recorrer esa distancia a 100 km/h. Incluye una tabla con distancias clásicas de carreras, como la media maratón y el maratón.",
-    "howToUse": [
-      "Elige el tipo de milla: terrestre (carreteras, carreras) o náutica (mar y aire)",
-      "Escribe la distancia en millas",
-      "Lee el resultado en kilómetros y metros",
-      "Pulsa ⇄ para convertir de kilómetros a millas"
-    ],
-    "benefits": [
-      "Milla terrestre (1.609344 km) y náutica (1.852 km)",
-      "Tabla con distancias de 5K, 10K, media maratón y maratón",
-      "Estimación de tiempo de viaje a 100 km/h",
-      "Útil también para velocidades: mph a km/h con el mismo factor",
-      "Conversión inversa de kilómetros a millas",
-      "Sin registro y al instante"
-    ],
-    "contentSections": [
+    "resumen": "Convierte millas a kilómetros y kilómetros a millas al instante, también millas por hora a km/h y millas náuticas. Útil para manejar en Estados Unidos, leer el velocímetro de un auto importado o seguir un plan de carrera en inglés.",
+    "bloques": [
       {
-        "title": "Cuántos kilómetros tiene una milla",
-        "body": "Una milla terrestre, también llamada milla internacional o estatutaria, mide exactamente 1.609344 kilómetros, es decir, 1,609.344 metros. Para convertir millas a kilómetros, multiplica por 1.609344; para una estimación rápida, por 1.6. Así, 10 millas son 16.09 km y 60 millas, 96.56 km. Para la operación inversa, divide los kilómetros entre 1.609 o multiplícalos por 0.621."
+        "tipo": "infografia",
+        "archivo": "millas-por-hora-a-kmh.webp",
+        "alt": "Señales de límite de velocidad en millas por hora con su equivalencia en km/h y truco de Fibonacci",
+        "ancho": 800,
+        "alto": 817,
+        "titulo": "¿Qué velocidad marcan en km/h las señales de tráfico de Estados Unidos?"
       },
       {
-        "title": "Velocidades: de mph a km/h",
-        "body": "El mismo factor sirve para velocidades. Un límite de 65 mph en una carretera estadounidense equivale a 104.6 km/h, y 55 mph son 88.5 km/h. Si rentas un auto en Estados Unidos, el velocímetro suele marcar ambas escalas, pero las señales solo indican millas por hora. Conocer las equivalencias de 25, 45, 55 y 65 mph te ayuda a respetar los límites y evitar multas."
+        "tipo": "tabla",
+        "titulo": "¿Cuántos kilómetros son las distancias de carrera y de viaje más habituales?",
+        "cabeceras": [
+          "Millas",
+          "Kilómetros",
+          "Dónde la verás"
+        ],
+        "filas": [
+          [
+            "1",
+            "1.61",
+            "La milla clásica de atletismo"
+          ],
+          [
+            "3.1",
+            "5.0",
+            "Una carrera de 5K"
+          ],
+          [
+            "6.2",
+            "10.0",
+            "Una carrera de 10K"
+          ],
+          [
+            "13.1",
+            "21.1",
+            "Medio maratón"
+          ],
+          [
+            "50",
+            "80.5",
+            "Ultramaratón corto"
+          ],
+          [
+            "250",
+            "402.3",
+            "Un tramo largo de carretera en EE. UU."
+          ]
+        ]
       },
       {
-        "title": "Distancias de carreras",
-        "body": "Las carreras de fondo mezclan ambas unidades. Una carrera de 5K son 3.1 millas y una de 10K, 6.2 millas. La media maratón mide 13.1 millas (21.0975 km) y el maratón, 26.2 millas (42.195 km). Muchas aplicaciones de running permiten elegir la unidad; si entrenas con un plan en inglés que habla de millas por semana, conviértelas para planear tus rutas."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo pasar millas a kilómetros de cabeza?",
+        "datos": [
+          [
+            "Distancia",
+            "45 millas"
+          ],
+          [
+            "Factor aproximado",
+            "1.6"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Multiplica por 1 y quédate con el número.",
+            "operacion": "45 × 1 = 45"
+          },
+          {
+            "texto": "Saca el 60 % y súmalo.",
+            "operacion": "45 × 0.6 = 27 → 45 + 27 = 72 km"
+          },
+          {
+            "texto": "El valor exacto, con 1.609344, apenas cambia.",
+            "operacion": "45 × 1.609344 = 72.42 km"
+          }
+        ]
       },
       {
-        "title": "La milla náutica y el truco de Fibonacci",
-        "body": "La milla náutica mide 1,852 metros y se basa en un minuto de arco de latitud terrestre, por eso se usa en navegación marítima y aérea. Un nudo es una milla náutica por hora. En cuanto a la milla terrestre, existe un truco curioso: los números consecutivos de la sucesión de Fibonacci (3, 5, 8, 13, 21) sirven como conversión aproximada, porque su razón se acerca a 1.618. Así, 5 millas ≈ 8 km, 8 millas ≈ 13 km y 13 millas ≈ 21 km."
+        "tipo": "texto",
+        "titulo": "¿Dónde aparecen millas aunque tu país use kilómetros?",
+        "parrafos": [
+          "En autos traídos de Estados Unidos, cuyo velocímetro marca en mph; en relojes y apps de running configurados en inglés; y en la aviación y la navegación, que usan millas náuticas y nudos.",
+          "Para calcular a qué ritmo vas en cada caso, usa la [calculadora de ritmo](/calcular-ritmo) o la de [velocidad, distancia y tiempo](/calcular-velocidad-distancia-tiempo). Otras medidas las tienes en el [convertidor de unidades](/convertidor-unidades)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "NIST: equivalencias de unidades del sistema inglés (Handbook 44, apéndice C)",
+            "url": "https://www.nist.gov/pml/owm/nist-handbook-44-current-edition"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -18318,36 +18383,98 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "El pie es la unidad de longitud que usan Estados Unidos y la aviación para medir estaturas, alturas de vuelo, casas y terrenos. Este convertidor pasa pies a metros con el valor exacto. Tiene también un conversor especial para estaturas escritas en pies y pulgadas, como 5′9″, que da el resultado en metros y centímetros. Incluye una tabla de referencia y la conversión inversa de metros a pies y pulgadas.",
-    "howToUse": [
-      "Escribe la medida en pies (ft) y lee el resultado en metros y centímetros",
-      "Para una estatura, usa el recuadro de pies y pulgadas: por ejemplo, 5 pies y 9 pulgadas",
-      "Pulsa ⇄ para convertir metros a pies; el resultado aparece también en pies y pulgadas",
-      "Consulta la tabla para medidas frecuentes"
-    ],
-    "benefits": [
-      "Factor exacto: 1 pie = 0.3048 m",
-      "Convertidor de estaturas en pies y pulgadas",
-      "Resultado inverso en formato de pies y pulgadas",
-      "Tabla con alturas de vuelo y medidas de construcción",
-      "Muestra metros y centímetros a la vez",
-      "Gratis y fácil de usar en el celular"
-    ],
-    "contentSections": [
+    "resumen": "Convierte pies a metros y metros a pies, incluidas medidas mixtas como 5 pies 9 pulgadas. Sirve para estaturas, planos de casas, contenedores, altitud de vuelo y superficies en pies cuadrados.",
+    "bloques": [
       {
-        "title": "Cuántos metros tiene un pie",
-        "body": "Un pie mide exactamente 0.3048 metros, o 30.48 centímetros, por un acuerdo internacional de 1959. Un pie tiene 12 pulgadas, y cada pulgada mide 2.54 cm. Para convertir pies a metros, multiplica por 0.3048; para una idea rápida, multiplica por 0.3. Así, 10 pies son 3.05 m y 100 pies, 30.48 m. Para convertir metros a pies, divide entre 0.3048 o multiplica por 3.281."
+        "tipo": "cifras",
+        "items": [
+          [
+            "30.48 cm",
+            "mide un pie exacto desde 1959"
+          ],
+          [
+            "12",
+            "pulgadas tiene cada pie"
+          ],
+          [
+            "2.54 cm",
+            "mide una pulgada"
+          ],
+          [
+            "3.28",
+            "pies tiene aproximadamente un metro"
+          ]
+        ]
       },
       {
-        "title": "Cómo convertir tu estatura",
-        "body": "En Estados Unidos la estatura se expresa en pies y pulgadas, por ejemplo 5′9″, que se lee «cinco pies nueve pulgadas». Para pasarla a metros, multiplica los pies por 30.48 y las pulgadas por 2.54, suma y divide entre 100. Con 5′9″: 5 × 30.48 = 152.4 cm, más 9 × 2.54 = 22.86 cm, da 175.26 cm, o 1.75 m. El recuadro especial de la herramienta hace este cálculo por ti."
+        "tipo": "infografia",
+        "archivo": "estaturas-pies-a-metros.webp",
+        "alt": "Estaturas en pies y pulgadas convertidas a metros y otras equivalencias de pies",
+        "ancho": 800,
+        "alto": 774,
+        "titulo": "¿Cómo leer las estaturas de fichas y licencias estadounidenses?"
       },
       {
-        "title": "Pies en la aviación y la construcción",
-        "body": "La altitud de los aviones se mide en pies en casi todo el mundo. Un vuelo comercial suele ir a unos 35,000 pies, es decir, a unos 10,700 metros. En Estados Unidos, las casas y departamentos se anuncian en pies cuadrados; un pie cuadrado equivale a 0.0929 metros cuadrados. Para convertir una superficie, no uses el factor lineal: multiplica los pies cuadrados por 0.0929."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se convierte una estatura que mezcla pies y pulgadas?",
+        "datos": [
+          [
+            "Estatura",
+            "5' 11\""
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Pasa los pies a centímetros.",
+            "operacion": "5 × 30.48 = 152.40 cm"
+          },
+          {
+            "texto": "Pasa las pulgadas a centímetros.",
+            "operacion": "11 × 2.54 = 27.94 cm"
+          },
+          {
+            "texto": "Suma las dos partes.",
+            "operacion": "152.40 + 27.94 = 180.34 cm ≈ 1.80 m"
+          }
+        ]
       },
       {
-        "title": "Pies, pulgadas y yardas",
-        "body": "El sistema anglosajón encadena varias unidades: 12 pulgadas forman un pie, 3 pies forman una yarda (0.9144 m) y 5,280 pies forman una milla (1,609.34 m). En deportes como el fútbol americano, las distancias se miden en yardas, y en las medidas de pantallas y llantas se usan pulgadas. Nuestro convertidor de centímetros a pulgadas complementa esta herramienta."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto miden en metros las medidas en pies de obras y mudanzas?",
+        "cabeceras": [
+          "Medida",
+          "Pies",
+          "Metros"
+        ],
+        "filas": [
+          [
+            "Altura típica de techo en EE. UU.",
+            "8",
+            "2.44"
+          ],
+          [
+            "Contenedor marítimo corto",
+            "20",
+            "6.10"
+          ],
+          [
+            "Contenedor marítimo largo",
+            "40",
+            "12.19"
+          ],
+          [
+            "Lote estándar en planos estadounidenses",
+            "50 × 100",
+            "15.24 × 30.48"
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Por qué los aviones miden la altitud en pies?",
+        "parrafos": [
+          "Es una convención de la aviación internacional que siguen la mayoría de los países, México incluido. Un avión comercial suele volar entre 33,000 y 39,000 pies, de 10 a 12 km. Para pulgadas sueltas usa el conversor de [centímetros a pulgadas](/cm-a-pulgadas) y para el resto de unidades, el [convertidor de unidades](/convertidor-unidades)."
+        ]
       }
     ],
     "faqs": [
@@ -18401,36 +18528,78 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "El galón aparece en cubetas de pintura, garrafones, precios de gasolina en Estados Unidos y fichas técnicas de motores, pero hay dos galones distintos: el estadounidense y el británico. Este convertidor te deja elegir cuál usar y pasa litros a galones, o al revés, con los factores exactos. También muestra el resultado en mililitros y onzas líquidas, e incluye una tabla con las cantidades más frecuentes.",
-    "howToUse": [
-      "Elige el tipo de galón: estadounidense (3.785 L) o imperial británico (4.546 L)",
-      "Escribe la cantidad de litros",
-      "Lee el resultado en galones",
-      "Pulsa ⇄ para convertir de galones a litros"
-    ],
-    "benefits": [
-      "Galón estadounidense e imperial con factores exactos",
-      "Conversión en ambos sentidos",
-      "Equivalencias en mililitros y onzas líquidas",
-      "Tabla de 1 a 100 litros",
-      "Útil para gasolina, pintura, agua y acuarios",
-      "Gratis y al instante"
-    ],
-    "contentSections": [
+    "resumen": "Pasa litros a galones y galones a litros, con el galón estadounidense (3.785 L) o el imperial británico (4.546 L). Para comprar pintura, llenar un tinaco, comparar el precio de la gasolina o seguir una receta en inglés.",
+    "bloques": [
       {
-        "title": "Cuántos litros tiene un galón",
-        "body": "El galón estadounidense tiene exactamente 3.785411784 litros. Es el que se usa en Estados Unidos para la gasolina, la leche y la pintura, y el que suelen indicar las cubetas y los productos importados en México. El galón imperial británico tiene 4.54609 litros, un 20% más, y se usa en el Reino Unido y algunos países del Caribe. Para convertir litros a galones estadounidenses, divide entre 3.785; por ejemplo, 20 litros son 5.28 galones."
+        "tipo": "infografia",
+        "archivo": "galon-estadounidense-imperial-litros.webp",
+        "alt": "Litros del galón estadounidense, del galón imperial y de una cubeta de 19 litros",
+        "ancho": 800,
+        "alto": 850,
+        "titulo": "¿Por qué existen dos galones de distinto tamaño?"
       },
       {
-        "title": "Gasolina: precio por litro y por galón",
-        "body": "En Estados Unidos la gasolina se vende por galón; en México y la mayoría de los países de habla hispana, por litro. Para comparar precios, divide el precio por galón entre 3.785 para obtener el precio por litro, sin olvidar convertir de dólares a pesos. El rendimiento también cambia de unidad: 30 millas por galón equivalen a unos 12.8 km por litro."
+        "tipo": "tabla",
+        "titulo": "¿Cuántos litros tienen los envases y tanques que se venden por galón?",
+        "cabeceras": [
+          "Envase",
+          "Galones (EE. UU.)",
+          "Litros"
+        ],
+        "filas": [
+          [
+            "Bote de pintura",
+            "1",
+            "3.79"
+          ],
+          [
+            "Cubeta grande",
+            "5",
+            "18.93"
+          ],
+          [
+            "Pecera pequeña",
+            "10",
+            "37.85"
+          ],
+          [
+            "Tanque de un auto compacto",
+            "12",
+            "45.42"
+          ],
+          [
+            "Tambo metálico",
+            "55",
+            "208.20"
+          ]
+        ]
       },
       {
-        "title": "Pintura, agua y otros usos",
-        "body": "Una cubeta de pintura de 19 litros equivale a 5 galones estadounidenses, y un galón de pintura, a unos 3.8 litros. Los fabricantes indican cuántos metros cuadrados cubre cada galón, así que conviene convertir antes de comprar. Los acuarios y las peceras se venden a menudo por galones: una pecera de 20 galones tiene unos 76 litros. En ingeniería y agricultura, los caudales pueden expresarse en galones por minuto."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo comparar el precio de la gasolina por galón con el precio por litro?",
+        "datos": [
+          [
+            "Precio en EE. UU.",
+            "3.50 dólares por galón"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Divide el precio entre los litros de un galón.",
+            "operacion": "3.50 ÷ 3.785 = 0.92 dólares por litro"
+          },
+          {
+            "texto": "Multiplica por el tipo de cambio del día para tenerlo en pesos.",
+            "operacion": "0.92 × tipo de cambio = pesos por litro"
+          }
+        ]
       },
       {
-        "title": "Galones, cuartos y pintas",
-        "body": "En el sistema estadounidense, un galón tiene 4 cuartos de galón, 8 pintas y 128 onzas líquidas. Un cuarto de galón, muy usado en aceite de motor, tiene 0.946 litros. Una pinta estadounidense tiene 473 ml, y la británica, 568 ml, por eso una pinta de cerveza en Londres es mayor que en Nueva York."
+        "tipo": "texto",
+        "titulo": "¿Cuánto combustible necesitas para un viaje en carretera?",
+        "parrafos": [
+          "Calcula los litros y el costo con la [calculadora de gasolina](/calcular-gasolina), y convierte el precio con el [conversor de dólar a peso](/dolar-a-peso-mexicano). Para tazas, cucharadas y onzas líquidas de cocina, usa las [medidas de cocina](/medidas-de-cocina) o el conversor de [tazas a ml](/tazas-a-ml)."
+        ]
       }
     ],
     "faqs": [
@@ -18484,36 +18653,103 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Antes de enviar un trámite, llenar un formulario o registrar a un empleado, conviene asegurarse de que la CURP esté bien escrita. Este validador revisa los 18 caracteres uno por uno: las letras del nombre, la fecha de nacimiento, el sexo, la clave del estado, las consonantes internas, la homoclave y el dígito verificador. Te dice exactamente qué parte está mal, si hay un error, y muestra la información que contiene una CURP válida.",
-    "howToUse": [
-      "Escribe o pega la CURP; se convierte a mayúsculas y se eliminan los espacios automáticamente",
-      "Revisa el resultado: estructura válida o no válida",
-      "Si hay un error, lee qué posición falla, por ejemplo la fecha o el dígito verificador",
-      "Para confirmar que la CURP está registrada, consúltala en el portal oficial gob.mx/curp"
-    ],
-    "benefits": [
-      "Verifica las 18 posiciones con las reglas oficiales de RENAPO",
-      "Calcula y compara el dígito verificador",
-      "Detecta fechas imposibles, como un 31 de febrero",
-      "Reconoce las 32 entidades y la clave de nacidos en el extranjero",
-      "Muestra la fecha de nacimiento, el sexo, el estado y la edad",
-      "Privado: la CURP no se envía ni se guarda"
-    ],
-    "contentSections": [
+    "resumen": "Comprueba si una CURP está bien escrita: el validador revisa la longitud, las letras iniciales, la fecha de nacimiento, el sexo, la clave del estado, el diferenciador y el dígito verificador, y te dice exactamente qué parte falla.",
+    "bloques": [
       {
-        "title": "Cómo está formada una CURP",
-        "body": "La Clave Única de Registro de Población tiene 18 caracteres. Los cuatro primeros son la inicial y la primera vocal interna del primer apellido, la inicial del segundo apellido y la inicial del nombre. Siguen seis dígitos con la fecha de nacimiento (año, mes y día), una letra para el sexo (H o M) y dos letras para la entidad de nacimiento. Después vienen tres consonantes internas del primer apellido, segundo apellido y nombre, un carácter diferenciador llamado homoclave y, al final, el dígito verificador."
+        "tipo": "infografia",
+        "archivo": "que-revisa-validador-curp.webp",
+        "alt": "Comprobaciones que hace un validador de CURP con un ejemplo de dígito verificador erróneo",
+        "ancho": 800,
+        "alto": 766,
+        "titulo": "¿Qué comprueba el validador en cada parte de la CURP?"
       },
       {
-        "title": "El dígito verificador",
-        "body": "El último carácter se calcula a partir de los 17 anteriores. Cada carácter se convierte en un número según su posición en el alfabeto oficial (0 a 9, y luego A a Z incluyendo la Ñ), se multiplica por un peso que va de 18 a 2 y se suman los resultados. El dígito es 10 menos el residuo de dividir la suma entre 10, y si da 10 se usa 0. Si una sola letra o número de la CURP está mal escrito, lo más probable es que el dígito verificador no coincida, y el validador lo detecta."
+        "tipo": "tabla",
+        "titulo": "¿Qué significa cada una de las 18 posiciones de la CURP?",
+        "cabeceras": [
+          "Posición",
+          "Contenido",
+          "Ejemplo"
+        ],
+        "filas": [
+          [
+            "1 a 4",
+            "Letras de los apellidos y el nombre",
+            "GOMJ"
+          ],
+          [
+            "5 a 10",
+            "Fecha de nacimiento (AAMMDD)",
+            "900514"
+          ],
+          [
+            "11",
+            "Sexo (H o M)",
+            "H"
+          ],
+          [
+            "12 y 13",
+            "Entidad de nacimiento",
+            "JC"
+          ],
+          [
+            "14 a 16",
+            "Primeras consonantes internas de apellidos y nombre",
+            "MRN"
+          ],
+          [
+            "17",
+            "Diferenciador: dígito antes de 2000, letra desde 2000",
+            "0"
+          ],
+          [
+            "18",
+            "Dígito verificador",
+            "1"
+          ]
+        ]
       },
       {
-        "title": "La homoclave y el año de nacimiento",
-        "body": "La posición 17 sirve para distinguir a personas que tendrían la misma CURP. RENAPO asigna un número del 0 al 9 a quienes nacieron antes del año 2000 y una letra a quienes nacieron a partir del 2000. Por eso el validador usa ese carácter para saber si los dos dígitos del año corresponden al siglo XX o al XXI: la CURP de alguien nacido en 2005 lleva una letra en la posición 17."
+        "tipo": "escenarios",
+        "titulo": "¿Qué hacer según el error que marque el validador?",
+        "items": [
+          {
+            "titulo": "Falla el dígito verificador",
+            "situacion": "Casi siempre es una letra o un número mal copiado. Compara carácter por carácter con tu constancia.",
+            "resultado": "Revisa la captura"
+          },
+          {
+            "titulo": "La fecha no existe",
+            "situacion": "Un 31 de abril o un mes 13 indican un error de escritura en las posiciones 5 a 10.",
+            "resultado": "Corrige la fecha"
+          },
+          {
+            "titulo": "Todo está bien pero un trámite la rechaza",
+            "situacion": "La estructura es válida, pero puede no estar registrada o tener datos distintos en RENAPO.",
+            "resultado": "Consulta en gob.mx"
+          }
+        ]
       },
       {
-        "title": "Estructura válida no es lo mismo que CURP registrada",
-        "body": "Este validador comprueba que la CURP cumpla el formato y que su dígito verificador sea correcto. No consulta la base de datos del Registro Nacional de Población, así que no puede confirmar que la clave pertenezca a una persona real. Para eso, usa la consulta oficial en gob.mx/curp, donde además puedes descargar tu constancia en PDF. Si tu CURP tiene un error en tus datos, la corrección se solicita ante el Registro Civil o RENAPO."
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "La validación ocurre en tu navegador: la CURP que escribes no se envía a ningún servidor."
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Cómo obtener la CURP correcta si la tuya no pasa la validación?",
+        "parrafos": [
+          "Puedes reconstruirla a partir de tus datos con la [calculadora de CURP](/calcular-curp) y descargar la constancia oficial en el portal del gobierno. Si también necesitas tu RFC, calcúlalo con la [calculadora de RFC](/calcular-rfc)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Gobierno de México: consulta de la CURP (RENAPO)",
+            "url": "https://www.gob.mx/curp/"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -18566,36 +18802,65 @@
     "webApp": true,
     "appCategory": "LifestyleApplication",
     "intro": "Al final de una comida con amigos, la pregunta siempre es la misma: ¿cuánto nos toca? Esta calculadora divide la cuenta de dos formas. En partes iguales, dividiendo el total más la propina entre el número de personas. O cada quien lo suyo, sumando a cada persona lo que consumió más su parte de lo compartido, como entradas o una botella. También puede redondear a múltiplos de diez para facilitar el pago en efectivo.",
-    "howToUse": [
-      "Elige el modo: partes iguales o cada quien lo suyo",
-      "Selecciona el porcentaje de propina (10%, 15% o 20%) o escribe uno personalizado",
-      "En partes iguales, escribe el total y el número de personas; en cada quien lo suyo, lo que consumió cada persona y el gasto compartido",
-      "Activa el redondeo si van a pagar en efectivo y revisa cuánto paga cada uno"
-    ],
-    "benefits": [
-      "Dos modos: partes iguales o por consumo individual",
-      "Propina de 10%, 15%, 20% o personalizada",
-      "Reparte gastos compartidos a partes iguales",
-      "Redondeo a $10 para pagar en efectivo",
-      "Muestra cuánto sobra por el redondeo",
-      "Funciona sin internet una vez cargada la página"
-    ],
-    "contentSections": [
+    "resumen": "Divide la cuenta del restaurante entre varias personas, con la propina incluida: a partes iguales o según lo que pidió cada quien. Te dice cuánto paga cada uno y cómo redondear sin que nadie salga perdiendo.",
+    "bloques": [
       {
-        "title": "Partes iguales o cada quien lo suyo",
-        "body": "Dividir en partes iguales es rápido y funciona bien cuando todos pidieron algo parecido. Pero si alguien solo tomó un café y otro pidió un corte y dos bebidas, lo justo es que cada quien pague lo suyo. En ese modo, escribe el consumo de cada persona y, aparte, lo que compartieron entre todos, como entradas, postres o una botella. La calculadora reparte lo compartido a partes iguales y aplica la propina a cada persona de forma proporcional."
+        "tipo": "infografia",
+        "archivo": "formas-dividir-cuenta-restaurante.webp",
+        "alt": "Dividir la cuenta del restaurante a partes iguales o según lo que consumió cada persona",
+        "ancho": 800,
+        "alto": 638,
+        "titulo": "¿Conviene pagar a partes iguales o cada quien lo suyo?"
       },
       {
-        "title": "¿Cuánta propina dejar?",
-        "body": "En México lo habitual en restaurantes es dejar entre el 10% y el 15% de la cuenta, y un 20% cuando el servicio fue excelente. La propina es voluntaria: la Procuraduría Federal del Consumidor (PROFECO) recuerda que un establecimiento no puede incluirla en la cuenta sin tu consentimiento. En España la propina es opcional y menor, y en otros países de Latinoamérica ronda el 10%, a veces ya incluida como «servicio». Revisa tu cuenta antes de sumarla."
+        "tipo": "escenarios",
+        "titulo": "¿Cómo repartir la cuenta cuando no todos consumen lo mismo?",
+        "items": [
+          {
+            "titulo": "Invitan al cumpleañero",
+            "situacion": "Cuenta de $1,320 entre 5: tocan $264. La parte del festejado se reparte entre los otros 4.",
+            "resultado": "$330 cada uno"
+          },
+          {
+            "titulo": "Alguien solo pidió un café",
+            "situacion": "Que pague lo suyo con su propina y el resto divida lo demás a partes iguales.",
+            "resultado": "Mixto"
+          },
+          {
+            "titulo": "Una persona pagó todo con tarjeta",
+            "situacion": "Calcula cada parte y que los demás le transfieran ese importe el mismo día.",
+            "resultado": "Transferencias"
+          }
+        ]
       },
       {
-        "title": "Consejos para dividir sin discusiones",
-        "body": "Acuerden al llegar si se va a dividir por igual o por consumo. Pidan la cuenta desglosada y verifiquen que no haya platillos que no pidieron. Si alguien paga con tarjeta y los demás le transfieren, usen el total exacto por persona de la calculadora. Y si van a pagar en efectivo, el redondeo a $10 evita buscar monedas: lo que sobra se suma a la propina."
+        "tipo": "consejos",
+        "titulo": "¿Cómo evitar discusiones al pagar en grupo?",
+        "items": [
+          {
+            "titulo": "Pónganse de acuerdo antes",
+            "texto": "Decidir al pedir si será a partes iguales evita malentendidos al final."
+          },
+          {
+            "titulo": "Revisa si ya incluye servicio",
+            "texto": "Algunos restaurantes suman la propina en el ticket; no la pagues dos veces."
+          },
+          {
+            "titulo": "Redondea hacia arriba",
+            "texto": "Lo que sobre se queda como propina extra en vez de faltar dinero."
+          },
+          {
+            "titulo": "Pide cuentas separadas",
+            "texto": "En grupos grandes, muchos lugares lo hacen si se pide al ordenar."
+          }
+        ]
       },
       {
-        "title": "También sirve para gastos entre roomies",
-        "body": "La misma lógica funciona para repartir la renta, los servicios o el súper entre compañeros de departamento: usa el modo por consumo con la parte que corresponde a cada quien y pon lo compartido, como internet o limpieza, en el campo de gastos compartidos. Con una propina de 0%, la calculadora se convierte en un repartidor de gastos."
+        "tipo": "texto",
+        "titulo": "¿Qué porcentaje de propina se deja en México?",
+        "parrafos": [
+          "Lo habitual en restaurantes es entre el 10 y el 15 % del consumo, y es voluntaria. Calcula importes concretos con la [calculadora de propinas](/calculadora-propinas), y si necesitas desglosar el IVA del ticket, con la [calculadora de IVA](/calcular-iva)."
+        ]
       }
     ],
     "faqs": [
@@ -18649,36 +18914,58 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "¿Qué hora son las 17:00? ¿Cómo se escribe las 9 de la noche en formato de 24 horas? Este convertidor pasa la hora del formato de 12 horas (a. m. y p. m.) al de 24 horas, llamado hora militar, y al revés. Además de la conversión, muestra cómo se escribe sin dos puntos, cómo se lee en voz alta y cómo se diría de forma coloquial. Incluye una tabla con las 24 horas del día y la hora actual en ambos formatos.",
-    "howToUse": [
-      "Elige la dirección: de 12 horas a 24 horas o de 24 horas a 12 horas",
-      "Escribe la hora: en 12 h, la hora, los minutos y si es a. m. o p. m.; en 24 h, algo como 14:30 o 1430",
-      "Lee el resultado en ambos formatos, su lectura militar y la forma coloquial",
-      "Consulta la tabla de equivalencias para cualquier hora en punto"
-    ],
-    "benefits": [
-      "Conversión en ambos sentidos al instante",
-      "Acepta la hora con o sin dos puntos (14:30 o 1430)",
-      "Muestra cómo se lee la hora militar en español",
-      "Tabla completa de 12 a 24 horas",
-      "Hora actual en ambos formatos",
-      "Ideal para horarios de vuelos, turnos y trabajos escolares"
-    ],
-    "contentSections": [
+    "resumen": "Convierte la hora militar o de 24 horas al formato de 12 horas con a. m. y p. m., y al revés. Útil para horarios de vuelos, turnos de trabajo, boletos de autobús y cualquier documento que use el reloj de 24 horas.",
+    "bloques": [
       {
-        "title": "Cómo convertir de 12 a 24 horas",
-        "body": "Las horas de la mañana (a. m.) se quedan igual, salvo las 12 de la medianoche, que pasan a ser las 00:00. Las horas de la tarde y noche (p. m.) se convierten sumando 12, salvo las 12 del mediodía, que se quedan como 12:00. Así, 3:15 p. m. son 15:15, 9:00 p. m. son 21:00 y 12:30 a. m. son 00:30. En formato de 24 horas siempre se escriben dos dígitos para la hora: 08:00, no 8:00."
+        "tipo": "infografia",
+        "archivo": "reloj-24-horas-hora-militar.webp",
+        "alt": "Reloj de 24 horas y tabla de equivalencias entre hora militar y formato a. m. y p. m.",
+        "ancho": 800,
+        "alto": 773,
+        "titulo": "¿Cómo se lee de un vistazo el reloj de 24 horas?"
       },
       {
-        "title": "Cómo convertir de 24 a 12 horas",
-        "body": "Si la hora es de 13 a 23, resta 12 y añade p. m.: 18:45 son 6:45 p. m. Si es de 1 a 11, se queda igual y añade a. m. Las 12 son 12 p. m. (mediodía) y las 00 son 12 a. m. (medianoche). Este es el punto que más confusión genera: las «12 a. m.» son la medianoche, no el mediodía. Por eso muchos horarios oficiales evitan el formato de 12 horas."
+        "tipo": "pasos",
+        "titulo": "¿Qué pasos seguir para pasar del reloj de 12 horas al de 24?",
+        "pasos": [
+          {
+            "titulo": "Mira si es a. m. o p. m.",
+            "texto": "Las horas de la mañana se quedan igual: 9:15 a. m. son las 09:15."
+          },
+          {
+            "titulo": "Suma 12 si es p. m.",
+            "texto": "7:45 p. m. → 7 + 12 = 19, así que son las 19:45."
+          },
+          {
+            "titulo": "Cuidado con las 12",
+            "texto": "Las 12:30 p. m. se quedan en 12:30 y las 12:30 a. m. pasan a 00:30."
+          }
+        ]
       },
       {
-        "title": "¿Por qué se llama hora militar?",
-        "body": "Los ejércitos, la aviación, los hospitales y los servicios de emergencia usan el formato de 24 horas para evitar confusiones entre la mañana y la noche. En el ámbito militar suele escribirse sin dos puntos (1430) y leerse como «catorce treinta horas»; a las horas en punto se les añaden dos ceros, como «cero ocho cero cero horas». En muchos países de habla hispana el formato de 24 horas es el habitual en horarios de transporte, programas de televisión y documentos oficiales."
+        "tipo": "mitos",
+        "titulo": "¿Qué errores son frecuentes con el formato de 24 horas?",
+        "items": [
+          {
+            "mito": "Las 12:30 a. m. son al mediodía.",
+            "realidad": "Son media hora después de la medianoche: las 00:30."
+          },
+          {
+            "mito": "Una reserva para el día 15 a las 00:15 es la noche del 15.",
+            "realidad": "Es la madrugada del 15, justo después de la noche del 14."
+          },
+          {
+            "mito": "La hora militar y la de 24 horas son sistemas distintos.",
+            "realidad": "Es el mismo reloj; la versión militar solo quita los dos puntos (1945) y añade la zona horaria."
+          }
+        ]
       },
       {
-        "title": "Usos cotidianos del formato de 24 horas",
-        "body": "Los boletos de avión y autobús, los horarios de trenes y los turnos de trabajo suelen escribirse en 24 horas. También los relojes de muchos celulares y computadoras pueden configurarse así. Si viajas o trabajas con horarios internacionales, acostúmbrate a este formato: es más claro y evita llegar doce horas tarde a una cita. Para convertir entre países, usa además nuestro conversor de zona horaria."
+        "tipo": "texto",
+        "titulo": "¿Qué significa la Z que acompaña a algunas horas militares?",
+        "parrafos": [
+          "La Z, «Zulu», indica hora UTC. 1430Z son las 14:30 UTC, que en Ciudad de México (UTC−6, sin horario de verano desde 2022) equivalen a las 8:30 a. m. Para otras ciudades usa el [conversor de zona horaria](/conversor-zona-horaria), y para sumar o restar horas, la [calculadora de horas](/calculadora-horas)."
+        ]
       }
     ],
     "faqs": [
@@ -18730,36 +19017,76 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "Pega tus calificaciones o cualquier lista de números y obtén el promedio al instante. Además de la media aritmética, esta calculadora muestra la mediana, la moda, el mínimo, el máximo y el rango, y te dice si apruebas según la calificación mínima de tu escuela. También convierte tu promedio a escala de 100 y enseña la operación completa para que puedas comprobarla o copiarla en tu tarea.",
-    "howToUse": [
-      "Escribe o pega los números separados por comas, espacios o saltos de línea; puedes copiarlos directamente de Excel",
-      "Ajusta la calificación mínima aprobatoria y la escala máxima (por ejemplo, 6 de 10 o 70 de 100)",
-      "Lee el promedio y las demás medidas, que se actualizan mientras escribes",
-      "Revisa la operación completa al final para ver cómo se obtuvo el resultado"
-    ],
-    "benefits": [
-      "Calcula media, mediana, moda, rango, mínimo y máximo",
-      "Acepta decimales con punto o con coma",
-      "Indica si apruebas y cuántos puntos te faltan",
-      "Convierte el promedio a escala de 100",
-      "Muestra la operación paso a paso",
-      "Pega columnas directamente desde Excel o Google Sheets"
-    ],
-    "contentSections": [
+    "resumen": "Pega o escribe una lista de números y obtén al momento el promedio, la mediana, la moda, el mínimo, el máximo, el rango y la media geométrica. También pasa tu promedio a escala de 100.",
+    "bloques": [
       {
-        "title": "Cómo se calcula el promedio",
-        "body": "El promedio, o media aritmética, se obtiene sumando todos los valores y dividiendo el resultado entre la cantidad de valores. Con las calificaciones 8, 9, 7.5, 10 y 6, la suma es 40.5 y, al dividirla entre 5, el promedio es 8.1. Todos los valores pesan lo mismo. Si tus materias o exámenes valen porcentajes distintos, necesitas un promedio ponderado; para eso usa nuestra calculadora de promedio ponderado."
+        "tipo": "infografia",
+        "archivo": "media-mediana-moda-ejemplo.webp",
+        "alt": "Cálculo de media, mediana y moda con un mismo conjunto de notas",
+        "ancho": 800,
+        "alto": 735,
+        "titulo": "¿Qué diferencia hay entre media, mediana y moda con un mismo ejemplo?"
       },
       {
-        "title": "Media, mediana y moda: cuál usar",
-        "body": "La media resume todos los datos, pero se deja arrastrar por valores extremos: un 2 entre varios 9 baja mucho el promedio. La mediana es el valor central cuando los datos se ordenan, y no le afectan los extremos; por eso se usa para salarios o precios de casas. La moda es el valor que más se repite y sirve para saber qué es lo más común, como la talla más vendida. La calculadora muestra las tres para que elijas la que mejor describe tus datos."
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto baja un promedio por un solo cero?",
+        "datos": [
+          [
+            "Notas",
+            "8, 6, 9, 6, 10, 7 y un 0 por un examen no presentado"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Sin el cero, la media es de 7.67.",
+            "operacion": "46 ÷ 6 = 7.67"
+          },
+          {
+            "texto": "Con el cero, la suma no cambia pero hay un dato más.",
+            "operacion": "46 ÷ 7 = 6.57"
+          },
+          {
+            "texto": "La mediana apenas se mueve: ordenadas, el valor central es 7.",
+            "operacion": "0 6 6 7 8 9 10 → 7"
+          }
+        ]
       },
       {
-        "title": "Promedio escolar en México y otros países",
-        "body": "En México la escala escolar va de 0 a 10 y, por lo general, se aprueba con 6 en educación básica y media superior; muchas universidades exigen 7. En Colombia y Chile se usan escalas de 1 a 5 y de 1 a 7, con aprobatorias de 3 y 4 respectivamente. En España la escala es de 0 a 10 y se aprueba con 5. Ajusta la calificación mínima y la escala en la calculadora según tu sistema."
+        "tipo": "tabla",
+        "titulo": "¿Para qué sirve cada resultado de la calculadora?",
+        "cabeceras": [
+          "Resultado",
+          "Cuándo usarlo"
+        ],
+        "filas": [
+          [
+            "Media",
+            "Calificaciones, gastos o tiempos sin valores extremos"
+          ],
+          [
+            "Mediana",
+            "Sueldos o precios, donde unos pocos valores muy altos distorsionan la media"
+          ],
+          [
+            "Moda",
+            "Talla más vendida o respuesta más elegida"
+          ],
+          [
+            "Rango",
+            "Para ver de un vistazo cuánto varían los datos"
+          ],
+          [
+            "Media geométrica",
+            "Crecimientos o rendimientos en porcentaje año tras año"
+          ]
+        ]
       },
       {
-        "title": "Redondeo del promedio",
-        "body": "Cada escuela tiene sus reglas de redondeo. Algunas redondean al entero más cercano (8.5 pasa a 9), otras truncan (8.9 se queda en 8) y otras conservan un decimal. En certificados oficiales de la SEP el promedio suele expresarse con un decimal. La calculadora muestra el promedio con dos decimales para que apliques la regla de tu institución."
+        "tipo": "texto",
+        "titulo": "¿Y si cada calificación vale un porcentaje distinto?",
+        "parrafos": [
+          "Entonces necesitas un promedio ponderado: usa la [calculadora de promedio ponderado](/calculadora-promedio-ponderado). Para saber qué te falta en el último examen, la [calculadora de nota necesaria](/calculadora-nota-necesaria), y para medir cuánto se dispersan los datos, la [calculadora de desviación estándar](/calculadora-desviacion-estandar)."
+        ]
       }
     ],
     "faqs": [
@@ -18813,36 +19140,76 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "Opera con fracciones sin perderte en el común denominador. Esta calculadora suma, resta, multiplica y divide fracciones simples y números mixtos, como 2 ¾, y muestra el procedimiento que se usó. Da el resultado simplificado a su mínima expresión, como número mixto, en decimal y en porcentaje. Es ideal para revisar la tarea de matemáticas de primaria y secundaria o para ajustar las cantidades de una receta.",
-    "howToUse": [
-      "Escribe la primera fracción: numerador arriba, denominador abajo y, si es un número mixto, el entero a la izquierda",
-      "Elige la operación: +, −, × o ÷",
-      "Escribe la segunda fracción de la misma forma",
-      "Lee el resultado simplificado, su forma mixta, decimal y porcentaje, y el procedimiento"
-    ],
-    "benefits": [
-      "Las cuatro operaciones con fracciones",
-      "Acepta números mixtos y fracciones negativas",
-      "Simplifica el resultado con el máximo común divisor",
-      "Muestra el resultado como número mixto, decimal y porcentaje",
-      "Explica el procedimiento de cada operación",
-      "Se actualiza al instante mientras escribes"
-    ],
-    "contentSections": [
+    "resumen": "Suma, resta, multiplica y divide fracciones y obtén el resultado simplificado, como fracción impropia y como número mixto. Ideal para tareas, recetas y medidas en pulgadas.",
+    "bloques": [
       {
-        "title": "Cómo sumar y restar fracciones",
-        "body": "Para sumar o restar fracciones con distinto denominador, hay que llevarlas a un denominador común. El método más directo es la multiplicación cruzada: a/b + c/d = (a·d + c·b) / (b·d). Por ejemplo, 1/2 + 1/3 = (1·3 + 1·2) / (2·3) = 5/6. Si los denominadores son iguales, basta con sumar o restar los numeradores: 3/8 + 2/8 = 5/8. Al final se simplifica el resultado dividiendo numerador y denominador entre su máximo común divisor."
+        "tipo": "infografia",
+        "archivo": "operaciones-con-fracciones.webp",
+        "alt": "Suma de fracciones con barras y reglas para multiplicar y dividir fracciones",
+        "ancho": 800,
+        "alto": 804,
+        "titulo": "¿Qué regla se aplica en cada operación con fracciones?"
       },
       {
-        "title": "Cómo multiplicar y dividir fracciones",
-        "body": "Multiplicar es la operación más sencilla: se multiplican los numeradores entre sí y los denominadores entre sí. Por ejemplo, 2/3 × 3/4 = 6/12, que se simplifica a 1/2. Para dividir, se multiplica la primera fracción por la inversa de la segunda (se «voltea» la segunda): 3/4 ÷ 1/2 = 3/4 × 2/1 = 6/4 = 3/2. No se puede dividir entre una fracción que valga cero."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se suman dos fracciones con distinto denominador paso a paso?",
+        "datos": [
+          [
+            "Operación",
+            "2/3 + 5/6"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Busca el mínimo común múltiplo de los denominadores.",
+            "operacion": "MCM(3, 6) = 6"
+          },
+          {
+            "texto": "Pasa cada fracción a ese denominador.",
+            "operacion": "2/3 = 4/6"
+          },
+          {
+            "texto": "Suma los numeradores.",
+            "operacion": "4/6 + 5/6 = 9/6"
+          },
+          {
+            "texto": "Simplifica dividiendo entre 3 y pásalo a mixto.",
+            "operacion": "9/6 = 3/2 = 1 ½"
+          }
+        ]
       },
       {
-        "title": "Números mixtos y fracciones impropias",
-        "body": "Un número mixto combina un entero y una fracción, como 2 ¾. Para operar con él, se convierte en fracción impropia: se multiplica el entero por el denominador y se suma el numerador, 2 × 4 + 3 = 11, así que 2 ¾ = 11/4. Al terminar, si el resultado es una fracción impropia (numerador mayor que el denominador), puede expresarse como número mixto dividiendo: 11 ÷ 4 = 2 y sobran 3, es decir, 2 ¾."
+        "tipo": "glosario",
+        "titulo": "¿Qué nombre recibe cada tipo de fracción?",
+        "items": [
+          [
+            "Numerador",
+            "El número de arriba: cuántas partes tomas."
+          ],
+          [
+            "Denominador",
+            "El número de abajo: en cuántas partes se divide el entero."
+          ],
+          [
+            "Fracción propia",
+            "El numerador es menor que el denominador, como 3/4: vale menos de 1."
+          ],
+          [
+            "Número mixto",
+            "Un entero más una fracción, como 1 ½."
+          ],
+          [
+            "Fracciones equivalentes",
+            "Valen lo mismo aunque se escriban distinto: 1/2, 2/4 y 4/8."
+          ]
+        ]
       },
       {
-        "title": "Simplificar fracciones",
-        "body": "Una fracción está simplificada cuando el numerador y el denominador no tienen divisores comunes aparte del 1. Para simplificar, se dividen ambos entre su máximo común divisor. En 18/24, el MCD es 6, así que 18/24 = 3/4. La calculadora siempre muestra el resultado simplificado y, si la fracción original podía reducirse, indica los dos pasos."
+        "tipo": "texto",
+        "titulo": "¿Qué otras herramientas ayudan con las fracciones?",
+        "parrafos": [
+          "Para pasar decimales a fracción usa el [convertidor de fracciones](/convertidor-fracciones). Si necesitas el MCM o el MCD de varios números, la [calculadora de MCD y MCM](/calculadora-mcd-mcm), y para porcentajes, la [calculadora de porcentajes](/calculadora-porcentaje)."
+        ]
       }
     ],
     "faqs": [
@@ -18896,36 +19263,44 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "El máximo común divisor (MCD) y el mínimo común múltiplo (MCM) aparecen en cuanto trabajas con fracciones, problemas de repartos o ciclos que se repiten. Esta calculadora obtiene ambos para dos o más números enteros. Muestra la descomposición de cada número en factores primos, qué factores se toman para cada resultado y, con dos números, los pasos del algoritmo de Euclides con su comprobación.",
-    "howToUse": [
-      "Escribe dos o más números enteros separados por comas o espacios, por ejemplo 12, 18, 30",
-      "Lee el MCD y el MCM en la parte superior del resultado",
-      "Revisa la descomposición en factores primos de cada número",
-      "Con dos números, consulta los pasos del algoritmo de Euclides"
-    ],
-    "benefits": [
-      "Calcula MCD y MCM de dos o más números",
-      "Descomposición en factores primos de cada número",
-      "Explica qué primos y exponentes se usan en cada caso",
-      "Pasos del algoritmo de Euclides para dos números",
-      "MCM exacto incluso con números grandes",
-      "Resultado instantáneo mientras escribes"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el máximo común divisor y el mínimo común múltiplo de dos o más números, con los pasos del algoritmo de Euclides y la descomposición en factores primos de cada uno.",
+    "bloques": [
       {
-        "title": "Qué son el MCD y el MCM",
-        "body": "El máximo común divisor de varios números es el mayor número que los divide a todos sin dejar residuo. El MCD de 12 y 18 es 6, porque 6 divide a ambos y ningún número mayor lo hace. El mínimo común múltiplo es el menor número positivo que es múltiplo de todos ellos. El MCM de 12 y 18 es 36, el primer número que aparece en las tablas del 12 y del 18. Si el MCD de dos números es 1, se dice que son primos entre sí, o coprimos."
+        "tipo": "infografia",
+        "archivo": "mcd-mcm-euclides-factores.webp",
+        "alt": "Cálculo del MCD con el algoritmo de Euclides y del MCD y MCM por factores primos",
+        "ancho": 800,
+        "alto": 788,
+        "titulo": "¿Cómo se calculan el MCD y el MCM por dos caminos distintos?"
       },
       {
-        "title": "Método de factores primos",
-        "body": "Se descompone cada número en factores primos. Por ejemplo, 12 = 2² × 3, 18 = 2 × 3² y 30 = 2 × 3 × 5. El MCD se obtiene multiplicando solo los primos comunes a todos los números, elevados a su menor exponente: 2 × 3 = 6. El MCM se obtiene multiplicando todos los primos que aparecen, comunes o no, elevados a su mayor exponente: 2² × 3² × 5 = 180. Es el método que se enseña en la escuela y el que la calculadora explica."
+        "tipo": "escenarios",
+        "titulo": "¿En qué problemas de la vida real se usan el MCD y el MCM?",
+        "items": [
+          {
+            "titulo": "Cubrir un piso con losetas cuadradas",
+            "situacion": "Un cuarto de 252 × 198 cm sin cortar piezas: el lado más grande posible es el MCD.",
+            "resultado": "18 cm"
+          },
+          {
+            "titulo": "Cuándo coinciden dos camiones",
+            "situacion": "Uno pasa cada 12 minutos y otro cada 18. Si salen juntos, vuelven a coincidir al cabo del MCM.",
+            "resultado": "36 min"
+          },
+          {
+            "titulo": "Cortar listones sin desperdicio",
+            "situacion": "Dos tablas de 60 y 84 cm en trozos iguales y lo más largos posible.",
+            "resultado": "12 cm"
+          }
+        ]
       },
       {
-        "title": "Algoritmo de Euclides",
-        "body": "Para dos números existe un método más rápido, conocido desde hace más de 2,000 años. Se divide el mayor entre el menor y se reemplaza el par por el divisor y el residuo, hasta que el residuo sea cero. Con 48 y 18: 48 = 18 × 2 + 12; 18 = 12 × 1 + 6; 12 = 6 × 2 + 0. El último residuo distinto de cero, 6, es el MCD. Después, el MCM se obtiene con la relación MCD × MCM = a × b: 48 × 18 ÷ 6 = 144."
-      },
-      {
-        "title": "Para qué sirven en la vida real",
-        "body": "El MCM sirve para encontrar el denominador común al sumar fracciones y para saber cuándo coinciden eventos periódicos: si un autobús pasa cada 12 minutos y otro cada 18, volverán a coincidir cada 36 minutos. El MCD sirve para simplificar fracciones y para repartir en partes iguales lo más grandes posible: con 48 manzanas y 18 naranjas, puedes armar como máximo 6 canastas idénticas."
+        "tipo": "texto",
+        "titulo": "¿Qué relación hay entre el MCD y el MCM de dos números?",
+        "parrafos": [
+          "Su producto es igual al producto de los dos números: MCD × MCM = a × b. Con 12 y 18, 6 × 36 = 216 = 12 × 18. Así, si ya tienes uno, el otro sale con una división.",
+          "El MCM es justo lo que necesitas para sumar fracciones con distinto denominador: pruébalo en la [calculadora de fracciones](/calculadora-fracciones)."
+        ]
       }
     ],
     "faqs": [
@@ -18979,36 +19354,75 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "El teorema de Pitágoras relaciona los tres lados de un triángulo rectángulo: la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa. Con esta calculadora obtienes el lado que falta a partir de los otros dos, con el procedimiento explicado. De paso calcula los ángulos agudos, el área, el perímetro y la altura sobre la hipotenusa, y dibuja el triángulo para que visualices el resultado.",
-    "howToUse": [
-      "Elige qué lado quieres calcular: la hipotenusa (c) o uno de los catetos (a o b)",
-      "Escribe la longitud de los dos lados que conoces, en cualquier unidad",
-      "Lee el lado que falta y el procedimiento con la fórmula",
-      "Consulta los ángulos, el área, el perímetro y el dibujo del triángulo"
-    ],
-    "benefits": [
-      "Calcula la hipotenusa o cualquiera de los catetos",
-      "Muestra el procedimiento con tus números",
-      "Calcula los dos ángulos agudos en grados",
-      "Incluye área, perímetro y altura sobre la hipotenusa",
-      "Dibuja el triángulo a escala",
-      "Detecta ternas pitagóricas enteras como 3, 4 y 5"
-    ],
-    "contentSections": [
+    "resumen": "Calcula la hipotenusa o un cateto de un triángulo rectángulo con el teorema de Pitágoras, con el procedimiento completo. Sirve para tareas, para medir diagonales y para comprobar escuadras en obra.",
+    "bloques": [
       {
-        "title": "El teorema y su fórmula",
-        "body": "En un triángulo rectángulo, el lado opuesto al ángulo de 90° se llama hipotenusa y es el más largo; los otros dos lados son los catetos. El teorema de Pitágoras dice que a² + b² = c². Para calcular la hipotenusa: c = √(a² + b²). Para calcular un cateto: a = √(c² − b²). Por ejemplo, con catetos de 3 y 4, la hipotenusa es √(9 + 16) = √25 = 5."
+        "tipo": "infografia",
+        "archivo": "teorema-pitagoras-escalera.webp",
+        "alt": "Teorema de Pitágoras explicado con una escalera de 5 metros y ternas pitagóricas",
+        "ancho": 800,
+        "alto": 720,
+        "titulo": "¿Cómo se aplica el teorema de Pitágoras a una escalera?"
       },
       {
-        "title": "Ternas pitagóricas",
-        "body": "Una terna pitagórica es un conjunto de tres números enteros que cumplen el teorema. Las más conocidas son 3-4-5, 5-12-13, 8-15-17 y 7-24-25, y cualquier múltiplo de ellas, como 6-8-10. Los albañiles usan la terna 3-4-5 para trazar ángulos rectos en una obra: miden 3 unidades en una pared, 4 en la otra y comprueban que la diagonal mida 5. La calculadora te avisa cuando tus lados forman una terna pitagórica."
+        "tipo": "escenarios",
+        "titulo": "¿Qué medidas de casa y obra se resuelven con Pitágoras?",
+        "items": [
+          {
+            "titulo": "Ancho de una pantalla de 55 pulgadas",
+            "situacion": "Con formato 16:9, la diagonal de 55″ da un ancho de 47.9″ y un alto de 27″.",
+            "resultado": "122 × 68 cm"
+          },
+          {
+            "titulo": "Comprobar una esquina a escuadra",
+            "situacion": "Marca 60 cm en una pared y 80 cm en la otra: si la diagonal mide 100 cm, el ángulo es recto.",
+            "resultado": "60-80-100"
+          },
+          {
+            "titulo": "Largo de una rampa",
+            "situacion": "Para subir 25 cm en 3 m de recorrido horizontal.",
+            "resultado": "3.01 m"
+          }
+        ]
       },
       {
-        "title": "Ángulos y trigonometría",
-        "body": "Con los tres lados se pueden calcular los ángulos agudos usando funciones trigonométricas. El ángulo α, opuesto al cateto a, cumple tan α = a / b, y el ángulo β es 90° − α, porque los ángulos de un triángulo suman 180°. En el triángulo 3-4-5, α mide unos 36.87° y β unos 53.13°. La altura sobre la hipotenusa se obtiene como a × b ÷ c."
+        "tipo": "tabla",
+        "titulo": "¿Qué ternas pitagóricas conviene tener a mano?",
+        "intro": "Tríos de números enteros que cumplen a² + b² = c². Sus múltiplos también valen.",
+        "cabeceras": [
+          "Terna",
+          "Comprobación",
+          "Múltiplos útiles"
+        ],
+        "filas": [
+          [
+            "3, 4, 5",
+            "9 + 16 = 25",
+            "6-8-10, 30-40-50"
+          ],
+          [
+            "5, 12, 13",
+            "25 + 144 = 169",
+            "10-24-26"
+          ],
+          [
+            "8, 15, 17",
+            "64 + 225 = 289",
+            "16-30-34"
+          ],
+          [
+            "7, 24, 25",
+            "49 + 576 = 625",
+            "14-48-50"
+          ]
+        ]
       },
       {
-        "title": "Aplicaciones prácticas",
-        "body": "El teorema se usa para calcular la diagonal de una pantalla o un terreno, la longitud de una escalera que debe llegar a cierta altura, la distancia en línea recta entre dos puntos de un mapa o la inclinación de una rampa. Por ejemplo, para que una escalera alcance 4 metros de altura con su base a 1.5 metros de la pared, debe medir √(4² + 1.5²) = 4.27 metros."
+        "tipo": "texto",
+        "titulo": "¿Qué hacer cuando el triángulo no es rectángulo?",
+        "parrafos": [
+          "Pitágoras ya no sirve: hace falta la ley de cosenos, que puedes resolver con la [calculadora científica](/calculadora-cientifica). Para la superficie del triángulo usa la [calculadora de área](/calculadora-area), y para inclinaciones, la [calculadora de pendiente](/calculadora-de-pendiente)."
+        ]
       }
     ],
     "faqs": [
@@ -19062,36 +19476,91 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "El factorial de un número n, escrito n!, es el producto de todos los enteros positivos desde 1 hasta n. Crece tan rápido que las calculadoras comunes solo muestran una aproximación a partir de 20!. Esta calculadora da el resultado exacto con todos sus dígitos hasta 5000!, que tiene más de 16,000 cifras. También muestra el desarrollo del producto, la notación científica, cuántos dígitos tiene y cuántos ceros hay al final.",
-    "howToUse": [
-      "Escribe un número entero no negativo, desde 0 hasta 5000",
-      "Lee el resultado exacto; los números muy largos se muestran resumidos",
-      "Pulsa «Mostrar todos los dígitos» o «Copiar resultado» para el número completo",
-      "Consulta la notación científica, el número de dígitos y los ceros finales"
-    ],
-    "benefits": [
-      "Resultado exacto con aritmética de enteros grandes",
-      "Hasta 5000! en el navegador",
-      "Desarrollo del producto para números pequeños",
-      "Notación científica y cantidad de dígitos",
-      "Ceros finales con la fórmula de Legendre",
-      "Copia el resultado completo con un clic"
-    ],
-    "contentSections": [
+    "resumen": "Calcula el factorial exacto de cualquier número entero hasta 5,000, con todas sus cifras, la notación científica, el número de dígitos y los ceros finales. Sin redondeos ni errores de desbordamiento.",
+    "bloques": [
       {
-        "title": "Qué es el factorial",
-        "body": "El factorial de un número natural n es n! = n × (n − 1) × (n − 2) × … × 2 × 1. Por ejemplo, 5! = 5 × 4 × 3 × 2 × 1 = 120. Por convención, 0! = 1, lo que permite que muchas fórmulas funcionen sin excepciones. El factorial solo está definido para enteros no negativos; para números decimales existe una generalización llamada función gamma."
+        "tipo": "infografia",
+        "archivo": "crecimiento-factorial-digitos.webp",
+        "alt": "Número de dígitos de 5!, 10!, 20!, 52! y 100! y cálculo de los ceros finales de 100!",
+        "ancho": 800,
+        "alto": 838,
+        "titulo": "¿Qué tan rápido crece un factorial?"
       },
       {
-        "title": "Para qué sirve: permutaciones y combinaciones",
-        "body": "El factorial cuenta de cuántas formas se pueden ordenar objetos distintos. Con 5 libros hay 5! = 120 órdenes posibles en un estante. Es la base de las permutaciones, P(n, r) = n! / (n − r)!, y de las combinaciones, C(n, r) = n! / (r! × (n − r)!). Con esta última se calcula, por ejemplo, cuántas formas hay de elegir 6 números de 56 en un sorteo: 32,468,436 combinaciones."
+        "tipo": "tabla",
+        "titulo": "¿Cuánto valen los factoriales del 1 al 12?",
+        "cabeceras": [
+          "n",
+          "n!",
+          "n",
+          "n!"
+        ],
+        "filas": [
+          [
+            "1",
+            "1",
+            "7",
+            "5,040"
+          ],
+          [
+            "2",
+            "2",
+            "8",
+            "40,320"
+          ],
+          [
+            "3",
+            "6",
+            "9",
+            "362,880"
+          ],
+          [
+            "4",
+            "24",
+            "10",
+            "3,628,800"
+          ],
+          [
+            "5",
+            "120",
+            "11",
+            "39,916,800"
+          ],
+          [
+            "6",
+            "720",
+            "12",
+            "479,001,600"
+          ]
+        ]
       },
       {
-        "title": "Por qué crece tan rápido",
-        "body": "Cada paso multiplica por un número más grande. 10! ya es 3,628,800, 20! pasa de 2 trillones (2.43 × 10¹⁸) y 70! supera 10¹⁰⁰. Las calculadoras científicas suelen llegar como máximo a 69!, y las hojas de cálculo muestran aproximaciones con 15 dígitos significativos. Esta herramienta usa números enteros de precisión arbitraria (BigInt), así que cada dígito es exacto."
+        "tipo": "escenarios",
+        "titulo": "¿Para qué se usa el factorial fuera del salón de clases?",
+        "items": [
+          {
+            "titulo": "Acomodar libros en un estante",
+            "situacion": "5 libros distintos se pueden ordenar de 5! maneras.",
+            "resultado": "120"
+          },
+          {
+            "titulo": "Orden de llegada de una carrera",
+            "situacion": "Las formas en que pueden cruzar la meta 8 corredores.",
+            "resultado": "40,320"
+          },
+          {
+            "titulo": "Probabilidad en una lotería",
+            "situacion": "Elegir 6 números de 56 da 56! ÷ (6! × 50!) combinaciones posibles.",
+            "resultado": "32,468,436"
+          }
+        ]
       },
       {
-        "title": "Cuántos ceros tiene un factorial al final",
-        "body": "Cada cero final proviene de multiplicar un 2 por un 5. En un factorial siempre hay más doses que cincos, así que basta con contar los cincos: ⌊n/5⌋ + ⌊n/25⌋ + ⌊n/125⌋ + … Es la fórmula de Legendre. Para 100!: 20 + 4 = 24 ceros finales. Es un ejercicio clásico de olimpiadas de matemáticas que la calculadora resuelve al instante."
+        "tipo": "texto",
+        "titulo": "¿Cómo calcula esta herramienta números de miles de cifras?",
+        "parrafos": [
+          "Usa aritmética de enteros de precisión arbitraria, la misma idea que emplean los programas matemáticos, así que cada cifra es exacta aunque el resultado tenga más de 16,000 dígitos. Para operaciones con decimales usa la [calculadora científica](/calculadora-cientifica), y para sorteos, el [generador de números aleatorios](/generador-numeros-aleatorios)."
+        ]
       }
     ],
     "faqs": [
@@ -19145,36 +19614,74 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "La desviación estándar mide cuánto se alejan los datos de su promedio: cuanto mayor es, más dispersos están. Esta calculadora la obtiene para una muestra (dividiendo entre n − 1) o para una población completa (dividiendo entre N). También da la varianza, la media, el coeficiente de variación y una tabla con cada desviación elevada al cuadrado, para que veas el procedimiento completo, como lo piden en estadística.",
-    "howToUse": [
-      "Escribe o pega tus datos separados por comas, espacios o saltos de línea",
-      "Elige si tus datos son una muestra o toda la población",
-      "Lee la desviación estándar, la varianza y la media",
-      "Revisa la tabla de desviaciones y la fórmula con tus números"
-    ],
-    "benefits": [
-      "Desviación estándar muestral (s) y poblacional (σ)",
-      "Varianza, media y suma de cuadrados",
-      "Tabla paso a paso para hasta 30 datos",
-      "Coeficiente de variación en porcentaje",
-      "Rango de una desviación alrededor de la media",
-      "Acepta datos pegados desde Excel"
-    ],
-    "contentSections": [
+    "resumen": "Pega tus datos y obtén la desviación estándar poblacional y muestral, la varianza, la media y la tabla completa de desvíos. Para estadística escolar, control de calidad o comparar la regularidad de dos grupos.",
+    "bloques": [
       {
-        "title": "Qué es la desviación estándar",
-        "body": "Es una medida de dispersión: indica qué tan lejos están los datos, en promedio, de la media. Dos grupos pueden tener el mismo promedio y comportarse de forma muy distinta. Con las calificaciones 7, 8 y 9, la media es 8 y la desviación es pequeña. Con 4, 8 y 12, la media también es 8, pero la desviación es cuatro veces mayor. La desviación se expresa en las mismas unidades que los datos, lo que la hace más fácil de interpretar que la varianza."
+        "tipo": "infografia",
+        "archivo": "desviacion-estandar-paso-a-paso.webp",
+        "alt": "Cálculo a mano de la desviación estándar poblacional y muestral de seis datos",
+        "ancho": 800,
+        "alto": 720,
+        "titulo": "¿Cómo se obtiene la desviación estándar a mano con seis datos?"
       },
       {
-        "title": "Muestra o población: n − 1 o N",
-        "body": "Si tienes los datos de todo el grupo que quieres estudiar, como las estaturas de todos los alumnos de un salón, calculas la desviación poblacional σ, dividiendo la suma de cuadrados entre N. Si tus datos son solo una parte de un grupo mayor, como una encuesta a 500 personas para estimar lo que piensa una ciudad, usas la desviación muestral s, dividiendo entre n − 1. Esa corrección, llamada de Bessel, compensa que una muestra tiende a subestimar la dispersión real."
+        "tipo": "tabla",
+        "titulo": "¿Qué indica la regla 68-95-99.7 sobre la desviación estándar?",
+        "intro": "En datos con forma de campana, como las estaturas (ejemplo: media de 170 cm y desviación de 7 cm):",
+        "cabeceras": [
+          "Intervalo",
+          "Porcentaje de datos",
+          "En el ejemplo"
+        ],
+        "filas": [
+          [
+            "Media ± 1 desviación",
+            "≈ 68 %",
+            "163 a 177 cm"
+          ],
+          [
+            "Media ± 2 desviaciones",
+            "≈ 95 %",
+            "156 a 184 cm"
+          ],
+          [
+            "Media ± 3 desviaciones",
+            "≈ 99.7 %",
+            "149 a 191 cm"
+          ]
+        ],
+        "nota": "Solo se cumple de forma aproximada y en distribuciones normales."
       },
       {
-        "title": "Cómo se calcula paso a paso",
-        "body": "Primero se calcula la media. Luego se resta la media a cada dato y se eleva el resultado al cuadrado. Después se suman esos cuadrados y se divide entre N (población) o n − 1 (muestra): eso es la varianza. Por último, se saca la raíz cuadrada. Con los datos 2, 4, 4, 4, 5, 5, 7 y 9, la media es 5, la suma de cuadrados es 32, la varianza poblacional es 4 y la desviación poblacional es 2. La muestral es √(32 ÷ 7) ≈ 2.138."
+        "tipo": "comparacion",
+        "titulo": "¿Cómo comparar la regularidad de dos grupos con el mismo promedio?",
+        "columnas": [
+          {
+            "titulo": "Grupo A: 7, 7, 7, 7",
+            "tono": "verde",
+            "items": [
+              "Media: 7",
+              "Desviación: 0",
+              "Todos rinden exactamente igual."
+            ]
+          },
+          {
+            "titulo": "Grupo B: 4, 10, 4, 10",
+            "tono": "ambar",
+            "items": [
+              "Media: 7",
+              "Desviación poblacional: 3",
+              "Mismo promedio, resultados muy dispares."
+            ]
+          }
+        ]
       },
       {
-        "title": "Cómo interpretar el resultado",
-        "body": "En datos con distribución aproximadamente normal, alrededor del 68% de los valores cae a una desviación estándar de la media, el 95% a dos desviaciones y el 99.7% a tres. El coeficiente de variación, que es la desviación dividida entre la media, permite comparar la dispersión de datos con escalas distintas: un coeficiente menor al 15% suele indicar datos bastante homogéneos."
+        "tipo": "texto",
+        "titulo": "¿Qué otras medidas conviene revisar junto a la desviación?",
+        "parrafos": [
+          "La media, la mediana y el rango, que tienes en la [calculadora de promedio](/calculadora-promedio). Si cada dato pesa distinto, empieza por la [calculadora de promedio ponderado](/calculadora-promedio-ponderado)."
+        ]
       }
     ],
     "faqs": [
@@ -19228,36 +19735,85 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "Aprender las tablas de multiplicar es más fácil cuando se ven, se repasan y se practican. Con esta herramienta eliges las tablas que quieres, del 1 al 20, y hasta qué número multiplicar. Puedes imprimirlas en una hoja limpia o practicar con un modo de preguntas al azar que cuenta los aciertos. Está pensada para niños de primaria, para padres que ayudan con la tarea y para maestros que preparan material de clase.",
-    "howToUse": [
-      "Elige las tablas que quieres ver pulsando los números del 1 al 20",
-      "Selecciona hasta qué número multiplicar: ×10, ×12, ×15 o ×20",
-      "En «Ver e imprimir», pulsa «Imprimir tablas» para obtener una hoja lista",
-      "En «Practicar», responde las multiplicaciones al azar y revisa tus aciertos"
-    ],
-    "benefits": [
-      "Tablas del 1 al 20, hasta ×20",
-      "Versión para imprimir sin botones ni anuncios",
-      "Modo de práctica con preguntas aleatorias",
-      "Marcador de aciertos y porcentaje",
-      "Muestra la respuesta correcta cuando te equivocas",
-      "Funciona en tableta y celular"
-    ],
-    "contentSections": [
+    "resumen": "Tablas de multiplicar del 1 al 20 para ver e imprimir, y un modo de práctica con preguntas al azar y marcador de aciertos. Elige qué tablas repasar y hasta qué número multiplicar.",
+    "bloques": [
       {
-        "title": "En qué orden aprender las tablas",
-        "body": "Muchos maestros recomiendan empezar por las tablas más fáciles para ganar confianza: la del 1, la del 10 (se añade un cero), la del 2 (el doble) y la del 5 (termina en 0 o 5). Después siguen la del 3, 4, 9 y 11, y al final las del 6, 7 y 8, que suelen costar más. Gracias a la propiedad conmutativa, 7 × 8 es lo mismo que 8 × 7, así que al llegar a las últimas tablas ya conoces más de la mitad de sus resultados."
+        "tipo": "infografia",
+        "archivo": "tablas-multiplicar-dificultad.webp",
+        "alt": "Tabla pitagórica del 1 al 10 coloreada según las multiplicaciones que más cuestan",
+        "ancho": 800,
+        "alto": 744,
+        "titulo": "¿Cuántas multiplicaciones hay que memorizar en realidad?"
       },
       {
-        "title": "Trucos que ayudan a memorizar",
-        "body": "En la tabla del 9, los dígitos del resultado suman 9 (9 × 7 = 63, y 6 + 3 = 9), y el primer dígito es uno menos que el número que multiplicas. Otro truco usa los dedos: extiende los diez dedos y dobla el dedo del número que multiplicas por 9; los dedos a la izquierda son las decenas y los de la derecha, las unidades. En la tabla del 11 hasta el 9 basta con repetir el dígito: 11 × 4 = 44."
+        "tipo": "tabla",
+        "titulo": "¿Qué truco sirve para cada tabla de multiplicar?",
+        "cabeceras": [
+          "Tabla",
+          "Truco",
+          "Ejemplo"
+        ],
+        "filas": [
+          [
+            "×2",
+            "Es el doble",
+            "2 × 8 = 8 + 8 = 16"
+          ],
+          [
+            "×4",
+            "El doble del doble",
+            "4 × 7 = 14 → 28"
+          ],
+          [
+            "×5",
+            "La mitad de multiplicar por 10",
+            "5 × 8 = 80 ÷ 2 = 40"
+          ],
+          [
+            "×6 con pares",
+            "Termina en la misma cifra que el número",
+            "6 × 4 = 24, 6 × 8 = 48"
+          ],
+          [
+            "×9",
+            "Multiplica por 10 y resta el número",
+            "9 × 7 = 70 − 7 = 63"
+          ],
+          [
+            "×11 (hasta 9)",
+            "Repite la cifra",
+            "11 × 6 = 66"
+          ]
+        ]
       },
       {
-        "title": "Practicar poco y seguido",
-        "body": "Diez minutos diarios dan mejores resultados que una hora el fin de semana. El modo de práctica elige multiplicaciones al azar entre las tablas seleccionadas, lo que obliga a recordar y no solo a recitar en orden. Empieza con dos o tres tablas y añade otra cuando el porcentaje de aciertos supere el 90%. Celebrar el progreso motiva más que señalar los errores."
+        "tipo": "consejos",
+        "titulo": "¿Cómo practicar las tablas sin que se vuelva aburrido?",
+        "items": [
+          {
+            "titulo": "Poco y a diario",
+            "texto": "Diez minutos cada día funcionan mejor que una hora el fin de semana."
+          },
+          {
+            "titulo": "Primero lo fácil",
+            "texto": "Empieza por ×2, ×5 y ×10: dan confianza y ya cubren buena parte de la tabla."
+          },
+          {
+            "titulo": "Mezcla el orden",
+            "texto": "El modo práctica pregunta al azar para que no se memorice la secuencia de memoria."
+          },
+          {
+            "titulo": "Repasa los fallos",
+            "texto": "Anota las que se equivocan y practícalas solas al día siguiente."
+          }
+        ]
       },
       {
-        "title": "Material para maestros",
-        "body": "Selecciona las tablas de la semana y usa el botón de imprimir para obtener una hoja limpia, sin menús ni botones, que puedes fotocopiar para tu grupo. Al imprimir, cada tabla aparece en un recuadro que no se corta entre páginas. Para evaluar, proyecta el modo de práctica en el pizarrón y deja que el grupo responda por turnos."
+        "tipo": "texto",
+        "titulo": "¿Qué sigue después de dominar las tablas?",
+        "parrafos": [
+          "Practicar operaciones combinadas y cálculo rápido. Prueba los ejercicios de [cálculo mental](/calculo-mental) y la [calculadora de operaciones combinadas](/calculadora-calculos-combinados), que muestra el orden en que se resuelve cada paso."
+        ]
       }
     ],
     "faqs": [
@@ -19311,36 +19867,105 @@
     "webApp": true,
     "appCategory": "LifestyleApplication",
     "intro": "¿Tu perro de 5 años es un adulto joven o ya está entrando en la madurez? La vieja regla de multiplicar por 7 es muy imprecisa: los perros maduran muy rápido al principio y los grandes envejecen antes que los pequeños. Esta calculadora estima la edad de tu perro en años humanos según su tamaño adulto. También la compara con una fórmula basada en cambios del ADN y te dice en qué etapa de vida está y cuánto suelen vivir los perros de su talla.",
-    "howToUse": [
-      "Escribe la edad de tu perro en años y, si quieres, los meses adicionales",
-      "Elige su tamaño adulto: pequeño, mediano, grande o gigante",
-      "Lee su edad en años humanos y su etapa de vida",
-      "Compara los tres métodos y consulta la esperanza de vida de su tamaño"
-    ],
-    "benefits": [
-      "Cálculo según el tamaño del perro",
-      "Incluye la fórmula epigenética publicada en 2020",
-      "Compara con la regla tradicional del ×7",
-      "Indica la etapa de vida: cachorro, adulto o senior",
-      "Esperanza de vida típica por tamaño",
-      "Acepta años y meses"
-    ],
-    "contentSections": [
+    "resumen": "Calcula la edad de tu perro en años humanos según su tamaño (pequeño, mediano, grande o gigante) y con la fórmula logarítmica basada en el envejecimiento del ADN. Te dice también en qué etapa de vida está.",
+    "bloques": [
       {
-        "title": "Por qué la regla del ×7 no funciona",
-        "body": "Multiplicar por 7 supone que los perros envejecen al mismo ritmo toda su vida, y no es así. Un perro de un año ya es capaz de reproducirse y ha alcanzado casi todo su tamaño, algo que en una persona ocurre en la adolescencia. Por eso las tablas veterinarias asignan unos 15 años humanos al primer año de un perro y unos 9 al segundo. A partir de ahí, cada año de perro equivale a entre 4 y 7 años humanos, según su tamaño."
+        "tipo": "infografia",
+        "archivo": "edad-perro-por-tamano-grafica.webp",
+        "alt": "Gráfica de la edad humana de un perro por tamaño y según la fórmula logarítmica",
+        "ancho": 800,
+        "alto": 702,
+        "titulo": "¿Por qué un perro grande envejece más rápido que uno pequeño?"
       },
       {
-        "title": "El tamaño cambia el ritmo de envejecimiento",
-        "body": "Los perros grandes y gigantes viven menos que los pequeños y envejecen más rápido en la edad adulta. Un chihuahua o un yorkshire pueden vivir de 14 a 16 años, mientras que un gran danés o un mastín suelen vivir de 8 a 10. Por eso esta calculadora suma 4 años humanos por año de perro en razas pequeñas, 5 en medianas, 6 en grandes y 7 en gigantes, después de los dos primeros años."
+        "tipo": "tabla",
+        "titulo": "¿Qué tabla de equivalencias usar para un perro pequeño, mediano, grande o gigante?",
+        "cabeceras": [
+          "Edad del perro",
+          "Pequeño",
+          "Mediano",
+          "Grande",
+          "Gigante"
+        ],
+        "filas": [
+          [
+            "1 año",
+            "15",
+            "15",
+            "15",
+            "15"
+          ],
+          [
+            "2 años",
+            "24",
+            "24",
+            "24",
+            "24"
+          ],
+          [
+            "3 años",
+            "28",
+            "29",
+            "30",
+            "31"
+          ],
+          [
+            "8 años",
+            "48",
+            "54",
+            "60",
+            "66"
+          ],
+          [
+            "12 años",
+            "64",
+            "74",
+            "84",
+            "94"
+          ],
+          [
+            "15 años",
+            "76",
+            "89",
+            "102",
+            "115"
+          ]
+        ],
+        "nota": "Tamaños: pequeño hasta 9 kg, mediano de 10 a 22 kg, grande de 23 a 40 kg y gigante de más de 40 kg."
       },
       {
-        "title": "La fórmula epigenética",
-        "body": "En 2020, un equipo de la Universidad de California en San Diego publicó en la revista Cell Systems una fórmula basada en la metilación del ADN, un reloj biológico que cambia con la edad. Comparando labradores con personas, propusieron: edad humana = 16 × ln(edad del perro) + 31. Según esta fórmula, un perro de un año equivale a una persona de 31 y uno de 10 años, a una de unos 68. Se estudió en una sola raza, así que la calculadora la muestra como referencia junto al método por tamaño."
+        "tipo": "mitos",
+        "titulo": "¿Qué falla en la regla de multiplicar por siete?",
+        "items": [
+          {
+            "mito": "Cada año de perro son siete humanos.",
+            "realidad": "El primer año equivale a unos 15: a esa edad un perro ya es adulto y puede reproducirse."
+          },
+          {
+            "mito": "Todos los perros envejecen al mismo ritmo.",
+            "realidad": "Desde el segundo año, los grandes y gigantes envejecen bastante más rápido que los pequeños."
+          },
+          {
+            "mito": "Un perro de 10 años tiene 70 años humanos.",
+            "realidad": "Depende del tamaño: entre 56 en uno pequeño y 80 en uno gigante."
+          }
+        ]
       },
       {
-        "title": "Cuidados según la etapa de vida",
-        "body": "Los cachorros necesitan vacunas, desparasitación y socialización. Los adultos, ejercicio diario, alimentación adecuada a su nivel de actividad y una revisión veterinaria al año. A partir de la etapa senior, que en razas grandes puede empezar hacia los 6 o 7 años, conviene hacer chequeos cada seis meses, vigilar el peso, las articulaciones y los dientes, y ajustar la dieta. Una buena atención puede sumar años de vida con calidad."
+        "tipo": "texto",
+        "titulo": "¿Cómo cambia el cuidado según la edad del perro?",
+        "parrafos": [
+          "Al entrar en la etapa senior conviene llevarlo al veterinario dos veces al año, ajustar su alimento y vigilar las articulaciones y los dientes. Si quieres saber la fecha exacta de su cumpleaños o cuántos días tiene, usa la [calculadora de edad](/calculadora-edad) o la [calculadora de días](/calculadora-dias)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Wang et al. (2020), «Quantitative translation of dog-to-human aging by conserved remodeling of the DNA methylome», Cell Systems",
+            "url": "https://doi.org/10.1016/j.cels.2020.06.006"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -19393,36 +20018,81 @@
     "webApp": true,
     "appCategory": "DeveloperApplication",
     "intro": "Los JSON Web Tokens (JWT) viajan en las cabeceras de miles de APIs, pero a simple vista son una cadena ilegible. Este decodificador separa las tres partes del token y muestra el encabezado y el contenido como JSON formateado. Convierte las fechas exp, iat y nbf a formato legible y te dice si el token ya expiró. Además puede verificar la firma de los tokens HMAC (HS256, HS384 y HS512) con tu clave secreta. Todo ocurre en tu navegador: el token nunca sale de tu equipo.",
-    "howToUse": [
-      "Pega el token JWT; también acepta el prefijo «Bearer»",
-      "Revisa el encabezado y el payload decodificados, con botón para copiar cada uno",
-      "Consulta la tabla de claims con las fechas en formato legible y el estado de expiración",
-      "Si el algoritmo es HMAC, escribe la clave secreta para verificar la firma"
-    ],
-    "benefits": [
-      "Decodifica header y payload con JSON formateado",
-      "Resalta las tres partes del token con colores",
-      "Convierte exp, iat y nbf a fecha y hora locales",
-      "Indica si el token está vigente o expirado",
-      "Verifica firmas HS256, HS384 y HS512 con Web Crypto",
-      "100% local: el token no se envía a ningún servidor"
-    ],
-    "contentSections": [
+    "resumen": "Pega un JSON Web Token y lee su header y su payload decodificados, con las fechas exp, iat y nbf traducidas a hora local y un aviso si ya expiró. Si el token usa HS256, HS384 o HS512, también puedes verificar su firma con la clave secreta.",
+    "bloques": [
       {
-        "title": "Cómo está formado un JWT",
-        "body": "Un JWT, definido en el estándar RFC 7519, tiene tres partes separadas por puntos: encabezado, contenido (payload) y firma. Las dos primeras son objetos JSON codificados en Base64URL, una variante de Base64 que sustituye + y / por - y _ y omite el relleno =. El encabezado indica el algoritmo de firma, como HS256 o RS256. El payload contiene los claims: datos sobre el usuario y el token. La firma se calcula sobre el encabezado y el payload con una clave, y permite detectar cualquier modificación."
+        "tipo": "infografia",
+        "archivo": "partes-json-web-token.webp",
+        "alt": "Un JWT dividido en header, payload y firma con su contenido decodificado",
+        "ancho": 800,
+        "alto": 792,
+        "titulo": "¿Qué contiene cada una de las tres partes de un JWT?"
       },
       {
-        "title": "Claims estándar",
-        "body": "El estándar define claims registrados de tres letras: iss (emisor), sub (sujeto, normalmente el ID del usuario), aud (audiencia), exp (expiración), nbf (no válido antes de), iat (emitido en) y jti (identificador único). Las fechas se expresan en segundos desde el 1 de enero de 1970 en UTC, el llamado tiempo Unix, por eso son números como 1767225600. El decodificador las traduce a tu hora local y compara exp con la hora actual."
+        "tipo": "glosario",
+        "titulo": "¿Qué significan los claims estándar que aparecen en el payload?",
+        "items": [
+          [
+            "iss",
+            "Emisor: quién creó el token, normalmente la URL del servidor de autenticación."
+          ],
+          [
+            "sub",
+            "Sujeto: el identificador del usuario al que pertenece."
+          ],
+          [
+            "aud",
+            "Audiencia: la aplicación o API para la que es válido."
+          ],
+          [
+            "exp",
+            "Fecha de expiración, en segundos desde el 1 de enero de 1970 (UTC)."
+          ],
+          [
+            "iat",
+            "Momento en que se emitió el token."
+          ],
+          [
+            "nbf",
+            "El token no es válido antes de esta fecha."
+          ],
+          [
+            "jti",
+            "Identificador único del token, útil para revocarlo."
+          ]
+        ]
       },
       {
-        "title": "Decodificar no es verificar",
-        "body": "Cualquiera puede decodificar un JWT: el payload no está cifrado, solo codificado. Por eso nunca debes guardar contraseñas ni datos sensibles en un token. Lo que garantiza la integridad es la firma: un servidor debe verificarla antes de confiar en el contenido. Con algoritmos HMAC (HS256, HS384, HS512), emisor y receptor comparten una clave secreta, y esta herramienta puede comprobarla. Con algoritmos asimétricos como RS256 o ES256 se necesita la clave pública del emisor."
+        "tipo": "checklist",
+        "titulo": "¿Qué revisar cuando una API rechaza tu token?",
+        "items": [
+          "Que exp no haya pasado y que nbf no sea una fecha futura.",
+          "Que aud coincida con la API a la que llamas.",
+          "Que el reloj del servidor no esté desfasado unos minutos.",
+          "Que el encabezado sea Authorization: Bearer seguido del token, sin comillas ni espacios extra.",
+          "Que no se haya cortado al copiarlo: debe tener exactamente dos puntos."
+        ]
       },
       {
-        "title": "Seguridad al depurar tokens",
-        "body": "Un token de acceso vigente funciona como una llave temporal: quien lo tenga puede usarlo hasta que expire. Evita pegar tokens de producción en herramientas que los envían a un servidor. Este decodificador trabaja por completo en tu navegador con JavaScript y la API Web Crypto, así que puedes usarlo sin ese riesgo. Aun así, lo más seguro es depurar con tokens de desarrollo o de corta duración."
+        "tipo": "aviso",
+        "tono": "ambar",
+        "texto": "Un token de producción es una credencial: quien lo tenga puede actuar como tú hasta que expire. La decodificación ocurre en tu navegador, pero evita compartir tokens en capturas o chats."
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otras herramientas sirven para depurar autenticación?",
+        "parrafos": [
+          "El [codificador Base64](/codificador-base64) para decodificar partes sueltas, el [formateador JSON](/formateador-json) para revisar el payload y el [generador de hash](/generador-hash) para comprobar resúmenes SHA-256."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "IETF RFC 7519: JSON Web Token (JWT)",
+            "url": "https://www.rfc-editor.org/rfc/rfc7519"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -19476,36 +20146,72 @@
     "webApp": true,
     "appCategory": "DeveloperApplication",
     "intro": "Exportaste datos de Excel o de una base de datos en CSV y los necesitas en JSON para una API, o al revés. Este conversor transforma CSV a JSON y JSON a CSV al instante. Detecta automáticamente si el separador es coma, punto y coma, tabulador o barra vertical, y respeta las comillas y los saltos de línea dentro de los campos, como indica el estándar RFC 4180. Todo se procesa en tu navegador, así que puedes convertir datos privados sin subirlos a ningún sitio.",
-    "howToUse": [
-      "Elige la dirección: CSV → JSON o JSON → CSV",
-      "Pega tus datos o abre un archivo .csv o .json desde tu equipo",
-      "Ajusta las opciones: delimitador, primera fila como encabezados, detección de tipos y JSON compacto",
-      "Copia el resultado o descárgalo como archivo"
-    ],
-    "benefits": [
-      "Conversión en ambos sentidos",
-      "Detección automática de coma, punto y coma, tabulador o barra",
-      "Maneja campos entre comillas con comas y saltos de línea",
-      "Convierte números y booleanos a su tipo JSON",
-      "Descarga el CSV con BOM para que Excel respete los acentos",
-      "Procesamiento local, sin límites de uso"
-    ],
-    "contentSections": [
+    "resumen": "Convierte CSV a JSON y JSON a CSV en tu navegador. Detecta el delimitador (coma, punto y coma, tabulador o barra), respeta los campos entre comillas y puede convertir números y booleanos a su tipo.",
+    "bloques": [
       {
-        "title": "Cómo se convierte un CSV en JSON",
-        "body": "Cada fila del CSV se transforma en un objeto JSON cuyas claves son los nombres de columna de la primera fila. Así, la fila «Ana Pérez,31,Guadalajara» con los encabezados «nombre,edad,ciudad» se convierte en {\"nombre\": \"Ana Pérez\", \"edad\": 31, \"ciudad\": \"Guadalajara\"}. El resultado es un arreglo de objetos, el formato que esperan la mayoría de las APIs y librerías de JavaScript. Si desactivas los encabezados, cada fila se convierte en un arreglo de valores."
+        "tipo": "infografia",
+        "archivo": "csv-a-json-ejemplo-filas.webp",
+        "alt": "Ejemplo de CSV con comillas convertido a JSON y errores habituales al convertir",
+        "ancho": 800,
+        "alto": 778,
+        "titulo": "¿Cómo se transforma una fila de CSV en un objeto JSON?"
       },
       {
-        "title": "Comas, punto y coma y Excel",
-        "body": "En países que usan la coma como separador decimal, como España o varios de Latinoamérica, Excel exporta los CSV con punto y coma en lugar de coma. El conversor cuenta los separadores fuera de las comillas en las primeras líneas y elige el más probable, aunque siempre puedes fijarlo a mano. Al exportar a CSV, la herramienta añade una marca BOM al inicio del archivo para que Excel reconozca la codificación UTF-8 y muestre bien los acentos y la ñ."
+        "tipo": "tabla",
+        "titulo": "¿Qué opciones del conversor conviene activar en cada caso?",
+        "cabeceras": [
+          "Opción",
+          "Actívala si…",
+          "Desactívala si…"
+        ],
+        "filas": [
+          [
+            "Primera fila = encabezados",
+            "La fila 1 tiene los nombres de las columnas",
+            "El archivo empieza directamente con datos"
+          ],
+          [
+            "Detectar números y booleanos",
+            "Vas a hacer cálculos con los valores",
+            "Hay códigos postales, teléfonos o folios con ceros a la izquierda"
+          ],
+          [
+            "JSON compacto",
+            "Lo vas a enviar a una API o guardar en una base de datos",
+            "Lo vas a leer o editar a mano"
+          ]
+        ]
       },
       {
-        "title": "Comillas y campos especiales",
-        "body": "Según el estándar RFC 4180, un campo que contiene el separador, comillas o saltos de línea debe ir entre comillas dobles, y las comillas internas se escriben duplicadas. Por ejemplo, \"López, Luis\" es un solo campo aunque tenga una coma, y \"Dice \"\"hola\"\"\" representa el texto Dice \"hola\". El conversor sigue estas reglas en ambos sentidos, algo que un simple «dividir por comas» no hace y que suele romper los datos."
+        "tipo": "comparacion",
+        "titulo": "¿Cuándo conviene usar CSV y cuándo JSON?",
+        "columnas": [
+          {
+            "titulo": "CSV",
+            "tono": "verde",
+            "items": [
+              "Datos en forma de tabla, todos con las mismas columnas.",
+              "Abrir en Excel o Google Sheets.",
+              "Archivos más ligeros."
+            ]
+          },
+          {
+            "titulo": "JSON",
+            "tono": "azul",
+            "items": [
+              "Datos anidados o con listas dentro.",
+              "APIs, JavaScript y bases de datos NoSQL.",
+              "Conserva tipos: números, texto y booleanos."
+            ]
+          }
+        ]
       },
       {
-        "title": "Tipos de datos",
-        "body": "El CSV no tiene tipos: todo es texto. Con la opción «Detectar números y booleanos», los valores que parecen números (31, -2.5, 1e3) se convierten en números JSON, y true, false y null en sus valores literales. Ten cuidado con los códigos que empiezan con cero, como códigos postales o teléfonos: el conversor los conserva como texto porque un número JSON no admite ceros a la izquierda."
+        "tipo": "texto",
+        "titulo": "¿Necesitas datos de ejemplo para probar la conversión?",
+        "parrafos": [
+          "Genera registros ficticios en CSV o JSON con el [generador de datos de prueba](/generador-datos-prueba) y revisa el resultado con el [formateador JSON](/formateador-json), que además señala la línea exacta de cualquier error."
+        ]
       }
     ],
     "faqs": [
@@ -19559,36 +20265,81 @@
     "webApp": true,
     "appCategory": "DeveloperApplication",
     "intro": "Los espacios, los acentos, la ñ y símbolos como & o ? no pueden ir tal cual en una URL: hay que codificarlos con porcentajes, como %20 o %C3%B1. Esta herramienta codifica y decodifica texto para URLs en ambos sentidos, con la opción de conservar la estructura de una dirección completa o usar + para los espacios, como en los formularios. También incluye un analizador que separa una URL en protocolo, dominio, ruta, fragmento y cada uno de sus parámetros ya decodificados.",
-    "howToUse": [
-      "Elige el modo: codificar, decodificar o analizar URL",
-      "Pega el texto o la dirección",
-      "Ajusta las opciones: URL completa o componente, y espacios como + o %20",
-      "Copia el resultado o úsalo como nueva entrada para encadenar operaciones"
-    ],
-    "benefits": [
-      "Codifica y decodifica con encodeURIComponent y encodeURI",
-      "Opción de espacios como + para datos de formularios",
-      "Analiza protocolo, dominio, puerto, ruta y fragmento",
-      "Tabla de parámetros de consulta ya decodificados",
-      "Detecta secuencias % inválidas",
-      "Funciona sin conexión una vez cargada"
-    ],
-    "contentSections": [
+    "resumen": "Codifica y decodifica texto para URL (percent-encoding) y analiza cualquier dirección web en sus partes: protocolo, dominio, puerto, ruta, parámetros y fragmento. Funciona con acentos, eñes y emojis.",
+    "bloques": [
       {
-        "title": "Qué es la codificación de URL",
-        "body": "Las URL solo pueden contener un conjunto limitado de caracteres ASCII. El resto se representa con codificación porcentual, definida en el RFC 3986: cada byte del carácter en UTF-8 se escribe como % seguido de dos dígitos hexadecimales. El espacio es %20, la ñ (dos bytes en UTF-8) es %C3%B1 y la é es %C3%A9. Así, «café orgánico» se convierte en caf%C3%A9%20org%C3%A1nico. Los navegadores muestran la versión legible, pero internamente envían la codificada."
+        "tipo": "infografia",
+        "archivo": "caracteres-codificacion-url.webp",
+        "alt": "Caracteres especiales y su codificación porcentual en una URL",
+        "ancho": 800,
+        "alto": 807,
+        "titulo": "¿Qué caracteres se transforman al codificar una dirección web?"
       },
       {
-        "title": "Componente o URL completa",
-        "body": "Hay dos funciones estándar en JavaScript. encodeURIComponent codifica todos los caracteres especiales, incluidos / ? & = y #, y es la correcta para el valor de un parámetro, porque evita que un & dentro del valor se confunda con el separador de parámetros. encodeURI conserva esos caracteres estructurales y solo codifica los que no son válidos, así que sirve para una URL completa que ya está bien formada. Usar la función equivocada es un error común que rompe enlaces."
+        "tipo": "glosario",
+        "titulo": "¿Cómo se llama cada parte de una URL?",
+        "items": [
+          [
+            "Protocolo",
+            "En https://tienda.mx:8080/zapatos/tenis?talla=27&color=azul#opiniones, el https: indica cómo se conecta el navegador."
+          ],
+          [
+            "Dominio",
+            "tienda.mx: el nombre del sitio."
+          ],
+          [
+            "Puerto",
+            "8080: casi nunca aparece, porque se usa el predeterminado (443 en https)."
+          ],
+          [
+            "Ruta",
+            "/zapatos/tenis: la página dentro del sitio."
+          ],
+          [
+            "Parámetros",
+            "?talla=27&color=azul: pares clave=valor separados por &."
+          ],
+          [
+            "Fragmento",
+            "#opiniones: la sección de la página a la que salta. No se envía al servidor."
+          ]
+        ]
       },
       {
-        "title": "El + y el %20",
-        "body": "En los datos enviados por formularios HTML (application/x-www-form-urlencoded), los espacios se codifican como + en lugar de %20. Por eso en algunas URL de búsqueda verás «q=camion+rojo». Al decodificar, activa la opción de espacios como + si tu texto viene de un formulario; si no, un + se interpretará literalmente como el signo más. En la ruta de la URL, el + no significa espacio."
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo armar un enlace de búsqueda con acentos y espacios?",
+        "datos": [
+          [
+            "Búsqueda",
+            "niños pequeños"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Codifica solo el valor del parámetro.",
+            "operacion": "niños pequeños → ni%C3%B1os%20peque%C3%B1os"
+          },
+          {
+            "texto": "Pégalo después del nombre del parámetro.",
+            "operacion": "https://ejemplo.com/buscar?q=ni%C3%B1os%20peque%C3%B1os"
+          }
+        ]
       },
       {
-        "title": "Analizar los parámetros de una URL",
-        "body": "Las URL de campañas, buscadores y aplicaciones pueden tener decenas de parámetros después del signo ?. El modo «Analizar URL» usa el analizador del propio navegador para separar cada parte y listar los parámetros con sus valores ya decodificados. Es útil para depurar enlaces de marketing con UTM, revisar redirecciones o entender qué datos envía un formulario."
+        "tipo": "texto",
+        "titulo": "¿Qué herramientas generan enlaces ya codificados?",
+        "parrafos": [
+          "El [generador de UTM](/generador-utm) arma enlaces de campaña con sus parámetros bien codificados, y el [generador de link de WhatsApp](/generador-de-link-de-whatsapp) codifica el mensaje automáticamente. Para incrustar datos binarios en texto, usa el [codificador Base64](/codificador-base64)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "IETF RFC 3986: Uniform Resource Identifier (URI), sintaxis genérica",
+            "url": "https://www.rfc-editor.org/rfc/rfc3986"
+          }
+        ]
       }
     ],
     "faqs": [
@@ -19642,36 +20393,70 @@
     "webApp": true,
     "appCategory": "DeveloperApplication",
     "intro": "Cada kilobyte que tu sitio envía retrasa su carga, sobre todo en redes móviles. Minificar elimina todo lo que el navegador no necesita: espacios, saltos de línea y comentarios. En JavaScript, además, acorta los nombres de variables y simplifica expresiones. Esta herramienta minifica JavaScript con Terser, el mismo motor que usan herramientas como webpack, y CSS y HTML con reglas que respetan las cadenas y los bloques preformateados. Te muestra el tamaño antes y después y el porcentaje de ahorro.",
-    "howToUse": [
-      "Elige el lenguaje: JavaScript, CSS o HTML",
-      "Pega tu código en el editor",
-      "En JavaScript, decide si acortar nombres de variables y eliminar console.log",
-      "Pulsa «Minificar» y copia el resultado"
-    ],
-    "benefits": [
-      "JavaScript minificado con Terser, estándar de la industria",
-      "Acorta variables y simplifica expresiones de forma segura",
-      "Conserva comentarios de licencia /*! */ y @license",
-      "CSS sin comentarios ni espacios, sin tocar cadenas ni calc()",
-      "HTML compacto que respeta pre, textarea y script",
-      "Muestra el ahorro en bytes y en porcentaje"
-    ],
-    "contentSections": [
+    "resumen": "Minifica JavaScript, CSS y HTML en tu navegador: quita comentarios, espacios y saltos de línea, y en JavaScript puede acortar nombres de variables y eliminar los console.log. Te muestra cuántos bytes ahorras.",
+    "bloques": [
       {
-        "title": "Qué hace la minificación",
-        "body": "Minificar es transformar el código en una versión equivalente pero más pequeña. En todos los lenguajes se eliminan comentarios, espacios y saltos de línea innecesarios. En JavaScript, Terser va más allá: renombra variables locales a una o dos letras, elimina código inalcanzable, combina declaraciones y reescribe expresiones en formas más cortas, sin cambiar el comportamiento. En proyectos reales, la minificación suele reducir el JavaScript entre un 30% y un 60%, y el ahorro se suma al de la compresión gzip o brotli del servidor."
+        "tipo": "infografia",
+        "archivo": "minificar-css-antes-despues.webp",
+        "alt": "Código CSS antes y después de minificarlo y lo que elimina el minificador",
+        "ancho": 800,
+        "alto": 836,
+        "titulo": "¿Cuánto se reduce un archivo CSS al minificarlo?"
       },
       {
-        "title": "Minificar CSS sin romper nada",
-        "body": "El minificador de CSS elimina comentarios y espacios alrededor de llaves, dos puntos, punto y coma y comas, y quita el último punto y coma de cada bloque. No toca el contenido de las cadenas, como los nombres de fuentes entre comillas o el texto de content, ni los espacios dentro de calc(), donde son obligatorios alrededor de + y −. Los comentarios que empiezan con /*! se conservan porque suelen contener licencias."
+        "tipo": "tabla",
+        "titulo": "¿Qué hace el minificador con cada lenguaje?",
+        "cabeceras": [
+          "Lenguaje",
+          "Qué elimina o cambia",
+          "Qué respeta"
+        ],
+        "filas": [
+          [
+            "JavaScript",
+            "Espacios, comentarios y, si lo activas, nombres largos de variables y console.log",
+            "La lógica y los textos entre comillas"
+          ],
+          [
+            "CSS",
+            "Comentarios, espacios y el último punto y coma de cada regla",
+            "Los textos entre comillas, como las URL y el contenido de content"
+          ],
+          [
+            "HTML",
+            "Comentarios y espacios entre etiquetas",
+            "El contenido de pre, textarea y script; el CSS de style también se minifica"
+          ]
+        ]
       },
       {
-        "title": "Minificar HTML",
-        "body": "En HTML se eliminan los comentarios y los espacios de indentación entre etiquetas, y se reducen los espacios repetidos a uno solo. El contenido de pre, textarea y script se deja intacto, porque ahí los espacios importan, y los bloques style se minifican con el minificador de CSS. Como en HTML un espacio entre dos elementos en línea puede ser visible, la herramienta conserva un espacio donde había texto y solo elimina la indentación entre etiquetas en líneas distintas."
+        "tipo": "consejos",
+        "titulo": "¿Cómo trabajar con código minificado sin romper nada?",
+        "items": [
+          {
+            "titulo": "Conserva el original",
+            "texto": "Edita siempre la versión legible y vuelve a minificar."
+          },
+          {
+            "titulo": "Usa el sufijo .min",
+            "texto": "Llamar al archivo app.min.js deja claro cuál se publica."
+          },
+          {
+            "titulo": "Prueba tras minificar",
+            "texto": "Abre la página y revisa la consola del navegador antes de subirla."
+          },
+          {
+            "titulo": "Activa también la compresión",
+            "texto": "Gzip o Brotli en el servidor reducen todavía más lo que se descarga."
+          }
+        ]
       },
       {
-        "title": "Buenas prácticas",
-        "body": "Guarda siempre el código original: el minificado es difícil de leer y depurar. En proyectos con un proceso de compilación, como Next.js, Vite o webpack, la minificación ya se hace automáticamente en producción; esta herramienta es ideal para fragmentos sueltos, scripts de un sitio estático, plantillas de correo o para comparar resultados. Si necesitas depurar código minificado en producción, genera mapas de código fuente (source maps)."
+        "tipo": "texto",
+        "titulo": "¿Qué otras herramientas ayudan a preparar código para publicar?",
+        "parrafos": [
+          "Para datos en JSON, el [formateador JSON](/formateador-json) también compacta. Para comprobar el tamaño de cualquier texto usa el [contador de caracteres](/contador-caracteres), y para aligerar las imágenes de la página, el [compresor de imágenes](/comprimir-imagen)."
+        ]
       }
     ],
     "faqs": [
@@ -19725,36 +20510,75 @@
     "webApp": true,
     "appCategory": "DeveloperApplication",
     "intro": "Para probar un formulario, llenar una base de datos de desarrollo o hacer la demo de una aplicación necesitas datos que parezcan reales, pero sin usar información de personas reales. Este generador crea hasta 1,000 registros ficticios en español con nombres, apellidos, correos, teléfonos, direcciones, fechas de nacimiento, empresas y más. Los formatos corresponden a México, España, Colombia o Argentina, y puedes exportarlos a JSON, CSV o sentencias SQL INSERT.",
-    "howToUse": [
-      "Elige el país para adaptar teléfonos, ciudades y códigos postales",
-      "Selecciona los campos que necesitas y el número de registros (hasta 1,000)",
-      "Elige el formato de salida: JSON, CSV o SQL; en SQL, escribe el nombre de la tabla",
-      "Pulsa «Generar datos de prueba» y copia o descarga el resultado"
-    ],
-    "benefits": [
-      "Nombres y apellidos hispanos frecuentes",
-      "Teléfonos, ciudades y códigos postales con formato de cada país",
-      "Correos con dominios reservados para pruebas",
-      "Edad coherente con la fecha de nacimiento",
-      "Exporta a JSON, CSV o SQL INSERT",
-      "Aleatoriedad criptográfica y sin enviar datos a servidores"
-    ],
-    "contentSections": [
+    "resumen": "Genera hasta 1,000 registros de personas ficticias con nombre, correo, teléfono, dirección, empresa y más, con datos de México, España, Colombia o Argentina. Descárgalos en JSON, CSV o como sentencias SQL INSERT.",
+    "bloques": [
       {
-        "title": "Por qué usar datos ficticios",
-        "body": "Copiar datos de clientes reales a un entorno de desarrollo o de pruebas es un riesgo de seguridad y, en muchos países, una infracción a las leyes de protección de datos personales, como la ley federal mexicana en la materia o el Reglamento General de Protección de Datos en España. Los datos ficticios permiten probar validaciones, diseños y rendimiento sin exponer a nadie. Además, puedes generar tantos como necesites para probar paginaciones, búsquedas o reportes con volumen."
+        "tipo": "infografia",
+        "archivo": "registro-datos-prueba-ficticio.webp",
+        "alt": "Registro de datos de prueba ficticio, dominios de correo reservados y formatos de salida",
+        "ancho": 800,
+        "alto": 756,
+        "titulo": "¿Qué campos tiene un registro de datos ficticios?"
       },
       {
-        "title": "Datos con formato local",
-        "body": "Los generadores en inglés producen nombres como «John Smith» y teléfonos de Estados Unidos, que no sirven para probar un sistema hispano. Este generador usa nombres y apellidos frecuentes en países de habla hispana, dos apellidos en México, España y Colombia, y formatos locales. Por ejemplo, teléfonos de 10 dígitos con +52 para México, móviles que empiezan con 6 para España, celulares con 3 para Colombia y el 9 de celular argentino. Las ciudades vienen con su estado o provincia y un código postal con el prefijo de la zona."
+        "tipo": "escenarios",
+        "titulo": "¿En qué situaciones de desarrollo ayudan los datos falsos?",
+        "items": [
+          {
+            "titulo": "Base de datos de desarrollo",
+            "situacion": "Llena tablas para programar sin copiar datos reales de clientes.",
+            "resultado": "SQL"
+          },
+          {
+            "titulo": "Demo para un cliente",
+            "situacion": "Una presentación con nombres creíbles y sin exponer información de nadie.",
+            "resultado": "JSON"
+          },
+          {
+            "titulo": "Probar paginación y filtros",
+            "situacion": "Con 1,000 registros verás cómo responde una tabla grande.",
+            "resultado": "1,000 filas"
+          },
+          {
+            "titulo": "Importación desde Excel",
+            "situacion": "Prueba que tu sistema acepta un CSV con acentos y eñes.",
+            "resultado": "CSV"
+          }
+        ]
       },
       {
-        "title": "Correos que nunca llegan a nadie",
-        "body": "Los correos generados usan dominios reservados para documentación y pruebas, como example.com, example.org o los terminados en .test, definidos en el RFC 2606. Así, si tu aplicación envía correos por error durante una prueba, no llegarán a ninguna persona real. Es una práctica recomendada para cualquier entorno de desarrollo."
+        "tipo": "tabla",
+        "titulo": "¿Qué formato de salida elegir?",
+        "cabeceras": [
+          "Formato",
+          "Úsalo para"
+        ],
+        "filas": [
+          [
+            "JSON",
+            "Mocks de APIs, pruebas de frontend y bases NoSQL"
+          ],
+          [
+            "CSV",
+            "Abrir en Excel, importar en hojas de cálculo o en un CRM"
+          ],
+          [
+            "SQL",
+            "Insertar directamente en MySQL, PostgreSQL o SQLite con el nombre de tabla que elijas"
+          ]
+        ]
       },
       {
-        "title": "Exportar a JSON, CSV o SQL",
-        "body": "El formato JSON sirve para mocks de APIs y pruebas de front-end. El CSV se abre en Excel o se importa en la mayoría de las herramientas de datos; se descarga con codificación UTF-8 compatible con Excel. El formato SQL genera una sentencia INSERT por registro, con las comillas escapadas, lista para ejecutarse en MySQL, PostgreSQL o SQLite después de crear la tabla con las columnas elegidas."
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "Usar datos personales reales en entornos de prueba puede incumplir las leyes de protección de datos. Los datos ficticios evitan ese riesgo."
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué herramientas complementan los datos de prueba?",
+        "parrafos": [
+          "El [generador de UUID](/generador-uuid) para identificadores únicos, el [conversor CSV a JSON](/conversor-csv-json) para cambiar de formato y el [validador de email](/validador-email) para comprobar la lógica de tus formularios."
+        ]
       }
     ],
     "faqs": [
@@ -19808,36 +20632,78 @@
     "webApp": true,
     "appCategory": "DesignApplication",
     "intro": "Elegir colores que combinen es más fácil con un poco de teoría del color. Este generador crea paletas armónicas a partir de un color base con los esquemas clásicos: complementario, análogo, triádico, complementario dividido, tetrádico y monocromático. También puede crear paletas aleatorias equilibradas. Puedes bloquear los colores que te gusten mientras generas el resto y copiar la paleta en HEX o como variables CSS listas para tu proyecto.",
-    "howToUse": [
-      "Elige un color base con el selector o escribe su código HEX",
-      "Selecciona una armonía de color o pulsa «Paleta aleatoria»",
-      "Bloquea con el candado los colores que quieras conservar y regenera los demás",
-      "Haz clic en un color para copiar su HEX, o copia toda la paleta como variables CSS"
-    ],
-    "benefits": [
-      "Seis armonías basadas en el círculo cromático",
-      "Paletas aleatorias con luminosidad escalonada",
-      "Bloqueo de colores entre generaciones",
-      "Texto con contraste automático sobre cada color",
-      "Exporta variables CSS o lista de códigos HEX",
-      "Ideal para diseño web, marcas y presentaciones"
-    ],
-    "contentSections": [
+    "resumen": "Crea paletas de colores a partir de un color base o al azar: complementaria, análoga, triádica, complementaria dividida, tetrádica o monocromática. Bloquea los colores que te gusten y copia los códigos HEX o las variables CSS listas para pegar.",
+    "bloques": [
       {
-        "title": "Armonías de color",
-        "body": "Las armonías se construyen girando el tono (hue) en el círculo cromático. La complementaria une colores opuestos, a 180°, con mucho contraste, ideal para destacar un botón. La análoga usa colores vecinos, a 30° de distancia, y transmite calma y unidad. La triádica reparte tres colores a 120°, vibrante pero equilibrada. La complementaria dividida sustituye el opuesto por sus dos vecinos, con menos tensión que la complementaria pura. La tetrádica combina dos pares de complementarios y la monocromática usa un solo tono con distintas luminosidades."
+        "tipo": "infografia",
+        "archivo": "armonias-color-paleta.webp",
+        "alt": "Seis armonías de color generadas desde un mismo azul y prueba de contraste de texto",
+        "ancho": 800,
+        "alto": 868,
+        "titulo": "¿Qué armonías de color se obtienen de un mismo tono base?"
       },
       {
-        "title": "La regla 60-30-10",
-        "body": "Una paleta no se aplica en partes iguales. Una guía clásica del diseño de interiores que funciona también en la web es la regla 60-30-10: un color dominante en el 60% de la superficie (fondos), un color secundario en el 30% (tarjetas, secciones) y un color de acento en el 10% (botones, enlaces, avisos). Los colores de acento suelen ser los más saturados de la paleta, y los dominantes, los más claros o neutros."
+        "tipo": "cifras",
+        "items": [
+          [
+            "60 %",
+            "color dominante: fondos y grandes superficies"
+          ],
+          [
+            "30 %",
+            "color secundario: tarjetas, menús y bloques"
+          ],
+          [
+            "10 %",
+            "color de acento: botones y enlaces"
+          ],
+          [
+            "4.5:1",
+            "contraste mínimo para texto normal"
+          ]
+        ]
       },
       {
-        "title": "Contraste y accesibilidad",
-        "body": "Un texto debe contrastar lo suficiente con su fondo para que todos puedan leerlo. Las pautas WCAG piden una relación de contraste mínima de 4.5:1 para texto normal y de 3:1 para texto grande. En cada muestra, el generador elige automáticamente texto blanco o negro según la luminancia del color. Para medir el contraste exacto y ver si cumple AA o AAA, usa nuestro selector de color."
+        "tipo": "tabla",
+        "titulo": "¿Qué contraste mínimo exige WCAG entre texto y fondo?",
+        "cabeceras": [
+          "Elemento",
+          "Nivel AA",
+          "Nivel AAA"
+        ],
+        "filas": [
+          [
+            "Texto normal",
+            "4.5:1",
+            "7:1"
+          ],
+          [
+            "Texto grande (24 px, o 18.5 px en negrita)",
+            "3:1",
+            "4.5:1"
+          ],
+          [
+            "Iconos y bordes de controles",
+            "3:1",
+            "—"
+          ]
+        ]
       },
       {
-        "title": "Usar la paleta en tu proyecto",
-        "body": "El botón «Copiar CSS» genera un bloque :root con variables --color-1, --color-2, etcétera, que puedes pegar en tu hoja de estilos y renombrar según su función, como --primario o --fondo. Si trabajas en Figma, Canva o PowerPoint, copia la lista de códigos HEX y pégalos en la paleta de tu documento. Guarda la paleta que elijas en un documento de marca para usarla siempre igual."
+        "tipo": "texto",
+        "titulo": "¿Cómo llevar la paleta a tu proyecto?",
+        "parrafos": [
+          "Copia los códigos HEX o las variables CSS y pégalos en tu hoja de estilos o en tu programa de diseño. Para afinar un tono usa el [selector de color](/selector-de-color), para convertir entre formatos el [conversor HEX a RGB](/conversor-hex-rgb), y cuando tengas la paleta, crea el ícono de tu sitio con el [generador de favicon](/generador-favicon)."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "W3C: Pautas de Accesibilidad para el Contenido Web (WCAG) 2.2",
+            "url": "https://www.w3.org/TR/WCAG22/"
+          }
+        ]
       }
     ],
     "faqs": [

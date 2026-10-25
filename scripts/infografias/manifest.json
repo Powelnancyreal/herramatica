@@ -898,5 +898,125 @@
     "alt": "Mililitros de la taza estadounidense, métrica y británica y gramos por taza de cada ingrediente",
     "ancho": 800,
     "alto": 807
+  },
+  "millas-por-hora-a-kmh": {
+    "archivo": "millas-por-hora-a-kmh.webp",
+    "alt": "Señales de límite de velocidad en millas por hora con su equivalencia en km/h y truco de Fibonacci",
+    "ancho": 800,
+    "alto": 817
+  },
+  "estaturas-pies-a-metros": {
+    "archivo": "estaturas-pies-a-metros.webp",
+    "alt": "Estaturas en pies y pulgadas convertidas a metros y otras equivalencias de pies",
+    "ancho": 800,
+    "alto": 774
+  },
+  "galon-estadounidense-imperial-litros": {
+    "archivo": "galon-estadounidense-imperial-litros.webp",
+    "alt": "Litros del galón estadounidense, del galón imperial y de una cubeta de 19 litros",
+    "ancho": 800,
+    "alto": 850
+  },
+  "que-revisa-validador-curp": {
+    "archivo": "que-revisa-validador-curp.webp",
+    "alt": "Comprobaciones que hace un validador de CURP con un ejemplo de dígito verificador erróneo",
+    "ancho": 800,
+    "alto": 766
+  },
+  "formas-dividir-cuenta-restaurante": {
+    "archivo": "formas-dividir-cuenta-restaurante.webp",
+    "alt": "Dividir la cuenta del restaurante a partes iguales o según lo que consumió cada persona",
+    "ancho": 800,
+    "alto": 638
+  },
+  "reloj-24-horas-hora-militar": {
+    "archivo": "reloj-24-horas-hora-militar.webp",
+    "alt": "Reloj de 24 horas y tabla de equivalencias entre hora militar y formato a. m. y p. m.",
+    "ancho": 800,
+    "alto": 773
+  },
+  "media-mediana-moda-ejemplo": {
+    "archivo": "media-mediana-moda-ejemplo.webp",
+    "alt": "Cálculo de media, mediana y moda con un mismo conjunto de notas",
+    "ancho": 800,
+    "alto": 735
+  },
+  "operaciones-con-fracciones": {
+    "archivo": "operaciones-con-fracciones.webp",
+    "alt": "Suma de fracciones con barras y reglas para multiplicar y dividir fracciones",
+    "ancho": 800,
+    "alto": 804
+  },
+  "mcd-mcm-euclides-factores": {
+    "archivo": "mcd-mcm-euclides-factores.webp",
+    "alt": "Cálculo del MCD con el algoritmo de Euclides y del MCD y MCM por factores primos",
+    "ancho": 800,
+    "alto": 788
+  },
+  "teorema-pitagoras-escalera": {
+    "archivo": "teorema-pitagoras-escalera.webp",
+    "alt": "Teorema de Pitágoras explicado con una escalera de 5 metros y ternas pitagóricas",
+    "ancho": 800,
+    "alto": 720
+  },
+  "crecimiento-factorial-digitos": {
+    "archivo": "crecimiento-factorial-digitos.webp",
+    "alt": "Número de dígitos de 5!, 10!, 20!, 52! y 100! y cálculo de los ceros finales de 100!",
+    "ancho": 800,
+    "alto": 838
+  },
+  "desviacion-estandar-paso-a-paso": {
+    "archivo": "desviacion-estandar-paso-a-paso.webp",
+    "alt": "Cálculo a mano de la desviación estándar poblacional y muestral de seis datos",
+    "ancho": 800,
+    "alto": 720
+  },
+  "tablas-multiplicar-dificultad": {
+    "archivo": "tablas-multiplicar-dificultad.webp",
+    "alt": "Tabla pitagórica del 1 al 10 coloreada según las multiplicaciones que más cuestan",
+    "ancho": 800,
+    "alto": 744
+  },
+  "edad-perro-por-tamano-grafica": {
+    "archivo": "edad-perro-por-tamano-grafica.webp",
+    "alt": "Gráfica de la edad humana de un perro por tamaño y según la fórmula logarítmica",
+    "ancho": 800,
+    "alto": 702
+  },
+  "partes-json-web-token": {
+    "archivo": "partes-json-web-token.webp",
+    "alt": "Un JWT dividido en header, payload y firma con su contenido decodificado",
+    "ancho": 800,
+    "alto": 792
+  },
+  "csv-a-json-ejemplo-filas": {
+    "archivo": "csv-a-json-ejemplo-filas.webp",
+    "alt": "Ejemplo de CSV con comillas convertido a JSON y errores habituales al convertir",
+    "ancho": 800,
+    "alto": 778
+  },
+  "caracteres-codificacion-url": {
+    "archivo": "caracteres-codificacion-url.webp",
+    "alt": "Caracteres especiales y su codificación porcentual en una URL",
+    "ancho": 800,
+    "alto": 807
+  },
+  "minificar-css-antes-despues": {
+    "archivo": "minificar-css-antes-despues.webp",
+    "alt": "Código CSS antes y después de minificarlo y lo que elimina el minificador",
+    "ancho": 800,
+    "alto": 836
+  },
+  "registro-datos-prueba-ficticio": {
+    "archivo": "registro-datos-prueba-ficticio.webp",
+    "alt": "Registro de datos de prueba ficticio, dominios de correo reservados y formatos de salida",
+    "ancho": 800,
+    "alto": 756
+  },
+  "armonias-color-paleta": {
+    "archivo": "armonias-color-paleta.webp",
+    "alt": "Seis armonías de color generadas desde un mismo azul y prueba de contraste de texto",
+    "ancho": 800,
+    "alto": 868
   }
 }
