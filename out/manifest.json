@@ -1,7 +1,7 @@
 {
   "name": "Herramatica - Herramientas Online",
   "short_name": "Herramatica",
-  "description": "Más de 230 herramientas online gratuitas en español",
+  "description": "Herramientas online gratis en español: calculadoras, convertidores y generadores",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#F8F7FF",

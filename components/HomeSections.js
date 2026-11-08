@@ -56,7 +56,7 @@ function Destacadas() {
   const lista = herramientas(home.destacadas)
   return (
     <section className="mb-16" aria-labelledby="destacadas">
-      <Encabezado titulo={<span id="destacadas">⭐ Las herramientas más usadas</span>} subtitulo="Las favoritas de quienes nos visitan cada día." />
+      <Encabezado titulo={<span id="destacadas">Herramientas para empezar</span>} subtitulo="Algunas de las más útiles para el día a día." />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {lista.map((t) => {
           const img = getToolImage(t)
@@ -85,7 +85,7 @@ function Recientes() {
   const lista = toolsData.slice(-home.recientes).reverse()
   return (
     <section className="mb-16" aria-labelledby="recientes">
-      <Encabezado titulo={<span id="recientes">🆕 Recién publicadas</span>} subtitulo="Las últimas herramientas que añadimos a Herramatica." />
+      <Encabezado titulo={<span id="recientes">Agregadas hace poco</span>} subtitulo="Las últimas herramientas que sumamos al sitio." />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {lista.map((t) => (
           <Link key={t.slug} href={`/${t.slug}`} className="group flex gap-4 bg-white border border-gray-200 rounded-xl p-4 hover:border-blue-300 hover:shadow-md transition-all">
@@ -93,7 +93,6 @@ function Recientes() {
             <div className="min-w-0">
               <div className="flex items-center gap-2">
                 <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors truncate">{nombreCorto(t)}</h3>
-                <span className="flex-shrink-0 text-[10px] font-bold uppercase tracking-wide bg-rose-100 text-rose-700 px-1.5 py-0.5 rounded">Nuevo</span>
               </div>
               <p className="text-sm text-gray-500 mt-1 line-clamp-2">{t.metaDescription}</p>
             </div>
@@ -108,7 +107,7 @@ function PorPais() {
   const visibles = 5
   return (
     <section className="mb-16" aria-labelledby="por-pais">
-      <Encabezado titulo={<span id="por-pais">🌎 Herramientas para tu país</span>} subtitulo="Calculadoras laborales y fiscales con la legislación vigente de cada país." />
+      <Encabezado titulo={<span id="por-pais">Herramientas para tu país</span>} subtitulo="Calculadoras de trabajo e impuestos con las reglas y cifras de 2026 de cada país." />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {home.paises.map((p) => {
           const lista = herramientas(p.herramientas)
@@ -118,7 +117,7 @@ function PorPais() {
                 <span className="w-12 h-8 flex-shrink-0 rounded-md shadow ring-1 ring-black/10" style={{ background: BANDERAS[p.id] }} role="img" aria-label={`Bandera de ${p.nombre}`} />
                 <div>
                   <h3 className="font-bold text-gray-900">{p.nombre}</h3>
-                  <p className="text-xs text-gray-500">{p.codigo} · {lista.length} herramientas</p>
+                  <p className="text-xs text-gray-500">{p.codigo}</p>
                 </div>
               </div>
               <ul className="space-y-1.5 text-sm">
@@ -130,7 +129,7 @@ function PorPais() {
               </ul>
               {lista.length > visibles && (
                 <details className="mt-2 text-sm">
-                  <summary className="cursor-pointer text-blue-600 font-medium">Ver {lista.length - visibles} más</summary>
+                  <summary className="cursor-pointer text-blue-600 font-medium">Ver más</summary>
                   <ul className="space-y-1.5 mt-2">
                     {lista.slice(visibles).map((t) => (
                       <li key={t.slug}>
@@ -148,27 +147,6 @@ function PorPais() {
   )
 }
 
-export function Estadisticas() {
-  const paises = home.paises.length
-  const datos = [
-    [toolsData.length, 'herramientas gratis'],
-    [categoriesData.length, 'categorías'],
-    [paises, 'países con herramientas propias'],
-    ['0', 'registros necesarios'],
-  ]
-  return (
-    <dl className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
-      {datos.map(([n, t]) => (
-        <div key={t} className="bg-blue-50 rounded-xl p-4 text-center">
-          <dt className="sr-only">{t}</dt>
-          <dd className="text-3xl font-extrabold text-blue-700">{n}</dd>
-          <dd className="text-xs text-gray-600 mt-1">{t}</dd>
-        </div>
-      ))}
-    </dl>
-  )
-}
-
 // Índice completo plegado: mantiene un enlace a cada herramienta desde la portada sin saturar el diseño.
 export function IndiceHerramientas() {
   return (
@@ -176,8 +154,8 @@ export function IndiceHerramientas() {
       <details className="group bg-white border border-gray-200 rounded-2xl">
         <summary className="cursor-pointer list-none p-6 flex items-center justify-between gap-3">
           <span>
-            <span id="indice" className="text-xl font-bold text-gray-900">📚 Índice de todas las herramientas</span>
-            <span className="block text-sm text-gray-500 mt-1">Las {toolsData.length} herramientas ordenadas por categoría y de la A a la Z.</span>
+            <span id="indice" className="text-xl font-bold text-gray-900">Todas las herramientas</span>
+            <span className="block text-sm text-gray-500 mt-1">Ordenadas por sección y de la A a la Z.</span>
           </span>
           <span className="text-blue-600 font-semibold text-sm group-open:hidden">Ver todas ↓</span>
           <span className="text-blue-600 font-semibold text-sm hidden group-open:inline">Ocultar ↑</span>
@@ -188,7 +166,7 @@ export function IndiceHerramientas() {
             return (
               <div key={c.slug}>
                 <h3 className="font-bold text-gray-900 mb-2">
-                  <Link href={`/${c.slug}`} className="hover:text-blue-600">{c.icon} {c.name}</Link> <span className="text-xs font-normal text-gray-500">({lista.length})</span>
+                  <Link href={`/${c.slug}`} className="hover:text-blue-600">{c.icon} {c.name}</Link>
                 </h3>
                 <ul className="space-y-1 text-sm">
                   {lista.map((t) => (
