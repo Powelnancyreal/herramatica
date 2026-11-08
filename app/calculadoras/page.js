@@ -8,7 +8,7 @@ const URL = 'https://herramatica.com/calculadoras'
 const calculadoras = toolsData.filter((t) => t.category === 'calculadoras')
 
 export const metadata = {
-  title: { absolute: `Calculadoras Online Gratis: más de ${Math.floor(calculadoras.length / 10) * 10}` },
+  title: { absolute: 'Calculadoras online gratis: sueldo, impuestos, salud y más' },
   description: 'Directorio de calculadoras online gratis: finanzas, sueldo e impuestos por país, salud, matemáticas, notas y fechas. Sin registro y con resultados al instante.',
   alternates: { canonical: URL, languages: hreflang(URL) },
 }
@@ -79,7 +79,7 @@ export default function CalculadorasPage() {
       <header className="mb-8 max-w-3xl">
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900">Calculadoras online gratis</h1>
         <p className="text-gray-600 text-lg mt-3">
-          {calculadoras.length} calculadoras en español para resolver cuentas reales: tu sueldo y tus impuestos según tu país, préstamos e
+          Calculadoras en español para resolver cuentas reales: tu sueldo y tus impuestos según tu país, préstamos e
           inversiones, salud, matemáticas, notas y fechas. Todas funcionan en tu navegador, sin registro y con el cálculo explicado paso a paso.
         </p>
       </header>
@@ -87,7 +87,7 @@ export default function CalculadorasPage() {
       <nav aria-label="Grupos de calculadoras" className="mb-12 flex flex-wrap gap-2">
         {grupos.map((g) => (
           <a key={g.id} href={`#${g.id}`} className="px-4 py-2 rounded-full bg-green-50 text-green-800 text-sm font-medium border border-green-200 hover:bg-green-100">
-            {g.titulo} <span className="text-green-600">({g.lista.length})</span>
+            {g.titulo}
           </a>
         ))}
       </nav>

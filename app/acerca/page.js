@@ -2,13 +2,11 @@ import Link from 'next/link'
 import toolsData from '@/data/tools.json'
 import categoriesData from '@/data/categories.json'
 import blogData from '@/data/blog.json'
-import temas from '@/data/temas-herramientas.json'
 import { generateBreadcrumbSchema } from '@/lib/schema'
 import { EMAIL } from '@/components/LegalLayout'
 import { FACEBOOK_URL, REDES } from '@/lib/redes'
 
 const URL = 'https://herramatica.com/acerca'
-const decena = (n) => Math.floor(n / 10) * 10
 
 export const metadata = {
   title: 'Acerca de Herramatica: quiénes somos y cómo trabajamos',
@@ -81,9 +79,6 @@ const COMPROMISOS = [
 ]
 
 export default function AcercaPage() {
-  const herramientas = toolsData.length
-  const calculadoras = toolsData.filter((t) => t.category === 'calculadoras').length
-  const porPais = (codigo) => Object.values(temas).filter((t) => t.includes(codigo)).length
   const existe = new Set(toolsData.map((t) => t.slug))
 
   const schema = [
@@ -135,10 +130,8 @@ export default function AcercaPage() {
             funcionan en tu navegador sin pedirte ningún dato.
           </p>
 
-          <dl className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-px overflow-hidden rounded-2xl border border-gray-200 bg-gray-200">
+          <dl className="mt-10 grid max-w-md grid-cols-2 gap-px overflow-hidden rounded-2xl border border-gray-200 bg-gray-200">
             {[
-              [`${decena(herramientas)}+`, 'herramientas gratuitas'],
-              [`${decena(calculadoras)}+`, 'calculadoras'],
               [String(PAISES.length), 'países con cálculos propios'],
               [String(blogData.length), 'guías paso a paso'],
             ].map(([n, t]) => (
@@ -199,10 +192,7 @@ export default function AcercaPage() {
               <li key={p.codigo} className="flex flex-col rounded-2xl border border-gray-200 bg-white p-5">
                 <div className="flex items-center gap-3">
                   <span aria-hidden="true" className="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-900 text-xs font-bold text-white">{p.codigo}</span>
-                  <div>
-                    <h3 className="font-semibold text-gray-900">{p.nombre}</h3>
-                    <p className="text-xs text-gray-500">{porPais(p.codigo)} herramientas</p>
-                  </div>
+                  <h3 className="font-semibold text-gray-900">{p.nombre}</h3>
                 </div>
                 <p className="mt-3 text-sm text-gray-600 leading-relaxed flex-1">{p.fuentes}</p>
                 <div className="mt-4 flex flex-wrap gap-2">
@@ -241,20 +231,14 @@ export default function AcercaPage() {
             {categoriesData.map((c) => (
               <li key={c.slug}>
                 <Link href={`/${c.slug}`} className="group block h-full rounded-2xl border border-gray-200 bg-white p-5 hover:border-blue-300 hover:shadow-md transition-all">
-                  <span className="flex items-baseline justify-between gap-3">
-                    <span className="font-semibold text-gray-900 group-hover:text-blue-700">{c.name}</span>
-                    <span className="text-sm text-gray-500 tabular-nums">{toolsData.filter((t) => t.category === c.slug).length}</span>
-                  </span>
+                  <span className="font-semibold text-gray-900 group-hover:text-blue-700">{c.name}</span>
                   <span className="mt-2 block text-sm text-gray-600 leading-relaxed">{c.description}</span>
                 </Link>
               </li>
             ))}
             <li>
               <Link href="/blog" className="group block h-full rounded-2xl border border-gray-200 bg-white p-5 hover:border-blue-300 hover:shadow-md transition-all">
-                <span className="flex items-baseline justify-between gap-3">
-                  <span className="font-semibold text-gray-900 group-hover:text-blue-700">Blog</span>
-                  <span className="text-sm text-gray-500 tabular-nums">{blogData.length}</span>
-                </span>
+                <span className="font-semibold text-gray-900 group-hover:text-blue-700">Blog</span>
                 <span className="mt-2 block text-sm text-gray-600 leading-relaxed">
                   Guías paso a paso para entender tu aguinaldo, tu finiquito o tus impuestos antes de calcularlos.
                 </span>
