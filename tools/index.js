@@ -243,4 +243,5 @@ export const toolComponents = {
   'convertidor-libras-a-newtons': dynamic(() => import('./convertidor-libras-a-newtons')),
   'calculadora-suteba': dynamic(() => import('./calculadora-suteba')),
   'simulador-liga-1': dynamic(() => import('./simulador-liga-1')),
+  'calculadora-de-anagramas': dynamic(() => import('./calculadora-de-anagramas')),
 }

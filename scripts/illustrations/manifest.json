@@ -574,5 +574,9 @@
   "simulador-liga-1": {
     "file": "simulador-tabla-de-posiciones-liga-1-peru.webp",
     "alt": "Simulador Liga 1"
+  },
+  "calculadora-de-anagramas": {
+    "file": "calculadora-de-anagramas-palabras-con-las-mismas-letras.webp",
+    "alt": "Calculadora de anagramas"
   }
 }

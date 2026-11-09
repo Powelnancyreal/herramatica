@@ -977,5 +977,10 @@
   "simulador-liga-1": [
     "deporte",
     "azar"
+  ],
+  "calculadora-de-anagramas": [
+    "texto",
+    "palabras",
+    "escuela"
   ]
 }

@@ -5,7 +5,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/hero-home.webp</image:loc>
 </image:image>
-<lastmod>2026-11-08T12:00:00.000Z</lastmod>
+<lastmod>2026-11-09T12:00:00.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>1</priority>
 </url>
@@ -23,7 +23,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/cat-calculadoras.webp</image:loc>
 </image:image>
-<lastmod>2026-10-05T12:00:00.000Z</lastmod>
+<lastmod>2026-11-08T12:00:00.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
@@ -32,7 +32,7 @@
 <image:image>
 <image:loc>https://herramatica.com/images/cat-texto.webp</image:loc>
 </image:image>
-<lastmod>2026-10-04T12:00:00.000Z</lastmod>
+<lastmod>2026-11-09T12:00:00.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
@@ -2935,6 +2935,18 @@
 <priority>0.8</priority>
 </url>
 <url>
+<loc>https://herramatica.com/calculadora-de-anagramas</loc>
+<image:image>
+<image:loc>https://herramatica.com/images/tools/calculadora-de-anagramas-palabras-con-las-mismas-letras.webp</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://herramatica.com/images/infografias/ordenaciones-letras-anagramas-colombia.webp</image:loc>
+</image:image>
+<lastmod>2026-11-09T12:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
 <loc>https://herramatica.com/blog</loc>
 <lastmod>2026-10-04T12:00:00.000Z</lastmod>
 <changefreq>weekly</changefreq>
@@ -3038,7 +3050,7 @@
 </url>
 <url>
 <loc>https://herramatica.com/acerca</loc>
-<lastmod>2026-10-20T12:00:00.000Z</lastmod>
+<lastmod>2026-11-08T12:00:00.000Z</lastmod>
 <changefreq>yearly</changefreq>
 <priority>0.3</priority>
 </url>

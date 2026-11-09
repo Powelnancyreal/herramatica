@@ -6119,6 +6119,7 @@
       }
     ],
     "relatedTools": [
+      "calculadora-de-anagramas",
       "contador-palabras",
       "convertidor-mayusculas-minusculas",
       "generador-lorem-ipsum",
@@ -8709,6 +8710,7 @@
       }
     ],
     "relatedTools": [
+      "calculadora-de-anagramas",
       "generador-de-crucigramas",
       "calculo-mental",
       "calculadora-del-amor",
@@ -9047,6 +9049,7 @@
       }
     ],
     "relatedTools": [
+      "calculadora-de-anagramas",
       "sopa-de-letras",
       "calculo-mental",
       "calculadora-del-amor",
@@ -19590,6 +19593,7 @@
       }
     ],
     "relatedTools": [
+      "calculadora-de-anagramas",
       "calculadora-de-matrices",
       "calculadora-de-ecuaciones",
       "calculadora-de-pendiente",
@@ -29056,6 +29060,257 @@
     "image": {
       "file": "simulador-tabla-de-posiciones-liga-1-peru.webp",
       "alt": "Simulador Liga 1"
+    }
+  },
+  {
+    "slug": "calculadora-de-anagramas",
+    "name": "Calculadora de Anagramas",
+    "shortName": "Calculadora de Anagramas",
+    "category": "texto",
+    "metaTitle": "Calculadora de anagramas en español: busca y comprueba",
+    "metaDescription": "Escribe una palabra y descubre sus anagramas en español, las palabras que puedes formar con sus letras y cuántas ordenaciones tiene. Gratis y sin registro.",
+    "webApp": true,
+    "appCategory": "EducationApplication",
+    "intro": "Escribe una palabra o un grupo de letras y la calculadora te muestra sus anagramas en español, otras palabras que puedes formar con esas letras y cuántas ordenaciones distintas tienen, con la fórmula paso a paso.",
+    "resumen": "Escribe una palabra o unas letras y verás sus anagramas reales en español, las palabras más cortas que puedes formar y cuántas ordenaciones distintas tienen, con la fórmula explicada. También comprueba si dos palabras o frases son anagramas y crea ejercicios de letras desordenadas para imprimir.",
+    "bloques": [
+      {
+        "tipo": "infografia",
+        "archivo": "ordenaciones-letras-anagramas-colombia.webp",
+        "alt": "Cálculo de las ordenaciones de las letras de COLOMBIA y ejemplos de anagramas reales en español",
+        "ancho": 800,
+        "alto": 820,
+        "titulo": "¿Cuántas ordenaciones tiene una palabra y cuántas son palabras reales?"
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se calculan las ordenaciones de MATEMÁTICA paso a paso?",
+        "datos": [
+          [
+            "Palabra",
+            "MATEMÁTICA"
+          ],
+          [
+            "Letras",
+            "10"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Cuenta cuántas veces aparece cada letra. La tilde no cuenta.",
+            "operacion": "M ×2 · A ×3 · T ×2 · E ×1 · I ×1 · C ×1"
+          },
+          {
+            "texto": "Calcula el factorial del total de letras.",
+            "operacion": "10! = 3,628,800"
+          },
+          {
+            "texto": "Multiplica los factoriales de las letras que se repiten.",
+            "operacion": "2! × 3! × 2! = 2 × 6 × 2 = 24"
+          },
+          {
+            "texto": "Divide el primer resultado entre el segundo.",
+            "operacion": "3,628,800 ÷ 24 = 151,200 ordenaciones distintas"
+          }
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Qué palabras comunes del español tienen anagramas?",
+        "cabeceras": [
+          "Palabra",
+          "Anagramas que reconoce la calculadora"
+        ],
+        "filas": [
+          [
+            "amor",
+            "roma, mora, ramo, armo"
+          ],
+          [
+            "alegría",
+            "alergia, galería, regalía"
+          ],
+          [
+            "delira",
+            "lidera"
+          ],
+          [
+            "precio",
+            "perico"
+          ],
+          [
+            "setenta",
+            "estante"
+          ],
+          [
+            "ácido",
+            "caído"
+          ],
+          [
+            "abrigar",
+            "barriga"
+          ],
+          [
+            "esponja",
+            "japonés"
+          ],
+          [
+            "tierra",
+            "retira"
+          ],
+          [
+            "piedra",
+            "pierda, perdía"
+          ],
+          [
+            "pasta",
+            "patas, tapas, aptas"
+          ],
+          [
+            "gato",
+            "gota, toga"
+          ]
+        ],
+        "nota": "Aquí se escriben con tilde para leerlas mejor; el diccionario de la herramienta las guarda sin tilde."
+      },
+      {
+        "tipo": "comparacion",
+        "titulo": "¿En qué se diferencia un anagrama de un palíndromo?",
+        "columnas": [
+          {
+            "titulo": "Anagrama",
+            "tono": "azul",
+            "items": [
+              "Cambia el orden de las letras para formar otra palabra.",
+              "Ejemplo: amor → roma.",
+              "Las dos palabras suelen tener significados distintos."
+            ]
+          },
+          {
+            "titulo": "Palíndromo",
+            "tono": "verde",
+            "items": [
+              "Se lee igual de izquierda a derecha que al revés.",
+              "Ejemplo: reconocer, anilina.",
+              "Puedes probarlo con [palabras al revés](/palabras-al-reves)."
+            ]
+          }
+        ]
+      },
+      {
+        "tipo": "escenarios",
+        "titulo": "¿Para qué se usan los anagramas en clase y en los juegos?",
+        "items": [
+          {
+            "titulo": "Clase de lenguaje",
+            "situacion": "Ordenar letras ayuda a repasar vocabulario y ortografía. Con «Crear ejercicio» preparas una ficha para imprimir en un minuto.",
+            "resultado": "Vocabulario"
+          },
+          {
+            "titulo": "Clase de matemáticas",
+            "situacion": "Contar de cuántas formas se ordenan las letras de una palabra es un ejercicio clásico de combinatoria: permutaciones con repetición.",
+            "resultado": "Combinatoria"
+          },
+          {
+            "titulo": "Juegos de palabras",
+            "situacion": "En Scrabble, Apalabrados o un crucigrama, el filtro por posición te muestra solo las palabras que encajan en el hueco.",
+            "resultado": "Juegos"
+          },
+          {
+            "titulo": "Seudónimos",
+            "situacion": "André Breton reordenó «Salvador Dalí» para burlarse de él con el apodo «Avida Dollars». Compruébalo en la pestaña «¿Son anagramas?».",
+            "resultado": "Creatividad"
+          }
+        ]
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "¿Cómo resolver un anagrama de cabeza?",
+        "items": [
+          {
+            "titulo": "Separa vocales y consonantes",
+            "texto": "Ver por un lado las vocales y por otro las consonantes ayuda a imaginar sílabas posibles."
+          },
+          {
+            "titulo": "Busca terminaciones conocidas",
+            "texto": "Si tienes una r al final, prueba verbos en -ar, -er o -ir. Si hay una s, prueba un plural."
+          },
+          {
+            "titulo": "Arma sílabas que existen",
+            "texto": "En español casi todas las sílabas llevan vocal: combina cada consonante con una vocal y mira qué suena natural."
+          },
+          {
+            "titulo": "Escribe las letras en círculo",
+            "texto": "Al no tener un orden fijo, el cerebro deja de leer la palabra original y ve nuevas combinaciones."
+          }
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "El diccionario tiene 636,598 palabras en español, con plurales y formas de los verbos, pero sin tildes y sin nombres propios. Viene de una lista libre basada en el juego Letterpress, así que puede incluir palabras poco usadas o dejar fuera alguna muy reciente."
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿Qué otras herramientas sirven para jugar con palabras y letras?",
+        "parrafos": [
+          "Escribe frases al revés y busca palíndromos con [palabras al revés](/palabras-al-reves), crea pasatiempos con la [sopa de letras](/sopa-de-letras) o el [generador de crucigramas](/generador-de-crucigramas), y cuenta las letras de un texto con el [contador de palabras](/contador-palabras).",
+          "Si quieres practicar la parte de matemáticas, la [calculadora de factorial](/calculadora-factorial) muestra el valor exacto de n! aunque tenga miles de cifras."
+        ]
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Diccionario de la lengua española (RAE): «anagrama»",
+            "url": "https://dle.rae.es/anagrama"
+          },
+          {
+            "texto": "Lista de palabras «an-array-of-spanish-words» (licencia MIT)",
+            "url": "https://github.com/words/an-array-of-spanish-words"
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Qué es un anagrama?",
+        "answer": "Es una palabra o frase que se forma al cambiar el orden de las letras de otra, sin añadir ni quitar ninguna. Por ejemplo, «roma» es un anagrama de «amor», y «barriga» lo es de «abrigar»."
+      },
+      {
+        "question": "¿Las tildes y la ñ cuentan al buscar anagramas?",
+        "answer": "Las tildes no: «alegría» y «galería» se consideran formadas por las mismas letras. La ñ sí cuenta como una letra distinta de la n, así que «año» y «ano» no son anagramas entre sí."
+      },
+      {
+        "question": "¿Por qué no aparecen nombres propios como Bogotá o Colombia?",
+        "answer": "El diccionario solo incluye palabras comunes del español, no nombres de personas, ciudades ni países. Igual puedes calcular cuántas ordenaciones tienen sus letras y comprobar si un nombre es anagrama de otra palabra o frase."
+      },
+      {
+        "question": "¿Cómo uso los comodines?",
+        "answer": "Escribe un signo «?» en lugar de cada letra que no conoces, hasta dos. Por ejemplo, «am?r» busca palabras de cuatro letras con a, m, r y una letra cualquiera."
+      },
+      {
+        "question": "¿Esta herramienta calcula el anagrama fiscal de la Agencia Tributaria?",
+        "answer": "No. En España se llama anagrama a un código de control que la Agencia Tributaria pide en algunos pagos y que se obtiene a partir del apellido del contribuyente. No tiene relación con los anagramas de palabras; consúltalo en tu banco o en la sede electrónica de la Agencia Tributaria."
+      },
+      {
+        "question": "¿Se guardan las palabras que escribo?",
+        "answer": "No. La búsqueda se hace en tu navegador: la página solo descarga las partes del diccionario que necesita y lo que escribes no se envía a ningún servidor."
+      }
+    ],
+    "relatedTools": [
+      "palabras-al-reves",
+      "sopa-de-letras",
+      "generador-de-crucigramas",
+      "contador-palabras",
+      "calculadora-factorial",
+      "contador-caracteres",
+      "convertidor-mayusculas-minusculas",
+      "tablas-de-multiplicar"
+    ],
+    "image": {
+      "file": "calculadora-de-anagramas-palabras-con-las-mismas-letras.webp",
+      "alt": "Calculadora de anagramas"
     }
   }
 ]
