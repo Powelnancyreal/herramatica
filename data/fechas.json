@@ -8,8 +8,8 @@
     },
     "calculadora-edad": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "f3caedbb4605",
+      "actualizado": "2026-11-20",
+      "contenido": "274c3bd178dd",
       "componente": "acf1dd193940"
     },
     "calcular-rfc": {
@@ -20,8 +20,8 @@
     },
     "calcular-imc": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "23f2598c666f",
+      "actualizado": "2026-11-20",
+      "contenido": "8ee4a9096a0c",
       "componente": "79fd90382388"
     },
     "calculadora-alicia": {
@@ -32,8 +32,8 @@
     },
     "generador-qr": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-24",
-      "contenido": "8b69fffc03e5",
+      "actualizado": "2026-11-20",
+      "contenido": "63ef0a3b667c",
       "componente": "6c490dd3a24d"
     },
     "calculadora-horas": {
@@ -62,14 +62,14 @@
     },
     "calcular-aguinaldo": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "9ee1ee1f100a",
+      "actualizado": "2026-11-20",
+      "contenido": "3b7f6e1401a3",
       "componente": "d76c93d9129e"
     },
     "calculadora-dias": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "e234f58a20ec",
+      "actualizado": "2026-11-20",
+      "contenido": "84334ee16a7a",
       "componente": "a5f2211d8614"
     },
     "calcular-iva": {
@@ -92,14 +92,14 @@
     },
     "calculadora-porcentaje": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "8b3b32513d0d",
+      "actualizado": "2026-11-20",
+      "contenido": "6f15572aed58",
       "componente": "133f66c43612"
     },
     "convertidor-moneda": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "351397142185",
+      "actualizado": "2026-11-20",
+      "contenido": "ee6e086ef2b1",
       "componente": "745977ce1ff1"
     },
     "generador-contrasenas": {
@@ -110,8 +110,8 @@
     },
     "contador-palabras": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "c28a645a7d8e",
+      "actualizado": "2026-11-20",
+      "contenido": "b579581b38dd",
       "componente": "170a95bdc45f"
     },
     "calculadora-propinas": {
@@ -176,8 +176,8 @@
     },
     "calculadora-irpf": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "524f908488a5",
+      "actualizado": "2026-11-20",
+      "contenido": "a3ec0730ff83",
       "componente": "42b1d0c0a4c4"
     },
     "calcular-hipoteca": {
@@ -1442,8 +1442,8 @@
     },
     "calculadora-de-anagramas": {
       "creado": "2026-11-09",
-      "actualizado": "2026-11-09",
-      "contenido": "ac01e2dc0582",
+      "actualizado": "2026-11-20",
+      "contenido": "09303f2bbf41",
       "componente": "a435fcb2f713"
     }
   },

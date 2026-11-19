@@ -152,42 +152,47 @@
     "metaTitle": "Calculadora de Edad Exacta | Años, Meses y Días Gratis",
     "metaDescription": "Calcula tu edad exacta en años, meses y días al instante. Descubre cuántos días, horas y minutos has vivido desde tu fecha de nacimiento. Gratis y preciso.",
     "intro": "Nuestra calculadora de edad te permite conocer tu edad exacta al día de hoy a partir de tu fecha de nacimiento. Obtendrás el resultado en años, meses y días, además de datos curiosos como el número total de días que has vivido, las semanas transcurridas y cuándo será tu próximo cumpleaños.",
-    "resumen": "Escribe tu fecha de nacimiento y obtén tu edad exacta en años, meses y días, el total de días y semanas vividos y cuánto falta para tu próximo cumpleaños. También sirve para calcular la edad de otra persona en cualquier fecha.",
+    "resumen": "Saber cuántos años tienes es fácil; saber tu edad exacta en años, meses y días ya no tanto, porque los meses no miden lo mismo y existen los años bisiestos. Esta calculadora es para quien llena un formulario que pide la edad exacta, prepara un trámite, organiza un cumpleaños o simplemente tiene curiosidad: con la fecha de nacimiento te da la edad de hoy, los días, semanas y horas vividos, el día de la semana en que naciste y cuánto falta para el próximo cumpleaños.",
     "bloques": [
       {
         "tipo": "ejemplo",
-        "titulo": "¿Cuántos años tiene alguien nacido el 15 de marzo de 1995?",
-        "intro": "Así hace la calculadora la cuenta, con el 20 de octubre de 2026 como fecha de hoy.",
+        "titulo": "¿Qué edad tiene hoy alguien nacido el 25 de julio de 1988?",
+        "intro": "Así hace la cuenta la calculadora, tomando el 20 de noviembre de 2026 como fecha de hoy.",
         "datos": [
           [
             "Fecha de nacimiento",
-            "15/03/1995"
+            "25/07/1988"
           ],
           [
-            "Fecha de cálculo",
-            "20/10/2026"
+            "Fecha de hoy",
+            "20/11/2026"
           ]
         ],
         "pasos": [
           {
-            "texto": "Cuenta los años completos: del 15/03/1995 al 15/03/2026 han pasado 31 cumpleaños.",
-            "operacion": "2026 − 1995 = 31 años"
+            "texto": "Resta los años y los meses.",
+            "operacion": "2026 − 1988 = 38 años · noviembre − julio = 4 meses"
           },
           {
-            "texto": "Cuenta los meses completos desde el último cumpleaños: del 15/03/2026 al 15/10/2026.",
-            "operacion": "10 − 3 = 7 meses"
+            "texto": "Resta los días: sale negativo porque el día 25 de este mes aún no llega.",
+            "operacion": "20 − 25 = −5"
           },
           {
-            "texto": "Cuenta los días que quedan hasta hoy: del 15/10/2026 al 20/10/2026.",
-            "operacion": "20 − 15 = 5 días"
+            "texto": "Quita un mes y suma los días del mes anterior, octubre.",
+            "operacion": "4 − 1 = 3 meses · −5 + 31 = 26 días"
           },
           {
-            "texto": "Para el total de días vividos se cuentan uno a uno los días del calendario, incluidos los 29 de febrero de los años bisiestos."
+            "texto": "Cuenta el total de días vividos, bisiestos incluidos, y las semanas.",
+            "operacion": "13.997 días · 1999 semanas"
+          },
+          {
+            "texto": "Calcula el próximo cumpleaños.",
+            "operacion": "Del 20/11/2026 al 25/07/2027 = 247 días"
           }
         ],
         "resultado": [
-          "31 años, 7 meses y 5 días",
-          "11.542 días"
+          "38 años, 3 meses y 26 días",
+          "Nació un lunes"
         ]
       },
       {
@@ -199,10 +204,44 @@
       },
       {
         "tipo": "texto",
+        "titulo": "Cómo calcula la herramienta tu edad y tus totales",
+        "parrafos": [
+          "La edad se obtiene restando por separado años, meses y días entre tu fecha de nacimiento y la fecha de hoy de tu dispositivo, con un «préstamo» cuando el día o el mes todavía no han llegado. El total de días vividos, en cambio, se cuenta de forma continua sobre el calendario real, así que cada 29 de febrero suma un día más.",
+          "Con esos días calcula las semanas completas (días ÷ 7, sin decimales) y las horas aproximadas (días × 24). También averigua el día de la semana de tu nacimiento y cuántos días faltan para tu próximo cumpleaños. Si naciste un 29 de febrero, en los años no bisiestos cuenta ese cumpleaños el 1 de marzo."
+        ]
+      },
+      {
+        "tipo": "texto",
         "titulo": "¿Cómo se calcula la edad si todavía no ha llegado el día de tu cumpleaños este mes?",
         "parrafos": [
           "Si naciste un día 25 y hoy es día 10, todavía no se ha completado el mes en curso. La calculadora resta un mes y suma los días que tiene el mes anterior: si el mes anterior tuvo 30 días, quedan 30 − 25 + 10 = 15 días. Es el mismo «préstamo» que se hace en una resta en columna, pero con meses de 28, 29, 30 o 31 días.",
           "Por eso dos personas que nacieron con un día de diferencia pueden tener resultados en días que no parecen consecutivos al final de un mes: no es un error, es el calendario."
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar la calculadora de edad",
+        "pasos": [
+          {
+            "titulo": "Abre el selector de fecha",
+            "texto": "Toca la casilla «Fecha de nacimiento». En el móvil se abre un calendario; en la computadora puedes escribir la fecha."
+          },
+          {
+            "titulo": "Elige día, mes y año",
+            "texto": "No se admiten fechas futuras. Para años lejanos, escribe el año directamente en vez de retroceder mes a mes."
+          },
+          {
+            "titulo": "Pulsa «Calcular edad»",
+            "texto": "Aparece tu edad exacta en grande, con años, meses y días."
+          },
+          {
+            "titulo": "Revisa los totales",
+            "texto": "Debajo verás los días vividos, las semanas completas y las horas aproximadas."
+          },
+          {
+            "titulo": "Comprueba la fecha leída",
+            "texto": "Al final se muestran el día de la semana en que naciste, los días para tu próximo cumpleaños y la fecha escrita con letras."
+          }
         ]
       },
       {
@@ -243,8 +282,38 @@
         ]
       },
       {
+        "tipo": "mitos",
+        "titulo": "Errores frecuentes al calcular una edad",
+        "items": [
+          {
+            "mito": "Basta con restar el año de nacimiento al año actual.",
+            "realidad": "Solo si ya pasó tu cumpleaños este año. Alguien nacido en diciembre de 1990 todavía tiene 35 años en noviembre de 2026."
+          },
+          {
+            "mito": "La casilla de fecha siempre se lee día, mes y año.",
+            "realidad": "Si tu navegador está en inglés puede mostrar mes, día y año. Comprueba la fecha escrita con letras que aparece al final del resultado."
+          },
+          {
+            "mito": "Las horas vividas son exactas.",
+            "realidad": "Se calculan multiplicando los días por 24, sin contar la hora en que naciste, por eso la calculadora las marca como aproximadas."
+          },
+          {
+            "mito": "Quien nació un 29 de febrero solo cumple años cada cuatro.",
+            "realidad": "Su edad avanza cada año igual que la de cualquiera. La herramienta cuenta su cumpleaños el 1 de marzo en los años no bisiestos."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "¿A qué edad se es mayor de edad en cada país?",
+        "parrafos": [
+          "En México, España, Colombia, Perú, Argentina y Chile la mayoría de edad se alcanza a los 18 años, y en la mayoría de países hispanohablantes también se vota desde esa edad. Hay excepciones en el voto: en Argentina y Ecuador los jóvenes de 16 y 17 años pueden votar de forma voluntaria.",
+          "Otras edades legales, como la de jubilación, sí cambian mucho entre países y a veces según los años cotizados, así que conviene revisarlas con la herramienta específica de cada trámite."
+        ]
+      },
+      {
         "tipo": "consejos",
-        "titulo": "¿Para qué trámites se necesita la edad exacta?",
+        "titulo": "Trámites y cálculos que dependen de la edad exacta",
         "items": [
           {
             "titulo": "Jubilación",
@@ -267,24 +336,28 @@
     ],
     "faqs": [
       {
-        "question": "¿Cómo calcula la calculadora de edad la edad exacta?",
-        "answer": "La calculadora utiliza la fecha de nacimiento introducida y la fecha actual del sistema para calcular la diferencia exacta. Tiene en cuenta los años bisiestos y los distintos números de días de cada mes para ofrecer un resultado preciso al día."
-      },
-      {
         "question": "¿La calculadora de edad es precisa con los años bisiestos?",
-        "answer": "Sí, el algoritmo tiene en cuenta correctamente los años bisiestos (que tienen 366 días en lugar de 365), por lo que el cálculo es preciso para cualquier fecha de nacimiento."
+        "answer": "Sí. Los días vividos se cuentan sobre el calendario real, así que cada 29 de febrero que hayas vivido suma un día."
       },
       {
         "question": "¿Puedo calcular la edad de otra persona?",
-        "answer": "Sí, simplemente introduce la fecha de nacimiento de la persona cuyos datos deseas calcular. La herramienta funciona para cualquier persona, independientemente de su edad."
+        "answer": "Sí. Escribe su fecha de nacimiento y verás la edad que tiene hoy, con los mismos totales."
+      },
+      {
+        "question": "¿Puedo saber la edad que tenía o tendré en otra fecha?",
+        "answer": "Esta herramienta siempre calcula hasta hoy. Para otra fecha, cuenta el tiempo entre ambas con la [calculadora de días](/calculadora-dias) o suma tiempo a una fecha con [calcular fecha futura](/calcular-fecha-futura)."
       },
       {
         "question": "¿Funciona la calculadora para fechas muy antiguas?",
-        "answer": "La calculadora funciona con cualquier fecha dentro del calendario gregoriano. Para fechas anteriores al año 1582 (cuando se adoptó el calendario gregoriano), los resultados son una aproximación basada en la extrapolación del mismo sistema."
+        "answer": "Sí, dentro del calendario gregoriano. Para fechas anteriores a 1582, cuando se adoptó, el resultado es solo una aproximación."
       },
       {
-        "question": "¿Cada cuánto se actualiza el cálculo de la edad?",
-        "answer": "El cálculo se realiza en el momento en que pulsas el botón, tomando como referencia la fecha y hora actual de tu dispositivo. Para obtener el dato más actualizado, pulsa el botón de calcular de nuevo."
+        "question": "¿Cómo sé qué día de la semana nací?",
+        "answer": "Al calcular tu edad, la herramienta lo indica en la línea «Naciste un», justo debajo de los totales."
+      },
+      {
+        "question": "¿Se guarda mi fecha de nacimiento?",
+        "answer": "No. El cálculo se hace en tu navegador con la fecha de tu dispositivo y no se envía a ningún servidor."
       }
     ],
     "relatedTools": [
@@ -496,11 +569,11 @@
     "shortName": "Calculadora IMC",
     "category": "calculadoras",
     "metaTitle": "Calculadora de IMC: calcula tu Índice de Masa Corporal",
-    "metaDescription": "Calcula tu IMC gratis con nuestra calculadora online. Descubre tu índice de masa corporal y conoce si estás en peso normal, sobrepeso u obesidad en segundos.",
+    "metaDescription": "Calcula gratis tu índice de masa corporal y descubre si estás en peso normal, sobrepeso u obesidad según la tabla de la OMS para adultos.",
     "webApp": true,
     "appCategory": "HealthApplication",
     "intro": "Calcula tu IMC (Índice de Masa Corporal) de forma gratuita con nuestra calculadora online. Solo necesitas tu peso en kilogramos y tu altura en centímetros para obtener el resultado al instante y saber si tu peso es saludable según los criterios de la Organización Mundial de la Salud. Sin registros, sin descargas, el cálculo de IMC en segundos desde cualquier dispositivo.",
-    "resumen": "El IMC es tu peso en kilos dividido entre tu altura en metros al cuadrado. En adultos, un resultado entre 18,5 y 24,9 se considera peso normal según la OMS; de 25 a 29,9, sobrepeso, y de 30 en adelante, obesidad.",
+    "resumen": "El índice de masa corporal (IMC) relaciona tu peso con tu altura y es la primera referencia que usan médicos y nutricionistas para saber si un peso está en un rango de riesgo. Esta calculadora es para adultos que quieren conocer su punto de partida antes de cambiar de hábitos, seguir su evolución o preparar una consulta: con tu peso y tu altura obtienes el IMC y la categoría de la OMS en un segundo.",
     "bloques": [
       {
         "tipo": "tabla",
@@ -508,42 +581,42 @@
         "cabeceras": [
           "IMC",
           "Clasificación",
-          "Peso para 1,70 m"
+          "Peso para 1.70 m"
         ],
         "filas": [
           [
-            "Menos de 18,5",
+            "Menos de 18.5",
             "Bajo peso",
-            "Menos de 53,5 kg"
+            "Menos de 53.5 kg"
           ],
           [
-            "18,5 a 24,9",
+            "18.5 a 24.9",
             "Peso normal",
-            "53,5 a 72,0 kg"
+            "53.5 a 72.0 kg"
           ],
           [
-            "25 a 29,9",
+            "25 a 29.9",
             "Sobrepeso",
-            "72,3 a 86,4 kg"
+            "72.3 a 86.4 kg"
           ],
           [
-            "30 a 34,9",
+            "30 a 34.9",
             "Obesidad grado I",
-            "86,7 a 100,9 kg"
+            "86.7 a 100.9 kg"
           ],
           [
-            "35 a 39,9",
+            "35 a 39.9",
             "Obesidad grado II",
-            "101,2 a 115,3 kg"
+            "101.2 a 115.3 kg"
           ],
           [
             "40 o más",
             "Obesidad grado III",
-            "115,6 kg o más"
+            "115.6 kg o más"
           ]
         ],
         "destacar": 1,
-        "nota": "Valores para adultos de 18 años o más, iguales para hombres y mujeres. La última columna es un ejemplo para una persona de 1,70 m."
+        "nota": "Valores para adultos de 18 años o más, iguales para hombres y mujeres. La última columna es un ejemplo para una persona de 1.70 m. La calculadora agrupa los tres grados en «Obesidad»."
       },
       {
         "tipo": "infografia",
@@ -553,8 +626,16 @@
         "alto": 723
       },
       {
+        "tipo": "texto",
+        "titulo": "La fórmula del índice de masa corporal",
+        "parrafos": [
+          "El IMC es el peso en kilogramos dividido entre la altura en metros elevada al cuadrado: IMC = peso ÷ altura². La calculadora te pide la altura en centímetros, la divide entre 100, la multiplica por sí misma y divide tu peso entre ese número. Muestra el resultado con dos decimales y lo compara con los límites de la OMS: 18.5, 25 y 30.",
+          "La misma fórmula sirve al revés para saber qué peso corresponde a cada categoría en tu altura: multiplica el IMC por la altura al cuadrado. Con 1.60 m, por ejemplo, el rango de peso normal va de 18.5 × 2.56 = 47.4 kg a 24.9 × 2.56 = 63.7 kg."
+        ]
+      },
+      {
         "tipo": "ejemplo",
-        "titulo": "¿Cuál es el IMC de una persona de 80 kg y 1,75 m?",
+        "titulo": "¿Cuál es el IMC de una persona de 80 kg y 1.75 m?",
         "datos": [
           [
             "Peso",
@@ -568,23 +649,54 @@
         "pasos": [
           {
             "texto": "Pasa la altura a metros.",
-            "operacion": "175 ÷ 100 = 1,75 m"
+            "operacion": "175 ÷ 100 = 1.75 m"
           },
           {
             "texto": "Eleva la altura al cuadrado.",
-            "operacion": "1,75 × 1,75 = 3,0625"
+            "operacion": "1.75 × 1.75 = 3.0625"
           },
           {
             "texto": "Divide el peso entre ese resultado.",
-            "operacion": "80 ÷ 3,0625 = 26,12"
+            "operacion": "80 ÷ 3.0625 = 26.12"
           },
           {
-            "texto": "Para saber el peso máximo dentro del rango normal, multiplica 24,9 por la altura al cuadrado: 24,9 × 3,0625 = 76,3 kg. Esta persona está 3,7 kg por encima."
+            "texto": "Calcula el peso máximo dentro del rango normal.",
+            "operacion": "24.9 × 3.0625 = 76.3 kg"
+          },
+          {
+            "texto": "Compara con el peso actual.",
+            "operacion": "80 − 76.3 = 3.7 kg por encima"
           }
         ],
         "resultado": [
-          "IMC 26,1: sobrepeso",
-          "26,12"
+          "IMC 26.12: sobrepeso",
+          "26.12"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar la calculadora de IMC",
+        "pasos": [
+          {
+            "titulo": "Pésate en las mismas condiciones",
+            "texto": "Por la mañana, en ayunas y con poca ropa, para poder comparar con mediciones futuras."
+          },
+          {
+            "titulo": "Escribe tu peso en kilos",
+            "texto": "Admite un decimal, por ejemplo 68.5."
+          },
+          {
+            "titulo": "Escribe tu altura en centímetros",
+            "texto": "Sin zapatos y en números enteros: 1.62 m se escribe 162."
+          },
+          {
+            "titulo": "Pulsa «Calcular IMC»",
+            "texto": "Verás tu IMC, la categoría resaltada, su posición en una barra de colores y un mensaje orientativo."
+          },
+          {
+            "titulo": "Repite cada cierto tiempo",
+            "texto": "Una vez al mes basta para ver la tendencia sin obsesionarte con los cambios diarios."
+          }
         ]
       },
       {
@@ -609,6 +721,55 @@
               "La edad ni el sexo. Para completar la imagen, prueba la [calculadora de grasa corporal](/calculadora-grasa-corporal)."
             ]
           }
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "Errores al medir e interpretar el IMC",
+        "items": [
+          {
+            "mito": "Puedo escribir la altura en metros.",
+            "realidad": "La calculadora pide centímetros. Si escribes 1.75, te avisará de que la altura no es válida; escribe 175."
+          },
+          {
+            "mito": "Da igual a qué hora me peso.",
+            "realidad": "El peso puede variar más de un kilo a lo largo del día. Para comparar, pésate siempre a la misma hora y en las mismas condiciones."
+          },
+          {
+            "mito": "Un IMC de 24.9 y uno de 25 son muy distintos.",
+            "realidad": "Los límites son referencias estadísticas. Cerca de una frontera, unas décimas no cambian tu salud; importa la tendencia."
+          },
+          {
+            "mito": "Los rangos cambian con la edad en adultos.",
+            "realidad": "La tabla de la OMS es la misma para todos los adultos, hombres y mujeres. Las curvas por edad solo se usan en menores de 19 años."
+          }
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "Conversiones si usas libras y pies",
+        "intro": "En algunos lugares el peso se da en libras y la altura en pies. Antes de calcular, pásalos a kilos y centímetros: 1 libra = 0.4536 kg y 1 pulgada = 2.54 cm. Puedes usar los conversores de [libras a kilos](/libras-a-kilos) y de [pies a metros](/pies-a-metros).",
+        "cabeceras": [
+          "Dato",
+          "Equivale a"
+        ],
+        "filas": [
+          [
+            "150 lb",
+            "68.0 kg"
+          ],
+          [
+            "180 lb",
+            "81.6 kg"
+          ],
+          [
+            "5 pies 6 pulgadas",
+            "167.6 cm"
+          ],
+          [
+            "5 pies 10 pulgadas",
+            "177.8 cm"
+          ]
         ]
       },
       {
@@ -640,24 +801,28 @@
     ],
     "faqs": [
       {
-        "question": "¿Cómo se calcula el IMC?",
-        "answer": "El IMC se calcula dividiendo el peso en kilogramos entre el cuadrado de la altura en metros: IMC = peso (kg) ÷ altura² (m). Por ejemplo, una persona de 68 kg y 1.72 m tendría un IMC de 68 ÷ (1.72 × 1.72) = 68 ÷ 2.9584 = 22.99, lo que corresponde a un peso normal. Con nuestra calculadora online no necesitas hacer ningún cálculo manual."
-      },
-      {
         "question": "¿Qué es el IMC y para qué sirve?",
-        "answer": "El IMC (Índice de Masa Corporal) es una medida internacionalmente reconocida por la OMS que relaciona el peso y la altura de una persona para evaluar si su peso es saludable. Sirve como indicador de riesgo nutricional y de enfermedades asociadas al sobrepeso y la obesidad como la diabetes tipo 2, hipertensión o problemas cardiovasculares. No mide la grasa corporal directamente, pero es la herramienta de cribado más utilizada en todo el mundo."
-      },
-      {
-        "question": "¿El IMC se calcula igual en niños que en adultos?",
-        "answer": "No. En adultos el IMC usa rangos fijos (bajo peso, normal, sobrepeso, obesidad). En niños y adolescentes de 2 a 19 años el IMC se interpreta mediante percentiles que varían según la edad y el sexo, ya que el cuerpo cambia significativamente durante el crecimiento. Esta calculadora está diseñada para adultos. Para niños se recomienda usar las tablas de crecimiento de la OMS y consultar con un pediatra."
+        "answer": "Es una medida que relaciona peso y altura. La OMS la usa como indicador de riesgo de enfermedades ligadas al exceso de peso, como la diabetes tipo 2 o la hipertensión. No mide la grasa directamente."
       },
       {
         "question": "¿Cuál es un IMC normal o saludable?",
-        "answer": "Según la Organización Mundial de la Salud, un IMC entre 18.5 y 24.9 se considera normal o saludable en adultos. Un IMC por debajo de 18.5 indica bajo peso; entre 25 y 29.9 corresponde a sobrepeso; y un IMC de 30 o más indica obesidad. Recuerda que estos rangos son una referencia general y no sustituyen la evaluación de un profesional de la salud."
+        "answer": "En adultos, entre 18.5 y 24.9. Por debajo de 18.5 es bajo peso, de 25 a 29.9 sobrepeso y de 30 en adelante obesidad."
+      },
+      {
+        "question": "¿Qué peso debería tener para mi altura?",
+        "answer": "Multiplica tu altura en metros al cuadrado por 18.5 y por 24.9. Con 1.80 m, el rango de peso normal va de 59.9 a 80.7 kg."
       },
       {
         "question": "¿Esta calculadora de IMC es precisa?",
-        "answer": "Sí, esta calculadora utiliza la fórmula estándar del IMC reconocida por la OMS, por lo que los resultados numéricos son completamente precisos. Sin embargo, el IMC tiene limitaciones conocidas: no distingue entre masa muscular y grasa, puede sobreestimar el riesgo en personas muy musculosas y subestimarlo en personas mayores. Para una evaluación completa de tu estado de salud, consulta siempre con un médico o nutricionista."
+        "answer": "El cálculo es exacto, pero el IMC tiene límites: no distingue músculo de grasa y puede fallar en deportistas o personas mayores. Un profesional puede completar la evaluación."
+      },
+      {
+        "question": "¿Sirve el IMC durante el embarazo?",
+        "answer": "No para valorar el peso actual, porque cambia con el embarazo. Se usa el IMC de antes de quedar embarazada para orientar cuánto peso ganar. Sigue las semanas con la [calculadora de embarazo](/calculadora-embarazo)."
+      },
+      {
+        "question": "¿Importa la medida de la cintura?",
+        "answer": "Sí. Según la OMS, el riesgo aumenta con más de 94 cm de cintura en hombres y 80 cm en mujeres, y es mucho mayor por encima de 102 y 88 cm."
       }
     ],
     "relatedTools": [
@@ -809,11 +974,11 @@
     "shortName": "Generador QR",
     "category": "generadores",
     "metaTitle": "Generador de Código QR Gratis | Crea tu QR Online",
-    "metaDescription": "Genera códigos QR gratis para textos, URLs, WiFi, WhatsApp, email, SMS y contactos. Personaliza colores, añade tu logo y descarga en PNG o SVG. Sin registro.",
+    "metaDescription": "Crea códigos QR gratis para enlaces, WiFi, WhatsApp, email, SMS y contactos. Elige colores, añade tu logo y descárgalo en PNG o SVG. Sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Un código QR es un código de barras bidimensional capaz de almacenar enlaces, textos, datos de contacto o credenciales de una red WiFi, y que cualquier smartphone puede leer al instante con la cámara. Nuestro generador de código QR crea tu QR directamente en el navegador, sin subir tus datos a ningún servidor: eliges el tipo de contenido, personalizas el color y el tamaño, y descargas la imagen en segundos, totalmente gratis y sin necesidad de registro.",
-    "resumen": "Crea un código QR para un enlace, tu WiFi, WhatsApp, un correo o un contacto, personaliza el color y descárgalo en PNG o SVG. Se genera en tu navegador, no caduca y no pasa por ningún servidor.",
+    "resumen": "Un código QR lleva a la gente del papel al teléfono sin teclear nada: un enlace, la clave del WiFi o un chat de WhatsApp a un escaneo de distancia. Este generador es para negocios que ponen el QR en el mostrador o el menú, organizadores de eventos, docentes, diseñadores y cualquiera que quiera compartir algo rápido. Eliges el tipo de contenido, completas los datos, ajustas colores, tamaño y corrección de errores, y descargas la imagen en PNG o SVG.",
     "bloques": [
       {
         "tipo": "cifras",
@@ -844,6 +1009,84 @@
         "alto": 878,
         "titulo": "¿Cuáles son las partes de un código QR?",
         "pie": "El código de la imagen es real: apunta a herramatica.com."
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Cómo convierte la herramienta tus datos en un código",
+        "parrafos": [
+          "Cada tipo de contenido se escribe primero como un texto con un formato que los teléfonos reconocen. Un enlace va tal cual; el WiFi se guarda como «WIFI:T:WPA;S:nombre;P:clave;;»; un correo empieza por «mailto:», un teléfono por «tel:», un SMS por «sms:», un chat de WhatsApp es un enlace wa.me y un contacto es una tarjeta vCard 3.0.",
+          "Ese texto se codifica en la cuadrícula de módulos negros y blancos con el nivel de corrección de errores que elijas; cuanto más alto, más módulos de respaldo. La imagen PNG se dibuja con el ancho elegido, de 200 a 600 píxeles, y el SVG se genera como dibujo vectorial. Si subes un logo, ocupa el 22 % del ancho, en el centro y sobre un recuadro del color de fondo."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo queda el QR del WiFi de una cafetería?",
+        "datos": [
+          [
+            "Red",
+            "Cafe Luna"
+          ],
+          [
+            "Contraseña",
+            "Luna2026;"
+          ],
+          [
+            "Seguridad",
+            "WPA / WPA2"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Elige el tipo «WiFi» y completa los datos.",
+            "operacion": "SSID: Cafe Luna · Contraseña: Luna2026;"
+          },
+          {
+            "texto": "El punto y coma de la clave se protege con una barra para no cortar el formato.",
+            "operacion": "Luna2026\\;"
+          },
+          {
+            "texto": "La herramienta arma el texto completo.",
+            "operacion": "WIFI:T:WPA;S:Cafe Luna;P:Luna2026\\;;H:false;;"
+          },
+          {
+            "texto": "Deja la corrección en M y el tamaño en 300 px, y descarga el SVG para imprimir.",
+            "operacion": "codigo-qr.svg"
+          },
+          {
+            "texto": "Para leerlo a 1 metro del mostrador, imprímelo con unos 10 cm de lado.",
+            "operacion": "100 cm ÷ 10 = 10 cm"
+          }
+        ],
+        "resultado": [
+          "Al escanearlo",
+          "El teléfono se conecta solo"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo crear y descargar tu código QR",
+        "pasos": [
+          {
+            "titulo": "Elige el tipo",
+            "texto": "Texto / URL, WiFi, Email, Teléfono, SMS, WhatsApp o Contacto."
+          },
+          {
+            "titulo": "Completa los campos",
+            "texto": "El código aparece en cuanto escribes el dato principal: el enlace, el nombre de la red, el correo o el número."
+          },
+          {
+            "titulo": "Personaliza",
+            "texto": "Cambia el color del código y del fondo, el tamaño y el nivel de corrección de errores."
+          },
+          {
+            "titulo": "Añade un logo si quieres",
+            "texto": "Sube una imagen de hasta 2 MB. Si la corrección estaba en L o M, sube sola a H."
+          },
+          {
+            "titulo": "Descarga y prueba",
+            "texto": "Pulsa «Descargar PNG» o «Descargar SVG» y escanéalo con dos o tres teléfonos antes de imprimirlo."
+          }
+        ]
       },
       {
         "tipo": "tabla",
@@ -902,7 +1145,7 @@
       },
       {
         "tipo": "comparacion",
-        "titulo": "¿Es mejor descargar el código QR en PNG o en SVG?",
+        "titulo": "PNG o SVG: qué formato descargar",
         "columnas": [
           {
             "titulo": "PNG",
@@ -925,11 +1168,33 @@
         ]
       },
       {
+        "tipo": "mitos",
+        "titulo": "¿Por qué no se escanea mi código QR?",
+        "items": [
+          {
+            "mito": "Cualquier combinación de colores funciona.",
+            "realidad": "Hace falta un código oscuro sobre fondo claro y buen contraste. Los colores invertidos fallan en muchos teléfonos."
+          },
+          {
+            "mito": "Si cambio mi página web, el QR se actualiza.",
+            "realidad": "El contenido va dentro del dibujo. Si cambia el enlace, hay que generar e imprimir un código nuevo."
+          },
+          {
+            "mito": "El SVG también lleva el logo.",
+            "realidad": "El logo solo se añade al PNG. El SVG se descarga sin logo, listo para que lo coloques tú en tu diseño."
+          },
+          {
+            "mito": "Puedo pegar el código al borde del diseño.",
+            "realidad": "La imagen trae un margen de un módulo. Al colocarla, deja más espacio blanco alrededor: la norma recomienda cuatro módulos."
+          }
+        ]
+      },
+      {
         "tipo": "texto",
-        "titulo": "¿Qué se puede guardar en un código QR?",
+        "titulo": "Herramientas que combinan bien con un QR",
         "parrafos": [
-          "Un QR estático guarda el contenido dentro del propio dibujo: un enlace, un texto, los datos de tu red WiFi para que tus invitados se conecten sin escribir la contraseña, un correo con asunto ya escrito, un teléfono, un SMS, un chat de WhatsApp con mensaje predefinido o una tarjeta de contacto vCard.",
-          "Si solo quieres compartir tu WhatsApp en una web o en tu bio, a veces basta con un enlace: créalo con el [generador de link de WhatsApp](/generador-de-link-de-whatsapp). Para productos con código de barras lineal, usa el [generador de código de barras](/generador-codigo-de-barras)."
+          "Si solo quieres compartir tu WhatsApp en una web o en tu bio, a veces basta con un enlace: créalo con el [generador de link de WhatsApp](/generador-de-link-de-whatsapp). Para saber cuántas visitas llegan desde un cartel, añade parámetros de campaña al enlace con el [generador de UTM](/generador-utm) antes de crear el código.",
+          "Para productos con código de barras lineal, usa el [generador de código de barras](/generador-codigo-de-barras), y si vas a enviar el QR dentro de un documento, junta tus imágenes con [imágenes a PDF](/imagenes-a-pdf)."
         ]
       },
       {
@@ -946,27 +1211,27 @@
     "faqs": [
       {
         "question": "¿Los códigos QR generados aquí caducan o dejan de funcionar?",
-        "answer": "No. Los códigos QR que generas aquí son estáticos: la información (texto, enlace, WiFi, etc.) queda codificada directamente dentro del propio código QR, no en un servidor externo. Esto significa que no caducan ni dependen de que este sitio siga funcionando: seguirán siendo legibles siempre, a menos que el contenido original (por ejemplo, una página web enlazada) deje de existir."
+        "answer": "No. Son estáticos: la información va dentro del propio código, no en un servidor. Funcionan siempre, salvo que la página enlazada deje de existir."
       },
       {
         "question": "¿Puedo añadir mi logo al código QR?",
-        "answer": "Sí, puedes subir una imagen que se colocará automáticamente en el centro del código QR. Para que el código siga siendo legible con un logo, recomendamos usar un nivel de corrección de errores alto (Q o H), que la propia herramienta selecciona automáticamente al subir un logo. El logo se incluye en la descarga en PNG; la descarga en SVG se genera sin logo."
+        "answer": "Sí. Sube una imagen y se coloca en el centro; la herramienta sube la corrección a H para que siga siendo legible. El logo se incluye en la descarga PNG, no en la SVG."
       },
       {
-        "question": "¿Es seguro escanear códigos QR generados con esta herramienta?",
-        "answer": "Sí. Todo el proceso de generación ocurre en tu propio navegador: ni el contenido que introduces (textos, contraseñas WiFi, datos de contacto) ni la imagen resultante se envían a ningún servidor. Como con cualquier código QR, recomendamos a quien lo escanee comprobar que el enlace o la acción resultante proceden de una fuente de confianza antes de introducir datos personales."
-      },
-      {
-        "question": "¿Qué diferencia hay entre descargar en PNG o en SVG?",
-        "answer": "El PNG es una imagen de mapa de bits en el tamaño exacto que elijas, ideal para compartir digitalmente o imprimir a un tamaño moderado. El SVG es un formato vectorial que se puede escalar a cualquier tamaño (por ejemplo, un cartel grande) sin perder nitidez ni calidad, por lo que es la mejor opción para impresiones grandes o diseño profesional."
+        "question": "¿Es seguro crear códigos QR con esta herramienta?",
+        "answer": "Sí. El código se genera en tu navegador y nada de lo que escribes, ni siquiera la clave del WiFi, se envía a un servidor."
       },
       {
         "question": "¿Puedo crear un código QR para compartir la contraseña de mi WiFi?",
-        "answer": "Sí, selecciona el tipo \"WiFi\", introduce el nombre de la red (SSID), la contraseña y el tipo de seguridad (normalmente WPA/WPA2). Al escanear el código QR resultante, la mayoría de smartphones modernos se conectan automáticamente a la red sin necesidad de escribir la contraseña manualmente."
+        "answer": "Sí. Elige «WiFi», escribe el nombre de la red, la contraseña y el tipo de seguridad. Al escanearlo, la mayoría de teléfonos se conectan sin escribir la clave."
       },
       {
-        "question": "¿Es gratis el generador de código QR?",
-        "answer": "Sí, es completamente gratuito, sin límite de códigos QR que puedas generar, sin necesidad de crear una cuenta y sin marcas de agua en las descargas. Funciona directamente en tu navegador desde el ordenador, la tablet o el móvil."
+        "question": "¿Cuánto texto cabe en un código QR?",
+        "answer": "Hasta 4,296 caracteres alfanuméricos o 7,089 números en el código más grande con corrección L. Cuanto más texto, más denso el dibujo, así que conviene usar enlaces cortos."
+      },
+      {
+        "question": "¿El código QR cuenta cuántas veces lo escanean?",
+        "answer": "No. Un QR estático no registra escaneos. Para medir visitas, añade parámetros UTM al enlace y revísalos en tu herramienta de analítica."
       }
     ],
     "relatedTools": [
@@ -1708,7 +1973,7 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El aguinaldo es la prestación anual obligatoria que toda empresa en México debe pagar antes del 20 de diciembre, equivalente a un mínimo de 15 días de salario por el artículo 87 de la Ley Federal del Trabajo. Esta calculadora obtiene tus días trabajados automáticamente a partir de tu fecha de ingreso (no con un simple \"sí/no\" como la mayoría de calculadoras), calcula el monto proporcional exacto si no trabajaste el año completo, y estima el ISR real sobre la parte gravable usando la tabla ISR 2026 del SAT, sumándola a tu salario ordinario en lugar de limitarse a mencionar que \"hay que pagar impuestos\".",
-    "resumen": "En México el aguinaldo mínimo son 15 días de salario y se paga antes del 20 de diciembre. Si no trabajaste el año completo te toca la parte proporcional. Escribe tu salario y tu fecha de ingreso: la calculadora cuenta los días y separa la parte exenta de ISR.",
+    "resumen": "En México el aguinaldo mínimo son 15 días de salario y debe pagarse antes del 20 de diciembre. Si no trabajaste el año completo, te toca la parte proporcional. Esta calculadora es para trabajadores que quieren saber cuánto les llegará, para quien acaba de entrar o salir de un empleo y para quien lleva la nómina de un negocio pequeño: con tu sueldo y tus fechas cuenta los días, calcula el monto bruto, separa la parte exenta y estima el ISR.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -1719,48 +1984,130 @@
         "titulo": "¿Cómo se calcula el aguinaldo proporcional si entré a mitad de año?"
       },
       {
+        "tipo": "texto",
+        "titulo": "Cómo calcula la herramienta tu aguinaldo",
+        "parrafos": [
+          "Cuenta los días trabajados en el año de la fecha de corte: desde el 1 de enero, o desde tu ingreso si fue después, hasta la fecha de corte, ambos días incluidos y con un máximo de 365. Tu salario diario es el sueldo mensual entre 30, como indica el artículo 89 de la Ley Federal del Trabajo para los pagos mensuales.",
+          "La fórmula es: aguinaldo = salario diario × días de aguinaldo × días trabajados ÷ 365. Para el impuesto, separa la parte exenta y calcula el ISR del mes con y sin la parte gravable, usando la tarifa mensual; la diferencia es el ISR estimado del aguinaldo y lo resta para darte el neto."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto recibe quien entró el 16 de febrero ganando $18,000?",
+        "datos": [
+          [
+            "Sueldo mensual bruto",
+            "$18,000"
+          ],
+          [
+            "Fecha de ingreso",
+            "16 de febrero de 2026"
+          ],
+          [
+            "Fecha de corte",
+            "31 de diciembre de 2026"
+          ],
+          [
+            "Días de aguinaldo",
+            "15"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Días trabajados del 16 de febrero al 31 de diciembre.",
+            "operacion": "319 días"
+          },
+          {
+            "texto": "Salario diario.",
+            "operacion": "$18,000 ÷ 30 = $600"
+          },
+          {
+            "texto": "Aguinaldo bruto proporcional.",
+            "operacion": "$600 × 15 × 319 ÷ 365 = $7,865.75"
+          },
+          {
+            "texto": "Parte gravable, después de la exención de 30 UMA.",
+            "operacion": "$7,865.75 − $3,519.30 = $4,346.45"
+          },
+          {
+            "texto": "ISR estimado sobre esa parte y monto neto.",
+            "operacion": "$7,865.75 − $928.40 = $6,937.35"
+          }
+        ],
+        "resultado": [
+          "Aguinaldo neto estimado",
+          "$6,937.35"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar la calculadora de aguinaldo",
+        "pasos": [
+          {
+            "titulo": "Escribe tu sueldo mensual bruto",
+            "texto": "El de tu recibo antes de descuentos. Si te pagan por quincena, multiplica por 2."
+          },
+          {
+            "titulo": "Revisa los días de aguinaldo",
+            "texto": "Vienen 15, el mínimo de ley. Si tu contrato o tu empresa dan más, cámbialos."
+          },
+          {
+            "titulo": "Pon tu fecha de ingreso",
+            "texto": "Si entraste antes del año del cálculo, se cuenta desde el 1 de enero."
+          },
+          {
+            "titulo": "Ajusta la fecha de corte",
+            "texto": "Viene el 31 de diciembre. Si dejas la empresa antes, pon tu último día de trabajo."
+          },
+          {
+            "titulo": "Lee el desglose",
+            "texto": "Verás los días trabajados, el bruto, la parte exenta, la gravable, el ISR estimado y el neto."
+          }
+        ]
+      },
+      {
         "tipo": "tabla",
         "titulo": "¿Cuánto aguinaldo me toca según mi sueldo?",
-        "intro": "Aguinaldo de un año completo con los 15 días que marca la ley. Si tu empresa da más días, multiplica tu salario diario por esos días.",
+        "intro": "Aguinaldo de un año completo con los 15 días que marca la ley, calculado como lo hace la herramienta.",
         "cabeceras": [
           "Sueldo mensual",
           "Salario diario",
           "Aguinaldo (15 días)",
-          "Paga ISR"
+          "Parte gravable"
         ],
         "filas": [
           [
-            "$9,577.22 (mínimo)",
+            "$9,451.20",
             "$315.04",
             "$4,725.60",
             "$1,206.30"
           ],
           [
             "$12,000.00",
-            "$394.74",
-            "$5,921.05",
-            "$2,401.75"
+            "$400.00",
+            "$6,000.00",
+            "$2,480.70"
           ],
           [
             "$15,000.00",
-            "$493.42",
-            "$7,401.32",
-            "$3,882.02"
+            "$500.00",
+            "$7,500.00",
+            "$3,980.70"
           ],
           [
             "$20,000.00",
-            "$657.89",
-            "$9,868.42",
-            "$6,349.12"
+            "$666.67",
+            "$10,000.00",
+            "$6,480.70"
           ],
           [
             "$30,000.00",
-            "$986.84",
-            "$14,802.63",
-            "$11,283.33"
+            "$1,000.00",
+            "$15,000.00",
+            "$11,480.70"
           ]
         ],
-        "nota": "Salario diario = sueldo mensual ÷ 30.4. La columna «Paga ISR» es lo que supera la exención de 30 UMA ($3,519.30 en 2026)."
+        "nota": "Salario diario = sueldo mensual ÷ 30. La primera fila corresponde al salario mínimo general de 2026 ($315.04 diarios). La parte gravable es lo que supera la exención de 30 UMA ($3,519.30 en 2026)."
       },
       {
         "tipo": "comparacion",
@@ -1787,6 +2134,28 @@
         ]
       },
       {
+        "tipo": "mitos",
+        "titulo": "Errores frecuentes con el aguinaldo",
+        "items": [
+          {
+            "mito": "Solo cobra aguinaldo quien trabajó el año completo.",
+            "realidad": "Con un día trabajado ya se genera la parte proporcional. Quien entró en octubre también cobra."
+          },
+          {
+            "mito": "Todo el aguinaldo paga ISR.",
+            "realidad": "Los primeros $3,519.30 están exentos. En el ejemplo de $7,865.75, solo $4,346.45 pagan impuesto."
+          },
+          {
+            "mito": "La empresa puede pagarlo en enero si lo decide.",
+            "realidad": "El artículo 87 de la LFT fija como fecha límite el 20 de diciembre. Pagarlo después es un incumplimiento."
+          },
+          {
+            "mito": "Lo que llega a la cuenta es el aguinaldo completo.",
+            "realidad": "El depósito es el neto: el bruto menos el ISR de la parte gravable."
+          }
+        ]
+      },
+      {
         "tipo": "pasos",
         "titulo": "¿Qué hacer si no me pagan el aguinaldo antes del 20 de diciembre?",
         "pasos": [
@@ -1806,11 +2175,58 @@
       },
       {
         "tipo": "texto",
-        "titulo": "¿Cuánto del aguinaldo paga impuestos?",
+        "titulo": "La parte del aguinaldo que paga impuestos",
         "parrafos": [
           "Los primeros $3,519.30 de tu aguinaldo (30 veces la UMA diaria de $117.31) están exentos. Lo que exceda se suma a tu sueldo de diciembre y paga ISR, por eso el depósito es menor que el monto bruto. Calcula la retención exacta con la [calculadora de ISR del aguinaldo](/calcular-isr-aguinaldo) o lee la guía [aguinaldo exento de impuestos](/blog/aguinaldo-exento-impuestos).",
           "Hay una iniciativa para subir el mínimo a 30 días; te contamos en qué va en [la reforma de los 30 días de aguinaldo](/blog/reforma-30-dias-aguinaldo). Mientras no se publique en el DOF, el mínimo sigue siendo 15 días."
         ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "El pago de fin de año en otros países",
+        "intro": "Esta calculadora sigue la ley mexicana. En otros países el pago extra tiene otro nombre y otras reglas: calcula el [SAC de Argentina](/calcular-sac-argentina), la [prima de servicios de Colombia](/prima-de-servicios), la [gratificación de Perú](/calcular-gratificacion-peru), el [décimo tercer sueldo de Ecuador](/decimo-tercer-sueldo) o el [aguinaldo de Uruguay](/aguinaldo-uruguay).",
+        "cabeceras": [
+          "País",
+          "Nombre",
+          "Cuándo se paga"
+        ],
+        "filas": [
+          [
+            "México",
+            "Aguinaldo (mínimo 15 días)",
+            "Antes del 20 de diciembre"
+          ],
+          [
+            "Argentina",
+            "Sueldo anual complementario (SAC)",
+            "En dos cuotas: junio y diciembre"
+          ],
+          [
+            "Colombia",
+            "Prima de servicios (30 días al año)",
+            "En dos mitades: junio y diciembre"
+          ],
+          [
+            "Perú",
+            "Gratificaciones",
+            "Julio y diciembre"
+          ],
+          [
+            "Ecuador",
+            "Décimo tercer sueldo",
+            "En diciembre, o cada mes si el trabajador lo pide"
+          ],
+          [
+            "España",
+            "Pagas extraordinarias",
+            "Al menos dos al año, una en Navidad"
+          ]
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "Actualizado: noviembre de 2026. Días mínimos y fecha de pago según el artículo 87 de la Ley Federal del Trabajo; exención de 30 UMA según la Ley del ISR, con la UMA 2026 de $117.31 publicada por el INEGI."
       },
       {
         "tipo": "fuentes",
@@ -1833,27 +2249,27 @@
     "faqs": [
       {
         "question": "¿El aguinaldo se calcula sobre el salario bruto o neto?",
-        "answer": "Se calcula sobre el salario base (bruto) de cotización o el salario ordinario que percibes, antes de cualquier descuento. El resultado del cálculo (el aguinaldo bruto) es al que después se le aplica, si corresponde, la retención de ISR sobre la parte gravable."
+        "answer": "Sobre el bruto: tu salario diario antes de descuentos. Al resultado se le resta después el ISR de la parte que supera la exención."
       },
       {
         "question": "¿Qué pasa si renuncié o me despidieron antes de diciembre?",
-        "answer": "Tienes derecho a la parte proporcional del aguinaldo por los días que trabajaste durante el año, independientemente del motivo de la baja (renuncia voluntaria, despido justificado o injustificado). Esta cantidad se incluye normalmente dentro del finiquito. Puedes usar la fecha de corte de esta calculadora para indicar tu último día trabajado y obtener el monto proporcional correcto."
+        "answer": "Te toca la parte proporcional por los días trabajados del año, sin importar el motivo de la salida. Se paga en el [finiquito](/calculadora-finiquito-mexico); pon tu último día como fecha de corte."
       },
       {
         "question": "¿Los trabajadores eventuales o por honorarios tienen derecho a aguinaldo?",
-        "answer": "Los trabajadores eventuales con relación laboral (aunque sea temporal) sí tienen derecho a aguinaldo proporcional a los días trabajados. Quienes prestan servicios bajo un esquema estrictamente de honorarios profesionales, sin relación de subordinación laboral, no están cubiertos por esta prestación, ya que no se rigen por la Ley Federal del Trabajo sino por un contrato civil o mercantil."
+        "answer": "Los eventuales sí, en proporción a los días trabajados. Quien cobra por honorarios sin relación laboral no, porque su contrato es civil o mercantil, no laboral."
       },
       {
         "question": "¿Por qué mi aguinaldo real fue menor al que calculé aquí?",
-        "answer": "Las diferencias más comunes se deben a: faltas injustificadas durante el año (que reducen los días trabajados), un salario base de cálculo distinto al que usaste (algunas empresas usan el salario base de cotización del IMSS en lugar del salario nominal), o un método de cálculo de ISR distinto al de esta calculadora. Revisa siempre tu recibo de nómina oficial para el monto exacto."
+        "answer": "Suele deberse a que tu empresa usa otro salario base, a faltas que redujeron los días o a que la retención de ISR se calculó con otro método. Tu recibo de nómina tiene el monto exacto."
       },
       {
-        "question": "¿El aguinaldo cuenta como parte del salario base de cotización del IMSS?",
-        "answer": "El aguinaldo forma parte del Salario Base de Cotización (SBC) que se usa para calcular las cuotas del IMSS, mediante un factor de integración que se aplica sobre el salario diario. Esta calculadora no calcula el SBC ni las cuotas del IMSS, ya que es un cálculo independiente que requiere datos adicionales (días de vacaciones, prima vacacional, etc.)."
+        "question": "¿Mi empresa puede darme más de 15 días?",
+        "answer": "Sí. Los 15 días son el mínimo legal; muchos contratos o contratos colectivos dan 20, 30 o más. Escribe esos días en la calculadora."
       },
       {
-        "question": "¿Es gratis esta calculadora de aguinaldo?",
-        "answer": "Sí, es completamente gratuita, no requiere registro y el cálculo se realiza directamente en tu navegador, sin enviar tus datos de salario a ningún servidor."
+        "question": "¿Puedo calcular el aguinaldo de un año anterior?",
+        "answer": "Sí: pon una fecha de corte de ese año y se cuentan los días de ese año. Ten en cuenta que la exención usa la UMA de 2026, así que el ISR será aproximado."
       }
     ],
     "relatedTools": [
@@ -1873,11 +2289,11 @@
     "shortName": "Calculadora de Días",
     "category": "calculadoras",
     "metaTitle": "Calculadora de Días entre Fechas y Cuenta Atrás",
-    "metaDescription": "Calculadora de fecha para hallar la diferencia entre dos fechas, sumar o restar días, o contar los días que faltan para un evento. Incluye días hábiles. Gratis.",
+    "metaDescription": "Calcula los días entre dos fechas, suma o resta días, semanas o meses y cuenta cuánto falta para un evento, con los días hábiles de lunes a viernes.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Esta calculadora de días reúne en una sola herramienta los tres cálculos con fechas más buscados: la diferencia exacta entre dos fechas (en años, meses, días, semanas y días hábiles), sumar o restar días, semanas, meses o años a una fecha concreta, y saber cuántos días faltan (o han pasado) para una fecha determinada. A diferencia de la mayoría de calculadoras de fechas, que solo cubren una de estas funciones, aquí las tienes todas juntas, incluyendo el conteo de días hábiles excluyendo fines de semana.",
-    "resumen": "Calcula cuántos días hay entre dos fechas (también en semanas, meses y días hábiles), suma o resta días a una fecha y descubre cuánto falta para un evento. Los meses de distinta duración y los años bisiestos se tienen en cuenta solos.",
+    "resumen": "Contar días en el calendario parece sencillo hasta que hay meses de 30 y 31 días, febreros bisiestos y fines de semana por medio. Esta calculadora es para quien tiene que cumplir un plazo, vigilar el vencimiento de una garantía o un contrato, planear un viaje o contar cuánto falta para una fecha especial: calcula la diferencia entre dos fechas, suma o resta tiempo a una fecha y hace cuentas regresivas, separando los días hábiles de los de fin de semana.",
     "bloques": [
       {
         "tipo": "ejemplo",
@@ -1908,11 +2324,15 @@
           {
             "texto": "Suma los tres tramos.",
             "operacion": "16 + 120 + 30 = 166 días"
+          },
+          {
+            "texto": "Separa los días de lunes a viernes de los de fin de semana.",
+            "operacion": "118 hábiles + 48 de fin de semana = 166"
           }
         ],
         "resultado": [
           "Diferencia",
-          "166 días (23 semanas y 5 días)"
+          "166 días (5 meses y 15 días)"
         ]
       },
       {
@@ -1924,41 +2344,105 @@
         "titulo": "¿Qué diferencia hay entre días naturales y días hábiles?"
       },
       {
+        "tipo": "texto",
+        "titulo": "Cómo cuenta la herramienta los días",
+        "parrafos": [
+          "La diferencia entre dos fechas es el número de días que hay que avanzar desde la primera para llegar a la segunda: del 1 al 2 de un mes hay 1 día. Con ese total calcula las semanas (días ÷ 7) y los meses aproximados (días ÷ 30.44, la duración media de un mes), ambos con un decimal. Aparte desglosa el periodo en años, meses y días de calendario.",
+          "Los días hábiles son los de lunes a viernes, contados desde la fecha inicial hasta el día anterior a la final; el resto son de fin de semana. Al sumar días, la fecha resultante se mueve día a día; al sumar meses o años, cambia el mes o el año y conserva el número de día, y si ese día no existe pasa al mes siguiente."
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar las tres pestañas de la calculadora",
+        "pasos": [
+          {
+            "titulo": "Diferencia entre fechas",
+            "texto": "Elige la fecha inicial y la final y pulsa calcular. Si las pones al revés, se ordenan solas y te avisa."
+          },
+          {
+            "titulo": "Lee el desglose",
+            "texto": "Verás los años, meses y días, los días totales, las semanas y meses aproximados, y los días hábiles y de fin de semana."
+          },
+          {
+            "titulo": "Sumar o restar",
+            "texto": "En la segunda pestaña elige una fecha, la operación, la cantidad y la unidad: días, semanas, meses o años."
+          },
+          {
+            "titulo": "Solo días hábiles",
+            "texto": "Si sumas días, marca «Contar solo días hábiles» para saltar sábados y domingos."
+          },
+          {
+            "titulo": "Cuenta regresiva",
+            "texto": "En «Días hasta una fecha» elige el evento: verás cuántos días faltan, o cuántos han pasado si ya fue, y qué día de la semana cae."
+          }
+        ]
+      },
+      {
         "tipo": "aviso",
         "tono": "ambar",
-        "titulo": "¿Los días hábiles descuentan los festivos?",
-        "texto": "No. Aquí son días hábiles todos los de lunes a viernes. Los festivos cambian según el país y hasta la ciudad, así que, si tu plazo es legal o administrativo, resta los que caigan en el periodo o usa la [calculadora de días hábiles](/calculadora-dias-habiles)."
+        "texto": "Los días hábiles de esta calculadora no descuentan festivos: cuenta como hábil cualquier día de lunes a viernes. Si tu plazo es legal o administrativo, resta los festivos que caigan en el periodo o usa la [calculadora de días hábiles](/calculadora-dias-habiles), que incluye los días de descanso obligatorio de México y te deja añadir los tuyos."
       },
       {
         "tipo": "tabla",
         "titulo": "¿Qué fecha da sumar un mes al 31 de enero?",
-        "intro": "Sumar meses a una fecha de fin de mes es donde más se equivocan las hojas de cálculo. Así resuelve la calculadora los casos difíciles:",
+        "intro": "Sumar meses o años a un fin de mes es el caso que más confunde. Esto es lo que devuelve la pestaña «Sumar / Restar días»:",
         "cabeceras": [
           "Fecha de partida",
           "Operación",
-          "Resultado"
+          "Resultado en la calculadora"
         ],
         "filas": [
           [
             "31/01/2026",
             "+ 1 mes",
-            "28/02/2026 (último día de febrero)"
+            "03/03/2026 (el 31 de febrero no existe)"
           ],
           [
             "31/03/2026",
             "+ 1 mes",
-            "30/04/2026"
+            "01/05/2026 (el 31 de abril no existe)"
           ],
           [
             "29/02/2028",
             "+ 1 año",
-            "28/02/2029"
+            "01/03/2029 (2029 no es bisiesto)"
           ],
           [
             "15/10/2026",
             "+ 90 días",
             "13/01/2027"
           ]
+        ],
+        "nota": "Muchos plazos legales usan otra regla: si el mes de vencimiento no tiene ese día, el plazo vence el último día del mes. Así ocurre, por ejemplo, con los plazos administrativos en España. Para esos casos, suma días o revisa la norma que te aplica."
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "Errores comunes al contar plazos",
+        "items": [
+          {
+            "mito": "Del lunes al viernes hay 5 días.",
+            "realidad": "La diferencia es de 4 días. Si tu plazo cuenta el primer y el último día, suma 1 al resultado."
+          },
+          {
+            "mito": "Sumar un mes es lo mismo que sumar 30 días.",
+            "realidad": "Desde el 1 de febrero de 2026, un mes lleva al 1 de marzo (28 días) y 30 días llevan al 3 de marzo."
+          },
+          {
+            "mito": "Los días hábiles ya excluyen los festivos.",
+            "realidad": "Aquí solo se excluyen sábados y domingos. Los festivos dependen de tu país y a veces de tu ciudad."
+          },
+          {
+            "mito": "La cuenta regresiva incluye el día del evento.",
+            "realidad": "Indica cuántos días hay que avanzar desde hoy hasta la fecha. Si el evento es mañana, falta 1 día."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Festivos y fines de semana en cada país",
+        "parrafos": [
+          "En todos los países hispanohablantes el fin de semana es sábado y domingo, pero los festivos cambian mucho. En México, la Ley Federal del Trabajo fija los días de descanso obligatorio y varios se celebran en lunes. En Colombia muchos festivos se trasladan al lunes siguiente, y en Argentina el Gobierno puede declarar feriados puente para unir un festivo con el fin de semana.",
+          "En España hay festivos nacionales, autonómicos y locales, así que el calendario cambia según la comunidad y el municipio. Chile tiene feriados irrenunciables para los trabajadores del comercio. Antes de contar un plazo, revisa el calendario oficial de tu país y del año en curso."
         ]
       },
       {
@@ -1986,24 +2470,28 @@
     ],
     "faqs": [
       {
-        "question": "¿Por qué el resultado de \"días totales\" no coincide exactamente con años × 365?",
-        "answer": "Porque el cálculo tiene en cuenta los años bisiestos, que añaden un día extra cada cuatro años (con algunas excepciones en los años de siglo). Cuantos más años bisiestos haya entre las dos fechas, mayor será la diferencia respecto a una simple multiplicación por 365."
+        "question": "¿Por qué los días totales no coinciden con años × 365?",
+        "answer": "Porque se cuentan los años bisiestos, que añaden un día cada cuatro años, salvo en algunos años de cambio de siglo."
       },
       {
-        "question": "¿Puedo usar esta calculadora para saber cuántos días faltan para una boda o un examen?",
-        "answer": "Sí, esa es exactamente la función de la pestaña \"Días hasta una fecha\": introduce la fecha del evento y verás cuántos días, meses y años faltan (o si ya pasó, cuánto tiempo ha transcurrido), además del día de la semana en que cae."
+        "question": "¿Sirve para contar cuánto falta para una boda o un examen?",
+        "answer": "Sí. En la pestaña «Días hasta una fecha» escribe la fecha del evento y verás los días que faltan, su desglose en años, meses y días y el día de la semana en que cae."
       },
       {
-        "question": "¿La opción de días hábiles excluye los días festivos?",
-        "answer": "No. Esta calculadora excluye únicamente los sábados y domingos. Los días festivos varían según el país, la región e incluso la empresa, por lo que no se incluyen automáticamente. Si necesitas excluir festivos concretos, resta esos días manualmente al resultado."
+        "question": "¿Se cuentan el primer día y el último?",
+        "answer": "Se cuenta la distancia entre ambas fechas, así que del 1 al 10 de un mes hay 9 días. Si tu caso incluye los dos extremos, suma 1."
       },
       {
-        "question": "¿Qué pasa si pongo la fecha final antes que la fecha inicial en \"Diferencia entre fechas\"?",
-        "answer": "No hay problema: la calculadora detecta automáticamente el orden y calcula la diferencia en valor absoluto, avisándote de que las fechas se han reordenado. No es necesario que introduzcas primero la fecha más antigua."
+        "question": "¿Qué pasa si pongo la fecha final antes que la fecha inicial?",
+        "answer": "Nada: la calculadora ordena las fechas, calcula la diferencia y te avisa de que las cambió de lugar."
       },
       {
-        "question": "¿Es gratis esta calculadora de días?",
-        "answer": "Sí, es completamente gratuita, no requiere registro y el cálculo se realiza directamente en tu navegador."
+        "question": "¿Qué fecha cae 10 días hábiles después de hoy?",
+        "answer": "Usa «Sumar / Restar días», escribe 10 días y marca «Contar solo días hábiles». Desde el viernes 20 de noviembre de 2026, por ejemplo, se llega al viernes 4 de diciembre."
+      },
+      {
+        "question": "¿Por qué los meses aparecen con decimales?",
+        "answer": "Porque se calculan dividiendo los días entre 30.44, la duración media de un mes. El desglose en años, meses y días sí usa los meses reales del calendario."
       }
     ],
     "relatedTools": [
@@ -2578,11 +3066,11 @@
     "shortName": "Calculadora Porcentajes",
     "category": "calculadoras",
     "metaTitle": "Calculadora de Porcentajes: descuentos y aumentos",
-    "metaDescription": "Calcula porcentajes al instante: qué es X% de Y, qué % representa un número, o aplica un aumento o descuento. Tres calculadoras en una, gratis y sin registro.",
+    "metaDescription": "Calcula porcentajes al instante: qué es X% de Y, qué porcentaje representa un número y cuánto sube o baja un valor con un aumento o descuento.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Esta calculadora de porcentajes resuelve los tres cálculos con porcentajes más habituales en un solo lugar: cuánto es un porcentaje de una cantidad, qué porcentaje representa un número sobre otro, y cómo aplicar (o calcular) un aumento o descuento porcentual. El resultado se actualiza al instante mientras escribes, sin necesidad de pulsar ningún botón.",
-    "resumen": "Resuelve cualquier cálculo con porcentajes: cuánto es un porcentaje de una cantidad, qué porcentaje representa un número de otro y cuánto sube o baja un valor. El resultado aparece mientras escribes, con la fórmula a la vista.",
+    "resumen": "Los porcentajes aparecen en todas partes: rebajas, aumentos de sueldo, impuestos, propinas, notas de examen o resultados de una encuesta. Esta calculadora es para cualquiera que quiera hacer esas cuentas sin equivocarse, desde quien compara ofertas hasta estudiantes y pequeños negocios: calcula cuánto es un porcentaje de una cantidad, qué porcentaje representa un número de otro y cuánto sube o baja un valor, con el resultado a la vista mientras escribes.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -2591,6 +3079,76 @@
         "ancho": 800,
         "alto": 838,
         "titulo": "¿Cuáles son las fórmulas para calcular porcentajes?"
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Cómo resuelve cada pestaña su cálculo",
+        "parrafos": [
+          "«¿Qué es X% de Y?» divide el porcentaje entre 100 y lo multiplica por la cantidad: el 15 % de 80 es 15 ÷ 100 × 80 = 12. «X es qué % de Y?» hace lo contrario: divide la parte entre el total y multiplica por 100, así que 12 de 80 es el 15 %.",
+          "«Aumento / Descuento» tiene dos usos. Para aplicar un cambio, multiplica el valor por 1 más el porcentaje (aumento) o por 1 menos el porcentaje (descuento). Para comparar dos valores, resta el inicial al final, divide entre el inicial y multiplica por 100: el signo te dice si fue subida o bajada. La herramienta muestra hasta cuatro decimales y escribe la coma como separador decimal."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto cuesta una chaqueta de 1250 con un 30 % de rebaja?",
+        "datos": [
+          [
+            "Precio original",
+            "1250"
+          ],
+          [
+            "Descuento",
+            "30 %"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Pestaña «¿Qué es X% de Y?»: cuánto te ahorras.",
+            "operacion": "30 ÷ 100 × 1250 = 375"
+          },
+          {
+            "texto": "Pestaña «Aumento / Descuento»: precio final.",
+            "operacion": "1250 × (1 − 0,30) = 875"
+          },
+          {
+            "texto": "Pestaña «X es qué % de Y?»: qué parte del precio pagas.",
+            "operacion": "875 ÷ 1250 × 100 = 70 %"
+          },
+          {
+            "texto": "Compara 875 con 1250: cuánto tendría que subir para volver al precio original.",
+            "operacion": "(1250 − 875) ÷ 875 × 100 = 42,857 %"
+          }
+        ],
+        "resultado": [
+          "Precio con rebaja",
+          "875"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar la calculadora de porcentajes",
+        "pasos": [
+          {
+            "titulo": "Elige la pregunta",
+            "texto": "Las tres pestañas responden a «cuánto es», «qué porcentaje es» y «cuánto sube o baja»."
+          },
+          {
+            "titulo": "Escribe los dos números",
+            "texto": "Usa punto para los decimales en las casillas, por ejemplo 12.5, y no escribas el signo %."
+          },
+          {
+            "titulo": "Para un cambio, elige aumento o descuento",
+            "texto": "En la tercera pestaña indica el valor inicial, el porcentaje y la operación."
+          },
+          {
+            "titulo": "Para comparar, usa la segunda sección",
+            "texto": "Escribe el valor inicial y el final y verás el porcentaje de variación."
+          },
+          {
+            "titulo": "Lee el resultado al instante",
+            "texto": "No hace falta pulsar ningún botón: se recalcula mientras escribes, con la fórmula a la vista."
+          }
+        ]
       },
       {
         "tipo": "tabla",
@@ -2659,30 +3217,133 @@
         ]
       },
       {
+        "tipo": "mitos",
+        "titulo": "Errores habituales con los porcentajes",
+        "items": [
+          {
+            "mito": "Si algo baja un 50 %, basta con que suba un 50 % para recuperarse.",
+            "realidad": "De 100 a 50 y luego un 50 % más da 75. Para volver a 100 hace falta subir un 100 %."
+          },
+          {
+            "mito": "El precio con IVA incluido menos el 16 % da el precio sin IVA.",
+            "realidad": "Hay que dividir: 116 ÷ 1,16 = 100. Restar el 16 % de 116 da 97,44, que no es correcto."
+          },
+          {
+            "mito": "El porcentaje de cambio es el mismo en ambos sentidos.",
+            "realidad": "De 80 a 100 es un aumento del 25 %; de 100 a 80, una bajada del 20 %. Siempre se divide entre el valor inicial."
+          },
+          {
+            "mito": "Un porcentaje nunca puede pasar de 100.",
+            "realidad": "Puede: si un precio pasa de 50 a 150, subió un 200 %. Solo una parte de un total no puede superar el 100 %."
+          }
+        ]
+      },
+      {
         "tipo": "texto",
         "titulo": "¿Qué diferencia hay entre puntos porcentuales y porcentaje?",
         "parrafos": [
           "Si una tasa de interés pasa del 10 % al 12 %, ha subido 2 puntos porcentuales, pero un 20 % en términos relativos (2 es el 20 % de 10). Las noticias los confunden a menudo, y la diferencia importa en créditos, impuestos o encuestas.",
           "Para precios con rebaja usa la [calculadora de descuentos](/calcular-descuento); para proporciones del tipo «si 3 cuestan 45, ¿cuánto cuestan 7?», la [regla de tres](/calculadora-regla-de-tres)."
         ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "El porcentaje que más se usa en cada país: el IVA",
+        "intro": "El impuesto al consumo es el porcentaje que más calculamos a diario. Para sumarlo o quitarlo de un precio usa la [calculadora de IVA](/calcular-iva) o, en Perú, la [calculadora de IGV](/calculadora-de-igv).",
+        "cabeceras": [
+          "País",
+          "Impuesto",
+          "Tasa general"
+        ],
+        "filas": [
+          [
+            "México",
+            "IVA",
+            "16 % (8 % en la región fronteriza)"
+          ],
+          [
+            "España",
+            "IVA",
+            "21 %"
+          ],
+          [
+            "Colombia",
+            "IVA",
+            "19 %"
+          ],
+          [
+            "Perú",
+            "IGV",
+            "18 % (16 % de IGV más 2 % de impuesto de promoción municipal)"
+          ],
+          [
+            "Argentina",
+            "IVA",
+            "21 %"
+          ],
+          [
+            "Chile",
+            "IVA",
+            "19 %"
+          ]
+        ],
+        "nota": "Tasas generales; cada país tiene tasas reducidas o exenciones para ciertos productos. Para escribir porcentajes, la RAE recomienda dejar un espacio entre el número y el signo: 21 %."
+      },
+      {
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "Actualizado: noviembre de 2026. Tasas generales del impuesto al consumo publicadas por el SAT (México), la Agencia Tributaria (España), la DIAN (Colombia), la SUNAT (Perú), ARCA (Argentina) y el SII (Chile)."
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Agencia Tributaria (España)",
+            "url": "https://sede.agenciatributaria.gob.es"
+          },
+          {
+            "texto": "DIAN (Colombia)",
+            "url": "https://www.dian.gov.co"
+          },
+          {
+            "texto": "SUNAT (Perú)",
+            "url": "https://www.sunat.gob.pe"
+          },
+          {
+            "texto": "ARCA (Argentina)",
+            "url": "https://www.arca.gob.ar"
+          },
+          {
+            "texto": "Servicio de Impuestos Internos (Chile)",
+            "url": "https://www.sii.cl"
+          }
+        ]
       }
     ],
     "faqs": [
       {
-        "question": "¿Cómo calculo un descuento del 20% sobre un precio?",
-        "answer": "Multiplica el precio original por 0.8 (que es 1 menos 0.20), o usa la pestaña \"Aumento/Descuento\" de esta calculadora seleccionando \"Descuento\" e introduciendo 20 como porcentaje."
+        "question": "¿Cómo calculo un descuento del 20 % sobre un precio?",
+        "answer": "Multiplica el precio por 0,8, que es 1 menos 0,20. En la calculadora, usa «Aumento / Descuento», elige descuento y escribe 20."
       },
       {
-        "question": "¿Por qué dos descuentos del 10% no son lo mismo que un 20%?",
-        "answer": "Porque el segundo descuento se aplica sobre el precio ya rebajado, no sobre el precio original. Por ejemplo, sobre $100: el primer 10% deja el precio en $90, y el segundo 10% se calcula sobre $90 (no sobre $100), dejando el precio final en $81, equivalente a un 19% de descuento total, no un 20%."
+        "question": "¿Por qué dos descuentos del 10 % no son lo mismo que un 20 %?",
+        "answer": "Porque el segundo se aplica sobre el precio ya rebajado. Sobre 100, el primero deja 90 y el segundo 81: un 19 % de descuento total."
       },
       {
         "question": "¿Cómo sé qué porcentaje de aumento tuvo un valor?",
-        "answer": "Resta el valor inicial al valor final, divide el resultado entre el valor inicial, y multiplica por 100. Puedes hacerlo automáticamente en la pestaña \"Aumento/Descuento\", en la sección \"¿Qué % de variación hay entre dos valores?\"."
+        "answer": "Resta el valor inicial al final, divide entre el inicial y multiplica por 100. La sección de comparar dos valores de la tercera pestaña lo hace sola."
       },
       {
-        "question": "¿Es gratis esta calculadora de porcentajes?",
-        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+        "question": "¿Cómo quito el IVA de un precio?",
+        "answer": "Divide el precio entre 1 más la tasa. Con IVA del 16 %, 580 ÷ 1,16 = 500 es el precio sin impuesto."
+      },
+      {
+        "question": "¿Cómo calculo qué porcentaje saqué en un examen?",
+        "answer": "Divide tus aciertos entre el total de preguntas y multiplica por 100. Con 34 de 40, sacaste el 85 %."
+      },
+      {
+        "question": "¿Puedo calcular porcentajes con decimales?",
+        "answer": "Sí. Escribe el decimal con punto en las casillas, por ejemplo 7.5 %, y el resultado aparece con coma decimal."
       }
     ],
     "relatedTools": [
@@ -2706,7 +3367,7 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Este convertidor de moneda usa tasas de cambio de referencia actualizadas para convertir entre dólar estadounidense, peso mexicano, euro y otras divisas habituales. Elige la moneda de origen y destino, introduce el monto, y obtén el resultado al instante junto con la tasa de cambio unitaria aplicada.",
-    "resumen": "Convierte entre dólar, peso mexicano, euro y otras monedas con el tipo de cambio de referencia del Banco Central Europeo, actualizado cada día hábil. Te sirve para saber cuánto vale algo; al cambiar dinero, el banco aplicará su propio margen.",
+    "resumen": "Antes de comprar en una tienda extranjera, cobrar a un cliente de otro país o planear un viaje, conviene saber cuánto es un precio en tu moneda. Este convertidor es para compradores en línea, viajeros, profesionales independientes y pequeños negocios: convierte entre peso mexicano, dólar, euro, libra, dólar canadiense, yen, real brasileño y franco suizo con el tipo de referencia del Banco Central Europeo, y te muestra también cuánto vale una unidad de cada moneda.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -2717,8 +3378,79 @@
         "titulo": "¿Por qué el banco me da un tipo de cambio distinto?"
       },
       {
+        "tipo": "texto",
+        "titulo": "Cómo hace la conversión la herramienta",
+        "parrafos": [
+          "Al abrir la página, descarga los tipos de cambio del día expresados en dólares: cuántas unidades de cada moneda vale 1 USD. Para convertir, primero pasa tu monto a dólares dividiéndolo entre la tasa de la moneda de origen, y después lo multiplica por la tasa de la moneda de destino. Si una de las dos es el dólar, la cuenta se reduce a una sola operación.",
+          "También calcula el tipo unitario, es decir, cuánto vale 1 unidad de la moneda de origen en la de destino: tasa de destino ÷ tasa de origen. Debajo del resultado aparece la fecha de las tasas. El cálculo se repite al instante cada vez que cambias el monto o las monedas."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cuántos pesos mexicanos son 250 euros?",
+        "intro": "Con tasas de ejemplo para que puedas seguir la cuenta: 1 USD = 18.50 MXN y 1 USD = 0.92 EUR. Las del día aparecen en la herramienta.",
+        "datos": [
+          [
+            "Monto",
+            "250 EUR"
+          ],
+          [
+            "Destino",
+            "Pesos mexicanos (MXN)"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Pasa los euros a dólares.",
+            "operacion": "250 ÷ 0.92 = 271.74 USD"
+          },
+          {
+            "texto": "Pasa los dólares a pesos.",
+            "operacion": "271.74 × 18.50 = 5,027.17 MXN"
+          },
+          {
+            "texto": "Calcula el tipo unitario euro-peso.",
+            "operacion": "18.50 ÷ 0.92 = 20.1087 MXN por euro"
+          },
+          {
+            "texto": "Estima lo que recibirías con un margen bancario del 3 %.",
+            "operacion": "5,027.17 × 0.97 = 4,876.36 MXN"
+          }
+        ],
+        "resultado": [
+          "Valor de referencia",
+          "5,027.17 MXN"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar el convertidor de moneda",
+        "pasos": [
+          {
+            "titulo": "Espera a que carguen las tasas",
+            "texto": "Tardan un momento. Si no cargan, revisa tu conexión y recarga la página."
+          },
+          {
+            "titulo": "Elige la moneda de origen",
+            "texto": "En «De», la moneda que tienes o en la que está el precio."
+          },
+          {
+            "titulo": "Elige la moneda de destino",
+            "texto": "En «A», la moneda a la que quieres pasar. El botón ⇄ las intercambia."
+          },
+          {
+            "titulo": "Escribe el monto",
+            "texto": "Sin separadores de miles: 1500, no 1.500 ni 1,500."
+          },
+          {
+            "titulo": "Lee el resultado y la fecha",
+            "texto": "Verás el monto convertido, el valor de 1 unidad y el día de publicación de las tasas."
+          }
+        ]
+      },
+      {
         "tipo": "consejos",
-        "titulo": "¿Cómo pagar menos comisión al cambiar dinero?",
+        "titulo": "Formas de pagar menos comisión al cambiar dinero",
         "items": [
           {
             "titulo": "Compara el margen, no la comisión",
@@ -2739,11 +3471,75 @@
         ]
       },
       {
+        "tipo": "mitos",
+        "titulo": "Errores frecuentes al convertir divisas",
+        "items": [
+          {
+            "mito": "La coma del resultado separa los miles.",
+            "realidad": "El convertidor escribe los decimales con coma: «18,50 MXN» son dieciocho pesos con cincuenta centavos."
+          },
+          {
+            "mito": "El banco me cambiará al mismo tipo que muestra la herramienta.",
+            "realidad": "Es un tipo de referencia sin margen. El banco o la casa de cambio aplican el suyo, y la diferencia puede ser de varios puntos."
+          },
+          {
+            "mito": "Las tasas se mueven en tiempo real.",
+            "realidad": "Se publican una vez por día hábil. Los fines de semana y festivos se usa la última disponible."
+          },
+          {
+            "mito": "Puedo escribir 1.500 para mil quinientos.",
+            "realidad": "El punto se lee como decimal, así que «1.500» es uno y medio. Escribe el monto sin separadores."
+          }
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Qué tipo de cambio oficial se usa en cada país?",
+        "intro": "El convertidor no incluye el peso colombiano, el sol, el peso argentino ni el peso chileno, porque el Banco Central Europeo no los publica. Para operaciones en esos países, el tipo de referencia lo fija cada banco central:",
+        "cabeceras": [
+          "País",
+          "Referencia oficial frente al dólar",
+          "Quién la publica"
+        ],
+        "filas": [
+          [
+            "México",
+            "Tipo de cambio FIX",
+            "Banco de México"
+          ],
+          [
+            "Colombia",
+            "Tasa representativa del mercado (TRM)",
+            "La calcula el Banco de la República y la certifica la Superintendencia Financiera"
+          ],
+          [
+            "Perú",
+            "Tipo de cambio interbancario",
+            "Banco Central de Reserva del Perú"
+          ],
+          [
+            "Argentina",
+            "Tipo de cambio de referencia «Comunicación A 3500»",
+            "Banco Central de la República Argentina"
+          ],
+          [
+            "Chile",
+            "Dólar observado",
+            "Banco Central de Chile"
+          ],
+          [
+            "España y la zona euro",
+            "Tipo de referencia del euro",
+            "Banco Central Europeo"
+          ]
+        ]
+      },
+      {
         "tipo": "texto",
         "titulo": "¿De dónde salen los tipos de cambio de este convertidor?",
         "parrafos": [
           "Usamos los tipos de referencia que publica el Banco Central Europeo cada día hábil, a través de un servicio público. Son tasas del mercado interbancario: las que usan los bancos entre ellos, sin margen para el cliente. Los fines de semana se muestra la última publicada.",
-          "Para monedas con mercados paralelos o muy variables hay herramientas específicas: el [dólar a peso mexicano](/dolar-a-peso-mexicano) con su evolución reciente, el [dólar blue](/dolar-blue) en Argentina y el [conversor de criptomonedas](/conversor-criptomonedas)."
+          "Para monedas con mercados paralelos o muy variables hay herramientas específicas: el [dólar a peso mexicano](/dolar-a-peso-mexicano) con su evolución reciente, el [dólar blue](/dolar-blue) en Argentina y el [conversor de criptomonedas](/conversor-criptomonedas). En Chile y Perú, las unidades indexadas tienen su propio conversor: [UF a pesos](/uf-a-pesos) y [UIT a soles](/uit-a-soles)."
         ]
       },
       {
@@ -2757,6 +3553,18 @@
           {
             "texto": "Banco Central Europeo: tipos de cambio de referencia",
             "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.es.html"
+          },
+          {
+            "texto": "Banco de México",
+            "url": "https://www.banxico.org.mx"
+          },
+          {
+            "texto": "Banco Central de Reserva del Perú",
+            "url": "https://www.bcrp.gob.pe"
+          },
+          {
+            "texto": "Banco Central de la República Argentina",
+            "url": "https://www.bcra.gob.ar"
           }
         ]
       }
@@ -2764,19 +3572,27 @@
     "faqs": [
       {
         "question": "¿Con qué frecuencia se actualizan las tasas de cambio?",
-        "answer": "Las tasas se actualizan una vez por día hábil, tomando como referencia el tipo de cambio de cierre del Banco Central Europeo. No reflejan movimientos dentro del mismo día ni son válidas para operaciones en tiempo real de trading."
+        "answer": "Una vez por día hábil, con el tipo de referencia del Banco Central Europeo. No reflejan los movimientos dentro del mismo día."
       },
       {
         "question": "¿Puedo usar esta calculadora para hacer una transferencia o cambio de divisas real?",
-        "answer": "No se recomienda. Esta calculadora ofrece una tasa de referencia informativa; para una operación real (transferencia, cambio físico de efectivo, tarjeta) siempre debes verificar la tasa exacta que ofrece tu banco, casa de cambio o plataforma de pago, que normalmente incluye un margen adicional."
+        "answer": "Sirve para saber cuánto vale algo, pero el tipo real lo fija tu banco, casa de cambio o plataforma de pago, que suma su propio margen."
       },
       {
         "question": "¿Qué monedas puedo convertir?",
-        "answer": "Incluye el peso mexicano, dólar estadounidense, euro, libra esterlina, dólar canadiense, yen japonés, real brasileño y franco suizo, con más divisas disponibles según se necesiten."
+        "answer": "Peso mexicano, dólar estadounidense, euro, libra esterlina, dólar canadiense, yen japonés, real brasileño y franco suizo."
       },
       {
-        "question": "¿Es gratis este convertidor de moneda?",
-        "answer": "Sí, es completamente gratuito y no requiere registro."
+        "question": "¿Por qué no está el peso colombiano o el sol peruano?",
+        "answer": "Porque la fuente que usamos, el Banco Central Europeo, no publica esas monedas. Consulta el tipo oficial en el banco central de cada país."
+      },
+      {
+        "question": "¿Qué pasa si las tasas no cargan?",
+        "answer": "Aparece un aviso amarillo. Suele deberse a la conexión o a un bloqueador; recarga la página o prueba desde otra red."
+      },
+      {
+        "question": "¿Las tasas de hoy valen para una compra con tarjeta?",
+        "answer": "Solo como referencia. La red de la tarjeta y tu banco aplican su propio tipo del día en que se procesa el cargo, más posibles comisiones."
       }
     ],
     "relatedTools": [
@@ -2905,7 +3721,7 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Este contador de palabras analiza tu texto en tiempo real mientras escribes o pegas contenido: número de palabras, caracteres (con y sin espacios), oraciones, párrafos, tiempo estimado de lectura y las palabras que más se repiten. Útil para ajustarte a límites de caracteres en redes sociales, cumplir con la extensión mínima o máxima de un trabajo académico, o revisar la repetición excesiva de palabras en un texto.",
-    "resumen": "Pega o escribe tu texto y ve al instante las palabras, los caracteres con y sin espacios, las oraciones, los párrafos, el tiempo de lectura y las palabras que más repites. Todo se procesa en tu navegador.",
+    "resumen": "Casi todo texto tiene un límite: una tarea de 800 palabras, un resumen de 250, una publicación que no puede pasar de cierto número de caracteres. Este contador es para estudiantes, docentes, periodistas, traductores y creadores de contenido que necesitan saber cuánto ocupa lo que escribieron sin contar a mano. Pega o escribe tu texto y verás al instante las palabras, los caracteres con y sin espacios, las oraciones, los párrafos, el tiempo de lectura y las palabras que más repites.",
     "bloques": [
       {
         "tipo": "tabla",
@@ -2933,7 +3749,7 @@
             "1.000 a 2.000 palabras"
           ],
           [
-            "Trabajo de fin de grado",
+            "Tesina o trabajo de fin de grado",
             "8.000 a 15.000 palabras"
           ]
         ]
@@ -2948,9 +3764,96 @@
       },
       {
         "tipo": "texto",
+        "titulo": "Cómo cuenta la herramienta cada dato",
+        "parrafos": [
+          "Una palabra es cualquier grupo de caracteres separado por espacios o saltos de línea, así que «e-mail», «2026» o «¿Qué?» cuentan como una. Los caracteres con espacios son todos los que escribiste; los caracteres sin espacios descuentan espacios, tabulaciones y saltos de línea. Una oración termina en punto, signo de exclamación o de interrogación, y cada salto de línea abre un párrafo nuevo.",
+          "El tiempo de lectura divide las palabras entre 200 y redondea hacia arriba. Para las palabras más repetidas, pasa todo a minúsculas, quita los signos y descarta las de menos de tres letras y las más comunes del idioma, como «para», «como» o «que»; luego muestra las cinco que más aparecen. Todo se recalcula mientras escribes."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Qué resultados da un texto corto de dos párrafos?",
+        "intro": "Texto analizado: «Mañana salimos temprano hacia la sierra. ¿Llevamos café para el viaje? El viaje dura cuatro horas y el café de la carretera es caro.» y, en una línea aparte, «Prepara el termo esta noche, por favor.»",
+        "pasos": [
+          {
+            "texto": "Palabras separadas por espacios en las dos líneas.",
+            "operacion": "31 palabras"
+          },
+          {
+            "texto": "Caracteres con todo incluido y sin espacios ni saltos.",
+            "operacion": "172 con espacios · 142 sin espacios"
+          },
+          {
+            "texto": "Oraciones: tres terminan en punto o interrogación y la última línea suma otra.",
+            "operacion": "4 oraciones"
+          },
+          {
+            "texto": "Párrafos separados por el salto de línea.",
+            "operacion": "2 párrafos"
+          },
+          {
+            "texto": "Tiempo de lectura y palabras repetidas.",
+            "operacion": "31 ÷ 200 < 1 min · café ×2, viaje ×2"
+          }
+        ],
+        "resultado": [
+          "Palabras",
+          "31"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar el contador de palabras",
+        "pasos": [
+          {
+            "titulo": "Pega o escribe tu texto",
+            "texto": "En el recuadro grande. Puedes pegar desde Word, Google Docs o un correo."
+          },
+          {
+            "titulo": "Lee los seis contadores",
+            "texto": "Palabras, caracteres, caracteres sin espacios, oraciones, párrafos y tiempo de lectura."
+          },
+          {
+            "titulo": "Revisa las palabras más repetidas",
+            "texto": "Debajo aparecen las cinco que más usas, con las veces que salen."
+          },
+          {
+            "titulo": "Edita en el mismo recuadro",
+            "texto": "Quita o cambia frases y mira cómo bajan los números hasta llegar a tu límite."
+          },
+          {
+            "titulo": "Copia el resultado final",
+            "texto": "Cuando el texto esté listo, selecciónalo y llévalo de vuelta a tu documento."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
         "titulo": "¿Cómo se calcula el tiempo de lectura de un texto?",
         "parrafos": [
           "Dividimos el número de palabras entre 200, la velocidad media de lectura silenciosa de un adulto en español. Un artículo de 1.200 palabras se lee en unos 6 minutos. Para textos técnicos la velocidad baja, y si vas a leerlo en voz alta, calcula unas 130 palabras por minuto. La [calculadora de tiempo de lectura](/calculadora-tiempo-lectura) te deja ajustar la velocidad."
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "Errores al contar palabras y caracteres",
+        "items": [
+          {
+            "mito": "Un guion suelto entre espacios no cuenta.",
+            "realidad": "Sí cuenta como palabra, igual que un número o un emoji aislado. Si tu límite es estricto, revisa esos casos."
+          },
+          {
+            "mito": "Una abreviatura no corta la oración.",
+            "realidad": "Aquí sí: «El Sr. Pérez llegó a las 3.5 horas.» se cuenta como tres oraciones por los puntos de «Sr.» y «3.5»."
+          },
+          {
+            "mito": "Un salto de línea simple no crea un párrafo.",
+            "realidad": "Para el contador, cada línea es un párrafo. Si pegas un texto con cortes de línea, el número sube."
+          },
+          {
+            "mito": "Un emoji ocupa un solo carácter.",
+            "realidad": "La mayoría cuenta como dos: «Hola 😀» da 7 caracteres. Algunas redes los cuentan de la misma forma."
+          }
         ]
       },
       {
@@ -2974,24 +3877,39 @@
             "texto": "Si solo te importa el límite de una red social, el [contador de caracteres](/contador-caracteres) es más directo."
           }
         ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Herramientas para dar forma a tu texto",
+        "parrafos": [
+          "Corrige un texto escrito todo en mayúsculas con el [convertidor de mayúsculas y minúsculas](/convertidor-mayusculas-minusculas), rellena una maqueta mientras escribes el contenido real con el [generador de lorem ipsum](/generador-lorem-ipsum) y, si necesitas escribir cantidades en un cheque o un contrato, usa el [convertidor de números a letras](/convertidor-numeros-a-letras)."
+        ]
       }
     ],
     "faqs": [
       {
         "question": "¿Este contador guarda o envía mi texto a algún servidor?",
-        "answer": "No. Todo el análisis se realiza directamente en tu navegador mediante JavaScript. Tu texto nunca se envía ni se almacena en ningún servidor externo, por lo que puedes pegar contenido sensible o privado sin preocupación."
+        "answer": "No. El análisis se hace en tu navegador y el texto no se envía ni se guarda, así que puedes pegar contenido privado."
       },
       {
         "question": "¿Cómo se cuentan las oraciones y los párrafos?",
-        "answer": "Las oraciones se detectan buscando texto seguido de un punto, signo de exclamación o interrogación. Los párrafos se detectan por saltos de línea. Estos son criterios generales y pueden variar ligeramente en textos con puntuación poco convencional."
+        "answer": "Una oración termina en punto, exclamación o interrogación. Un párrafo es cada bloque separado por un salto de línea."
       },
       {
-        "question": "¿Sirve para contar caracteres de un tuit o publicación en redes sociales?",
-        "answer": "Sí, el contador de \"caracteres\" (con espacios) es el número que más se aproxima al límite que aplican la mayoría de redes sociales, aunque cada plataforma puede tener reglas ligeramente distintas para emojis o enlaces."
+        "question": "¿Sirve para contar caracteres de una publicación en redes sociales?",
+        "answer": "Sí. Usa el número de caracteres con espacios, que es el que aplican casi todas las redes, aunque algunas cuentan los enlaces o los emojis de otra forma."
       },
       {
-        "question": "¿Es gratis este contador de palabras?",
-        "answer": "Sí, es completamente gratuito, sin límite de uso y sin necesidad de registro."
+        "question": "¿Cuenta los números y las siglas como palabras?",
+        "answer": "Sí. «2026», «ONU» o «3.5» cuentan como una palabra cada uno, porque son grupos de caracteres separados por espacios."
+      },
+      {
+        "question": "¿Por qué no aparecen «de» o «que» entre las más repetidas?",
+        "answer": "Porque la lista descarta las palabras de menos de tres letras y las más comunes del idioma, para mostrarte las que de verdad dicen algo de tu texto."
+      },
+      {
+        "question": "¿Hay un límite de texto?",
+        "answer": "No hay un límite fijo. Puedes pegar trabajos largos; con textos de cientos de páginas el navegador puede tardar un poco más en actualizar los números."
       }
     ],
     "relatedTools": [
@@ -4180,11 +5098,11 @@
     "shortName": "Calculadora IRPF",
     "category": "calculadoras",
     "metaTitle": "Calculadora de IRPF 2026 España | Sueldo Neto y Retención",
-    "metaDescription": "Calcula tu IRPF 2026 y tu sueldo neto en España: mínimo personal y familiar, reducción por rendimientos del trabajo y cotización a la Seguridad Social incluidos.",
+    "metaDescription": "Calcula tu IRPF 2026 y tu sueldo neto en España con el mínimo personal y familiar, la reducción por trabajo y la cotización a la Seguridad Social.",
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El IRPF (Impuesto sobre la Renta de las Personas Físicas) es el impuesto que grava tu salario en España, aplicado de forma progresiva y repartido entre el Estado y tu Comunidad Autónoma. Esta calculadora estima tu IRPF anual y tu salario neto aplicando la escala estatal real, la reducción por obtención de rendimientos del trabajo (Art. 20 LIRPF), el mínimo personal y familiar según tu edad y tus hijos a cargo, y la cotización a la Seguridad Social del trabajador, mostrando cada paso del cálculo, no solo el resultado final.",
-    "resumen": "Calcula cuánto IRPF te retienen en España y tu sueldo neto anual y mensual a partir del salario bruto, tu edad y tus hijos, con la escala estatal de 2026, la reducción por rendimientos del trabajo y el mínimo personal y familiar.",
+    "resumen": "El IRPF es el impuesto que se descuenta cada mes de la nómina en España, y entender por qué te retienen lo que te retienen no es sencillo. Esta calculadora es para asalariados que negocian un sueldo, cambian de trabajo o quieren comprobar su nómina: a partir del salario bruto anual, la edad y los hijos estima el IRPF del año, la cotización a la Seguridad Social y el sueldo neto en 12 o 14 pagas, con cada paso del cálculo a la vista.",
     "bloques": [
       {
         "tipo": "tabla",
@@ -4253,6 +5171,84 @@
       },
       {
         "tipo": "texto",
+        "titulo": "Cómo calcula la herramienta el IRPF de tu sueldo",
+        "parrafos": [
+          "Primero resta al bruto la cotización a la Seguridad Social del trabajador (6,5 %) y 2.000 € de gastos generales: así obtiene el rendimiento neto del trabajo. Si ese rendimiento es bajo, aplica la reducción del artículo 20 de la ley, que llega a 7.302 € y desaparece a partir de 19.747,50 €. El resultado es la base liquidable.",
+          "Después aplica la escala estatal por tramos a la base y, aparte, al mínimo personal y familiar: 5.550 € por contribuyente, más por edad y por hijos. La cuota estatal es la diferencia entre ambos resultados. Como cada comunidad autónoma tiene su escala, la herramienta estima la parte autonómica igual a la estatal y suma las dos. El neto es el bruto menos la Seguridad Social y el IRPF."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto IRPF paga un sueldo de 28.000 € con un hijo pequeño?",
+        "datos": [
+          [
+            "Bruto anual",
+            "28.000 €"
+          ],
+          [
+            "Edad",
+            "35 años"
+          ],
+          [
+            "Hijos",
+            "1, menor de 3 años"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Seguridad Social y rendimiento neto.",
+            "operacion": "28.000 × 6,5 % = 1.820 € · 28.000 − 1.820 − 2.000 = 24.180 €"
+          },
+          {
+            "texto": "Reducción del artículo 20: no aplica por encima de 19.747,50 €.",
+            "operacion": "Base liquidable = 24.180 €"
+          },
+          {
+            "texto": "Mínimo personal y familiar.",
+            "operacion": "5.550 + 2.400 (primer hijo) + 2.800 (menor de 3) = 10.750 €"
+          },
+          {
+            "texto": "Escala estatal sobre la base menos escala sobre el mínimo.",
+            "operacion": "2.709,75 − 1.021,25 = 1.688,50 €"
+          },
+          {
+            "texto": "Se suma la parte autonómica estimada y se calcula el neto.",
+            "operacion": "1.688,50 × 2 = 3.377 € · 28.000 − 1.820 − 3.377 = 22.803 €"
+          }
+        ],
+        "resultado": [
+          "Neto en 14 pagas",
+          "1.628,79 € al mes"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar la calculadora de IRPF",
+        "pasos": [
+          {
+            "titulo": "Escribe tu salario bruto anual",
+            "texto": "El total del año antes de impuestos, incluidas las pagas extra. Lo encuentras en tu contrato o en el certificado de retenciones."
+          },
+          {
+            "titulo": "Indica tu edad",
+            "texto": "A partir de 65 y de 75 años el mínimo personal sube y pagas menos."
+          },
+          {
+            "titulo": "Añade tus hijos a cargo",
+            "texto": "Escribe cuántos tienes y, de ellos, cuántos son menores de 3 años."
+          },
+          {
+            "titulo": "Elige 12 o 14 pagas",
+            "texto": "Solo cambia cómo se reparte el neto a lo largo del año, no el total."
+          },
+          {
+            "titulo": "Revisa el desglose",
+            "texto": "Verás la cotización, el rendimiento neto, la reducción, el mínimo, las dos cuotas y el neto anual y mensual."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
         "titulo": "¿Pagas más IRPF en Madrid o en Cataluña?",
         "parrafos": [
           "La mitad del IRPF va al Estado, con una escala igual para todos, y la otra mitad a tu comunidad, que fija sus propios tramos y deducciones. Madrid tiene tipos algo más bajos que la media y Cataluña o la Comunidad Valenciana, algo más altos en los tramos medios. Esta calculadora supone que la escala autonómica es igual a la estatal, por lo que el resultado puede variar unos cientos de euros respecto a tu nómina."
@@ -4260,7 +5256,7 @@
       },
       {
         "tipo": "comparacion",
-        "titulo": "¿Qué reduce el IRPF que pagas?",
+        "titulo": "Lo que reduce el IRPF y lo que debes añadir tú",
         "columnas": [
           {
             "titulo": "Lo aplica la calculadora",
@@ -4280,6 +5276,67 @@
               "Discapacidad, movilidad geográfica u otras situaciones especiales."
             ]
           }
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "Errores comunes al interpretar el IRPF",
+        "items": [
+          {
+            "mito": "Si subo de tramo, todo mi sueldo paga el tipo más alto.",
+            "realidad": "Cada tipo se aplica solo a la parte del sueldo que cae en ese tramo. Un aumento nunca te deja con menos neto."
+          },
+          {
+            "mito": "La retención de la nómina es lo que pago de IRPF.",
+            "realidad": "Es un adelanto. El impuesto definitivo se calcula en la declaración de la renta, donde te devuelven o te toca pagar la diferencia."
+          },
+          {
+            "mito": "Con 14 pagas cobro más al año que con 12.",
+            "realidad": "El neto anual es el mismo; con 14 pagas cada nómina es menor y hay dos pagas extra."
+          },
+          {
+            "mito": "El cálculo vale igual en el País Vasco y en Navarra.",
+            "realidad": "Estos territorios tienen un IRPF foral con escalas y deducciones propias, así que el resultado puede no parecerse."
+          }
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "El impuesto sobre el sueldo en otros países",
+        "intro": "Esta herramienta solo sirve para España. Para otros países tenemos la [calculadora de ISR de México](/calculadora-isr), la de [retención en la fuente de Colombia](/retencion-en-la-fuente), la de [renta de quinta categoría de Perú](/renta-quinta-categoria) y la de [sueldo líquido de Chile](/sueldo-liquido-chile).",
+        "cabeceras": [
+          "País",
+          "Nombre del impuesto sobre el salario"
+        ],
+        "filas": [
+          [
+            "España",
+            "Impuesto sobre la Renta de las Personas Físicas (IRPF)"
+          ],
+          [
+            "México",
+            "Impuesto sobre la Renta (ISR)"
+          ],
+          [
+            "Colombia",
+            "Impuesto de renta, que se adelanta con la retención en la fuente"
+          ],
+          [
+            "Perú",
+            "Impuesto a la renta de quinta categoría"
+          ],
+          [
+            "Chile",
+            "Impuesto único de segunda categoría"
+          ],
+          [
+            "Argentina",
+            "Impuesto a las ganancias"
+          ],
+          [
+            "Uruguay",
+            "IRPF, con tramos propios"
+          ]
         ]
       },
       {
@@ -4305,6 +5362,11 @@
         ]
       },
       {
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "Actualizado: noviembre de 2026. Escala estatal del artículo 63, reducción del artículo 20 y mínimos personales y familiares de la Ley 35/2006 del IRPF, con la cotización del trabajador a la Seguridad Social de 2026. La parte autonómica es una estimación."
+      },
+      {
         "tipo": "fuentes",
         "items": [
           {
@@ -4321,23 +5383,27 @@
     "faqs": [
       {
         "question": "¿Por qué mi nómina real no coincide exactamente con esta calculadora?",
-        "answer": "Las diferencias más comunes se deben a que tu empresa calcula la retención mensual con el procedimiento específico del Reglamento del IRPF (que reparte la cuota anual estimada entre tus pagas de forma distinta), a que tu Comunidad Autónoma tiene una escala distinta a la aproximación usada aquí, o a que tienes otras circunstancias no contempladas (aportaciones a planes de pensiones, pensión compensatoria, deducciones autonómicas, tributación conjunta, otras rentas)."
+        "answer": "Tu empresa reparte la retención con el procedimiento del reglamento, tu comunidad tiene su propia escala y puede haber circunstancias que aquí no se incluyen, como planes de pensiones, tributación conjunta u otras rentas."
       },
       {
         "question": "¿Qué es la reducción por obtención de rendimientos del trabajo?",
-        "answer": "Es una reducción adicional que la ley aplica a los rendimientos netos del trabajo más bajos (por debajo de 19.747,50 € anuales) para aliviar su carga fiscal. Llega hasta 7.302 € anuales para quienes ganan 14.852 € o menos, y disminuye progresivamente hasta desaparecer por completo en el umbral de 19.747,50 €."
+        "answer": "Una rebaja para los sueldos bajos: llega a 7.302 € al año si el rendimiento neto es de 14.852 € o menos y baja poco a poco hasta desaparecer a partir de 19.747,50 €."
       },
       {
-        "question": "¿Por qué importa mi Comunidad Autónoma para el IRPF?",
-        "answer": "Porque el 50% de tu IRPF (la cuota autonómica) se calcula con la escala de tramos y tipos que fija tu Comunidad Autónoma de residencia, que puede diferir considerablemente de una región a otra. Esto significa que dos personas con el mismo salario pueden pagar cantidades distintas de IRPF simplemente por vivir en comunidades autónomas diferentes."
+        "question": "¿Por qué importa mi comunidad autónoma para el IRPF?",
+        "answer": "Porque la mitad del impuesto se calcula con la escala que fija tu comunidad de residencia. Con el mismo sueldo, dos personas pueden pagar distinto según dónde vivan."
       },
       {
         "question": "¿Esta calculadora sirve para autónomos o solo para asalariados?",
-        "answer": "Está diseñada específicamente para rendimientos del trabajo (nómina de un asalariado). Los autónomos tributan por rendimientos de actividades económicas, que siguen reglas de cálculo distintas (estimación directa u objetiva, con sus propios gastos deducibles), no cubiertas por esta herramienta."
+        "answer": "Solo para asalariados. Los autónomos tributan por actividades económicas, con otros gastos deducibles y otro sistema de pagos a cuenta."
       },
       {
-        "question": "¿Es gratis esta calculadora de IRPF?",
-        "answer": "Sí, es completamente gratuita, no requiere registro y el cálculo se realiza directamente en tu navegador, sin enviar tus datos de salario a ningún servidor."
+        "question": "¿Cuánto IRPF me ahorra tener un hijo?",
+        "answer": "Cada hijo suma a tu mínimo familiar: 2.400 € el primero y 2.800 € más si tiene menos de 3 años. Con un sueldo de 28.000 €, un hijo pequeño ahorra unos 988 € al año."
+      },
+      {
+        "question": "¿Cuál es el tipo más alto de la escala estatal?",
+        "answer": "El 24,5 %, para la parte de la base que supera 300.000 €. A ese tipo se suma el de la escala de tu comunidad autónoma."
       }
     ],
     "relatedTools": [
@@ -30529,7 +31595,7 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "Escribe una palabra o un grupo de letras y la calculadora te muestra sus anagramas en español, otras palabras que puedes formar con esas letras y cuántas ordenaciones distintas tienen, con la fórmula paso a paso.",
-    "resumen": "Escribe una palabra o unas letras y verás sus anagramas reales en español, las palabras más cortas que puedes formar y cuántas ordenaciones distintas tienen, con la fórmula explicada. También comprueba si dos palabras o frases son anagramas y crea ejercicios de letras desordenadas para imprimir.",
+    "resumen": "Un anagrama es otra palabra hecha con las mismas letras, como «roma» a partir de «amor». Encontrarlos a mano cuesta, porque una palabra de seis letras ya admite cientos de ordenaciones. Esta calculadora es para docentes de lenguaje y matemáticas, jugadores de Scrabble o crucigramas y curiosos del idioma: busca los anagramas reales en un diccionario español, te dice cuántas ordenaciones hay con la fórmula, comprueba si dos frases son anagramas y prepara fichas de letras desordenadas.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -30538,6 +31604,14 @@
         "ancho": 800,
         "alto": 820,
         "titulo": "¿Cuántas ordenaciones tiene una palabra y cuántas son palabras reales?"
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Cómo encuentra la herramienta los anagramas",
+        "parrafos": [
+          "Primero limpia lo que escribes: pasa todo a minúsculas, quita tildes, espacios y signos, y deja la ñ como letra propia. Después ordena las letras alfabéticamente para obtener una «clave»: «amor», «roma» y «mora» comparten la clave «amor». Todas las palabras del diccionario con esa misma clave son anagramas exactos, así que la búsqueda es instantánea aunque haya cientos de miles de palabras.",
+          "Para las palabras más cortas, revisa cada palabra de 2 letras hasta una menos que tu entrada y comprueba que no use ninguna letra más veces de las que tienes. Cada signo «?» funciona como una letra libre. El número de ordenaciones se calcula con la fórmula de permutaciones con repetición: n! dividido entre el factorial de las veces que se repite cada letra."
+        ]
       },
       {
         "tipo": "ejemplo",
@@ -30568,6 +31642,32 @@
           {
             "texto": "Divide el primer resultado entre el segundo.",
             "operacion": "3,628,800 ÷ 24 = 151,200 ordenaciones distintas"
+          }
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar las tres pestañas paso a paso",
+        "pasos": [
+          {
+            "titulo": "Escribe la palabra o las letras",
+            "texto": "En «Buscar anagramas» pon una palabra o letras sueltas. Usa «?» para una letra desconocida, hasta dos veces."
+          },
+          {
+            "titulo": "Revisa los tres resultados",
+            "texto": "Verás las ordenaciones posibles con su fórmula, los anagramas exactos y, debajo, las palabras más cortas que puedes formar."
+          },
+          {
+            "titulo": "Filtra si buscas una forma concreta",
+            "texto": "En «Filtrar por posición» escribe un patrón como «r??a», y elige el largo mínimo de las palabras más cortas."
+          },
+          {
+            "titulo": "Compara dos frases",
+            "texto": "En «¿Son anagramas?» escribe dos palabras o frases. Si no lo son, te dice qué letras le sobran a cada una."
+          },
+          {
+            "titulo": "Prepara una ficha",
+            "texto": "En «Crear ejercicio» pega hasta 30 palabras, marca si quieres las soluciones y copia o imprime la hoja."
           }
         ]
       },
@@ -30631,6 +31731,28 @@
         "nota": "Aquí se escriben con tilde para leerlas mejor; el diccionario de la herramienta las guarda sin tilde."
       },
       {
+        "tipo": "mitos",
+        "titulo": "Errores frecuentes al buscar anagramas",
+        "items": [
+          {
+            "mito": "Cada ordenación de las letras es un anagrama.",
+            "realidad": "MATEMÁTICA tiene 151,200 ordenaciones, pero casi ninguna es una palabra. El número de ordenaciones solo dice cuántas combinaciones existen."
+          },
+          {
+            "mito": "La tilde hace que dos palabras sean distintas.",
+            "realidad": "No cuenta: «ácido» y «caído» son anagramas. Lo que sí cuenta es la ñ, que es una letra aparte de la n."
+          },
+          {
+            "mito": "Las mayúsculas o los espacios rompen un anagrama de frases.",
+            "realidad": "Se ignoran. «Salvador Dalí» y «Avida Dollars» se comparan solo por sus letras."
+          },
+          {
+            "mito": "Con una palabra larga verás todas las palabras que se forman.",
+            "realidad": "Con más de 12 letras solo se buscan los anagramas exactos, y con más de 18 solo se cuentan las ordenaciones."
+          }
+        ]
+      },
+      {
         "tipo": "comparacion",
         "titulo": "¿En qué se diferencia un anagrama de un palíndromo?",
         "columnas": [
@@ -30682,7 +31804,7 @@
       },
       {
         "tipo": "consejos",
-        "titulo": "¿Cómo resolver un anagrama de cabeza?",
+        "titulo": "Trucos para resolver un anagrama de cabeza",
         "items": [
           {
             "titulo": "Separa vocales y consonantes",
@@ -30709,7 +31831,7 @@
       },
       {
         "tipo": "texto",
-        "titulo": "¿Qué otras herramientas sirven para jugar con palabras y letras?",
+        "titulo": "Otros juegos con palabras y letras",
         "parrafos": [
           "Escribe frases al revés y busca palíndromos con [palabras al revés](/palabras-al-reves), crea pasatiempos con la [sopa de letras](/sopa-de-letras) o el [generador de crucigramas](/generador-de-crucigramas), y cuenta las letras de un texto con el [contador de palabras](/contador-palabras).",
           "Si quieres practicar la parte de matemáticas, la [calculadora de factorial](/calculadora-factorial) muestra el valor exacto de n! aunque tenga miles de cifras."
@@ -30731,8 +31853,8 @@
     ],
     "faqs": [
       {
-        "question": "¿Qué es un anagrama?",
-        "answer": "Es una palabra o frase que se forma al cambiar el orden de las letras de otra, sin añadir ni quitar ninguna. Por ejemplo, «roma» es un anagrama de «amor», y «barriga» lo es de «abrigar»."
+        "question": "¿Qué significa que dos palabras sean anagramas?",
+        "answer": "Que una se forma cambiando el orden de las letras de la otra, sin añadir ni quitar ninguna. Por ejemplo, «roma» es un anagrama de «amor», y «barriga» lo es de «abrigar»."
       },
       {
         "question": "¿Las tildes y la ñ cuentan al buscar anagramas?",
