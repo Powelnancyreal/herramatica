@@ -2196,7 +2196,7 @@
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "El cálculo mental es la capacidad de resolver operaciones matemáticas sin ayuda de calculadora, papel o lápiz, y se entrena igual que un músculo: con práctica regular y progresiva. Este juego genera problemas de suma, resta, multiplicación y división de forma aleatoria, con tres niveles de dificultad y dos modos de juego (sin límite de tiempo o contrarreloj), para que puedas practicar a tu ritmo o ponerte a prueba bajo presión. Cada partida guarda tu mejor racha de aciertos consecutivos, para que puedas superarte partida tras partida.",
-    "resumen": "Entrena el cálculo mental con sumas, restas, multiplicaciones y divisiones aleatorias en tres niveles. Juega sin límite de tiempo para aprender o contrarreloj para ganar velocidad, y supera tu mejor racha, que se guarda en tu dispositivo.",
+    "resumen": "Hacer cuentas de cabeza se oxida si no se practica. Este juego te propone sumas, restas, multiplicaciones y divisiones al azar para que entrenes a tu ritmo o contra el reloj. Sirve a niños que están aprendiendo las operaciones, a estudiantes que preparan un examen sin calculadora y a adultos que quieren mantener la mente ágil. Al terminar ves tu precisión y tu mejor racha, y el récord queda guardado en tu dispositivo.",
     "bloques": [
       {
         "tipo": "tabla",
@@ -2209,17 +2209,17 @@
         "filas": [
           [
             "Fácil",
-            "Sumas y restas hasta 20, tablas del 1 al 5",
+            "Sumas y restas con números del 1 al 20, tablas del 1 al 5 y divisiones con divisor hasta 5",
             "Primeros cursos de primaria"
           ],
           [
             "Medio",
-            "Sumas y restas hasta 100, tablas hasta el 10",
+            "Números del 1 al 100, tablas del 2 al 10 y divisiones con resultado hasta 12",
             "Final de primaria"
           ],
           [
             "Difícil",
-            "Números más grandes y divisiones",
+            "Números del 10 al 500, tablas hasta el 12 y divisiones con resultado hasta 20",
             "Secundaria y adultos"
           ]
         ]
@@ -2231,6 +2231,106 @@
         "ancho": 800,
         "alto": 794,
         "titulo": "¿Qué trucos de cálculo mental funcionan de verdad?"
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Cómo se generan los ejercicios",
+        "parrafos": [
+          "Cada ejercicio elige al azar una de las operaciones que activaste y dos números dentro del rango del nivel. En las restas, si el segundo número sale mayor, se intercambian para que el resultado nunca sea negativo. Las divisiones se construyen al revés: primero se elige el divisor y el resultado, y el dividendo es su producto. Por eso siempre son exactas, sin decimales ni resto.",
+          "Al pulsar «Comprobar» o la tecla Enter, el juego compara tu respuesta con la correcta. Un acierto suma uno a tu racha; un fallo la deja en cero y te muestra la solución un momento antes de pasar al siguiente ejercicio."
+        ]
+      },
+      {
+        "tipo": "consejos",
+        "titulo": "Estrategias que sirven para cualquier operación",
+        "items": [
+          {
+            "titulo": "Descomponer",
+            "texto": "Separa un número en decenas y unidades: 47 + 38 = 47 + 30 + 8 = 77 + 8 = 85."
+          },
+          {
+            "titulo": "Compensar",
+            "texto": "Redondea y corrige después: 503 − 298 = 503 − 300 + 2 = 205."
+          },
+          {
+            "titulo": "Multiplicar por partes",
+            "texto": "Reparte uno de los factores: 14 × 12 = 14 × 10 + 14 × 2 = 140 + 28 = 168."
+          },
+          {
+            "titulo": "Dividir por trozos",
+            "texto": "Parte el dividendo en múltiplos fáciles: 228 ÷ 12 = (120 + 108) ÷ 12 = 10 + 9 = 19."
+          }
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se lee el resumen de una partida contrarreloj?",
+        "datos": [
+          [
+            "Modo",
+            "Contrarreloj de 60 segundos"
+          ],
+          [
+            "Nivel",
+            "Medio, con suma y resta"
+          ],
+          [
+            "Resultado",
+            "24 ejercicios respondidos"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Cuenta los aciertos y los fallos.",
+            "operacion": "21 aciertos y 3 fallos"
+          },
+          {
+            "texto": "La precisión es aciertos ÷ total × 100, redondeada.",
+            "operacion": "21 ÷ 24 × 100 = 87.5 → 88 %"
+          },
+          {
+            "texto": "Calcula tu ritmo.",
+            "operacion": "24 ejercicios ÷ 60 s = 1 ejercicio cada 2.5 s"
+          },
+          {
+            "texto": "La mejor racha es la serie más larga de aciertos seguidos.",
+            "operacion": "Mejor racha: 11"
+          },
+          {
+            "texto": "Si supera tu récord guardado, el juego te avisa y lo reemplaza.",
+            "operacion": "Récord anterior 9 → nuevo récord 11"
+          }
+        ],
+        "resultado": [
+          "Precisión",
+          "88 %"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo jugar una partida",
+        "pasos": [
+          {
+            "titulo": "Elige las operaciones",
+            "texto": "Toca las que quieras practicar. Por defecto vienen activadas la suma y la resta."
+          },
+          {
+            "titulo": "Escoge el nivel",
+            "texto": "Fácil, Medio o Difícil, según la tabla de arriba."
+          },
+          {
+            "titulo": "Decide el modo",
+            "texto": "«Sin límite de tiempo» para aprender o «Contrarreloj» de 30, 60 o 120 segundos para ganar velocidad."
+          },
+          {
+            "titulo": "Responde",
+            "texto": "Escribe el resultado y pulsa Enter o «Comprobar». El fondo se pone verde si aciertas y rojo si fallas."
+          },
+          {
+            "titulo": "Revisa el resumen",
+            "texto": "En modo libre pulsa «Terminar» cuando quieras parar; en contrarreloj, la partida acaba sola al llegar a cero."
+          }
+        ]
       },
       {
         "tipo": "pasos",
@@ -2255,38 +2355,60 @@
         ]
       },
       {
+        "tipo": "mitos",
+        "titulo": "Creencias que frenan el progreso",
+        "items": [
+          {
+            "mito": "Un fallo borra todo lo que llevo.",
+            "realidad": "Solo reinicia la racha. Los aciertos acumulados siguen contando para la precisión final."
+          },
+          {
+            "mito": "En modo libre el récord se guarda aunque cierre la página.",
+            "realidad": "Se guarda al ver el resumen. Pulsa «Terminar» antes de salir para no perder una buena racha."
+          },
+          {
+            "mito": "Mi récord aparece en cualquier dispositivo.",
+            "realidad": "Vive en el almacenamiento de este navegador. En otro teléfono o en modo incógnito empiezas de cero."
+          },
+          {
+            "mito": "Más ejercicios por minuto siempre es mejor.",
+            "realidad": "Si tu precisión baja del 90 %, vas demasiado rápido. Vuelve un rato al modo sin límite."
+          }
+        ]
+      },
+      {
         "tipo": "texto",
         "titulo": "¿Para qué sirve el cálculo mental en la vida diaria?",
         "parrafos": [
-          "Calcular de cabeza entrena la memoria de trabajo y la concentración, y tiene usos muy concretos: saber si un descuento compensa, repartir una cuenta o detectar un cobro equivocado antes de pagar. En los exámenes, además, ahorra tiempo y permite comprobar resultados.",
-          "Si el problema son las tablas, repásalas primero con las [tablas de multiplicar](/tablas-de-multiplicar). Para entender el procedimiento escrito de una operación, la [Calculadora de Alicia](/calculadora-alicia) lo muestra paso a paso."
+          "Calcular de cabeza entrena la memoria de trabajo y la concentración, y tiene usos muy concretos: saber si una rebaja compensa, repartir una cuenta o detectar un cobro equivocado antes de pagar. En los exámenes, además, ahorra tiempo y permite comprobar resultados.",
+          "Si el problema son las tablas, repásalas primero con las [tablas de multiplicar](/tablas-de-multiplicar). Para entender el procedimiento escrito de una operación, la [Calculadora de Alicia](/calculadora-alicia) lo muestra paso a paso. Y cuando quieras comprobar una cuenta de la vida real, usa la [calculadora de descuentos](/calcular-descuento) o la de [porcentajes](/calculadora-porcentaje)."
         ]
       }
     ],
     "faqs": [
       {
         "question": "¿A partir de qué edad se puede usar este juego de cálculo mental?",
-        "answer": "El nivel \"Fácil\" está pensado para niños que ya dominan la suma y la resta básica (a partir de unos 7-8 años, según el ritmo de cada uno), mientras que los niveles \"Medio\" y \"Difícil\" son adecuados para adolescentes y adultos que quieran mantener o mejorar su agilidad numérica."
-      },
-      {
-        "question": "¿Por qué las restas y divisiones nunca dan resultados negativos o decimales?",
-        "answer": "Es una decisión de diseño para que el cálculo mental sea más natural: en las restas, se ordenan los números para que el resultado siempre sea positivo, y en las divisiones, los números se generan para que el resultado sea siempre un número entero exacto, evitando la complejidad añadida de trabajar con decimales o negativos de cabeza."
+        "answer": "El nivel Fácil sirve a niños que ya suman y restan con soltura, más o menos desde los 7 u 8 años. Los niveles Medio y Difícil son para quienes dominan las tablas y quieren ganar agilidad."
       },
       {
         "question": "¿Dónde se guarda mi mejor racha de aciertos?",
-        "answer": "Se guarda directamente en tu navegador (almacenamiento local), no en un servidor externo. Esto significa que tu récord persiste entre visitas en el mismo navegador y dispositivo, pero no se sincroniza entre distintos dispositivos ni se comparte con nadie."
+        "answer": "En el almacenamiento local de tu navegador, no en un servidor. Se conserva entre visitas en el mismo navegador y dispositivo, pero no se sincroniza ni se comparte."
       },
       {
         "question": "¿Puedo practicar solo una operación, como la multiplicación?",
-        "answer": "Sí, en la pantalla de configuración puedes deseleccionar las operaciones que no quieras practicar y dejar activada solo la que te interese, por ejemplo, para repasar las tablas de multiplicar exclusivamente."
+        "answer": "Sí. En la pantalla inicial desactiva las demás operaciones y deja solo la que quieras repasar."
       },
       {
         "question": "¿Qué pasa si me equivoco en una respuesta?",
-        "answer": "El ejercicio se marca en rojo, se muestra brevemente la respuesta correcta, tu racha de aciertos consecutivos se reinicia a cero, y el juego pasa automáticamente al siguiente ejercicio para que puedas seguir practicando sin interrupciones."
+        "answer": "El recuadro se pone rojo, ves la respuesta correcta durante un instante, la racha vuelve a cero y aparece el siguiente ejercicio."
       },
       {
-        "question": "¿Es gratis este juego de cálculo mental?",
-        "answer": "Sí, es completamente gratuito, no requiere registro ni descargas, y puedes jugar todas las partidas que quieras directamente desde tu navegador, en el ordenador, la tablet o el móvil."
+        "question": "¿Cuánto dura el modo contrarreloj?",
+        "answer": "Eliges entre 30, 60 o 120 segundos. Cuando el contador llega a cero, la partida termina sola y ves el resumen."
+      },
+      {
+        "question": "¿Se puede jugar solo con el teclado?",
+        "answer": "Sí. Escribe el número y pulsa Enter para comprobar; el cursor vuelve solo a la casilla. En el móvil se abre el teclado numérico."
       }
     ],
     "relatedTools": [
@@ -5595,7 +5717,7 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Calcula cuánto vas a gastar en gasolina en un viaje a partir de la distancia del trayecto, el consumo de tu vehículo (en litros por cada 100 km, o en kilómetros por litro) y el precio actual del combustible. Obtén al instante los litros necesarios, el costo total del viaje, el costo por kilómetro, y si viajas acompañado, el costo dividido por persona.",
-    "resumen": "Escribe los kilómetros del viaje, el consumo de tu coche (en L/100 km o en km/L) y el precio del litro: sabrás cuántos litros vas a gastar y cuánto te va a costar, también por persona si compartís gastos.",
+    "resumen": "Antes de salir a carretera conviene saber cuánto vas a gastar en combustible. Esta calculadora sirve a quien planea un viaje, reparte gastos con amigos o compara si le conviene ir en auto o en autobús: con la distancia, el consumo de tu vehículo y el precio del litro te dice cuántos litros vas a usar, cuánto cuesta el viaje, cuánto sale cada kilómetro y cuánto paga cada persona.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -5606,9 +5728,87 @@
         "titulo": "¿Cuánto cuesta en gasolina un viaje de 450 km?"
       },
       {
+        "tipo": "texto",
+        "titulo": "Cómo funciona el cálculo del combustible",
+        "parrafos": [
+          "Todo parte de cuántos kilómetros recorre tu vehículo con un litro. Si conoces el consumo en litros cada 100 km (L/100 km), la calculadora lo convierte primero: 100 ÷ 6.5 L/100 km = 15.38 km por litro. Si ya lo conoces en km/L, lo usa tal cual.",
+          "Después divide la distancia total entre ese rendimiento para obtener los litros: litros = kilómetros ÷ km/L. Si marcas «ida y vuelta», la distancia se duplica antes de hacer la cuenta. El costo del viaje es litros × precio por litro, el costo por kilómetro es el costo total ÷ kilómetros recorridos, y el costo por persona es el total ÷ número de personas."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto gastan tres amigos en un viaje de 320 km ida y vuelta?",
+        "datos": [
+          [
+            "Distancia",
+            "320 km de ida, 640 km en total"
+          ],
+          [
+            "Consumo",
+            "6.5 L/100 km"
+          ],
+          [
+            "Precio",
+            "$24.50 por litro"
+          ],
+          [
+            "Personas",
+            "3"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Duplica la distancia porque el viaje es de ida y vuelta.",
+            "operacion": "320 × 2 = 640 km"
+          },
+          {
+            "texto": "Calcula los litros con el consumo en L/100 km.",
+            "operacion": "640 × 6.5 ÷ 100 = 41.6 litros"
+          },
+          {
+            "texto": "Multiplica los litros por el precio.",
+            "operacion": "41.6 × $24.50 = $1,019.20"
+          },
+          {
+            "texto": "Divide entre la distancia para saber el costo por kilómetro.",
+            "operacion": "$1,019.20 ÷ 640 = $1.59 por km"
+          },
+          {
+            "texto": "Reparte el total entre los tres.",
+            "operacion": "$1,019.20 ÷ 3 = $339.73 por persona"
+          }
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar la calculadora de gasolina",
+        "pasos": [
+          {
+            "titulo": "Escribe la distancia",
+            "texto": "Los kilómetros del trayecto según tu mapa. Marca «ida y vuelta» si vas a regresar por el mismo camino."
+          },
+          {
+            "titulo": "Elige cómo conoces el consumo",
+            "texto": "Pulsa «L / 100 km» o «km / L» según el dato que tengas de tu vehículo, y escribe el número."
+          },
+          {
+            "titulo": "Escribe el precio del litro",
+            "texto": "El de la estación donde cargas. Si en tu país se vende por galón, conviértelo primero a litros (más abajo te explicamos cómo)."
+          },
+          {
+            "titulo": "Indica cuántos viajan",
+            "texto": "Si compartes gastos, escribe el número de personas para ver la parte de cada una."
+          },
+          {
+            "titulo": "Lee el resultado",
+            "texto": "Verás el costo total, los litros necesarios, el costo por kilómetro y, si son varios, lo que paga cada uno, con coma decimal: «41,6 L» son 41.6 litros. Cambia cualquier dato y el cálculo se actualiza al instante."
+          }
+        ]
+      },
+      {
         "tipo": "tabla",
-        "titulo": "¿Cuánto gasta de media cada tipo de coche?",
-        "intro": "Consumos orientativos en uso mixto. El de tu coche está en su ficha técnica o en el ordenador de a bordo.",
+        "titulo": "Consumo orientativo de cada tipo de vehículo",
+        "intro": "Valores de uso mixto para tener una referencia. El de tu vehículo está en su ficha técnica o en la computadora de a bordo.",
         "cabeceras": [
           "Vehículo",
           "L/100 km",
@@ -5617,29 +5817,99 @@
         "filas": [
           [
             "Moto de 125 cc",
-            "2,5",
+            "2.5",
             "40"
           ],
           [
-            "Coche pequeño de gasolina",
-            "5,5",
-            "18,2"
+            "Auto pequeño de gasolina",
+            "5.5",
+            "18.2"
           ],
           [
             "Sedán mediano",
             "7",
-            "14,3"
+            "14.3"
           ],
           [
             "SUV o camioneta",
             "9",
-            "11,1"
+            "11.1"
           ],
           [
             "Pickup grande",
             "12",
-            "8,3"
+            "8.3"
           ]
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿En qué unidad se vende el combustible en cada país?",
+        "intro": "La calculadora trabaja con litros. Si tu país usa galones, divide el precio del galón entre 3.785 para obtener el precio por litro.",
+        "cabeceras": [
+          "País",
+          "Se vende por",
+          "El consumo se suele expresar en"
+        ],
+        "filas": [
+          [
+            "México",
+            "Litro",
+            "km/L"
+          ],
+          [
+            "España",
+            "Litro",
+            "L/100 km"
+          ],
+          [
+            "Argentina",
+            "Litro",
+            "L/100 km"
+          ],
+          [
+            "Chile",
+            "Litro",
+            "km/L"
+          ],
+          [
+            "Colombia",
+            "Galón",
+            "km por galón"
+          ],
+          [
+            "Perú",
+            "Galón",
+            "km por galón"
+          ],
+          [
+            "Ecuador",
+            "Galón",
+            "km por galón"
+          ]
+        ],
+        "nota": "Ejemplo: si el galón cuesta $16,000, el litro sale a 16,000 ÷ 3.785 = $4,226.75. Un auto que rinde 45 km por galón hace 45 ÷ 3.785 = 11.89 km/L."
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "Errores comunes al calcular el gasto de un viaje",
+        "items": [
+          {
+            "mito": "Da igual escribir el precio del galón o el del litro.",
+            "realidad": "El resultado sale casi cuatro veces más caro. Convierte primero: precio del galón ÷ 3.785."
+          },
+          {
+            "mito": "Si mi auto hace 15 km/L, puedo escribir 15 con cualquier botón activo.",
+            "realidad": "Son medidas inversas: 15 km/L equivalen a 6.67 L/100 km. Revisa qué botón está activo antes de escribir."
+          },
+          {
+            "mito": "El consumo de la ficha técnica vale igual para la ciudad.",
+            "realidad": "En tráfico lento se gasta más. Para ciudad, suma entre un 15 % y un 30 % al consumo combinado."
+          },
+          {
+            "mito": "Para un viaje de ida y vuelta basta con la distancia de ida.",
+            "realidad": "Si regresas por el mismo camino, marca «ida y vuelta» o el presupuesto te quedará a la mitad."
+          }
         ]
       },
       {
@@ -5648,50 +5918,54 @@
         "items": [
           {
             "titulo": "Velocidad constante",
-            "texto": "Ir a 110 en lugar de 130 km/h reduce mucho el consumo: la resistencia del aire crece con el cuadrado de la velocidad."
+            "texto": "Ir a 100 en lugar de 120 km/h reduce mucho el consumo: la resistencia del aire crece con el cuadrado de la velocidad."
           },
           {
-            "titulo": "Presión de neumáticos",
-            "texto": "Ruedas bajas aumentan el consumo. Revisa la presión en frío con nuestro conversor de [bar a PSI](/bar-a-psi)."
+            "titulo": "Llantas a la presión correcta",
+            "texto": "Las llantas bajas aumentan el consumo. Revisa la presión en frío; si el manual la da en bar, conviértela con el conversor de [bar a PSI](/bar-a-psi)."
           },
           {
             "titulo": "Menos peso y menos aire acondicionado",
-            "texto": "Quita el portaequipajes del techo si no lo usas y usa el aire con moderación."
+            "texto": "Quita la parrilla del techo si no la usas y usa el aire con moderación."
           },
           {
-            "titulo": "Marchas largas",
-            "texto": "Cambia pronto de marcha y anticipa las frenadas para no acelerar de más."
+            "titulo": "Cambios largos y frenadas suaves",
+            "texto": "Sube de marcha pronto y anticipa las frenadas para no acelerar de más."
           }
         ]
       },
       {
         "tipo": "texto",
-        "titulo": "¿Cómo repartir la gasolina entre los que viajan?",
+        "titulo": "Otras herramientas para planear el viaje",
         "parrafos": [
-          "Divide el coste total entre el número de personas que comparten el viaje, sumando peajes y estacionamiento si los hay. Para repartir todos los gastos del viaje entre varios, usa [dividir cuenta](/dividir-cuenta). Y si quieres medir el impacto ambiental, la [calculadora de huella de carbono](/huella-de-carbono) estima las emisiones del trayecto."
+          "Calcula cuánto tardarás con la [calculadora de velocidad, distancia y tiempo](/calcular-velocidad-distancia-tiempo) y pasa precios o capacidades de galones a litros con el conversor de [litros a galones](/litros-a-galones). Para repartir también peajes, comida y hospedaje entre todos, usa [dividir cuenta](/dividir-cuenta), y si quieres saber las emisiones del trayecto, la [calculadora de huella de carbono](/huella-de-carbono)."
         ]
       }
     ],
     "faqs": [
       {
         "question": "¿Cómo calculo cuánta gasolina necesito para un viaje?",
-        "answer": "Divide la distancia total del trayecto (en km) entre el rendimiento de tu vehículo en kilómetros por litro. Por ejemplo, con un vehículo que rinde 14 km/L en un viaje de 280 km, necesitarás 280 ÷ 14 = 20 litros de combustible."
+        "answer": "Divide los kilómetros del trayecto entre lo que rinde tu vehículo en km por litro. Con un auto que hace 14 km/L, un viaje de 280 km necesita 280 ÷ 14 = 20 litros."
       },
       {
-        "question": "¿Cómo convierto de L/100km a km/L?",
-        "answer": "Divide 100 entre el valor en L/100km. Por ejemplo, un consumo de 7 L/100km equivale a 100 ÷ 7 ≈ 14.3 km/L. Esta calculadora hace esta conversión automáticamente, sea cual sea el formato que elijas para introducir el consumo."
+        "question": "¿Cómo convierto de L/100 km a km/L?",
+        "answer": "Divide 100 entre el consumo en L/100 km. Un consumo de 7 L/100 km equivale a 100 ÷ 7 = 14.3 km/L. La calculadora hace la conversión sola según el botón que elijas."
       },
       {
-        "question": "¿Esta calculadora tiene en cuenta peajes u otros gastos del viaje?",
-        "answer": "No, esta calculadora estima únicamente el gasto en combustible según la distancia, el consumo del vehículo y el precio del combustible. Peajes, estacionamiento, comidas y otros gastos del viaje deben calcularse aparte."
+        "question": "¿La calculadora incluye peajes u otros gastos?",
+        "answer": "No. Solo estima el combustible. Los peajes, el estacionamiento y la comida se suman aparte."
       },
       {
-        "question": "¿Por qué el consumo real puede ser distinto al de la ficha técnica?",
-        "answer": "El consumo real varía según el estilo de conducción, el tráfico, el uso del aire acondicionado, el estado de los neumáticos, la carga del vehículo y el tipo de trayecto (ciudad o carretera). La ficha técnica suele mostrar un consumo combinado o en condiciones óptimas, que puede diferir del consumo real en tu día a día."
+        "question": "¿Por qué gasto más de lo que dice la ficha técnica?",
+        "answer": "Porque la ficha mide el consumo en condiciones ideales. El tráfico, la velocidad, la carga, el aire acondicionado y el estado de las llantas suben el consumo real."
       },
       {
-        "question": "¿Es gratis esta calculadora de gasolina?",
-        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+        "question": "¿Sirve para diésel, gas o un auto eléctrico?",
+        "answer": "Sirve para cualquier combustible que se venda por litro, como gasolina, diésel o gas LP. No sirve para el gas natural vehicular, que se vende por metro cúbico, ni para autos eléctricos, que se miden en kWh."
+      },
+      {
+        "question": "¿Cuántos kilómetros puedo recorrer con el tanque lleno?",
+        "answer": "Multiplica los litros del tanque por los km/L de tu vehículo. Un tanque de 45 litros con un auto que rinde 13 km/L da unos 45 × 13 = 585 km de autonomía."
       }
     ],
     "relatedTools": [
@@ -8520,7 +8794,7 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte medidas entre el tamaño real y el tamaño a escala de un plano, mapa o maqueta, en cualquier dirección. También puedes calcular la escala exacta (por ejemplo, 1:100) a partir de una medida real y su equivalente en el dibujo.",
-    "resumen": "Pasa medidas de un plano, un mapa o una maqueta a tamaño real y al revés, o descubre la escala de un dibujo a partir de una medida conocida. Funciona con cualquier escala del tipo 1:N.",
+    "resumen": "Un plano, un mapa o una maqueta son el mundo real reducido en una proporción fija, y para leerlos hay que deshacer esa reducción. Esta calculadora la hace por ti: pasa una medida real a escala, convierte una medida del papel a tamaño real o descubre la escala de un dibujo que no la indica. Es útil para estudiantes de dibujo técnico y arquitectura, para quien planea una reforma, para senderistas que leen un mapa y para aficionados al modelismo.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -8529,6 +8803,80 @@
         "ancho": 800,
         "alto": 758,
         "titulo": "¿Qué significan las escalas 1:50, 1:100 o 1:50.000?"
+      },
+      {
+        "tipo": "texto",
+        "titulo": "La proporción detrás de cada plano y mapa",
+        "parrafos": [
+          "Una escala 1:N dice que 1 unidad en el papel equivale a N unidades en la realidad. En un plano a 1:100, 1 cm del dibujo son 100 cm reales, es decir, 1 m. Las fórmulas son tres: medida a escala = medida real ÷ N; medida real = medida a escala × N; y N = medida real ÷ medida a escala.",
+          "La regla de oro es usar la misma unidad en los dos lados. Si mides el plano en centímetros, el resultado real también sale en centímetros, y luego lo pasas a metros o kilómetros. Cuanto más pequeño es N, más grande sale el dibujo: 1:50 muestra el doble de grande que 1:100."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cabe el plano de una casa de 12 × 9 m en una hoja A4?",
+        "datos": [
+          [
+            "Casa",
+            "12 m de largo y 9 m de ancho"
+          ],
+          [
+            "Hoja A4",
+            "29,7 × 21 cm"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Pasa las medidas reales a centímetros, la unidad del papel.",
+            "operacion": "12 m = 1200 cm · 9 m = 900 cm"
+          },
+          {
+            "texto": "Prueba a 1:50.",
+            "operacion": "1200 ÷ 50 = 24 cm · 900 ÷ 50 = 18 cm"
+          },
+          {
+            "texto": "Compara con la hoja en horizontal.",
+            "operacion": "24 < 29,7 y 18 < 21 → cabe, con poco margen"
+          },
+          {
+            "texto": "Prueba a 1:100 para dejar sitio a cotas y rótulos.",
+            "operacion": "1200 ÷ 100 = 12 cm · 900 ÷ 100 = 9 cm"
+          },
+          {
+            "texto": "Comprueba con una habitación de 4,2 m a 1:50.",
+            "operacion": "420 ÷ 50 = 8,4 cm en el plano"
+          }
+        ],
+        "resultado": [
+          "Escala recomendada en A4",
+          "1:50 justa · 1:100 holgada"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar las tres pestañas de la calculadora",
+        "pasos": [
+          {
+            "titulo": "Elige la pestaña",
+            "texto": "«Real → Escala» para dibujar, «Escala → Real» para medir un plano o mapa, y «Calcular la escala» si no sabes cuál es."
+          },
+          {
+            "titulo": "Escribe la medida",
+            "texto": "En la unidad que quieras, pero la misma en todo el cálculo."
+          },
+          {
+            "titulo": "Escribe solo el número N",
+            "texto": "La casilla ya muestra «1 :». Para 1:50 000 escribe 50000, sin puntos ni comas."
+          },
+          {
+            "titulo": "Lee el resultado",
+            "texto": "Aparece al instante, en la misma unidad que usaste. En la tercera pestaña verás la escala en forma 1 : N."
+          },
+          {
+            "titulo": "Convierte la unidad si hace falta",
+            "texto": "Por ejemplo, 175 000 cm son 1,75 km."
+          }
+        ]
       },
       {
         "tipo": "escenarios",
@@ -8542,9 +8890,9 @@
           },
           {
             "titulo": "Mapa de senderismo",
-            "situacion": "La ruta mide 7 cm en un mapa 1:25.000.",
+            "situacion": "La ruta mide 7 cm en un mapa 1:25 000.",
             "resultado": "1,75 km",
-            "detalle": "7 × 25.000 = 175.000 cm"
+            "detalle": "7 × 25 000 = 175 000 cm"
           },
           {
             "titulo": "Maqueta",
@@ -8557,7 +8905,7 @@
       {
         "tipo": "ejemplo",
         "titulo": "¿Cómo calcular la escala de un plano si no la indica?",
-        "intro": "Necesitas una medida real conocida, como el ancho de una puerta (normalmente 80 cm).",
+        "intro": "Necesitas una medida real conocida, como el ancho de una puerta, que suele ser de 80 cm.",
         "pasos": [
           {
             "texto": "Mide la puerta en el plano.",
@@ -8574,29 +8922,113 @@
         ]
       },
       {
+        "tipo": "tabla",
+        "titulo": "Escalas habituales y lo que representa 1 cm",
+        "cabeceras": [
+          "Escala",
+          "1 cm en el papel equivale a",
+          "Uso típico"
+        ],
+        "filas": [
+          [
+            "1:10",
+            "10 cm",
+            "Piezas y detalles constructivos"
+          ],
+          [
+            "1:20",
+            "20 cm",
+            "Muebles, cocinas y baños"
+          ],
+          [
+            "1:50",
+            "50 cm",
+            "Planta de una vivienda con mobiliario"
+          ],
+          [
+            "1:100",
+            "1 m",
+            "Planta general de una casa"
+          ],
+          [
+            "1:500",
+            "5 m",
+            "Terrenos y conjuntos de edificios"
+          ],
+          [
+            "1:25 000",
+            "250 m",
+            "Mapas de senderismo"
+          ],
+          [
+            "1:50 000",
+            "500 m",
+            "Mapas topográficos de una región"
+          ]
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "Errores típicos al trabajar con escalas",
+        "items": [
+          {
+            "mito": "Puedo medir el plano en centímetros y leer el resultado en metros.",
+            "realidad": "El resultado sale en la misma unidad de entrada. 8 cm a 1:50 dan 400 cm, que son 4 m, no 400 m."
+          },
+          {
+            "mito": "1:100 es una escala más grande que 1:50.",
+            "realidad": "Es al revés: con 1:100 todo se dibuja a la mitad de tamaño que con 1:50."
+          },
+          {
+            "mito": "Escribir 50.000 con punto es lo mismo que 50000.",
+            "realidad": "La casilla lee «50.000» como 50 con decimales, y el resultado sale mil veces más pequeño. Escribe el número sin separadores."
+          },
+          {
+            "mito": "Las superficies se convierten igual que las longitudes.",
+            "realidad": "Un área se multiplica por N²: 12 cm² en un plano 1:100 son 12 × 10 000 = 120 000 cm², es decir, 12 m²."
+          }
+        ]
+      },
+      {
         "tipo": "texto",
-        "titulo": "¿Qué escala usar para dibujar un plano a mano?",
+        "titulo": "¿Cómo se escriben las escalas en cada país?",
         "parrafos": [
-          "Para una casa en un folio A4, 1:100 suele bastar; si quieres ver muebles y detalles, 1:50 en una hoja A3. Para un mueble o una pieza, 1:10 o 1:20. Cuanto menor es el número N, más grande sale el dibujo. Si necesitas convertir unidades del resultado, usa el [convertidor de unidades](/convertidor-unidades) o, para pulgadas, el de [centímetros a pulgadas](/cm-a-pulgadas)."
+          "La escala es la misma en todas partes, pero el separador de miles cambia. En México, Perú y buena parte de Centroamérica verás «1:50,000», con coma; en España, Argentina, Colombia y Chile, «1:50.000», con punto. La norma internacional recomienda un espacio, «1:50 000», que se entiende en cualquier país.",
+          "Los decimales siguen la misma lógica al revés: 4.5 m en México y 4,5 m en España. La calculadora muestra los resultados con coma decimal, así que 4,5 significa cuatro metros y medio."
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Herramientas para completar el cálculo",
+        "parrafos": [
+          "Pasa el resultado a otra unidad con el [convertidor de unidades](/convertidor-unidades) o, si trabajas con medidas inglesas, con el de [centímetros a pulgadas](/cm-a-pulgadas). Para la superficie real de una habitación usa la [calculadora de área](/calculadora-area), y si prefieres plantear la proporción a mano, la [regla de tres](/calculadora-regla-de-tres) da el mismo resultado."
         ]
       }
     ],
     "faqs": [
       {
         "question": "¿Cómo convierto una medida real a una escala 1:50?",
-        "answer": "Divide la medida real entre 50. Por ejemplo, una pared de 500 cm de largo, a escala 1:50, se representaría con 500 ÷ 50 = 10 cm en el plano."
+        "answer": "Divide la medida real entre 50. Una pared de 500 cm, a escala 1:50, se dibuja con 500 ÷ 50 = 10 cm en el plano."
       },
       {
         "question": "¿Cómo sé la escala de un mapa si mido dos puntos?",
-        "answer": "Mide la distancia entre esos dos puntos en el mapa, y averigua la distancia real entre ellos (por ejemplo, con otra fuente). Divide la distancia real entre la distancia en el mapa, ambas en la misma unidad, para obtener el valor N de la escala 1:N."
+        "answer": "Mide la distancia entre los dos puntos en el mapa y averigua la distancia real entre ellos. Divide la real entre la del mapa, ambas en la misma unidad, y obtienes el valor N de la escala 1:N."
       },
       {
         "question": "¿En qué unidades debo introducir las medidas?",
-        "answer": "Puedes usar cualquier unidad (centímetros, metros, etc.), siempre que uses la misma unidad tanto para la medida real como para la medida a escala al calcular la relación entre ambas."
+        "answer": "En la que quieras (milímetros, centímetros, metros), siempre que uses la misma para la medida real y la medida a escala."
       },
       {
-        "question": "¿Es gratis esta calculadora de escalas?",
-        "answer": "Sí, es completamente gratuita, sin límite de usos y sin necesidad de registro."
+        "question": "¿Qué escala es más grande, 1:50 o 1:100?",
+        "answer": "1:50. Cuanto menor es el número de la derecha, más grande se ve el objeto en el papel y más detalle cabe."
+      },
+      {
+        "question": "¿Sirve para escalas de ampliación como 2:1?",
+        "answer": "Sí. Escribe N = 0,5, porque 2:1 equivale a 1:0,5. Una pieza real de 3 mm se dibuja entonces con 6 mm."
+      },
+      {
+        "question": "¿Cómo paso un área del plano a metros cuadrados reales?",
+        "answer": "Multiplica el área medida en el plano por N al cuadrado. En un plano 1:50, cada cm² del papel equivale a 2500 cm² reales, es decir, a 0,25 m²."
       }
     ],
     "relatedTools": [
@@ -8620,7 +9052,7 @@
     "webApp": true,
     "appCategory": "EntertainmentApplication",
     "intro": "Crea una sopa de letras personalizada a partir de tus propias palabras: nombres, temas escolares, vocabulario de un idioma, o lo que necesites. Las palabras se colocan automáticamente en la cuadrícula en distintas direcciones (horizontal, vertical y diagonal), lista para imprimir o jugar directamente en pantalla.",
-    "resumen": "Escribe tus propias palabras y crea una sopa de letras lista para imprimir. Las palabras se colocan al azar en horizontal, vertical y diagonal, también al revés, y puedes mostrar u ocultar las soluciones.",
+    "resumen": "Una sopa de letras hecha con tus propias palabras sirve para repasar el vocabulario de una clase, entretener a los invitados de una fiesta o ejercitar la atención de una persona mayor. Con este generador escribes la lista, eliges el tamaño de la cuadrícula y en un segundo tienes el juego listo para imprimir, con las palabras escondidas en ocho direcciones y la solución disponible con un clic.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -8629,6 +9061,171 @@
         "ancho": 800,
         "alto": 910,
         "titulo": "¿Cómo se colocan las palabras en la sopa de letras?"
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Cómo arma el generador cada cuadrícula",
+        "parrafos": [
+          "Primero limpia tu lista: pasa todo a mayúsculas, quita las tildes, convierte la Ñ en N y elimina espacios, números y signos. También descarta las palabras repetidas y las que tienen más letras que el lado de la cuadrícula, porque no caben en ninguna dirección.",
+          "Después ordena las palabras de la más larga a la más corta y las coloca una por una. Para cada palabra elige al azar una casilla de inicio y una de las ocho direcciones, y comprueba que quepa dentro del tablero. Dos palabras pueden cruzarse si comparten la misma letra en esa casilla. Si tras 200 intentos una palabra no encuentra sitio, la herramienta te avisa. Al final rellena las casillas vacías con letras al azar de la A a la Z."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo queda una sopa de letras del sistema solar?",
+        "datos": [
+          [
+            "Palabras",
+            "Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano, Neptuno"
+          ],
+          [
+            "Cuadrícula",
+            "12 × 12 = 144 casillas"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "La herramienta limpia la lista: «Júpiter» pasa a JUPITER.",
+            "operacion": "MERCURIO, VENUS, TIERRA, MARTE, JUPITER, SATURNO, URANO, NEPTUNO"
+          },
+          {
+            "texto": "Comprueba que todas caben: la más larga tiene 8 letras y el lado mide 12.",
+            "operacion": "8 ≤ 12 ✓"
+          },
+          {
+            "texto": "Suma las letras que ocuparán casillas.",
+            "operacion": "8 + 5 + 6 + 5 + 7 + 7 + 5 + 7 = 50 letras"
+          },
+          {
+            "texto": "Calcula qué parte del tablero ocupan las palabras.",
+            "operacion": "50 ÷ 144 = 35 % de las casillas"
+          },
+          {
+            "texto": "Las otras casillas se llenan con letras al azar.",
+            "operacion": "144 − 50 = 94 casillas de relleno como máximo"
+          }
+        ],
+        "resultado": [
+          "Palabras escondidas",
+          "8 de 8"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo preparar tu propio pasatiempo paso a paso",
+        "pasos": [
+          {
+            "titulo": "Escribe las palabras",
+            "texto": "Una por línea o separadas por comas. Puedes borrar las de ejemplo y pegar tu propia lista."
+          },
+          {
+            "titulo": "Elige el tamaño",
+            "texto": "10 × 10, 12 × 12, 15 × 15 o 18 × 18. Cuantas más palabras y más largas, más grande debe ser."
+          },
+          {
+            "titulo": "Revisa la lista de abajo",
+            "texto": "Debajo de la cuadrícula aparecen las palabras que quedaron escondidas. Si falta alguna, agranda la cuadrícula o acórtala."
+          },
+          {
+            "titulo": "Cambia la distribución si quieres",
+            "texto": "El botón «Generar otra distribución» vuelve a colocar las mismas palabras en otros lugares."
+          },
+          {
+            "titulo": "Imprime",
+            "texto": "Con «Mostrar solución» desmarcado, pulsa «Imprimir» para la hoja del jugador. Luego marca la casilla e imprime otra copia como hoja de respuestas."
+          }
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "Tamaño de la cuadrícula y largo máximo de las palabras",
+        "cabeceras": [
+          "Cuadrícula",
+          "Casillas",
+          "Palabra más larga",
+          "Lista recomendada"
+        ],
+        "filas": [
+          [
+            "10 × 10",
+            "100",
+            "10 letras",
+            "6 a 8 palabras"
+          ],
+          [
+            "12 × 12",
+            "144",
+            "12 letras",
+            "8 a 12 palabras"
+          ],
+          [
+            "15 × 15",
+            "225",
+            "15 letras",
+            "12 a 18 palabras"
+          ],
+          [
+            "18 × 18",
+            "324",
+            "18 letras",
+            "18 a 25 palabras"
+          ]
+        ],
+        "nota": "La lista recomendada es orientativa: deja que las palabras ocupen menos de la mitad de las casillas para que todas encuentren sitio."
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Cuántas palabras poner según la edad?",
+        "cabeceras": [
+          "Edad",
+          "Palabras",
+          "Consejo"
+        ],
+        "filas": [
+          [
+            "5 a 7 años",
+            "5 a 6 palabras cortas",
+            "Cuadrícula de 10 × 10; ayúdale mostrando la solución de una palabra"
+          ],
+          [
+            "8 a 11 años",
+            "8 a 12 palabras",
+            "Cuadrícula de 12 × 12"
+          ],
+          [
+            "12 años o más",
+            "12 a 20 palabras",
+            "Cuadrícula de 15 × 15 o 18 × 18"
+          ],
+          [
+            "Personas mayores",
+            "8 a 10 palabras",
+            "Cuadrícula de 12 × 12, letra grande y buen contraste al imprimir"
+          ]
+        ],
+        "nota": "El generador siempre usa las ocho direcciones, también al revés. Para los más pequeños, compensa con menos palabras y más cortas."
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "Ideas equivocadas al preparar una sopa de letras",
+        "items": [
+          {
+            "mito": "La Ñ y las tildes se mantienen en la cuadrícula.",
+            "realidad": "Se convierten: «año» queda como ANO y «canción» como CANCION. Si la Ñ es importante para tu clase, elige otras palabras."
+          },
+          {
+            "mito": "Una frase con espacios se parte en dos palabras.",
+            "realidad": "Los espacios se eliminan y «oso panda» se esconde como OSOPANDA. Para separarlas, ponlas en líneas distintas."
+          },
+          {
+            "mito": "Si una palabra no se coloca, siempre aparece un aviso.",
+            "realidad": "El aviso sale cuando no encuentra hueco. Las palabras más largas que el lado de la cuadrícula se descartan sin aviso, así que revisa la lista de abajo."
+          },
+          {
+            "mito": "La sopa queda fija mientras editas la lista.",
+            "realidad": "Cada cambio en las palabras o el tamaño genera una distribución nueva. Termina la lista antes de imprimir."
+          }
+        ]
       },
       {
         "tipo": "consejos",
@@ -8653,60 +9250,37 @@
         ]
       },
       {
-        "tipo": "tabla",
-        "titulo": "¿Cuántas palabras poner según la edad?",
-        "cabeceras": [
-          "Edad",
-          "Palabras",
-          "Consejo"
-        ],
-        "filas": [
-          [
-            "5 a 7 años",
-            "5 a 8 palabras cortas",
-            "Solo horizontal y vertical, sin palabras al revés"
-          ],
-          [
-            "8 a 11 años",
-            "8 a 12 palabras",
-            "Añade diagonales"
-          ],
-          [
-            "12 años o más",
-            "12 a 20 palabras",
-            "Todas las direcciones"
-          ],
-          [
-            "Personas mayores",
-            "8 a 10 palabras",
-            "Letra grande y buen contraste al imprimir"
-          ]
-        ]
-      },
-      {
         "tipo": "texto",
-        "titulo": "¿Qué hacer si una palabra no entra en la cuadrícula?",
+        "titulo": "Más pasatiempos de letras y números",
         "parrafos": [
-          "Las palabras muy largas o muchas palabras en una cuadrícula pequeña pueden no caber. Prueba a generar de nuevo (la colocación cambia cada vez), acorta la lista o usa palabras más cortas. Para otros juegos de palabras tienes [palabras al revés](/palabras-al-reves) y, para el aula, las [tablas de multiplicar](/tablas-de-multiplicar)."
+          "Si te gustan los juegos de palabras, busca palabras escondidas en otras con la [calculadora de anagramas](/calculadora-de-anagramas) o escribe frases al revés con [palabras al revés](/palabras-al-reves). Para una ficha de matemáticas en el mismo estilo, combina la sopa con ejercicios de [cálculo mental](/calculo-mental)."
         ]
       }
     ],
     "faqs": [
       {
         "question": "¿Cuántas palabras puedo incluir en la sopa de letras?",
-        "answer": "No hay un límite estricto, pero cuantas más palabras y más largas sean, necesitarás una cuadrícula más grande para que todas quepan correctamente. Si algunas palabras no logran colocarse, la herramienta te lo indicará."
+        "answer": "No hay un límite fijo, pero cada palabra necesita espacio. En 12 × 12 entran bien unas 10; en 18 × 18, más de 20. Si alguna no cabe, la herramienta te dice cuál."
       },
       {
         "question": "¿Puedo imprimir la sopa de letras?",
-        "answer": "Sí, pulsa el botón \"Imprimir\" para abrir el diálogo de impresión de tu navegador con la sopa de letras lista para imprimir en papel."
+        "answer": "Sí. El botón «Imprimir» abre el diálogo de impresión del navegador. Desmarca «Mostrar solución» antes para imprimir la hoja sin respuestas."
       },
       {
         "question": "¿Las palabras pueden estar en diagonal o al revés?",
-        "answer": "Sí, esta herramienta coloca las palabras en las ocho direcciones posibles: horizontal (izquierda a derecha y derecha a izquierda), vertical (arriba a abajo y abajo a arriba), y las cuatro diagonales, para que el juego sea más desafiante."
+        "answer": "Sí. Se colocan en horizontal, vertical y en las cuatro diagonales, en los dos sentidos: ocho direcciones en total."
       },
       {
-        "question": "¿Es gratis este generador de sopa de letras?",
-        "answer": "Sí, es completamente gratuito, sin límite de usos y sin necesidad de registro."
+        "question": "¿Puedo usar palabras con Ñ o con tilde?",
+        "answer": "Puedes escribirlas, pero en la cuadrícula se muestran sin tilde y con N en lugar de Ñ, igual que las letras de relleno, que van de la A a la Z."
+      },
+      {
+        "question": "¿Cómo consigo una sopa distinta con las mismas palabras?",
+        "answer": "Pulsa «Generar otra distribución». Las palabras cambian de lugar y de dirección, ideal para dar una versión diferente a cada grupo."
+      },
+      {
+        "question": "¿Cómo se le dice a la sopa de letras en otros países?",
+        "answer": "En la mayoría de países se llama sopa de letras. En Perú es muy común llamarla pupiletras. El juego es el mismo."
       }
     ],
     "relatedTools": [
@@ -8963,7 +9537,7 @@
     "webApp": true,
     "appCategory": "EntertainmentApplication",
     "intro": "Crea un crucigrama personalizado a partir de tus propias palabras y pistas. La herramienta conecta automáticamente las palabras que comparten letras, generando un crucigrama con casillas horizontales y verticales numeradas, listo para imprimir o resolver en pantalla.",
-    "resumen": "Escribe tus palabras con sus pistas y obtén un crucigrama que las cruza automáticamente, con numeración y listas de horizontales y verticales. Puedes imprimirlo en blanco o con las soluciones.",
+    "resumen": "Hacer un crucigrama a mano lleva tiempo: hay que encontrar letras comunes, cuadrar las palabras y numerar las casillas. Este generador lo hace por ti. Es útil para docentes que preparan un repaso, para padres que buscan una actividad con vocabulario del colegio y para quien organiza un juego en una fiesta o un retiro. Escribes cada palabra con su pista y obtienes la cuadrícula numerada con las listas de horizontales y verticales.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -8972,6 +9546,80 @@
         "ancho": 800,
         "alto": 669,
         "titulo": "¿Cómo conecta el generador las palabras del crucigrama?"
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Cómo construye el generador la cuadrícula",
+        "parrafos": [
+          "El método es sencillo y siempre da el mismo resultado para la misma lista. Primero ordena las palabras de la más larga a la más corta; si dos tienen el mismo largo, respeta el orden en que las escribiste. La más larga se coloca en horizontal, centrada en la fila del medio.",
+          "Cada palabra siguiente busca una letra que comparta con alguna ya colocada y se cruza con ella en perpendicular: si la otra es horizontal, la nueva va en vertical, y al revés. Acepta el primer cruce donde todas sus letras caben sin chocar con otras distintas. Si no encuentra ninguno, la deja fuera y te lo avisa. Al final numera las casillas donde empieza alguna palabra, de arriba abajo y de izquierda a derecha."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Qué crucigrama sale con seis lugares del barrio?",
+        "datos": [
+          [
+            "Palabras",
+            "Mercado, Escuela, Parque, Plaza, Iglesia, Panadería"
+          ],
+          [
+            "Cuadrícula",
+            "12 × 12"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Se ordenan por largo. Mercado, Escuela e Iglesia empatan y conservan su orden.",
+            "operacion": "PANADERIA (9) · MERCADO, ESCUELA, IGLESIA (7) · PARQUE (6) · PLAZA (5)"
+          },
+          {
+            "texto": "PANADERIA va en horizontal en la fila central.",
+            "operacion": "Fila 7, desde la columna 2"
+          },
+          {
+            "texto": "Las de siete letras bajan en vertical cruzándola.",
+            "operacion": "MERCADO en la E · ESCUELA termina en la primera A · IGLESIA en la I"
+          },
+          {
+            "texto": "PARQUE comparte la P inicial y PLAZA cruza en la segunda A.",
+            "operacion": "6 palabras colocadas, 0 fuera"
+          },
+          {
+            "texto": "Se numeran los inicios. PANADERIA y PARQUE empiezan en la misma casilla y comparten número.",
+            "operacion": "Horizontal: 5 · Verticales: 1, 2, 3, 4 y 5"
+          }
+        ],
+        "resultado": [
+          "Palabras colocadas",
+          "6 de 6"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo armar tu crucigrama con pistas",
+        "pasos": [
+          {
+            "titulo": "Escribe una entrada por línea",
+            "texto": "Primero la palabra, luego dos puntos y la pista. Ejemplo: «PLAZA: Espacio abierto en el centro del pueblo»."
+          },
+          {
+            "titulo": "Decide qué palabra irá al centro",
+            "texto": "Si quieres que una palabra quede en el centro, haz que sea la más larga de la lista."
+          },
+          {
+            "titulo": "Elige el tamaño",
+            "texto": "12 × 12, 15 × 15, 18 × 18 o 20 × 20. Ninguna palabra puede tener más letras que el lado elegido."
+          },
+          {
+            "titulo": "Revisa el aviso amarillo",
+            "texto": "Si aparece, indica qué palabras no encontraron una letra para cruzarse. Cámbialas o añade otras que compartan letras."
+          },
+          {
+            "titulo": "Imprime dos versiones",
+            "texto": "Con «Mostrar respuestas» desmarcado tienes la hoja en blanco; márcalo e imprime de nuevo para tener la solución."
+          }
+        ]
       },
       {
         "tipo": "consejos",
@@ -8990,8 +9638,8 @@
             "texto": "Mezcla definiciones, frases para completar («Más vale ___ que nunca») y preguntas."
           },
           {
-            "titulo": "Revisa la ortografía",
-            "texto": "Una tilde de más o de menos no cambia la casilla, pero sí puede confundir al que resuelve."
+            "titulo": "Indica el número de letras",
+            "texto": "Añadir «(7)» al final de la pista ayuda mucho a quien resuelve, sobre todo si la respuesta tiene dos palabras."
           }
         ]
       },
@@ -9023,29 +9671,67 @@
         "nota": "Las palabras con vocales comunes (A, E, O) se cruzan con más facilidad."
       },
       {
+        "tipo": "mitos",
+        "titulo": "Errores que dejan palabras fuera del crucigrama",
+        "items": [
+          {
+            "mito": "Toda palabra de la lista acaba en la cuadrícula.",
+            "realidad": "Solo entra si comparte al menos una letra con otra ya colocada y hay sitio para cruzarla. Si no, aparece en el aviso."
+          },
+          {
+            "mito": "Da igual el orden: «pista: palabra» también funciona.",
+            "realidad": "Lo que va antes de los primeros dos puntos se toma como la respuesta. Al revés, la pista entera se convierte en la palabra."
+          },
+          {
+            "mito": "Una respuesta de dos palabras se escribe separada.",
+            "realidad": "Los espacios se quitan: «Buenos Aires» ocupa 11 casillas seguidas. Avísalo en la pista."
+          },
+          {
+            "mito": "Las palabras de una letra o muy largas también se colocan.",
+            "realidad": "Se descartan sin aviso las de una sola letra y las que superan el lado de la cuadrícula."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Revisa la cuadrícula antes de imprimir",
+        "parrafos": [
+          "A veces dos palabras paralelas quedan pegadas y, al leer en la otra dirección, se forman grupos de letras que no son palabras. Para quien resuelve no es un problema grave, porque las pistas solo se refieren a las palabras numeradas, pero la hoja se ve más limpia sin ellos.",
+          "Como el generador siempre coloca igual la misma lista, la forma de cambiar el resultado es cambiar la lista: altera el orden de las palabras que tienen el mismo largo, sustituye una por un sinónimo o añade otra que cruce en otro punto. Marca «Mostrar respuestas» para comprobar el resultado de un vistazo."
+        ]
+      },
+      {
         "tipo": "texto",
         "titulo": "¿Qué otros pasatiempos puedo crear para clase?",
         "parrafos": [
-          "Con la misma lista de palabras puedes hacer una [sopa de letras](/sopa-de-letras), más fácil para los pequeños. Para actividades de matemáticas tienes las [tablas de multiplicar](/tablas-de-multiplicar) y el juego de [cálculo mental](/calculo-mental)."
+          "Con la misma lista de palabras puedes hacer una [sopa de letras](/sopa-de-letras), más fácil para los pequeños, o un ejercicio de letras desordenadas con la [calculadora de anagramas](/calculadora-de-anagramas). Para actividades de matemáticas tienes las [tablas de multiplicar](/tablas-de-multiplicar) y el juego de [cálculo mental](/calculo-mental)."
         ]
       }
     ],
     "faqs": [
       {
         "question": "¿Cómo escribo las palabras y pistas?",
-        "answer": "Escribe cada palabra seguida de dos puntos y su pista, por ejemplo: \"SOL: Astro que ilumina el día\". Cada palabra con su pista debe ir en una línea distinta."
+        "answer": "Escribe cada palabra seguida de dos puntos y su pista, por ejemplo: «SOL: Astro que ilumina el día». Cada palabra con su pista va en una línea distinta."
       },
       {
         "question": "¿Puedo imprimir el crucigrama para resolverlo en papel?",
-        "answer": "Sí, pulsa el botón \"Imprimir\" para abrir el diálogo de impresión de tu navegador con el crucigrama listo para resolver en papel."
+        "answer": "Sí. El botón «Imprimir» abre el diálogo de impresión del navegador. Si «Mostrar respuestas» está desmarcado, la cuadrícula sale en blanco con sus números."
       },
       {
-        "question": "¿Por qué mi crucigrama sale distinto cada vez?",
-        "answer": "El algoritmo prueba distintas combinaciones de posición para conectar las palabras; si pulsas \"Reorganizar\", puede encontrar una disposición distinta pero igualmente válida, especialmente útil si quieres una versión más compacta."
+        "question": "¿Por qué una palabra no aparece en el crucigrama?",
+        "answer": "Porque no comparte ninguna letra con las palabras ya colocadas o porque no hay espacio para cruzarla. Añade una palabra puente que tenga letras en común con ella."
       },
       {
-        "question": "¿Es gratis este generador de crucigramas?",
-        "answer": "Sí, es completamente gratuito, sin límite de usos y sin necesidad de registro."
+        "question": "¿Qué pasa si dejo una palabra sin pista?",
+        "answer": "La palabra se coloca igual y en la lista aparece «(sin pista)» en su lugar. Puedes completarla después y el crucigrama se actualiza."
+      },
+      {
+        "question": "¿Qué significan los números de las casillas?",
+        "answer": "Marcan dónde empieza cada palabra. Si una horizontal y una vertical nacen en la misma casilla, comparten el número y aparecen en las dos listas."
+      },
+      {
+        "question": "¿Se puede resolver en la pantalla?",
+        "answer": "No. La cuadrícula está pensada para imprimirse y escribir a mano. En pantalla solo puedes mostrar u ocultar todas las respuestas a la vez."
       }
     ],
     "relatedTools": [
@@ -9158,7 +9844,7 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Genera un enlace directo de WhatsApp (wa.me) a partir de un número de teléfono, con un mensaje predefinido opcional. Al hacer clic en el enlace, se abre una conversación de WhatsApp con ese número, sin necesidad de tenerlo guardado en los contactos. Ideal para botones de \"Contáctanos por WhatsApp\" en tu sitio web, biografías de redes sociales o firmas de correo.",
-    "resumen": "Escribe tu número con el código de país y, si quieres, un mensaje: obtienes un enlace wa.me que abre un chat contigo sin que nadie tenga que guardar tu número. Perfecto para tu web, Instagram o un código QR.",
+    "resumen": "Pedir a un cliente que guarde tu número antes de escribirte es perder la mitad de los mensajes. Un enlace wa.me resuelve eso: con un toque abre un chat contigo, con un texto ya escrito si quieres. Este generador lo crea a partir de tu número y tu mensaje. Lo usan negocios, emprendedores, profesionales independientes y creadores de contenido para su web, sus redes sociales, sus anuncios o un código QR impreso.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -9169,17 +9855,153 @@
         "titulo": "¿Cómo es un enlace de WhatsApp por dentro?"
       },
       {
+        "tipo": "texto",
+        "titulo": "Cómo se construye el enlace wa.me",
+        "parrafos": [
+          "El enlace tiene dos partes. La primera es la dirección corta de WhatsApp seguida del número en formato internacional: https://wa.me/ y los dígitos, sin nada más. La herramienta borra por ti cualquier símbolo que no sea un número, así que puedes pegarlo con el signo +, espacios, guiones o paréntesis.",
+          "La segunda parte, opcional, es el mensaje: se añade ?text= y el texto codificado para que viaje dentro de una URL. Cada espacio se convierte en %20, la coma en %2C, la «á» en %C3%A1, el signo «¿» en %C2%BF y un salto de línea en %0A. Los símbolos & y # también se codifican, para que no corten el enlace antes de tiempo."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo queda el enlace de un restaurante en Bogotá?",
+        "datos": [
+          [
+            "Número",
+            "300 123 4567 (móvil de Colombia)"
+          ],
+          [
+            "Mensaje",
+            "Hola, quiero reservar una mesa para 4 el sábado"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Antepón el código de país de Colombia.",
+            "operacion": "57 + 3001234567 = 573001234567"
+          },
+          {
+            "texto": "Arma la base del enlace.",
+            "operacion": "https://wa.me/573001234567"
+          },
+          {
+            "texto": "Codifica el mensaje: la coma, los espacios y la tilde cambian.",
+            "operacion": "Hola%2C%20quiero%20reservar%20una%20mesa%20para%204%20el%20s%C3%A1bado"
+          },
+          {
+            "texto": "Une las dos partes con ?text=.",
+            "operacion": "https://wa.me/573001234567?text=Hola%2C%20quiero…"
+          },
+          {
+            "texto": "Pruébalo desde otro teléfono.",
+            "operacion": "Se abre el chat con el mensaje escrito, listo para enviar"
+          }
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo crear tu enlace en pocos segundos",
+        "pasos": [
+          {
+            "titulo": "Escribe tu número completo",
+            "texto": "Código de país y número, sin el 0 ni el 15 de los prefijos locales."
+          },
+          {
+            "titulo": "Agrega un mensaje si quieres",
+            "texto": "Algo que ayude a quien te escribe: «Hola, vi su anuncio y quiero información sobre…»."
+          },
+          {
+            "titulo": "Revisa el enlace",
+            "texto": "Aparece en el recuadro verde y se actualiza mientras escribes."
+          },
+          {
+            "titulo": "Pulsa «Probar enlace»",
+            "texto": "Se abre WhatsApp en una pestaña nueva para comprobar que lleva al chat correcto."
+          },
+          {
+            "titulo": "Pulsa «Copiar enlace»",
+            "texto": "El botón confirma «¡Enlace copiado!» y ya puedes pegarlo donde lo necesites."
+          }
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Qué código y formato lleva el número en cada país?",
+        "cabeceras": [
+          "País",
+          "Código",
+          "Cómo escribir un móvil",
+          "Ejemplo de inicio"
+        ],
+        "filas": [
+          [
+            "México",
+            "52",
+            "Los 10 dígitos del número",
+            "wa.me/5255…"
+          ],
+          [
+            "Argentina",
+            "54",
+            "9 + código de área sin 0 + número sin 15",
+            "wa.me/54911…"
+          ],
+          [
+            "Colombia",
+            "57",
+            "Los 10 dígitos, que empiezan por 3",
+            "wa.me/573…"
+          ],
+          [
+            "Perú",
+            "51",
+            "Los 9 dígitos, que empiezan por 9",
+            "wa.me/519…"
+          ],
+          [
+            "Chile",
+            "56",
+            "Los 9 dígitos, que empiezan por 9",
+            "wa.me/569…"
+          ],
+          [
+            "Ecuador",
+            "593",
+            "El número sin el 0 inicial",
+            "wa.me/5939…"
+          ],
+          [
+            "España",
+            "34",
+            "Los 9 dígitos, que empiezan por 6 o 7",
+            "wa.me/346…"
+          ]
+        ],
+        "nota": "En México, si el enlace no abre el chat correcto, prueba a añadir un 1 después del 52: muchas cuentas antiguas quedaron registradas así."
+      },
+      {
+        "tipo": "checklist",
+        "titulo": "¿Por qué no funciona mi enlace de WhatsApp?",
+        "items": [
+          "Falta el código de país al principio del número.",
+          "Quedó el 0 o el 15 de los prefijos locales.",
+          "En Argentina, los móviles llevan un 9 después del 54.",
+          "El número no tiene una cuenta de WhatsApp activa.",
+          "Prueba el enlace desde otro teléfono antes de publicarlo."
+        ]
+      },
+      {
         "tipo": "escenarios",
-        "titulo": "¿Dónde poner tu enlace de WhatsApp?",
+        "titulo": "Dónde colocar el enlace para recibir más mensajes",
         "items": [
           {
             "titulo": "Bio de Instagram o TikTok",
-            "situacion": "Un clic y el cliente te escribe, sin copiar el número.",
+            "situacion": "Un toque y el cliente te escribe, sin copiar el número.",
             "resultado": "Más mensajes"
           },
           {
             "titulo": "Botón en tu web",
-            "situacion": "Un botón «Escríbenos» con un mensaje ya preparado: «Hola, quiero información sobre…».",
+            "situacion": "Un botón «Escríbenos» con un mensaje preparado: «Hola, quiero información sobre…».",
             "resultado": "Consultas más claras"
           },
           {
@@ -9190,40 +10012,60 @@
         ]
       },
       {
-        "tipo": "checklist",
-        "titulo": "¿Por qué no funciona mi enlace de WhatsApp?",
+        "tipo": "mitos",
+        "titulo": "Ideas equivocadas sobre los enlaces de WhatsApp",
         "items": [
-          "El número debe ir con código de país y sin el signo +, espacios, guiones ni paréntesis.",
-          "No pongas el 0 o el 15 de los prefijos locales.",
-          "En Argentina, los móviles llevan un 9 después del 54.",
-          "El número tiene que tener una cuenta de WhatsApp activa.",
-          "Prueba el enlace desde otro teléfono antes de publicarlo."
+          {
+            "mito": "El mensaje se envía solo al abrir el enlace.",
+            "realidad": "Solo queda escrito en la caja de texto. La persona puede editarlo y decide cuándo enviarlo."
+          },
+          {
+            "mito": "El enlace guarda mi número en los contactos del cliente.",
+            "realidad": "Abre el chat, pero no crea ningún contacto. Si quieres que te guarden, pídelo en tu primera respuesta."
+          },
+          {
+            "mito": "Hace falta WhatsApp Business para tener un enlace.",
+            "realidad": "Funciona igual con una cuenta normal que con una de empresa."
+          },
+          {
+            "mito": "Si cambio el mensaje, los enlaces ya publicados se actualizan.",
+            "realidad": "El texto forma parte de la URL. Genera uno nuevo y reemplázalo en la web, las redes y los QR impresos."
+          }
         ]
       },
       {
         "tipo": "texto",
         "titulo": "¿Cómo convertir el enlace de WhatsApp en un código QR?",
         "parrafos": [
-          "Copia el enlace generado y pégalo en el [generador de código QR](/generador-qr). Al escanearlo, se abre el chat con tu mensaje listo para enviar. Para medir qué enlace trae más clientes, puedes añadir parámetros con el [generador de UTM](/generador-utm) a los enlaces de tu web."
+          "Copia el enlace y pégalo en el [generador de código QR](/generador-qr). Al escanearlo, se abre el chat con tu mensaje listo para enviar. Para saber qué campaña trae más clientes, añade parámetros con el [generador de UTM](/generador-utm) a los enlaces de tu web que llevan al botón.",
+          "También puedes incluir el enlace en tu [firma de correo](/generador-firma-email) o en la [bio de Instagram](/generador-bio-instagram), donde cada toque se convierte en una conversación."
         ]
       }
     ],
     "faqs": [
       {
         "question": "¿Cómo debo escribir el número de teléfono?",
-        "answer": "Escribe el número completo con el código de país, sin el símbolo +, sin espacios ni guiones. Por ejemplo, para un número de México sería 52 seguido del número a 10 dígitos, y para España sería 34 seguido del número a 9 dígitos."
+        "answer": "Con el código de país delante y todo el número. Para México, 52 y los 10 dígitos; para España, 34 y los 9 dígitos. No importa si pones +, espacios o guiones: la herramienta los quita."
       },
       {
         "question": "¿El destinatario necesita tener mi número guardado para que funcione?",
-        "answer": "No. El enlace wa.me abre directamente una conversación con el número indicado, sin que la persona que hace clic necesite tenerlo guardado como contacto."
+        "answer": "No. El enlace abre directamente una conversación con el número indicado, sin que quien hace clic lo tenga guardado como contacto."
       },
       {
         "question": "¿Puedo usar este enlace en un botón de mi sitio web?",
-        "answer": "Sí, puedes usar el enlace generado como el destino (href) de un botón o enlace en tu página web, para que los visitantes puedan escribirte por WhatsApp con un solo clic."
+        "answer": "Sí. Ponlo como destino (href) de un botón o un enlace y tus visitantes podrán escribirte con un solo clic."
       },
       {
-        "question": "¿Es gratis este generador de enlaces de WhatsApp?",
-        "answer": "Sí, es completamente gratuito, sin límite de usos y sin necesidad de registro."
+        "question": "¿Puedo poner emojis y saltos de línea en el mensaje?",
+        "answer": "Sí. La herramienta los codifica al crear el enlace y WhatsApp los muestra tal cual en el chat."
+      },
+      {
+        "question": "¿El enlace caduca?",
+        "answer": "No. Funciona mientras el número tenga una cuenta de WhatsApp activa. Si cambias de número, tendrás que generar uno nuevo."
+      },
+      {
+        "question": "¿Funciona si la persona lo abre en una computadora?",
+        "answer": "Sí. Abre WhatsApp Web o la aplicación de escritorio, siempre que la persona tenga su WhatsApp vinculado en ese equipo."
       }
     ],
     "relatedTools": [
@@ -11790,7 +12632,7 @@
     "webApp": true,
     "appCategory": "BusinessApplication",
     "intro": "Desde 2023, la Ley Federal del Trabajo garantiza en México un mínimo de 12 días de vacaciones pagadas al cumplir tu primer año de trabajo, y los días aumentan con la antigüedad. Esta calculadora toma tu fecha de ingreso y te dice exactamente cuántos días te corresponden en el periodo actual, cuántos tendrás al cumplir tu siguiente aniversario y cuántos días proporcionales llevas acumulados en el año en curso, que es lo que deben pagarte en tu finiquito si dejas la empresa. Si añades tu salario, también calcula cuánto valen esos días en dinero.",
-    "resumen": "Calcula cuántos días de vacaciones te corresponden en México según tu antigüedad, con la tabla vigente desde 2023: 12 días el primer año, 2 más cada año hasta el quinto y 2 más cada cinco años después.",
+    "resumen": "Saber cuántos días de descanso pagado te tocan evita discusiones con recursos humanos y sorpresas en el finiquito. Con tu fecha de ingreso, esta calculadora te dice cuántos días de vacaciones te corresponden en México según la tabla de la Ley Federal del Trabajo vigente desde 2023, cuántos llevas acumulados del año en curso y, si escribes tu sueldo, cuánto dinero valen. Sirve a trabajadores, a quien está por renunciar y a quien lleva la nómina de un negocio.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -11801,40 +12643,104 @@
         "titulo": "¿Cuántos días de vacaciones me tocan según mis años trabajados?"
       },
       {
+        "tipo": "texto",
+        "titulo": "Cómo calcula la herramienta tus días y su valor",
+        "parrafos": [
+          "Primero cuenta los años completos entre tu fecha de ingreso y la fecha de cálculo. Con ellos aplica la tabla del artículo 76 de la LFT: 12 días al cumplir el primer año, 2 más por cada año hasta llegar a 20 en el quinto, y desde el sexto, 2 días más por cada cinco años de servicio (22 del sexto al décimo, 24 del undécimo al decimoquinto, y así sucesivamente).",
+          "Después calcula lo que llevas generado desde tu último aniversario: los días que tendrás al cumplir el siguiente año × los días transcurridos ÷ 365. Si escribes tu sueldo mensual, lo divide entre 30 para obtener el salario diario, como indica el artículo 89 de la LFT, y lo multiplica por los días de vacaciones."
+        ]
+      },
+      {
         "tipo": "ejemplo",
-        "titulo": "¿Cuántas vacaciones proporcionales me pagan si renuncio?",
-        "intro": "Si dejas el empleo antes de cumplir otro año, te pagan la parte proporcional de los días que estabas generando.",
+        "titulo": "¿Cuánto me pagan de vacaciones si renuncio a mitad de año?",
+        "intro": "Si dejas el empleo antes de tu siguiente aniversario, te pagan la parte proporcional de los días que estabas generando.",
         "datos": [
           [
-            "Antigüedad",
-            "2 años y 4 meses"
+            "Fecha de ingreso",
+            "15 de marzo de 2023"
           ],
           [
-            "Salario diario",
-            "$450"
+            "Último día",
+            "15 de julio de 2026"
+          ],
+          [
+            "Sueldo mensual",
+            "$13,500"
           ]
         ],
         "pasos": [
           {
-            "texto": "En el tercer año te corresponden 16 días.",
-            "operacion": "16 días"
+            "texto": "Años cumplidos al 15 de marzo de 2026.",
+            "operacion": "3 años → el próximo aniversario da 18 días"
           },
           {
-            "texto": "Llevas 4 de los 12 meses de ese año.",
-            "operacion": "16 × 4 ÷ 12 = 5,33 días"
+            "texto": "Días transcurridos desde el último aniversario.",
+            "operacion": "15 de marzo a 15 de julio = 122 días"
           },
           {
-            "texto": "Multiplica por tu salario diario.",
-            "operacion": "5,33 × $450 = $2,400"
+            "texto": "Vacaciones proporcionales.",
+            "operacion": "18 × 122 ÷ 365 = 6.02 días"
           },
           {
-            "texto": "Súmale la prima vacacional del 25 % sobre esa cantidad.",
-            "operacion": "$2,400 × 25 % = $600"
+            "texto": "Salario diario y valor de esos días.",
+            "operacion": "$13,500 ÷ 30 = $450 · 6.0164 × $450 = $2,707.40"
+          },
+          {
+            "texto": "Prima vacacional mínima del 25 %.",
+            "operacion": "$2,707.40 × 25 % = $676.85"
           }
         ],
         "resultado": [
           "Vacaciones y prima proporcionales",
-          "$3,000"
+          "$3,384.25"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar la calculadora de vacaciones",
+        "pasos": [
+          {
+            "titulo": "Escribe tu fecha de ingreso",
+            "texto": "La que aparece en tu contrato o en tu alta del IMSS."
+          },
+          {
+            "titulo": "Revisa la fecha de cálculo",
+            "texto": "Viene con la fecha de hoy. Si vas a dejar la empresa, pon tu último día de trabajo."
+          },
+          {
+            "titulo": "Agrega tu sueldo mensual si quieres",
+            "texto": "Es opcional. Sin él verás solo los días; con él, también su valor en pesos."
+          },
+          {
+            "titulo": "Pulsa «Calcular mis vacaciones»",
+            "texto": "Aparecen tu antigüedad, los días de este periodo, los del siguiente año y los proporcionales acumulados."
+          },
+          {
+            "titulo": "Mira la tabla de abajo",
+            "texto": "El tramo que te corresponde se resalta en azul dentro de la tabla de vacaciones por antigüedad."
+          }
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "Errores al contar las vacaciones",
+        "items": [
+          {
+            "mito": "El salario diario es el sueldo mensual entre 30.4.",
+            "realidad": "Para pagar vacaciones, la LFT divide el sueldo mensual entre 30. Con $13,500 al mes, el diario es $450."
+          },
+          {
+            "mito": "Después del quinto año los días suben cada aniversario.",
+            "realidad": "A partir del sexto año suben 2 días cada cinco años: son 22 desde el sexto hasta el décimo."
+          },
+          {
+            "mito": "El valor que muestra la herramienta ya incluye la prima vacacional.",
+            "realidad": "No. Es el salario de esos días. Súmale la prima, de al menos el 25 %."
+          },
+          {
+            "mito": "Las vacaciones proporcionales solo se pagan si renuncio.",
+            "realidad": "Se pagan siempre que termina la relación laboral, sea por renuncia, despido o fin de contrato."
+          }
         ]
       },
       {
@@ -11849,37 +12755,97 @@
         ]
       },
       {
+        "tipo": "tabla",
+        "titulo": "¿Cuántas vacaciones da la ley en otros países?",
+        "intro": "La herramienta calcula con la tabla mexicana. Como referencia, así se cuentan en otros países.",
+        "cabeceras": [
+          "País",
+          "Vacaciones al año",
+          "Cómo crecen"
+        ],
+        "filas": [
+          [
+            "México",
+            "12 días laborables el primer año",
+            "2 días por año hasta el quinto; luego 2 cada cinco años"
+          ],
+          [
+            "Colombia",
+            "15 días hábiles",
+            "Fijas, salvo lo que mejore el contrato"
+          ],
+          [
+            "Perú",
+            "30 días calendario",
+            "Fijas"
+          ],
+          [
+            "Chile",
+            "15 días hábiles",
+            "Días adicionales después de 10 años trabajados"
+          ],
+          [
+            "Argentina",
+            "14 días corridos",
+            "21 con más de 5 años, 28 con más de 10 y 35 con más de 20"
+          ],
+          [
+            "España",
+            "30 días naturales",
+            "Fijas, salvo mejora por convenio"
+          ]
+        ]
+      },
+      {
         "tipo": "texto",
-        "titulo": "¿Dónde leer más sobre las vacaciones en México?",
+        "titulo": "Guías y calculadoras relacionadas",
         "parrafos": [
-          "Tenemos la [tabla de vacaciones 2026](/blog/tabla-de-vacaciones-2026), una guía de [vacaciones por ley](/blog/vacaciones-por-ley) y otra sobre [cuántos días de vacaciones tocan por año](/blog/dias-de-vacaciones-por-ano). Para el dinero extra, calcula tu [prima vacacional](/calcular-prima-vacacional)."
+          "Consulta la [tabla de vacaciones 2026](/blog/tabla-de-vacaciones-2026), la guía de [vacaciones por ley](/blog/vacaciones-por-ley) y la de [cuántos días de vacaciones tocan por año](/blog/dias-de-vacaciones-por-ano). Para el dinero extra, calcula tu [prima vacacional](/calcular-prima-vacacional); si te vas de la empresa, el [finiquito](/calculadora-finiquito-mexico) junta vacaciones, prima y [aguinaldo](/calcular-aguinaldo) proporcionales."
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "Actualizado: noviembre de 2026. Tabla de los artículos 76 a 81 de la Ley Federal del Trabajo, reformada el 27 de diciembre de 2022 y vigente desde el 1 de enero de 2023. Para dudas sobre tu caso, la PROFEDET da asesoría gratuita."
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "Secretaría del Trabajo y Previsión Social (STPS)",
+            "url": "https://www.gob.mx/stps"
+          },
+          {
+            "texto": "Procuraduría Federal de la Defensa del Trabajo (PROFEDET)",
+            "url": "https://www.gob.mx/profedet"
+          }
         ]
       }
     ],
     "faqs": [
       {
-        "question": "¿Cuántos días de vacaciones me tocan en el primer año?",
-        "answer": "12 días, desde la reforma que entró en vigor el 1 de enero de 2023. Antes eran solo 6. Los días se generan al cumplir el primer año de servicio."
+        "question": "¿Desde cuándo tengo derecho a vacaciones en un empleo nuevo?",
+        "answer": "Al cumplir el primer año te corresponden 12 días. Mientras tanto los vas generando, y si sales antes, te pagan la parte proporcional."
       },
       {
         "question": "¿La reforma aplica si entré a trabajar antes de 2023?",
-        "answer": "Sí. La nueva tabla aplica a todos los trabajadores según su antigüedad total, sin importar la fecha de ingreso. Si llevas 7 años en la empresa, hoy te corresponden 22 días."
+        "answer": "Sí. La tabla nueva aplica a todos según su antigüedad total, sin importar la fecha de ingreso. Si llevas 7 años en la empresa, hoy te corresponden 22 días."
       },
       {
         "question": "¿Los días de vacaciones son naturales o hábiles?",
-        "answer": "Son días laborables: se cuentan los días que normalmente trabajarías. Los días de descanso semanal y los festivos oficiales que caigan en tu periodo de vacaciones no se descuentan de tus días."
+        "answer": "Son días laborables: se cuentan los días que normalmente trabajarías. Los descansos semanales y los festivos oficiales que caigan en tu periodo no se descuentan."
       },
       {
         "question": "¿Pueden pagarme las vacaciones en lugar de dármelas?",
-        "answer": "No mientras sigas trabajando: el artículo 79 de la LFT prohíbe compensar las vacaciones con dinero. Solo se pagan en efectivo cuando termina la relación laboral, dentro del finiquito o la liquidación."
+        "answer": "No mientras sigas trabajando: el artículo 79 de la LFT prohíbe cambiarlas por dinero. Solo se pagan cuando termina la relación laboral, en el finiquito o la liquidación."
       },
       {
         "question": "¿Qué pasa si no tomo mis vacaciones a tiempo?",
-        "answer": "Debes disfrutarlas dentro de los seis meses posteriores a tu aniversario, y el derecho a reclamarlas prescribe en un año. Si tu empresa no te las concede, puedes acudir gratuitamente a la PROFEDET para recibir asesoría."
+        "answer": "Debes disfrutarlas en los seis meses posteriores a tu aniversario, y el derecho a reclamarlas prescribe en un año. Si la empresa no te las concede, la PROFEDET te asesora gratis."
       },
       {
         "question": "¿Los trabajadores eventuales tienen vacaciones?",
-        "answer": "Sí. Los trabajadores de temporada o eventuales tienen derecho a vacaciones proporcionales al número de días trabajados en el año (artículo 77 LFT)."
+        "answer": "Sí. Los trabajadores de temporada o eventuales tienen vacaciones proporcionales a los días trabajados en el año (artículo 77 de la LFT)."
       }
     ],
     "relatedTools": [
@@ -15952,7 +16918,7 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El salario mínimo es la cantidad más baja que un patrón puede pagar por una jornada de trabajo en México. Para 2026, la Comisión Nacional de los Salarios Mínimos (CONASAMI) lo fijó en $315.04 diarios para la mayor parte del país y en $440.87 para la Zona Libre de la Frontera Norte. En esta página tienes los montos diario, semanal, quincenal, mensual y anual de cada zona. También un comparador para saber si tu sueldo cumple el mínimo y la tabla histórica desde 2019.",
-    "resumen": "El salario mínimo en México en 2026 es de $315.04 diarios en la zona general y de $440.87 en la zona libre de la frontera norte: $9,577.22 y $13,402.45 al mes, respectivamente. Aquí tienes las cifras por día, semana, quincena y mes.",
+    "resumen": "El salario mínimo en México en 2026 es de $315.04 diarios en la zona general y de $440.87 en la Zona Libre de la Frontera Norte: $9,577.22 y $13,402.45 al mes. Esta página es para trabajadores que quieren saber si su sueldo cumple con la ley, para patrones y contadores que arman la nómina y para quien necesita convertir el monto diario a semana, quincena, mes o año. Debajo de la tabla puedes comprobar tu propio sueldo.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -15963,8 +16929,16 @@
         "titulo": "¿Cómo se compara el salario mínimo general con el de la frontera norte?"
       },
       {
+        "tipo": "texto",
+        "titulo": "Cómo se convierte el salario diario en semanal, quincenal y mensual",
+        "parrafos": [
+          "En México el salario mínimo se fija por día. Para obtener otros periodos se multiplica el monto diario por los días que cubre cada pago: 7 para la semana, 15 para la quincena, 30.4 para el mes y 365 para el año. El 30.4 sale de dividir 365 días entre 12 meses, y es el promedio que usan el IMSS y el SAT.",
+          "Para saber si un sueldo cumple se hace la operación inversa: se divide lo que cobras entre los días del periodo y se compara el resultado con el mínimo diario de tu zona. Si lo divides entre el mínimo, obtienes a cuántos salarios mínimos equivale tu sueldo, un dato que piden muchos trámites y créditos."
+        ]
+      },
+      {
         "tipo": "tabla",
-        "titulo": "¿Cuánto es el salario mínimo por quincena y por año?",
+        "titulo": "Salario mínimo 2026 por día, semana, quincena, mes y año",
         "cabeceras": [
           "Periodo",
           "Zona general",
@@ -15999,31 +16973,121 @@
         ]
       },
       {
+        "tipo": "ejemplo",
+        "titulo": "¿Cumple con la ley un sueldo de $4,500 a la quincena?",
+        "datos": [
+          [
+            "Lugar de trabajo",
+            "Guadalajara (zona general)"
+          ],
+          [
+            "Sueldo",
+            "$4,500 por quincena"
+          ],
+          [
+            "Mínimo diario 2026",
+            "$315.04"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Convierte el sueldo a diario dividiendo entre 15.",
+            "operacion": "$4,500 ÷ 15 = $300.00 al día"
+          },
+          {
+            "texto": "Compáralo con el mínimo de la zona.",
+            "operacion": "$300.00 < $315.04"
+          },
+          {
+            "texto": "Calcula la diferencia por día.",
+            "operacion": "$315.04 − $300.00 = $15.04"
+          },
+          {
+            "texto": "Pásala a la quincena para saber cuánto falta.",
+            "operacion": "$15.04 × 15 = $225.60"
+          },
+          {
+            "texto": "Para cumplir, la quincena debe ser al menos esta.",
+            "operacion": "$315.04 × 15 = $4,725.60"
+          }
+        ],
+        "resultado": [
+          "Faltan por quincena",
+          "$225.60"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo comprobar tu sueldo con la herramienta",
+        "pasos": [
+          {
+            "titulo": "Elige la zona salarial",
+            "texto": "Zona general o Zona Libre de la Frontera Norte, según el municipio donde trabajas."
+          },
+          {
+            "titulo": "Mira los montos",
+            "texto": "Verás el mínimo diario y su equivalente semanal, quincenal, mensual y anual, el aumento frente a 2025 y la UMA diaria."
+          },
+          {
+            "titulo": "Escribe tu sueldo",
+            "texto": "Pon lo que cobras en el recuadro «¿Tu sueldo cumple con el mínimo?»."
+          },
+          {
+            "titulo": "Indica el periodo",
+            "texto": "Diario, semanal, quincenal o mensual, el mismo con el que te pagan."
+          },
+          {
+            "titulo": "Lee el resultado",
+            "texto": "En verde, tu sueldo cumple y ves a cuántos salarios mínimos equivale; en rojo, cuánto te falta por día."
+          }
+        ]
+      },
+      {
         "tipo": "tabla",
-        "titulo": "¿Cómo ha subido el salario mínimo en los últimos años?",
+        "titulo": "¿Cuánto ha subido el mínimo cada año desde 2019?",
         "cabeceras": [
           "Año",
-          "Zona general (diario)",
-          "Frontera norte (diario)"
+          "Aumento zona general",
+          "Aumento frontera norte"
         ],
         "filas": [
           [
-            "2019",
-            "$102.68",
-            "$176.72"
+            "2020",
+            "20.0 %",
+            "5.0 %"
           ],
           [
-            "2020",
-            "$123.22",
-            "$185.56"
+            "2021",
+            "15.0 %",
+            "15.0 %"
+          ],
+          [
+            "2022",
+            "22.0 %",
+            "22.0 %"
+          ],
+          [
+            "2023",
+            "20.0 %",
+            "20.0 %"
+          ],
+          [
+            "2024",
+            "20.0 %",
+            "20.0 %"
+          ],
+          [
+            "2025",
+            "12.0 %",
+            "12.0 %"
           ],
           [
             "2026",
-            "$315.04",
-            "$440.87"
+            "13.0 %",
+            "5.0 %"
           ]
         ],
-        "nota": "En siete años, el salario mínimo general se ha multiplicado por más de tres."
+        "nota": "Calculado con los montos diarios de cada año. El general pasó de $102.68 en 2019 a $315.04 en 2026: se multiplicó por más de tres."
       },
       {
         "tipo": "checklist",
@@ -16037,11 +17101,87 @@
         ]
       },
       {
-        "tipo": "texto",
-        "titulo": "¿Qué prestaciones puedo calcular con el salario mínimo?",
-        "parrafos": [
-          "Con tu salario diario calcula tu [aguinaldo](/calcular-aguinaldo), tus [vacaciones](/calcular-vacaciones) y tu [prima vacacional](/calcular-prima-vacacional). Si cambias de trabajo, el [finiquito](/calculadora-finiquito-mexico)."
+        "tipo": "mitos",
+        "titulo": "Confusiones frecuentes sobre el salario mínimo",
+        "items": [
+          {
+            "mito": "La UMA y el salario mínimo son lo mismo.",
+            "realidad": "La UMA 2026 es de $117.31 diarios y sirve para calcular multas, créditos y topes fiscales. No es un sueldo ni un mínimo que deba pagarse."
+          },
+          {
+            "mito": "Un mes de salario mínimo son 30 días.",
+            "realidad": "Con 30 días saldrían $9,451.20, pero el mes promedio tiene 30.4 días y la cifra mensual correcta es $9,577.22."
+          },
+          {
+            "mito": "Todos los oficios tienen el mismo mínimo.",
+            "realidad": "La CONASAMI fija además salarios mínimos profesionales, más altos, para ciertos oficios y trabajos especiales."
+          },
+          {
+            "mito": "Si gano más que el mínimo general, cumplo también en la frontera.",
+            "realidad": "En la Zona Libre de la Frontera Norte el piso es $440.87 diarios. Un sueldo de $350 al día no cumple allí."
+          }
         ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Cómo se llama el salario mínimo en otros países?",
+        "intro": "Esta herramienta usa los montos de México. Si trabajas en otro país, el nombre, la forma de expresarlo y quién lo fija cambian.",
+        "cabeceras": [
+          "País",
+          "Nombre",
+          "Se expresa por",
+          "Lo fija"
+        ],
+        "filas": [
+          [
+            "México",
+            "Salario mínimo general",
+            "Día",
+            "CONASAMI"
+          ],
+          [
+            "Colombia",
+            "Salario mínimo mensual legal vigente (SMMLV)",
+            "Mes",
+            "Concertación o decreto del Gobierno"
+          ],
+          [
+            "Perú",
+            "Remuneración mínima vital (RMV)",
+            "Mes",
+            "Poder Ejecutivo por decreto supremo"
+          ],
+          [
+            "Argentina",
+            "Salario mínimo, vital y móvil",
+            "Mes",
+            "Consejo del Salario"
+          ],
+          [
+            "Chile",
+            "Ingreso mínimo mensual",
+            "Mes",
+            "Ley aprobada por el Congreso"
+          ],
+          [
+            "España",
+            "Salario mínimo interprofesional (SMI)",
+            "Mes, en 14 pagas",
+            "Gobierno por real decreto"
+          ]
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Prestaciones que se calculan a partir del salario diario",
+        "parrafos": [
+          "El salario diario es la base de casi todas las prestaciones. Con él calculas tu [aguinaldo](/calcular-aguinaldo), tus días de [vacaciones](/calcular-vacaciones) y tu [prima vacacional](/calcular-prima-vacacional). Si terminas una relación laboral, el [finiquito](/calculadora-finiquito-mexico) también parte de ese monto."
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "Actualizado: noviembre de 2026. Montos diarios fijados por la Comisión Nacional de los Salarios Mínimos (CONASAMI) y publicados en el Diario Oficial de la Federación, vigentes desde el 1 de enero de 2026. UMA 2026 publicada por el INEGI."
       },
       {
         "tipo": "fuentes",
@@ -16049,6 +17189,10 @@
           {
             "texto": "Comisión Nacional de los Salarios Mínimos (CONASAMI)",
             "url": "https://www.gob.mx/conasami"
+          },
+          {
+            "texto": "INEGI: Unidad de Medida y Actualización (UMA)",
+            "url": "https://www.inegi.org.mx/temas/uma/"
           }
         ]
       }
@@ -16059,24 +17203,24 @@
         "answer": "En la zona general son $9,577.22 al mes (315.04 × 30.4 días). En la Zona Libre de la Frontera Norte son $13,402.45 al mes."
       },
       {
-        "question": "¿Cuánto es el salario mínimo semanal en 2026?",
-        "answer": "Son $2,205.28 por semana en la zona general (7 días) y $3,086.09 en la frontera norte. La semana se paga con el día de descanso incluido."
-      },
-      {
         "question": "¿Desde cuándo se aplica el nuevo salario mínimo?",
         "answer": "Desde el 1 de enero de 2026. Si tu patrón te sigue pagando el monto de 2025, está incumpliendo la ley y debe pagarte la diferencia."
       },
       {
         "question": "¿Quién decide si vivo en la zona de la frontera norte?",
-        "answer": "Lo determina el municipio donde trabajas, no donde vives. La zona incluye solo los municipios fronterizos listados en el decreto, en Baja California, Sonora, Chihuahua, Coahuila, Nuevo León y Tamaulipas."
+        "answer": "Cuenta el municipio donde trabajas, no donde vives. La zona incluye solo los municipios fronterizos listados en el decreto, en Baja California, Sonora, Chihuahua, Coahuila, Nuevo León y Tamaulipas."
       },
       {
         "question": "¿El salario mínimo paga impuestos?",
         "answer": "No. A quien gana el salario mínimo no se le retiene ISR y el patrón paga su cuota obrera del IMSS, así que recibe el monto completo."
       },
       {
-        "question": "¿Por qué el salario mínimo mensual se calcula con 30.4 días?",
-        "answer": "Porque 365 días entre 12 meses dan 30.42 días en promedio. El IMSS, el SAT y la mayoría de las nóminas usan 30.4 para convertir montos diarios a mensuales."
+        "question": "¿El pago semanal incluye el día de descanso?",
+        "answer": "Sí. La semana se paga con 7 días aunque trabajes 6, porque el día de descanso semanal es con goce de salario. Por eso el mínimo semanal es 315.04 × 7 = $2,205.28."
+      },
+      {
+        "question": "¿Cuándo se anuncia el salario mínimo de 2027?",
+        "answer": "La CONASAMI suele aprobar el aumento en diciembre y el nuevo monto rige desde el 1 de enero. Actualizaremos esta página cuando se publique."
       }
     ],
     "relatedTools": [
@@ -28500,7 +29644,7 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Antes de inscribir una propiedad o una empresa en los Registros Públicos del Perú conviene saber cuánto vas a pagar. Esta calculadora registral estima los derechos de SUNARP para una compraventa de inmueble, una hipoteca o la constitución de una sociedad, separando el derecho de calificación, que se calcula con la UIT 2026 de S/ 5,500, y el derecho de inscripción, que depende del valor del acto. Las tasas vienen precargadas y puedes ajustarlas si el arancel cambia.",
-    "resumen": "Calcula los derechos registrales de SUNARP para inscribir una compraventa, una hipoteca o la constitución de una empresa en Perú: el derecho de calificación (0.81 % de la UIT por acto) y el de inscripción según el valor del acto.",
+    "resumen": "Al comprar un inmueble, hipotecarlo o formar una empresa en Perú, el último paso es inscribirlo en los Registros Públicos, y SUNARP cobra por ello. Esta calculadora es para compradores, vendedores, emprendedores y gestores que quieren saber el monto antes de presentar el título: separa el derecho de calificación, que se calcula sobre la UIT, del derecho de inscripción, que depende del valor del acto, y te da el total referencial.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -28511,30 +29655,86 @@
         "titulo": "¿Qué pagas en SUNARP al comprar un departamento de S/ 300,000?"
       },
       {
-        "tipo": "pasos",
-        "titulo": "¿Cuáles son los pasos para inscribir una compraventa?",
+        "tipo": "texto",
+        "titulo": "Cómo se calculan los derechos registrales",
+        "parrafos": [
+          "El pago a SUNARP tiene dos partes. La primera es el derecho de calificación, una cantidad fija por cada acto que cubre la revisión del registrador. Se expresa como porcentaje de la UIT: para una compraventa o una hipoteca es 0.81 %, que con la UIT 2026 de S/ 5,500 da S/ 44.55.",
+          "La segunda es el derecho de inscripción, que crece con el valor del acto y se expresa «por mil». Para una compraventa de más de S/ 35,000 es 3 por mil del precio; para una hipoteca, 1.5 por mil del monto del gravamen. La fórmula que usa la calculadora es: total = (UIT × % de calificación ÷ 100) + (valor × tasa por mil ÷ 1,000). Cada acto se paga por separado, así que una compra con crédito suma dos actos: la compraventa y la hipoteca."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto se paga al inscribir una compra financiada con un banco?",
+        "datos": [
+          [
+            "Precio del departamento",
+            "S/ 250,000"
+          ],
+          [
+            "Préstamo hipotecario",
+            "S/ 200,000"
+          ],
+          [
+            "UIT 2026",
+            "S/ 5,500"
+          ]
+        ],
         "pasos": [
           {
-            "titulo": "Firma la escritura pública",
-            "texto": "Ante notario, con el pago del impuesto de alcabala si corresponde."
+            "texto": "Calificación de la compraventa.",
+            "operacion": "5,500 × 0.81 ÷ 100 = S/ 44.55"
           },
           {
-            "titulo": "El notario presenta el título",
-            "texto": "Normalmente la notaría envía los documentos a SUNARP."
+            "texto": "Inscripción de la compraventa a 3 por mil.",
+            "operacion": "250,000 × 3 ÷ 1,000 = S/ 750.00"
           },
           {
-            "titulo": "Paga los derechos registrales",
-            "texto": "Calificación al presentar e inscripción según el valor del inmueble."
+            "texto": "Subtotal de la compraventa.",
+            "operacion": "S/ 44.55 + S/ 750.00 = S/ 794.55"
           },
           {
-            "titulo": "Espera la calificación",
-            "texto": "El registrador revisa el título y, si todo está en orden, inscribe la propiedad a tu nombre."
+            "texto": "Hipoteca: calificación más inscripción a 1.5 por mil.",
+            "operacion": "S/ 44.55 + 200,000 × 1.5 ÷ 1,000 = S/ 344.55"
+          },
+          {
+            "texto": "Suma de los dos actos.",
+            "operacion": "S/ 794.55 + S/ 344.55 = S/ 1,139.10"
+          }
+        ],
+        "resultado": [
+          "Total en SUNARP",
+          "S/ 1,139.10"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar la calculadora registral",
+        "pasos": [
+          {
+            "titulo": "Elige el acto",
+            "texto": "Compraventa, hipoteca, constitución de empresa u «otro acto». Al cambiarlo, las tasas se cargan solas."
+          },
+          {
+            "titulo": "Escribe el valor en soles",
+            "texto": "El precio de venta, el monto del gravamen o el capital social. Si el contrato está en dólares, conviértelo con el tipo de cambio del día."
+          },
+          {
+            "titulo": "Revisa las dos tasas",
+            "texto": "El porcentaje de la UIT y la tasa por mil son editables. Cámbialos si tu caso tiene una tasa distinta, por ejemplo una compraventa de S/ 35,000 o menos."
+          },
+          {
+            "titulo": "Pulsa «Calcular derechos registrales»",
+            "texto": "Verás la calificación, la inscripción y el total, con la operación de cada parte."
+          },
+          {
+            "titulo": "Repite por cada acto",
+            "texto": "Si inscribes varios actos en el mismo título, calcula cada uno y suma los resultados."
           }
         ]
       },
       {
         "tipo": "tabla",
-        "titulo": "¿Cómo crecen los derechos registrales con el precio del inmueble?",
+        "titulo": "Derechos registrales de una compraventa según el precio",
         "cabeceras": [
           "Precio",
           "Calificación",
@@ -28542,6 +29742,12 @@
           "Total"
         ],
         "filas": [
+          [
+            "S/ 30,000 (1.5 ‰)",
+            "S/ 44.55",
+            "S/ 45.00",
+            "S/ 89.55"
+          ],
           [
             "S/ 150,000",
             "S/ 44.55",
@@ -28561,14 +29767,90 @@
             "S/ 1,544.55"
           ]
         ],
-        "nota": "Compraventa con UIT de S/ 5,500. Valores referenciales."
+        "nota": "UIT 2026 de S/ 5,500. Para la fila de S/ 30,000, cambia la tasa por mil a 1.5 en la calculadora. Valores referenciales."
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "¿Cuáles son los pasos para inscribir una compraventa?",
+        "pasos": [
+          {
+            "titulo": "Firma la escritura pública",
+            "texto": "Ante notario, después de pagar el impuesto de alcabala en la municipalidad si corresponde."
+          },
+          {
+            "titulo": "El notario presenta el título",
+            "texto": "Normalmente la notaría envía los partes notariales a SUNARP y te entrega el número de título para hacer seguimiento."
+          },
+          {
+            "titulo": "Paga los derechos registrales",
+            "texto": "La calificación al presentar y la inscripción según el valor del inmueble."
+          },
+          {
+            "titulo": "Espera la calificación",
+            "texto": "El registrador revisa el título. Si encuentra un defecto, lo observa y tienes un plazo para subsanarlo; si todo está en orden, inscribe la propiedad a tu nombre."
+          }
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "Errores frecuentes al estimar el pago en SUNARP",
+        "items": [
+          {
+            "mito": "Si compro con crédito, solo pago la inscripción de la compraventa.",
+            "realidad": "La hipoteca es otro acto con su propia calificación e inscripción. Súmala o te faltarán varios cientos de soles."
+          },
+          {
+            "mito": "Sirve la UIT del año en que firmé el contrato.",
+            "realidad": "La calificación se calcula con la UIT vigente al presentar el título. En 2025 era S/ 5,350 y en 2026 es S/ 5,500."
+          },
+          {
+            "mito": "Puedo escribir el valor en dólares tal cual.",
+            "realidad": "La tasa se aplica sobre soles. Un inmueble de US$ 80,000 debe convertirse antes de calcular."
+          },
+          {
+            "mito": "Lo que pago a SUNARP incluye la notaría.",
+            "realidad": "Esta cifra es solo lo que va al registro. Los honorarios notariales y la alcabala son pagos aparte."
+          }
+        ]
+      },
+      {
+        "tipo": "glosario",
+        "titulo": "¿Qué significan los términos del trámite registral?",
+        "items": [
+          [
+            "Título",
+            "El conjunto de documentos que presentas para inscribir, como los partes notariales de la escritura."
+          ],
+          [
+            "Partida registral",
+            "La ficha del inmueble o de la empresa en el registro, donde se anotan todos sus actos."
+          ],
+          [
+            "Observación",
+            "Aviso del registrador de que el título tiene un defecto que se puede corregir."
+          ],
+          [
+            "Tacha",
+            "Rechazo del título por un defecto que no se puede subsanar o porque venció el plazo para corregirlo."
+          ],
+          [
+            "Mayor derecho",
+            "Diferencia que el registrador te pide pagar cuando lo abonado al presentar no alcanza."
+          ]
+        ]
       },
       {
         "tipo": "texto",
         "titulo": "¿Qué otros costos tiene comprar una vivienda en Perú?",
         "parrafos": [
-          "El IGV si compras a una constructora, que puedes calcular con la [calculadora de IGV](/calculadora-de-igv), y la cuota del crédito con la [calculadora de hipoteca](/calcular-hipoteca). Para pasar montos en UIT, usa el conversor de [UIT a soles](/uit-a-soles)."
+          "Además de SUNARP, el comprador suele pagar el impuesto de alcabala, que es el 3 % del valor que exceda las 10 UIT. En una compra de S/ 250,000 serían (250,000 − 55,000) × 3 % = S/ 5,850. A eso se suman los honorarios de la notaría.",
+          "Si compras a una constructora, el precio incluye IGV, que puedes revisar con la [calculadora de IGV](/calculadora-de-igv). Para estimar la cuota del préstamo usa la [calculadora de hipoteca](/calcular-hipoteca), y para pasar cualquier monto expresado en UIT a soles, el conversor de [UIT a soles](/uit-a-soles)."
         ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "Actualizado: noviembre de 2026. Tasas tomadas del arancel de SUNARP y UIT 2026 de S/ 5,500 fijada por el Ministerio de Economía y Finanzas. El registrador liquida el monto exacto; compruébalo en la calculadora oficial de SUNARP antes de pagar. Para constituir una empresa, verifica allí la tasa de calificación y los montos por cada cargo inscrito, porque pueden ser distintos de los de una compraventa."
       },
       {
         "tipo": "fuentes",
@@ -28576,6 +29858,10 @@
           {
             "texto": "SUNARP: Superintendencia Nacional de los Registros Públicos",
             "url": "https://www.gob.pe/sunarp"
+          },
+          {
+            "texto": "Ministerio de Economía y Finanzas: valor de la UIT",
+            "url": "https://www.gob.pe/mef"
           }
         ]
       }
@@ -28583,19 +29869,27 @@
     "faqs": [
       {
         "question": "¿Cuánto cuesta inscribir una propiedad en SUNARP?",
-        "answer": "Se paga un derecho de calificación de 0.81% de la UIT (S/ 44.55 en 2026) y un derecho de inscripción de alrededor del 3 por mil del valor del inmueble. Para una propiedad de S/ 250,000 son unos S/ 794.55."
+        "answer": "Para una compraventa de más de S/ 35,000 se paga S/ 44.55 de calificación (0.81 % de la UIT 2026) y 3 por mil del precio de inscripción. Una propiedad de S/ 250,000 paga unos S/ 794.55."
       },
       {
         "question": "¿Qué es el derecho de calificación?",
-        "answer": "Es la tasa que cubre la revisión que hace el registrador de tu título y sus documentos. Se calcula como un porcentaje de la UIT y se paga al presentar el título."
+        "answer": "Es la tasa que cubre la revisión que hace el registrador del título y sus documentos. Se calcula como porcentaje de la UIT y se paga al presentar el título."
       },
       {
         "question": "¿Cuál es la UIT 2026?",
-        "answer": "S/ 5,500, fijada por el Ministerio de Economía y Finanzas. Es la base para calcular el derecho de calificación y otras tasas."
+        "answer": "S/ 5,500, fijada por el Ministerio de Economía y Finanzas. Es la base para calcular el derecho de calificación y muchas otras tasas y multas."
       },
       {
         "question": "¿Los derechos registrales incluyen la notaría?",
         "answer": "No. Los honorarios notariales por la escritura pública y el impuesto de alcabala se pagan aparte."
+      },
+      {
+        "question": "¿Quién paga los derechos registrales, el comprador o el vendedor?",
+        "answer": "Lo que acuerden en el contrato. En la práctica suele pagarlos el comprador, que es quien necesita que la propiedad figure a su nombre."
+      },
+      {
+        "question": "¿Qué pasa si pagué menos de lo que liquida el registrador?",
+        "answer": "El registrador te pide el mayor derecho y debes pagarlo dentro del plazo de vigencia del título; si no lo haces, el título puede tacharse. Si pagaste de más, puedes pedir la devolución del exceso."
       }
     ],
     "relatedTools": [
