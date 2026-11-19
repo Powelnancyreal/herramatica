@@ -16,7 +16,20 @@ function limpiarPalabra(palabra) {
     .replace(/[^A-Z]/g, '')
 }
 
-export function generarSopaDeLetras(palabrasInput, size) {
+// Generador pseudoaleatorio con semilla (mulberry32). Con la misma semilla, el servidor y el navegador
+// dibujan la misma sopa, así la página no cambia de letras al cargarse.
+export function crearAzar(semilla) {
+  let a = semilla >>> 0
+  return () => {
+    a = (a + 0x6d2b79f5) >>> 0
+    let t = a
+    t = Math.imul(t ^ (t >>> 15), t | 1)
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61)
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
+  }
+}
+
+export function generarSopaDeLetras(palabrasInput, size, azar = Math.random) {
   const palabras = [...new Set(palabrasInput.map(limpiarPalabra).filter((w) => w.length > 0 && w.length <= size))].sort(
     (a, b) => b.length - a.length
   )
@@ -28,9 +41,9 @@ export function generarSopaDeLetras(palabrasInput, size) {
   for (const palabra of palabras) {
     let colocada = false
     for (let intento = 0; intento < 200 && !colocada; intento++) {
-      const [dr, dc] = DIRECCIONES[Math.floor(Math.random() * DIRECCIONES.length)]
-      const row = Math.floor(Math.random() * size)
-      const col = Math.floor(Math.random() * size)
+      const [dr, dc] = DIRECCIONES[Math.floor(azar() * DIRECCIONES.length)]
+      const row = Math.floor(azar() * size)
+      const col = Math.floor(azar() * size)
       const endRow = row + dr * (palabra.length - 1)
       const endCol = col + dc * (palabra.length - 1)
       if (endRow < 0 || endRow >= size || endCol < 0 || endCol >= size) continue
@@ -56,7 +69,7 @@ export function generarSopaDeLetras(palabrasInput, size) {
 
   for (let r = 0; r < size; r++) {
     for (let c = 0; c < size; c++) {
-      if (grid[r][c] === null) grid[r][c] = ALFABETO[Math.floor(Math.random() * ALFABETO.length)]
+      if (grid[r][c] === null) grid[r][c] = ALFABETO[Math.floor(azar() * ALFABETO.length)]
     }
   }
 
@@ -77,7 +90,7 @@ export default function SopaDeLetras() {
     const palabras = texto.split(/[\n,]+/).map((w) => w.trim()).filter(Boolean)
     if (palabras.length === 0) return null
     const size = parseInt(tamano, 10)
-    return { ...generarSopaDeLetras(palabras, size), size }
+    return { ...generarSopaDeLetras(palabras, size, crearAzar(seed + 1)), size }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [texto, tamano, seed])
 

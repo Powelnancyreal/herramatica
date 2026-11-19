@@ -7,9 +7,10 @@ const MODOS_CONSUMO = [
   { id: 'kml', label: 'km / L' },
 ]
 
-function formatNum(n, decimales = 2) {
+// Punto decimal y coma de miles (1,019.20), como en los ejemplos de la página. Los montos llevan siempre dos decimales.
+function formatNum(n, decimales = 2, fijo = false) {
   if (n === null || n === undefined || isNaN(n)) return '—'
-  return parseFloat(n.toFixed(decimales)).toLocaleString('es', { maximumFractionDigits: decimales })
+  return parseFloat(n.toFixed(decimales)).toLocaleString('es-MX', { minimumFractionDigits: fijo ? decimales : 0, maximumFractionDigits: decimales })
 }
 
 const inputClass =
@@ -134,7 +135,7 @@ export default function CalcularGasolina() {
       <div className="rounded-xl border-2 border-blue-200 bg-blue-50 p-5">
         <p className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-1">Costo total del viaje</p>
         <p className="text-4xl font-bold text-blue-700 leading-none mb-4">
-          {resultado ? `$${formatNum(resultado.costoTotal)}` : '—'}
+          {resultado ? `$${formatNum(resultado.costoTotal, 2, true)}` : '—'}
         </p>
         {resultado && (
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 text-sm">
@@ -144,12 +145,12 @@ export default function CalcularGasolina() {
             </div>
             <div className="bg-white rounded-lg px-3 py-2 border border-blue-100">
               <p className="text-gray-500">Costo por km</p>
-              <p className="font-semibold text-gray-900">${formatNum(resultado.costoPorKm)}</p>
+              <p className="font-semibold text-gray-900">${formatNum(resultado.costoPorKm, 2, true)}</p>
             </div>
             {resultado.n > 1 && (
               <div className="bg-white rounded-lg px-3 py-2 border border-blue-100">
                 <p className="text-gray-500">Por persona ({resultado.n})</p>
-                <p className="font-semibold text-gray-900">${formatNum(resultado.costoPorPersona)}</p>
+                <p className="font-semibold text-gray-900">${formatNum(resultado.costoPorPersona, 2, true)}</p>
               </div>
             )}
           </div>

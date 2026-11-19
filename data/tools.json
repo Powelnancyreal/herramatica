@@ -5801,7 +5801,7 @@
           },
           {
             "titulo": "Lee el resultado",
-            "texto": "Verás el costo total, los litros necesarios, el costo por kilómetro y, si son varios, lo que paga cada uno, con coma decimal: «41,6 L» son 41.6 litros. Cambia cualquier dato y el cálculo se actualiza al instante."
+            "texto": "Verás el costo total, los litros necesarios, el costo por kilómetro y, si son varios, lo que paga cada uno. Cambia cualquier dato y el cálculo se actualiza al instante."
           }
         ]
       },
@@ -9551,8 +9551,8 @@
         "tipo": "texto",
         "titulo": "Cómo construye el generador la cuadrícula",
         "parrafos": [
-          "El método es sencillo y siempre da el mismo resultado para la misma lista. Primero ordena las palabras de la más larga a la más corta; si dos tienen el mismo largo, respeta el orden en que las escribiste. La más larga se coloca en horizontal, centrada en la fila del medio.",
-          "Cada palabra siguiente busca una letra que comparta con alguna ya colocada y se cruza con ella en perpendicular: si la otra es horizontal, la nueva va en vertical, y al revés. Acepta el primer cruce donde todas sus letras caben sin chocar con otras distintas. Si no encuentra ninguno, la deja fuera y te lo avisa. Al final numera las casillas donde empieza alguna palabra, de arriba abajo y de izquierda a derecha."
+          "Primero ordena las palabras de la más larga a la más corta; si dos tienen el mismo largo, respeta el orden en que las escribiste. La más larga se coloca en horizontal, centrada en la fila del medio.",
+          "Cada palabra siguiente busca una letra que comparta con alguna ya colocada y se cruza con ella en perpendicular: si la otra es horizontal, la nueva va en vertical, y al revés. Solo acepta el cruce si sus letras nuevas no quedan pegadas a otras por los lados ni por los extremos, como en un crucigrama de periódico. Si una palabra no encuentra sitio, vuelve a intentarlo cuando ya se colocaron las demás, y si aun así no cabe, te avisa. Al final numera las casillas donde empieza alguna palabra, de arriba abajo y de izquierda a derecha."
         ]
       },
       {
@@ -9694,10 +9694,10 @@
       },
       {
         "tipo": "texto",
-        "titulo": "Revisa la cuadrícula antes de imprimir",
+        "titulo": "Prueba otras disposiciones antes de imprimir",
         "parrafos": [
-          "A veces dos palabras paralelas quedan pegadas y, al leer en la otra dirección, se forman grupos de letras que no son palabras. Para quien resuelve no es un problema grave, porque las pistas solo se refieren a las palabras numeradas, pero la hoja se ve más limpia sin ellos.",
-          "Como el generador siempre coloca igual la misma lista, la forma de cambiar el resultado es cambiar la lista: altera el orden de las palabras que tienen el mismo largo, sustituye una por un sinónimo o añade otra que cruce en otro punto. Marca «Mostrar respuestas» para comprobar el resultado de un vistazo."
+          "La primera cuadrícula que ves es siempre la misma para una lista dada. Si no te convence su forma, pulsa «Reorganizar»: el generador elige otros cruces válidos y te muestra una disposición distinta, sin dejar fuera más palabras que la anterior. Púlsalo varias veces hasta encontrar una compacta que quepa bien en la hoja.",
+          "Esto también sirve para preparar versiones diferentes del mismo crucigrama, por ejemplo una por fila de pupitres, y que nadie copie las respuestas del compañero. Marca «Mostrar respuestas» para revisar cada versión de un vistazo antes de imprimirla."
         ]
       },
       {
@@ -9719,7 +9719,7 @@
       },
       {
         "question": "¿Por qué una palabra no aparece en el crucigrama?",
-        "answer": "Porque no comparte ninguna letra con las palabras ya colocadas o porque no hay espacio para cruzarla. Añade una palabra puente que tenga letras en común con ella."
+        "answer": "Porque no comparte letras con las ya colocadas o porque no hay un cruce libre. Pulsa «Reorganizar» o añade una palabra puente que tenga letras en común con ella."
       },
       {
         "question": "¿Qué pasa si dejo una palabra sin pista?",
@@ -29659,7 +29659,7 @@
         "titulo": "Cómo se calculan los derechos registrales",
         "parrafos": [
           "El pago a SUNARP tiene dos partes. La primera es el derecho de calificación, una cantidad fija por cada acto que cubre la revisión del registrador. Se expresa como porcentaje de la UIT: para una compraventa o una hipoteca es 0.81 %, que con la UIT 2026 de S/ 5,500 da S/ 44.55.",
-          "La segunda es el derecho de inscripción, que crece con el valor del acto y se expresa «por mil». Para una compraventa de más de S/ 35,000 es 3 por mil del precio; para una hipoteca, 1.5 por mil del monto del gravamen. La fórmula que usa la calculadora es: total = (UIT × % de calificación ÷ 100) + (valor × tasa por mil ÷ 1,000). Cada acto se paga por separado, así que una compra con crédito suma dos actos: la compraventa y la hipoteca."
+          "La segunda es el derecho de inscripción, que crece con el valor del acto y se expresa «por mil». Para una compraventa es 3 por mil del precio, o 1.5 por mil si no pasa de S/ 35,000; para una hipoteca, 1.5 por mil del monto del gravamen. La fórmula que usa la calculadora es: total = (UIT × % de calificación ÷ 100) + (valor × tasa por mil ÷ 1,000). Cada acto se paga por separado, así que una compra con crédito suma dos actos: la compraventa y la hipoteca."
         ]
       },
       {
@@ -29720,7 +29720,7 @@
           },
           {
             "titulo": "Revisa las dos tasas",
-            "texto": "El porcentaje de la UIT y la tasa por mil son editables. Cámbialos si tu caso tiene una tasa distinta, por ejemplo una compraventa de S/ 35,000 o menos."
+            "texto": "El porcentaje de la UIT y la tasa por mil son editables. En una compraventa de S/ 35,000 o menos la tasa pasa sola a 1.5 por mil. Cámbialas solo si tu caso tiene otra tasa."
           },
           {
             "titulo": "Pulsa «Calcular derechos registrales»",
@@ -29767,7 +29767,7 @@
             "S/ 1,544.55"
           ]
         ],
-        "nota": "UIT 2026 de S/ 5,500. Para la fila de S/ 30,000, cambia la tasa por mil a 1.5 en la calculadora. Valores referenciales."
+        "nota": "UIT 2026 de S/ 5,500. Hasta S/ 35,000 la inscripción es de 1.5 por mil y la calculadora la aplica sola. Valores referenciales."
       },
       {
         "tipo": "pasos",
@@ -29850,7 +29850,7 @@
       {
         "tipo": "aviso",
         "tono": "azul",
-        "texto": "Actualizado: noviembre de 2026. Tasas tomadas del arancel de SUNARP y UIT 2026 de S/ 5,500 fijada por el Ministerio de Economía y Finanzas. El registrador liquida el monto exacto; compruébalo en la calculadora oficial de SUNARP antes de pagar. Para constituir una empresa, verifica allí la tasa de calificación y los montos por cada cargo inscrito, porque pueden ser distintos de los de una compraventa."
+        "texto": "Actualizado: noviembre de 2026. Tasas tomadas del arancel de SUNARP y UIT 2026 de S/ 5,500 fijada por el Ministerio de Economía y Finanzas. El registrador liquida el monto exacto; compruébalo en la calculadora oficial de SUNARP antes de pagar. Para constituir una empresa, la calificación es de 1.08 % de la UIT (S/ 59.40) y el nombramiento de cada gerente o apoderado se paga aparte: verifica ese monto en la calculadora oficial."
       },
       {
         "tipo": "fuentes",
@@ -29917,7 +29917,7 @@
     "webApp": true,
     "appCategory": "EducationalApplication",
     "intro": "Esta calculadora UPAO te ayuda a saber cómo vas en cada curso de la Universidad Privada Antenor Orrego. Escribe las notas que ya tienes en tus evaluaciones de proceso, el parcial y el final, y verás tu nota final redondeada o la nota que necesitas en lo que falta para aprobar con 11. En la segunda pestaña calculas tu promedio ponderado del ciclo según los créditos de cada curso. Los porcentajes vienen con la plantilla más habitual, pero puedes cambiarlos según tu sílabo.",
-    "resumen": "Calcula tu promedio en la UPAO con las evaluaciones de proceso, parcial y final y sus pesos, y descubre qué nota necesitas en lo que falta para aprobar con 11 en la escala de 0 a 20.",
+    "resumen": "En la Universidad Privada Antenor Orrego (UPAO) la nota de cada curso sale de cuatro evaluaciones con pesos distintos, y no siempre es fácil saber cuánto falta para aprobar. Esta calculadora es para estudiantes de pregrado que quieren conocer su nota promocional, saber qué necesitan en el examen final o calcular el promedio ponderado del ciclo por créditos, con la escala de 0 a 20 y el redondeo que aplica la universidad.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -29926,6 +29926,80 @@
         "ancho": 800,
         "alto": 751,
         "titulo": "¿Qué nota necesita en el final un alumno con 12, 9 y 11?"
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Cómo se calcula la nota promocional en la UPAO",
+        "parrafos": [
+          "El Reglamento de Estudios de Pregrado fija cuatro evaluaciones: la de proceso 1 (EP1) vale 25 %, el examen parcial (EVP) 20 %, la de proceso 2 (EP2) 30 % y el examen final (EVF) 25 %. La fórmula es: nota = EP1 × 0.25 + EVP × 0.20 + EP2 × 0.30 + EVF × 0.25.",
+          "El curso se divide en dos partes: EP1 y el parcial forman el 45 % de la nota, y EP2 y el final, el 55 %. Las evaluaciones de proceso pueden subdividirse en prácticas, trabajos o laboratorios según el sílabo. La nota promocional es un número entero: si la fracción es 0.5 o más se sube al entero siguiente, y si es menor se baja."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se recupera un curso con el examen sustitutorio?",
+        "datos": [
+          [
+            "Notas",
+            "EP1 12 · EVP 7 · EP2 11 · EVF 9"
+          ],
+          [
+            "Examen sustitutorio",
+            "12"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Calcula la nota promocional.",
+            "operacion": "12 × 0.25 + 7 × 0.20 + 11 × 0.30 + 9 × 0.25 = 9.95"
+          },
+          {
+            "texto": "Redondea: la fracción es 0.95, así que sube.",
+            "operacion": "9.95 → 10, desaprobado"
+          },
+          {
+            "texto": "Comprueba si puede rendir el sustitutorio: necesita 07 o más.",
+            "operacion": "10 ≥ 7 ✓"
+          },
+          {
+            "texto": "Prueba el sustitutorio en lugar del parcial.",
+            "operacion": "9.95 + (12 − 7) × 0.20 = 10.95"
+          },
+          {
+            "texto": "Prueba en lugar del final y quédate con la mejor.",
+            "operacion": "9.95 + (12 − 9) × 0.25 = 10.70 → gana el parcial"
+          }
+        ],
+        "resultado": [
+          "Nota promocional final",
+          "11 · Aprobado"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar la calculadora de notas UPAO",
+        "pasos": [
+          {
+            "titulo": "Revisa las cuatro filas",
+            "texto": "Vienen con los pesos del reglamento. Si tu sílabo usa otros, cambia los porcentajes; deben sumar 100."
+          },
+          {
+            "titulo": "Escribe las notas que ya tienes",
+            "texto": "Deja en blanco las que todavía no das."
+          },
+          {
+            "titulo": "Lee lo que necesitas",
+            "texto": "Con notas en blanco verás el promedio que te falta en lo pendiente para llegar a 10.5."
+          },
+          {
+            "titulo": "Completa todas para ver la nota final",
+            "texto": "La calculadora muestra la nota sin redondear, la redondeada y si apruebas."
+          },
+          {
+            "titulo": "Calcula el ciclo",
+            "texto": "En la pestaña «Promedio por créditos» escribe la nota final y los créditos de cada curso."
+          }
+        ]
       },
       {
         "tipo": "tabla",
@@ -29959,12 +30033,75 @@
         ]
       },
       {
+        "tipo": "tabla",
+        "titulo": "Calendario y peso de cada evaluación",
+        "cabeceras": [
+          "Evaluación",
+          "Semana",
+          "Peso",
+          "Parte del curso"
+        ],
+        "filas": [
+          [
+            "EP1 · Evaluación de proceso 1",
+            "7",
+            "25 %",
+            "Primera parte (45 %)"
+          ],
+          [
+            "EVP · Examen parcial",
+            "8",
+            "20 %",
+            "Primera parte (45 %)"
+          ],
+          [
+            "EP2 · Evaluación de proceso 2",
+            "15",
+            "30 %",
+            "Segunda parte (55 %)"
+          ],
+          [
+            "EVF · Examen final",
+            "16",
+            "25 %",
+            "Segunda parte (55 %)"
+          ]
+        ],
+        "nota": "El examen final evalúa todo el contenido del curso. Las fechas exactas las fija el calendario académico de cada semestre."
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "Errores comunes al sacar el promedio",
+        "items": [
+          {
+            "mito": "El parcial y el final son lo que más pesa.",
+            "realidad": "Juntos valen 45 %. Las dos evaluaciones de proceso suman 55 %, y EP2 sola pesa más que cualquier examen."
+          },
+          {
+            "mito": "Con 10.4 ya estoy aprobado.",
+            "realidad": "La fracción es menor que 0.5, así que baja a 10. Necesitas al menos 10.5 sin redondear."
+          },
+          {
+            "mito": "Cualquiera puede dar el sustitutorio.",
+            "realidad": "Hace falta una nota promocional de 07 o más, pagar los derechos y no tener 30 % o más de inasistencias."
+          },
+          {
+            "mito": "Todos los cursos usan exactamente la misma tabla.",
+            "realidad": "Los pesos del reglamento son la base, pero el sílabo puede dividir EP1 y EP2 en varias notas. Revísalo y ajusta las filas."
+          }
+        ]
+      },
+      {
         "tipo": "consejos",
         "titulo": "¿Cómo aprovechar mejor las evaluaciones de proceso?",
         "items": [
           {
             "titulo": "No las descuides",
-            "texto": "Juntas pesan tanto como el parcial y el final en la plantilla habitual."
+            "texto": "Suman 55 % del curso, más que el parcial y el final juntos."
+          },
+          {
+            "titulo": "Cuida la segunda mitad",
+            "texto": "EP2 y el final valen 55 %: aun con un mal parcial, hay margen para remontar."
           },
           {
             "titulo": "Calcula después de cada nota",
@@ -29972,7 +30109,7 @@
           },
           {
             "titulo": "Revisa el sílabo",
-            "texto": "Algunos cursos usan otros pesos: cámbialos en la calculadora."
+            "texto": "Si tu curso subdivide las evaluaciones, añade filas en la calculadora con sus pesos."
           }
         ]
       },
@@ -29980,7 +30117,25 @@
         "tipo": "texto",
         "titulo": "¿Qué otras calculadoras sirven para la universidad?",
         "parrafos": [
-          "El [promedio ponderado](/calculadora-promedio-ponderado) por créditos del ciclo, la [nota necesaria](/calculadora-nota-necesaria) para otras escalas y la [regla de tres](/calculadora-regla-de-tres) para convertir notas entre escalas."
+          "Calcula el [promedio ponderado](/calculadora-promedio-ponderado) por créditos de varios ciclos, la [nota necesaria](/calculadora-nota-necesaria) para otras escalas o la nota de un curso con cualquier plantilla en la [calculadora de notas](/calculadora-de-notas). Para convertir una nota entre escalas, usa la [regla de tres](/calculadora-regla-de-tres)."
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "Actualizado: noviembre de 2026. Pesos, redondeo, escala y requisitos del sustitutorio tomados del Reglamento de Estudios de Pregrado de la UPAO (R.R. N.º 3353-2016-R-UPAO), artículos 70 a 83. El sílabo de cada curso manda: confirma allí los pesos."
+      },
+      {
+        "tipo": "fuentes",
+        "items": [
+          {
+            "texto": "UPAO: Reglamento de Estudios de Pregrado (PDF)",
+            "url": "https://upao.edu.pe/estatuto/pdf/04-ReglamentoEstudiosPregrado.pdf"
+          },
+          {
+            "texto": "Universidad Privada Antenor Orrego",
+            "url": "https://www.upao.edu.pe"
+          }
         ]
       }
     ],
@@ -29991,15 +30146,23 @@
       },
       {
         "question": "¿Cuánto valen el parcial y el final en la UPAO?",
-        "answer": "Depende del sílabo de cada curso. La plantilla más frecuente da 30% al parcial y 30% al final, y 20% a cada evaluación de proceso, pero tu docente puede usar otros pesos."
+        "answer": "Según el reglamento, el parcial vale 20 % y el final 25 %. El resto lo ponen las evaluaciones de proceso: 25 % la primera y 30 % la segunda."
       },
       {
         "question": "¿Cómo calculo cuánto necesito en el final?",
-        "answer": "Resta a 10.5 los puntos que ya llevas y divide el resultado entre el peso del final. La calculadora lo hace sola si dejas en blanco la nota del final."
+        "answer": "Resta a 10.5 los puntos que ya llevas y divide el resultado entre 0.25, el peso del final. La calculadora lo hace sola si dejas en blanco esa nota."
       },
       {
-        "question": "¿Qué es el promedio ponderado en la UPAO?",
-        "answer": "Es el promedio de tus notas finales de un ciclo, donde cada curso pesa según sus créditos. Se usa, por ejemplo, para el orden de mérito y para algunos beneficios académicos."
+        "question": "¿Qué es el promedio ponderado del ciclo?",
+        "answer": "Es el promedio de tus notas finales del ciclo, donde cada curso pesa según sus créditos: suma de nota × créditos dividida entre el total de créditos."
+      },
+      {
+        "question": "¿Quién puede dar el examen sustitutorio?",
+        "answer": "Quien desaprobó o quiere mejorar su nota, siempre que tenga 07 o más de nota promocional y pague los derechos. Su nota reemplaza al parcial o al final, el que más te favorezca."
+      },
+      {
+        "question": "¿Qué pasa si falto al parcial o al final?",
+        "answer": "Puedes pedir a la Dirección de Escuela rendirlo en otra fecha con documentos que justifiquen la falta: hasta dos días hábiles después del parcial y un día hábil después del final."
       }
     ],
     "relatedTools": [

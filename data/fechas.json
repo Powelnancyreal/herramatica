@@ -249,8 +249,8 @@
     "calcular-gasolina": {
       "creado": "2026-08-29",
       "actualizado": "2026-11-19",
-      "contenido": "852743b5d84a",
-      "componente": "0dfa646c3ea1"
+      "contenido": "362a224dd0fc",
+      "componente": "610640e998f0"
     },
     "calcular-volumen-cilindro": {
       "creado": "2026-08-29",
@@ -412,7 +412,7 @@
       "creado": "2026-09-06",
       "actualizado": "2026-11-19",
       "contenido": "2c245fd55f1e",
-      "componente": "657c7a58c4c9"
+      "componente": "d42db25dfaf3"
     },
     "generador-de-letras-grandes": {
       "creado": "2026-09-06",
@@ -429,8 +429,8 @@
     "generador-de-crucigramas": {
       "creado": "2026-09-06",
       "actualizado": "2026-11-19",
-      "contenido": "3f9a2bca3f1b",
-      "componente": "eb124dc408ee"
+      "contenido": "4a2700b14b17",
+      "componente": "b772b10959ac"
     },
     "generador-de-nombres-para-free-fire": {
       "creado": "2026-09-06",
@@ -442,7 +442,7 @@
       "creado": "2026-09-06",
       "actualizado": "2026-11-19",
       "contenido": "6d673161c221",
-      "componente": "22ec26552cdd"
+      "componente": "cc3c7cba2b4e"
     },
     "calculadora-engagement-instagram": {
       "creado": "2026-09-06",
@@ -1413,14 +1413,14 @@
     "calculadora-registral": {
       "creado": "2026-10-04",
       "actualizado": "2026-11-19",
-      "contenido": "1906936541d8",
-      "componente": "811cebf4c643"
+      "contenido": "2716b87766f8",
+      "componente": "d555200c69da"
     },
     "calculadora-upao": {
       "creado": "2026-10-04",
-      "actualizado": "2026-10-25",
-      "contenido": "70995b9e5f46",
-      "componente": "df1b5ce37fef"
+      "actualizado": "2026-11-19",
+      "contenido": "433cd052ac39",
+      "componente": "266a286411c4"
     },
     "convertidor-libras-a-newtons": {
       "creado": "2026-10-04",

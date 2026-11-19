@@ -155,7 +155,7 @@ function sunarp() {
 // ─────────────────────────────────────────────────────────── 237 UPAO (banda azul marino, evaluaciones)
 function upao() {
   const T = tema('banda', { accent: '#1E3A8A', soft: '#EFF6FF' })
-  const ev = [['EP1', 'Evaluación de proceso 1', 20, 12], ['EVP', 'Evaluación parcial', 30, 9], ['EP2', 'Evaluación de proceso 2', 20, 11], ['EVF', 'Evaluación final', 30, null]]
+  const ev = [['EP1', 'Evaluación de proceso 1', 25, 12], ['EVP', 'Evaluación parcial', 20, 9], ['EP2', 'Evaluación de proceso 2', 30, 11], ['EVF', 'Evaluación final', 25, null]]
   let s = T.tx(M, 188, 'Escala de 0 a 20 · se aprueba con 11 (10,5 redondea a 11)', { size: 18, weight: 700 })
   const ww = W - 2 * M
   let x = M
@@ -168,14 +168,14 @@ function upao() {
     x += w
   })
   const ey = 370
-  const pasos = [['Lo que ya llevas', '12 × 0,2 + 9 × 0,3 + 11 × 0,2 = 7,3'], ['Lo que falta para 10,5', '10,5 − 7,3 = 3,2'], ['Nota necesaria en el final', '3,2 ÷ 0,3 = 10,67 → al menos 11']]
+  const pasos = [['Lo que ya llevas', '12 × 0,25 + 9 × 0,2 + 11 × 0,3 = 8,1'], ['Lo que falta para 10,5', '10,5 − 8,1 = 2,4'], ['Nota necesaria en el final', '2,4 ÷ 0,25 = 9,6 como mínimo']]
   pasos.forEach(([a, b], i) => {
     const y = ey + i * 62
     s += rect(M, y, ww, 52, { rx: 10, fill: i === 2 ? '#DBEAFE' : '#F9FAFB', stroke: '#E5E7EB', sw: 1.5 })
     s += T.tx(M + 16, y + 32, a, { size: 16, weight: 700 })
     s += T.tx(W - M - 16, y + 32, b, { size: 17, anchor: 'end', family: mono, fill: i === 2 ? T.accent : '#111827' })
   })
-  const n = T.nota(ey + 3 * 62 + 14, 'Pesos de la plantilla habitual de la UPAO; confirma los de tu curso en el sílabo.')
+  const n = T.nota(ey + 3 * 62 + 14, 'Pesos del Reglamento de Estudios de Pregrado de la UPAO (art. 70); confirma los de tu curso en el sílabo.')
   return T.lienzo({ alto: Math.round(ey + 3 * 62 + 14 + n.h + 64), slug: 'calculadora-upao', titulo: 'Qué nota necesitas en el final de la UPAO', cuerpo: s + n.svg })
 }
 

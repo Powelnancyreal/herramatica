@@ -10,70 +10,111 @@ function limpiarPalabra(palabra) {
     .replace(/[^A-Z]/g, '')
 }
 
-export function generarCrucigrama(entradasInput, size) {
-  const palabras = entradasInput
+// Generador pseudoaleatorio con semilla (mulberry32): la misma semilla da siempre el mismo crucigrama.
+function crearAzar(semilla) {
+  let a = semilla >>> 0
+  return () => {
+    a = (a + 0x6d2b79f5) >>> 0
+    let t = a
+    t = Math.imul(t ^ (t >>> 15), t | 1)
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61)
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
+  }
+}
+
+// semilla 0: colocación fija (la que se ve al cargar). Otras semillas: otra disposición válida.
+export function generarCrucigrama(entradasInput, size, semilla = 0) {
+  const azar = semilla ? crearAzar(semilla) : null
+  let palabras = entradasInput
     .map((e) => ({ ...e, palabra: limpiarPalabra(e.palabra) }))
     .filter((e) => e.palabra.length > 1 && e.palabra.length <= size)
-    .sort((a, b) => b.palabra.length - a.palabra.length)
+  if (azar) {
+    for (let i = palabras.length - 1; i > 0; i--) {
+      const j = Math.floor(azar() * (i + 1))
+      ;[palabras[i], palabras[j]] = [palabras[j], palabras[i]]
+    }
+  }
+  palabras = palabras.sort((a, b) => b.palabra.length - a.palabra.length)
 
   if (palabras.length === 0) return { grid: null, colocadas: [], noColocadas: [] }
 
   const grid = Array.from({ length: size }, () => Array(size).fill(null))
+  // Dirección de las palabras que pasan por cada casilla, para no montar una palabra sobre otra paralela.
+  const dirs = Array.from({ length: size }, () => Array.from({ length: size }, () => ({ h: false, v: false })))
   const colocadas = []
-  const noColocadas = []
+  const dentro = (r, c) => r >= 0 && r < size && c >= 0 && c < size
 
+  // Reglas de un crucigrama: cada letra nueva no puede tocar otra por los lados, la palabra no puede
+  // continuar pegada a otra por sus extremos y solo se cruza en perpendicular con letras iguales.
   function cabe(palabra, row, col, dr, dc) {
+    if (dentro(row - dr, col - dc) && grid[row - dr][col - dc] !== null) return false
+    const finR = row + dr * palabra.length
+    const finC = col + dc * palabra.length
+    if (dentro(finR, finC) && grid[finR][finC] !== null) return false
+    let cruces = 0
     for (let i = 0; i < palabra.length; i++) {
       const r = row + dr * i
       const c = col + dc * i
-      if (r < 0 || r >= size || c < 0 || c >= size) return false
+      if (!dentro(r, c)) return false
       const existente = grid[r][c]
-      if (existente !== null && existente !== palabra[i]) return false
+      if (existente !== null) {
+        if (existente !== palabra[i]) return false
+        if (dr === 0 ? dirs[r][c].h : dirs[r][c].v) return false
+        cruces++
+      } else {
+        for (const s of [-1, 1]) {
+          const nr = r + dc * s
+          const nc = c + dr * s
+          if (dentro(nr, nc) && grid[nr][nc] !== null) return false
+        }
+      }
     }
-    return true
+    return cruces > 0
   }
-  function colocar(palabra, row, col, dr, dc) {
-    for (let i = 0; i < palabra.length; i++) grid[row + dr * i][col + dc * i] = palabra[i]
+  function colocar(entrada, row, col, dr, dc) {
+    const { palabra } = entrada
+    for (let i = 0; i < palabra.length; i++) {
+      grid[row + dr * i][col + dc * i] = palabra[i]
+      dirs[row + dr * i][col + dc * i][dr === 0 ? 'h' : 'v'] = true
+    }
+    colocadas.push({ ...entrada, row, col, dr, dc, orientacion: dc === 1 ? 'horizontal' : 'vertical' })
   }
 
   const primera = palabras[0]
-  const startRow = Math.floor(size / 2)
-  const startCol = Math.floor((size - primera.palabra.length) / 2)
-  colocar(primera.palabra, startRow, startCol, 0, 1)
-  colocadas.push({ ...primera, row: startRow, col: startCol, dr: 0, dc: 1, orientacion: 'horizontal' })
+  colocar(primera, Math.floor(size / 2), Math.floor((size - primera.palabra.length) / 2), 0, 1)
 
-  for (let idx = 1; idx < palabras.length; idx++) {
-    const entrada = palabras[idx]
-    const palabra = entrada.palabra
-    let mejor = null
-
-    for (const colocada of colocadas) {
-      const otraDr = colocada.dc
-      const otraDc = colocada.dr
-      for (let i = 0; i < palabra.length && !mejor; i++) {
-        for (let j = 0; j < colocada.palabra.length; j++) {
-          if (palabra[i] !== colocada.palabra[j]) continue
-          const interRow = colocada.row + colocada.dr * j
-          const interCol = colocada.col + colocada.dc * j
-          const row = interRow - otraDr * i
-          const col = interCol - otraDc * i
-          if (cabe(palabra, row, col, otraDr, otraDc)) {
-            mejor = { row, col, dr: otraDr, dc: otraDc }
-            break
+  // Se repite mientras alguna palabra pendiente encuentre sitio: una palabra colocada tarde puede abrir cruces nuevos.
+  let pendientes = palabras.slice(1)
+  let avance = true
+  while (pendientes.length && avance) {
+    avance = false
+    const siguen = []
+    for (const entrada of pendientes) {
+      const { palabra } = entrada
+      const opciones = []
+      for (const otra of colocadas) {
+        const dr = otra.dc
+        const dc = otra.dr
+        for (let i = 0; i < palabra.length; i++) {
+          for (let j = 0; j < otra.palabra.length; j++) {
+            if (palabra[i] !== otra.palabra[j]) continue
+            const row = otra.row + otra.dr * j - dr * i
+            const col = otra.col + otra.dc * j - dc * i
+            if (cabe(palabra, row, col, dr, dc)) opciones.push({ row, col, dr, dc })
           }
         }
-        if (mejor) break
       }
-      if (mejor) break
+      if (opciones.length) {
+        const o = azar ? opciones[Math.floor(azar() * opciones.length)] : opciones[0]
+        colocar(entrada, o.row, o.col, o.dr, o.dc)
+        avance = true
+      } else {
+        siguen.push(entrada)
+      }
     }
-
-    if (mejor) {
-      colocar(palabra, mejor.row, mejor.col, mejor.dr, mejor.dc)
-      colocadas.push({ ...entrada, row: mejor.row, col: mejor.col, dr: mejor.dr, dc: mejor.dc, orientacion: mejor.dc === 1 ? 'horizontal' : 'vertical' })
-    } else {
-      noColocadas.push(entrada)
-    }
+    pendientes = siguen
   }
+  const noColocadas = pendientes
 
   const posiciones = [...new Set(colocadas.map((c) => `${c.row},${c.col}`))]
     .map((s) => s.split(',').map(Number))
@@ -89,6 +130,9 @@ export function generarCrucigrama(entradasInput, size) {
   return { grid, colocadas, noColocadas }
 }
 
+// Huella de una disposición, para que «Reorganizar» busque una que se vea distinta.
+export const firmaCrucigrama = (r) => (r?.colocadas || []).map((c) => `${c.palabra}${c.row},${c.col}${c.orientacion[0]}`).sort().join('|')
+
 const inputClass =
   'w-full border border-gray-300 rounded-lg px-3 py-2.5 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white'
 const labelClass = 'block text-sm font-medium text-gray-700 mb-1.5'
@@ -101,18 +145,32 @@ export default function GeneradorDeCrucigramas() {
   const [mostrarRespuestas, setMostrarRespuestas] = useState(false)
   const [seed, setSeed] = useState(0)
 
-  const resultado = useMemo(() => {
-    const entradas = texto
-      .split('\n')
-      .map((linea) => {
-        const [palabra, ...resto] = linea.split(':')
-        return { palabra: (palabra || '').trim(), clue: resto.join(':').trim() || '(sin pista)' }
-      })
-      .filter((e) => e.palabra)
-    if (entradas.length === 0) return null
-    return generarCrucigrama(entradas, parseInt(tamano, 10))
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [texto, tamano, seed])
+  const entradas = useMemo(
+    () =>
+      texto
+        .split('\n')
+        .map((linea) => {
+          const [palabra, ...resto] = linea.split(':')
+          return { palabra: (palabra || '').trim(), clue: resto.join(':').trim() || '(sin pista)' }
+        })
+        .filter((e) => e.palabra),
+    [texto]
+  )
+  const resultado = useMemo(
+    () => (entradas.length === 0 ? null : generarCrucigrama(entradas, parseInt(tamano, 10), seed)),
+    [entradas, tamano, seed]
+  )
+
+  // Busca la siguiente semilla que dé una disposición distinta de la que se ve ahora.
+  function reorganizar() {
+    if (!resultado) return
+    const actual = firmaCrucigrama(resultado)
+    for (let s = seed + 1; s <= seed + 40; s++) {
+      const otro = generarCrucigrama(entradas, parseInt(tamano, 10), s)
+      if (firmaCrucigrama(otro) !== actual && otro.noColocadas.length <= resultado.noColocadas.length) return setSeed(s)
+    }
+    setSeed(seed + 1)
+  }
 
   function imprimir() {
     window.print()
@@ -143,7 +201,7 @@ export default function GeneradorDeCrucigramas() {
             <option value="20">20 × 20</option>
           </select>
         </div>
-        <button onClick={() => setSeed((s) => s + 1)} className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-2.5 rounded-lg transition-colors">
+        <button onClick={reorganizar} className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-2.5 rounded-lg transition-colors">
           🔄 Reorganizar
         </button>
         <button onClick={imprimir} className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2.5 rounded-lg transition-colors">
@@ -160,7 +218,7 @@ export default function GeneradorDeCrucigramas() {
         <div className="space-y-4">
           {resultado.noColocadas.length > 0 && (
             <p className="text-xs text-amber-600">
-              ⚠️ No se pudieron colocar (no comparten letras con las demás): {resultado.noColocadas.map((e) => e.palabra).join(', ')}.
+              ⚠️ No se pudieron colocar (no encontraron un cruce libre; pulsa «Reorganizar» o añade palabras con letras en común): {resultado.noColocadas.map((e) => e.palabra).join(', ')}.
             </p>
           )}
           <div className="overflow-x-auto">

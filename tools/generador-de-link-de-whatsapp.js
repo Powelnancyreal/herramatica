@@ -38,11 +38,11 @@ export default function GeneradorDeLinkDeWhatsapp() {
           inputMode="numeric"
           value={numero}
           onChange={(e) => setNumero(e.target.value)}
-          placeholder="Ej: 5215512345678"
+          placeholder="Ej: 525512345678"
           className={inputClass}
         />
         <p className="text-xs text-gray-500 mt-1.5">
-          Incluye el código de país sin el símbolo +. Por ejemplo, México: 52, Argentina: 54, España: 34.
+          Incluye el código de país; los espacios, guiones y el signo + se quitan solos. Por ejemplo, México: 52, Argentina: 549, España: 34.
         </p>
       </div>
 

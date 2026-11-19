@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { calcularDerechosRegistrales, PERU, SUNARP_ACTOS } from '@/lib/calc/latam'
+import { calcularDerechosRegistrales, PERU, SUNARP_ACTOS, tasaInscripcionSunarp } from '@/lib/calc/latam'
 import { buttonClass, ErrorText, Field, inputClass, Note, NumberInput, ResultBox, Row, Rows } from '@/components/calc-ui'
 
 const soles = (n) => new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN', minimumFractionDigits: 2 }).format(n)
@@ -12,6 +12,7 @@ export default function CalculadoraRegistral() {
   const [valor, setValor] = useState('')
   const [calificacion, setCalificacion] = useState(String(acto.calificacionUIT))
   const [porMil, setPorMil] = useState(String(acto.inscripcionPorMil))
+  const [porMilManual, setPorMilManual] = useState(false)
   const [result, setResult] = useState(null)
   const [error, setError] = useState('')
 
@@ -19,8 +20,20 @@ export default function CalculadoraRegistral() {
     setActoId(id)
     const a = SUNARP_ACTOS.find((x) => x.id === id)
     setCalificacion(String(a.calificacionUIT))
-    setPorMil(String(a.inscripcionPorMil))
+    setPorMil(String(tasaInscripcionSunarp(a, parseFloat(valor))))
+    setPorMilManual(false)
     setResult(null)
+  }
+
+  // Mientras no edites la tasa a mano, se ajusta sola al tramo que corresponde al valor.
+  function cambiarValor(v) {
+    setValor(v)
+    if (!porMilManual) setPorMil(String(tasaInscripcionSunarp(acto, parseFloat(v))))
+  }
+
+  function cambiarPorMil(v) {
+    setPorMil(v)
+    setPorMilManual(true)
   }
 
   function calcular() {
@@ -41,14 +54,18 @@ export default function CalculadoraRegistral() {
         </select>
       </Field>
       <Field label={acto.valor} id="reg-valor" hint="Si el valor está en dólares, conviértelo a soles con el tipo de cambio del día.">
-        <NumberInput id="reg-valor" value={valor} onChange={setValor} prefix="S/" min="0" placeholder="Ej: 250000" />
+        <NumberInput id="reg-valor" value={valor} onChange={cambiarValor} prefix="S/" min="0" placeholder="Ej: 250000" />
       </Field>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <Field label="Derecho de calificación (% de la UIT)" id="reg-cal" hint={`UIT 2026: ${soles(PERU.uit)}.`}>
           <NumberInput id="reg-cal" value={calificacion} onChange={setCalificacion} min="0" step="0.01" suffix="%" />
         </Field>
-        <Field label="Derecho de inscripción (por mil del valor)" id="reg-mil">
-          <NumberInput id="reg-mil" value={porMil} onChange={setPorMil} min="0" step="0.1" suffix="‰" />
+        <Field
+          label="Derecho de inscripción (por mil del valor)"
+          id="reg-mil"
+          hint={acto.tramo ? `${acto.tramo.porMil} ‰ hasta ${soles(acto.tramo.hasta)} y ${acto.inscripcionPorMil} ‰ si lo supera; se ajusta solo.` : undefined}
+        >
+          <NumberInput id="reg-mil" value={porMil} onChange={cambiarPorMil} min="0" step="0.1" suffix="‰" />
         </Field>
       </div>
 
@@ -68,6 +85,7 @@ export default function CalculadoraRegistral() {
               registrador liquida el monto exacto al calificar tu título y puede cobrar un mayor derecho. Comprueba las tasas
               vigentes en la calculadora oficial de sunarp.gob.pe antes de pagar. No incluye honorarios notariales ni impuestos
               como la alcabala.
+              {actoId === 'constitucion' && ' En una constitución, el nombramiento de cada gerente o apoderado se paga aparte.'}
             </Note>
           </ResultBox>
         )}
