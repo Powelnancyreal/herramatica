@@ -57,11 +57,11 @@ export default function ContadorPalabras() {
       />
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-        <StatCard label="Palabras" value={stats.palabras.toLocaleString('es')} />
-        <StatCard label="Caracteres" value={stats.caracteresConEspacios.toLocaleString('es')} />
-        <StatCard label="Sin espacios" value={stats.caracteresSinEspacios.toLocaleString('es')} />
-        <StatCard label="Oraciones" value={stats.oraciones.toLocaleString('es')} />
-        <StatCard label="Párrafos" value={stats.parrafos.toLocaleString('es')} />
+        <StatCard label="Palabras" value={stats.palabras.toLocaleString('es-MX')} />
+        <StatCard label="Caracteres" value={stats.caracteresConEspacios.toLocaleString('es-MX')} />
+        <StatCard label="Sin espacios" value={stats.caracteresSinEspacios.toLocaleString('es-MX')} />
+        <StatCard label="Oraciones" value={stats.oraciones.toLocaleString('es-MX')} />
+        <StatCard label="Párrafos" value={stats.parrafos.toLocaleString('es-MX')} />
         <StatCard
           label="Tiempo de lectura"
           value={stats.tiempoLecturaMin < 1 ? '< 1 min' : `${Math.ceil(stats.tiempoLecturaMin)} min`}

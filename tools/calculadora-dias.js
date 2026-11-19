@@ -187,20 +187,20 @@ function DiferenciaFechas() {
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-            <StatCard label="Días totales" value={result.totalDays.toLocaleString('es')} />
-            <StatCard label="Semanas" value={result.totalWeeks.toLocaleString('es')} sub="aprox." />
-            <StatCard label="Meses" value={result.totalMonths.toLocaleString('es')} sub="aprox." />
+            <StatCard label="Días totales" value={result.totalDays.toLocaleString('es-MX')} />
+            <StatCard label="Semanas" value={result.totalWeeks.toLocaleString('es-MX')} sub="aprox." />
+            <StatCard label="Meses" value={result.totalMonths.toLocaleString('es-MX')} sub="aprox." />
           </div>
 
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-4 space-y-3">
             <div className="flex items-center justify-between">
               <span className="text-sm text-gray-600">Días hábiles (lun-vie)</span>
-              <span className="text-sm font-semibold text-gray-900">{result.businessDays.toLocaleString('es')}</span>
+              <span className="text-sm font-semibold text-gray-900">{result.businessDays.toLocaleString('es-MX')}</span>
             </div>
             <div className="border-t border-gray-200" />
             <div className="flex items-center justify-between">
               <span className="text-sm text-gray-600">Días de fin de semana</span>
-              <span className="text-sm font-semibold text-gray-900">{result.weekendDays.toLocaleString('es')}</span>
+              <span className="text-sm font-semibold text-gray-900">{result.weekendDays.toLocaleString('es-MX')}</span>
             </div>
           </div>
 
@@ -252,11 +252,10 @@ function SumarRestarDias() {
       resultado = new Date(base)
       resultado.setUTCDate(resultado.getUTCDate() + cant * 7 * signo)
     } else if (unidad === 'meses') {
-      resultado = new Date(base)
-      resultado.setUTCMonth(resultado.getUTCMonth() + cant * signo)
+      // Si el mes de llegada no tiene ese día (31 de enero + 1 mes), se usa su último día.
+      resultado = addMonthsClamped(base, cant * signo)
     } else {
-      resultado = new Date(base)
-      resultado.setUTCFullYear(resultado.getUTCFullYear() + cant * signo)
+      resultado = addMonthsClamped(base, cant * 12 * signo)
     }
 
     setResult({ fecha: resultado, diaSemana: DAYS_OF_WEEK[resultado.getUTCDay()] })
@@ -395,7 +394,7 @@ function CuentaRegresiva() {
           <div className={`rounded-xl p-5 text-white text-center bg-gradient-to-r ${result.futura ? 'from-blue-600 to-blue-700' : 'from-gray-500 to-gray-600'}`}>
             <p className="text-blue-100 text-sm mb-1">{result.futura ? 'Faltan' : 'Han pasado'}</p>
             <p className="text-4xl font-bold">
-              {result.totalDays.toLocaleString('es')} <span className="text-2xl font-semibold">días</span>
+              {result.totalDays.toLocaleString('es-MX')} <span className="text-2xl font-semibold">días</span>
             </p>
             <p className="text-blue-100 mt-1">
               ({result.ymd.years} años, {result.ymd.months} meses y {result.ymd.days} días)

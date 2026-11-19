@@ -35,10 +35,11 @@ function calcAge(birthDateStr) {
   // Day of week born
   const dayOfWeek = DAYS_OF_WEEK[birth.getDay()]
 
-  // Next birthday
+  // Próximo cumpleaños: se compara con la medianoche de hoy para que el mismo día cuente como 0.
+  const hoy = new Date(today.getFullYear(), today.getMonth(), today.getDate())
   const nextBirthday = new Date(today.getFullYear(), birth.getMonth(), birth.getDate())
-  if (nextBirthday <= today) nextBirthday.setFullYear(today.getFullYear() + 1)
-  const daysUntilBirthday = Math.ceil((nextBirthday - today) / msPerDay)
+  if (nextBirthday < hoy) nextBirthday.setFullYear(today.getFullYear() + 1)
+  const daysUntilBirthday = Math.round((nextBirthday - hoy) / msPerDay)
 
   return { years, months, days, totalDays, totalWeeks, totalHours, dayOfWeek, daysUntilBirthday, birth }
 }
@@ -117,17 +118,17 @@ export default function CalculadoraEdad() {
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             <StatCard
               label="Días vividos"
-              value={result.totalDays.toLocaleString('es')}
+              value={result.totalDays.toLocaleString('es-MX')}
               sub="días totales"
             />
             <StatCard
               label="Semanas"
-              value={result.totalWeeks.toLocaleString('es')}
+              value={result.totalWeeks.toLocaleString('es-MX')}
               sub="semanas completas"
             />
             <StatCard
               label="Horas"
-              value={result.totalHours.toLocaleString('es')}
+              value={result.totalHours.toLocaleString('es-MX')}
               sub="horas aproximadas"
             />
           </div>

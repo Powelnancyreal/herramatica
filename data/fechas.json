@@ -9,8 +9,8 @@
     "calculadora-edad": {
       "creado": "2026-08-27",
       "actualizado": "2026-11-20",
-      "contenido": "274c3bd178dd",
-      "componente": "acf1dd193940"
+      "contenido": "a9597981c233",
+      "componente": "8e2a33a2ef0b"
     },
     "calcular-rfc": {
       "creado": "2026-08-27",
@@ -69,8 +69,8 @@
     "calculadora-dias": {
       "creado": "2026-08-27",
       "actualizado": "2026-11-20",
-      "contenido": "84334ee16a7a",
-      "componente": "a5f2211d8614"
+      "contenido": "ac26ce742d51",
+      "componente": "9ef9a1367c51"
     },
     "calcular-iva": {
       "creado": "2026-08-27",
@@ -93,14 +93,14 @@
     "calculadora-porcentaje": {
       "creado": "2026-08-27",
       "actualizado": "2026-11-20",
-      "contenido": "6f15572aed58",
-      "componente": "133f66c43612"
+      "contenido": "ece09d90afd2",
+      "componente": "6ee70881565c"
     },
     "convertidor-moneda": {
       "creado": "2026-08-27",
       "actualizado": "2026-11-20",
-      "contenido": "ee6e086ef2b1",
-      "componente": "745977ce1ff1"
+      "contenido": "1ae2bc808321",
+      "componente": "bccf552da6d5"
     },
     "generador-contrasenas": {
       "creado": "2026-08-27",
@@ -111,8 +111,8 @@
     "contador-palabras": {
       "creado": "2026-08-27",
       "actualizado": "2026-11-20",
-      "contenido": "b579581b38dd",
-      "componente": "170a95bdc45f"
+      "contenido": "4836d7fb1fe5",
+      "componente": "b61d4925d379"
     },
     "calculadora-propinas": {
       "creado": "2026-08-27",

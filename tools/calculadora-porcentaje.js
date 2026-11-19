@@ -10,7 +10,7 @@ const TABS = [
 
 function formatNum(n) {
   if (n === null || n === undefined || isNaN(n)) return '—'
-  return parseFloat(n.toFixed(4)).toLocaleString('es')
+  return parseFloat(n.toFixed(4)).toLocaleString('es-MX')
 }
 
 const inputClass =

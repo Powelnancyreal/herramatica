@@ -183,7 +183,7 @@
           },
           {
             "texto": "Cuenta el total de días vividos, bisiestos incluidos, y las semanas.",
-            "operacion": "13.997 días · 1999 semanas"
+            "operacion": "13,997 días · 1,999 semanas"
           },
           {
             "texto": "Calcula el próximo cumpleaños.",
@@ -247,7 +247,7 @@
       {
         "tipo": "tabla",
         "titulo": "¿Cuántos días he vivido según mi edad?",
-        "intro": "Referencia rápida con la duración media del año (365,25 días). Tu cifra exacta depende de cuántos años bisiestos hayas vivido.",
+        "intro": "Referencia rápida con la duración media del año (365.25 días). Tu cifra exacta depende de cuántos años bisiestos hayas vivido.",
         "cabeceras": [
           "Edad",
           "Días vividos (aprox.)",
@@ -256,28 +256,28 @@
         "filas": [
           [
             "18 años",
-            "6.575",
+            "6,575",
             "939"
           ],
           [
             "30 años",
-            "10.958",
-            "1.565"
+            "10,958",
+            "1,565"
           ],
           [
             "40 años",
-            "14.610",
-            "2.087"
+            "14,610",
+            "2,087"
           ],
           [
             "50 años",
-            "18.263",
-            "2.609"
+            "18,263",
+            "2,609"
           ],
           [
             "65 años",
-            "23.741",
-            "3.391"
+            "23,741",
+            "3,391"
           ]
         ]
       },
@@ -2348,7 +2348,7 @@
         "titulo": "Cómo cuenta la herramienta los días",
         "parrafos": [
           "La diferencia entre dos fechas es el número de días que hay que avanzar desde la primera para llegar a la segunda: del 1 al 2 de un mes hay 1 día. Con ese total calcula las semanas (días ÷ 7) y los meses aproximados (días ÷ 30.44, la duración media de un mes), ambos con un decimal. Aparte desglosa el periodo en años, meses y días de calendario.",
-          "Los días hábiles son los de lunes a viernes, contados desde la fecha inicial hasta el día anterior a la final; el resto son de fin de semana. Al sumar días, la fecha resultante se mueve día a día; al sumar meses o años, cambia el mes o el año y conserva el número de día, y si ese día no existe pasa al mes siguiente."
+          "Los días hábiles son los de lunes a viernes, contados desde la fecha inicial hasta el día anterior a la final; el resto son de fin de semana. Al sumar días, la fecha resultante se mueve día a día; al sumar meses o años, cambia el mes o el año y conserva el número de día; si ese día no existe en el mes de llegada, usa el último día de ese mes."
         ]
       },
       {
@@ -2395,17 +2395,17 @@
           [
             "31/01/2026",
             "+ 1 mes",
-            "03/03/2026 (el 31 de febrero no existe)"
+            "28/02/2026 (último día de febrero)"
           ],
           [
             "31/03/2026",
             "+ 1 mes",
-            "01/05/2026 (el 31 de abril no existe)"
+            "30/04/2026 (último día de abril)"
           ],
           [
             "29/02/2028",
             "+ 1 año",
-            "01/03/2029 (2029 no es bisiesto)"
+            "28/02/2029 (2029 no es bisiesto)"
           ],
           [
             "15/10/2026",
@@ -2413,7 +2413,7 @@
             "13/01/2027"
           ]
         ],
-        "nota": "Muchos plazos legales usan otra regla: si el mes de vencimiento no tiene ese día, el plazo vence el último día del mes. Así ocurre, por ejemplo, con los plazos administrativos en España. Para esos casos, suma días o revisa la norma que te aplica."
+        "nota": "Es la misma regla que usan muchos plazos legales, como los administrativos en España: si el mes de vencimiento no tiene ese día, el plazo vence el último día del mes. Aun así, revisa la norma que te aplica."
       },
       {
         "tipo": "mitos",
@@ -3085,7 +3085,7 @@
         "titulo": "Cómo resuelve cada pestaña su cálculo",
         "parrafos": [
           "«¿Qué es X% de Y?» divide el porcentaje entre 100 y lo multiplica por la cantidad: el 15 % de 80 es 15 ÷ 100 × 80 = 12. «X es qué % de Y?» hace lo contrario: divide la parte entre el total y multiplica por 100, así que 12 de 80 es el 15 %.",
-          "«Aumento / Descuento» tiene dos usos. Para aplicar un cambio, multiplica el valor por 1 más el porcentaje (aumento) o por 1 menos el porcentaje (descuento). Para comparar dos valores, resta el inicial al final, divide entre el inicial y multiplica por 100: el signo te dice si fue subida o bajada. La herramienta muestra hasta cuatro decimales y escribe la coma como separador decimal."
+          "«Aumento / Descuento» tiene dos usos. Para aplicar un cambio, multiplica el valor por 1 más el porcentaje (aumento) o por 1 menos el porcentaje (descuento). Para comparar dos valores, resta el inicial al final, divide entre el inicial y multiplica por 100: el signo te dice si fue subida o bajada. La herramienta muestra hasta cuatro decimales, con punto decimal."
         ]
       },
       {
@@ -3108,7 +3108,7 @@
           },
           {
             "texto": "Pestaña «Aumento / Descuento»: precio final.",
-            "operacion": "1250 × (1 − 0,30) = 875"
+            "operacion": "1250 × (1 − 0.30) = 875"
           },
           {
             "texto": "Pestaña «X es qué % de Y?»: qué parte del precio pagas.",
@@ -3116,7 +3116,7 @@
           },
           {
             "texto": "Compara 875 con 1250: cuánto tendría que subir para volver al precio original.",
-            "operacion": "(1250 − 875) ÷ 875 × 100 = 42,857 %"
+            "operacion": "(1250 − 875) ÷ 875 × 100 = 42.857 %"
           }
         ],
         "resultado": [
@@ -3172,7 +3172,7 @@
           ],
           [
             "10 %",
-            "Mueve la coma un lugar",
+            "Mueve el punto decimal un lugar",
             "36"
           ],
           [
@@ -3187,8 +3187,8 @@
           ],
           [
             "1 %",
-            "Mueve la coma dos lugares",
-            "3,6"
+            "Mueve el punto decimal dos lugares",
+            "3.6"
           ]
         ]
       },
@@ -3209,7 +3209,7 @@
             "titulo": "Para volver al valor inicial",
             "tono": "verde",
             "items": [
-              "Tras subir un 20 %, hay que bajar un 16,67 %.",
+              "Tras subir un 20 %, hay que bajar un 16.67 %.",
               "Tras bajar un 20 %, hay que subir un 25 %.",
               "Fórmula: porcentaje ÷ (100 ± porcentaje) × 100."
             ]
@@ -3226,7 +3226,7 @@
           },
           {
             "mito": "El precio con IVA incluido menos el 16 % da el precio sin IVA.",
-            "realidad": "Hay que dividir: 116 ÷ 1,16 = 100. Restar el 16 % de 116 da 97,44, que no es correcto."
+            "realidad": "Hay que dividir: 116 ÷ 1.16 = 100. Restar el 16 % de 116 da 97.44, que no es correcto."
           },
           {
             "mito": "El porcentaje de cambio es el mismo en ambos sentidos.",
@@ -3323,7 +3323,7 @@
     "faqs": [
       {
         "question": "¿Cómo calculo un descuento del 20 % sobre un precio?",
-        "answer": "Multiplica el precio por 0,8, que es 1 menos 0,20. En la calculadora, usa «Aumento / Descuento», elige descuento y escribe 20."
+        "answer": "Multiplica el precio por 0.8, que es 1 menos 0.20. En la calculadora, usa «Aumento / Descuento», elige descuento y escribe 20."
       },
       {
         "question": "¿Por qué dos descuentos del 10 % no son lo mismo que un 20 %?",
@@ -3335,7 +3335,7 @@
       },
       {
         "question": "¿Cómo quito el IVA de un precio?",
-        "answer": "Divide el precio entre 1 más la tasa. Con IVA del 16 %, 580 ÷ 1,16 = 500 es el precio sin impuesto."
+        "answer": "Divide el precio entre 1 más la tasa. Con IVA del 16 %, 580 ÷ 1.16 = 500 es el precio sin impuesto."
       },
       {
         "question": "¿Cómo calculo qué porcentaje saqué en un examen?",
@@ -3343,7 +3343,7 @@
       },
       {
         "question": "¿Puedo calcular porcentajes con decimales?",
-        "answer": "Sí. Escribe el decimal con punto en las casillas, por ejemplo 7.5 %, y el resultado aparece con coma decimal."
+        "answer": "Sí. Escribe el decimal con punto en las casillas, por ejemplo 7.5, y el resultado también aparece con punto decimal."
       }
     ],
     "relatedTools": [
@@ -3367,7 +3367,7 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Este convertidor de moneda usa tasas de cambio de referencia actualizadas para convertir entre dólar estadounidense, peso mexicano, euro y otras divisas habituales. Elige la moneda de origen y destino, introduce el monto, y obtén el resultado al instante junto con la tasa de cambio unitaria aplicada.",
-    "resumen": "Antes de comprar en una tienda extranjera, cobrar a un cliente de otro país o planear un viaje, conviene saber cuánto es un precio en tu moneda. Este convertidor es para compradores en línea, viajeros, profesionales independientes y pequeños negocios: convierte entre peso mexicano, dólar, euro, libra, dólar canadiense, yen, real brasileño y franco suizo con el tipo de referencia del Banco Central Europeo, y te muestra también cuánto vale una unidad de cada moneda.",
+    "resumen": "Antes de comprar en una tienda extranjera, cobrar a un cliente de otro país o planear un viaje, conviene saber cuánto es un precio en tu moneda. Este convertidor es para compradores en línea, viajeros, profesionales independientes y pequeños negocios: convierte entre 20 monedas, del dólar y el euro al peso colombiano, el sol o el peso chileno, y te muestra también cuánto vale una unidad de cada una.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -3381,7 +3381,7 @@
         "tipo": "texto",
         "titulo": "Cómo hace la conversión la herramienta",
         "parrafos": [
-          "Al abrir la página, descarga los tipos de cambio del día expresados en dólares: cuántas unidades de cada moneda vale 1 USD. Para convertir, primero pasa tu monto a dólares dividiéndolo entre la tasa de la moneda de origen, y después lo multiplica por la tasa de la moneda de destino. Si una de las dos es el dólar, la cuenta se reduce a una sola operación.",
+          "Al abrir la página, descarga los tipos de cambio del día expresados en dólares: cuántas unidades de cada moneda vale 1 USD. Para las principales monedas usa el tipo de referencia del Banco Central Europeo y para las latinoamericanas, los datos de ExchangeRate-API. Para convertir, primero pasa tu monto a dólares dividiéndolo entre la tasa de la moneda de origen, y después lo multiplica por la tasa de la moneda de destino. Si una de las dos es el dólar, la cuenta se reduce a una sola operación.",
           "También calcula el tipo unitario, es decir, cuánto vale 1 unidad de la moneda de origen en la de destino: tasa de destino ÷ tasa de origen. Debajo del resultado aparece la fecha de las tasas. El cálculo se repite al instante cada vez que cambias el monto o las monedas."
         ]
       },
@@ -3475,8 +3475,8 @@
         "titulo": "Errores frecuentes al convertir divisas",
         "items": [
           {
-            "mito": "La coma del resultado separa los miles.",
-            "realidad": "El convertidor escribe los decimales con coma: «18,50 MXN» son dieciocho pesos con cincuenta centavos."
+            "mito": "Todas las tasas salen de la misma fuente y del mismo momento.",
+            "realidad": "Las monedas principales usan el Banco Central Europeo y las latinoamericanas, ExchangeRate-API. Debajo del resultado verás la fecha de cada una."
           },
           {
             "mito": "El banco me cambiará al mismo tipo que muestra la herramienta.",
@@ -3495,7 +3495,7 @@
       {
         "tipo": "tabla",
         "titulo": "¿Qué tipo de cambio oficial se usa en cada país?",
-        "intro": "El convertidor no incluye el peso colombiano, el sol, el peso argentino ni el peso chileno, porque el Banco Central Europeo no los publica. Para operaciones en esos países, el tipo de referencia lo fija cada banco central:",
+        "intro": "El convertidor incluye el peso colombiano, el sol, el peso argentino y el peso chileno con datos de ExchangeRate-API, que pueden diferir un poco del tipo oficial. Para una operación en esos países, la referencia la publica cada banco central:",
         "cabeceras": [
           "País",
           "Referencia oficial frente al dólar",
@@ -3538,7 +3538,7 @@
         "tipo": "texto",
         "titulo": "¿De dónde salen los tipos de cambio de este convertidor?",
         "parrafos": [
-          "Usamos los tipos de referencia que publica el Banco Central Europeo cada día hábil, a través de un servicio público. Son tasas del mercado interbancario: las que usan los bancos entre ellos, sin margen para el cliente. Los fines de semana se muestra la última publicada.",
+          "Para el dólar, el euro, la libra, el yen, el dólar canadiense, el franco suizo, el real y el peso mexicano usamos los tipos de referencia que publica el Banco Central Europeo cada día hábil. Para las monedas latinoamericanas que el BCE no publica, usamos ExchangeRate-API, que se actualiza una vez al día. En ambos casos son tasas de mercado sin margen para el cliente.",
           "Para monedas con mercados paralelos o muy variables hay herramientas específicas: el [dólar a peso mexicano](/dolar-a-peso-mexicano) con su evolución reciente, el [dólar blue](/dolar-blue) en Argentina y el [conversor de criptomonedas](/conversor-criptomonedas). En Chile y Perú, las unidades indexadas tienen su propio conversor: [UF a pesos](/uf-a-pesos) y [UIT a soles](/uit-a-soles)."
         ]
       },
@@ -3572,7 +3572,7 @@
     "faqs": [
       {
         "question": "¿Con qué frecuencia se actualizan las tasas de cambio?",
-        "answer": "Una vez por día hábil, con el tipo de referencia del Banco Central Europeo. No reflejan los movimientos dentro del mismo día."
+        "answer": "Una vez al día: las del Banco Central Europeo cada día hábil y las de ExchangeRate-API a diario. No reflejan los movimientos dentro del mismo día."
       },
       {
         "question": "¿Puedo usar esta calculadora para hacer una transferencia o cambio de divisas real?",
@@ -3580,11 +3580,11 @@
       },
       {
         "question": "¿Qué monedas puedo convertir?",
-        "answer": "Peso mexicano, dólar estadounidense, euro, libra esterlina, dólar canadiense, yen japonés, real brasileño y franco suizo."
+        "answer": "Peso mexicano, dólar, euro, libra, dólar canadiense, yen, real y franco suizo, más los pesos colombiano, argentino, chileno, uruguayo y dominicano, el sol, el boliviano, el guaraní, el quetzal, el colón, el lempira y el córdoba."
       },
       {
-        "question": "¿Por qué no está el peso colombiano o el sol peruano?",
-        "answer": "Porque la fuente que usamos, el Banco Central Europeo, no publica esas monedas. Consulta el tipo oficial en el banco central de cada país."
+        "question": "¿El peso argentino que muestra es el oficial o el blue?",
+        "answer": "Es un tipo de mercado de referencia, no el dólar paralelo. Para el blue usa la herramienta de [dólar blue](/dolar-blue)."
       },
       {
         "question": "¿Qué pasa si las tasas no cargan?",
@@ -3742,15 +3742,15 @@
           ],
           [
             "Ensayo escolar breve",
-            "500 a 1.000 palabras"
+            "500 a 1,000 palabras"
           ],
           [
             "Artículo de blog completo",
-            "1.000 a 2.000 palabras"
+            "1,000 a 2,000 palabras"
           ],
           [
             "Tesina o trabajo de fin de grado",
-            "8.000 a 15.000 palabras"
+            "8,000 a 15,000 palabras"
           ]
         ]
       },
@@ -3831,7 +3831,7 @@
         "tipo": "texto",
         "titulo": "¿Cómo se calcula el tiempo de lectura de un texto?",
         "parrafos": [
-          "Dividimos el número de palabras entre 200, la velocidad media de lectura silenciosa de un adulto en español. Un artículo de 1.200 palabras se lee en unos 6 minutos. Para textos técnicos la velocidad baja, y si vas a leerlo en voz alta, calcula unas 130 palabras por minuto. La [calculadora de tiempo de lectura](/calculadora-tiempo-lectura) te deja ajustar la velocidad."
+          "Dividimos el número de palabras entre 200, la velocidad media de lectura silenciosa de un adulto en español. Un artículo de 1,200 palabras se lee en unos 6 minutos. Para textos técnicos la velocidad baja, y si vas a leerlo en voz alta, calcula unas 130 palabras por minuto. La [calculadora de tiempo de lectura](/calculadora-tiempo-lectura) te deja ajustar la velocidad."
         ]
       },
       {
