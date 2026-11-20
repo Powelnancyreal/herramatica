@@ -4,6 +4,13 @@ import { useMemo, useState } from 'react'
 
 const MS_POR_DIA = 1000 * 60 * 60 * 24
 
+// Lee 'AAAA-MM-DD' como medianoche local. new Date('AAAA-MM-DD') la toma como medianoche UTC, y en América
+// eso cae el día anterior, adelantando un día la fecha de parto.
+function fechaLocal(iso) {
+  const [y, m, d] = iso.split('-').map(Number)
+  return new Date(y, m - 1, d)
+}
+
 function formatFecha(date) {
   return date.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'numeric' })
 }
@@ -48,10 +55,10 @@ function SemanasEmbarazo() {
 
   const resultado = useMemo(() => {
     if (!fum) return null
-    const inicio = new Date(fum)
+    const inicio = fechaLocal(fum)
     const hoy = new Date()
     hoy.setHours(0, 0, 0, 0)
-    const diasTotales = Math.floor((hoy - inicio) / MS_POR_DIA)
+    const diasTotales = Math.round((hoy - inicio) / MS_POR_DIA)
     if (diasTotales < 0) return null
 
     const fpp = new Date(inicio)
@@ -98,7 +105,7 @@ function DiasFertiles() {
   const resultado = useMemo(() => {
     if (!fum) return null
     const ciclo = parseInt(duracionCiclo, 10) || 28
-    const inicio = new Date(fum)
+    const inicio = fechaLocal(fum)
     const ovulacion = new Date(inicio)
     ovulacion.setDate(ovulacion.getDate() + (ciclo - 14))
     const inicioFertil = new Date(ovulacion)

@@ -13,23 +13,27 @@ import { useState } from 'react'
 // que no requieren identificación oficial (Cl@ve PIN).
 // ─────────────────────────────────────────────────────────────────
 
-const MESES_MINIMO = 180 // 15 años: umbral de acceso a la pensión, da derecho al 50%
-const MESES_FIN_TRAMO1 = 300 // 25 años: cambio de pendiente en la escala
-const MESES_MAXIMO = 438 // 36 años y 6 meses: 100% de la base reguladora
-const TASA_TRAMO1 = 0.19 // % por mes cotizado, de los 15 a los 25 años (cifra oficial)
-const PORCENTAJE_A_25_ANIOS = 50 + (MESES_FIN_TRAMO1 - MESES_MINIMO) * TASA_TRAMO1
-// La segunda pendiente se deriva para que el resultado sea exactamente 100% a los 36 años y 6 meses,
-// el otro extremo confirmado de la escala oficial.
-const TASA_TRAMO2 = (100 - PORCENTAJE_A_25_ANIOS) / (MESES_MAXIMO - MESES_FIN_TRAMO1)
+// Escala de 2023 a 2026 (Ley General de la Seguridad Social, disposición transitoria novena):
+// 15 años dan el 50 %; los meses 1 a 49 siguientes suman un 0,21 % cada uno y los 209 meses
+// posteriores un 0,19 %, hasta el 100 % con 36 años y 6 meses (438 meses).
+const MESES_MINIMO = 180
+const MESES_TRAMO1 = 49
+const TASA_TRAMO1 = 0.21
+const TASA_TRAMO2 = 0.19
+const MESES_MAXIMO = 438
 
 export function porcentajePorMesesCotizados(meses) {
   if (meses < MESES_MINIMO) return 0
-  if (meses <= MESES_FIN_TRAMO1) return 50 + (meses - MESES_MINIMO) * TASA_TRAMO1
-  if (meses < MESES_MAXIMO) return PORCENTAJE_A_25_ANIOS + (meses - MESES_FIN_TRAMO1) * TASA_TRAMO2
-  return 100
+  if (meses >= MESES_MAXIMO) return 100
+  const extra = meses - MESES_MINIMO
+  const tramo1 = Math.min(extra, MESES_TRAMO1)
+  const tramo2 = Math.max(0, extra - MESES_TRAMO1)
+  return Math.min(100, 50 + tramo1 * TASA_TRAMO1 + tramo2 * TASA_TRAMO2)
 }
 
 // Pensión mínima contributiva 2026 (65 años o más), anual en 14 pagas
+// Real Decreto de revalorización 2026: titular con 65 años, euros al año en 14 pagas.
+// «sin_conyuge» es el caso oficial «con cónyuge no a cargo» (se conserva el id).
 const MINIMOS_2026 = {
   sin_conyuge: 12441.8,
   unipersonal: 13106.8,
@@ -76,7 +80,7 @@ export default function CalculoPensionJubilacion() {
   const [salario, setSalario] = useState('')
   const [aniosCotizados, setAniosCotizados] = useState('')
   const [mesesAdicionales, setMesesAdicionales] = useState('0')
-  const [situacionFamiliar, setSituacionFamiliar] = useState('sin_conyuge')
+  const [situacionFamiliar, setSituacionFamiliar] = useState('unipersonal')
 
   const [result, setResult] = useState(null)
   const [error, setError] = useState('')
@@ -121,9 +125,9 @@ export default function CalculoPensionJubilacion() {
         <div className="sm:col-span-2">
           <label className={labelClass}>Situación familiar</label>
           <select value={situacionFamiliar} onChange={(e) => setSituacionFamiliar(e.target.value)} className={inputClass}>
-            <option value="sin_conyuge">Sin cónyuge a cargo</option>
+            <option value="unipersonal">Sin cónyuge (unidad económica unipersonal)</option>
             <option value="con_conyuge">Con cónyuge a cargo</option>
-            <option value="unipersonal">Unidad económica unipersonal</option>
+            <option value="sin_conyuge">Con cónyuge que no está a cargo</option>
           </select>
         </div>
       </div>
@@ -149,7 +153,7 @@ export default function CalculoPensionJubilacion() {
           <div>
             <p className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-1">Pensión mensual estimada (paga)</p>
             <p className="text-4xl font-bold text-blue-700 leading-none">{formatEUR(result.pensionMensual)}</p>
-            <p className="text-xs text-gray-500 mt-1">{formatEUR(result.pensionAnual)} al año, en 14 pagas · {result.porcentaje.toFixed(2)}% de la base reguladora estimada</p>
+            <p className="text-xs text-gray-500 mt-1">{formatEUR(result.pensionAnual)} al año, en 14 pagas · {result.porcentaje.toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} % de la base reguladora estimada</p>
           </div>
 
           {result.aplicaMinimo && (

@@ -7689,7 +7689,7 @@
         "tipo": "texto",
         "titulo": "Cómo estima la herramienta tu pensión",
         "parrafos": [
-          "La pensión es la base reguladora multiplicada por un porcentaje que depende de lo cotizado. Como la base real es la media de muchos años de bases de cotización y solo la conoce la Seguridad Social, la herramienta usa el salario bruto mensual que escribas como aproximación. Con 15 años cotizados el porcentaje es el 50 %, y crece con cada mes hasta el 100 % con 36 años y 6 meses.",
+          "La pensión es la base reguladora multiplicada por un porcentaje que depende de lo cotizado. Como la base real es la media de muchos años de bases de cotización y solo la conoce la Seguridad Social, la herramienta usa el salario bruto mensual que escribas como aproximación. Con 15 años cotizados el porcentaje es el 50 %; cada uno de los 49 meses siguientes suma un 0,21 % y cada uno de los 209 posteriores, un 0,19 %, hasta el 100 % con 36 años y 6 meses.",
           "Después multiplica la pensión mensual por 14 pagas. Si el total anual queda por debajo de la pensión mínima de tu situación familiar, la sube hasta ese mínimo; si supera la máxima de 47.034,40 € al año, la limita. Con menos de 15 años cotizados, avisa de que no se alcanza el mínimo para una pensión contributiva."
         ]
       },
@@ -7707,7 +7707,7 @@
           ],
           [
             "Situación",
-            "Sin cónyuge a cargo"
+            "Sin cónyuge (unidad económica unipersonal)"
           ]
         ],
         "pasos": [
@@ -7754,10 +7754,10 @@
             "detalle": "100 % de la base"
           },
           {
-            "titulo": "40 años cotizados",
-            "situacion": "Cotizar más no sube el porcentaje, salvo que retrases la jubilación.",
-            "resultado": "1.800 €/mes",
-            "detalle": "100 % de la base"
+            "titulo": "25 años cotizados",
+            "situacion": "Una carrera con interrupciones o empezada tarde.",
+            "resultado": "1.328,04 €/mes",
+            "detalle": "73,78 % de la base"
           }
         ]
       },
@@ -7779,7 +7779,7 @@
           },
           {
             "titulo": "Elige tu situación familiar",
-            "texto": "Sin cónyuge, unidad económica unipersonal o con cónyuge a cargo: cambia la pensión mínima aplicable."
+            "texto": "Sin cónyuge, con cónyuge a cargo o con cónyuge que no está a cargo: cambia la pensión mínima aplicable."
           },
           {
             "titulo": "Lee el resultado",
@@ -7899,7 +7899,7 @@
       {
         "tipo": "aviso",
         "tono": "azul",
-        "texto": "Actualizado: noviembre de 2026. Escala de años cotizados, edad ordinaria y pensión máxima de 2026 (3.359,60 € al mes en 14 pagas) según la normativa de la Seguridad Social. La cifra exacta solo la da la simulación oficial con tus bases reales."
+        "texto": "Actualizado: noviembre de 2026. Escala de años cotizados, edad ordinaria y pensiones máxima (3.359,60 € al mes en 14 pagas) y mínimas de 2026 según la normativa de la Seguridad Social y el real decreto de revalorización de 2026. La cifra exacta solo la da la simulación oficial con tus bases reales."
       },
       {
         "tipo": "fuentes",
@@ -7926,7 +7926,7 @@
       },
       {
         "question": "¿Cuál es la pensión máxima en 2026?",
-        "answer": "3.359,60 € al mes en 14 pagas, es decir, 47.034,40 € al año. Las pensiones mínimas dependen de tu situación familiar, y la herramienta aplica la que corresponde."
+        "answer": "3.359,60 € al mes en 14 pagas, es decir, 47.034,40 € al año. Las mínimas con 65 años son 13.106,80 € al año sin cónyuge, 17.592,40 € con cónyuge a cargo y 12.441,80 € con cónyuge que no está a cargo."
       },
       {
         "question": "¿Por qué esta herramienta no calcula la jubilación anticipada?",

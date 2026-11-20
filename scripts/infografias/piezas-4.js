@@ -127,10 +127,10 @@ function pension() {
   })
   ;[10, 15, 20, 25, 30, 36.5, 40].forEach((a) => { s += T.tx(X(a), gy + gh + 26, a === 36.5 ? '36,5' : String(a), { size: 15, anchor: 'middle', fill: T.muted }) })
   s += T.tx(gx + gw / 2, gy + gh + 52, 'Años cotizados', { size: 16, anchor: 'middle', fill: T.muted })
-  s += `<polyline points="${X(10)},${Y(0)} ${X(15)},${Y(0)} ${X(15)},${Y(50)} ${X(25)},${Y(72.8)} ${X(36.5)},${Y(100)} ${X(40)},${Y(100)}" fill="none" stroke="${T.accent}" stroke-width="5" stroke-linejoin="round"/>`
+  s += `<polyline points="${X(10)},${Y(0)} ${X(15)},${Y(0)} ${X(15)},${Y(50)} ${X(15 + 49 / 12)},${Y(60.29)} ${X(25)},${Y(73.78)} ${X(36.5)},${Y(100)} ${X(40)},${Y(100)}" fill="none" stroke="${T.accent}" stroke-width="5" stroke-linejoin="round"/>`
   const punto = (a, p, t, dx = 12, dyy = -14) => circle(X(a), Y(p), 8, { fill: T.accent }) + T.tx(X(a) + dx, Y(p) + dyy, t, { size: 17, weight: 700 })
   s += punto(15, 50, '15 años: 50 %', 14, 30)
-  s += punto(25, 72.8, '25 años: 72,8 %', 14, 30)
+  s += punto(25, 73.78, '25 años: 73,78 %', 14, 30)
   s += punto(36.5, 100, '100 %', -18, -16).replace('text-anchor="start"', 'text-anchor="end"')
   s += T.tx(X(12.5), Y(8), 'Sin pensión', { size: 15, anchor: 'middle', fill: T.muted })
   const by = gy + gh + 90
