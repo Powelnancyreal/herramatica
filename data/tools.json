@@ -1785,7 +1785,7 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El finiquito es la liquidación económica que la empresa debe abonarte al finalizar tu relación laboral, incluya o no indemnización por despido. Esta calculadora desglosa cada concepto por separado (salario pendiente del último mes, vacaciones no disfrutadas, parte proporcional de pagas extra e indemnización según el motivo de extinción) siguiendo el Estatuto de los Trabajadores, incluyendo el cálculo especial para contratos anteriores al 12 de febrero de 2012 en caso de despido improcedente. Introduce los datos de tu contrato y obtén una estimación detallada, con cada partida explicada.",
-    "resumen": "Cuando termina un contrato en España, la empresa debe pagar el finiquito: el salario de los días trabajados del último mes, las vacaciones no disfrutadas y la parte proporcional de las pagas extra, más la indemnización si el motivo del cese la genera. Esta calculadora es para trabajadores que dejan un empleo o han sido despedidos y quieren revisar el documento antes de firmarlo, y para pequeñas empresas que lo preparan: aplica el Estatuto de los Trabajadores, incluidos los topes y la doble escala de los contratos anteriores a 2012.",
+    "resumen": "Cuando termina un contrato en España, la empresa debe pagar el finiquito: los días trabajados del último mes, las vacaciones no disfrutadas y lo generado de las pagas extra, más la indemnización si el motivo del cese la da. Esta calculadora sirve a trabajadores y pequeñas empresas para revisar el documento antes de firmarlo, con los topes del Estatuto de los Trabajadores y la doble escala de los contratos anteriores a 2012.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -1799,7 +1799,7 @@
         "tipo": "texto",
         "titulo": "Cómo calcula la herramienta tu finiquito",
         "parrafos": [
-          "El salario diario es tu sueldo bruto mensual entre 30. Con él calcula el salario pendiente (los días trabajados del último mes) y las vacaciones no disfrutadas (los días que indiques). Si cobras las pagas extra aparte, suma su parte proporcional: sueldo × número de pagas ÷ 365 × días trabajados desde el 1 de enero o desde tu alta.",
+          "El salario diario es tu sueldo bruto mensual entre 30. Con él calcula el salario pendiente (los días trabajados del último mes) y las vacaciones no disfrutadas (los días que indiques). Si cobras las pagas extra aparte, suma lo generado de cada una a razón de sueldo ÷ 365 por día: la de Navidad desde el 1 de enero y la de verano desde el 1 de julio, o desde el 1 de enero si tu convenio lo indica.",
           "Para la indemnización usa el salario regulador: el sueldo anual con las pagas extra, dividido entre 365. Lo multiplica por los días por año que marca el motivo del cese y por los años trabajados, contados día a día, y aplica el tope que corresponda. Si indicas un porcentaje de IRPF, lo resta de todo menos de la indemnización."
         ]
       },
@@ -1834,8 +1834,8 @@
             "operacion": "9 × 60 € = 540 €"
           },
           {
-            "texto": "Pagas extra: 288 días trabajados en 2026.",
-            "operacion": "1.800 × 2 ÷ 365 × 288 = 2.840,55 €"
+            "texto": "Pagas extra: Navidad desde el 1 de enero (288 días) y verano desde el 1 de julio (107 días).",
+            "operacion": "1.800 ÷ 365 × (288 + 107) = 1.947,95 €"
           },
           {
             "texto": "Indemnización: 1.325 días trabajados a 20 días por año, con un salario regulador de 25.200 ÷ 365.",
@@ -1843,12 +1843,12 @@
           },
           {
             "texto": "El tope de 12 mensualidades (24.854,79 €) no se alcanza. Se suma todo.",
-            "operacion": "900 + 540 + 2.840,55 + 5.012,57"
+            "operacion": "900 + 540 + 1.947,95 + 5.012,57"
           }
         ],
         "resultado": [
           "Total bruto",
-          "9.293,12 €"
+          "8.400,52 €"
         ]
       },
       {
@@ -1861,7 +1861,7 @@
           },
           {
             "titulo": "Indica tu sueldo y tus pagas",
-            "texto": "El salario bruto mensual, el número de pagas extra y si te las prorratean cada mes."
+            "texto": "El salario bruto mensual, las pagas extra, si te las prorratean y, con dos pagas, el periodo que cubre la de verano."
           },
           {
             "titulo": "Añade las vacaciones pendientes",
@@ -1990,8 +1990,8 @@
             "realidad": "Solo se pagan los días generados y no disfrutados. Si ya tomaste parte de tus vacaciones, se descuentan."
           },
           {
-            "mito": "La parte de pagas extra siempre sale igual.",
-            "realidad": "La herramienta reparte las dos pagas sobre los días trabajados del año. Si ya cobraste alguna, revisa en tu convenio qué periodo cubre."
+            "mito": "Al irme me deben las dos pagas extra enteras.",
+            "realidad": "Solo la parte generada. Si la paga de verano cubre de julio a junio y ya la cobraste, cuenta desde el 1 de julio; elige el periodo que marque tu convenio."
           }
         ]
       },
@@ -2086,10 +2086,6 @@
       {
         "question": "¿Cuántos días de vacaciones me corresponden al irme?",
         "answer": "El mínimo legal son 30 días naturales al año. Al salir te corresponde la parte de los días trabajados del año, menos los que ya disfrutaste."
-      },
-      {
-        "question": "¿Cuenta el tiempo en ERTE para calcular la antigüedad del finiquito?",
-        "answer": "Sí. El tiempo con el contrato suspendido por un ERTE cuenta como antigüedad para las vacaciones, las pagas extra y la indemnización."
       },
       {
         "question": "¿Esta calculadora tiene en cuenta mi convenio colectivo?",
@@ -3442,7 +3438,7 @@
         "titulo": "Cómo arma la herramienta los 18 caracteres",
         "parrafos": [
           "Las cuatro primeras letras salen del primer apellido (su inicial y su primera vocal interna), de la inicial del segundo apellido y de la inicial del nombre. Siguen seis cifras con la fecha de nacimiento en formato año, mes y día, una letra para el sexo (H o M) y dos letras para el estado de nacimiento.",
-          "Las posiciones 14 a 16 son la primera consonante interna de cada apellido y del nombre. La 17 distingue a quienes nacieron antes de 2000 (0) de quienes nacieron después (A), y la 18 es el dígito verificador, que se calcula con las 17 anteriores. Antes de todo esto, la herramienta quita tildes, signos y partículas como «de» o «la»."
+          "Las posiciones 14 a 16 son la primera consonante interna de cada apellido y del nombre. La 17 distingue a quienes nacieron antes de 2000 (0) de quienes nacieron después (A), y la 18 es el dígito verificador, que se calcula con las 17 anteriores. Antes de todo esto, la herramienta quita tildes, signos y partículas como «de» o «la», y cambia la Ñ por X."
         ]
       },
       {
@@ -3552,6 +3548,11 @@
             "Nacido en el extranjero",
             "Entidad NE",
             "Posiciones 12 y 13 = NE"
+          ],
+          [
+            "Nombre o apellido con Ñ",
+            "La Ñ se cambia por X",
+            "Muñoz → posición 14 = X"
           ]
         ]
       },

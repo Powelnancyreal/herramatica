@@ -132,15 +132,18 @@ export function calcularCURP({ nombre, apPaterno, apMaterno, fechaNac, sexo, est
   const mat = apMaterno?.trim() ? getFirstRelevantWord(apMaterno) : ''
   const nom = getNombreParaClave(nombre)
 
-  let letras4 = (pat[0] || 'X') + getFirstInternalVowel(pat) + (mat ? mat[0] : 'X') + (nom[0] || 'X')
+  // RENAPO sustituye la Ñ por X en las posiciones que salen del nombre y los apellidos.
+  const sinEnie = (s) => s.replace(/Ñ/g, 'X')
+
+  let letras4 = sinEnie((pat[0] || 'X') + getFirstInternalVowel(pat) + (mat ? mat[0] : 'X') + (nom[0] || 'X'))
   letras4 = aplicarFiltroInconveniente(letras4)
 
   const [year, month, day] = fechaNac.split('-')
   const fecha = year.slice(2) + month + day
 
-  const c14 = getFirstInternalConsonant(pat)
-  const c15 = mat ? getFirstInternalConsonant(mat) : 'X'
-  const c16 = getFirstInternalConsonant(nom)
+  const c14 = sinEnie(getFirstInternalConsonant(pat))
+  const c15 = mat ? sinEnie(getFirstInternalConsonant(mat)) : 'X'
+  const c16 = sinEnie(getFirstInternalConsonant(nom))
 
   const diferenciador = parseInt(year, 10) >= 2000 ? 'A' : '0'
 

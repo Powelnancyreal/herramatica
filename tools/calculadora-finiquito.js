@@ -90,6 +90,7 @@ export function calcularFiniquito({
   motivoExtincion,
   otrosConceptos,
   irpfPct,
+  devengoVerano = 'julio',
 }) {
   const diasTrabajadosTotal = daysBetween(fechaInicio, fechaFin)
   const salarioDiario = salarioMensual / 30
@@ -103,13 +104,24 @@ export function calcularFiniquito({
   // 2. Vacaciones no disfrutadas
   const vacacionesImporte = salarioDiario * diasVacacionesPendientes
 
-  // 3. Parte proporcional de pagas extra (si no están prorrateadas mes a mes)
+  // 3. Parte proporcional de pagas extra (si no están prorrateadas mes a mes).
+  // La de Navidad se devenga del 1 de enero al 31 de diciembre. La de verano depende del convenio:
+  // lo más habitual es del 1 de julio al 30 de junio (devengoVerano = 'julio'); otros usan el año natural ('enero').
+  // Las pagas a partir de la tercera se tratan como la de Navidad.
   let pagasExtraImporte = 0
+  let pagasExtraDetalle = null
   if (!extraProrrateada && numPagasExtra > 0) {
-    const inicioAnio = `${yFin}-01-01`
-    const inicioDevengo = fechaInicio > inicioAnio ? fechaInicio : inicioAnio
-    const diasDevengo = daysBetween(inicioDevengo, fechaFin)
-    pagasExtraImporte = ((salarioMensual * numPagasExtra) / 365) * diasDevengo
+    const desdeAlta = (inicio) => (fechaInicio > inicio ? fechaInicio : inicio)
+    const mFin = Number(fechaFin.split('-')[1])
+    const diasNavidad = daysBetween(desdeAlta(`${yFin}-01-01`), fechaFin)
+    const inicioVerano = devengoVerano === 'enero' ? `${yFin}-01-01` : mFin >= 7 ? `${yFin}-07-01` : `${yFin - 1}-07-01`
+    const diasVerano = daysBetween(desdeAlta(inicioVerano), fechaFin)
+    const porDia = salarioMensual / 365
+    const navidad = porDia * diasNavidad
+    const verano = numPagasExtra >= 2 ? porDia * diasVerano : 0
+    const otras = numPagasExtra > 2 ? porDia * diasNavidad * (numPagasExtra - 2) : 0
+    pagasExtraImporte = navidad + verano + otras
+    pagasExtraDetalle = { diasNavidad, diasVerano, navidad, verano, otras }
   }
 
   // Salario regulador diario (incluye la parte proporcional de pagas extra) para la indemnización
@@ -157,6 +169,7 @@ export function calcularFiniquito({
     diasTrabajadosUltimoMes,
     vacacionesImporte,
     pagasExtraImporte,
+    pagasExtraDetalle,
     salarioReguladorDiario,
     mensualidadReferencia,
     indemnizacion,
@@ -197,6 +210,7 @@ export default function CalculadoraFiniquito() {
   const [motivoExtincion, setMotivoExtincion] = useState('voluntaria')
   const [otrosConceptos, setOtrosConceptos] = useState('0')
   const [irpfPct, setIrpfPct] = useState('2')
+  const [devengoVerano, setDevengoVerano] = useState('julio')
 
   const [result, setResult] = useState(null)
   const [error, setError] = useState('')
@@ -225,6 +239,7 @@ export default function CalculadoraFiniquito() {
         motivoExtincion,
         otrosConceptos: otros,
         irpfPct: irpf,
+        devengoVerano,
       })
     )
   }
@@ -275,6 +290,16 @@ export default function CalculadoraFiniquito() {
           />
           Mi salario ya incluye las pagas extra prorrateadas cada mes
         </label>
+        {!extraProrrateada && parseInt(numPagasExtra, 10) >= 2 && (
+          <div className="mt-3">
+            <label className={labelClass}>Periodo que cubre la paga de verano</label>
+            <select value={devengoVerano} onChange={(e) => setDevengoVerano(e.target.value)} className={inputClass}>
+              <option value="julio">Del 1 de julio al 30 de junio (lo más habitual)</option>
+              <option value="enero">Del 1 de enero al 31 de diciembre</option>
+            </select>
+            <p className="text-xs text-gray-500 mt-1">Lo indica tu convenio colectivo. La paga de Navidad se calcula siempre del 1 de enero al 31 de diciembre.</p>
+          </div>
+        )}
       </div>
 
       {/* Vacaciones */}
@@ -364,7 +389,14 @@ export default function CalculadoraFiniquito() {
           <div className="bg-white rounded-lg border border-blue-100 divide-y divide-gray-100 text-sm">
             <Row label={`Salario pendiente (${result.diasTrabajadosUltimoMes} días del último mes)`} value={result.salarioPendiente} />
             <Row label="Vacaciones no disfrutadas" value={result.vacacionesImporte} />
-            <Row label="Parte proporcional de pagas extra" value={result.pagasExtraImporte} />
+            <Row
+              label={
+                result.pagasExtraDetalle && result.pagasExtraDetalle.verano > 0
+                  ? `Pagas extra: Navidad (${result.pagasExtraDetalle.diasNavidad} días) y verano (${result.pagasExtraDetalle.diasVerano} días)`
+                  : 'Parte proporcional de pagas extra'
+              }
+              value={result.pagasExtraImporte}
+            />
             {result.otros > 0 && <Row label="Otros conceptos pendientes" value={result.otros} />}
             <Row label="Subtotal (sujeto a retención IRPF)" value={result.subtotalSujetoIRPF} bold />
             <Row label="Indemnización por extinción (exenta de IRPF hasta 180.000 €)" value={result.indemnizacion} />
