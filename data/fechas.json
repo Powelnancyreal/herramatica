@@ -2,8 +2,8 @@
   "herramientas": {
     "texto-invisible": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "8755c09bddbf",
+      "actualizado": "2026-11-20",
+      "contenido": "1768ae46b933",
       "componente": "9bd0ea4a9e99"
     },
     "calculadora-edad": {
@@ -26,8 +26,8 @@
     },
     "calculadora-alicia": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "100b396afe05",
+      "actualizado": "2026-11-20",
+      "contenido": "03f1d44e9fa6",
       "componente": "db000a412c47"
     },
     "generador-qr": {
@@ -56,8 +56,8 @@
     },
     "calculadora-isr": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "9c2d483345c0",
+      "actualizado": "2026-11-20",
+      "contenido": "142004f869ee",
       "componente": "5e00f12782b9"
     },
     "calcular-aguinaldo": {
@@ -129,7 +129,7 @@
     "convertidor-unidades": {
       "creado": "2026-08-27",
       "actualizado": "2026-11-20",
-      "contenido": "6a7fda1d4f4d",
+      "contenido": "29eb429700bf",
       "componente": "3f7f0992b6e9"
     },
     "generador-nombres": {
@@ -140,14 +140,14 @@
     },
     "convertidor-imagenes": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "c71bf8f71518",
+      "actualizado": "2026-11-20",
+      "contenido": "321e110a0b26",
       "componente": "8843ad63ab76"
     },
     "imagenes-a-pdf": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "69342e6b2ef0",
+      "actualizado": "2026-11-20",
+      "contenido": "1a8daba4167f",
       "componente": "c6d5db147041"
     },
     "convertidor-numeros-a-letras": {
@@ -158,14 +158,14 @@
     },
     "convertidor-fracciones": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "177f3e688a7b",
+      "actualizado": "2026-11-20",
+      "contenido": "fd38637460d0",
       "componente": "35606efa7348"
     },
     "convertidor-mayusculas-minusculas": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "57df82b53f2e",
+      "actualizado": "2026-11-20",
+      "contenido": "aa5ba0c02079",
       "componente": "4bcde7e2f31c"
     },
     "convertidor-binario": {
@@ -188,14 +188,14 @@
     },
     "calcular-letra-dni": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "ac08d96673fb",
+      "actualizado": "2026-11-20",
+      "contenido": "81dd60388ab9",
       "componente": "6072587ab4d5"
     },
     "calculo-pension-jubilacion": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "1adf9da95097",
+      "actualizado": "2026-11-20",
+      "contenido": "3cd05a021648",
       "componente": "bd1deb63e327"
     },
     "calculadora-apiretal": {
@@ -218,14 +218,14 @@
     },
     "calcular-cuil": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-24",
-      "contenido": "7f564213cad3",
+      "actualizado": "2026-11-20",
+      "contenido": "84a719cafff0",
       "componente": "0c42531dad9e"
     },
     "calcular-rut": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "b3852b057b0e",
+      "actualizado": "2026-11-20",
+      "contenido": "2c7de60c9594",
       "componente": "5a25bc433a03"
     },
     "calcular-area-circulo": {
@@ -266,8 +266,8 @@
     },
     "cronometro-online": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-20",
-      "contenido": "dbb1e800717a",
+      "actualizado": "2026-11-20",
+      "contenido": "95749cb2854a",
       "componente": "6ea10105d2da"
     },
     "palabras-al-reves": {
@@ -296,8 +296,8 @@
     },
     "tipografia-para-instagram": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-20",
-      "contenido": "c7b7da5fb3f4",
+      "actualizado": "2026-11-20",
+      "contenido": "19a402c6390f",
       "componente": "5fdb94793adf"
     },
     "cm-a-pulgadas": {
@@ -351,7 +351,7 @@
     "calculadora-sueldo-neto-argentina": {
       "creado": "2026-09-06",
       "actualizado": "2026-11-20",
-      "contenido": "cf40c55ee5df",
+      "contenido": "52b3a37b80f4",
       "componente": "4ef2e66e421b"
     },
     "calculadora-area": {
@@ -381,19 +381,19 @@
     "calculadora-calorias": {
       "creado": "2026-09-06",
       "actualizado": "2026-11-20",
-      "contenido": "3c42a93d63cd",
+      "contenido": "165418e0ec87",
       "componente": "4f6e8f351caa"
     },
     "calculadora-embarazo": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-21",
-      "contenido": "5d569122a336",
+      "actualizado": "2026-11-20",
+      "contenido": "be11d3f966ee",
       "componente": "a514008dde81"
     },
     "calculadora-peso-ideal": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-21",
-      "contenido": "aea457fcbcab",
+      "actualizado": "2026-11-20",
+      "contenido": "bfea2752f0fa",
       "componente": "1f1a37b39dbb"
     },
     "calculadora-ciclos-sueno": {
@@ -422,8 +422,8 @@
     },
     "generador-codigo-de-barras": {
       "creado": "2026-09-06",
-      "actualizado": "2026-10-24",
-      "contenido": "8d00f63157ed",
+      "actualizado": "2026-11-20",
+      "contenido": "ec22e2d67b98",
       "componente": "6352a4aff061"
     },
     "generador-de-crucigramas": {
