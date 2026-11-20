@@ -17,7 +17,7 @@ const NIVELES_TARIFA = [
 
 function formatMoney(n) {
   if (n === null || n === undefined || isNaN(n)) return '—'
-  return n.toLocaleString('es', { minimumFractionDigits: 0, maximumFractionDigits: 0 })
+  return n.toLocaleString('es-MX', { minimumFractionDigits: 0, maximumFractionDigits: 0 })
 }
 
 const inputClass =

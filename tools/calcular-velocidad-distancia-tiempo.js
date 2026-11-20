@@ -31,7 +31,7 @@ const VEL_UNIDADES = [
 
 function formatNum(n, decimales = 2) {
   if (n === null || n === undefined || isNaN(n)) return '—'
-  return parseFloat(n.toFixed(decimales)).toLocaleString('es', { maximumFractionDigits: decimales })
+  return parseFloat(n.toFixed(decimales)).toLocaleString('es-MX', { maximumFractionDigits: decimales })
 }
 
 function formatTiempo(segundosTotales) {

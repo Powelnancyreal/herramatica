@@ -100,16 +100,16 @@ export default function CalculadoraCalorias() {
         <div className="space-y-3">
           <div className="rounded-xl border-2 border-blue-200 bg-blue-50 p-5 text-center">
             <p className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-1">Calorías diarias recomendadas</p>
-            <p className="text-4xl font-bold text-blue-700">{Math.round(resultado.caloriasObjetivo).toLocaleString('es')} kcal</p>
+            <p className="text-4xl font-bold text-blue-700">{Math.round(resultado.caloriasObjetivo).toLocaleString('es-MX')} kcal</p>
           </div>
           <div className="grid grid-cols-2 gap-3 text-sm text-center">
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-3">
               <p className="text-xs text-gray-500">Metabolismo basal (BMR)</p>
-              <p className="font-semibold text-gray-900">{Math.round(resultado.bmr).toLocaleString('es')} kcal</p>
+              <p className="font-semibold text-gray-900">{Math.round(resultado.bmr).toLocaleString('es-MX')} kcal</p>
             </div>
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-3">
               <p className="text-xs text-gray-500">Gasto total (TDEE)</p>
-              <p className="font-semibold text-gray-900">{Math.round(resultado.tdee).toLocaleString('es')} kcal</p>
+              <p className="font-semibold text-gray-900">{Math.round(resultado.tdee).toLocaleString('es-MX')} kcal</p>
             </div>
           </div>
           <div className="border-t border-gray-100 pt-4">

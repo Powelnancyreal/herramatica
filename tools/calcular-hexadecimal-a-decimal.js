@@ -81,7 +81,7 @@ export default function CalcularHexadecimalADecimal() {
           <div className="rounded-xl border-2 border-blue-200 bg-blue-50 p-5 text-center">
             <p className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-1">Resultado en decimal</p>
             <p className="text-4xl font-bold text-blue-700 break-all font-mono">
-              {resultadoHexADec !== null ? resultadoHexADec.toLocaleString('es') : '—'}
+              {resultadoHexADec !== null ? resultadoHexADec.toLocaleString('es-MX') : '—'}
             </p>
           </div>
         </div>

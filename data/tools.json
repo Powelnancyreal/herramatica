@@ -4250,25 +4250,25 @@
         "intro": "La temperatura no se convierte con un solo factor, porque las escalas no empiezan en el mismo cero.",
         "pasos": [
           {
-            "texto": "Multiplica los grados Celsius por 1,8.",
-            "operacion": "37 × 1,8 = 66,6"
+            "texto": "Multiplica los grados Celsius por 1.8.",
+            "operacion": "37 × 1.8 = 66.6"
           },
           {
             "texto": "Suma 32.",
-            "operacion": "66,6 + 32 = 98,6"
+            "operacion": "66.6 + 32 = 98.6"
           }
         ],
         "resultado": [
           "Temperatura corporal normal",
-          "98,6 °F"
+          "98.6 °F"
         ]
       },
       {
         "tipo": "texto",
         "titulo": "¿Por qué un galón no mide lo mismo en todos los países?",
         "parrafos": [
-          "El galón estadounidense tiene 3,785 litros y el imperial británico 4,546. Lo mismo pasa con la onza líquida y la pinta. Este convertidor usa siempre las unidades de EE. UU., que son las que aparecen en recetas, etiquetas y combustibles de América. Para volúmenes concretos tienes el conversor de [litros a galones](/litros-a-galones).",
-          "En potencia ocurre algo parecido: el HP estadounidense equivale a 745,7 W y el CV europeo a 735,5 W. Un motor de 100 CV tiene unos 98,6 HP."
+          "El galón estadounidense tiene 3.785 litros y el imperial británico 4.546. Lo mismo pasa con la onza líquida y la pinta. Este convertidor usa siempre las unidades de EE. UU., que son las que aparecen en recetas, etiquetas y combustibles de América. Para volúmenes concretos tienes el conversor de [litros a galones](/litros-a-galones).",
+          "En potencia ocurre algo parecido: el HP estadounidense equivale a 745.7 W y el CV europeo a 735.5 W. Un motor de 100 CV tiene unos 98.6 HP."
         ]
       },
       {
@@ -4703,23 +4703,23 @@
             "ciento uno"
           ],
           [
-            "1.000",
+            "1,000",
             "mil"
           ],
           [
-            "1.500",
+            "1,500",
             "mil quinientos"
           ],
           [
-            "21.000",
+            "21,000",
             "veintiún mil"
           ],
           [
-            "100.000",
+            "100,000",
             "cien mil"
           ],
           [
-            "1.000.000",
+            "1,000,000",
             "un millón"
           ]
         ]
@@ -6442,28 +6442,28 @@
         "filas": [
           [
             "Moneda de 1 euro",
-            "23,25 mm",
-            "4,25 cm²"
+            "23.25 mm",
+            "4.25 cm²"
           ],
           [
             "CD o DVD",
             "12 cm",
-            "113,10 cm²"
+            "113.10 cm²"
           ],
           [
             "Pizza mediana",
             "30 cm",
-            "706,86 cm²"
+            "706.86 cm²"
           ],
           [
             "Pizza familiar",
             "40 cm",
-            "1.256,64 cm²"
+            "1,256.64 cm²"
           ],
           [
             "Piscina redonda",
-            "3,6 m",
-            "10,18 m²"
+            "3.6 m",
+            "10.18 m²"
           ]
         ],
         "nota": "Una pizza de 40 cm tiene casi el doble de superficie que una de 30 cm, aunque solo mida 10 cm más."
@@ -6474,18 +6474,18 @@
         "items": [
           {
             "titulo": "Comparar pizzas",
-            "situacion": "¿Dos medianas de 30 cm o una familiar de 40 cm? Dos medianas suman 1.413,72 cm².",
+            "situacion": "¿Dos medianas de 30 cm o una familiar de 40 cm? Dos medianas suman 1,413.72 cm².",
             "resultado": "2 medianas"
           },
           {
             "titulo": "Pintar o embaldosar",
-            "situacion": "Una mesa redonda de 1,2 m de diámetro necesita pintura para 1,13 m².",
-            "resultado": "1,13 m²"
+            "situacion": "Una mesa redonda de 1.2 m de diámetro necesita pintura para 1.13 m².",
+            "resultado": "1.13 m²"
           },
           {
             "titulo": "Césped o lona",
             "situacion": "Una zona de riego de 5 m de radio cubre casi 79 m² de jardín.",
-            "resultado": "78,54 m²"
+            "resultado": "78.54 m²"
           }
         ]
       },
@@ -6679,19 +6679,19 @@
             "titulo": "Autopista",
             "situacion": "320 km a una media de 100 km/h, contando paradas y tráfico.",
             "resultado": "3 h 12 min",
-            "detalle": "320 ÷ 100 = 3,2 h"
+            "detalle": "320 ÷ 100 = 3.2 h"
           },
           {
             "titulo": "En bicicleta",
             "situacion": "24 km por ciudad a 16 km/h de media.",
             "resultado": "1 h 30 min",
-            "detalle": "24 ÷ 16 = 1,5 h"
+            "detalle": "24 ÷ 16 = 1.5 h"
           },
           {
             "titulo": "Caminando",
             "situacion": "6 km a paso tranquilo de 5 km/h.",
             "resultado": "1 h 12 min",
-            "detalle": "6 ÷ 5 = 1,2 h"
+            "detalle": "6 ÷ 5 = 1.2 h"
           }
         ]
       },
@@ -6708,25 +6708,25 @@
           [
             "km/h",
             "m/s",
-            "Divide entre 3,6",
+            "Divide entre 3.6",
             "90 km/h = 25 m/s"
           ],
           [
             "m/s",
             "km/h",
-            "Multiplica por 3,6",
+            "Multiplica por 3.6",
             "10 m/s = 36 km/h"
           ],
           [
             "mph",
             "km/h",
-            "Multiplica por 1,609",
-            "60 mph = 96,6 km/h"
+            "Multiplica por 1.609",
+            "60 mph = 96.6 km/h"
           ],
           [
             "nudos",
             "km/h",
-            "Multiplica por 1,852",
+            "Multiplica por 1.852",
             "20 nudos = 37 km/h"
           ]
         ]
@@ -7069,19 +7069,19 @@
         "items": [
           {
             "titulo": "Tinaco de agua",
-            "situacion": "Diámetro de 1,1 m y altura de 1,2 m.",
-            "resultado": "1.140 L",
-            "detalle": "π × 0,55² × 1,2 = 1,14 m³"
+            "situacion": "Diámetro de 1.1 m y altura de 1.2 m.",
+            "resultado": "1,140 L",
+            "detalle": "π × 0.55² × 1.2 = 1.14 m³"
           },
           {
             "titulo": "Maceta",
             "situacion": "Diámetro de 30 cm y altura de 28 cm.",
-            "resultado": "19,8 L",
-            "detalle": "π × 15² × 28 = 19.792 cm³"
+            "resultado": "19.8 L",
+            "detalle": "π × 15² × 28 = 19,792 cm³"
           },
           {
             "titulo": "Lata de refresco",
-            "situacion": "6,6 cm de diámetro y 12,2 cm de alto, aproximadamente.",
+            "situacion": "6.6 cm de diámetro y 12.2 cm de alto, aproximadamente.",
             "resultado": "417 ml",
             "detalle": "algo más que los 355 ml que contiene"
           }
@@ -7097,11 +7097,11 @@
         "filas": [
           [
             "cm³",
-            "Divide entre 1.000 (1 L = 1.000 cm³)"
+            "Divide entre 1,000 (1 L = 1,000 cm³)"
           ],
           [
             "m³",
-            "Multiplica por 1.000 (1 m³ = 1.000 L)"
+            "Multiplica por 1,000 (1 m³ = 1,000 L)"
           ],
           [
             "dm³",
@@ -7109,7 +7109,7 @@
           ],
           [
             "pulgadas³",
-            "Multiplica por 0,016387"
+            "Multiplica por 0.016387"
           ]
         ]
       },
@@ -7480,7 +7480,7 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte temperaturas entre Celsius (°C), Fahrenheit (°F) y Kelvin (K) al instante. Elige la escala en la que tienes el dato y obtén su equivalencia en las otras dos escalas simultáneamente, aplicando las fórmulas exactas de conversión de temperatura.",
-    "resumen": "Escribe una temperatura en Celsius, Fahrenheit o Kelvin y obtén las otras dos al instante. Para pasar de °C a °F multiplica por 1,8 y suma 32; para el camino inverso, resta 32 y divide entre 1,8.",
+    "resumen": "Escribe una temperatura en Celsius, Fahrenheit o Kelvin y obtén las otras dos al instante. Para pasar de °C a °F multiplica por 1.8 y suma 32; para el camino inverso, resta 32 y divide entre 1.8.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -7501,17 +7501,17 @@
         "filas": [
           [
             "350 °F",
-            "176,7 °C",
+            "176.7 °C",
             "Horno moderado en recetas de EE. UU."
           ],
           [
             "100 °F",
-            "37,8 °C",
+            "37.8 °C",
             "Fiebre leve"
           ],
           [
             "75 °F",
-            "23,9 °C",
+            "23.9 °C",
             "Temperatura agradable de interior"
           ],
           [
@@ -7526,7 +7526,7 @@
           ],
           [
             "0 °F",
-            "−17,8 °C",
+            "−17.8 °C",
             "Invierno muy frío"
           ]
         ]
@@ -7540,8 +7540,8 @@
             "operacion": "350 − 32 = 318"
           },
           {
-            "texto": "Divide entre 1,8.",
-            "operacion": "318 ÷ 1,8 = 176,7"
+            "texto": "Divide entre 1.8.",
+            "operacion": "318 ÷ 1.8 = 176.7"
           },
           {
             "texto": "Redondea al ajuste de tu horno.",
@@ -7550,7 +7550,7 @@
         ],
         "resultado": [
           "350 °F",
-          "176,7 °C"
+          "176.7 °C"
         ]
       },
       {
@@ -7604,7 +7604,7 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte unidades de presión entre bar, PSI (libras por pulgada cuadrada), kilopascales (kPa) y atmósferas (atm) al instante. Muy útil para comprobar la presión recomendada de neumáticos, que a menudo se especifica en unidades distintas según el país o el fabricante.",
-    "resumen": "Convierte presión entre bar, PSI, kilopascales y atmósferas. Lo más habitual: 1 bar son 14,5 PSI, así que los 2,2 bar de un coche equivalen a unos 32 PSI.",
+    "resumen": "Convierte presión entre bar, PSI, kilopascales y atmósferas. Lo más habitual: 1 bar son 14.5 PSI, así que los 2.2 bar de un coche equivalen a unos 32 PSI.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -7626,27 +7626,27 @@
         "filas": [
           [
             "Coche pequeño o mediano",
-            "2,1 – 2,4",
+            "2.1 – 2.4",
             "30 – 35"
           ],
           [
             "SUV o monovolumen cargado",
-            "2,4 – 2,8",
+            "2.4 – 2.8",
             "35 – 41"
           ],
           [
             "Moto (rueda trasera)",
-            "2,5 – 2,9",
+            "2.5 – 2.9",
             "36 – 42"
           ],
           [
             "Bicicleta de montaña",
-            "1,6 – 2,4",
+            "1.6 – 2.4",
             "23 – 35"
           ],
           [
             "Bicicleta de carretera",
-            "5,5 – 7",
+            "5.5 – 7",
             "80 – 100"
           ]
         ]
@@ -7672,7 +7672,7 @@
           ],
           [
             "PSI",
-            "Libras por pulgada cuadrada, la unidad de EE. UU. y de muchos compresores. 1 PSI = 0,069 bar."
+            "Libras por pulgada cuadrada, la unidad de EE. UU. y de muchos compresores. 1 PSI = 0.069 bar."
           ],
           [
             "kPa",
@@ -7680,7 +7680,7 @@
           ],
           [
             "Atmósfera (atm)",
-            "La presión media al nivel del mar: 1,013 bar o 14,7 PSI."
+            "La presión media al nivel del mar: 1.013 bar o 14.7 PSI."
           ]
         ]
       }
@@ -7793,7 +7793,7 @@
         "tipo": "texto",
         "titulo": "¿Cómo adaptar una receta a más o menos raciones?",
         "parrafos": [
-          "Multiplica todas las cantidades por el mismo factor: para pasar de 4 a 6 raciones, por 1,5. Si te quedan cantidades raras, conviértelas aquí a una medida más cómoda (6 cucharadas son 3/8 de taza) o usa la [regla de tres](/calculadora-regla-de-tres). Para hornos en grados Fahrenheit, pásalos con [Celsius a Fahrenheit](/celsius-a-fahrenheit), y para fracciones de taza, el [convertidor de fracciones](/convertidor-fracciones)."
+          "Multiplica todas las cantidades por el mismo factor: para pasar de 4 a 6 raciones, por 1.5. Si te quedan cantidades raras, conviértelas aquí a una medida más cómoda (6 cucharadas son 3/8 de taza) o usa la [regla de tres](/calculadora-regla-de-tres). Para hornos en grados Fahrenheit, pásalos con [Celsius a Fahrenheit](/celsius-a-fahrenheit), y para fracciones de taza, el [convertidor de fracciones](/convertidor-fracciones)."
         ]
       }
     ],
@@ -7928,7 +7928,7 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte centímetros a pulgadas o pulgadas a centímetros al instante, usando el factor de conversión exacto de 2.54 centímetros por pulgada. Muy útil para interpretar medidas de pantallas, ruedas, herramientas o productos importados de Estados Unidos, donde las pulgadas son la unidad de medida habitual.",
-    "resumen": "Convierte centímetros a pulgadas y pulgadas a centímetros con el factor exacto de 2,54. Sirve para pantallas, llantas, ropa, herramientas y estaturas en pies y pulgadas.",
+    "resumen": "Convierte centímetros a pulgadas y pulgadas a centímetros con el factor exacto de 2.54. Sirve para pantallas, llantas, ropa, herramientas y estaturas en pies y pulgadas.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -7949,32 +7949,32 @@
         "filas": [
           [
             "1/4\"",
-            "0,64 cm",
+            "0.64 cm",
             "Brocas, tornillos y llaves"
           ],
           [
             "1\"",
-            "2,54 cm",
+            "2.54 cm",
             "Tubería y mangueras"
           ],
           [
             "6\"",
-            "15,24 cm",
+            "15.24 cm",
             "Pantalla de un móvil"
           ],
           [
-            "15,6\"",
-            "39,62 cm",
+            "15.6\"",
+            "39.62 cm",
             "Portátil estándar"
           ],
           [
             "17\"",
-            "43,18 cm",
+            "43.18 cm",
             "Rin o llanta de coche"
           ],
           [
             "32\"",
-            "81,28 cm",
+            "81.28 cm",
             "Talla de pantalón (cintura)"
           ]
         ]
@@ -7992,13 +7992,13 @@
             "operacion": "60 + 9 = 69 pulgadas"
           },
           {
-            "texto": "Multiplica por 2,54.",
-            "operacion": "69 × 2,54 = 175,26 cm"
+            "texto": "Multiplica por 2.54.",
+            "operacion": "69 × 2.54 = 175.26 cm"
           }
         ],
         "resultado": [
           "5'9\"",
-          "175,3 cm"
+          "175.3 cm"
         ]
       },
       {
@@ -8057,12 +8057,12 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte arrobas a kilogramos o kilogramos a arrobas al instante. Como el valor de la arroba varía según el país y el contexto de uso (agrícola, ganadero o tradicional), esta calculadora te permite elegir entre las equivalencias más comunes: la arroba castellana (11.502 kg) y las arrobas de 12.5 kg y 15 kg usadas en distintos países de Latinoamérica.",
-    "resumen": "Convierte arrobas a kilos y kilos a arrobas eligiendo la arroba que se usa en tu zona: la castellana de 11,502 kg, la de 12,5 kg o la de 15 kg. Así evitas errores al comprar o vender ganado, café o cosechas.",
+    "resumen": "Convierte arrobas a kilos y kilos a arrobas eligiendo la arroba que se usa en tu zona: la castellana de 11.502 kg, la de 12.5 kg o la de 15 kg. Así evitas errores al comprar o vender ganado, café o cosechas.",
     "bloques": [
       {
         "tipo": "infografia",
         "archivo": "cuantos-kilos-tiene-una-arroba.webp",
-        "alt": "Equivalencias de la arroba en kilos: castellana de 11,5 kg, de 12,5 kg y de 15 kg",
+        "alt": "Equivalencias de la arroba en kilos: castellana de 11.5 kg, de 12.5 kg y de 15 kg",
         "ancho": 800,
         "alto": 848,
         "titulo": "¿Por qué la arroba no pesa lo mismo en todas partes?"
@@ -8072,21 +8072,21 @@
         "titulo": "¿Cuántos kilos son 5, 10 o 20 arrobas?",
         "cabeceras": [
           "Arrobas",
-          "Castellana (11,502 kg)",
-          "12,5 kg",
+          "Castellana (11.502 kg)",
+          "12.5 kg",
           "15 kg"
         ],
         "filas": [
           [
             "1",
-            "11,5 kg",
-            "12,5 kg",
+            "11.5 kg",
+            "12.5 kg",
             "15 kg"
           ],
           [
             "5",
-            "57,5 kg",
-            "62,5 kg",
+            "57.5 kg",
+            "62.5 kg",
             "75 kg"
           ],
           [
@@ -8103,7 +8103,7 @@
           ],
           [
             "40",
-            "460,1 kg",
+            "460.1 kg",
             "500 kg",
             "600 kg"
           ]
@@ -8121,12 +8121,12 @@
           {
             "titulo": "Café, papa y cosechas",
             "situacion": "En Colombia y otras zonas de Latinoamérica es habitual la arroba de 25 libras.",
-            "resultado": "12,5 kg"
+            "resultado": "12.5 kg"
           },
           {
             "titulo": "Uso tradicional",
             "situacion": "En España y en documentos antiguos, la arroba castellana de 25 libras castellanas.",
-            "resultado": "11,502 kg"
+            "resultado": "11.502 kg"
           }
         ]
       },
@@ -8215,12 +8215,12 @@
           ],
           [
             "10 minutos",
-            "1.300",
+            "1,300",
             "Charla o ponencia breve"
           ],
           [
             "20 minutos",
-            "2.600",
+            "2,600",
             "Conferencia"
           ]
         ]
@@ -8592,7 +8592,7 @@
       },
       {
         "question": "¿Cómo calculo el aumento del alquiler con el IPC?",
-        "answer": "Multiplicá los coeficientes mensuales del IPC del período (por ejemplo, 1.03 × 1.025 × 1.02) y aplicá el resultado al alquiler actual. Los porcentajes de inflación no se suman: se acumulan."
+        "answer": "Multiplicá los coeficientes mensuales del IPC del período (por ejemplo, 1,03 × 1,025 × 1,02) y aplicá el resultado al alquiler actual. Los porcentajes de inflación no se suman: se acumulan."
       },
       {
         "question": "¿Dónde consulto el ICL del BCRA?",
@@ -8741,21 +8741,21 @@
         "intro": "Aportes mensuales al 8 % anual, capitalizando cada mes, sin capital inicial:",
         "items": [
           {
-            "titulo": "$1.000 al mes",
-            "situacion": "Durante 10 años: aportas $120.000 en total.",
-            "resultado": "$182.946",
-            "detalle": "$62.946 de intereses"
+            "titulo": "$1,000 al mes",
+            "situacion": "Durante 10 años: aportas $120,000 en total.",
+            "resultado": "$182,946",
+            "detalle": "$62,946 de intereses"
           },
           {
-            "titulo": "$1.000 al mes",
-            "situacion": "Durante 20 años: aportas $240.000 en total.",
-            "resultado": "$589.020",
+            "titulo": "$1,000 al mes",
+            "situacion": "Durante 20 años: aportas $240,000 en total.",
+            "resultado": "$589,020",
             "detalle": "los intereses superan lo aportado"
           },
           {
-            "titulo": "$1.000 al mes",
-            "situacion": "Durante 30 años: aportas $360.000 en total.",
-            "resultado": "$1.490.359",
+            "titulo": "$1,000 al mes",
+            "situacion": "Durante 30 años: aportas $360,000 en total.",
+            "resultado": "$1,490,359",
             "detalle": "el 76 % son intereses"
           }
         ]
@@ -8774,11 +8774,11 @@
         "items": [
           {
             "mito": "Un 10 % durante 10 años duplica el dinero exacto.",
-            "realidad": "Lo multiplica por 2,59: el interés de cada año también genera interés."
+            "realidad": "Lo multiplica por 2.59: el interés de cada año también genera interés."
           },
           {
             "mito": "La frecuencia de capitalización no importa.",
-            "realidad": "Importa, aunque menos de lo que parece: al 10 %, capitalizar cada mes rinde un 10,47 % anual en vez de un 10 %."
+            "realidad": "Importa, aunque menos de lo que parece: al 10 %, capitalizar cada mes rinde un 10.47 % anual en vez de un 10 %."
           },
           {
             "mito": "El saldo final es dinero real de hoy.",
@@ -8958,13 +8958,13 @@
         "items": [
           {
             "titulo": "Piso o baldosa",
-            "situacion": "Una habitación de 4 × 3,5 m necesita 14 m² de suelo. Compra un 10 % más por cortes.",
-            "resultado": "15,4 m²"
+            "situacion": "Una habitación de 4 × 3.5 m necesita 14 m² de suelo. Compra un 10 % más por cortes.",
+            "resultado": "15.4 m²"
           },
           {
             "titulo": "Pintura",
-            "situacion": "Una pared de 5 × 2,6 m con una puerta de 0,8 × 2 m.",
-            "resultado": "11,4 m²"
+            "situacion": "Una pared de 5 × 2.6 m con una puerta de 0.8 × 2 m.",
+            "resultado": "11.4 m²"
           },
           {
             "titulo": "Terreno triangular",
@@ -8983,11 +8983,11 @@
         "filas": [
           [
             "1 m²",
-            "10.000 cm²"
+            "10,000 cm²"
           ],
           [
             "1 hectárea",
-            "10.000 m²"
+            "10,000 m²"
           ],
           [
             "1 km²",
@@ -8995,11 +8995,11 @@
           ],
           [
             "1 pie²",
-            "0,0929 m²"
+            "0.0929 m²"
           ],
           [
             "1 acre",
-            "4.046,86 m²"
+            "4,046.86 m²"
           ]
         ]
       },
@@ -9069,19 +9069,19 @@
             "titulo": "Caja de mudanza",
             "situacion": "50 × 40 × 40 cm.",
             "resultado": "80 L",
-            "detalle": "80.000 cm³"
+            "detalle": "80,000 cm³"
           },
           {
             "titulo": "Balón de fútbol",
             "situacion": "Unos 22 cm de diámetro (11 cm de radio).",
-            "resultado": "5,6 L",
+            "resultado": "5.6 L",
             "detalle": "4/3 × π × 11³"
           },
           {
             "titulo": "Cucurucho de helado",
             "situacion": "5 cm de diámetro y 12 cm de alto.",
             "resultado": "79 ml",
-            "detalle": "π × 2,5² × 12 ÷ 3"
+            "detalle": "π × 2.5² × 12 ÷ 3"
           }
         ]
       },
@@ -9102,7 +9102,7 @@
         ],
         "filas": [
           [
-            "1.000 cm³",
+            "1,000 cm³",
             "1 litro"
           ],
           [
@@ -9111,11 +9111,11 @@
           ],
           [
             "1 m³",
-            "1.000 litros"
+            "1,000 litros"
           ],
           [
             "1 litro",
-            "0,264 galones de EE. UU."
+            "0.264 galones de EE. UU."
           ]
         ]
       }
@@ -9398,22 +9398,22 @@
       {
         "tipo": "escenarios",
         "titulo": "¿Cuántas calorías necesito según mi objetivo?",
-        "intro": "Para la mujer del ejemplo, con un gasto diario de 2.124 kcal:",
+        "intro": "Para la mujer del ejemplo, con un gasto diario de 2,124 kcal:",
         "items": [
           {
             "titulo": "Mantener",
             "situacion": "Comer lo mismo que gastas mantiene el peso estable.",
-            "resultado": "2.124 kcal"
+            "resultado": "2,124 kcal"
           },
           {
             "titulo": "Bajar de peso",
             "situacion": "Un déficit del 20 %: pérdida gradual, sostenible en el tiempo.",
-            "resultado": "1.699 kcal"
+            "resultado": "1,699 kcal"
           },
           {
             "titulo": "Subir de peso",
             "situacion": "Un superávit del 15 %, idealmente con entrenamiento de fuerza.",
-            "resultado": "2.443 kcal"
+            "resultado": "2,443 kcal"
           }
         ]
       },
@@ -9888,7 +9888,7 @@
           ],
           [
             "Hoja A4",
-            "29,7 × 21 cm"
+            "29.7 × 21 cm"
           ]
         ],
         "pasos": [
@@ -9902,15 +9902,15 @@
           },
           {
             "texto": "Compara con la hoja en horizontal.",
-            "operacion": "24 < 29,7 y 18 < 21 → cabe, con poco margen"
+            "operacion": "24 < 29.7 y 18 < 21 → cabe, con poco margen"
           },
           {
             "texto": "Prueba a 1:100 para dejar sitio a cotas y rótulos.",
             "operacion": "1200 ÷ 100 = 12 cm · 900 ÷ 100 = 9 cm"
           },
           {
-            "texto": "Comprueba con una habitación de 4,2 m a 1:50.",
-            "operacion": "420 ÷ 50 = 8,4 cm en el plano"
+            "texto": "Comprueba con una habitación de 4.2 m a 1:50.",
+            "operacion": "420 ÷ 50 = 8.4 cm en el plano"
           }
         ],
         "resultado": [
@@ -9940,7 +9940,7 @@
           },
           {
             "titulo": "Convierte la unidad si hace falta",
-            "texto": "Por ejemplo, 175 000 cm son 1,75 km."
+            "texto": "Por ejemplo, 175 000 cm son 1.75 km."
           }
         ]
       },
@@ -9951,19 +9951,19 @@
           {
             "titulo": "Plano de un piso",
             "situacion": "Un salón mide 9 cm en un plano a 1:50.",
-            "resultado": "4,5 m",
+            "resultado": "4.5 m",
             "detalle": "9 × 50 = 450 cm"
           },
           {
             "titulo": "Mapa de senderismo",
             "situacion": "La ruta mide 7 cm en un mapa 1:25 000.",
-            "resultado": "1,75 km",
+            "resultado": "1.75 km",
             "detalle": "7 × 25 000 = 175 000 cm"
           },
           {
             "titulo": "Maqueta",
-            "situacion": "Un coche de 4,2 m reproducido a escala 1:18.",
-            "resultado": "23,3 cm",
+            "situacion": "Un coche de 4.2 m reproducido a escala 1:18.",
+            "resultado": "23.3 cm",
             "detalle": "420 ÷ 18"
           }
         ]
@@ -9975,11 +9975,11 @@
         "pasos": [
           {
             "texto": "Mide la puerta en el plano.",
-            "operacion": "1,6 cm"
+            "operacion": "1.6 cm"
           },
           {
             "texto": "Divide la medida real entre la del plano, en la misma unidad.",
-            "operacion": "80 ÷ 1,6 = 50"
+            "operacion": "80 ÷ 1.6 = 50"
           }
         ],
         "resultado": [
@@ -10060,7 +10060,7 @@
         "titulo": "¿Cómo se escriben las escalas en cada país?",
         "parrafos": [
           "La escala es la misma en todas partes, pero el separador de miles cambia. En México, Perú y buena parte de Centroamérica verás «1:50,000», con coma; en España, Argentina, Colombia y Chile, «1:50.000», con punto. La norma internacional recomienda un espacio, «1:50 000», que se entiende en cualquier país.",
-          "Los decimales siguen la misma lógica al revés: 4.5 m en México y 4,5 m en España. La calculadora muestra los resultados con coma decimal, así que 4,5 significa cuatro metros y medio."
+          "Con los decimales pasa al revés: 4.5 m en México y 4,5 m en España. La calculadora muestra los resultados con punto decimal y coma para los miles, así que 4.5 significa cuatro metros y medio y 1,200 son mil doscientos."
         ]
       },
       {
@@ -10090,11 +10090,11 @@
       },
       {
         "question": "¿Sirve para escalas de ampliación como 2:1?",
-        "answer": "Sí. Escribe N = 0,5, porque 2:1 equivale a 1:0,5. Una pieza real de 3 mm se dibuja entonces con 6 mm."
+        "answer": "Sí. Escribe N = 0.5, porque 2:1 equivale a 1:0.5. Una pieza real de 3 mm se dibuja entonces con 6 mm."
       },
       {
         "question": "¿Cómo paso un área del plano a metros cuadrados reales?",
-        "answer": "Multiplica el área medida en el plano por N al cuadrado. En un plano 1:50, cada cm² del papel equivale a 2500 cm² reales, es decir, a 0,25 m²."
+        "answer": "Multiplica el área medida en el plano por N al cuadrado. En un plano 1:50, cada cm² del papel equivale a 2500 cm² reales, es decir, a 0.25 m²."
       }
     ],
     "relatedTools": [
@@ -11708,22 +11708,22 @@
       {
         "tipo": "escenarios",
         "titulo": "¿Cuánto me depositan de CTS según el tiempo trabajado?",
-        "intro": "Con un sueldo de S/ 2.000 y la última gratificación de S/ 2.000 (remuneración computable S/ 2.333,33):",
+        "intro": "Con un sueldo de S/ 2,000 y la última gratificación de S/ 2,000 (remuneración computable S/ 2,333.33):",
         "items": [
           {
             "titulo": "Semestre completo",
             "situacion": "6 meses trabajados de noviembre a abril.",
-            "resultado": "S/ 1.166,67"
+            "resultado": "S/ 1,166.67"
           },
           {
             "titulo": "4 meses",
             "situacion": "Entraste a trabajar a comienzos de enero.",
-            "resultado": "S/ 777,78"
+            "resultado": "S/ 777.78"
           },
           {
             "titulo": "2 meses y 10 días",
             "situacion": "Entraste a mediados de febrero.",
-            "resultado": "S/ 453,70"
+            "resultado": "S/ 453.70"
           }
         ]
       },
@@ -11803,7 +11803,7 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula el monto de tu gratificación de Fiestas Patrias (julio) o Navidad (diciembre) en Perú, incluyendo la bonificación extraordinaria (9% para trabajadores afiliados a EsSalud, o 6.75% para EPS). Si trabajaste menos de 6 meses en el semestre, calcula el monto proporcional correspondiente.",
-    "resumen": "Calcula tu gratificación de Fiestas Patrias o de Navidad: un sueldo completo si trabajaste todo el semestre, o la sexta parte por cada mes completo, más la bonificación extraordinaria del 9 % (EsSalud) o del 6,75 % (EPS).",
+    "resumen": "Calcula tu gratificación de Fiestas Patrias o de Navidad: un sueldo completo si trabajaste todo el semestre, o la sexta parte por cada mes completo, más la bonificación extraordinaria del 9 % (EsSalud) o del 6.75 % (EPS).",
     "bloques": [
       {
         "tipo": "infografia",
@@ -11816,7 +11816,7 @@
       {
         "tipo": "tabla",
         "titulo": "¿Cuánto es la gratificación según los meses trabajados?",
-        "intro": "Para un sueldo de S/ 2.500 con EsSalud:",
+        "intro": "Para un sueldo de S/ 2,500 con EsSalud:",
         "cabeceras": [
           "Meses completos",
           "Gratificación",
@@ -11826,33 +11826,33 @@
         "filas": [
           [
             "6",
-            "S/ 2.500,00",
-            "S/ 225,00",
-            "S/ 2.725,00"
+            "S/ 2,500.00",
+            "S/ 225.00",
+            "S/ 2,725.00"
           ],
           [
             "5",
-            "S/ 2.083,33",
-            "S/ 187,50",
-            "S/ 2.270,83"
+            "S/ 2,083.33",
+            "S/ 187.50",
+            "S/ 2,270.83"
           ],
           [
             "4",
-            "S/ 1.666,67",
-            "S/ 150,00",
-            "S/ 1.816,67"
+            "S/ 1,666.67",
+            "S/ 150.00",
+            "S/ 1,816.67"
           ],
           [
             "3",
-            "S/ 1.250,00",
-            "S/ 112,50",
-            "S/ 1.362,50"
+            "S/ 1,250.00",
+            "S/ 112.50",
+            "S/ 1,362.50"
           ],
           [
             "1",
-            "S/ 416,67",
-            "S/ 37,50",
-            "S/ 454,17"
+            "S/ 416.67",
+            "S/ 37.50",
+            "S/ 454.17"
           ]
         ]
       },
@@ -11928,7 +11928,7 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "Calcula el Impuesto General a las Ventas (IGV) de Perú, actualmente del 18%, ya sea para agregarlo a un precio sin impuesto (valor de venta) o para extraerlo de un precio que ya lo incluye (precio de venta al público).",
-    "resumen": "Agrega el 18 % de IGV a un valor de venta o quítalo de un precio que ya lo incluye. Para quitarlo, divide entre 1,18: restar el 18 % da una cifra equivocada.",
+    "resumen": "Agrega el 18 % de IGV a un valor de venta o quítalo de un precio que ya lo incluye. Para quitarlo, divide entre 1.18: restar el 18 % da una cifra equivocada.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -11946,15 +11946,15 @@
             "titulo": "Restar el 18 %",
             "tono": "rojo",
             "items": [
-              "S/ 118 − 18 % = S/ 96,76",
+              "S/ 118 − 18 % = S/ 96.76",
               "Quitas IGV de más: el 18 % se calculó sobre 100, no sobre 118."
             ]
           },
           {
-            "titulo": "Dividir entre 1,18",
+            "titulo": "Dividir entre 1.18",
             "tono": "verde",
             "items": [
-              "S/ 118 ÷ 1,18 = S/ 100",
+              "S/ 118 ÷ 1.18 = S/ 100",
               "El IGV real es S/ 18, justo el 18 % de 100."
             ]
           }
@@ -12395,19 +12395,19 @@
         "intro": "Video dedicado, tarifa estándar y 5 % de engagement:",
         "items": [
           {
-            "titulo": "Nano: 10.000 seguidores",
+            "titulo": "Nano: 10,000 seguidores",
             "situacion": "Comunidad pequeña y cercana, ideal para marcas locales.",
             "resultado": "US$ 200–325"
           },
           {
-            "titulo": "Micro: 50.000 seguidores",
+            "titulo": "Micro: 50,000 seguidores",
             "situacion": "Nicho definido con buena respuesta.",
-            "resultado": "US$ 1.000–1.625"
+            "resultado": "US$ 1,000–1,625"
           },
           {
-            "titulo": "Medio: 250.000 seguidores",
+            "titulo": "Medio: 250,000 seguidores",
             "situacion": "Alcance amplio; las marcas piden más métricas.",
-            "resultado": "US$ 5.000–8.125"
+            "resultado": "US$ 5,000–8,125"
           }
         ]
       },
@@ -12522,7 +12522,7 @@
           [
             "/16",
             "255.255.0.0",
-            "65.534",
+            "65,534",
             "Red de una empresa grande"
           ]
         ],
@@ -13442,7 +13442,7 @@
       },
       {
         "question": "¿Por qué el independiente paga un porcentaje más alto que el empleado?",
-        "answer": "Porque el trabajador independiente no tiene un empleador que asuma una parte del aporte (8.5% de salud y 12% de pensión en el caso de un dependiente), por lo que debe cubrir el porcentaje completo (12.5% salud + 16% pensión) él mismo, aunque calculado sobre una base reducida (el 40% de sus ingresos, no el 100%)."
+        "answer": "Porque el trabajador independiente no tiene un empleador que asuma una parte del aporte (8,5% de salud y 12% de pensión en el caso de un dependiente), por lo que debe cubrir el porcentaje completo (12,5% salud + 16% pensión) él mismo, aunque calculado sobre una base reducida (el 40% de sus ingresos, no el 100%)."
       },
       {
         "question": "¿Esta calculadora incluye el aporte a ARL?",

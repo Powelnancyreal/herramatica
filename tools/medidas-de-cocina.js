@@ -13,7 +13,7 @@ const UNIDADES = {
 
 function formatNum(n) {
   if (n === null || n === undefined || isNaN(n)) return '—'
-  return parseFloat(n.toPrecision(6)).toLocaleString('es', { maximumFractionDigits: 4 })
+  return parseFloat(n.toPrecision(6)).toLocaleString('es-MX', { maximumFractionDigits: 4 })
 }
 
 const inputClass =

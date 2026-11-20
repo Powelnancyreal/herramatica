@@ -93,7 +93,7 @@ export default function ConvertidorNumerosALetras() {
   function handleConvertir() {
     const valor = parseFloat(numero)
     if (numero === '' || isNaN(valor)) return setError('Introduce un número válido.')
-    if (Math.abs(valor) > LIMITE) return setError(`Esta herramienta admite números hasta ${LIMITE.toLocaleString('es')}.`)
+    if (Math.abs(valor) > LIMITE) return setError(`Esta herramienta admite números hasta ${LIMITE.toLocaleString('es-MX')}.`)
     setError('')
     setResultado(convertirNumero(valor, modoMoneda))
     setCopiado(false)

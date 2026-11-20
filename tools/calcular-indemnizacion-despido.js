@@ -26,7 +26,7 @@ function diasVacacionesSegunAntiguedad(anios) {
 
 function formatMoney(n) {
   if (n === null || n === undefined || isNaN(n)) return '—'
-  return n.toLocaleString('es', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+  return n.toLocaleString('es-AR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
 }
 
 const inputClass =

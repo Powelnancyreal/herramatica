@@ -24,7 +24,7 @@ const UNIDADES = [
 
 function formatNum(n) {
   if (n === null || n === undefined || isNaN(n)) return '—'
-  return parseFloat(n.toFixed(2)).toLocaleString('es', { maximumFractionDigits: 2 })
+  return parseFloat(n.toFixed(2)).toLocaleString('es-MX', { maximumFractionDigits: 2 })
 }
 
 const inputClass =

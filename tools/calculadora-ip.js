@@ -66,8 +66,8 @@ export default function CalculadoraIp() {
             ['Notación CIDR', resultado.cidr],
             ['Primer host utilizable', resultado.primerHost],
             ['Último host utilizable', resultado.ultimoHost],
-            ['Total de direcciones', resultado.totalHosts.toLocaleString('es')],
-            ['Hosts utilizables', resultado.hostsUtiles.toLocaleString('es')],
+            ['Total de direcciones', resultado.totalHosts.toLocaleString('es-MX')],
+            ['Hosts utilizables', resultado.hostsUtiles.toLocaleString('es-MX')],
           ].map(([label, valor]) => (
             <div key={label} className="bg-gray-50 border border-gray-200 rounded-lg p-3">
               <p className="text-xs text-gray-500">{label}</p>

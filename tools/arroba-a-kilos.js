@@ -10,7 +10,7 @@ const VARIANTES = [
 
 function formatNum(n) {
   if (n === null || n === undefined || isNaN(n)) return '—'
-  return parseFloat(n.toPrecision(8)).toLocaleString('es', { maximumFractionDigits: 4 })
+  return parseFloat(n.toPrecision(8)).toLocaleString('es-MX', { maximumFractionDigits: 4 })
 }
 
 const inputClass =

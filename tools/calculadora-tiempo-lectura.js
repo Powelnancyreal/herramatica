@@ -68,7 +68,7 @@ export default function CalculadoraTiempoLectura() {
             rows={8}
             className="w-full border border-gray-300 rounded-lg px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white resize-y"
           />
-          <p className="text-xs text-gray-500 mt-1.5">{palabras.toLocaleString('es')} palabras</p>
+          <p className="text-xs text-gray-500 mt-1.5">{palabras.toLocaleString('es-MX')} palabras</p>
         </div>
       ) : (
         <div>

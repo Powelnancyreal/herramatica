@@ -113,7 +113,7 @@ const TEMP_UNIDADES = { c: 'Celsius (°C)', f: 'Fahrenheit (°F)', k: 'Kelvin (K
 
 function formatNum(n) {
   if (n === null || n === undefined || isNaN(n)) return '—'
-  return parseFloat(n.toPrecision(10)).toLocaleString('es', { maximumFractionDigits: 6 })
+  return parseFloat(n.toPrecision(10)).toLocaleString('es-MX', { maximumFractionDigits: 6 })
 }
 
 const inputClass =

@@ -6,7 +6,7 @@ const MS_POR_DIA = 1000 * 60 * 60 * 24
 
 function formatMoney(n) {
   if (n === null || n === undefined || isNaN(n)) return '—'
-  return n.toLocaleString('es', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+  return n.toLocaleString('es-PE', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
 }
 
 const inputClass =
