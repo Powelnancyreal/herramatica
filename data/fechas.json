@@ -38,20 +38,20 @@
     },
     "calculadora-horas": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "18b010375d42",
+      "actualizado": "2026-11-20",
+      "contenido": "9cdce3e3ac85",
       "componente": "216aa489bfbc"
     },
     "calculadora-cientifica": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "3e00012efcbb",
+      "actualizado": "2026-11-20",
+      "contenido": "ca62a5e268a6",
       "componente": "55255174e9c7"
     },
     "calculadora-finiquito": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "0a067206ee84",
+      "actualizado": "2026-11-20",
+      "contenido": "e23e6aabd9c7",
       "componente": "4237e8a5920b"
     },
     "calculadora-isr": {
@@ -74,8 +74,8 @@
     },
     "calcular-iva": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "8dd3e8943814",
+      "actualizado": "2026-11-20",
+      "contenido": "232463fb8bc6",
       "componente": "6e53f24abf1f"
     },
     "calculo-mental": {
@@ -86,8 +86,8 @@
     },
     "calcular-curp": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "a98d26348246",
+      "actualizado": "2026-11-20",
+      "contenido": "aa3fe7fa3dd9",
       "componente": "7631645f4f3b"
     },
     "calculadora-porcentaje": {
@@ -104,8 +104,8 @@
     },
     "generador-contrasenas": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "8433e598a710",
+      "actualizado": "2026-11-20",
+      "contenido": "d7356414de90",
       "componente": "7234486e6bcb"
     },
     "contador-palabras": {
@@ -134,8 +134,8 @@
     },
     "generador-nombres": {
       "creado": "2026-08-27",
-      "actualizado": "2026-10-20",
-      "contenido": "3664b08f0a3b",
+      "actualizado": "2026-11-20",
+      "contenido": "e12cbd4fd69a",
       "componente": "ff51141c065d"
     },
     "convertidor-imagenes": {
@@ -279,7 +279,7 @@
     "celsius-a-fahrenheit": {
       "creado": "2026-09-06",
       "actualizado": "2026-11-20",
-      "contenido": "8ce0a60fd415",
+      "contenido": "d2aae24a5b8d",
       "componente": "d6e56bdd82fe"
     },
     "bar-a-psi": {
@@ -291,7 +291,7 @@
     "medidas-de-cocina": {
       "creado": "2026-09-06",
       "actualizado": "2026-11-20",
-      "contenido": "3aa25747662b",
+      "contenido": "45ed6b674386",
       "componente": "4c253fb504bd"
     },
     "tipografia-para-instagram": {
@@ -974,8 +974,8 @@
     },
     "tablas-de-multiplicar": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-25",
-      "contenido": "58e3eb8141e4",
+      "actualizado": "2026-11-20",
+      "contenido": "cf9dc238e385",
       "componente": "824c48943ac3"
     },
     "edad-de-mi-perro": {
@@ -1208,8 +1208,8 @@
     },
     "finiquito-chile": {
       "creado": "2026-09-30",
-      "actualizado": "2026-10-25",
-      "contenido": "4f4c9b038eb1",
+      "actualizado": "2026-11-20",
+      "contenido": "453cdbaa34e7",
       "componente": "bf7acf146f8a"
     },
     "uf-a-pesos": {

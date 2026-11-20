@@ -1254,7 +1254,7 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Calcular horas a mano es fácil de complicar porque el tiempo no funciona en base 10: una hora tiene 60 minutos, no 100. Nuestra calculadora de horas resuelve al instante los tres cálculos con el tiempo más habituales: saber cuántas horas has trabajado entre una hora de entrada y una de salida (restando el descanso), sumar o restar una cantidad de horas y minutos a una hora concreta, y convertir horas y minutos a formato decimal para nóminas y hojas de cálculo.",
-    "resumen": "Calcula las horas trabajadas entre la entrada y la salida descontando el descanso, suma o resta tiempo a una hora y convierte horas y minutos a formato decimal para tu nómina o tu factura. Los turnos que cruzan la medianoche se calculan solos.",
+    "resumen": "Las horas no se suman como los números normales: tienen 60 minutos, cruzan la medianoche y en la nómina aparecen en decimales. Esta calculadora es para trabajadores que revisan su registro de jornada, profesionales que facturan por hora, encargados que arman turnos y estudiantes: calcula las horas entre la entrada y la salida descontando el descanso, suma o resta tiempo a una hora y convierte horas y minutos a decimal, y al revés.",
     "bloques": [
       {
         "tipo": "ejemplo",
@@ -1290,7 +1290,7 @@
         ],
         "resultado": [
           "Horas trabajadas",
-          "8,00 h"
+          "8.00 h"
         ]
       },
       {
@@ -1304,20 +1304,128 @@
       {
         "tipo": "aviso",
         "tono": "rojo",
-        "titulo": "¿7:30 horas son 7,3 o 7,5 en decimal?",
-        "texto": "7 horas y 30 minutos son 7,5 horas, no 7,3. Si tu sistema de nómina usa decimales y escribes los minutos tal cual, cada jornada de 7:30 te pagaría 12 minutos menos: unas 4 horas al mes en una jornada de lunes a viernes."
+        "titulo": "¿7:30 horas son 7.3 o 7.5 en decimal?",
+        "texto": "7 horas y 30 minutos son 7.5 horas, no 7.3. Si tu sistema de nómina usa decimales y escribes los minutos tal cual, cada jornada de 7:30 te pagaría 12 minutos menos: unas 4 horas al mes en una jornada de lunes a viernes."
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Cómo hace las cuentas la herramienta",
+        "parrafos": [
+          "Pasa cada hora a minutos desde la medianoche: las 08:45 son 525 minutos y las 17:20, 1040. Resta la entrada a la salida y, si la salida es anterior, suma 1440 minutos (24 horas) porque el turno cruzó la medianoche. Después resta los minutos de descanso y presenta el resultado en horas y minutos, en minutos totales y en decimal con dos cifras.",
+          "Para sumar o restar tiempo a una hora hace lo mismo: pasa todo a minutos, opera y vuelve a escribir la hora en formato de 24 horas, avisándote si cambias de día. En la conversión a decimal divide los minutos entre 60; en la inversa, multiplica la parte decimal por 60."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto se cobra por una semana de 08:45 a 17:20?",
+        "datos": [
+          [
+            "Horario",
+            "De lunes a viernes, 08:45 a 17:20"
+          ],
+          [
+            "Descanso",
+            "40 minutos al día"
+          ],
+          [
+            "Tarifa",
+            "$85 por hora"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Horas de un día: de 08:45 a 17:20 hay 8 h 35 min; se restan 40 de descanso.",
+            "operacion": "515 − 40 = 475 min = 7 h 55 min"
+          },
+          {
+            "texto": "En decimal, como lo muestra la calculadora.",
+            "operacion": "475 ÷ 60 = 7.92 h"
+          },
+          {
+            "texto": "Suma los minutos de los cinco días antes de convertir.",
+            "operacion": "475 × 5 = 2375 min = 39 h 35 min = 39.58 h"
+          },
+          {
+            "texto": "Multiplica por la tarifa.",
+            "operacion": "39.58 × 85 = $3,364.58"
+          },
+          {
+            "texto": "Si sumaras los decimales ya redondeados de cada día, el pago saldría distinto.",
+            "operacion": "7.92 × 5 × 85 = $3,366.00"
+          }
+        ],
+        "resultado": [
+          "Pago de la semana",
+          "$3,364.58"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar las tres pestañas de la calculadora",
+        "pasos": [
+          {
+            "titulo": "Horas trabajadas",
+            "texto": "Escribe la hora de entrada, la de salida y los minutos de descanso, y pulsa calcular. Si la salida es anterior, verás el aviso de turno nocturno."
+          },
+          {
+            "titulo": "Lee los tres formatos",
+            "texto": "El resultado aparece en horas y minutos, en minutos totales y en decimal para tu nómina o factura."
+          },
+          {
+            "titulo": "Sumar / Restar",
+            "texto": "Elige una hora inicial, la operación y las horas y minutos. Te dice la hora resultante y si pasa al día siguiente o al anterior."
+          },
+          {
+            "titulo": "Convertir a decimal",
+            "texto": "Escribe horas y minutos para ver su valor decimal, o un decimal como 6.75 para verlo en horas y minutos."
+          },
+          {
+            "titulo": "Repite por cada día",
+            "texto": "Para una semana, calcula cada jornada, suma los minutos totales y convierte el total al final."
+          }
+        ]
       },
       {
         "tipo": "texto",
         "titulo": "¿Por qué no se pueden restar horas como números normales?",
         "parrafos": [
-          "Una hora tiene 60 minutos, no 100. Si restas 17:15 − 9:30 como si fueran decimales obtienes 7,85, que no significa nada. Hay que pedir prestada una hora y convertirla en 60 minutos: 16:75 − 9:30 = 7 h 45 min. La calculadora hace este préstamo sola, igual que el paso a las horas decimales.",
+          "Una hora tiene 60 minutos, no 100. Si restas 17:15 − 9:30 como si fueran decimales obtienes 7.85, que no significa nada. Hay que pedir prestada una hora y convertirla en 60 minutos: 16:75 − 9:30 = 7 h 45 min. La calculadora hace este préstamo sola, igual que el paso a las horas decimales.",
           "Si trabajas más de tu jornada, la [calculadora de horas extras](/calcular-horas-extras) aplica los recargos según la ley de tu país, y la [calculadora de nómina](/calculadora-nomina) los incorpora a tu sueldo."
         ]
       },
       {
+        "tipo": "mitos",
+        "titulo": "Errores frecuentes al sumar horas de trabajo",
+        "items": [
+          {
+            "mito": "Da igual sumar los decimales redondeados de cada día.",
+            "realidad": "Cada redondeo suma o quita un poco. En la semana del ejemplo, la diferencia es de $1.42; suma minutos y convierte al final."
+          },
+          {
+            "mito": "15 minutos son 0.15 horas.",
+            "realidad": "Son 0.25 horas, porque 15 ÷ 60 = 0.25. Del mismo modo, 45 minutos son 0.75 horas."
+          },
+          {
+            "mito": "El descanso se descuenta solo.",
+            "realidad": "La calculadora empieza con 0 minutos de descanso. Escribe los tuyos o el resultado incluirá la comida."
+          },
+          {
+            "mito": "Una salida anterior a la entrada siempre es un turno de noche.",
+            "realidad": "También puede ser un error de a.m. y p.m. al escribir la hora. Si te salen 20 horas en un día normal, revisa las horas."
+          }
+        ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Formato de 12 y de 24 horas según el país",
+        "parrafos": [
+          "En España los horarios escritos suelen usar el formato de 24 horas: se entra a las 9:00 y se sale a las 18:00. En México, Colombia, Perú y buena parte de Latinoamérica es frecuente decir y escribir la hora con a.m. y p.m., aunque los turnos, los transportes y los documentos oficiales usan cada vez más las 24 horas.",
+          "Las casillas de hora de la calculadora se muestran según la configuración de tu dispositivo, a veces con a.m. y p.m., pero el resultado siempre aparece en formato de 24 horas. Para pasar de un formato a otro rápidamente, usa el conversor de [hora militar](/hora-militar), y si coordinas con personas de otros países, el [conversor de zona horaria](/conversor-zona-horaria)."
+        ]
+      },
+      {
         "tipo": "consejos",
-        "titulo": "¿Para qué sirve calcular horas trabajadas?",
+        "titulo": "Para qué sirve calcular horas trabajadas",
         "items": [
           {
             "titulo": "Registro de jornada",
@@ -1325,7 +1433,7 @@
           },
           {
             "titulo": "Facturar por horas",
-            "texto": "Si cobras por hora, multiplica las horas decimales por tu tarifa: 3 h 45 min a 20 € son 3,75 × 20 = 75 €."
+            "texto": "Si cobras por hora, multiplica las horas decimales por tu tarifa: 3 h 45 min a 20 € son 3.75 × 20 = 75 €."
           },
           {
             "titulo": "Calcular a qué hora sales",
@@ -1340,28 +1448,28 @@
     ],
     "faqs": [
       {
-        "question": "¿Cómo se calculan las horas trabajadas si el turno cruza la medianoche?",
-        "answer": "Si introduces una hora de salida anterior a la de entrada (por ejemplo, entrada 22:00 y salida 06:00), la calculadora detecta automáticamente que el turno cruza la medianoche y suma 24 horas antes de calcular la diferencia, mostrando un aviso de \"turno nocturno detectado\" junto al resultado."
-      },
-      {
-        "question": "¿Cómo convierto horas y minutos a formato decimal?",
-        "answer": "Divide los minutos entre 60 y súmalos a las horas. Por ejemplo, 3 horas y 45 minutos equivalen a 3 + 45/60 = 3,75 horas decimales. Puedes hacerlo automáticamente en la pestaña \"Convertir a decimal\" de esta calculadora, en ambos sentidos."
-      },
-      {
         "question": "¿Puedo sumar o restar horas a una hora concreta?",
-        "answer": "Sí, en la pestaña \"Sumar/Restar\" introduces una hora inicial y la cantidad de horas y minutos que quieres sumar o restar. La calculadora te da la hora resultante y te avisa si el cálculo pasa al día siguiente o al día anterior."
+        "answer": "Sí. En «Sumar / Restar» eliges la hora inicial y la cantidad de horas y minutos. La calculadora te da la hora resultante y te avisa si pasa al día siguiente o al anterior."
       },
       {
         "question": "¿Por qué se usan las horas decimales en las nóminas?",
-        "answer": "Las hojas de cálculo y los programas de gestión de nóminas necesitan multiplicar las horas trabajadas por un precio por hora, y esa operación es mucho más sencilla con números decimales que con el formato sexagesimal horas:minutos. Por eso es habitual convertir, por ejemplo, 7 horas y 30 minutos a 7,5 horas antes de calcular el salario."
+        "answer": "Porque para multiplicar las horas por una tarifa es mucho más fácil trabajar con decimales: 7 horas y 30 minutos se escriben 7.5 horas antes de calcular el pago."
       },
       {
         "question": "¿Esta calculadora tiene en cuenta las horas extra?",
-        "answer": "La calculadora te muestra el total de horas trabajadas en formato horas:minutos, minutos totales y decimal; a partir de ese dato puedes comparar con tu jornada habitual para saber cuántas horas extra has realizado, aunque el cálculo del recargo o compensación depende del convenio de cada empresa."
+        "answer": "Te da el total trabajado, que puedes comparar con tu jornada habitual. El recargo de las horas extra depende de la ley de cada país y de tu contrato."
       },
       {
-        "question": "¿Es gratis la calculadora de horas?",
-        "answer": "Sí, es completamente gratuita, no requiere registro y funciona directamente en tu navegador desde el ordenador, la tablet o el móvil, sin límite de usos."
+        "question": "¿Cuántas horas son 450 minutos?",
+        "answer": "7 horas y 30 minutos, es decir, 7.5 horas: 450 ÷ 60 = 7.5."
+      },
+      {
+        "question": "¿Puedo calcular toda una semana de una vez?",
+        "answer": "La calculadora trabaja turno a turno. Calcula cada día, suma los minutos totales y convierte la suma a horas o decimales en la tercera pestaña."
+      },
+      {
+        "question": "¿Qué hago si un turno dura más de 24 horas?",
+        "answer": "La calculadora mide hasta 24 horas entre la entrada y la salida. Para guardias más largas, divide el turno en dos tramos y suma los resultados."
       }
     ],
     "relatedTools": [
@@ -1381,11 +1489,11 @@
     "shortName": "Calculadora Científica",
     "category": "calculadoras",
     "metaTitle": "Calculadora Científica Online con Historial y Memoria",
-    "metaDescription": "Calculadora científica online gratis con funciones trigonométricas, logaritmos, potencias, raíces, memoria, historial y soporte de teclado. Sin registro, todo en tu navegador.",
+    "metaDescription": "Calculadora científica online con trigonometría, logaritmos, potencias, raíces, memoria, historial y uso con el teclado. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Esta calculadora científica online incluye todas las funciones de una calculadora física avanzada (trigonometría, logaritmos, potencias, raíces, funciones hiperbólicas, factorial y memoria) sin necesidad de cambiar entre un \"modo básico\" y un \"modo científico\": todas las funciones están siempre a la vista. Puedes escribir expresiones completas como en una calculadora gráfica, ver el resultado en tiempo real mientras escribes, usar el teclado de tu ordenador igual que los botones en pantalla, y consultar el historial de tus últimos cálculos con un clic. Todo el cálculo ocurre en tu navegador: tus operaciones nunca se envían a ningún servidor.",
-    "resumen": "Calculadora científica completa en el navegador: trigonometría en grados, radianes o gradianes, logaritmos, potencias, raíces de cualquier índice, factorial, funciones hiperbólicas, memoria e historial. Escribe la expresión entera y ve el resultado mientras tecleas.",
+    "resumen": "Cuando la calculadora del teléfono se queda corta, hace falta una científica: senos y cosenos, logaritmos, potencias, raíces y factoriales. Esta es para estudiantes de secundaria y universidad, docentes, técnicos e ingenieros que necesitan resolver una expresión completa sin instalar nada. Escribes la operación con los botones o con el teclado, ves el resultado mientras tecleas y puedes recuperar cálculos anteriores del historial.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -1394,6 +1502,71 @@
         "ancho": 800,
         "alto": 841,
         "titulo": "¿Por qué sen(30) da −0,988 en la calculadora?"
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Cómo evalúa la calculadora una expresión",
+        "parrafos": [
+          "Lee la expresión completa y respeta el orden de las operaciones: primero paréntesis y funciones, luego factoriales y porcentajes, después potencias, a continuación multiplicaciones y divisiones de izquierda a derecha, y al final sumas y restas. Las potencias encadenadas se resuelven de derecha a izquierda, así que 2^3^2 es 2^9 = 512.",
+          "Un número pegado a un paréntesis, a π o a una función se multiplica sin escribir el signo: 2π o 3sin(30). Si te falta cerrar paréntesis, los cierra al final. El resultado aparece con punto decimal y hasta 15 cifras; los números muy grandes o muy pequeños se muestran en notación científica, como 1.5×10^16."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Qué altura tiene un árbol visto con un ángulo de 35° a 12 metros?",
+        "intro": "Te paras a 12 m del tronco, mides un ángulo de elevación de 35° hasta la copa y tus ojos están a 1.6 m del suelo.",
+        "pasos": [
+          {
+            "texto": "Plantea la fórmula: altura = distancia × tan(ángulo) + altura de los ojos.",
+            "operacion": "12tan(35)+1.6"
+          },
+          {
+            "texto": "Comprueba que el modo sea DEG, porque el ángulo está en grados.",
+            "operacion": "tan(35°) = 0.7002"
+          },
+          {
+            "texto": "La calculadora multiplica antes de sumar.",
+            "operacion": "12 × 0.7002 = 8.4025"
+          },
+          {
+            "texto": "Suma la altura de los ojos.",
+            "operacion": "8.4025 + 1.6 = 10.0025"
+          },
+          {
+            "texto": "Si el modo estuviera en RAD, el 35 se leería como radianes y el resultado sería falso.",
+            "operacion": "12tan(35)+1.6 = 7.2858 en RAD"
+          }
+        ],
+        "resultado": [
+          "Altura del árbol",
+          "≈ 10 m"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar la calculadora científica",
+        "pasos": [
+          {
+            "titulo": "Revisa el modo angular",
+            "texto": "Arriba a la izquierda verás DEG, RAD o GRAD; púlsalo para cambiar. Viene en DEG."
+          },
+          {
+            "titulo": "Escribe la expresión",
+            "texto": "Con los botones o con el teclado: Enter o = calcula, Retroceso borra el último elemento y Escape limpia todo."
+          },
+          {
+            "titulo": "Usa 2nd para las inversas",
+            "texto": "Convierte sin en sin⁻¹, x² en √x o log en 10ˣ; se desactiva solo tras pulsar la función."
+          },
+          {
+            "titulo": "Lee la vista previa",
+            "texto": "El resultado provisional aparece mientras escribes; si algo no cuadra, revisa los paréntesis antes de pulsar igual."
+          },
+          {
+            "titulo": "Reutiliza resultados",
+            "texto": "Ans trae el último resultado, la memoria (M+, M−, MR, MC) guarda un valor y el historial recupera cálculos anteriores con un toque."
+          }
+        ]
       },
       {
         "tipo": "tabla",
@@ -1410,7 +1583,7 @@
             "Seno, coseno, tangente",
             "sin( cos( tan(",
             "sin(30) en DEG",
-            "0,5"
+            "0.5"
           ],
           [
             "Inversas",
@@ -1470,15 +1643,74 @@
       },
       {
         "tipo": "texto",
-        "titulo": "¿Cuándo usar grados, radianes o gradianes?",
+        "titulo": "Grados, radianes o gradianes: cuándo usar cada uno",
         "parrafos": [
-          "Las funciones trigonométricas interpretan el número según el modo activo: DEG usa grados (una vuelta son 360), RAD usa radianes (una vuelta son 2π, unos 6,283) y GRAD usa gradianes (una vuelta son 400), habituales en topografía. Cambia de modo con el botón de la esquina superior izquierda.",
+          "Las funciones trigonométricas interpretan el número según el modo activo: DEG usa grados (una vuelta son 360), RAD usa radianes (una vuelta son 2π, unos 6.283) y GRAD usa gradianes (una vuelta son 400), habituales en topografía. Cambia de modo con el botón de la esquina superior izquierda.",
           "En el colegio y en problemas de geometría casi siempre se trabaja en grados; en cálculo, física y programación, en radianes. Si un ejercicio da π/4, estás en radianes."
         ]
       },
       {
+        "tipo": "mitos",
+        "titulo": "Errores frecuentes con la calculadora científica",
+        "items": [
+          {
+            "mito": "La coma sirve para escribir decimales.",
+            "realidad": "Aquí la coma separa los datos de una función, como en root(3,8). Escribe los decimales con punto: 1.6, no 1,6."
+          },
+          {
+            "mito": "−3^2 da 9.",
+            "realidad": "La potencia se calcula antes que el signo, así que da −9. Para elevar el número negativo, escribe (−3)^2."
+          },
+          {
+            "mito": "1÷2x es lo mismo que 1÷(2x).",
+            "realidad": "La multiplicación implícita va al mismo nivel que la división, de izquierda a derecha: 1÷2x es (1÷2)·x. Usa paréntesis."
+          },
+          {
+            "mito": "Si olvido un paréntesis, se cierra donde yo quería.",
+            "realidad": "Se cierra al final de la expresión: «sin(30+1» se calcula como sin(31), no como sin(30)+1."
+          }
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Cómo pasar lo que dice el libro a la calculadora?",
+        "intro": "En España y en Latinoamérica los libros usan una notación que no siempre coincide con la de los botones:",
+        "cabeceras": [
+          "En el libro o la pizarra",
+          "En esta calculadora",
+          "Dónde se ve"
+        ],
+        "filas": [
+          [
+            "sen 30°",
+            "sin(30) en DEG",
+            "Casi todos los países hispanohablantes"
+          ],
+          [
+            "tg x o tan x",
+            "tan(x)",
+            "tg es frecuente en España"
+          ],
+          [
+            "arcsen x",
+            "sin⁻¹ con 2nd, o asin(x)",
+            "Todos"
+          ],
+          [
+            "3,5 (coma decimal)",
+            "3.5",
+            "España, Argentina, Colombia y Chile"
+          ],
+          [
+            "2 · 3 (punto medio)",
+            "2×3",
+            "Libros de texto en general"
+          ]
+        ]
+      },
+      {
         "tipo": "consejos",
-        "titulo": "¿Qué tiene esta calculadora científica que no tengan otras?",
+        "titulo": "Funciones que ahorran tiempo",
         "items": [
           {
             "titulo": "Previsualización en vivo",
@@ -1508,28 +1740,28 @@
     ],
     "faqs": [
       {
-        "question": "¿Por qué mi cálculo con seno o coseno da un resultado distinto al esperado?",
-        "answer": "Casi siempre se debe al modo angular. Si escribes sin(30) esperando 0,5, asegúrate de que el indicador de modo (arriba a la izquierda) muestre \"DEG\" (grados). Si muestra \"RAD\", el 30 se interpreta como 30 radianes, no 30 grados, y el resultado será muy distinto. Pulsa el botón de modo para cambiar entre DEG, RAD y GRAD."
-      },
-      {
         "question": "¿Cómo uso las funciones inversas como arcoseno o arcocoseno?",
-        "answer": "Pulsa el botón \"2nd\" antes de pulsar la función trigonométrica: sin se convierte en sin⁻¹ (arcoseno), cos en cos⁻¹ (arcocoseno) y tan en tan⁻¹ (arcotangente). Lo mismo aplica a las funciones hiperbólicas, x² (que se convierte en √x) y log (que se convierte en 10ˣ). Después de pulsar una función con \"2nd\" activo, el modo se desactiva automáticamente, igual que en una calculadora física."
+        "answer": "Pulsa «2nd» y después la función: sin pasa a sin⁻¹, cos a cos⁻¹ y tan a tan⁻¹. También funciona con las hiperbólicas, con x² (√x) y con log (10ˣ). El modo se desactiva solo después de usarlo."
       },
       {
         "question": "¿Qué significa el botón Ans?",
-        "answer": "Ans inserta el resultado de tu último cálculo en la expresión actual, para que puedas seguir operando sobre él sin volver a escribirlo. Por ejemplo, si el resultado anterior fue 12 y escribes \"Ans × 2\", el resultado será 24."
+        "answer": "Inserta el resultado del último cálculo para seguir operando con él. Si el anterior fue 12 y escribes Ans × 2, obtienes 24."
       },
       {
         "question": "¿Cómo funcionan los botones de memoria (MC, MR, M+, M−)?",
-        "answer": "M+ suma el resultado que se está mostrando a la memoria interna, M− lo resta, MR recupera el valor guardado en memoria e inserta en la expresión, y MC borra la memoria. El indicador \"M =\" aparece junto al selector de modo cuando la memoria contiene un valor distinto de cero, para que nunca pierdas de vista lo que tienes guardado."
+        "answer": "M+ suma a la memoria el resultado que se muestra, M− lo resta, MR lo inserta en la expresión y MC la borra. Mientras haya un valor guardado, verás «M =» junto al modo."
       },
       {
         "question": "¿Se guardan mis cálculos en algún servidor?",
-        "answer": "No. Toda la lógica de esta calculadora científica se ejecuta directamente en tu navegador mediante JavaScript. Ni las operaciones que escribes ni los resultados se envían a ningún servidor externo; el historial desaparece si cierras o recargas la página."
+        "answer": "No. Todo se calcula en tu navegador y el historial desaparece al cerrar o recargar la página."
       },
       {
-        "question": "¿Es gratis esta calculadora científica?",
-        "answer": "Sí, es completamente gratuita, sin límite de operaciones, sin necesidad de registro y sin anuncios que interrumpan el cálculo. Funciona en cualquier navegador moderno, tanto en ordenador como en móvil o tablet."
+        "question": "¿Cómo escribo un número decimal?",
+        "answer": "Con punto: 2.75. La coma está reservada para separar los datos de funciones como root(n,x) o logy(base,x)."
+      },
+      {
+        "question": "¿Por qué el resultado aparece como 1.5×10^16?",
+        "answer": "Los resultados de 10^15 o más, y los menores de 0.000001, se muestran en notación científica: 1.5×10^16 es un 15 seguido de 15 ceros."
       }
     ],
     "relatedTools": [
@@ -1553,7 +1785,7 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El finiquito es la liquidación económica que la empresa debe abonarte al finalizar tu relación laboral, incluya o no indemnización por despido. Esta calculadora desglosa cada concepto por separado (salario pendiente del último mes, vacaciones no disfrutadas, parte proporcional de pagas extra e indemnización según el motivo de extinción) siguiendo el Estatuto de los Trabajadores, incluyendo el cálculo especial para contratos anteriores al 12 de febrero de 2012 en caso de despido improcedente. Introduce los datos de tu contrato y obtén una estimación detallada, con cada partida explicada.",
-    "resumen": "Calcula tu finiquito en España: salario pendiente, vacaciones no disfrutadas, pagas extra proporcionales e indemnización según el motivo del cese (12, 20, 33 o 45 días por año), con los topes del Estatuto de los Trabajadores y la doble escala para contratos anteriores a 2012.",
+    "resumen": "Cuando termina un contrato en España, la empresa debe pagar el finiquito: el salario de los días trabajados del último mes, las vacaciones no disfrutadas y la parte proporcional de las pagas extra, más la indemnización si el motivo del cese la genera. Esta calculadora es para trabajadores que dejan un empleo o han sido despedidos y quieren revisar el documento antes de firmarlo, y para pequeñas empresas que lo preparan: aplica el Estatuto de los Trabajadores, incluidos los topes y la doble escala de los contratos anteriores a 2012.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -1562,6 +1794,88 @@
         "ancho": 800,
         "alto": 1064,
         "titulo": "¿Qué conceptos incluye el finiquito en España?"
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Cómo calcula la herramienta tu finiquito",
+        "parrafos": [
+          "El salario diario es tu sueldo bruto mensual entre 30. Con él calcula el salario pendiente (los días trabajados del último mes) y las vacaciones no disfrutadas (los días que indiques). Si cobras las pagas extra aparte, suma su parte proporcional: sueldo × número de pagas ÷ 365 × días trabajados desde el 1 de enero o desde tu alta.",
+          "Para la indemnización usa el salario regulador: el sueldo anual con las pagas extra, dividido entre 365. Lo multiplica por los días por año que marca el motivo del cese y por los años trabajados, contados día a día, y aplica el tope que corresponda. Si indicas un porcentaje de IRPF, lo resta de todo menos de la indemnización."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto cobra en total un despido objetivo tras tres años y medio?",
+        "datos": [
+          [
+            "Sueldo bruto",
+            "1.800 € al mes, 14 pagas"
+          ],
+          [
+            "Alta y baja",
+            "1/03/2023 al 15/10/2026"
+          ],
+          [
+            "Vacaciones pendientes",
+            "9 días"
+          ],
+          [
+            "Motivo",
+            "Despido objetivo"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Salario del último mes: 15 días a 1.800 ÷ 30.",
+            "operacion": "15 × 60 € = 900 €"
+          },
+          {
+            "texto": "Vacaciones no disfrutadas.",
+            "operacion": "9 × 60 € = 540 €"
+          },
+          {
+            "texto": "Pagas extra: 288 días trabajados en 2026.",
+            "operacion": "1.800 × 2 ÷ 365 × 288 = 2.840,55 €"
+          },
+          {
+            "texto": "Indemnización: 1.325 días trabajados a 20 días por año, con un salario regulador de 25.200 ÷ 365.",
+            "operacion": "69,04 × 20 × 1.325 ÷ 365 = 5.012,57 €"
+          },
+          {
+            "texto": "El tope de 12 mensualidades (24.854,79 €) no se alcanza. Se suma todo.",
+            "operacion": "900 + 540 + 2.840,55 + 5.012,57"
+          }
+        ],
+        "resultado": [
+          "Total bruto",
+          "9.293,12 €"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar la calculadora de finiquito",
+        "pasos": [
+          {
+            "titulo": "Escribe tus fechas",
+            "texto": "La fecha de alta en la empresa y la de baja, que es tu último día de contrato."
+          },
+          {
+            "titulo": "Indica tu sueldo y tus pagas",
+            "texto": "El salario bruto mensual, el número de pagas extra y si te las prorratean cada mes."
+          },
+          {
+            "titulo": "Añade las vacaciones pendientes",
+            "texto": "Solo los días que no hayas disfrutado. Tu nómina o el portal del empleado suele mostrarlos."
+          },
+          {
+            "titulo": "Elige el motivo del cese",
+            "texto": "Baja voluntaria, fin de contrato temporal, despido objetivo, colectivo, improcedente u otros: de él depende la indemnización."
+          },
+          {
+            "titulo": "Revisa el desglose",
+            "texto": "Verás cada concepto, la indemnización con su tope, el total bruto y, si pones tu porcentaje de IRPF, el neto."
+          }
+        ]
       },
       {
         "tipo": "tabla",
@@ -1614,7 +1928,7 @@
       },
       {
         "tipo": "ejemplo",
-        "titulo": "¿Cuánto es la indemnización por despido improcedente con 4 años de antigüedad?",
+        "titulo": "Indemnización por despido improcedente con 4 años de antigüedad",
         "datos": [
           [
             "Salario bruto mensual",
@@ -1653,11 +1967,6 @@
         ]
       },
       {
-        "tipo": "aviso",
-        "tono": "azul",
-        "texto": "La calculadora cuenta los días exactos entre tus fechas de alta y de baja, así que su resultado puede variar unos euros respecto a un cálculo por meses completos como el del ejemplo."
-      },
-      {
         "tipo": "texto",
         "titulo": "¿Cómo se calcula la indemnización si mi contrato es anterior a 2012?",
         "parrafos": [
@@ -1665,8 +1974,30 @@
         ]
       },
       {
+        "tipo": "mitos",
+        "titulo": "Errores frecuentes al revisar un finiquito",
+        "items": [
+          {
+            "mito": "Si me voy por mi cuenta, no me deben nada.",
+            "realidad": "La baja voluntaria no da indemnización, pero sí finiquito: días trabajados, vacaciones pendientes y pagas extra."
+          },
+          {
+            "mito": "Finiquito e indemnización son lo mismo.",
+            "realidad": "El finiquito liquida lo que ya te deben. La indemnización es un pago adicional que solo generan algunos motivos de cese."
+          },
+          {
+            "mito": "Las vacaciones se pagan completas al salir.",
+            "realidad": "Solo se pagan los días generados y no disfrutados. Si ya tomaste parte de tus vacaciones, se descuentan."
+          },
+          {
+            "mito": "La parte de pagas extra siempre sale igual.",
+            "realidad": "La herramienta reparte las dos pagas sobre los días trabajados del año. Si ya cobraste alguna, revisa en tu convenio qué periodo cubre."
+          }
+        ]
+      },
+      {
         "tipo": "pasos",
-        "titulo": "¿Qué hacer si no estás de acuerdo con tu finiquito?",
+        "titulo": "Qué hacer si no estás de acuerdo con tu finiquito",
         "pasos": [
           {
             "titulo": "Compara cada concepto",
@@ -1683,11 +2014,47 @@
         ]
       },
       {
-        "tipo": "texto",
-        "titulo": "¿Qué trámites hacer después de cobrar el finiquito?",
-        "parrafos": [
-          "Si te han despedido o ha terminado tu contrato, probablemente tengas derecho a prestación por desempleo: calcula cuánto cobrarás con la [calculadora del paro](/calcular-paro). Y para saber cuánto retiene Hacienda de tu nueva nómina, usa la [calculadora de IRPF](/calculadora-irpf). ¿Trabajas en México? Usa la [calculadora de finiquito para México](/calculadora-finiquito-mexico)."
+        "tipo": "tabla",
+        "titulo": "¿Cómo se calcula el finiquito en otros países?",
+        "intro": "Cada país tiene su propia ley. Si trabajas fuera de España, usa la calculadora de [finiquito de Chile](/finiquito-chile), la de [finiquito de México](/calculadora-finiquito-mexico), la de [liquidación laboral de Colombia](/calculadora-liquidacion-laboral-colombia) o la de [indemnización por despido de Argentina](/calcular-indemnizacion-despido).",
+        "cabeceras": [
+          "País",
+          "Indemnización por despido sin causa justificada"
+        ],
+        "filas": [
+          [
+            "España",
+            "33 días por año (improcedente) o 20 días (objetivo), con topes"
+          ],
+          [
+            "Chile",
+            "30 días por año de servicio, con un máximo de 11 años y un tope de 90 UF de sueldo"
+          ],
+          [
+            "México",
+            "Tres meses de salario, más otros conceptos según el caso"
+          ],
+          [
+            "Colombia",
+            "En contrato indefinido: 30 días el primer año y 20 por cada año adicional, si el salario es menor de 10 salarios mínimos"
+          ],
+          [
+            "Argentina",
+            "Un mes de la mejor remuneración por año o fracción mayor de tres meses"
+          ]
         ]
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Trámites después de cobrar el finiquito",
+        "parrafos": [
+          "Si te han despedido o ha terminado tu contrato, probablemente tengas derecho a prestación por desempleo: calcula cuánto cobrarás con la [calculadora del paro](/calcular-paro). Y para saber cuánto retiene Hacienda de tu nueva nómina, usa la [calculadora de IRPF](/calculadora-irpf)."
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "Actualizado: noviembre de 2026. Días de indemnización y topes según los artículos 49, 51, 53 y 56 y la disposición transitoria undécima del Estatuto de los Trabajadores. Tu convenio colectivo puede mejorar estas cantidades."
       },
       {
         "tipo": "fuentes",
@@ -1706,27 +2073,27 @@
     "faqs": [
       {
         "question": "¿Es obligatorio firmar el finiquito?",
-        "answer": "No. Puedes firmar el documento indicando \"no conforme\" si no estás de acuerdo con el importe, o incluso negarte a firmarlo mientras cobras las cantidades no discutidas. Firmar \"no conforme\" conserva tu derecho a reclamar judicialmente en el plazo de 20 días hábiles (art. 59.3 del Estatuto de los Trabajadores), mientras que firmar sin reservas puede dificultar una reclamación posterior."
+        "answer": "No. Puedes firmar como «no conforme» si no estás de acuerdo con el importe y conservar tu derecho a reclamar; firmar sin reservas puede dificultar una reclamación posterior."
       },
       {
         "question": "¿Cuándo debe pagarme la empresa el finiquito?",
-        "answer": "La empresa debe abonar el finiquito el último día de la relación laboral, o inmediatamente después. Si no lo hace, puede incurrir en responsabilidad adicional, y el trabajador puede reclamar tanto la cantidad adeudada como, en algunos casos, un recargo por mora."
+        "answer": "El último día de la relación laboral o inmediatamente después. Si se retrasa, puedes reclamar la cantidad y, en algunos casos, un recargo por mora."
       },
       {
         "question": "¿El finiquito tributa en el IRPF?",
-        "answer": "El salario pendiente, las vacaciones no disfrutadas y la parte proporcional de las pagas extra tributan como rendimientos del trabajo ordinarios, sujetos a retención de IRPF. La indemnización por despido, en cambio, está exenta de IRPF hasta el límite de 180.000 €, siempre que se ajuste a la cuantía obligatoria establecida por el Estatuto de los Trabajadores."
+        "answer": "El salario, las vacaciones y las pagas extra tributan como rendimientos del trabajo. La indemnización está exenta hasta 180.000 € si no supera la cuantía obligatoria del Estatuto."
       },
       {
-        "question": "¿Qué pasa si no estoy de acuerdo con el cálculo de la empresa?",
-        "answer": "Puedes solicitar por escrito el desglose detallado del cálculo, comparar el resultado con esta calculadora o con tu convenio colectivo (que puede establecer condiciones más favorables), y si persiste el desacuerdo, acudir a la conciliación previa (SMAC o equivalente autonómico) y, si no se resuelve, presentar una demanda ante el Juzgado de lo Social."
+        "question": "¿Cuántos días de vacaciones me corresponden al irme?",
+        "answer": "El mínimo legal son 30 días naturales al año. Al salir te corresponde la parte de los días trabajados del año, menos los que ya disfrutaste."
       },
       {
         "question": "¿Cuenta el tiempo en ERTE para calcular la antigüedad del finiquito?",
-        "answer": "Sí. El tiempo en el que el contrato estuvo suspendido por un ERTE cuenta como tiempo de servicio a efectos de antigüedad, por lo que se incluye en el cálculo de las vacaciones, las pagas extra y la indemnización por despido."
+        "answer": "Sí. El tiempo con el contrato suspendido por un ERTE cuenta como antigüedad para las vacaciones, las pagas extra y la indemnización."
       },
       {
         "question": "¿Esta calculadora tiene en cuenta mi convenio colectivo?",
-        "answer": "No, esta calculadora aplica las reglas generales del Estatuto de los Trabajadores. Muchos convenios colectivos establecen condiciones más favorables (más días de vacaciones, indemnizaciones superiores a las legales, pagas extra adicionales), por lo que el resultado debe considerarse una estimación orientativa, no una cifra vinculante."
+        "answer": "No. Aplica las reglas generales del Estatuto de los Trabajadores. Muchos convenios mejoran vacaciones, pagas o indemnizaciones, así que tómalo como una estimación."
       }
     ],
     "relatedTools": [
@@ -2514,7 +2881,7 @@
     "webApp": true,
     "appCategory": "FinanceApplication",
     "intro": "El IVA (Impuesto al Valor Agregado) es un impuesto indirecto que se añade al precio de la mayoría de bienes y servicios en México. Esta calculadora funciona en ambos sentidos: puedes agregar IVA a un precio sin impuesto para saber el total a cobrar o pagar, o quitar (desglosar) el IVA de un precio que ya lo incluye para saber cuál es el subtotal real. Incluye las tres tasas vigentes (16% general, 8% en la franja fronteriza y 0% para la tasa cero) además de una tasa personalizada para otros países o casos particulares, con el resultado actualizándose al instante mientras escribes.",
-    "resumen": "Agrega o quita el IVA de un precio en segundos. En México la tasa general es 16 %, en la franja fronteriza 8 % y algunos productos van al 0 %; en Chile es 19 %. Para quitar el IVA divide entre 1.16 (o 1.19): restar el porcentaje da un resultado equivocado.",
+    "resumen": "El IVA aparece en casi cada compra y cada factura, y las dudas son siempre las mismas: cuánto se suma, cuánto se quita y por qué restar el porcentaje no da el número correcto. Esta calculadora es para pequeños negocios, profesionales independientes, contadores y compradores que revisan un ticket: agrega o quita el IVA de cualquier monto con las tasas de México (16 %, 8 % y 0 %), la de Chile (19 %) o la que escribas, y te muestra el subtotal, el impuesto y el total.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -2523,6 +2890,80 @@
         "ancho": 800,
         "alto": 784,
         "titulo": "¿Cómo quitar el IVA de un precio que ya lo incluye?"
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Cómo calcula la herramienta el impuesto",
+        "parrafos": [
+          "En el modo «Agregar IVA», el monto que escribes es el subtotal: el impuesto es subtotal × tasa ÷ 100 y el total, subtotal + impuesto. Con $2,500 y 16 %, el IVA es $400 y el total, $2,900.",
+          "En el modo «Quitar IVA», el monto es un total que ya incluye el impuesto. La herramienta lo divide entre 1 más la tasa en decimal para obtener el subtotal (entre 1.16 con el 16 %) y resta ese subtotal al total para obtener el IVA. Los resultados se muestran en pesos con dos decimales y puedes copiar el desglose completo con un botón."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánto IVA lleva una factura de $3,480 con IVA incluido?",
+        "datos": [
+          [
+            "Total de la factura",
+            "$3,480"
+          ],
+          [
+            "Tasa",
+            "16 %"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Divide el total entre 1.16.",
+            "operacion": "3,480 ÷ 1.16 = $3,000.00 de subtotal"
+          },
+          {
+            "texto": "Resta el subtotal al total.",
+            "operacion": "3,480 − 3,000 = $480.00 de IVA"
+          },
+          {
+            "texto": "Comprueba sumando el 16 % al subtotal.",
+            "operacion": "3,000 × 1.16 = $3,480.00"
+          },
+          {
+            "texto": "Si la operación fuera en la región fronteriza con tasa del 8 %:",
+            "operacion": "3,480 ÷ 1.08 = $3,222.22 · IVA $257.78"
+          },
+          {
+            "texto": "El error frecuente: restar el 16 % al total.",
+            "operacion": "3,480 × 0.84 = $2,923.20 (incorrecto)"
+          }
+        ],
+        "resultado": [
+          "IVA de la factura",
+          "$480.00"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar la calculadora de IVA",
+        "pasos": [
+          {
+            "titulo": "Elige el modo",
+            "texto": "«Agregar IVA» si tienes el precio sin impuesto; «Quitar IVA» si el precio ya lo incluye."
+          },
+          {
+            "titulo": "Escribe el monto",
+            "texto": "Sin el signo de pesos ni comas de miles: 3480, no $3,480."
+          },
+          {
+            "titulo": "Selecciona la tasa",
+            "texto": "16 % general de México, 8 % de la región fronteriza, 19 % de Chile, 0 % u «Otra» para escribir cualquier porcentaje."
+          },
+          {
+            "titulo": "Lee el desglose",
+            "texto": "Verás el subtotal, el IVA y el total, que se recalculan al cambiar cualquier dato."
+          },
+          {
+            "titulo": "Copia el resultado",
+            "texto": "El botón de copiar guarda las tres líneas para pegarlas en una cotización o un correo."
+          }
+        ]
       },
       {
         "tipo": "tabla",
@@ -2595,7 +3036,7 @@
       },
       {
         "tipo": "ejemplo",
-        "titulo": "¿Cuánto IVA lleva un servicio de $59,500 con IVA en Chile?",
+        "titulo": "Cálculo del IVA de un servicio en Chile",
         "pasos": [
           {
             "texto": "Divide el total entre 1,19 para obtener el neto.",
@@ -2609,7 +3050,8 @@
         "resultado": [
           "IVA (19 %)",
           "$9.500"
-        ]
+        ],
+        "intro": "Ejemplo con el formato chileno de miles y decimales; la calculadora muestra el resultado como $59,500.00."
       },
       {
         "tipo": "texto",
@@ -2620,47 +3062,112 @@
         ]
       },
       {
+        "tipo": "mitos",
+        "titulo": "Errores frecuentes al sacar el IVA",
+        "items": [
+          {
+            "mito": "Para quitar el IVA basta con restar el 16 % del total.",
+            "realidad": "El 16 % se calculó sobre el subtotal, no sobre el total. Restarlo de $3,480 da $2,923.20 en lugar de $3,000."
+          },
+          {
+            "mito": "Cualquier negocio en la frontera cobra el 8 %.",
+            "realidad": "Solo quien está inscrito en el padrón de beneficiarios del estímulo y cumple los requisitos del decreto. Los demás aplican el 16 %."
+          },
+          {
+            "mito": "Redondear el IVA de cada producto da lo mismo que redondear el total.",
+            "realidad": "Puede haber diferencias de centavos. En una factura con muchos conceptos, calcula el impuesto de cada uno y revisa que la suma coincida."
+          }
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "Tasas de IVA en otros países",
+        "intro": "Con la opción «Otra» puedes usar cualquiera de estas tasas generales. En Perú el impuesto se llama IGV: calcúlalo con la [calculadora de IGV](/calculadora-de-igv).",
+        "cabeceras": [
+          "País",
+          "Tasa general",
+          "Otras tasas frecuentes"
+        ],
+        "filas": [
+          [
+            "México",
+            "16 %",
+            "8 % en la región fronteriza y 0 % en alimentos básicos y medicinas"
+          ],
+          [
+            "Chile",
+            "19 %",
+            "Tasa única, con algunas exenciones"
+          ],
+          [
+            "Colombia",
+            "19 %",
+            "5 % para ciertos bienes y servicios"
+          ],
+          [
+            "España",
+            "21 %",
+            "10 % reducido y 4 % superreducido"
+          ],
+          [
+            "Argentina",
+            "21 %",
+            "10.5 % reducido y 27 % para algunos servicios"
+          ],
+          [
+            "Perú (IGV)",
+            "18 %",
+            "Incluye el 2 % de impuesto de promoción municipal"
+          ]
+        ]
+      },
+      {
+        "tipo": "aviso",
+        "tono": "azul",
+        "texto": "Actualizado: noviembre de 2026. Tasas de la Ley del Impuesto al Valor Agregado de México y del decreto de estímulos fiscales para las regiones fronterizas, y tasas generales publicadas por las autoridades tributarias de cada país."
+      },
+      {
         "tipo": "fuentes",
         "items": [
           {
-            "texto": "Ley del Impuesto al Valor Agregado (Cámara de Diputados)",
-            "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIVA.pdf"
+            "texto": "Servicio de Administración Tributaria (SAT)",
+            "url": "https://www.gob.mx/sat"
           },
           {
             "texto": "Servicio de Impuestos Internos de Chile (SII)",
             "url": "https://www.sii.cl"
+          },
+          {
+            "texto": "Procuraduría Federal del Consumidor (PROFECO)",
+            "url": "https://www.gob.mx/profeco"
           }
         ]
       }
     ],
     "faqs": [
       {
-        "question": "¿Cómo se calcula el IVA de un precio que ya lo incluye?",
-        "answer": "No se debe restar el porcentaje directamente del total, porque ese porcentaje se calculó sobre el subtotal, no sobre el total. La forma correcta es dividir el total entre 1 más la tasa en decimal (por ejemplo, entre 1.16 para el 16%) para obtener el subtotal, y luego restar el subtotal al total para obtener el IVA. Esta calculadora hace esa operación automáticamente en el modo \"Quitar IVA\"."
-      },
-      {
-        "question": "¿Cuándo se aplica la tasa del 8% en lugar del 16%?",
-        "answer": "La tasa del 8% aplica únicamente a operaciones realizadas por residentes de la región fronteriza (la franja fronteriza norte y ciertos municipios de la frontera sur), siempre que la entrega de los bienes o la prestación del servicio se realice dentro de esa región y se cumplan los requisitos específicos del decreto de estímulos fiscales. Fuera de esas zonas, la tasa general del 16% es la que aplica."
-      },
-      {
-        "question": "¿Qué productos tienen tasa 0% de IVA en México?",
-        "answer": "Entre los principales están: alimentos no procesados y algunos procesados básicos (excepto ciertas categorías como refrescos y alimentos con alto contenido calórico), medicinas de patente, libros, periódicos y revistas, animales y vegetales no industrializados, agua no gaseosa ni compuesta, hielo, y la exportación de bienes y algunos servicios. La lista completa está en el artículo 2-A de la Ley del IVA."
+        "question": "¿Qué productos tienen tasa 0 % de IVA en México?",
+        "answer": "Entre otros, alimentos básicos sin procesar y muchos procesados (salvo bebidas azucaradas y alimentos de alto contenido calórico), medicinas de patente, libros y revistas, agua no gaseosa y las exportaciones. La lista está en el artículo 2-A de la Ley del IVA."
       },
       {
         "question": "¿Los contribuyentes en RESICO pagan IVA?",
-        "answer": "El Régimen Simplificado de Confianza (RESICO) es un régimen del ISR, no del IVA. Los contribuyentes en RESICO, ya sean personas físicas o morales, siguen obligados a trasladar y pagar el IVA conforme a las reglas generales de la Ley del IVA en las mismas tasas (16%, 8% o 0%) que cualquier otro contribuyente, salvo que sus actividades específicas estén exentas o graven a tasa 0%."
+        "answer": "Sí. El RESICO es un régimen del ISR, no del IVA, así que se cobra y se paga el IVA con las tasas normales salvo que la actividad esté exenta o a tasa 0 %."
       },
       {
-        "question": "¿Puedo usar esta calculadora para el IVA de otro país?",
-        "answer": "Sí. Aunque las tasas predefinidas (16%, 8% y 0%) corresponden a México, la opción \"Otra\" te permite introducir cualquier porcentaje, por lo que puedes usarla para calcular el IVA o impuesto al valor agregado equivalente de cualquier otro país (por ejemplo, 19% en Colombia o Chile, 21% en Argentina o España)."
+        "question": "¿Puedo usar una tasa que no aparece en la lista?",
+        "answer": "Sí. Elige «Otra» y escribe el porcentaje, por ejemplo 21 para España o Argentina, o 19 para Colombia."
       },
       {
-        "question": "¿Es gratis esta calculadora de IVA?",
-        "answer": "Sí, es completamente gratuita, no requiere registro y el cálculo se realiza directamente en tu navegador, sin enviar tus datos a ningún servidor."
+        "question": "¿Qué es el IVA trasladado y el acreditable?",
+        "answer": "El trasladado es el que cobras a tus clientes; el acreditable, el que pagas en tus compras del negocio. Al SAT le pagas la diferencia entre ambos."
       },
       {
-        "question": "¿Cómo se calcula el IVA en Chile?",
-        "answer": "Multiplica el precio neto por 0.19 para obtener el IVA, o por 1.19 para obtener el total. Para sacar el neto de un total con IVA, divide entre 1.19."
+        "question": "¿Cada cuándo se declara el IVA en México?",
+        "answer": "Cada mes, a más tardar el día 17 del mes siguiente, salvo regímenes con reglas especiales."
+      },
+      {
+        "question": "¿Los precios al público deben incluir el IVA?",
+        "answer": "Sí. En México, el precio que se exhibe al consumidor debe ser el total, con impuestos incluidos, según la Ley Federal de Protección al Consumidor."
       }
     ],
     "relatedTools": [
@@ -2916,11 +3423,11 @@
     "shortName": "Calcular CURP",
     "category": "calculadoras",
     "metaTitle": "Calcular CURP Online Gratis | Genera tu Clave al Instante",
-    "metaDescription": "Calcula tu CURP a partir de tu nombre, apellidos, fecha de nacimiento, sexo y estado. Incluye el dígito verificador real del algoritmo RENAPO. Gratis y sin registro.",
+    "metaDescription": "Calcula tu CURP con tu nombre, apellidos, fecha de nacimiento, sexo y estado, con el dígito verificador del algoritmo de RENAPO. Gratis y sin registro.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "La CURP (Clave Única de Registro de Población) es el código de 18 caracteres que identifica de forma única a cada persona registrada en México. Esta calculadora reproduce el algoritmo oficial que usa RENAPO: toma las primeras letras de tus apellidos y nombre, tu fecha de nacimiento, tu sexo y tu entidad de nacimiento, aplica el filtro de palabras inconvenientes cuando corresponde, y calcula el dígito verificador real mediante el mismo algoritmo de suma ponderada que usa el gobierno, no una aproximación simplificada.",
-    "resumen": "Calcula tu CURP de 18 caracteres con tu nombre, fecha y estado de nacimiento y sexo, con el mismo algoritmo que usa RENAPO, incluido el dígito verificador. Para trámites, descarga siempre la constancia oficial en gob.mx/curp.",
+    "resumen": "La Clave Única de Registro de Población (CURP) es el identificador de 18 caracteres que piden en México para inscribirse en la escuela, darse de alta en el IMSS, abrir una cuenta o hacer casi cualquier trámite. Esta calculadora es para quien necesita saber su CURP o la de un familiar y no tiene la constancia a mano: con el nombre, los apellidos, la fecha y el estado de nacimiento y el sexo, arma la clave con las reglas públicas de RENAPO, incluido el dígito verificador.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -2929,6 +3436,88 @@
         "ancho": 800,
         "alto": 852,
         "titulo": "¿Qué significa cada letra y número de la CURP?"
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Cómo arma la herramienta los 18 caracteres",
+        "parrafos": [
+          "Las cuatro primeras letras salen del primer apellido (su inicial y su primera vocal interna), de la inicial del segundo apellido y de la inicial del nombre. Siguen seis cifras con la fecha de nacimiento en formato año, mes y día, una letra para el sexo (H o M) y dos letras para el estado de nacimiento.",
+          "Las posiciones 14 a 16 son la primera consonante interna de cada apellido y del nombre. La 17 distingue a quienes nacieron antes de 2000 (0) de quienes nacieron después (A), y la 18 es el dígito verificador, que se calcula con las 17 anteriores. Antes de todo esto, la herramienta quita tildes, signos y partículas como «de» o «la»."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cuál es la CURP de María Fernanda Gómez Ruiz?",
+        "datos": [
+          [
+            "Nombre",
+            "María Fernanda"
+          ],
+          [
+            "Apellidos",
+            "Gómez Ruiz"
+          ],
+          [
+            "Nacimiento",
+            "7 de febrero de 2003, Puebla"
+          ],
+          [
+            "Sexo",
+            "Mujer"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Letras iniciales: G y O de Gómez, R de Ruiz y F de Fernanda, porque María se omite cuando hay segundo nombre.",
+            "operacion": "GORF"
+          },
+          {
+            "texto": "Fecha, sexo y estado.",
+            "operacion": "030207 · M · PL"
+          },
+          {
+            "texto": "Consonantes internas de Gómez, Ruiz y Fernanda.",
+            "operacion": "M · Z · R"
+          },
+          {
+            "texto": "Nació en 2003, así que la posición 17 es una letra.",
+            "operacion": "A"
+          },
+          {
+            "texto": "Dígito verificador: la suma ponderada da 2352; el residuo entre 10 es 2 y 10 − 2 = 8.",
+            "operacion": "8"
+          }
+        ],
+        "resultado": [
+          "CURP calculada",
+          "GORF030207MPLMZRA8"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo calcular tu CURP con la herramienta",
+        "pasos": [
+          {
+            "titulo": "Escribe tu nombre completo",
+            "texto": "Todos tus nombres, tal como aparecen en tu acta de nacimiento."
+          },
+          {
+            "titulo": "Escribe los dos apellidos",
+            "texto": "Si solo tienes uno, deja vacío el segundo y la herramienta pondrá X donde corresponda."
+          },
+          {
+            "titulo": "Elige la fecha de nacimiento",
+            "texto": "Día, mes y año completos."
+          },
+          {
+            "titulo": "Indica el sexo y el estado de nacimiento",
+            "texto": "El estado donde naciste, no donde vives. Si naciste fuera de México, elige «Nacido en el extranjero»."
+          },
+          {
+            "titulo": "Pulsa «Calcular CURP»",
+            "texto": "Verás la clave de 18 caracteres y podrás copiarla con un clic."
+          }
+        ]
       },
       {
         "tipo": "tabla",
@@ -2968,7 +3557,7 @@
       },
       {
         "tipo": "texto",
-        "titulo": "¿Cómo se calcula el último dígito de la CURP?",
+        "titulo": "El dígito verificador, paso a paso",
         "parrafos": [
           "Cada uno de los primeros 17 caracteres se convierte en un número (0 a 9 para los dígitos y 10 a 36 para las letras, con la Ñ incluida) y se multiplica por un peso que va de 18 a 2. Se suman los resultados, se toma el residuo de dividir entre 10 y se resta de 10. Si sale 10, el dígito es 0.",
           "Gracias a este dígito un error de captura se detecta al momento. Si ya tienes tu CURP y quieres comprobar que está bien formada, usa el [validador de CURP](/validar-curp)."
@@ -2997,8 +3586,30 @@
         ]
       },
       {
+        "tipo": "mitos",
+        "titulo": "Errores frecuentes al calcular la CURP",
+        "items": [
+          {
+            "mito": "Puedo usar el apellido de casada o el nombre con el que me conocen.",
+            "realidad": "La CURP sale de los datos del acta de nacimiento. Cualquier otro nombre da una clave distinta."
+          },
+          {
+            "mito": "El estado es donde vivo ahora.",
+            "realidad": "Es el estado de nacimiento. Alguien nacido en Puebla que vive en Monterrey lleva PL, no NL."
+          },
+          {
+            "mito": "Las 18 posiciones siempre coinciden con la oficial.",
+            "realidad": "La posición 17 la asigna RENAPO cuando hay dos personas con los mismos datos, así que puede variar."
+          },
+          {
+            "mito": "Hay que pagar para obtener la CURP certificada.",
+            "realidad": "La constancia oficial se descarga gratis en gob.mx. Ninguna página tiene que cobrarte por ella."
+          }
+        ]
+      },
+      {
         "tipo": "pasos",
-        "titulo": "¿Cómo descargar tu CURP oficial gratis?",
+        "titulo": "Descarga gratis tu constancia oficial",
         "pasos": [
           {
             "titulo": "Entra a gob.mx/curp",
@@ -3015,6 +3626,48 @@
         ]
       },
       {
+        "tipo": "tabla",
+        "titulo": "¿Qué documento equivale a la CURP en otros países?",
+        "intro": "La CURP solo existe en México. Otros países usan números de identidad con su propio dígito de control: compruébalos con la calculadora del [RUT de Chile](/calcular-rut), del [NIT de Colombia](/calcular-nit), del [CUIL de Argentina](/calcular-cuil) o de la [letra del DNI de España](/calcular-letra-dni).",
+        "cabeceras": [
+          "País",
+          "Identificador",
+          "Cómo se forma"
+        ],
+        "filas": [
+          [
+            "México",
+            "CURP",
+            "18 caracteres a partir del nombre, la fecha, el sexo y el estado"
+          ],
+          [
+            "España",
+            "DNI",
+            "8 números y una letra de control"
+          ],
+          [
+            "Chile",
+            "RUT o RUN",
+            "Número con un dígito verificador"
+          ],
+          [
+            "Colombia",
+            "Cédula y NIT",
+            "La cédula es un número; el NIT añade un dígito de verificación"
+          ],
+          [
+            "Argentina",
+            "DNI y CUIL",
+            "El CUIL suma un prefijo y un dígito verificador al DNI"
+          ],
+          [
+            "Perú",
+            "DNI",
+            "8 dígitos, con un dígito de verificación impreso en el documento"
+          ]
+        ]
+      },
+      {
         "tipo": "fuentes",
         "items": [
           {
@@ -3027,27 +3680,27 @@
     "faqs": [
       {
         "question": "¿Esta calculadora obtiene mi CURP oficial y verificada?",
-        "answer": "Calcula tu CURP siguiendo exactamente el mismo algoritmo que usa RENAPO, incluido el dígito verificador real. Coincidirá con tu CURP oficial en la gran mayoría de los casos. La única incertidumbre está en la posición 17 (ver la sección \"¿Por qué podría no coincidir?\"), que en un pequeño porcentaje de casos con datos idénticos a otra persona puede variar. Para trámites oficiales, siempre debes verificar o descargar tu CURP en renapo.gob.mx."
+        "answer": "Aplica las mismas reglas que RENAPO, incluido el dígito verificador, y suele coincidir. Solo la posición 17 puede variar en casos con datos idénticos. Para trámites, descarga tu constancia en gob.mx."
       },
       {
         "question": "¿Qué pasa si no tengo apellido materno?",
-        "answer": "La calculadora usa automáticamente una X en la posición 3 (y también en la posición 15, la consonante interna del apellido materno), tal como especifica el algoritmo oficial para personas con un solo apellido."
+        "answer": "La herramienta pone una X en la posición 3 y otra en la 15, como indica el algoritmo para personas con un solo apellido."
       },
       {
-        "question": "¿Por qué mi nombre \"María\" o \"José\" no aparece en mi CURP?",
-        "answer": "Es una regla específica del algoritmo: cuando el primer nombre es \"María\" o \"José\" y la persona tiene un segundo nombre, la CURP usa la primera letra del segundo nombre en lugar de la primera letra de \"María\" o \"José\", ya que estos son extremadamente comunes en México y esta regla ayuda a reducir las coincidencias entre distintas personas."
+        "question": "¿Por qué mi nombre «María» o «José» no aparece en mi CURP?",
+        "answer": "Porque si tienes segundo nombre, la CURP usa su inicial en lugar de la de María o José, que son muy frecuentes en México."
       },
       {
         "question": "¿Qué es el dígito verificador y para qué sirve?",
-        "answer": "Es el último carácter de la CURP (posición 18), calculado matemáticamente a partir de los 17 caracteres anteriores. Sirve para detectar errores de transcripción: si alguien escribe mal un carácter de tu CURP, es muy probable que el dígito verificador ya no coincida, lo que permite a los sistemas detectar el error automáticamente."
+        "answer": "Es el último carácter, calculado con los 17 anteriores. Si alguien copia mal tu CURP, el dígito deja de coincidir y el sistema detecta el error."
       },
       {
         "question": "¿La CURP cambia si me caso o cambio de apellido?",
-        "answer": "No. La CURP se genera a partir de los datos de tu acta de nacimiento y no cambia por matrimonio, divorcio ni por el uso social de un apellido distinto, salvo en casos excepcionales de corrección administrativa o judicial de tu acta de nacimiento."
+        "answer": "No. Se basa en tu acta de nacimiento y solo cambia si esa acta se corrige por vía administrativa o judicial."
       },
       {
-        "question": "¿Es gratis esta calculadora de CURP?",
-        "answer": "Sí, es completamente gratuita, no requiere registro y el cálculo se realiza directamente en tu navegador: tus datos personales no se envían a ningún servidor."
+        "question": "¿Qué hago si mi CURP oficial tiene un error?",
+        "answer": "Compara tus datos con el acta de nacimiento. Si el error está en la CURP, solicita la corrección ante RENAPO o en el Registro Civil; si está en el acta, primero hay que corregir el acta."
       }
     ],
     "relatedTools": [
@@ -3610,11 +4263,11 @@
     "shortName": "Generador Contraseñas",
     "category": "generadores",
     "metaTitle": "Generador de Contraseñas Seguras Online Gratis",
-    "metaDescription": "Genera contraseñas seguras y aleatorias con mayúsculas, minúsculas, números y símbolos. Usa criptografía real del navegador, con medidor de fortaleza. Gratis.",
+    "metaDescription": "Genera contraseñas seguras y aleatorias con mayúsculas, minúsculas, números y símbolos, con criptografía del navegador y medidor de fortaleza. Gratis.",
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Este generador crea contraseñas verdaderamente aleatorias usando la API criptográfica del navegador (Web Crypto API), la misma tecnología que usan los gestores de contraseñas profesionales, no un simple Math.random() como hacen muchos generadores online. Ajusta la longitud y los tipos de caracteres, revisa el medidor de fortaleza basado en bits de entropía, y copia tu contraseña con un clic.",
-    "resumen": "Genera contraseñas aleatorias de verdad con la API criptográfica del navegador. Elige longitud y tipos de caracteres, excluye los que se confunden (l, 1, I, O, 0) y copia el resultado. Nada sale de tu dispositivo.",
+    "resumen": "Las contraseñas que inventamos se parecen demasiado entre sí: nombres, fechas, el equipo favorito con un número al final. Este generador es para cualquiera que abra una cuenta nueva, cambie una clave filtrada o configure el WiFi de casa o de un negocio: crea contraseñas al azar con la fuente criptográfica del navegador, te deja elegir la longitud y los tipos de caracteres, mide su fortaleza en bits y nunca envía nada fuera de tu dispositivo.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -3623,6 +4276,80 @@
         "ancho": 800,
         "alto": 856,
         "titulo": "¿Cuánto tarda un hacker en descifrar mi contraseña?"
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Cómo genera la herramienta cada contraseña",
+        "parrafos": [
+          "Primero arma el conjunto de caracteres con los grupos que activaste: 26 mayúsculas, 26 minúsculas, 10 números y 26 símbolos, 88 en total. Si marcas «Excluir caracteres ambiguos», quita I, l, 1, O, 0, o, B y 8. Después pide al navegador tantos números aleatorios como caracteres quieras y usa cada uno para elegir un carácter del conjunto.",
+          "El medidor calcula la entropía como longitud × log₂(tamaño del conjunto) y la clasifica: menos de 40 bits es débil, de 40 a 59 media, de 60 a 79 fuerte y 80 o más, muy fuerte. Cada bit más duplica el número de combinaciones que un atacante tendría que probar."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Qué tan segura es una contraseña de 12 caracteres con todo activado?",
+        "datos": [
+          [
+            "Longitud",
+            "12"
+          ],
+          [
+            "Caracteres posibles",
+            "88 (mayúsculas, minúsculas, números y símbolos)"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Bits que aporta cada carácter.",
+            "operacion": "log₂(88) = 6.46 bits"
+          },
+          {
+            "texto": "Entropía total.",
+            "operacion": "12 × 6.46 = 77.5 bits → «Fuerte»"
+          },
+          {
+            "texto": "Combinaciones posibles.",
+            "operacion": "88¹² ≈ 2.16 × 10²³"
+          },
+          {
+            "texto": "A un ritmo hipotético de 10,000 millones de intentos por segundo, probarlas todas llevaría:",
+            "operacion": "≈ 683,000 años"
+          },
+          {
+            "texto": "Con 16 caracteres el medidor pasa a «Muy fuerte».",
+            "operacion": "16 × 6.46 = 103 bits"
+          }
+        ],
+        "resultado": [
+          "Recomendación",
+          "16 caracteres o más"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo crear tu contraseña paso a paso",
+        "pasos": [
+          {
+            "titulo": "Ajusta la longitud",
+            "texto": "Mueve el control entre 4 y 64 caracteres. Viene en 16, una buena medida para casi cualquier cuenta."
+          },
+          {
+            "titulo": "Elige los tipos de caracteres",
+            "texto": "Mayúsculas, minúsculas, números y símbolos. Siempre debe quedar al menos uno activado."
+          },
+          {
+            "titulo": "Excluye los ambiguos si vas a escribirla a mano",
+            "texto": "Útil para una clave de WiFi que leerás en voz alta o copiarás de un papel."
+          },
+          {
+            "titulo": "Revisa la fortaleza",
+            "texto": "La barra y los bits de entropía se actualizan con cada cambio."
+          },
+          {
+            "titulo": "Copia la contraseña",
+            "texto": "Pulsa el botón de copiar. Si no te convence, genera otra: las cinco últimas aparecen debajo hasta que recargues la página."
+          }
+        ]
       },
       {
         "tipo": "comparacion",
@@ -3653,7 +4380,29 @@
         "titulo": "¿Por qué importa que el generador sea criptográficamente seguro?",
         "parrafos": [
           "Muchos generadores online usan Math.random(), una función pensada para juegos y animaciones cuyo resultado se puede predecir si se conoce su estado interno. Este generador usa crypto.getRandomValues(), la fuente de aleatoriedad del sistema operativo que usan los gestores de contraseñas y los navegadores para el cifrado.",
-          "La seguridad de una contraseña se mide en bits de entropía: longitud × log₂(caracteres posibles). Con 94 caracteres, cada uno aporta unos 6,6 bits; una contraseña de 16 llega a 105 bits, fuera del alcance de cualquier ataque de fuerza bruta conocido."
+          "Con los 88 caracteres disponibles, cada uno aporta unos 6.46 bits de entropía; una contraseña de 16 llega a unos 103 bits, fuera del alcance de cualquier ataque de fuerza bruta conocido."
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "Ideas equivocadas sobre las contraseñas",
+        "items": [
+          {
+            "mito": "Cambiar letras por números, como en «P4ssw0rd», la vuelve segura.",
+            "realidad": "Los programas de ataque prueban esas sustituciones desde el principio. Lo que protege es el azar y la longitud."
+          },
+          {
+            "mito": "Una frase famosa larga es tan buena como una clave al azar.",
+            "realidad": "Refranes, letras de canciones y citas están en las listas que usan los atacantes. Una clave generada no aparece en ninguna."
+          },
+          {
+            "mito": "Excluir los caracteres ambiguos no cambia la fortaleza.",
+            "realidad": "Quita 8 de los 88 caracteres. El medidor no lo descuenta, así que suma uno o dos caracteres para compensar."
+          },
+          {
+            "mito": "Los símbolos se escriben igual en cualquier teclado.",
+            "realidad": "En los teclados de España y de Latinoamérica, signos como @, # o ^ están en teclas distintas. Si vas a escribirla en otra computadora, compruébalo."
+          }
         ]
       },
       {
@@ -3676,28 +4425,36 @@
       },
       {
         "tipo": "texto",
-        "titulo": "¿Necesitas otro tipo de código aleatorio?",
+        "titulo": "Otros generadores de códigos aleatorios",
         "parrafos": [
-          "Para identificadores únicos en bases de datos usa el [generador de UUID](/generador-uuid); para comprobar la integridad de un archivo o un texto, el [generador de hash](/generador-hash)."
+          "Para identificadores únicos en bases de datos usa el [generador de UUID](/generador-uuid); para comprobar la integridad de un archivo o un texto, el [generador de hash](/generador-hash). Si la contraseña es la de tu WiFi, compártela sin dictarla con un código del [generador de QR](/generador-qr)."
         ]
       }
     ],
     "faqs": [
       {
         "question": "¿Esta herramienta guarda o envía mis contraseñas a algún servidor?",
-        "answer": "No. Toda la generación ocurre en tu navegador mediante JavaScript. Ninguna contraseña generada se envía, se registra ni se almacena en ningún servidor; el historial de contraseñas recientes desaparece si recargas la página."
+        "answer": "No. Se generan en tu navegador y no se envían ni se guardan. La lista de recientes desaparece al recargar la página."
       },
       {
         "question": "¿Cuántos caracteres debería tener una contraseña segura?",
-        "answer": "Se recomienda un mínimo de 12 caracteres para cuentas normales, y 16 o más para cuentas sensibles (correo principal, banca, gestor de contraseñas). Cuanto más larga, exponencialmente más difícil es de adivinar por fuerza bruta."
+        "answer": "Al menos 12 para cuentas normales y 16 o más para el correo, el banco o el gestor de contraseñas."
       },
       {
         "question": "¿Por qué debería excluir caracteres ambiguos?",
-        "answer": "Si vas a transcribir la contraseña a mano (por ejemplo, en un papel o al dictarla), caracteres como la \"l\" minúscula, el \"1\", la \"I\" mayúscula, la \"O\" mayúscula y el \"0\" pueden confundirse fácilmente. Excluirlos reduce ese riesgo, a costa de una pequeña reducción en la variedad de caracteres disponibles."
+        "answer": "Si vas a copiarla a mano o dictarla, la l, el 1, la I, la O y el 0 se confunden con facilidad. Excluirlos evita errores a cambio de un poco menos de variedad."
       },
       {
         "question": "¿Debería usar la misma contraseña generada para varias cuentas?",
-        "answer": "No. Usa una contraseña distinta y generada aleatoriamente para cada cuenta importante, y guárdalas en un gestor de contraseñas. Reutilizar contraseñas significa que, si un solo sitio sufre una filtración, todas tus demás cuentas con esa misma contraseña quedan expuestas."
+        "answer": "No. Usa una distinta en cada cuenta y guárdalas en un gestor. Si un sitio sufre una filtración, las demás cuentas siguen a salvo."
+      },
+      {
+        "question": "¿Qué significan los bits de entropía?",
+        "answer": "Miden cuántas combinaciones posibles hay: con 80 bits, un atacante tendría que probar del orden de 2⁸⁰ claves. El medidor marca «Muy fuerte» desde ese nivel."
+      },
+      {
+        "question": "¿Puedo usar la ñ o letras con tilde?",
+        "answer": "El generador no las incluye. Algunos sistemas las rechazan y en teclados de otros países puede no haber ñ, así que es más práctico evitarlas."
       }
     ],
     "relatedTools": [
@@ -4357,11 +5114,11 @@
     "webApp": true,
     "appCategory": "EntertainmentApplication",
     "intro": "Este generador de nombres aleatorios cubre cuatro categorías: nombres de persona (con o sin apellido, filtrando por sexo), nombres de mascotas (perros y gatos), nombres de personajes de fantasía, y nombres de usuario combinando palabras y números. Elige la categoría, ajusta las opciones y genera hasta 30 nombres de una sola vez.",
-    "resumen": "Genera nombres aleatorios de persona (con apellido y filtrados por sexo), de mascotas, de personajes de fantasía o de usuario. Pulsa de nuevo para otra tanda y copia los que te gusten.",
+    "resumen": "A veces solo necesitas un nombre, y rápido: para el personaje secundario de un cuento, la mascota que acaba de llegar, el elfo de una partida de rol o un perfil nuevo en un juego. Este generador es para escritores, jugadores, docentes, diseñadores que rellenan maquetas y familias indecisas: eliges la categoría (personas, mascotas, fantasía o usuario), cuántos nombres quieres y obtienes una tanda al azar que puedes repetir hasta encontrar el que encaja.",
     "bloques": [
       {
         "tipo": "comparacion",
-        "titulo": "¿Qué tipos de nombres puedo generar?",
+        "titulo": "Categorías de nombres disponibles",
         "columnas": [
           {
             "titulo": "Personas y mascotas",
@@ -4392,8 +5149,72 @@
         "titulo": "¿Cómo se inventa un nombre de fantasía?"
       },
       {
+        "tipo": "texto",
+        "titulo": "Cómo elige la herramienta cada nombre",
+        "parrafos": [
+          "Para personas, toma al azar un nombre de una lista de 30 masculinos y 30 femeninos y, si lo pides, le añade uno de 30 apellidos frecuentes en español. Para mascotas elige entre 20 nombres de perro y 20 de gato. Cada nombre se sortea por separado, así que en una misma tanda puede salir dos veces.",
+          "Los nombres de fantasía se arman uniendo una sílaba inicial de una lista de 20 con una o dos terminaciones de otra lista de 20, y se ponen con mayúscula inicial: hay 8,400 combinaciones posibles. Los de usuario juntan dos palabras de una lista de 15 y un número entre 0 y 9998."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se forma un nombre de fantasía como Kaelorawen?",
+        "pasos": [
+          {
+            "texto": "La herramienta decide al azar si el nombre tendrá dos o tres partes.",
+            "operacion": "3 partes"
+          },
+          {
+            "texto": "Elige la sílaba inicial.",
+            "operacion": "Kael"
+          },
+          {
+            "texto": "Añade dos terminaciones de la segunda lista.",
+            "operacion": "Kael + ora + wen"
+          },
+          {
+            "texto": "Deja la primera letra en mayúscula y el resto en minúscula.",
+            "operacion": "Kaelorawen"
+          },
+          {
+            "texto": "Cuenta las combinaciones: con dos partes hay 20 × 20 y con tres, 20 × 20 × 20.",
+            "operacion": "400 + 8,000 = 8,400 nombres posibles"
+          }
+        ],
+        "resultado": [
+          "Nombre generado",
+          "Kaelorawen"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo generar una tanda de nombres",
+        "pasos": [
+          {
+            "titulo": "Elige la categoría",
+            "texto": "Personas, Mascotas, Fantasía o Usuario, en las pestañas de arriba."
+          },
+          {
+            "titulo": "Ajusta las opciones",
+            "texto": "En personas, el sexo y si quieres apellido; en mascotas, perro, gato o cualquiera."
+          },
+          {
+            "titulo": "Indica la cantidad",
+            "texto": "Entre 1 y 30 nombres por tanda. Vienen 8."
+          },
+          {
+            "titulo": "Pulsa «Generar nombres»",
+            "texto": "La lista aparece debajo. Cada vez que pulses, sale una tanda nueva."
+          },
+          {
+            "titulo": "Guarda los que te gusten",
+            "texto": "Selecciónalos y cópialos a tu documento, porque la lista cambia con la siguiente tanda."
+          }
+        ]
+      },
+      {
         "tipo": "consejos",
-        "titulo": "¿Para qué sirve un generador de nombres aleatorios?",
+        "titulo": "Usos habituales de un generador de nombres",
         "items": [
           {
             "titulo": "Escribir una historia",
@@ -4414,6 +5235,52 @@
         ]
       },
       {
+        "tipo": "mitos",
+        "titulo": "Lo que conviene saber sobre los resultados",
+        "items": [
+          {
+            "mito": "En una tanda nunca se repite un nombre.",
+            "realidad": "Cada nombre se sortea aparte. Al pedir 8 nombres de perro entre 20 posibles, la probabilidad de que alguno se repita ronda el 80 %."
+          },
+          {
+            "mito": "Los nombres de persona llevan los dos apellidos.",
+            "realidad": "La herramienta añade uno. Si necesitas el segundo, genera otra tanda y toma un apellido de ahí."
+          },
+          {
+            "mito": "Si me gusta un nombre de usuario, está libre.",
+            "realidad": "La herramienta no consulta ninguna red ni juego. Comprueba en la plataforma que nadie lo use."
+          },
+          {
+            "mito": "Todos los nombres de fantasía suenan bien.",
+            "realidad": "Las sílabas se combinan al azar. Genera varias tandas y quédate con los que puedas pronunciar sin esfuerzo."
+          }
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿Cómo se forma un nombre completo en cada país?",
+        "intro": "Si buscas un nombre realista para un personaje, ten en cuenta cómo se usan los apellidos donde vive:",
+        "cabeceras": [
+          "País",
+          "Apellidos habituales"
+        ],
+        "filas": [
+          [
+            "México, Colombia, Perú y Chile",
+            "Dos: primero el del padre y después el de la madre"
+          ],
+          [
+            "España",
+            "Dos; desde 2017 los padres eligen el orden de común acuerdo"
+          ],
+          [
+            "Argentina",
+            "Uno o dos; el primero puede ser el de cualquiera de los progenitores"
+          ]
+        ],
+        "nota": "En el trato diario se usa a menudo solo el primer apellido, pero en documentos oficiales suelen aparecer los dos."
+      },
+      {
         "tipo": "texto",
         "titulo": "¿Buscas el nombre de un bebé o de una empresa?",
         "parrafos": [
@@ -4424,19 +5291,27 @@
     "faqs": [
       {
         "question": "¿Los nombres se repiten si genero varias veces?",
-        "answer": "Es posible que se repita algún nombre ocasionalmente, ya que la selección es aleatoria e independiente en cada generación, especialmente en categorías con listas más cortas como mascotas. Los nombres de fantasía, al construirse por combinación de sílabas, tienen muchas menos probabilidades de repetirse."
+        "answer": "Puede pasar, sobre todo en mascotas, que tienen listas más cortas. Los de fantasía, al combinar sílabas, se repiten mucho menos."
       },
       {
         "question": "¿Puedo generar nombres solo masculinos o solo femeninos?",
-        "answer": "Sí, en la categoría \"Personas\" puedes filtrar por sexo (masculino, femenino, o cualquiera) y decidir si quieres que se incluya un apellido junto al nombre."
+        "answer": "Sí. En la categoría Personas elige el sexo y decide si quieres un apellido junto al nombre."
       },
       {
-        "question": "¿Sirve este generador para nombrar una empresa o marca?",
-        "answer": "Está diseñado principalmente para nombres de personas, mascotas, personajes de fantasía y nombres de usuario, no para naming de marcas o empresas, que normalmente requiere considerar disponibilidad de dominio, originalidad y branding, algo que esta herramienta no evalúa."
+        "question": "¿Cuántos nombres puedo generar a la vez?",
+        "answer": "Entre 1 y 30 por tanda. Si necesitas más, pulsa «Generar nombres» otra vez."
       },
       {
-        "question": "¿Es gratis este generador de nombres?",
-        "answer": "Sí, es completamente gratuito, sin límite de generaciones y sin necesidad de registro."
+        "question": "¿Los nombres de persona son reales?",
+        "answer": "Sí. Salen de listas revisadas a mano con nombres y apellidos frecuentes en países de habla hispana."
+      },
+      {
+        "question": "¿Puedo usar los nombres en una novela o en un juego?",
+        "answer": "Sí. Son nombres comunes o inventados al azar, así que puedes usarlos libremente en tus historias, partidas o maquetas."
+      },
+      {
+        "question": "¿Se guardan los nombres que genero?",
+        "answer": "No. Todo ocurre en tu navegador y la lista desaparece al generar otra tanda o recargar la página."
       }
     ],
     "relatedTools": [
@@ -7480,7 +8355,7 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte temperaturas entre Celsius (°C), Fahrenheit (°F) y Kelvin (K) al instante. Elige la escala en la que tienes el dato y obtén su equivalencia en las otras dos escalas simultáneamente, aplicando las fórmulas exactas de conversión de temperatura.",
-    "resumen": "Escribe una temperatura en Celsius, Fahrenheit o Kelvin y obtén las otras dos al instante. Para pasar de °C a °F multiplica por 1.8 y suma 32; para el camino inverso, resta 32 y divide entre 1.8.",
+    "resumen": "Configurar un termostato o un horno importado, escribir a alguien en Estados Unidos sobre el clima o entender una ficha técnica: muchas veces tienes la temperatura en Celsius y te la piden en Fahrenheit. Este convertidor es para viajeros, cocineros, estudiantes y técnicos: escribes una temperatura en Celsius, Fahrenheit o Kelvin y ves al instante su valor en las otras dos escalas, con dos decimales.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -7491,96 +8366,206 @@
         "titulo": "¿Cuáles son las temperaturas de referencia en °C, °F y K?"
       },
       {
-        "tipo": "tabla",
-        "titulo": "¿A cuántos grados Celsius equivalen los Fahrenheit más buscados?",
-        "cabeceras": [
-          "°F",
-          "°C",
-          "Contexto"
-        ],
-        "filas": [
-          [
-            "350 °F",
-            "176.7 °C",
-            "Horno moderado en recetas de EE. UU."
-          ],
-          [
-            "100 °F",
-            "37.8 °C",
-            "Fiebre leve"
-          ],
-          [
-            "75 °F",
-            "23.9 °C",
-            "Temperatura agradable de interior"
-          ],
-          [
-            "50 °F",
-            "10 °C",
-            "Día fresco"
-          ],
-          [
-            "32 °F",
-            "0 °C",
-            "El agua se congela"
-          ],
-          [
-            "0 °F",
-            "−17.8 °C",
-            "Invierno muy frío"
-          ]
+        "tipo": "texto",
+        "titulo": "Cómo pasa la herramienta de una escala a otra",
+        "parrafos": [
+          "Siempre convierte primero a Celsius y después a la escala de destino. De Celsius a Fahrenheit multiplica por 9/5 (es decir, por 1.8) y suma 32; de Fahrenheit a Celsius resta 32 y divide entre 1.8; de Celsius a Kelvin suma 273.15 y al revés lo resta. Los resultados se muestran redondeados a dos decimales.",
+          "El 1.8 sale de comparar las dos escalas entre la congelación y la ebullición del agua: en Celsius van de 0 a 100, 100 grados, y en Fahrenheit de 32 a 212, 180 grados. Cada grado Celsius equivale a 180 ÷ 100 = 1.8 grados Fahrenheit, y el 32 corrige que las escalas no empiezan en el mismo punto."
         ]
       },
       {
         "tipo": "ejemplo",
-        "titulo": "¿Cómo pasar 350 °F a grados Celsius para el horno?",
+        "titulo": "¿Cuántos grados Fahrenheit son 28 °C?",
+        "datos": [
+          [
+            "Temperatura",
+            "28 °C, un día caluroso de verano"
+          ]
+        ],
         "pasos": [
           {
-            "texto": "Resta 32.",
-            "operacion": "350 − 32 = 318"
+            "texto": "Multiplica por 1.8.",
+            "operacion": "28 × 1.8 = 50.4"
           },
           {
-            "texto": "Divide entre 1.8.",
-            "operacion": "318 ÷ 1.8 = 176.7"
+            "texto": "Suma 32.",
+            "operacion": "50.4 + 32 = 82.4 °F"
           },
           {
-            "texto": "Redondea al ajuste de tu horno.",
-            "operacion": "≈ 180 °C"
+            "texto": "Para Kelvin, suma 273.15 a los Celsius.",
+            "operacion": "28 + 273.15 = 301.15 K"
+          },
+          {
+            "texto": "Compara con el atajo mental «el doble más 30».",
+            "operacion": "28 × 2 + 30 = 86 °F, 3.6 °F de más"
           }
         ],
         "resultado": [
-          "350 °F",
-          "176.7 °C"
+          "28 °C",
+          "82.4 °F"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar el convertidor de temperatura",
+        "pasos": [
+          {
+            "titulo": "Elige la escala de partida",
+            "texto": "Pulsa «Desde Celsius», «Desde Fahrenheit» o «Desde Kelvin»."
+          },
+          {
+            "titulo": "Escribe la temperatura",
+            "texto": "Con punto para los decimales y con el signo menos si es bajo cero: −5, 37.5."
+          },
+          {
+            "titulo": "Lee las tres tarjetas",
+            "texto": "Las azules muestran el resultado en las otras escalas; la gris repite el valor que escribiste."
+          },
+          {
+            "titulo": "Cambia de escala sin borrar",
+            "texto": "Si pulsas otra escala de partida, el mismo número se interpreta en la nueva."
+          },
+          {
+            "titulo": "Redondea según el uso",
+            "texto": "Para el clima o un termostato basta con el grado entero; para un laboratorio, conserva los decimales."
+          }
+        ]
+      },
+      {
+        "tipo": "tabla",
+        "titulo": "¿A cuántos °F equivalen las temperaturas en Celsius más habituales?",
+        "cabeceras": [
+          "°C",
+          "°F",
+          "Contexto"
+        ],
+        "filas": [
+          [
+            "−18 °C",
+            "−0.4 °F",
+            "Congelador doméstico"
+          ],
+          [
+            "0 °C",
+            "32 °F",
+            "El agua se congela"
+          ],
+          [
+            "10 °C",
+            "50 °F",
+            "Mañana fresca"
+          ],
+          [
+            "20 °C",
+            "68 °F",
+            "Temperatura de una habitación"
+          ],
+          [
+            "25 °C",
+            "77 °F",
+            "Día agradable"
+          ],
+          [
+            "30 °C",
+            "86 °F",
+            "Calor de verano"
+          ],
+          [
+            "37 °C",
+            "98.6 °F",
+            "Temperatura corporal"
+          ],
+          [
+            "100 °C",
+            "212 °F",
+            "El agua hierve a nivel del mar"
+          ],
+          [
+            "180 °C",
+            "356 °F",
+            "Horno para pasteles"
+          ]
+        ],
+        "destacar": 3
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Qué número pongo en un termostato en °F para tener 22 °C?",
+        "intro": "Los termostatos y aires acondicionados importados de Estados Unidos suelen venir configurados en Fahrenheit y solo aceptan números enteros.",
+        "pasos": [
+          {
+            "texto": "Convierte la temperatura que quieres.",
+            "operacion": "22 × 1.8 + 32 = 71.6 °F"
+          },
+          {
+            "texto": "Redondea al entero que admite el aparato.",
+            "operacion": "72 °F"
+          },
+          {
+            "texto": "Comprueba qué te queda en Celsius.",
+            "operacion": "(72 − 32) ÷ 1.8 = 22.2 °C"
+          }
+        ],
+        "resultado": [
+          "Ajuste del termostato",
+          "72 °F"
+        ]
+      },
+      {
+        "tipo": "mitos",
+        "titulo": "Errores frecuentes al convertir temperaturas",
+        "items": [
+          {
+            "mito": "Multiplicar por 2 y sumar 30 da el resultado exacto.",
+            "realidad": "Es un atajo aproximado que se desvía cuanto más te alejas de 10 °C: con 100 °C da 230 °F en lugar de 212."
+          },
+          {
+            "mito": "Si la temperatura sube 10 °C, sube 50 °F.",
+            "realidad": "Las diferencias solo se multiplican por 1.8, sin sumar 32: una subida de 10 °C es una subida de 18 °F."
+          },
+          {
+            "mito": "Los kelvin se escriben con el signo de grado.",
+            "realidad": "Se escriben sin «°»: 300 K, no 300 °K. Celsius y Fahrenheit sí lo llevan."
+          },
+          {
+            "mito": "Cualquier valor en Kelvin es posible.",
+            "realidad": "Por debajo de 0 K no hay temperaturas. La herramienta no lo bloquea, así que si ves un Kelvin negativo, revisa el dato."
+          }
         ]
       },
       {
         "tipo": "texto",
-        "titulo": "¿Qué países usan grados Fahrenheit?",
+        "titulo": "Dónde se usan hoy los grados Fahrenheit",
         "parrafos": [
-          "Estados Unidos y algunos territorios y países asociados. Por eso aparecen en recetas, termómetros y apps estadounidenses. El resto del mundo usa Celsius, y la ciencia trabaja en Kelvin, que empieza en el cero absoluto. Para otras medidas de recetas, usa las [medidas de cocina](/medidas-de-cocina); y para más unidades, el [convertidor de unidades](/convertidor-unidades) y el atajo de [Fahrenheit a Celsius](/fahrenheit-a-celsius)."
+          "En Estados Unidos y en unos pocos países y territorios, como Belice, las Bahamas o las Islas Caimán. En Puerto Rico, donde se habla español, el pronóstico del tiempo suele darse en Fahrenheit. El resto de los países de habla hispana usa Celsius, y la ciencia trabaja en Kelvin, que empieza en el cero absoluto.",
+          "Para otras medidas de recetas, usa las [medidas de cocina](/medidas-de-cocina); para más unidades, el [convertidor de unidades](/convertidor-unidades), y para ir en sentido contrario, con temperaturas de horno y de fiebre, la página de [Fahrenheit a Celsius](/fahrenheit-a-celsius)."
         ]
       }
     ],
     "faqs": [
       {
-        "question": "¿Cómo convierto grados Celsius a Fahrenheit?",
-        "answer": "Multiplica los grados Celsius por 9/5 (1.8) y suma 32: F = C × 9/5 + 32. Por ejemplo, 20°C equivale a 20 × 1.8 + 32 = 68°F."
+        "question": "¿Cuánto sube en Fahrenheit una subida de 1 °C?",
+        "answer": "1.8 °F. En las diferencias de temperatura no se suma 32: una subida de 5 °C equivale a 9 °F."
       },
       {
         "question": "¿Cómo convierto de Kelvin a Celsius?",
-        "answer": "Resta 273.15 al valor en Kelvin: C = K − 273.15. Por ejemplo, 300 K equivale a 300 − 273.15 = 26.85°C."
+        "answer": "Resta 273.15 al valor en Kelvin. Por ejemplo, 300 K son 300 − 273.15 = 26.85 °C."
       },
       {
         "question": "¿Por qué la escala Kelvin no tiene grados negativos?",
-        "answer": "Porque 0 K representa el cero absoluto, la temperatura teóricamente más baja posible, en la que las partículas tienen el mínimo de energía térmica. Al no poder existir una temperatura por debajo del cero absoluto, la escala Kelvin no utiliza valores negativos."
+        "answer": "Porque empieza en el cero absoluto, la temperatura más baja posible, en la que las partículas tienen la mínima energía térmica."
       },
       {
         "question": "¿Cuál es la temperatura corporal normal en las tres escalas?",
-        "answer": "La temperatura corporal media de una persona es aproximadamente 37°C, que equivale a 98.6°F y a 310.15 K."
+        "answer": "Alrededor de 37 °C, que equivalen a 98.6 °F y a 310.15 K."
       },
       {
-        "question": "¿Es gratis este convertidor de temperatura?",
-        "answer": "Sí, es completamente gratuito, sin límite de conversiones y sin necesidad de registro."
+        "question": "¿Cómo se convierte una temperatura bajo cero?",
+        "answer": "Con la misma fórmula, respetando el signo: −10 °C × 1.8 = −18, y −18 + 32 = 14 °F. Escribe el signo menos en la casilla y la herramienta lo hace sola."
+      },
+      {
+        "question": "¿Por qué mi app del clima muestra Fahrenheit?",
+        "answer": "Porque usa la configuración regional de Estados Unidos. En los ajustes de la app o del teléfono puedes cambiar la unidad a Celsius."
       }
     ],
     "relatedTools": [
@@ -7724,7 +8709,7 @@
     "webApp": true,
     "appCategory": "UtilitiesApplication",
     "intro": "Convierte entre las medidas de cocina más habituales en las recetas: cucharaditas, cucharadas, tazas, mililitros y litros. Muy útil cuando una receta usa medidas de volumen distintas a las que tienes disponibles en tu cocina, como cuando necesitas saber cuántos mililitros tiene una cucharada o cuántos mililitros tiene una taza.",
-    "resumen": "Convierte cucharaditas, cucharadas, tazas, mililitros y litros al instante para seguir cualquier receta sin medidor. Usa las medidas estándar de EE. UU.: cucharadita 5 ml, cucharada 15 ml y taza 240 ml.",
+    "resumen": "Las recetas mezclan tazas, cucharadas y mililitros, y no siempre tienes a mano el medidor que piden. Este convertidor es para quien cocina en casa, hornea, adapta recetas de internet o de libros de otros países: escribes una cantidad en cucharaditas, cucharadas, tazas, mililitros o litros y ves al instante su equivalencia en todas las demás unidades, con las medidas estándar de 5, 15 y 240 ml.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -7733,6 +8718,80 @@
         "ancho": 800,
         "alto": 991,
         "titulo": "¿Qué equivalencias de cocina conviene tener a mano?"
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Cómo hace la conversión la herramienta",
+        "parrafos": [
+          "Cada unidad tiene un valor fijo en mililitros: la cucharadita, 5 ml; la cucharada, 15 ml; la taza, 240 ml, y el litro, 1000 ml. Cuando escribes una cantidad, primero la pasa a mililitros multiplicándola por el valor de su unidad, y después divide ese resultado entre el valor de cada una de las demás.",
+          "Así, 2 cucharadas son 2 × 15 = 30 ml, que equivalen a 30 ÷ 5 = 6 cucharaditas o a 30 ÷ 240 = 0.125 tazas, es decir, un octavo de taza. Todas las conversiones son de volumen: la herramienta no pasa a gramos, porque el peso depende de cada ingrediente."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cuánta leche lleva una receta de 4 raciones si cocinas para 6?",
+        "datos": [
+          [
+            "Receta original",
+            "3/4 de taza de leche para 4 raciones"
+          ],
+          [
+            "Raciones que quieres",
+            "6"
+          ]
+        ],
+        "pasos": [
+          {
+            "texto": "Calcula el factor de escala.",
+            "operacion": "6 ÷ 4 = 1.5"
+          },
+          {
+            "texto": "Multiplica la cantidad original.",
+            "operacion": "0.75 taza × 1.5 = 1.125 tazas"
+          },
+          {
+            "texto": "Escribe 1.125 en la unidad «Taza» y lee los mililitros.",
+            "operacion": "1.125 × 240 = 270 ml"
+          },
+          {
+            "texto": "Pásalo a una medida fácil de usar.",
+            "operacion": "270 ÷ 15 = 18 cucharadas"
+          },
+          {
+            "texto": "O combina medidas: una taza más 2 cucharadas.",
+            "operacion": "240 ml + 30 ml = 270 ml"
+          }
+        ],
+        "resultado": [
+          "Leche para 6 raciones",
+          "270 ml"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar el convertidor de medidas",
+        "pasos": [
+          {
+            "titulo": "Elige la unidad de partida",
+            "texto": "Pulsa Cucharadita, Cucharada, Taza, Mililitros o Litros."
+          },
+          {
+            "titulo": "Escribe la cantidad",
+            "texto": "Con punto para los decimales: media taza es 0.5 y un cuarto, 0.25."
+          },
+          {
+            "titulo": "Lee todas las equivalencias",
+            "texto": "Las tarjetas azules muestran el resultado en las otras unidades; la gris es la que escribiste."
+          },
+          {
+            "titulo": "Cambia de unidad sin borrar",
+            "texto": "Si pulsas otra unidad, el número se interpreta en esa unidad nueva."
+          },
+          {
+            "titulo": "Redondea con sentido",
+            "texto": "En cocina, una diferencia de 2 o 3 ml no cambia el resultado; en repostería conviene ser más exacto."
+          }
+        ]
       },
       {
         "tipo": "tabla",
@@ -7773,7 +8832,7 @@
       },
       {
         "tipo": "mitos",
-        "titulo": "¿Qué errores son los más comunes al medir en la cocina?",
+        "titulo": "Errores comunes al medir ingredientes",
         "items": [
           {
             "mito": "Una cucharada es la cuchara sopera que tengas.",
@@ -7784,39 +8843,81 @@
             "realidad": "Hundir la taza compacta la harina y puede meter hasta un 20 % más. Échala con cuchara y enrasa con un cuchillo."
           },
           {
-            "mito": "Todas las tazas son iguales.",
-            "realidad": "La de EE. UU. tiene 240 ml; la británica y la australiana, 250 ml. En recetas pequeñas apenas importa; en repostería, sí."
+            "mito": "Una cucharada de cualquier ingrediente pesa lo mismo.",
+            "realidad": "Una cucharada de agua pesa 15 g, pero una de harina ronda los 8 g. Para pesar, usa la tabla de gramos o una báscula."
+          },
+          {
+            "mito": "Un vaso es una medida fija.",
+            "realidad": "Los vasos de casa van de unos 200 a más de 300 ml. Si una receta lo usa, mide el tuyo una vez con agua y apunta su capacidad."
           }
         ]
       },
       {
+        "tipo": "tabla",
+        "titulo": "¿Una taza mide lo mismo en todos los países?",
+        "intro": "No del todo. Esta herramienta usa la taza de 240 ml, la más común en recetas en español que siguen el sistema de Estados Unidos.",
+        "cabeceras": [
+          "Origen de la receta",
+          "Taza",
+          "Cucharada"
+        ],
+        "filas": [
+          [
+            "Estados Unidos y muchas recetas latinoamericanas",
+            "240 ml",
+            "15 ml"
+          ],
+          [
+            "Reino Unido, Canadá y Nueva Zelanda (taza métrica)",
+            "250 ml",
+            "15 ml"
+          ],
+          [
+            "Australia",
+            "250 ml",
+            "20 ml"
+          ],
+          [
+            "España",
+            "Se suele pesar en gramos o usar el «vaso»",
+            "15 ml (cucharada sopera)"
+          ]
+        ],
+        "nota": "Con una receta australiana, cuenta cada cucharada como 20 ml: 2 cucharadas son 40 ml, no 30. En una taza, la diferencia de 10 ml rara vez cambia el resultado salvo en repostería."
+      },
+      {
         "tipo": "texto",
-        "titulo": "¿Cómo adaptar una receta a más o menos raciones?",
+        "titulo": "Adaptar una receta a más o menos raciones",
         "parrafos": [
-          "Multiplica todas las cantidades por el mismo factor: para pasar de 4 a 6 raciones, por 1.5. Si te quedan cantidades raras, conviértelas aquí a una medida más cómoda (6 cucharadas son 3/8 de taza) o usa la [regla de tres](/calculadora-regla-de-tres). Para hornos en grados Fahrenheit, pásalos con [Celsius a Fahrenheit](/celsius-a-fahrenheit), y para fracciones de taza, el [convertidor de fracciones](/convertidor-fracciones)."
+          "Multiplica todas las cantidades por el mismo factor: para pasar de 4 a 6 raciones, por 1.5. Si te quedan cantidades raras, conviértelas aquí a una medida más cómoda (6 cucharadas son 3/8 de taza) o usa la [regla de tres](/calculadora-regla-de-tres). Para hornos en grados Fahrenheit, pásalos con [Celsius a Fahrenheit](/celsius-a-fahrenheit), y para fracciones de taza, el [convertidor de fracciones](/convertidor-fracciones).",
+          "Si la receta da los pesos en onzas, conviértelos con [onzas a gramos](/onzas-a-gramos). Los tiempos de horneado no se multiplican: un molde más grande necesita más tiempo, pero no en la misma proporción."
         ]
       }
     ],
     "faqs": [
       {
         "question": "¿Cuántos mililitros tiene una cucharada?",
-        "answer": "Una cucharada estándar equivale a 15 mililitros (ml), lo mismo que 3 cucharaditas."
+        "answer": "15 ml, lo mismo que 3 cucharaditas. En recetas australianas, la cucharada es de 20 ml."
       },
       {
         "question": "¿Cuántos ml tiene una taza?",
-        "answer": "Una taza estándar de cocina equivale a 240 mililitros (ml). Algunas recetas europeas usan una taza de 250 ml, una diferencia pequeña que rara vez afecta el resultado de la receta."
+        "answer": "240 ml en la medida que usa esta herramienta. Las recetas británicas y australianas suelen usar una taza de 250 ml."
       },
       {
         "question": "¿Cuántas cucharaditas hay en una cucharada?",
-        "answer": "Hay 3 cucharaditas en una cucharada, ya que una cucharadita equivale a 5 ml y una cucharada a 15 ml."
+        "answer": "Tres, porque una cucharadita tiene 5 ml y una cucharada, 15 ml."
       },
       {
         "question": "¿Cuántas cucharadas hay en una taza?",
-        "answer": "Hay 16 cucharadas en una taza (240 ml ÷ 15 ml), o 48 cucharaditas en una taza."
+        "answer": "Dieciséis: 240 ml ÷ 15 ml. En cucharaditas son 48."
       },
       {
-        "question": "¿Es gratis este convertidor de medidas de cocina?",
-        "answer": "Sí, es completamente gratuito, sin límite de conversiones y sin necesidad de registro."
+        "question": "¿Puedo convertir gramos a tazas con esta herramienta?",
+        "answer": "No. Solo convierte volumen. Para pasar de peso a volumen usa la tabla de gramos de esta página, que da valores aproximados por ingrediente."
+      },
+      {
+        "question": "¿Cuánto es media taza en cucharadas?",
+        "answer": "Ocho cucharadas: 0.5 × 240 = 120 ml, y 120 ÷ 15 = 8."
       }
     ],
     "relatedTools": [
@@ -21945,11 +23046,11 @@
     "shortName": "Tablas de multiplicar",
     "category": "generadores",
     "metaTitle": "Tablas de Multiplicar del 1 al 20 | Imprimir y Practicar",
-    "metaDescription": "Genera las tablas de multiplicar del 1 al 20 para imprimir y practica con un juego de preguntas que cuenta tus aciertos. Ideal para niños, padres y maestros.",
+    "metaDescription": "Tablas de multiplicar del 1 al 20 para ver e imprimir, y un juego de práctica con preguntas al azar que cuenta tus aciertos. Para niños, padres y maestros.",
     "webApp": true,
     "appCategory": "EducationApplication",
     "intro": "Aprender las tablas de multiplicar es más fácil cuando se ven, se repasan y se practican. Con esta herramienta eliges las tablas que quieres, del 1 al 20, y hasta qué número multiplicar. Puedes imprimirlas en una hoja limpia o practicar con un modo de preguntas al azar que cuenta los aciertos. Está pensada para niños de primaria, para padres que ayudan con la tarea y para maestros que preparan material de clase.",
-    "resumen": "Tablas de multiplicar del 1 al 20 para ver e imprimir, y un modo de práctica con preguntas al azar y marcador de aciertos. Elige qué tablas repasar y hasta qué número multiplicar.",
+    "resumen": "Saberse las tablas de multiplicar hace más fácil todo lo que viene después: divisiones, fracciones, porcentajes y cálculo mental. Esta herramienta es para niños que las están aprendiendo, para padres que ayudan con la tarea y para maestros que preparan material: muestra las tablas del 1 al 20 listas para imprimir y tiene un modo de práctica con preguntas al azar y un marcador de aciertos, para pasar de recitar en orden a saberlas de verdad.",
     "bloques": [
       {
         "tipo": "infografia",
@@ -21958,6 +23059,71 @@
         "ancho": 800,
         "alto": 744,
         "titulo": "¿Cuántas multiplicaciones hay que memorizar en realidad?"
+      },
+      {
+        "tipo": "texto",
+        "titulo": "Cómo arma la herramienta las tablas y las preguntas",
+        "parrafos": [
+          "En el modo «Ver e imprimir», cada tabla elegida se escribe como una lista: el número por 1, por 2 y así hasta el límite que marques (10, 12, 15 o 20). Por defecto vienen elegidas las tablas del 2 al 5, y puedes activar o quitar cualquiera del 1 al 20 con un toque.",
+          "En el modo «Practicar», cada pregunta toma al azar una de las tablas elegidas y un multiplicador entre 1 y el límite. Al comprobar, la herramienta compara tu respuesta con el producto, te dice si acertaste o cuál era el resultado y suma un punto a «correctas» o a «por repasar». El porcentaje de aciertos es correctas ÷ total × 100, redondeado."
+        ]
+      },
+      {
+        "tipo": "ejemplo",
+        "titulo": "¿Cómo se saca 8 × 7 si no lo recuerdas?",
+        "intro": "Las tablas difíciles se pueden reconstruir con las fáciles. Así se resuelve una de las que más cuestan:",
+        "pasos": [
+          {
+            "texto": "Parte el 7 en dos números cuyas tablas ya conoces.",
+            "operacion": "7 = 5 + 2"
+          },
+          {
+            "texto": "Multiplica cada parte por 8.",
+            "operacion": "8 × 5 = 40 · 8 × 2 = 16"
+          },
+          {
+            "texto": "Suma los dos resultados.",
+            "operacion": "40 + 16 = 56"
+          },
+          {
+            "texto": "Comprueba al revés: el orden no cambia el producto.",
+            "operacion": "7 × 8 = 56"
+          },
+          {
+            "texto": "Con el mismo método sale una de la tabla del 12.",
+            "operacion": "12 × 7 = 10 × 7 + 2 × 7 = 70 + 14 = 84"
+          }
+        ],
+        "resultado": [
+          "8 × 7",
+          "56"
+        ]
+      },
+      {
+        "tipo": "pasos",
+        "titulo": "Cómo usar los dos modos de la herramienta",
+        "pasos": [
+          {
+            "titulo": "Elige las tablas",
+            "texto": "Toca los números del 1 al 20 que quieras repasar; los activos se ven resaltados."
+          },
+          {
+            "titulo": "Marca hasta dónde multiplicar",
+            "texto": "Hasta ×10 para lo básico, ×12 para docenas y horas, o ×15 y ×20 como reto."
+          },
+          {
+            "titulo": "Imprime si lo necesitas",
+            "texto": "En «Ver e imprimir» pulsa «Imprimir tablas»; desde la ventana de impresión también puedes guardar un PDF."
+          },
+          {
+            "titulo": "Practica",
+            "texto": "Cambia a «Practicar», pulsa «Empezar a practicar», escribe el resultado y pulsa «Comprobar» o Enter."
+          },
+          {
+            "titulo": "Revisa el marcador",
+            "texto": "Debajo verás las correctas, las que hay que repasar y el porcentaje de aciertos de la sesión."
+          }
+        ]
       },
       {
         "tipo": "tabla",
@@ -22002,7 +23168,7 @@
       },
       {
         "tipo": "consejos",
-        "titulo": "¿Cómo practicar las tablas sin que se vuelva aburrido?",
+        "titulo": "Ideas para practicar sin que se vuelva aburrido",
         "items": [
           {
             "titulo": "Poco y a diario",
@@ -22023,10 +23189,33 @@
         ]
       },
       {
+        "tipo": "mitos",
+        "titulo": "Errores frecuentes al aprender a multiplicar",
+        "items": [
+          {
+            "mito": "Hay que memorizar 100 resultados de golpe.",
+            "realidad": "Como 7 × 8 es lo mismo que 8 × 7, la mitad se repite, y las tablas del 1 y del 10 salen solas. Lo que de verdad hay que memorizar son unas pocas decenas."
+          },
+          {
+            "mito": "Recitar la tabla en orden es saberla.",
+            "realidad": "Recitar «siete por uno, siete por dos» obliga a empezar desde arriba. Las preguntas al azar del modo práctica comprueban si el resultado sale directo."
+          },
+          {
+            "mito": "Un número multiplicado por 0 da el mismo número.",
+            "realidad": "Cualquier número por 0 da 0. El que deja el número igual es el 1: 9 × 1 = 9."
+          },
+          {
+            "mito": "Un buen porcentaje en una sesión basta.",
+            "realidad": "Lo que se aprende hoy se olvida si no se repasa. Vuelve a practicar las mismas tablas al día siguiente y unos días después."
+          }
+        ]
+      },
+      {
         "tipo": "texto",
         "titulo": "¿Qué sigue después de dominar las tablas?",
         "parrafos": [
-          "Practicar operaciones combinadas y cálculo rápido. Prueba los ejercicios de [cálculo mental](/calculo-mental) y la [calculadora de operaciones combinadas](/calculadora-calculos-combinados), que muestra el orden en que se resuelve cada paso."
+          "Practicar operaciones combinadas y cálculo rápido. Prueba los ejercicios de [cálculo mental](/calculo-mental) y la [calculadora de operaciones combinadas](/calculadora-calculos-combinados), que muestra el orden en que se resuelve cada paso.",
+          "Para ver una multiplicación larga resuelta con el procedimiento escrito, usa la [Calculadora de Alicia](/calculadora-alicia), y para el máximo común divisor y el mínimo común múltiplo, la [calculadora de MCD y MCM](/calculadora-mcd-mcm)."
         ]
       }
     ],
@@ -22037,11 +23226,11 @@
       },
       {
         "question": "¿A qué edad se aprenden las tablas?",
-        "answer": "En México suelen introducirse en segundo grado de primaria y consolidarse en tercero, entre los 7 y 9 años."
+        "answer": "En México suelen introducirse en segundo grado de primaria y consolidarse en tercero, entre los 7 y los 9 años."
       },
       {
         "question": "¿Cuál es la tabla más difícil?",
-        "answer": "Muchos niños encuentran difíciles la del 7 y la del 8, en especial 7 × 8 = 56 y 6 × 8 = 48. Repásalas con más frecuencia."
+        "answer": "A muchos niños les cuestan más la del 7 y la del 8, sobre todo 7 × 8 = 56 y 6 × 8 = 48. Conviene repasarlas con más frecuencia."
       },
       {
         "question": "¿Se guardan los resultados de la práctica?",
@@ -22053,7 +23242,7 @@
       },
       {
         "question": "¿Hasta qué número conviene aprender?",
-        "answer": "Lo básico es del 1 al 10. Aprender hasta el 12 ayuda en cálculos de docenas y horas, y las tablas hasta el 20 son un buen reto para cálculo mental."
+        "answer": "Lo básico es del 1 al 10. Hasta el 12 ayuda con docenas y horas, y hasta el 20 es un buen reto para el cálculo mental."
       }
     ],
     "relatedTools": [
@@ -26696,7 +27885,8 @@
         "tipo": "texto",
         "titulo": "¿Qué hacer después del finiquito?",
         "parrafos": [
-          "Calcula tu nuevo sueldo con la [calculadora de sueldo líquido](/sueldo-liquido-chile) y convierte los montos en UF con el conversor de [UF a pesos](/uf-a-pesos). Si vas a cobrar el seguro de cesantía, consulta en la AFC."
+          "Calcula tu nuevo sueldo con la [calculadora de sueldo líquido](/sueldo-liquido-chile) y convierte los montos en UF con el conversor de [UF a pesos](/uf-a-pesos). Si vas a cobrar el seguro de cesantía, consulta en la AFC.",
+          "¿Trabajas en España? Usa la [calculadora de finiquito de España](/calculadora-finiquito), con las reglas del Estatuto de los Trabajadores."
         ]
       },
       {
